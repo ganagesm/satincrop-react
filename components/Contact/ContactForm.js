@@ -6,7 +6,6 @@ const MySwal = withReactContent(Swal);
 import baseUrl from "../../utils/baseUrl";
 
 // const sendGridMail = require('@sendgrid/mail');
-// sendGridMail.setApiKey('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');
 
 const alertContent = () => {
   MySwal.fire({
