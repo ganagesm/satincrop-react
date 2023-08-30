@@ -48,17 +48,17 @@ const Navbar = () => {
             <nav className="navbar navbar-expand-md navbar-light">
               <Link href="/" className="navbar-brand">
                 <img
-                  src="/images/white-triosource.png"
+                  src="/images/sa-logo.svg"
                   className="main-logo"
                   alt="logo"
-                  width={200}
+                  width={80}
                 />
                 <img
-                  src="/images/white-triosource.png"
+                  src="/images/sa-logo.svg"
                   className="optional-logo"
                   alt="logo"
                   height={30}
-                  width={200}
+                  width={80}
                 />
               </Link>
 
@@ -249,7 +249,7 @@ const Navbar = () => {
                           className={`nav-link ${currentPath == "/kubernetes" && "active"
                             }`}
                         >
-                          Kubernetes
+                          Microsoft
                         </Link>
                       </li>
 
@@ -259,7 +259,7 @@ const Navbar = () => {
                           className={`nav-link ${currentPath == "/react" && "active"
                             }`}
                         >
-                          React
+                          Google
                         </Link>
                       </li>
 
@@ -269,7 +269,7 @@ const Navbar = () => {
                           className={`nav-link ${currentPath == "/net" && "active"
                             }`}
                         >
-                          .NET
+                          Oracle
                         </Link>
                       </li>
 
@@ -279,7 +279,7 @@ const Navbar = () => {
                           className={`nav-link ${currentPath == "/python" && "active"
                             }`}
                         >
-                          Python
+                          AWS
                         </Link>
                       </li>
 
@@ -289,7 +289,7 @@ const Navbar = () => {
                           className={`nav-link ${currentPath == "/c-sharp" && "active"
                             }`}
                         >
-                          C#
+                          Salesforce
                         </Link>
                       </li>
 
@@ -299,27 +299,7 @@ const Navbar = () => {
                           className={`nav-link ${currentPath == "/rails" && "active"
                             }`}
                         >
-                          Rails
-                        </Link>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link
-                          href="/angular"
-                          className={`nav-link ${currentPath == "/angular" && "active"
-                            }`}
-                        >
-                          Angular
-                        </Link>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link
-                          href="/android"
-                          className={`nav-link ${currentPath == "/android" && "active"
-                            }`}
-                        >
-                          Android
+                          Service Now
                         </Link>
                       </li>
                     </ul>
@@ -330,8 +310,48 @@ const Navbar = () => {
                       className={`nav-link ${currentPath == "/case-studies" && "active"
                         }`}
                     >
-                      Case Studies
+                      Talent Solutions
                     </Link>
+                    <ul className="dropdown-menu">
+                      <li className="nav-item">
+                        <Link
+                          href="/nearshore"
+                          className={`nav-link ${currentPath == "/nearshore" && "active"
+                            }`}
+                        >
+                         Contingent Workforce
+                        </Link>
+                      </li>
+
+                      <li className="nav-item">
+                        <Link
+                          href="/offshore"
+                          className={`nav-link ${currentPath == "/offshore" && "active"
+                            }`}
+                        >
+                          RPO Services
+                        </Link>
+                      </li>
+
+                      <li className="nav-item">
+                        <Link
+                          href="/onsite"
+                          className={`nav-link ${currentPath == "/onsite" && "active"
+                            }`}
+                        >
+                          Hire Train Deploy 
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link
+                          href="/onsite"
+                          className={`nav-link ${currentPath == "/onsite" && "active"
+                            }`}
+                        >
+                         Payroll Outsourcing Services
+                        </Link>
+                      </li>
+                    </ul>
                   </li>
                   <li className="nav-item">
                     <Link
@@ -339,7 +359,7 @@ const Navbar = () => {
                       className={`nav-link ${currentPath == "/about" && "active"
                         }`}
                     >
-                      About Us
+                     Internal Audit
                     </Link>
                   </li>
                 </ul>

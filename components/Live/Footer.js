@@ -3,29 +3,6 @@ import { Helmet } from "react-helmet";
 import Link from "next/link";
 
 const Footer = () => {
-
-  // useEffect(() => {
-  //   const script = document.createElement("script")
-
-  //   script.src =
-  //     "https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-
-  //   script.async = true
-
-  //   script.integrity =
-  //     "sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-
-  //   script.crossOrigin = "anonymous"
-
-  //   document.body.appendChild(script)
-
-  //   return () => {
-  //     // clean up the script when the component in unmounted
-  //     document.body.removeChild(script)
-  //   }
-  // }, [])
-
-
   //Zoho Sales Iq Script:
   const useScript = (url, widgetCode) => {
     useEffect(() => {
@@ -59,23 +36,18 @@ const Footer = () => {
                 <div className="logo">
                   <Link href="/">
                     <img
-                      src="/images/white-triosource.png"
+                      src="/images/f_sa-logo.svg"
                       alt="triosource logo"
-                      width={200}
+                      width={60}
                     />
                   </Link>
-                  <p>
-                    Trisource is a technology consulting and outsourcing
-                    company. Nearshore, Offshore, onsite. Hire technology talent
-                    anywhere or let our experts use bleeding edge tech to unlock
-                    business value for you.
-                  </p>
+                  <p> SA Technologies Inc is a California based IT Consulting & Offshore Company headquartered at Santa Monica with offices in US, Canada, Singapore & India.</p>
                 </div>
 
                 <ul className="social">
                   <li>
                     <a
-                      href="https://www.linkedin.com/company/triosource/"
+                      href="https://www.linkedin.com/company/sa-technologies-inc-/"
                       target="_blank"
                     >
                       <svg
@@ -90,12 +62,12 @@ const Footer = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.facebook.com/TrioSource/" target="_blank" rel="noreferrer">
+                    <a href="https://www.facebook.com/satincorp" target="_blank" rel="noreferrer">
                       <i className="fab fa-facebook-f"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="https://twitter.com/TrioSource" target="_blank" rel="noreferrer">
+                    <a href="https://twitter.com/SatechGlobal" target="_blank" rel="noreferrer">
                       <i className="fab fa-twitter"></i>
                     </a>
                   </li>
@@ -110,17 +82,23 @@ const Footer = () => {
                 data-aos-duration="1200"
                 data-aos-delay="200"
               >
-                <h3>Engagement Models</h3>
+                <h3>Quick Links</h3>
 
                 <ul className="footer-services-list">
                   <li>
-                    <Link href="/nearshore">Nearshoring</Link>
+                    <Link href="/nearshore">News</Link>
                   </li>
                   <li>
-                    <Link href="/offshore">Offshoring</Link>
+                    <Link href="/offshore">Blog</Link>
                   </li>
                   <li>
-                    <Link href="/onsite">Onsite Hiring</Link>
+                    <Link href="/onsite">Careers</Link>
+                  </li>
+                  <li>
+                    <Link href="/onsite">Contact Us</Link>
+                  </li>
+                  <li>
+                    <Link href="/onsite">About Us</Link>
                   </li>
                 </ul>
               </div>
@@ -133,26 +111,26 @@ const Footer = () => {
                 data-aos-duration="1200"
                 data-aos-delay="300"
               >
-                <h3>Quick Links</h3>
+                <h3>Technologies</h3>
 
                 <ul className="quick-links-list">
                   <li>
-                    <Link href="/about">About Us</Link>
-                  </li>
-                  {/* <li>
-                    {" "}
-                    <Link href="/technologies">Technologies</Link>{" "}
-                  </li> */}
-                  <li>
-                    <Link href="/generativeAi/">
-                      Generative Ai
-                    </Link>
+                    <Link href="/generativeAi/">  Microsoft </Link>
                   </li>
                   <li>
-                    <Link href="/case-studies/">Case Studies </Link>
+                    <Link href="/about">Google</Link>
                   </li>
                   <li>
-                    <Link href="/blog/">Blog</Link>
+                    <Link href="/case-studies/">Oracle</Link>
+                  </li>
+                  <li>
+                    <Link href="/blog/">AWS</Link>
+                  </li>
+                  <li>
+                    <Link href="/blog/">Salesforce</Link>
+                  </li>
+                  <li>
+                    <Link href="/blog/">Service Now</Link>
                   </li>
                 </ul>
               </div>
@@ -170,13 +148,16 @@ const Footer = () => {
                 <ul className="footer-contact-list">
                   <li>
                     <span>Address:</span>
-                    3031 Tisch Way, 110 Plaza West <br /> San Jose, CA
+                    3031 Tisch Way, 110 Plaza West, <br /> San Jose, CA 95128
                   </li>
                   <li>
-                    <span>Email:</span> <a href="mailto:hello@triosource.com">hello@triosource.com</a>
+                    <span>Email:</span> <a href="mailto:sales@satincorp.com">sales@satincorp.com</a>
                   </li>
                   <li>
-                    <span>Phone:</span> <a href="tel:(408)4007043">(408) 400-7043</a>
+                    <span>Phone:</span> <a href="tel:+917823025808">India : +91-7823025808</a>
+                  </li>
+                  <li>
+                    <span>Phone:</span> <a href="tel:(408) 495-5822">US : (408) 495-5822</a>
                   </li>
                 </ul>
               </div>
@@ -188,10 +169,7 @@ const Footer = () => {
           <div className="container">
             <div className="row align-items-center">
               <div className="col-lg-6 col-md-6 col-sm-6">
-                <p>
-                  @ Copyright &copy;{currentYear} Triosource. All Rights
-                  Reserved .
-                </p>
+                <p> Copyright &copy;{currentYear} SA Technologies. All Rights Reserved. </p>
               </div>
 
               <div className="col-lg-6 col-md-6 col-sm-6">
@@ -220,12 +198,8 @@ const Footer = () => {
       </footer>
 
       <React.Fragment>
-        {useScript('https://salesiq.zoho.in/widget', 'siqed6b1d489c04455fb0ed606f0cf924d5fc10486201b13b1557662d1e9206aa3c')}
+        {useScript('https://salesiq.zoho.in/widget', 'siqf0be5ba9aefe176393dfbe591c77fef43f5283d3b627b4cd0b623da1760ed2e4117e8194377283a5ded1bc7509f07a7f')}
       </React.Fragment>
-
-      <Helmet>
-        {/* <script type="text/javascript" id="zsiqchat">var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode: "siqed6b1d489c04455fb0ed606f0cf924d5fc10486201b13b1557662d1e9206aa3c", values:{},ready:function(){}};var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;s.src="https://salesiq.zoho.in/widget";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);</script> */}
-      </Helmet>
     </>
   );
 };
