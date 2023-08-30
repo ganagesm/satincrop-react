@@ -82,105 +82,122 @@ const Navbar = () => {
                   <li className="nav-item">
                     <Link
                       href="#"
-                      className={`nav-link ${
-                        currentPath == "/generativeAi" || currentPath === "/mobile-app-development" ||  currentPath === "/frontend-development" || currentPath === "/back-end-development-service" || currentPath === "/ai-driven-iot" || currentPath === "/ai-machine-learning-services" || currentPath === "/data-science" || currentPath === "/cloud-infrastructure-services" ? "active"
-                        : ""
-                      }`}
+                      className={`nav-link ${currentPath == "/generativeAi" || currentPath === "/mobile-app-development" || currentPath === "/frontend-development" || currentPath === "/back-end-development-service" || currentPath === "/ai-driven-iot" || currentPath === "/ai-machine-learning-services" || currentPath === "/data-science" || currentPath === "/cloud-infrastructure-services" ? "active"
+                          : ""
+                        }`}
                     >
-                      AI First
+                      AI Services
                     </Link>
                     <ul className="dropdown-menu">
                       <li className="nav-item">
                         <Link
                           href="/generativeAi"
-                          className={`nav-link ${
-                            currentPath == "/generativeAi" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/generativeAi" && "active"
+                            }`}
                         >
-                         Generative Ai
+                          Generative AI
                         </Link>
                       </li>
                       <li className="nav-item">
                         <Link
                           href="/mobile-app-development"
-                          className={`nav-link ${
-                            currentPath == "/mobile-app-development" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/mobile-app-development" && "active"
+                            }`}
                         >
-                          Mobile Development
+                          Machine Learning
                         </Link>
                       </li>
                       <li className="nav-item">
                         <Link
                           href="/frontend-development"
-                          className={`nav-link ${
-                            currentPath == "/frontend-development" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/frontend-development" && "active"
+                            }`}
                         >
-                       Frontend Development
+                          IOT (Internet of Things)
                         </Link>
                       </li>
                       <li className="nav-item">
                         <Link
                           href="/back-end-development-service"
-                          className={`nav-link ${
-                            currentPath == "/back-end-development-service" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/back-end-development-service" && "active"
+                            }`}
                         >
-                        Back-end Development
+                          Data Science & Analytics
                         </Link>
                       </li>
                       <li className="nav-item">
                         <Link
                           href="/ai-driven-iot"
-                          className={`nav-link ${
-                            currentPath == "/ai-driven-iot" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/ai-driven-iot" && "active"
+                            }`}
                         >
-                       IoT And App Development
+                          RPA
                         </Link>
                       </li>
                       <li className="nav-item">
                         <Link
                           href="/ai-machine-learning-services"
-                          className={`nav-link ${
-                            currentPath == "/ai-machine-learning-services" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/ai-machine-learning-services" && "active"
+                            }`}
                         >
-                          AI Machine Learning
+                          Cloud Services
                         </Link>
                       </li>
-                      
+
                       <li className="nav-item">
                         <Link
                           href="/data-science"
-                          className={`nav-link ${
-                            currentPath == "/data-science" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/data-science" && "active"
+                            }`}
                         >
-                       Data Science
+                          DevOps
                         </Link>
                       </li>
                       <li className="nav-item">
                         <Link
                           href="/cloud-infrastructure-services"
-                          className={`nav-link ${
-                            currentPath == "/cloud-infrastructure-services" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/cloud-infrastructure-services" && "active"
+                            }`}
                         >
-                       Cloud Infrastructure
+                          UI & UX Design
                         </Link>
                       </li>
-                      
+                      <li className="nav-item">
+                        <Link
+                          href="/cloud-infrastructure-services"
+                          className={`nav-link ${currentPath == "/cloud-infrastructure-services" && "active"
+                            }`}
+                        >
+                          Software Application development
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link
+                          href="/cloud-infrastructure-services"
+                          className={`nav-link ${currentPath == "/cloud-infrastructure-services" && "active"
+                            }`}
+                        >
+                          Mobile App Development
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link
+                          href="/cloud-infrastructure-services"
+                          className={`nav-link ${currentPath == "/cloud-infrastructure-services" && "active"
+                            }`}
+                        >
+                          Software Quality Assurance
+                        </Link>
+                      </li>
+
                     </ul>
                   </li>
                   <li className="nav-item">
                     <Link
                       href="#"
-                      className={`nav-link ${
-                        currentPath == "/nearshore" || currentPath === "/offshore" ||  currentPath === "/onsite" ? "active"
-                        : ""
-                      }`}
+                      className={`nav-link ${currentPath == "/nearshore" || currentPath === "/offshore" || currentPath === "/onsite" ? "active"
+                          : ""
+                        }`}
                     >
                       Engagement Models
                     </Link>
@@ -188,9 +205,8 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/nearshore"
-                          className={`nav-link ${
-                            currentPath == "/nearshore" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/nearshore" && "active"
+                            }`}
                         >
                           Nearshore
                         </Link>
@@ -199,9 +215,8 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/offshore"
-                          className={`nav-link ${
-                            currentPath == "/offshore" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/offshore" && "active"
+                            }`}
                         >
                           Offshore
                         </Link>
@@ -210,9 +225,8 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/onsite"
-                          className={`nav-link ${
-                            currentPath == "/onsite" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/onsite" && "active"
+                            }`}
                         >
                           Onsite
                         </Link>
@@ -222,10 +236,9 @@ const Navbar = () => {
                   <li className="nav-item">
                     <Link
                       href=""
-                      className={`nav-link ${
-                        currentPath == "/kubernetes" || currentPath === "/react" ||  currentPath === "/net" || currentPath === "/python" || currentPath === "/c-sharp" || currentPath === "/rails" || currentPath === "/angular" || currentPath === "/android" ? "active"
-                        : ""
-                      }`}
+                      className={`nav-link ${currentPath == "/kubernetes" || currentPath === "/react" || currentPath === "/net" || currentPath === "/python" || currentPath === "/c-sharp" || currentPath === "/rails" || currentPath === "/angular" || currentPath === "/android" ? "active"
+                          : ""
+                        }`}
                     >
                       Technologies
                     </Link>
@@ -233,9 +246,8 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/kubernetes"
-                          className={`nav-link ${
-                            currentPath == "/kubernetes" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/kubernetes" && "active"
+                            }`}
                         >
                           Kubernetes
                         </Link>
@@ -244,9 +256,8 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/react"
-                          className={`nav-link ${
-                            currentPath == "/react" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/react" && "active"
+                            }`}
                         >
                           React
                         </Link>
@@ -255,9 +266,8 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/net"
-                          className={`nav-link ${
-                            currentPath == "/net" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/net" && "active"
+                            }`}
                         >
                           .NET
                         </Link>
@@ -266,9 +276,8 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/python"
-                          className={`nav-link ${
-                            currentPath == "/python" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/python" && "active"
+                            }`}
                         >
                           Python
                         </Link>
@@ -277,9 +286,8 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/c-sharp"
-                          className={`nav-link ${
-                            currentPath == "/c-sharp" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/c-sharp" && "active"
+                            }`}
                         >
                           C#
                         </Link>
@@ -288,9 +296,8 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/rails"
-                          className={`nav-link ${
-                            currentPath == "/rails" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/rails" && "active"
+                            }`}
                         >
                           Rails
                         </Link>
@@ -299,9 +306,8 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/angular"
-                          className={`nav-link ${
-                            currentPath == "/angular" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/angular" && "active"
+                            }`}
                         >
                           Angular
                         </Link>
@@ -310,9 +316,8 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/android"
-                          className={`nav-link ${
-                            currentPath == "/android" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/android" && "active"
+                            }`}
                         >
                           Android
                         </Link>
@@ -322,29 +327,17 @@ const Navbar = () => {
                   <li className="nav-item">
                     <Link
                       href="/case-studies"
-                      className={`nav-link ${
-                        currentPath == "/case-studies" && "active"
-                      }`}
+                      className={`nav-link ${currentPath == "/case-studies" && "active"
+                        }`}
                     >
                       Case Studies
                     </Link>
                   </li>
-                  {/* <li className="nav-item">
-                    <Link
-                      href="/team"
-                      className={`nav-link ${
-                        currentPath == "/team/" && "active"
-                      }`}
-                    >
-                      Team
-                    </Link>
-                  </li> */}
                   <li className="nav-item">
                     <Link
                       href="/about"
-                      className={`nav-link ${
-                        currentPath == "/about" && "active"
-                      }`}
+                      className={`nav-link ${currentPath == "/about" && "active"
+                        }`}
                     >
                       About Us
                     </Link>
@@ -376,9 +369,8 @@ const Navbar = () => {
 
       {/* Search Form */}
       <div
-        className={`search-overlay ${
-          isActiveSearchModal ? "" : "search-overlay-active"
-        }`}
+        className={`search-overlay ${isActiveSearchModal ? "" : "search-overlay-active"
+          }`}
       >
         <div className="d-table">
           <div className="d-table-cell">
