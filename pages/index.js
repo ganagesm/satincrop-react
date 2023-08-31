@@ -13,22 +13,22 @@ import MainServices from "../components/Live/MainServices";
 
 
 const Index = () => {
-	return (
-		<>
-			<Navbar />
-			<HeroBanner />
-			<AboutContact />
-			<PartnerContent />
-			<Services />
-			<MainServices />
-			<FunFacts />
-			<Testimonials />
-			<TechSlider />
-			<BlogPostSlider />
-			<CaseStudiesPost />
-			<Footer />
+  return (
+    <>
+      <Navbar />
+      <HeroBanner />
+      <AboutContact />
+      <PartnerContent />
+      <Services />
+      <MainServices />
+      <FunFacts />
+      <Testimonials />
+      <TechSlider />
+      <BlogPostSlider />
+      <CaseStudiesPost />
+      <Footer />
 
-		</>
-	)
+    </>
+  )
 }
 export default Index;

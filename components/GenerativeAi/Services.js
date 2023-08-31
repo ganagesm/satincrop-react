@@ -7,91 +7,97 @@ const Services = () => {
       <section className="services-area bg-f2f6f9 ptb-110">
         <div className="container">
           <div className="section-title">
-            <h2>Generative AI can be used in various ways to</h2>
-            <h4>create content and enhance services.</h4>
+            <h2>Transform the future with our Generative AI Services</h2>
             <p>It's important to note that while generative AI can automate and enhance content creation and services, human oversight and intervention are still essential to ensure quality, ethical considerations, and adherence to desired outcomes.</p>
           </div>
 
           <div className="row">
             <div className="col-lg-4 col-sm-6">
               <div className="single-services-box">
-                <h2>Text Generation
+                <h2>Automated Code Generation
+
                 </h2>
-                <p>Generative AI models can be employed to generate creative written content, such as stories, poems, articles, and product descriptions. This can be useful for content creation in marketing, journalism, and entertainment industries.</p>
+                <p>AI-powered automated code generation tools can swiftly produce basic code snippets based on user inputs, significantly minimizing the time and effort typically required for such routine coding tasks.
+                </p>
               </div>
             </div>
 
             <div className="col-lg-4 col-sm-6">
               <div className="single-services-box">
-                <h2>Image Generation
+                <h2>Bug Detection and Resolution
+
                 </h2>
-                <p>AI models like GANs (Generative Adversarial Networks) can generate realistic images, enabling applications such as art creation, graphic design, and virtual world development. These models can also be used to enhance and modify existing images.</p>
+                <p>AI examines vast codebases, identifying potential bugs, vulnerabilities, and issues. By suggesting solutions, it considerably reduces debugging time and ensures more stable software outcomes.
+                </p>
               </div>
             </div>
 
             <div className="col-lg-4 col-sm-6">
               <div className="single-services-box">
                 <h2>
-                Music Composition
+                  Enhanced Testing
+
 
                 </h2>
-                <p>Generative AI models can create original musical compositions, generate melodies, harmonies, and even imitate the style of a particular composer or genre. This can be valuable for musicians, film composers, and video game developers.</p>
+                <p>AI can automate testing, including unit tests, integration tests, and end-to-end testing. Machine learning algorithms can even be learned from past tests to become more efficient and comprehensive.
+                </p>
               </div>
             </div>
           </div>
 
           <div className="row">
             <div className="col-lg-4 col-sm-6">
-              <div className="single-services-box" style={{height:"275px"}}>
-                <h2>Video Editing
+              <div className="single-services-box" style={{ height: "275px" }}>
+                <h2>Project Management
+
                 </h2>
-                <p>AI-powered video editing tools can automate and enhance the editing process. These tools can generate video transitions, remove unwanted elements, apply filters, and even create entirely new scenes or visual effects.</p>
+                <p>AI enhances project management by predicting timelines from past projects, monitoring ongoing progress, and pinpointing potential roadblocks, ensuring more precise planning and streamlined management.
+                </p>
               </div>
             </div>
 
             <div className="col-lg-4 col-sm-6">
               <div className="single-services-box">
-                <h2>Chatbots and Virtual Assistants
+                <h2>Intelligent Programming Assistants
+
 
                 </h2>
-                <p>Generative AI can power conversational agents like chatbots and virtual assistants, enabling them to understand and respond to user queries or provide personalized assistance in various domains, such as customer support or information retrieval.</p>
+                <p>We develop intelligent AI-driven chatbots offering 24/7 support, enhancing lead generation and customer engagement. Elevate your customer service with our cutting-edge artificial intelligence solutions
+                </p>
               </div>
             </div>
 
             <div className="col-lg-4 col-sm-6">
-              <div className="single-services-box" style={{height:"275px"}}>
+              <div className="single-services-box" style={{ height: "275px" }}>
                 <h2>
-                Translation Services
+                  Chatbots and Virtual Assistants
+
 
                 </h2>
-                <p>AI models can generate translations for different languages, improving translation services and making them more accessible to a global audience. Neural machine translation models have made significant advancements in capturing context and nuance.</p>
+                <p>We create intelligent chatbots for 24/7 support, effective lead generation, and improved customer engagement. Upgrade your customer service with our innovative AI solutions.
+                </p>
               </div>
             </div>
           </div>
           <div className="row">
             <div className="col-lg-4 col-sm-6">
               <div className="single-services-box">
-                <h2>Content Recommendation
+                <h2>Digital Marketing
+
                 </h2>
-                <p>AI algorithms can analyze user preferences and generate personalized recommendations for products, movies, music, and articles. This enhances user experience and helps businesses provide relevant content to their customers.</p>
+                <p>SA Technologies Generative AI brings transformative solutions. We leverage AI for precise customer segmentation and targeted marketing strategies, enhancing campaign results.
+                </p>
               </div>
             </div>
             <div className="col-lg-4 col-sm-6">
-              <div className="single-services-box" style={{height:"235px"}}>
-                <h2>Video Game Content
+              <div className="single-services-box" style={{ height: "235px" }}>
+                <h2>Content Generation
+
                 </h2>
-                <p>Generative AI can assist in generating game levels, landscapes, characters, and quests. This helps game developers create vast and immersive virtual worlds efficiently.</p>
+                <p>Our AI specializes in generating high-quality content, from blog articles to social media posts and product descriptions, ensuring uniqueness and SEO optimization for diverse platforms at a large scale.
+                </p>
               </div>
             </div>
-            <div className="col-lg-4 col-sm-6">
-              <div className="single-services-box" style={{height:"235px"}}>
-                <h2>Creative Writing Assistance
-                </h2>
-                <p>Generative AI tools can assist writers by providing suggestions, improving grammar, and generating content outlines. They act as creative companions, aiding the writing process.</p>
-              </div>
-            </div>
-
-
           </div>
         </div>
 

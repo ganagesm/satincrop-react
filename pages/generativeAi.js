@@ -1,29 +1,27 @@
 
 import Navbar from "../components/Live/Navbar";
 import Footer from "../components/Live/Footer";
+import WhyChooseSAT from "../components/GenerativeAi/WhyChooseSAT";
 import Services from "../components/GenerativeAi/Services";
-// import ComputerVisionAI from "../components/GenerativeAi/ComputerVisionAI";
-import PageBanner from "../components/GenerativeAi/PageBanner";
-import TechDetailsContent from "../components/GenerativeAi/TechDetailsContent";
+import HeroBanner from "../components/GenerativeAi/HeroBanner";
+import FunFacts from "../components/Live/FunFacts";
+import OurIndustry from "../components/Common/OurIndustry";
+import Testimonials from "../components/Live/Testimonials";
+import BlogPostSlider from "../components/Live/BlogPostSlider";
 
 const Index = () => {
   return (
     <>
       <Navbar />
-
-      <PageBanner
-        pageTitle="Generative Ai Development Services"
-        homePageUrl="/"
-        homePageText="Technology"
-        activePageText="Generative Ai"
-        bgImgClass="item-bg2"
-      />
-
-      <TechDetailsContent />
-      {/* <ComputerVisionAI /> */}
+      <HeroBanner />
+      {/* <TechDetailsContent /> */}
       <Services />
-      {/* <BlogPost /> */}
-
+      <OurIndustry />
+      <WhyChooseSAT />
+      <FunFacts />
+      <Testimonials />
+      <BlogPostSlider />
+      <CaseStudiesPost />
       <Footer />
     </>
   )
