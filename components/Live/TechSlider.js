@@ -25,268 +25,103 @@ const TechSlider = () => {
                 slidesPerView: 4,
               },
               1200: {
-                slidesPerView: 5,
-              },
-            }}
-            modules={[Autoplay]}
-            className="partner-slides"
-          >
-            <SwiperSlide>
-            <div className="single-partner-item">
-                <a href="" target="_blank" rel="noreferrer">
-                  Node Js
-                </a>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-            <div className="single-partner-item">
-                <a href="" target="_blank" rel="noreferrer">
-                  Java
-                </a>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="single-partner-item">
-                <a href="/react/" target="_blank" rel="noreferrer">
-                  React
-                </a>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="single-partner-item">
-                <a href="/net/" target="_blank" rel="noreferrer">
-                  .NET
-                </a>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="single-partner-item">
-                <a href="./python/" target="_blank" rel="noreferrer">
-                  Python
-                </a>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="single-partner-item">
-                <a href="/c-sharp/" target="_blank" rel="noreferrer">
-                  C#
-                </a>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="single-partner-item">
-                <a href="/rails/" target="_blank" rel="noreferrer">
-                  Rails
-                </a>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="single-partner-item">
-                <a href="/angular/" target="_blank" rel="noreferrer">
-                Angular
-                </a>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="single-partner-item">
-                <a href="" target="_blank" rel="noreferrer">
-                PHP
-                </a>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="single-partner-item">
-                <a href="/android/" target="_blank" rel="noreferrer">
-                Android
-                </a>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="single-partner-item">
-                <a href="" target="_blank" rel="noreferrer">
-                iOS
-                </a>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="single-partner-item">
-                <a href="/" target="_blank" rel="noreferrer">
-                Golang
-                </a>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="single-partner-item">
-                <a href="/" target="_blank" rel="noreferrer">
-                Vue.js
-                </a>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="single-partner-item">
-                <a href="" target="_blank" rel="noreferrer">
-                C++
-                </a>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="single-partner-item">
-                <a href="" target="_blank" rel="noreferrer">
-                JavaScript
-                </a>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="single-partner-item">
-                <a href="#" target="_blank" rel="noreferrer">
-                Swift
-                </a>
-              </div>
-            </SwiperSlide>
-            
-          </Swiper>
-
-          <Swiper
-            spaceBetween={0}
-            autoplay={{
-              delay: 1200,
-              loop: true,
-              speed:300,
-              loopPreventsSliding: true,
-              disableOnInteraction: true,
-              pauseOnMouseEnter: true,
-              reverseDirection:true,
-            }}
-            breakpoints={{
-              0: {
-                slidesPerView: 2,
-              },
-              576: {
-                slidesPerView: 3,
-              },
-              768: {
                 slidesPerView: 4,
               },
-              1200: {
-                slidesPerView: 5,
-              },
             }}
             modules={[Autoplay]}
             className="partner-slides"
           >
             <SwiperSlide>
-            <div className="single-partner-item">
-                <a href="" target="_blank" rel="noreferrer">
-                  Node Js
-                </a>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-            <div className="single-partner-item">
-                <a href="" target="_blank" rel="noreferrer">
-                  Java
+              <div className="single-partner-item">
+                <a href="/google/" target="_blank" rel="noreferrer">
+                  <img
+                    src="/images/icons/google.svg"
+                    alt="image"
+                    style={{
+                      width: "1%",
+                      textAlign: "center",
+                      marginTop: "10px",
+                    }}
+                  />
                 </a>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="single-partner-item">
-                <a href="/react/" target="_blank" rel="noreferrer">
-                  React
+                <a href="/microsoft/" target="_blank" rel="noreferrer">
+                <img
+                    src="/images/icons/microsoft.svg"
+                    alt="image"
+                    style={{
+                      width: "1%",
+                      textAlign: "center",
+                      marginTop: "10px",
+                    }}
+                  />
                 </a>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="single-partner-item">
-                <a href="/net/" target="_blank" rel="noreferrer">
-                  .NET
+                <a href="/oracle/" target="_blank" rel="noreferrer">
+                <img
+                    src="/images/icons/oracle-database.svg"
+                    alt="image"
+                    style={{
+                      width: "1%",
+                      textAlign: "center",
+                      marginTop: "10px",
+                    }}
+                  />
                 </a>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="single-partner-item">
-                <a href="/python/" target="_blank" rel="noreferrer">
-                  Python
+                <a href="/aws/" target="_blank" rel="noreferrer">
+                <img
+                    src="/images/icons/amazon_web_services.svg"
+                    alt="image"
+                    style={{
+                      width: "1%",
+                      textAlign: "center",
+                      marginTop: "10px",
+                    }}
+                  />
                 </a>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="single-partner-item">
-                <a href="/c-sharp/" target="_blank" rel="noreferrer">
-                  C#
+                <a href="/salesforce/" target="_blank" rel="noreferrer">
+                <img
+                    src="/images/icons/salesforce.svg"
+                    alt="image"
+                    style={{
+                      width: "1%",
+                      textAlign: "center",
+                      marginTop: "10px",
+                    }}
+                  />
                 </a>
               </div>
             </SwiperSlide>
+
             <SwiperSlide>
               <div className="single-partner-item">
-                <a href="/rails/" target="_blank" rel="noreferrer">
-                  Rails
+                <a href="/servicenow/" target="_blank" rel="noreferrer">
+                <img
+                    src="/images/icons/servicenow.svg"
+                    alt="image"
+                    style={{
+                      width: "1%",
+                      textAlign: "center",
+                      marginTop: "10px",
+                    }}
+                  />
                 </a>
               </div>
             </SwiperSlide>
-            <SwiperSlide>
-              <div className="single-partner-item">
-                <a href="/angular/" target="_blank" rel="noreferrer">
-                Angular
-                </a>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="single-partner-item">
-                <a href="" target="_blank" rel="noreferrer">
-                PHP
-                </a>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="single-partner-item">
-                <a href="/android/" target="_blank" rel="noreferrer">
-                Android
-                </a>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="single-partner-item">
-                <a href="" target="_blank" rel="noreferrer">
-                iOS
-                </a>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="single-partner-item">
-                <a href="" target="_blank" rel="noreferrer">
-                Golang
-                </a>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="single-partner-item">
-                <a href="" target="_blank" rel="noreferrer">
-                Vue.js
-                </a>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="single-partner-item">
-                <a href="" target="_blank" rel="noreferrer">
-                C++
-                </a>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="single-partner-item">
-                <a href="" target="_blank" rel="noreferrer">
-                JavaScript
-                </a>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="single-partner-item">
-                <a href="" target="_blank" rel="noreferrer">
-                Swift
-                </a>
-              </div>
-            </SwiperSlide>
-            
           </Swiper>
         </div>
 

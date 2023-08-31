@@ -8,23 +8,27 @@ import PartnerContent from "../components/Live/PartnerContent";
 import Testimonials from "../components/Live/Testimonials";
 import TechSlider from "../components/Live/TechSlider";
 import BlogPostSlider from "../components/Live/BlogPostSlider";
+import AboutContact from "../components/About/AboutContent";
+import MainServices from "../components/Live/MainServices";
 
 
 const Index = () => {
-    return (
-        <>
-            <Navbar />
-            <HeroBanner />
-            <PartnerContent />
-            <Services />
-            <FunFacts />
-            <Testimonials />
-            <TechSlider />
-            <BlogPostSlider />
-            <CaseStudiesPost />
-            <Footer />
+	return (
+		<>
+			<Navbar />
+			<HeroBanner />
+			<AboutContact />
+			<PartnerContent />
+			<Services />
+			<MainServices />
+			<FunFacts />
+			<Testimonials />
+			<TechSlider />
+			<BlogPostSlider />
+			<CaseStudiesPost />
+			<Footer />
 
-        </>
-    )
+		</>
+	)
 }
 export default Index;
