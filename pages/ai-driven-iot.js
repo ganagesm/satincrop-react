@@ -10,18 +10,19 @@ import CaseStudiesSlider from "../components/Live/CaseStudiesSlider";
 import WhyTriosource from "../components/AIDrivenIoT/WhyTriosource";
 import ComputerVisionAI from "../components/AIDrivenIoT/ComputerVisionAI";
 import TechDetailsContent from "../components/AIDrivenIoT/TechDetailsContent";
+import Services from "../components/AIDrivenIoT/Services";
+import WhyChooseSAT from "../components/AIDrivenIoT/WhyChooseSAT";
 
 const Index = () => {
   return (
     <>
       <Navbar />
       <HeroBanner />
-      <ComputerVisionAI />
+      {/* <ComputerVisionAI /> */}
       <TechDetailsContent />
-      <WhyChooseUs />
+      <Services />
       {/* <AboutUs /> */}
-      <Industries />
-      <WhyTriosource />
+      <WhyChooseSAT />
       <CaseStudiesSlider />
       <Testimonials />
       <Footer />

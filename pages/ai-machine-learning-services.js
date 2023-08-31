@@ -8,16 +8,19 @@ import WhyTriosource from "../components/ai-machine-learning-services/WhyTriosou
 import ComputerVisionAI from "../components/ai-machine-learning-services/ComputerVisionAI";
 import CaseStudiesSlider from "../components/Live/CaseStudiesSlider";
 import TechDetailsContent from "../components/ai-machine-learning-services/TechDetailsContent";
+import Services from "../components/ai-machine-learning-services/Services";
+import WhyChooseSAT from "../components/GenerativeAi/WhyChooseSAT";
 
 const Index = () => {
   return (
     <>
       <Navbar />
       <HeroBanner />
-      <ComputerVisionAI />
+      {/* <ComputerVisionAI /> */}
       <TechDetailsContent />
-      <Industries />
-      <WhyTriosource />
+      <Services />
+      {/* <Industries /> */}
+      <WhyChooseSAT />
       <CaseStudiesSlider />
       <Testimonials />
       <Footer />

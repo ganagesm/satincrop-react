@@ -82,7 +82,7 @@ const Navbar = () => {
                   <li className="nav-item">
                     <Link
                       href="#"
-                      className={`nav-link ${currentPath == "/generativeAi" || currentPath === "/mobile-app-development" || currentPath === "/frontend-development" || currentPath === "/back-end-development-service" || currentPath === "/ai-driven-iot" || currentPath === "/ai-machine-learning-services" || currentPath === "/data-science" || currentPath === "/cloud-infrastructure-services" ? "active"
+                      className={`nav-link ${currentPath == "/generativeAi" || currentPath === "/ai-machine-learning-services" || currentPath === "/frontend-development" || currentPath === "/ai-driven-iot" || currentPath === "/ai-machine-learning-services" || currentPath === "/data-science" || currentPath === "/cloud-infrastructure-services" ? "active"
                           : ""
                         }`}
                     >
@@ -100,8 +100,8 @@ const Navbar = () => {
                       </li>
                       <li className="nav-item">
                         <Link
-                          href="/mobile-app-development"
-                          className={`nav-link ${currentPath == "/mobile-app-development" && "active"
+                          href="/ai-machine-learning-services/"
+                          className={`nav-link ${currentPath == "/ai-machine-learning-services/" && "active"
                             }`}
                         >
                           Machine Learning
@@ -109,8 +109,8 @@ const Navbar = () => {
                       </li>
                       <li className="nav-item">
                         <Link
-                          href="/frontend-development"
-                          className={`nav-link ${currentPath == "/frontend-development" && "active"
+                          href="/ai-driven-iot"
+                          className={`nav-link ${currentPath == "/ai-driven-iot" && "active"
                             }`}
                         >
                           IOT (Internet of Things)
@@ -118,8 +118,8 @@ const Navbar = () => {
                       </li>
                       <li className="nav-item">
                         <Link
-                          href="/back-end-development-service"
-                          className={`nav-link ${currentPath == "/back-end-development-service" && "active"
+                          href="/data-science"
+                          className={`nav-link ${currentPath == "/data-science" && "active"
                             }`}
                         >
                           Data Science & Analytics
@@ -127,8 +127,8 @@ const Navbar = () => {
                       </li>
                       <li className="nav-item">
                         <Link
-                          href="/ai-driven-iot"
-                          className={`nav-link ${currentPath == "/ai-driven-iot" && "active"
+                          href="/rpa"
+                          className={`nav-link ${currentPath == "/rpa" && "active"
                             }`}
                         >
                           RPA

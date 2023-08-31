@@ -18,7 +18,8 @@ const ComputerVisionAI = () => {
             <div className="col-lg-6 col-md-6">
               <div className="computer-vision-ai-content">
                 <h3>
-                  Benefits of Our AI & Machine Learning Services
+                Benefits of IoT Services With SA Technologies
+
 
                 </h3>
                 <p>They serve as a way to extract and isolate business logic from the controllers or models of a Rails application, promoting cleaner code organization, reusability, and testability.</p>
@@ -27,28 +28,21 @@ const ComputerVisionAI = () => {
                   <div className="col-lg-6 col-sm-6">
                     <div className="vision-ai-inner-card">
                       <div className="">
-                        <h4>Data-Driven Decisions</h4>
+                        <h4>Enhanced Efficiency</h4>
                       </div>
-                      <p>Harness the intelligence of AI and Machine Learning to analyze vast datasets, providing actionable insights for informed strategic decisions</p>
+                      <p>IoT, combined with AI, enables automation and real-time monitoring, thus reducing manual intervention and increasing efficiency.</p>
                     </div>
                   </div>
 
-                  <div className="col-lg-6 col-sm-6">
-                    <div className="vision-ai-inner-card">
-                      <div className="">
-                        <h4>Efficiency and Automation</h4>
-                      </div>
-                      <p>Automate repetitive tasks, workflows, and operations, boosting efficiency and freeing up resources for high-value tasks</p>
-                    </div>
-                  </div>
+                  
 
                   <div className="col-lg-6 col-sm-6">
                     <div className="vision-ai-inner-card">
                       {/* <div className="content"> */}
                       <div className="">
-                        <h4>Innovation Amplification</h4>
+                        <h4>Cost Reduction</h4>
                       </div>
-                      <p> Infuse innovation into your business models and strategies by integrating AI and Machine Learning, fostering a culture of continuous advancement</p>
+                      <p> By monitoring and optimizing resource usage, IoT services lead to significant cost savings.</p>
                     </div>
                   </div>
                   <div className="col-lg-6 col-sm-6">
@@ -57,7 +51,24 @@ const ComputerVisionAI = () => {
                       <div className="">
                         <h4>Stay Ahead of the Curve</h4>
                       </div>
-                      <p> Embrace the future of technology with AI-powered solutions, positioning your business at the forefront of industry trends and innovation</p>
+                      <p> We will create a comprehensive proposal based on our initial meeting, and present it to your team, either in person or virtually.
+</p>
+                    </div>
+                  </div>
+                  <div className="col-lg-6 col-sm-6">
+                    <div className="vision-ai-inner-card">
+                      <div className="">
+                        <h4>Increased Security</h4>
+                      </div>
+                      <p>Our IoT solutions come with advanced security protocols to protect your data and devices.</p>
+                    </div>
+                  </div>
+                  <div className="col-lg-6 col-sm-6">
+                    <div className="vision-ai-inner-card">
+                      <div className="">
+                        <h4>Scalability</h4>
+                      </div>
+                      <p>Our services are designed to grow with your business, providing the flexibility to adapt to changing needs.</p>
                     </div>
                   </div>
                 </div>
