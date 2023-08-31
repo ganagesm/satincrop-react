@@ -38,7 +38,7 @@ const Footer = () => {
                     <img
                       src="/images/f_sa-logo.svg"
                       alt="triosource logo"
-                      width={60}
+                      width={80}
                     />
                   </Link>
                   <p> SA Technologies Inc is a California based IT Consulting & Offshore Company headquartered at Santa Monica with offices in US, Canada, Singapore & India.</p>
