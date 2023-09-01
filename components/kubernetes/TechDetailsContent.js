@@ -7,22 +7,26 @@ const ServiceDetailsContent = () => {
         <div className="container">
           <div className="services-details-overview">
             <div className="services-details-desc mb-30">
-              <h3> What is Kubernetes ?</h3>
+              <h3> What is Microsoft Cloud Transformation</h3>
               <p>
                 {" "}
-                Kubernetes is an open-source container orchestration platform
-                developed by Google. It automates the deployment, scaling, and
-                management of containerized applications across a cluster of
-                machines. Kubernetes is designed to facilitate the management of
-                containerized workloads, ensuring efficient utilization of
-                resources and providing mechanisms for maintaining application
-                availability and scalability.
+                Microsoft Cloud Transformation refers to the process of transitioning an 
+                organization's IT infrastructure, applications, data, and workloads to Microsoft's 
+                cloud computing platforms and services, primarily Microsoft Azure 
+                and Microsoft 365 (formerly known as Office 365). The aim of 
+                this transformation is to leverage the benefits of cloud computing, 
+                such as scalability, flexibility, cost-efficiency, and enhanced 
+                collaboration, to drive business growth and innovation.
+
+ 
+
+
               </p>
 
               <p>
-                Kubernetes developers need to possess a strong understanding of
-                various concepts and skills to effectively develop and manage
-                applications on Kubernetes.{" "}
+              Microsoft Cloud Transformation typically involves migrating on-premises 
+              servers, applications, and data to the cloud, adopting cloud-native services 
+              and solutions, and integrating cloud technology into existing business processes.{" "}
               </p>
             </div>
 

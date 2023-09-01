@@ -75,9 +75,8 @@ const NavbarSix = () => {
                       href="#"
                       className={`nav-link ${currentPath == "/" && "active"}`}
                     >
-                      Home <i className="fas fa-chevron-down"></i>
+                      AI Services <i className="fas fa-chevron-down"></i>
                     </Link>
-
                     <ul className="dropdown-menu">
                       <li className="nav-item">
                         <Link
@@ -86,7 +85,7 @@ const NavbarSix = () => {
                             currentPath == "/" && "active"
                           }`}
                         >
-                          Home Demo - 1
+                          Generative AI
                         </Link>
                       </li>
 
@@ -97,7 +96,7 @@ const NavbarSix = () => {
                             currentPath == "/index-2/" && "active"
                           }`}
                         >
-                          Home Demo - 2
+                         Machine Learning
                         </Link>
                       </li>
 
@@ -119,51 +118,7 @@ const NavbarSix = () => {
                             currentPath == "/index-4/" && "active"
                           }`}
                         >
-                          Home Demo - 4
-                        </Link>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link
-                          href="/index-5/"
-                          className={`nav-link ${
-                            currentPath == "/index-5/" && "active"
-                          }`}
-                        >
-                          Home Demo - 5
-                        </Link>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link
-                          href="/index-6/"
-                          className={`nav-link ${
-                            currentPath == "/index-6/" && "active"
-                          }`}
-                        >
-                          Home Demo - 6
-                        </Link>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link
-                          href="/index-7/"
-                          className={`nav-link ${
-                            currentPath == "/index-7/" && "active"
-                          }`}
-                        >
-                          Home Demo - 7
-                        </Link>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link
-                          href="/index-8/"
-                          className={`nav-link ${
-                            currentPath == "/index-8/" && "active"
-                          }`}
-                        >
-                          Home Demo - 8
+                         IOT
                         </Link>
                       </li>
                     </ul>
@@ -175,7 +130,7 @@ const NavbarSix = () => {
                       className="nav-link"
                       onClick={(e) => e.preventDefault()}
                     >
-                      Pages <i className="fas fa-chevron-down"></i>
+                      Engagement Models <i className="fas fa-chevron-down"></i>
                     </Link>
 
                     <ul className="dropdown-menu">
@@ -186,7 +141,7 @@ const NavbarSix = () => {
                             currentPath == "/about/" && "active"
                           }`}
                         >
-                          About Us
+                          Nearshore
                         </Link>
                       </li>
 
@@ -197,7 +152,7 @@ const NavbarSix = () => {
                             currentPath == "/about-two/" && "active"
                           }`}
                         >
-                          About Us Two
+                          Offshore
                         </Link>
                       </li>
 
@@ -208,67 +163,8 @@ const NavbarSix = () => {
                             currentPath == "/team/" && "active"
                           }`}
                         >
-                          Team
+                          Onsite
                         </Link>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link
-                          href="/pricing/"
-                          className={`nav-link ${
-                            currentPath == "/pricing/" && "active"
-                          }`}
-                        >
-                          Pricing
-                        </Link>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link
-                          href="/feedback/"
-                          className={`nav-link ${
-                            currentPath == "/feedback/" && "active"
-                          }`}
-                        >
-                          Feedback
-                        </Link>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link
-                          href="/partner/"
-                          className={`nav-link ${
-                            currentPath == "/partner/" && "active"
-                          }`}
-                        >
-                          Partner
-                        </Link>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link
-                          href="/faq/"
-                          className={`nav-link ${
-                            currentPath == "/faq/" && "active"
-                          }`}
-                        >
-                          Faq
-                        </Link>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link
-                          href="/coming-soon/"
-                          className={`nav-link ${
-                            currentPath == "/coming-soon/" && "active"
-                          }`}
-                        >
-                          Coming Soon
-                        </Link>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link href="/404/">404 Error</Link>
                       </li>
                     </ul>
                   </li>
@@ -280,7 +176,7 @@ const NavbarSix = () => {
                         currentPath == "/services/" && "active"
                       }`}
                     >
-                      Services <i className="fas fa-chevron-down"></i>
+                      Technologies <i className="fas fa-chevron-down"></i>
                     </Link>
 
                     <ul className="dropdown-menu">
@@ -291,7 +187,7 @@ const NavbarSix = () => {
                             currentPath == "/services/" && "active"
                           }`}
                         >
-                          Services Style One
+                          Microsoft
                         </Link>
                       </li>
 
@@ -302,7 +198,7 @@ const NavbarSix = () => {
                             currentPath == "/services-two/" && "active"
                           }`}
                         >
-                          Services Style Two
+                          Google
                         </Link>
                       </li>
 
@@ -313,7 +209,7 @@ const NavbarSix = () => {
                             currentPath == "/services-three/" && "active"
                           }`}
                         >
-                          Services Style Three
+                          AWS
                         </Link>
                       </li>
 
@@ -324,7 +220,7 @@ const NavbarSix = () => {
                             currentPath == "/services-four/" && "active"
                           }`}
                         >
-                          Services Style Four
+                          Oracle
                         </Link>
                       </li>
 
@@ -335,7 +231,7 @@ const NavbarSix = () => {
                             currentPath == "/service-details/" && "active"
                           }`}
                         >
-                          Service Details
+                          Salesforce
                         </Link>
                       </li>
                     </ul>
@@ -348,7 +244,7 @@ const NavbarSix = () => {
                         currentPath == "/projects/" && "active"
                       }`}
                     >
-                      Projects <i className="fas fa-chevron-down"></i>
+                      Talent Solutions <i className="fas fa-chevron-down"></i>
                     </Link>
 
                     <ul className="dropdown-menu">
@@ -359,7 +255,7 @@ const NavbarSix = () => {
                             currentPath == "/projects/" && "active"
                           }`}
                         >
-                          Projects
+                          Contingent Workforce
                         </Link>
                       </li>
 
@@ -370,23 +266,19 @@ const NavbarSix = () => {
                             currentPath == "/projects-details/" && "active"
                           }`}
                         >
-                          Projects Details
+                          RPO Services
                         </Link>
                       </li>
-                    </ul>
-                  </li>
-
-                  <li className="nav-item">
-                    <Link
-                      href="/shop/"
-                      className={`nav-link ${
-                        currentPath == "/shop/" && "active"
-                      }`}
-                    >
-                      Shop <i className="fas fa-chevron-down"></i>
-                    </Link>
-
-                    <ul className="dropdown-menu">
+                      <li className="nav-item">
+                        <Link
+                          href="/projects-details/"
+                          className={`nav-link ${
+                            currentPath == "/projects-details/" && "active"
+                          }`}
+                        >
+                         Hire Train Deploy
+                        </Link>
+                      </li>
                       <li className="nav-item">
                         <Link
                           href="/shop/"
@@ -394,86 +286,7 @@ const NavbarSix = () => {
                             currentPath == "/shop/" && "active"
                           }`}
                         >
-                          Shop
-                        </Link>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link
-                          href="/single-products/"
-                          className={`nav-link ${
-                            currentPath == "/single-products/" && "active"
-                          }`}
-                        >
-                          Single Products
-                        </Link>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link
-                          href="/cart/"
-                          className={`nav-link ${
-                            currentPath == "/cart/" && "active"
-                          }`}
-                        >
-                          Cart
-                        </Link>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link
-                          href="/checkout/"
-                          className={`nav-link ${
-                            currentPath == "/checkout/" && "active"
-                          }`}
-                        >
-                          Checkout
-                        </Link>
-                      </li>
-                    </ul>
-                  </li>
-
-                  <li className="nav-item">
-                    <Link
-                      href="/blog/"
-                      className={`nav-link ${
-                        currentPath == "/blog/" && "active"
-                      }`}
-                    >
-                      Blog <i className="fas fa-chevron-down"></i>
-                    </Link>
-
-                    <ul className="dropdown-menu">
-                      <li className="nav-item">
-                        <Link
-                          href="/blog/"
-                          className={`nav-link ${
-                            currentPath == "/blog/" && "active"
-                          }`}
-                        >
-                          Blog Grid
-                        </Link>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link
-                          href="/blog2/"
-                          className={`nav-link ${
-                            currentPath == "/blog2/" && "active"
-                          }`}
-                        >
-                          Blog Right Sidebar
-                        </Link>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link
-                          href="/blog-details/"
-                          className={`nav-link ${
-                            currentPath == "/blog-details/" && "active"
-                          }`}
-                        >
-                          Blog Details
+                          Payroll Outsourcing Services
                         </Link>
                       </li>
                     </ul>
@@ -493,7 +306,7 @@ const NavbarSix = () => {
                 
                 {/* others-options */}
                 <div className="others-options">
-                  <Link href="/cart" className="cart-btn">
+                  {/* <Link href="/cart" className="cart-btn">
                     <i className="flaticon-commerce-and-shopping"></i>
                     <span>1</span>
                   </Link>
@@ -503,7 +316,7 @@ const NavbarSix = () => {
                       className="search-btn flaticon-search"
                       onClick={handleToggleSearchModal}
                     ></i>
-                  </div>
+                  </div> */}
 
                   <Link href="/contact" className="btn btn-primary">
                     Schedule a Demo
