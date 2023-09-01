@@ -25,120 +25,108 @@ const Testimonials = () => {
           >
             <SwiperSlide>
               <div className="single-testimonials-item">
-                <div className="client-info">
+                <p>
+                SA Technologies revolutionized our operations with its IoT expertise. Their tailored solutions and knowledgeable team gave us unparalleled insights. Highly recommended. 
+                </p>
+                {/* <div className="client-info">
                   <img src="/images/author13.png" alt="image" />
-                  <h1>VP </h1>
-                  <span>Food Industry</span>
-                </div>
-                <p>
-                Extremely impressed with TrioSource. Their team demonstrated exceptional expertise in Flutter app development, delivering a high-quality and seamless cross-platform application for our business. The intelligent features and predictive analysis they incorporated have significantly enhanced user engagement, making our app stand out in the market. With TrioSource, we experienced faster development and received a level of professionalism that exceeded our expectations.
-                </p>
-                <div className="rating">
-                  <i className="fas fa-star"></i>
-                  <i className="fas fa-star"></i>
-                  <i className="fas fa-star"></i>
-                  <i className="fas fa-star"></i>
-                  <i className="fas fa-star"></i>
-                </div>
-              </div>
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <div className="single-testimonials-item">
-                <div className="client-info">
-                  <img src="/images/author10.jpg" alt="image" />
-                  <h1>CTO</h1>
-                  <span>Education</span>
-                  <span>Industry</span>
-                </div>
-                <p>
-                We are thrilled with the front-end development services provided by TrioSource. Their expertise in crafting visually appealing and user-friendly interfaces has truly elevated our web application. The team's attention to detail, responsiveness, and timely delivery have made the development process seamless and enjoyable. With TrioSource help, we have successfully created a professional and engaging user experience for our customers.
-                </p>
-                <div className="rating">
-                  <i className="fas fa-star"></i>
-                  <i className="fas fa-star"></i>
-                  <i className="fas fa-star"></i>
-                  <i className="fas fa-star"></i>
-                  <i className="fas fa-star"></i>
+                </div> */}
+                <div className="footer">
+                  <div className="rating">
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                  </div>
+                  <h4>CTO </h4>
+                  <span>(E-commerce Industry) </span>
                 </div>
               </div>
             </SwiperSlide>
 
             <SwiperSlide>
               <div className="single-testimonials-item">
-                <div className="client-info">
-                  <img src="/images/author12.png" alt="image" />
-                  <h1>CEO, </h1>
-                  <span>Travel Industry</span>
-                </div>
                 <p>
-                We are incredibly satisfied with TrioSource backend development services. Their proficiency in building robust and scalable server-side solutions has been instrumental in optimizing our web application's performance. The team's deep understanding of databases, APIs, and security protocols ensured a smooth and secure user experience. Their dedication to meeting project deadlines and providing top-notch support has been commendable. We confidently recommend TrioSource for anyone seeking reliable and efficient backend development expertise.
+                Their blend of innovative design and AI-driven solutions pushed our projects beyond expectations. SAT has been pivotal in our software development journey. Exceptional service from a top-tier team. 
                 </p>
-                <div className="rating">
-                  <i className="fas fa-star"></i>
-                  <i className="fas fa-star"></i>
-                  <i className="fas fa-star"></i>
-                  <i className="fas fa-star"></i>
-                  <i className="fas fa-star"></i>
+                {/* <div className="client-info">
+                  <img src="/images/author13.png" alt="image" />
+                </div> */}
+                <div className="footer">
+                  <div className="rating">
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                  </div>
+                  <h4>Content Director  </h4>
+                  <span>(Digital Media Industry) </span>
                 </div>
               </div>
             </SwiperSlide>
-            {/* <SwiperSlide>
-              <div className="single-testimonials-item">
-                <div className="client-info">
-                  <img src="/images/author3.jpg" alt="image" />
-                  <h1>CTO,  </h1>
-                  <span>Finance</span>
-                  <span>Banking</span>
-                </div>
-                <p>
-                We are highly impressed with TrioSource native app development services. Their team delivered our project well before the defined timeline, and the quality of their work surpassed our expectations. The app's performance and user interface are exceptional, providing our customers with a seamless and delightful experience. TrioSource commitment to excellence and their ability to meet deadlines make them a reliable partner for any native app development needs. 
-                </p>
-                <div className="rating">
-                  <i className="fas fa-star"></i>
-                  <i className="fas fa-star"></i>
-                  <i className="fas fa-star"></i>
-                  <i className="fas fa-star"></i>
-                  <i className="fas fa-star"></i>
-                </div>
-              </div>
-            </SwiperSlide> */}
+
             <SwiperSlide>
               <div className="single-testimonials-item">
-                <div className="client-info">
-                  <img src="/images/author11.png" alt="image" />
-                  <h1>COO </h1>
-                  <span>Startup</span>
-                </div>
                 <p>
-                We are thrilled to have TrioSource nearshore team of 7 people working with us. They assembled the team very quickly, which allowed us to kickstart our project promptly. Their expertise, dedication, and collaborative approach have been invaluable in delivering outstanding results. The team's seamless integration into our workflow has made the entire development process efficient and productive. We are delighted with TrioSource performance and look forward to continued success with their talented team. 
+                The rapid evolution of digital content demands flexibility in staffing. SAT has been a beacon, consistently providing us with highly skilled professionals for our short-term projects. Their understanding of the media space and its unique requirements is unparalleled. 
                 </p>
-                <div className="rating">
-                  <i className="fas fa-star"></i>
-                  <i className="fas fa-star"></i>
-                  <i className="fas fa-star"></i>
-                  <i className="fas fa-star"></i>
-                  <i className="fas fa-star"></i>
+                {/* <div className="client-info">
+                  <img src="/images/author13.png" alt="image" />
+                </div> */}
+                <div className="footer">
+                  <div className="rating">
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                  </div>
+                  <h4> Head HR   </h4>
+                  <span>(FMCD)  </span>
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="single-testimonials-item">
-                <div className="client-info">
-                  <img src="/images/author10.jpg" alt="image" />
-                  <h1>CMO</h1>
-                  <span>E-commerce</span>
-                  <span>Industry</span>
-                </div>
                 <p>
-                We are immensely grateful to TriSource for their expertise in Generative AI. They played a pivotal role in setting up our entire website and marketing team with Generative AI capabilities. Their support has been instrumental in revolutionizing our marketing strategies, as our team is now fully AI-based. TrioSource innovative solutions and seamless integration have boosted our efficiency and effectiveness in reaching our target audience.
+                SA Technologies Nearshore Services have revolutionized our projects. Their skilled nearshore teams seamlessly aligned with our workflow, ensuring efficient collaboration due to overlapping time zones. They consistently deliver top-notch work within our timelines, becoming an integral part of our success. Their professionalism and expertise have exceeded our expectations. A partnership we value and trust. 
                 </p>
-                <div className="rating">
-                  <i className="fas fa-star"></i>
-                  <i className="fas fa-star"></i>
-                  <i className="fas fa-star"></i>
-                  <i className="fas fa-star"></i>
-                  <i className="fas fa-star"></i>
+                {/* <div className="client-info">
+                  <img src="/images/author13.png" alt="image" />
+                </div> */}
+                <div className="footer">
+                  <div className="rating">
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                  </div>
+                  <h4> Director of Operations    </h4>
+                  <span>(Telecom Industry)  </span>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="single-testimonials-item">
+                <p>
+                A truly reliable and valuable partner for our success. SAT Offshore Services are simply outstanding. Their remote teams have consistently exceeded our expectations with their expertise and dedication. Communication is seamless, and project outcomes are always delivered on time.  
+                </p>
+                {/* <div className="client-info">
+                  <img src="/images/author13.png" alt="image" />
+                </div> */}
+                <div className="footer">
+                  <div className="rating">
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                  </div>
+                  <h4> Head of Project Delivery     </h4>
+                  <span>(Manufacturing )  </span>
                 </div>
               </div>
             </SwiperSlide>

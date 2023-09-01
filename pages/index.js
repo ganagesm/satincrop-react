@@ -9,6 +9,7 @@ import Testimonials from "../components/Live/Testimonials";
 import TechSlider from "../components/Live/TechSlider";
 import BlogPostSlider from "../components/Live/BlogPostSlider";
 import AboutContact from "../components/About/AboutContent";
+import CEOCorner from "../components/Live/CEOCorner";
 import MainServices from "../components/Live/MainServices";
 
 
@@ -20,8 +21,8 @@ const Index = () => {
       <AboutContact />
       <PartnerContent />
       <Services />
-      <MainServices />
-      <FunFacts />
+      {/* <MainServices /> */}
+      <CEOCorner />
       <Testimonials />
       <TechSlider />
       <BlogPostSlider />

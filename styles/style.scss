@@ -6386,9 +6386,18 @@ Pricing Area CSS
     margin-bottom: 45px;
     background-color: $white-color;
     position: relative;
-    padding: 60px 70px 60px 190px;
+    // padding: 60px 70px 60px 190px;
+    padding: 60px 70px 60px 60px;
     border-radius: 5px;
-
+.footer {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 15px;
+}
+h4 {
+    padding-top: 10px;
+}
     .client-info {
         position: absolute;
         left: 70px;
@@ -6425,6 +6434,7 @@ Pricing Area CSS
         font-size: 15px;
         margin-bottom: 0;
         color: #4a6f8a;
+        text-align: center;
     }
     .rating {
         margin-top: 10px;
