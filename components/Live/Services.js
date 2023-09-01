@@ -7,14 +7,8 @@ const Services = () => {
       <section className="services-area bg-f2f6f9 ptb-110">
         <div className="container">
           <div className="section-title">
-            <h2>Whats we Offer</h2>
-            <h2> we'll work how you work.</h2>
-            <p>
-              Our outsourced engineers can plug directly into your teams.
-              Triosource also creates dedicated teams of engineers with a
-              project based approach. Our consulting approach allows for a
-              hybrid. We can work however you work.
-            </p>
+            <h2>Our Offerings Adapted to Your Workflow</h2>
+            <p> Our offshore engineers seamlessly integrate into your teams. SA Technologies also forms dedicated engineering teams using a project-based methodology. Our consulting model offers a versatile hybrid approach that aligns with your workflow.</p>
           </div>
 
           <div className="row">
