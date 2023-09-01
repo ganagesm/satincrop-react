@@ -7,37 +7,43 @@ const ComputerVisionAI = () => {
       <div className="computer-vision-ai-area ptb-100">
         <div className="container">
           <div className="row align-items-center">
-          <div className="col-lg-6 col-md-12">
+            {/* <div className="col-lg-6 col-md-12">
               <div className="computer-vision-ai-image">
                 <img
                   src="/images/home-six/computer-vision/computer-vision-ai.png"
                   alt="image"
                 />
               </div>
-            </div>
-            <div className="col-lg-6 col-md-6">
+            </div> */}
+            <div className="col-lg-12 col-md-12">
               <div className="computer-vision-ai-content">
-                <h3>
-                Which technology companies are using C#?.
-                </h3>
-                <p>C# is a popular programming language developed by Microsoft and is widely used by various technology companies for building a wide range of applications. Here are some notable technology companies that have been known to use C#</p>
+                <h3
+                   style={{
+                    textAlign:"center",
+                  }}
+                >Salesforce Offerings</h3>
+                <p
+                   style={{
+                    textAlign:"center",
+                  }}
+                >Leveraging AI for Swift Development, Smart Features, Proactive Insights, and Premium Quality For Salesforce</p>
 
-                <div className="row justify-content-center">
+                <div className="row">
                   <div className="col-lg-6 col-sm-6">
                     <div className="vision-ai-inner-card">
                       <div className="">
-                        <h4>Microsoft</h4>
+                        <h4>Sales Cloud</h4>
                       </div>
-                      <p>As the creator of C#, Microsoft extensively uses the language for developing many of its products and services, including Windows, Office, Azure, and various developer tools such as Visual Studio.</p>
+                      <p>Sales Cloud streamlines sales processes, offering tools for lead management and forecasting, ensuring increased efficiency and improved conversion rates.</p>
                     </div>
                   </div>
 
                   <div className="col-lg-6 col-sm-6">
                     <div className="vision-ai-inner-card">
                       <div className="">
-                        <h4>Accenture</h4>
+                        <h4>Service Cloud</h4>
                       </div>
-                      <p>Accenture, a global professional services company, uses C# for developing enterprise software solutions across various industries, including finance, healthcare, and telecommunications.</p>
+                      <p>Service Cloud enhances customer support, providing agents with comprehensive tools for quicker resolution and elevated customer satisfaction.</p>
                     </div>
                   </div>
 
@@ -45,18 +51,27 @@ const ComputerVisionAI = () => {
                     <div className="vision-ai-inner-card">
                       {/* <div className="content"> */}
                       <div className="">
-                        <h4>Intel</h4>
+                        <h4>Analytics Cloud</h4>
                       </div>
-                      <p> ntel, a leading semiconductor company, utilizes C# for developing software applications and tools related to their hardware platforms, drivers, and firmware.</p>
+                      <p>Analytics Cloud empowers businesses with insightful data visualizations and real-time analytics, paving the way for informed decision-making.</p>
                     </div>
                   </div>
                   <div className="col-lg-6 col-sm-6">
                     <div className="vision-ai-inner-card">
                       {/* <div className="content"> */}
                       <div className="">
-                        <h4>Siemens</h4>
+                        <h4>Financial Cloud</h4>
                       </div>
-                      <p> Siemens, a multinational conglomerate, uses C# for developing software applications and solutions across various domains, including automation, industrial manufacturing, energy, and healthcare.</p>
+                      <p>Financial Cloud simplifies financial operations, integrating transactions, accounting, and forecasting into one unified platform for streamlined financial management.</p>
+                    </div>
+                  </div>
+                  <div className="col-lg-6 col-sm-6">
+                    <div className="vision-ai-inner-card">
+                      {/* <div className="content"> */}
+                      <div className="">
+                        <h4>Marketing Cloud</h4>
+                      </div>
+                      <p>Marketing Cloud optimizes outreach, offering personalized marketing strategies that resonate with target audiences, driving engagement and conversion.</p>
                     </div>
                   </div>
                 </div>

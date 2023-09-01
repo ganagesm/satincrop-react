@@ -78,7 +78,7 @@ button {
 }
 
 p {
-    font-size: 14px;
+    font-size: 16px;
     color: #57647c;
     margin-bottom: 15px;
     line-height: 1.8;
@@ -3040,6 +3040,30 @@ Page Title Area CSS
 }
 .page-title-area.item-bg3 {
     background-image: url(/images/technology-banner/google-banner.png);
+}
+.page-title-area.item-bg4 {
+    background-image: url(/images/technology-banner/oracle-banner.jpg);
+}
+.page-title-area.item-bg5 {
+    background-image: url(/images/technology-banner/aws-banner.jpg);
+}
+.page-title-area.item-bg6 {
+    background-image: url(/images/technology-banner/saleforce-banner.png);
+}
+.page-title-area.item-bg7 {
+    background-image: url(/images/technology-banner/servicenow-banner.jpg);
+}
+.page-title-area.item-bg8 {
+    background-image: url(/images/technology-banner/Contingent.png);
+}
+.page-title-area.item-bg9 {
+    background-image: url(/images/technology-banner/RPO.png);
+}
+.page-title-area.item-bg10 {
+    background-image: url(/images/technology-banner/htd-banner.jpeg);
+}
+.page-title-area.item-bg11 {
+    background-image: url(/images/technology-banner/payroll.png);
 }
 
 .page-title-content h2 {

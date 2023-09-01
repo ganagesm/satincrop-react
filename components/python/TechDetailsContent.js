@@ -7,41 +7,26 @@ const ServiceDetailsContent = () => {
         <div className="container">
           <div className="services-details-overview">
             <div className="services-details-desc mb-30">
-              <h3>
-                Build Powerful Applications with Python Software Development{" "}
+              <h3>What is AWS Services ?{" "}
               </h3>
               <p>
-                As one of the most flexible, reliable, and capable programming
-                languages in the world, it isn´t hard to understand why{" "}
-                <strong> Python developers </strong> are in such high demand in
-                the market. Simply put, Python apps are universal. Companies
-                across every industry are using Python code to create everything
-                from simple components to complex enterprise applications.{" "}
-              </p>
-              <p>
-                Paired with the proper talent to support it, there is
-                practically no limit to what Python software development can
-                achieve.{" "}
-              </p>
-              <p>
-                Python software development provides a powerful and flexible
-                platform to build a wide range of applications, from small
-                scripts to large-scale enterprise systems. Its simplicity,
-                extensive libraries, cross-platform compatibility, and strong
-                community support make it an excellent choice for developers
-                looking to create powerful and efficient applications.
+              Amazon Web Services (AWS) provides a comprehensive suite of cloud computing services that encompass 
+              computing power, storage, databases, networking, analytics, machine learning, and more. It offers 
+              businesses the flexibility to scale and innovate without the need for upfront investments in physical 
+              infrastructure. AWS services enable organizations to build, deploy, and manage applications in the cloud,
+               supporting a wide range of use cases and industries.{" "}
               </p>
             </div>
 
             <div className="services-details-image">
               <img
-                src="/images/services-details/service-details1.jpg"
+                src="/images/services-details/aws.jpg"
                 alt="image"
               />
             </div>
           </div>
 
-          <div className="services-details-overview">
+          {/* <div className="services-details-overview">
             <div className="services-details-image mb-30">
               <img
                 src="/images/services-details/service-details2.jpg"
@@ -114,7 +99,7 @@ const ServiceDetailsContent = () => {
                 </li>
               </ul>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </>

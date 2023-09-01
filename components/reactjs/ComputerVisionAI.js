@@ -7,22 +7,30 @@ const ComputerVisionAI = () => {
       <div className="computer-vision-ai-area ptb-100">
         <div className="container">
           <div className="row align-items-center">
-            <div className="col-lg-6 col-md-12">
+              {/* <div className="col-lg-6 col-md-12">
                 <div className="computer-vision-ai-image">
                   <img
                     src="/images/home-six/computer-vision/computer-vision-ai.png"
                     alt="image"
                   />
                 </div>
-              </div>
-            <div className="col-lg-6 col-md-6">
+              </div> */}
+            <div className="col-lg-12 col-md-12">
               <div className="computer-vision-ai-content">
-                <h3>
+                <h3 
+                  style={{
+                    textAlign:"center",
+                  }}
+                >
                 Google Cloud Services
                 </h3>
-                <p>Leveraging AI for Swift Development, Smart Features, Proactive Insights, and Premium Quality For Google Cloud</p>
+                <p 
+                  style={{
+                    textAlign:"center",
+                  }}
+                >Leveraging AI for Swift Development, Smart Features, Proactive Insights, and Premium Quality For Google Cloud</p>
 
-                <div className="row justify-content-center">
+                <div className="row">
                   <div className="col-lg-6 col-sm-6">
                     <div className="vision-ai-inner-card">
                       <div className="">

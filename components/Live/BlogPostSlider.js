@@ -6,7 +6,7 @@ import Link from "next/link";
 const BlogPostSlider = () => {
   return (
     <>
-      <div className="partner-section">
+      <div className="partner-section ptb-50">
         <div className="container">
           <div className="section-title">
             <h2>Our Latest Blogs</h2>
