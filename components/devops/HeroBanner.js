@@ -19,14 +19,21 @@ const HeroBanner = () => {
         <SwiperSlide>
           <div
             className="main-banner"
-            style={{ backgroundImage: `url(/images/banners/data-science-banner1.jpeg)` }}
+            style={{ backgroundImage: `url(/images/main-banner-bg1.jpg)` }}
           >
             <div className="container">
               <div className="main-banner-content">
-                <h1>Your Trusted Partner in Data Science & Analytics</h1>
+                <h1 style={{ color: "#fff" }}>  AI-Powered DevOps: Seamless Delivery & Elevated Software Excellence
+ </h1>
+                <p>
+                  Nearshore, offshore, onsite. Hire talent anywhere or let our
+                  experts unlock business value for you with bleeding edge
+                  technologies.
+                </p>
+
                 <div className="btn-box">
-                  <Link href="/contact/" className="btn btn-primary">
-                    Schedule a Call
+                  <Link href="/contact" className="btn btn-primary">
+                    Get in touch now
                   </Link>
                 </div>
               </div>

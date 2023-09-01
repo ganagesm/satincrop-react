@@ -5,6 +5,7 @@ import Industries from "../components/Live/Industries";
 import Testimonials from "../components/Live/Testimonials";
 import AboutUs from "../components/AIDrivenIoT/AboutUs";
 import WhyChooseUs from "../components/AIDrivenIoT/WhyChooseUs";
+import OurIndustry from "../components/Common/OurIndustry";
 // import Testimonials from "../components/AIDrivenIoT/Testimonials";
 import CaseStudiesSlider from "../components/Live/CaseStudiesSlider";
 import WhyTriosource from "../components/AIDrivenIoT/WhyTriosource";
@@ -23,6 +24,7 @@ const Index = () => {
       <Services />
       {/* <AboutUs /> */}
       <WhyChooseSAT />
+      <OurIndustry />
       <CaseStudiesSlider />
       <Testimonials />
       <Footer />

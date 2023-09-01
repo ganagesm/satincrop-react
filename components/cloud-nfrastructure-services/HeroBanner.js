@@ -23,7 +23,7 @@ const HeroBanner = () => {
           >
             <div className="container">
               <div className="main-banner-content">
-                <h1>Empowering Your Business with Cutting-Edge Cloud Infrastructure Services </h1>
+                <h1>Harnessing AI-Powered Cloud Solutions: The Next Wave of Digital Excellence</h1>
                 {/* <p> Faster Development with AI Integration, High-Quality Apps with Intelligent Features, Enhanced Security with AI-Driven Solutions, AI for Predictive Analysis and Smart Decision-Making </p> */}
 
                 <div className="btn-box">

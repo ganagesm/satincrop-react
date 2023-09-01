@@ -8,31 +8,8 @@ const ServiceDetailsContent = () => {
         <div className="container">
           <div className="services-details-overview">
             <div className="services-details-desc mb-30">
-              {/* <h3> Empowering Your Business with AI-Driven Data Science Services  </h3>
-              <p>At TrioSource, we believe that data is the cornerstone of every successful business. Leveraging the power of AI-driven data science, we offer a comprehensive suite of services designed to harness the full potential of your data.   </p> */}
-
-              <h3 className="pt-3 pb-3">Our Data Science Services</h3>
-              <ul>
-                <li> <strong> Business Intelligence & Analytics:</strong>
-                  Our Business Intelligence (BI) and Analytics solutions provide you with real-time, interactive dashboards and reports that give you a clear and comprehensive view of your business performance. With data visualization and advanced analytics, you can identify trends, patterns, and opportunities, empowering you to respond swiftly to changing market dynamics.
-                </li>
-                <li>
-                  <strong>Enterprise Data Warehousing:</strong> Our Enterprise Data Warehousing solutions ensure that your data is centralized, organized, and readily accessible for analysis. By integrating data from various sources into a unified warehouse, we create a reliable foundation for your data-driven initiatives.
-                </li>
-                <li>
-                  <strong>Big Data:</strong> With our Big Data expertise, we help you unlock the potential of large and complex datasets. Our data engineers and scientists are proficient in handling diverse data formats and utilize cutting-edge technologies like Hadoop and Spark to extract valuable insights from your Big Data.
-                </li>
-                <li>
-                  <strong>Data Science: </strong> Data Science is at the heart of what we do. Our data scientists employ advanced statistical modeling, machine learning algorithms, and predictive analytics to extract meaningful insights from your data. From predictive maintenance to customer churn analysis, we provide tailored solutions that address your specific business challenges.
-                </li>
-                <li>
-                  <strong>Data Integration & Processing: </strong> Efficient data integration and processing are vital for effective data analysis. We offer seamless data integration services that bring together data from multiple sources, ensuring data accuracy and consistency. Our data processing capabilities streamline data cleaning, transformation, and enrichment for more reliable results.
-                </li>
-              </ul>
-              <p></p>
-              <Link href="/contact/" className="btn btn-primary mt-20">
-                Know More
-              </Link>
+              <h3> Empowering Your Business with AI-Driven Data Science Services  </h3>
+              <p>At TrioSource, we believe that data is the cornerstone of every successful business. Leveraging the power of AI-driven data science, we offer a comprehensive suite of services designed to harness the full potential of your data.   </p>
             </div>
 
             <div className="services-details-image">

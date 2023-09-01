@@ -82,7 +82,7 @@ const Navbar = () => {
                   <li className="nav-item">
                     <Link
                       href="#"
-                      className={`nav-link ${currentPath == "/generativeAi" || currentPath === "/ai-machine-learning-services" || currentPath === "/frontend-development" || currentPath === "/ai-driven-iot" || currentPath === "/ai-machine-learning-services" || currentPath === "/data-science" || currentPath === "/cloud-infrastructure-services" ? "active"
+                      className={`nav-link ${currentPath == "/generativeAi" || currentPath === "/ai-machine-learning-services" || currentPath === "/frontend-development" || currentPath === "/ai-driven-iot" || currentPath === "/ai-machine-learning-services" || currentPath === "/data-science" || currentPath === "/cloud-infrastructure-services" || currentPath === "/rpa"|| currentPath === "/devops" ? "active"
                           : ""
                         }`}
                     >
@@ -127,7 +127,7 @@ const Navbar = () => {
                       </li>
                       <li className="nav-item">
                         <Link
-                          href="/rpa"
+                          href="/rpa/"
                           className={`nav-link ${currentPath == "/rpa" && "active"
                             }`}
                         >
@@ -136,8 +136,8 @@ const Navbar = () => {
                       </li>
                       <li className="nav-item">
                         <Link
-                          href="/ai-machine-learning-services"
-                          className={`nav-link ${currentPath == "/ai-machine-learning-services" && "active"
+                          href="/cloud-infrastructure-services"
+                          className={`nav-link ${currentPath == "/cloud-infrastructure-services" && "active"
                             }`}
                         >
                           Cloud Services
@@ -146,8 +146,8 @@ const Navbar = () => {
 
                       <li className="nav-item">
                         <Link
-                          href="/data-science"
-                          className={`nav-link ${currentPath == "/data-science" && "active"
+                          href="/devops"
+                          className={`nav-link ${currentPath == "/devops" && "active"
                             }`}
                         >
                           DevOps

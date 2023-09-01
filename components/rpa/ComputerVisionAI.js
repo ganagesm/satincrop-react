@@ -10,8 +10,7 @@ const ComputerVisionAI = () => {
             <div className="col-lg-12 col-md-12">
             <div className="section-title">
             {/* <h2>Mobile Development</h2> */}
-            <h2>Elevate Your Business with AI-Enhanced Cloud Services
-</h2>
+            <h2>We are using AI Technology for faster development, intelligent features, predictive analysis, and quality work for AI-Driven IoT and App Development.  </h2>
           </div>
               {/* <div className="computer-vision-ai-content">
                 <h3> Mobile Development </h3>
