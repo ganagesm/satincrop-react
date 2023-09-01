@@ -82,7 +82,7 @@ const Navbar = () => {
                   <li className="nav-item">
                     <Link
                       href="#"
-                      className={`nav-link ${currentPath == "/generativeAi" || currentPath === "/ai-machine-learning-services" || currentPath === "/UIUXSolutions" || currentPath === "/ai-driven-iot" || currentPath === "/ai-machine-learning-services" || currentPath === "/data-science" || currentPath === "/cloud-infrastructure-services" || currentPath === "/rpa"|| currentPath === "/devops" || currentPath === "/SoftwareApplication" ? "active"
+                      className={`nav-link ${currentPath == "/generativeAi" || currentPath === "/ai-machine-learning-services" || currentPath === "/frontend-development" || currentPath === "/ai-driven-iot" || currentPath === "/ai-machine-learning-services" || currentPath === "/data-science" || currentPath === "/cloud-infrastructure-services" || currentPath === "/rpa"|| currentPath === "/devops" || currentPath === "/mobile-app-development" || currentPath === "/software-quality-assurance" || currentPath === "/software-application-development" || currentPath === "/ui-ux-designer" ? "active"
                           : ""
                         }`}
                     >
@@ -164,8 +164,8 @@ const Navbar = () => {
                       </li>
                       <li className="nav-item">
                         <Link
-                          href="/SoftwareApplication"
-                          className={`nav-link ${currentPath == "/SoftwareApplication" && "active"
+                          href="/software-application-development"
+                          className={`nav-link ${currentPath == "/software-application-development" && "active"
                             }`}
                         >
                           Software Application development
@@ -173,8 +173,8 @@ const Navbar = () => {
                       </li>
                       <li className="nav-item">
                         <Link
-                          href="/cloud-infrastructure-services"
-                          className={`nav-link ${currentPath == "/cloud-infrastructure-services" && "active"
+                          href="/mobile-app-development"
+                          className={`nav-link ${currentPath == "/mobile-app-development" && "active"
                             }`}
                         >
                           Mobile App Development
@@ -182,8 +182,8 @@ const Navbar = () => {
                       </li>
                       <li className="nav-item">
                         <Link
-                          href="/cloud-infrastructure-services"
-                          className={`nav-link ${currentPath == "/cloud-infrastructure-services" && "active"
+                          href="/software-quality-assurance"
+                          className={`nav-link ${currentPath == "/software-quality-assurance" && "active"
                             }`}
                         >
                           Software Quality Assurance
