@@ -23,7 +23,7 @@ const HeroBanner = () => {
           >
             <div className="container">
               <div className="main-banner-content">
-                <h1>Unlocking the Power of Data Science with AI Assistance  </h1>
+                <h1>Your Trusted Partner in Data Science & Analytics</h1>
                 <div className="btn-box">
                   <Link href="/contact/" className="btn btn-primary">
                     Schedule a Call

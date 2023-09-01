@@ -7,24 +7,23 @@ const ServiceDetailsContent = () => {
         <div className="container">
           <div className="services-details-overview">
             <div className="services-details-desc mb-30">
-              <h3>What is React? </h3>
+              <h3>What is Google Cloud Services ?</h3>
               <p>
-                React is an open-source JavaScript library used to develop
-                front-end interfaces based on UI components. It benefits from a
-                wide community of developers and companies that make use of its
-                advantages, which makes it simpler to find resources and
-                collaborate with other developers.{" "}
+              Google Cloud Services is a comprehensive suite of cloud computing 
+              offerings provided by Google. It encompasses a wide range of cloud-based 
+              solutions, including computing power, storage, databases, networking, machine 
+              learning, analytics, and more. These services are designed to help businesses 
+              and developers build, deploy, and manage applications and services in a scalable 
+              and flexible cloud environment. Google Cloud Services enable organizations to 
+              leverage Google's global infrastructure and advanced technologies to drive innovation, 
+              enhance efficiency, and deliver better experiences to users and customers.{" "}
               </p>
-              <p>
-                Tech engineers can use React to develop mobile, single-page, and
-                server-rendered applications with several frameworks, such as
-                Next.js.{" "}
-              </p>
+              
             </div>
 
             <div className="services-details-image">
               <img
-                src="/images/services-details/service-details1.jpg"
+                src="/images/services-details/google-service.jpg"
                 alt="image"
               />
             </div>
