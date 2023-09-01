@@ -19,12 +19,15 @@ const HeroBanner = () => {
         <SwiperSlide>
           <div
             className="main-banner"
-            style={{ backgroundImage: `url(/images/man-using-smartphone-digital-remix.jpg)` }}
+            style={{ backgroundImage: `url(/images/sqt-over.jpeg)` }}
           >
             <div className="container">
               <div className="main-banner-content">
                 <h1>
-Revolutionizing Digital Solutions: AI-Powered Mastery by SA Technologies </h1>
+
+                Software Quality Assurance Services by SA Technologies
+
+                </h1>
                 {/* <p> Faster Development with AI Integration, High-Quality Apps with Intelligent Features, Enhanced Security with AI-Driven Solutions, AI for Predictive Analysis and Smart Decision-Making </p> */}
 
                 <div className="btn-box">
