@@ -7,37 +7,41 @@ const ComputerVisionAI = () => {
       <div className="computer-vision-ai-area ptb-100">
         <div className="container">
           <div className="row align-items-center">
-          <div className="col-lg-6 col-md-12">
-              <div className="computer-vision-ai-image">
-                <img
-                  src="/images/home-six/computer-vision/computer-vision-ai.png"
-                  alt="image"
-                />
+            <div className="col-lg-6 col-md-12">
+                <div className="computer-vision-ai-image">
+                  <img
+                    src="/images/home-six/computer-vision/computer-vision-ai.png"
+                    alt="image"
+                  />
+                </div>
               </div>
-            </div>
             <div className="col-lg-6 col-md-6">
               <div className="computer-vision-ai-content">
                 <h3>
-                Which technology companies are using React?.
+                Google Cloud Services
                 </h3>
-                <p>Many technology companies across various industries are using React for their web and mobile application development.</p>
+                <p>Leveraging AI for Swift Development, Smart Features, Proactive Insights, and Premium Quality For Google Cloud</p>
 
                 <div className="row justify-content-center">
                   <div className="col-lg-6 col-sm-6">
                     <div className="vision-ai-inner-card">
                       <div className="">
-                        <h4>Facebook</h4>
+                        <h4>Machine Learning and AI</h4>
                       </div>
-                      <p>React was originally developed by Facebook, and it continues to be extensively used within the company for building various products and features. The Facebook website, as well as components within the Facebook mobile app, are built with React.</p>
+                      <p>Not just technological trends, Machine Learning and AI offer businesses 
+                        the power of predictive analytics and automation, heralding an era of insightful, 
+                        data-informed decision-making.</p>
                     </div>
                   </div>
 
                   <div className="col-lg-6 col-sm-6">
                     <div className="vision-ai-inner-card">
                       <div className="">
-                        <h4>Instagram</h4>
+                        <h4>Infrastructure Modernisation</h4>
                       </div>
-                      <p>Instagram, which is owned by Facebook, also heavily relies on React for its web and mobile applications. React allows Instagram to create a fast and interactive user experience for browsing and sharing photos.</p>
+                      <p>As the tech landscape rapidly evolves, Infrastructure Modernisation is imperative. 
+                        It's about upgrading legacy systems to agile, scalable, future-centric platforms, 
+                        setting businesses at the forefront of their industries.</p>
                     </div>
                   </div>
 
@@ -45,18 +49,34 @@ const ComputerVisionAI = () => {
                     <div className="vision-ai-inner-card">
                       {/* <div className="content"> */}
                       <div className="">
-                        <h4>Netflix</h4>
+                        <h4>Google For Education</h4>
                       </div>
-                      <p> Netflix, the popular streaming service, utilizes React for its web application. React enables Netflix to deliver a smooth and responsive user interface, providing an optimal experience for users while browsing and streaming content.</p>
+                      <p>Google for Education transforms learning by infusing classrooms with digital tools,
+                        amplifying both engagement and collaboration for students and educators alike.</p>
                     </div>
                   </div>
                   <div className="col-lg-6 col-sm-6">
                     <div className="vision-ai-inner-card">
                       {/* <div className="content"> */}
                       <div className="">
-                        <h4>Airbnb</h4>
+                        <h4>Google Workspace</h4>
                       </div>
-                      <p> Airbnb, the online marketplace for lodging and homestays, has adopted React for its web application. React allows Airbnb to create a dynamic and intuitive user interface that facilitates searching, booking, and managing accommodations.</p>
+                      <p>More than just a toolset, Google Workspace offers a holistic platform for communication 
+                        and productivity, streamlining tasks from document creation to real-time collaboration.</p>
+                    </div>
+                  </div>
+                  <div className="col-lg-6 col-sm-6">
+                    <div className="vision-ai-inner-card">
+                      {/* <div className="content"> */}
+                      <div className="">
+                        <h4>Application Modernisation</h4>
+                      </div>
+                      <p>A vital step in digital transformation, Application Modernisation 
+                        focuses on updating older software applications to newer, more efficient standards, 
+                        enhancing functionality, user experience, and integration capabilities.
+                        Google For Education Google for Education transforms learning by infusing
+                        classrooms with digital tools, amplifying both engagement and collaboration for 
+                        students and educators alike.</p>
                     </div>
                   </div>
                 </div>

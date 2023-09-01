@@ -11,11 +11,12 @@ const Index = () => {
       <Navbar />
 
       <PageBanner
-        pageTitle="React Development Services"
+        pageTitle="Business Solutions using
+        Google Cloud"
         homePageUrl="/"
         homePageText="Technology"
-        activePageText="React"
-        bgImgClass="item-bg2"
+        activePageText="Google"
+        bgImgClass="item-bg3"
       />
 
       <TechDetailsContent />
