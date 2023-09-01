@@ -1,29 +1,29 @@
-
+import React from "react";
 import Navbar from "../components/Live/Navbar";
+import OffshorePageBanner from "../components/Live/OffshorePageBanner";
+import RpoServiceDetailsContent from "../components/Live/RpoServiceDetailsContent";
+import RpoServices from "../components/Live/RpoServices";
+import NearshoringTestimonials from "../components/Live/NearshoringTestimonials";
 import Footer from "../components/Live/Footer";
-import Services from "../components/rails/Services";
-import ComputerVisionAI from "../components/rails/ComputerVisionAI";
-import PageBanner from "../components/rails/PageBanner";
-import TechDetailsContent from "../components/rails/TechDetailsContent";
-import MainServices from "../components/Live/MainServices";
-import BlogPostSlider from "../components/Live/BlogPostSlider";
-import ContactForm from "../components/Contact/ContactForm";
 import Link from "next/link";
-const Index = () => {
+import PartnerContent from "../components/Live/PartnerContent";
+import OurIndustry from "../components/Common/OurIndustry";
+import ContactForm from "../components/Contact/ContactForm";
+import BlogPostSlider from "../components/Live/BlogPostSlider";
+
+const ServiceDetails = () => {
   return (
     <>
       <Navbar />
-
-      <PageBanner
-        pageTitle="ServiceNow Consulting and Implementation Services"
+      <OffshorePageBanner
+        pageTitle="SA Technologies: Crafting Future Workforces through RPO Excellence"
         homePageUrl="/"
-        homePageText="Technology"
-        activePageText="ServiceNow"
-        bgImgClass="item-bg7"
+        homePageText="Home"
+        activePageText="RPO"
+        bgImgClass="item-bg9"
       />
-
-      <TechDetailsContent />
-      <ComputerVisionAI />
+      <RpoServices />
+      {/* <RpoServiceDetailsContent /> */}
         <div className="col-lg-12 col-md-12">
           <div className="ai-all-services-btn ptb-50">
             <Link href="#contact" className="btn btn-primary">
@@ -31,10 +31,14 @@ const Index = () => {
             </Link>
           </div>
         </div>
-      <MainServices />
-      <BlogPostSlider />
 
-      <section className="contact-area pb-100">
+      <PartnerContent />
+
+      <OurIndustry />
+
+      <NearshoringTestimonials />
+      <BlogPostSlider />
+      <section className="contact-area ptb-100">
         <div className="container">
           <div className="section-title">
             <h2>Connect With Us</h2>
@@ -55,12 +59,9 @@ const Index = () => {
           </div>          
         </div>
       </section>
-
-      {/*<Services />
-       <BlogPost /> */}
-
       <Footer />
     </>
-  )
-}
-export default Index;
+  );
+};
+
+export default ServiceDetails;

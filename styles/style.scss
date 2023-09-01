@@ -3551,8 +3551,39 @@ Page Title Area CSS
     }
     &.item-bg3 {
         background: {
-            image: url(/images/technology-banner/google-banner.jpg);
+            image: url(/images/technology-banner/oracle-banner.jpg);
         }
+        
+    }
+    &.item-bg4 {
+        background: {
+            image: url(/images/technology-banner/oracle-banner.jpg);
+        }
+        
+    }
+    &.item-bg5 {
+        background: {
+            image: url(/images/technology-banner/aws-banner.jpg);
+        }
+        
+    }
+    &.item-bg6 {
+        background: {
+            image: url(/images/technology-banner/saleforce-banner.png);
+        }
+        
+    }
+    &.item-bg7 {
+        background: {
+            image: url(/images/technology-banner/servicenow-banner.jpg);
+        }
+        
+    }
+    &.item-bg8 {
+        background: {
+            image:  url(/images/technology-banner/Contingent.jpg);
+        }
+        
     }
 }
 .page-title-content {

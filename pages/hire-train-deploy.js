@@ -1,32 +1,29 @@
-
+import React from "react";
 import Navbar from "../components/Live/Navbar";
-import Footer from "../components/Live/Footer";
-import Services from "../components/kubernetes/Services";
-import ComputerVisionAI from "../components/kubernetes/ComputerVisionAI";
-import PageBanner from "../components/kubernetes/PageBanner";
-import TechDetailsContent from "../components/kubernetes/TechDetailsContent";
-import MainServices from "../components/Live/MainServices";
-import BlogPostSlider from "../components/Live/BlogPostSlider";
-import ContactForm from "../components/Contact/ContactForm";
+import OnsitePageBanner from "../components/Live/OnsitePageBanner";
+import HiretraindeployServices from "../components/Live/HiretraindeployServices";
+import NearshoringTestimonials from "../components/Live/NearshoringTestimonials";
 import Link from "next/link";
+import PartnerContent from "../components/Live/PartnerContent";
+import OurIndustry from "../components/Common/OurIndustry";
+import ContactForm from "../components/Contact/ContactForm";
+import BlogPostSlider from "../components/Live/BlogPostSlider";
+import Footer from "../components/Live/Footer";
 
-
-const Index = () => {
+const ServiceDetails = () => {
   return (
     <>
       <Navbar />
-
-      <PageBanner
-        pageTitle="Redefining Horizons with Microsoft Cloud Evolution"
+      <OnsitePageBanner
+        pageTitle="Hire, Train, deploy: Nurturing Talent from Start to Success."
         homePageUrl="/"
-        homePageText="Technology"
-        activePageText="Microsoft"
-        bgImgClass="item-bg2"
+        homePageText="Home"
+        activePageText="Hire, Train, deploy"
+        bgImgClass="item-bg10"
       />
+      <HiretraindeployServices />
+      
 
-      <TechDetailsContent />
-      <ComputerVisionAI />
-      {/* <Services /> */}
       <div className="col-lg-12 col-md-12">
           <div className="ai-all-services-btn ptb-50">
             <Link href="#contact" className="btn btn-primary">
@@ -34,9 +31,14 @@ const Index = () => {
             </Link>
           </div>
         </div>
-      <MainServices />
-      <BlogPostSlider />
 
+      <PartnerContent />
+
+      <OurIndustry />
+
+      <NearshoringTestimonials />
+
+      <BlogPostSlider />
       <section className="contact-area pb-100">
         <div className="container">
           <div className="section-title">
@@ -58,10 +60,9 @@ const Index = () => {
           </div>          
         </div>
       </section>
-
-      {/* <ContactForm /> */}
       <Footer />
     </>
-  )
-}
-export default Index;
+  );
+};
+
+export default ServiceDetails;

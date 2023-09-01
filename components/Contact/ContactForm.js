@@ -58,7 +58,7 @@ const ContactForm = () => {
 
   return (
     <>
-      <form onSubmit={handleSubmit}>
+      <form id="contact" onSubmit={handleSubmit}>
         <div className="row">
           <div className="col-lg-6 col-md-6">
             <div className="form-group">
