@@ -33,92 +33,44 @@ const TechSlider = () => {
           >
             <SwiperSlide>
               <div className="single-partner-item">
-                <a href="/google/" target="_blank" rel="noreferrer">
-                  <img
-                    src="/images/icons/google.svg"
-                    alt="image"
-                    style={{
-                      width: "1%",
-                      textAlign: "center",
-                      marginTop: "10px",
-                    }}
-                  />
+                <a href="" target="_blank" rel="noreferrer">
+                  Google
                 </a>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="single-partner-item">
-                <a href="/microsoft/" target="_blank" rel="noreferrer">
-                <img
-                    src="/images/icons/microsoft.svg"
-                    alt="image"
-                    style={{
-                      width: "1%",
-                      textAlign: "center",
-                      marginTop: "10px",
-                    }}
-                  />
+                <a href="" target="_blank" rel="noreferrer">
+                  Microsoft
                 </a>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="single-partner-item">
-                <a href="/oracle/" target="_blank" rel="noreferrer">
-                <img
-                    src="/images/icons/oracle-database.svg"
-                    alt="image"
-                    style={{
-                      width: "1%",
-                      textAlign: "center",
-                      marginTop: "10px",
-                    }}
-                  />
+                <a href="" target="_blank" rel="noreferrer">
+                 Oracle
                 </a>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="single-partner-item">
-                <a href="/aws/" target="_blank" rel="noreferrer">
-                <img
-                    src="/images/icons/amazon_web_services.svg"
-                    alt="image"
-                    style={{
-                      width: "1%",
-                      textAlign: "center",
-                      marginTop: "10px",
-                    }}
-                  />
+                <a href="" target="_blank" rel="noreferrer">
+                 Aws
                 </a>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="single-partner-item">
-                <a href="/salesforce/" target="_blank" rel="noreferrer">
-                <img
-                    src="/images/icons/salesforce.svg"
-                    alt="image"
-                    style={{
-                      width: "1%",
-                      textAlign: "center",
-                      marginTop: "10px",
-                    }}
-                  />
+                <a href="" target="_blank" rel="noreferrer">
+                 Salesforce
                 </a>
               </div>
             </SwiperSlide>
 
             <SwiperSlide>
               <div className="single-partner-item">
-                <a href="/servicenow/" target="_blank" rel="noreferrer">
-                <img
-                    src="/images/icons/servicenow.svg"
-                    alt="image"
-                    style={{
-                      width: "1%",
-                      textAlign: "center",
-                      marginTop: "10px",
-                    }}
-                  />
+                <a href="" target="_blank" rel="noreferrer">
+                Servicenow
                 </a>
               </div>
             </SwiperSlide>

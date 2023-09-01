@@ -19,12 +19,16 @@ const HeroBanner = () => {
         <SwiperSlide>
           <div
             className="main-banner"
-            style={{ backgroundImage: `url(/images/icons/home-banner-8.jpeg)` }}
+            style={{ backgroundImage: `url(/images/main-banner-bg1.jpg)` }}
           >
             <div className="container">
               <div className="main-banner-content">
-                <h1 style={{ color: "#fff" }}> AI-First Trained Offshore Software Development Teams </h1>
-                {/* <p> Nearshore, offshore, onsite. Hire talent anywhere or let our experts unlock business value for you with bleeding edge technologies. </p> */}
+                <h1 style={{ color: "#fff" }}> Leading the Way in Modern Software Application Development </h1>
+                <p>
+                  Nearshore, offshore, onsite. Hire talent anywhere or let our
+                  experts unlock business value for you with bleeding edge
+                  technologies.
+                </p>
 
                 <div className="btn-box">
                   <Link href="/contact" className="btn btn-primary">

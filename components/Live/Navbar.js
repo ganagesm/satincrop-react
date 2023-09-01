@@ -82,7 +82,7 @@ const Navbar = () => {
                   <li className="nav-item">
                     <Link
                       href="#"
-                      className={`nav-link ${currentPath == "/generativeAi" || currentPath === "/ai-machine-learning-services" || currentPath === "/frontend-development" || currentPath === "/ai-driven-iot" || currentPath === "/ai-machine-learning-services" || currentPath === "/data-science" || currentPath === "/cloud-infrastructure-services" || currentPath === "/rpa"|| currentPath === "/devops" ? "active"
+                      className={`nav-link ${currentPath == "/generativeAi" || currentPath === "/ai-machine-learning-services" || currentPath === "/UIUXSolutions" || currentPath === "/ai-driven-iot" || currentPath === "/ai-machine-learning-services" || currentPath === "/data-science" || currentPath === "/cloud-infrastructure-services" || currentPath === "/rpa"|| currentPath === "/devops" || currentPath === "/SoftwareApplication" ? "active"
                           : ""
                         }`}
                     >
@@ -155,8 +155,8 @@ const Navbar = () => {
                       </li>
                       <li className="nav-item">
                         <Link
-                          href="/cloud-infrastructure-services"
-                          className={`nav-link ${currentPath == "/cloud-infrastructure-services" && "active"
+                          href="/UIUXSolutions"
+                          className={`nav-link ${currentPath == "/UIUXSolutions" && "active"
                             }`}
                         >
                           UI & UX Design
@@ -164,8 +164,8 @@ const Navbar = () => {
                       </li>
                       <li className="nav-item">
                         <Link
-                          href="/cloud-infrastructure-services"
-                          className={`nav-link ${currentPath == "/cloud-infrastructure-services" && "active"
+                          href="/SoftwareApplication"
+                          className={`nav-link ${currentPath == "/SoftwareApplication" && "active"
                             }`}
                         >
                           Software Application development
