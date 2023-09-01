@@ -7,18 +7,26 @@ import HeroBanner from "../components/cloud-nfrastructure-services/HeroBanner";
 import WhyTriosource from "../components/cloud-nfrastructure-services/WhyTriosource";
 import ComputerVisionAI from "../components/cloud-nfrastructure-services/ComputerVisionAI";
 import TechDetailsContent from "../components/cloud-nfrastructure-services/TechDetailsContent";
+import OurIndustry from "../components/Common/OurIndustry";
+import BlogPostSlider from "../components/Live/BlogPostSlider";
+import CaseStudiesPost from "../components/Live/CaseStudiesPost";
+import WhyChooseSAT from "../components/cloud-nfrastructure-services/WhyChooseSAT";
+import Services from "../components/cloud-nfrastructure-services/Services";
 
 const Index = () => {
   return (
     <>
       <Navbar />
       <HeroBanner />
-      <ComputerVisionAI />
+      {/* <ComputerVisionAI /> */}
       <TechDetailsContent />
-      <Industries />
-      <WhyTriosource />
+      <Services />
+      <WhyChooseSAT />
+      <OurIndustry />
       <CaseStudiesSlider />
       <Testimonials />
+      <BlogPostSlider />
+      <CaseStudiesPost />
       <Footer />
     </>
   )

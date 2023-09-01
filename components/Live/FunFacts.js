@@ -10,15 +10,15 @@ const FunFacts = () => {
             <h2>Kubernetes to Kotlin.</h2>
             <h2>Triosource has you covered.</h2>
             <p>
-            Engineers across any stack and any scale. Just chose an engagement model and share your requirements. We'll take care of the rest.
+              Engineers across any stack and any scale. Just chose an engagement model and share your requirements. We'll take care of the rest.
             </p>
           </div>
           <div className="contact-cta-box">
-                <h3>Get in touch now</h3>
-                <p>Call or chat with us to learn about our work and how we can help scale your teams.</p>
-                <Link href="/contact/" target="_blank" className="btn btn-primary">
-                Schedule a callback<span></span>
-                </Link>
+            <h3>Get in touch now</h3>
+            <p>Call or chat with us to learn about our work and how we can help scale your teams.</p>
+            <Link href="/contact/" target="_blank" className="btn btn-primary">
+              Schedule a callback<span></span>
+            </Link>
           </div>
         </div>
         {/* Shape Images  */}

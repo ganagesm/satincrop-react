@@ -7,7 +7,7 @@ const Services = () => {
       <section className="services-area bg-f2f6f9 ptb-110">
         <div className="container">
           <div className="section-title">
-            <h2>Flexible engagements.</h2>
+            <h2>Whats we Offer</h2>
             <h2> we'll work how you work.</h2>
             <p>
               Our outsourced engineers can plug directly into your teams.
@@ -22,7 +22,7 @@ const Services = () => {
               <div className="single-services-box">
                 <div className="icon">
                   <img
-                    src="/images/software-engineer.svg"
+                   src="/images/icons/artificial-intelligence-1.svg"
                     alt="image"
                     style={{
                       width: "75%",
@@ -33,16 +33,13 @@ const Services = () => {
                 </div>
                 <h2>
                   <Link href="/nearshore">
-                    Nearshoring
-                    <h3 style={{ color: "darkgray" }}>
+                    Generative AI
+                    {/* <h3 style={{ color: "darkgray" }}>
                       Talent in your time zone
-                    </h3>
+                    </h3> */}
                   </Link>
                 </h2>
-                <p>
-                  Engineers online when you are. On contract, full time, or
-                  project based work.
-                </p>
+                <p>Artificial Intelligence (AI) is reshaping various industries by streamlining processes, enhancing efficiency, and enabling innovative solutions.</p>
               </div>
             </div>
 
@@ -50,7 +47,7 @@ const Services = () => {
               <div className="single-services-box">
                 <div className="icon">
                   <img
-                    src="/images/offshore.svg"
+                    src="/images/icons/machine-learning.svg"
                     alt="image"
                     style={{
                       width: "75%",
@@ -61,14 +58,11 @@ const Services = () => {
                 </div>
                 <h2>
                   <Link href="/offshore">
-                    Offshore
-                    <h3 style={{ color: "darkgray" }}>Talent at scale</h3>
+                  Machine Learning
+                    {/* <h3 style={{ color: "darkgray" }}>Talent at scale</h3> */}
                   </Link>
                 </h2>
-                <p>
-                  Build out teams by the hundreds. Vetted technology talent and
-                  hyper competitive rates.
-                </p>
+                <p>Elevate user experiences and site performance through cutting-edge machine learning. From predictive insights to dynamic personalization, our services empower your website to excel in the digital landscape</p>
               </div>
             </div>
 
@@ -76,7 +70,7 @@ const Services = () => {
               <div className="single-services-box">
                 <div className="icon">
                   <img
-                    src="/images/clipboard-list.svg"
+                    src="/images/icons/iot-services.svg"
                     alt="image"
                     style={{
                       width: "75%",
@@ -87,14 +81,83 @@ const Services = () => {
                 </div>
                 <h2>
                   <Link href="/onsite">
-                    Onsite
-                    <h3 style={{ color: "darkgray" }}>Talent at home</h3>
+                  IoT services
+                    {/* <h3 style={{ color: "darkgray" }}>Talent at home</h3> */}
                   </Link>
                 </h2>
-                <p>
-                  Let our teams focus on the vetting process while you deliver
-                  for your customers
-                </p>
+                <p>The world is swiftly evolving into a digital ecosystem with interconnectedness at its core. At SA Technologies, we lead this transformation by providing cutting-edge AI and IoT (Internet of Things) solutions, ensuring intelligent connectivity for the future. </p>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-4 col-sm-6">
+              <div className="single-services-box">
+                <div className="icon">
+                  <img
+                    src="/images/icons/data-science.svg"
+                    alt="image"
+                    style={{
+                      width: "75%",
+                      textAlign: "center",
+                      marginTop: "10px",
+                    }}
+                  />
+                </div>
+                <h2>
+                  <Link href="/nearshore">
+                  Data Science & Analytics
+                    {/* <h3 style={{ color: "darkgray" }}>
+                      Talent in your time zone
+                    </h3> */}
+                  </Link>
+                </h2>
+                <p>In today's era of exponential data growth, harnessing AI to extract meaningful insights from raw data has become pivotal for success.</p>
+              </div>
+            </div>
+
+            <div className="col-lg-4 col-sm-6">
+              <div className="single-services-box">
+                <div className="icon">
+                  <img
+                   src="/images/icons/rpa.svg"
+                    alt="image"
+                    style={{
+                      width: "75%",
+                      textAlign: "center",
+                      marginTop: "10px",
+                    }}
+                  />
+                </div>
+                <h2>
+                  <Link href="/offshore">
+                  RPA
+                    {/* <h3 style={{ color: "darkgray" }}>Talent at scale</h3> */}
+                  </Link>
+                </h2>
+                <p>Dive into SAT Technologies AI-enhanced UI/UX offerings, seamlessly bridging the divide between cognitive thought and your advanced digital services.</p>
+              </div>
+            </div>
+
+            <div className="col-lg-4 col-sm-6">
+              <div className="single-services-box">
+                <div className="icon">
+                  <img
+                    src="/images/icons/cloud-connections.svg"
+                    alt="image"
+                    style={{
+                      width: "75%",
+                      textAlign: "center",
+                      marginTop: "10px",
+                    }}
+                  />
+                </div>
+                <h2>
+                  <Link href="/onsite">
+                  Cloud Services
+                    {/* <h3 style={{ color: "darkgray" }}>Talent at home</h3> */}
+                  </Link>
+                </h2>
+                <p>Harness the synergy of cloud and AI for optimal results. Achieve unmatched flexibility, speed-to-market, and cost efficiency with AI-enhanced cloud solutions. </p>
               </div>
             </div>
           </div>
