@@ -11,7 +11,7 @@ const ServiceDetails = () => {
     <>
       <Navbar />
       <PageBanner
-        pageTitle="Nearshore Development Teams - Talent in your time zone"
+        pageTitle="Nearshore Development Squads - Skilled Experts Aligned with Your Time Zone"
         homePageUrl="/"
         homePageText="Home"
         activePageText="Nearshore"
