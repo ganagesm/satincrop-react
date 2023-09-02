@@ -23,13 +23,13 @@ const HeroBanner = () => {
           >
             <div className="container">
               <div className="main-banner-content">
-                <h1 style={{ color: "#fff" }}>  AI-Powered DevOps: Seamless Delivery & Elevated Software Excellence
+                <h1 style={{ color: "#fff" }}>  Transform the Future with Our DevOps Excellence
  </h1>
-                <p>
+                {/* <p>
                   Nearshore, offshore, onsite. Hire talent anywhere or let our
                   experts unlock business value for you with bleeding edge
                   technologies.
-                </p>
+                </p> */}
 
                 <div className="btn-box">
                   <Link href="/contact" className="btn btn-primary">

@@ -11,11 +11,11 @@ const Services = () => {
 
 
             </h2>
-            <p>It's important to note that while generative AI can automate and enhance content creation and services, human oversight and intervention are still essential to ensure quality, ethical considerations, and adherence to desired outcomes.</p>
+            {/* <p>It's important to note that while generative AI can automate and enhance content creation and services, human oversight and intervention are still essential to ensure quality, ethical considerations, and adherence to desired outcomes.</p> */}
           </div>
 
           <div className="row">
-            <div className="col-lg-4 col-sm-6">
+            <div className="col-lg-6 col-sm-6">
               <div className="single-services-box" style={{ height: "220px" }}>
                 <h2>Data Strategy and Consulting
                 </h2>
@@ -26,7 +26,7 @@ const Services = () => {
               </div>
             </div>
 
-            <div className="col-lg-4 col-sm-6">
+            <div className="col-lg-6 col-sm-6">
               <div className="single-services-box" style={{ height: "220px" }}>
                 <h2>BI & Visualization
 
@@ -36,7 +36,7 @@ const Services = () => {
                 </p>
               </div>
             </div>
-            <div className="col-lg-4 col-sm-6">
+            <div className="col-lg-6 col-sm-6">
               <div className="single-services-box" style={{ height: "220px" }}>
                 <h2>Big Data Processing & Analysis
 
@@ -45,7 +45,7 @@ const Services = () => {
                 </p>
               </div>
             </div>
-            <div className="col-lg-4 col-sm-6">
+            <div className="col-lg-6 col-sm-6">
               <div className="single-services-box" style={{ height: "220px" }}>
                 <h2>Marketing Analytics
 

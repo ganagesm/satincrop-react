@@ -8,8 +8,10 @@ const ServiceDetailsContent = () => {
         <div className="container">
           <div className="services-details-overview">
             <div className="services-details-desc mb-30">
-              <h3> Artificial Intelligence and Machine Learning: </h3>
-              <p> Building Smart Businesses. Make your business intelligent, self-reliant and automated with artificial Intelligence and serve business-specific solutions to your customers. </p>
+              <h3> Artificial Intelligence and Machine Learning </h3>
+              <p>
+                In today's rapidly evolving business landscape, the key to success lies in harnessing the power of artificial intelligence (AI) to create intelligent, self-reliant, and automated enterprises. At SA Technologies, we specialize in providing cutting-edge AI solutions that are tailored to the unique needs of your business. Our goal is to empower you to not only meet but exceed customer expectations by delivering business-specific solutions that are powered by AI technology.
+              </p>
             </div>
 
             <div className="services-details-image">

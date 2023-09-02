@@ -30,7 +30,7 @@ const ServiceDetailsContent = () => {
           <div className="services-details-overview">
             <div className="services-details-image">
               <img
-                src="/images/banners/frontend-development-020.jpeg"
+                src="/images/rpa-concept-with-hands-holding-tablet.jpg"
                 alt="image"
               />
             </div>

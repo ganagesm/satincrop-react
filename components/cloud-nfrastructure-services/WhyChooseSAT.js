@@ -22,7 +22,7 @@ const ComputerVisionAI = () => {
 
 
                 </h3>
-                <p>They serve as a way to extract and isolate business logic from the controllers or models of a Rails application, promoting cleaner code organization, reusability, and testability.</p>
+                {/* <p>They serve as a way to extract and isolate business logic from the controllers or models of a Rails application, promoting cleaner code organization, reusability, and testability.</p> */}
 
                 <div className="row justify-content-center">
                   <div className="col-lg-6 col-sm-6">

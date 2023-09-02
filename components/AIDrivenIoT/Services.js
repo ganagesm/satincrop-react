@@ -10,7 +10,7 @@ const Services = () => {
             <h2>Our Comprehensive IoT Services
 
             </h2>
-            <p>It's important to note that while generative AI can automate and enhance content creation and services, human oversight and intervention are still essential to ensure quality, ethical considerations, and adherence to desired outcomes.</p>
+            {/* <p>It's important to note that while generative AI can automate and enhance content creation and services, human oversight and intervention are still essential to ensure quality, ethical considerations, and adherence to desired outcomes.</p> */}
           </div>
 
           <div className="row">

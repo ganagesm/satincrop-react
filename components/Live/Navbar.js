@@ -100,8 +100,8 @@ const Navbar = () => {
                       </li>
                       <li className="nav-item">
                         <Link
-                          href="/ai-machine-learning-services/"
-                          className={`nav-link ${currentPath == "/ai-machine-learning-services/" && "active"
+                          href="/ai-machine-learning-services"
+                          className={`nav-link ${currentPath == "/ai-machine-learning-services" && "active"
                             }`}
                         >
                           Machine Learning
