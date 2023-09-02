@@ -5,6 +5,7 @@ import ServiceDetailsContent from "../components/Services/ServiceDetailsContent"
 import NearshoringServices from "../components/Live/NearshoringServices";
 import NearshoringTestimonials from "../components/Live/NearshoringTestimonials";
 import Footer from "../components/Live/Footer";
+import Testimonials from "../components/Live/Testimonials";
 
 const ServiceDetails = () => {
   return (
@@ -19,7 +20,7 @@ const ServiceDetails = () => {
       />
       <NearshoringServices />
       <ServiceDetailsContent />
-      <NearshoringTestimonials />
+      <Testimonials />
       <Footer />
     </>
   );

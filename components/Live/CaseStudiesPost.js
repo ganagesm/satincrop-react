@@ -22,7 +22,7 @@ const BlogPostsSection = () => {
             >
               <div className="single-blog-post">
                 <div className="entry-thumbnail">
-                  <Link href="/swiftly-case-studies/">
+                  <Link href="/sa-technologies-partner-for-a-world-class-fin-tech-firm/">
                     <img src="/images/blog/blog1.jpg" alt="image" />
                   </Link>
                 </div>
@@ -34,12 +34,12 @@ const BlogPostsSection = () => {
                     </ul>
                   </div>
                   <h3>
-                    <Link href="/swiftly-case-studies/">
-                      Swiftly's secret nearshore weapon
+                    <Link href="/sa-technologies-partner-for-a-world-class-fin-tech-firm/">
+                      SA Technologies Partner for a world-class Fin-tech firm
                     </Link>
                   </h3>
                   <p>
-                  In 2023, Swiftly, a cutting-edge retail technology platform, was in a difficult position. They were struggling to find the right software engineers for their growing roster of projects.
+                  SA Technologies is a IT Company and quality assurance company that has worked with various clients from different industries over the years. 
                   </p>
                   <Link href="/blog-details" className="learn-more-btn">
                     Read More <i className="flaticon-add"></i>
@@ -56,7 +56,7 @@ const BlogPostsSection = () => {
             >
               <div className="single-blog-post">
                 <div className="entry-thumbnail">
-                  <Link href="/Supercharges-case-studies/">
+                  <Link href="case-study-on-sa-technologies-partner-for-a-world-class-fin-tech-firm/">
                     <img src="/images/blog/blog2.jpg" alt="image" />
                   </Link>
                 </div>
@@ -69,15 +69,16 @@ const BlogPostsSection = () => {
                   </div>
 
                   <h3>
-                    <Link href="/Supercharges-case-studies/">
-                    Triosource Supercharges Sharpz's React Native App Development
+                    <Link href="case-study-on-sa-technologies-partner-for-a-world-class-fin-tech-firm/">
+                    A US-based Water Meter Manufacturing Giant Achieved a 60%
+
                     </Link>
                   </h3>
                   <p>
-                  Sharpz is a sports betting social network, with a pre-existing iOS app. Their platform allows users to create an account, link to their online sports-books.
+                  The objective of this case study is to highlight how a US-based water meter manufacturing giant achieved a 60% reduction
                   </p>
 
-                  <Link href="/Supercharges-case-studies/" className="learn-more-btn">
+                  <Link href="case-study-on-sa-technologies-partner-for-a-world-class-fin-tech-firm/" className="learn-more-btn">
                     Read More <i className="flaticon-add"></i>
                   </Link>
                 </div>
@@ -92,7 +93,7 @@ const BlogPostsSection = () => {
             >
               <div className="single-blog-post">
                 <div className="entry-thumbnail">
-                  <Link href="/generative-ai-case-studies/">
+                  <Link href="/performance-testing-enabled-a-top-tier-insurance-company/">
                     <img src="/images/blog/blog3.jpg" alt="image" />
                   </Link>
                 </div>
@@ -105,15 +106,16 @@ const BlogPostsSection = () => {
                   </div>
 
                   <h3>
-                    <Link href="/generative-ai-case-studies/">
-                    Harnessing Generative AI In Custom Development Environments
+                    <Link href="/performance-testing-enabled-a-top-tier-insurance-company/">
+                    Performance testing has enabled a top-tier insurance company to
+
                     </Link>
                   </h3>
                   <p>
-                  Generative Artificial Intelligence (AI) is revolutionizing the way developers create custom solutions. This case study explores the success story of TechGen.
+                  SA Technologies is an IT Company that provides a range of testing services to businesses across industries.
                   </p>
 
-                  <Link href="/generative-ai-case-studies/" className="learn-more-btn">
+                  <Link href="/performance-testing-enabled-a-top-tier-insurance-company/" className="learn-more-btn">
                     Read More <i className="flaticon-add"></i>
                   </Link>
                 </div>

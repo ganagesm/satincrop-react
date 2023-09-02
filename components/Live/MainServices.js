@@ -23,7 +23,7 @@ const MainServices = () => {
                   }}
                 />
                 <h3>
-                  <Link href="/service-details">
+                  <Link href="#contact">
                     Education
                   </Link>
                 </h3>
@@ -31,7 +31,7 @@ const MainServices = () => {
                   Elevate learning experiences with innovative tools and immersive content.
                 </p>
 
-                <Link href="/service-details" className="link-btn">
+                <Link href="#contact" className="link-btn">
                   Read More
                 </Link>
               </div>
@@ -43,13 +43,13 @@ const MainServices = () => {
                   <i className="flaticon-neural"></i>
                 </div>
                 <h3>
-                  <Link href="/service-details">Government</Link>
+                  <Link href="#contact">Government</Link>
                 </h3>
                 <p>
                   Reimagine governance with streamlined processes and citizen-centric solutions.
                 </p>
 
-                <Link href="/service-details" className="link-btn">
+                <Link href="#contact" className="link-btn">
                   Read More
                 </Link>
               </div>
@@ -61,12 +61,12 @@ const MainServices = () => {
                   <i className="flaticon-machine-learning"></i>
                 </div>
                 <h3>
-                  <Link href="/service-details">Healthcare</Link>
+                  <Link href="#contact">Healthcare</Link>
                 </h3>
                 <p> Optimize patient outcomes with cutting-edge technology and personalized care.
                 </p>
 
-                <Link href="/service-details" className="link-btn">
+                <Link href="#contact" className="link-btn">
                   Read More
                 </Link>
               </div>
@@ -77,7 +77,7 @@ const MainServices = () => {
                   <i className="flaticon-robot-1"></i>
                 </div>
                 <h3>
-                  <Link href="/service-details">
+                  <Link href="#contact">
                     Media and Entertainment
                   </Link>
                 </h3>
@@ -85,7 +85,7 @@ const MainServices = () => {
                   Revolutionize your media experience with enhanced creativity & superior audience engagement.
                 </p>
 
-                <Link href="/service-details" className="link-btn">
+                <Link href="#contact" className="link-btn">
                   Read More
                 </Link>
               </div>
@@ -97,13 +97,13 @@ const MainServices = () => {
                   <i className="flaticon-neural"></i>
                 </div>
                 <h3>
-                  <Link href="/service-details">Manufacturing</Link>
+                  <Link href="#contact">Manufacturing</Link>
                 </h3>
                 <p>
                   Revolutionizing production lines with smart, sustainable, and scalable solutions.
                 </p>
 
-                <Link href="/service-details" className="link-btn">
+                <Link href="#contact" className="link-btn">
                   Read More
                 </Link>
               </div>
@@ -115,12 +115,12 @@ const MainServices = () => {
                   <i className="flaticon-machine-learning"></i>
                 </div>
                 <h3>
-                  <Link href="/service-details">Semiconductor</Link>
+                  <Link href="#contact">Semiconductor</Link>
                 </h3>
                 <p> Powering the next tech revolution with advanced chip solutions and innovations.
                 </p>
 
-                <Link href="/service-details" className="link-btn">
+                <Link href="#contact" className="link-btn">
                   Read More
                 </Link>
               </div>
@@ -131,14 +131,14 @@ const MainServices = () => {
                   <i className="flaticon-robot-1"></i>
                 </div>
                 <h3>
-                  <Link href="/service-details">
+                  <Link href="#contact">
                     IT Product and services
                   </Link>
                 </h3>
                 <p>
                   Driving digital transformation with state-of-the-art IT solutions and unparalleled services. </p>
 
-                <Link href="/service-details" className="link-btn">
+                <Link href="#contact" className="link-btn">
                   Read More
                 </Link>
               </div>
@@ -150,7 +150,7 @@ const MainServices = () => {
                   <i className="flaticon-neural"></i>
                 </div>
                 <h3>
-                  <Link href="/service-details">Retail</Link>
+                  <Link href="#contact">Retail</Link>
                 </h3>
                 <p>
                   Redefining shopping experiences with curated solutions and omnichannel engagement.
@@ -158,7 +158,7 @@ const MainServices = () => {
 
                 </p>
 
-                <Link href="/service-details" className="link-btn">
+                <Link href="#contact" className="link-btn">
                   Read More
                 </Link>
               </div>
@@ -170,14 +170,14 @@ const MainServices = () => {
                   <i className="flaticon-machine-learning"></i>
                 </div>
                 <h3>
-                  <Link href="/service-details">FMCD</Link>
+                  <Link href="#contact">FMCD</Link>
                 </h3>
                 <p> Enhancing consumer lifestyles with dynamic, durable, and dependable products.
 
 
                 </p>
 
-                <Link href="/service-details" className="link-btn">
+                <Link href="#contact" className="link-btn">
                   Read More
                 </Link>
               </div>

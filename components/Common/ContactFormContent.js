@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import ContactForm from "./ContactForm";
+// import ContactForm from "./ContactForm";
 
 const ContactFormContent = () => {
   const executeFunction = () => {
@@ -37,7 +37,7 @@ const ContactFormContent = () => {
   }, []);
   return (
     <>
-      <section className="contact-area ptb-110">
+      <section className="contact-area ptb-70" id="contact">
         <div className="container">
           <div className="section-title">
             <span>Message Us</span>
@@ -64,66 +64,6 @@ const ContactFormContent = () => {
           </div>
 
           {/* Contact info */}
-          <div className="contact-info">
-            <div className="contact-info-content">
-              <h3>Contact us by Phone Number or Email Address</h3>
-              <h2>
-                <span className="number">India : <a href="tel:+91-7823025808">+91-7823025808</a></span>
-                <span className="number">&nbsp;</span>
-                <span className="number">US : <a href="tel:(408)-495-5822">(408)-495-5822</a></span>
-                <span className="or">OR</span>
-                <span className="email"><a href="mailto:sales@satincorp.com">sales@satincorp.com</a></span>
-              </h2>
-
-              {/* <ul className="social">
-                <li>
-                  <a
-                    href="https://twitter.com/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <i className="fab fa-twitter"></i>
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.youtube.com/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <i className="fab fa-youtube"></i>
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.facebook.com/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <i className="fab fa-facebook-f"></i>
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.linkedin.com/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <i className="fab fa-linkedin-in"></i>
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.instagram.com/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <i className="fab fa-instagram"></i>
-                  </a>
-                </li>
-              </ul> */}
-            </div>
-          </div>
         </div>
       </section>
     </>
