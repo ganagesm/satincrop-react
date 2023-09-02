@@ -972,7 +972,7 @@ Main Banner Area CSS
     color: #ffffff;
     margin-bottom: 0;
     line-height: 1.1;
-    font-size: 70px;
+    font-size: 60px;
     font-weight: 700;
 }
 .main-banner-content p {
@@ -4478,8 +4478,8 @@ Main Banner Area CSS
 =================================================*/
 .home-slides .main-banner {
     height: auto;
-    padding-top: 310px;
-    padding-bottom: 220px;
+    padding-top: 30vh;
+    padding-bottom: 20vh;
 }
 .home-slides .main-banner .main-banner-content {
     overflow: hidden;

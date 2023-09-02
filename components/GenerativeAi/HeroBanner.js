@@ -24,11 +24,11 @@ const HeroBanner = () => {
             <div className="container">
               <div className="main-banner-content">
                 <h1 style={{ color: "#fff" }}> Innovate and Excel with Generative AI Services from SA Technologies </h1>
-                <p>
+                {/* <p>
                   Nearshore, offshore, onsite. Hire talent anywhere or let our
                   experts unlock business value for you with bleeding edge
                   technologies.
-                </p>
+                </p> */}
 
                 <div className="btn-box">
                   <Link href="/contact" className="btn btn-primary">

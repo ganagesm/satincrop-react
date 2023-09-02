@@ -8,7 +8,7 @@ const Services = () => {
         <div className="container">
           <div className="section-title">
             <h2>Transform the future with our Generative AI Services</h2>
-            <p>It's important to note that while generative AI can automate and enhance content creation and services, human oversight and intervention are still essential to ensure quality, ethical considerations, and adherence to desired outcomes.</p>
+            {/* <p>It's important to note that while generative AI can automate and enhance content creation and services, human oversight and intervention are still essential to ensure quality, ethical considerations, and adherence to desired outcomes.</p> */}
           </div>
 
           <div className="row">
@@ -33,7 +33,7 @@ const Services = () => {
             </div>
 
             <div className="col-lg-4 col-sm-6">
-              <div className="single-services-box">
+              <div className="single-services-box" style={{ height: "250px" }}>
                 <h2>
                   Enhanced Testing
 
@@ -57,7 +57,7 @@ const Services = () => {
             </div>
 
             <div className="col-lg-4 col-sm-6">
-              <div className="single-services-box">
+              <div className="single-services-box" style={{ height: "275px" }}>
                 <h2>Intelligent Programming Assistants
 
 
@@ -81,7 +81,7 @@ const Services = () => {
           </div>
           <div className="row">
             <div className="col-lg-4 col-sm-6">
-              <div className="single-services-box">
+              <div className="single-services-box" style={{ height: "235px" }}>
                 <h2>Digital Marketing
 
                 </h2>

@@ -10,7 +10,7 @@ const Services = () => {
             <h2>Our Comprehensive RPA services
 
             </h2>
-            <p>It's important to note that while generative AI can automate and enhance content creation and services, human oversight and intervention are still essential to ensure quality, ethical considerations, and adherence to desired outcomes.</p>
+            {/* <p>It's important to note that while generative AI can automate and enhance content creation and services, human oversight and intervention are still essential to ensure quality, ethical considerations, and adherence to desired outcomes.</p> */}
           </div>
 
           <div className="row">
@@ -45,7 +45,7 @@ const Services = () => {
            
 
             <div className="col-lg-4 col-sm-6">
-              <div className="single-services-box" style={{ height: "250px" }}>
+              <div className="single-services-box" style={{ height: "270px" }}>
                 <h2>On-demand Consulting
                 </h2>
                 <p>SA Technologies extends RPA consultants for both short and long durations, complementing your team's needs. These experts offer timely aid in areas like mentoring, implementation, performance enhancement, and continuous upkeep of your RPA framework.
@@ -53,7 +53,7 @@ const Services = () => {
               </div>
             </div>
             <div className="col-lg-4 col-sm-6">
-              <div className="single-services-box" style={{ height: "250px" }}>
+              <div className="single-services-box" style={{ height: "270px" }}>
                 <h2>RPA Continuous Support
                 </h2>
                 <p>Our proactive Managed Support for RPA ensures your automation solutions remain cutting-edge. With scheduled updates, meticulous maintenance, and round-the-clock support, we guarantee your RPA operations align perfectly with your business momentum</p>

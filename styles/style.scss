@@ -1182,7 +1182,7 @@ Main Banner Area CSS
         margin-bottom: 0;
         line-height: 1.1;
         font: {
-            size: 70px;
+            size: 60px;
             weight: 700;
         }
     }
@@ -5418,9 +5418,13 @@ Main Banner Area CSS
     .main-banner {
         height: auto;
         padding: {
-            top: 310px;
-            bottom: 220px;
+            top: 30vh;
+            bottom: 20vh;
         };
+        // padding: {
+        //     top: 310px;
+        //     bottom: 220px;
+        // };
         .main-banner-content {
             overflow: hidden;
             margin: {
