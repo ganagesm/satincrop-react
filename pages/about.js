@@ -3,8 +3,9 @@ import Navbar from "../components/Live/Navbar";
 import PageBanner from "../components/Common/PageBanner";
 import AboutContact from "../components/About/AboutContent";
 import PartnerContent from "../components/Live/PartnerContent";
-import NearshoringTestimonials from "../components/Live/NearshoringTestimonials";
+import Testimonials from "../components/Live/Testimonials";
 import Footer from "../components/Live/Footer";
+import Services from "../components/About/Services";
 
 const About = () => {
   return (
@@ -21,7 +22,8 @@ const About = () => {
 
       <AboutContact />
       <PartnerContent />
-      <NearshoringTestimonials />
+      <Services />
+      <Testimonials />
       <Footer />
     </>
   );
