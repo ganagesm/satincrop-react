@@ -78,7 +78,7 @@ button {
 }
 
 p {
-    font-size: 16px;
+    font-size: 14px;
     color: #57647c;
     margin-bottom: 15px;
     line-height: 1.8;
@@ -3039,7 +3039,7 @@ Page Title Area CSS
     background-image: url(/images/technology-banner/Microsoft-banner.jpg);
 }
 .page-title-area.item-bg3 {
-    background-image: url(/images/technology-banner/google-banner.jpg);
+    background-image: url(/images/technology-banner/oracle-banner.jpg);
 }
 .page-title-area.item-bg4 {
     background-image: url(/images/technology-banner/oracle-banner.jpg);
@@ -3054,16 +3054,7 @@ Page Title Area CSS
     background-image: url(/images/technology-banner/servicenow-banner.jpg);
 }
 .page-title-area.item-bg8 {
-    background-image: url(/images/technology-banner/Contingent.png);
-}
-.page-title-area.item-bg9 {
-    background-image: url(/images/technology-banner/RPO.png);
-}
-.page-title-area.item-bg10 {
-    background-image: url(/images/technology-banner/htd-banner.jpeg);
-}
-.page-title-area.item-bg11 {
-    background-image: url(/images/technology-banner/payroll.png);
+    background-image: url(/images/technology-banner/Contingent.jpg);
 }
 
 .page-title-content h2 {
@@ -5353,7 +5344,7 @@ Pricing Area CSS
     font-size: 13px;
 }
 .single-testimonials-item p {
-    font-size: 15px;
+    font-size: 18px;
     margin-bottom: 0;
     color: #4a6f8a;
     text-align: center;

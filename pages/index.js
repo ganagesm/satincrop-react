@@ -22,11 +22,11 @@ const Index = () => {
       <PartnerContent />
       <Services />
       {/* <MainServices /> */}
+      <TechSlider />
       <CEOCorner />
       <Testimonials />
-      <TechSlider />
-      <BlogPostSlider />
       <CaseStudiesPost />
+      <BlogPostSlider />
       <Footer />
 
     </>
