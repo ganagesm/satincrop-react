@@ -10,9 +10,12 @@ const ServiceDetailsContent = () => {
           </div>
           <div className="services-details-overview">
             <div className="services-details-desc mb-30">
-              <h3>Automated Code Generation
+              <h3>What is Generative AI? 
 </h3>
-              <p>AI-powered automated code generation tools can swiftly produce basic code snippets based on user inputs, significantly minimizing the time and effort typically required for such routine coding tasks.</p>
+              <p>Generative AI, a pinnacle of artificial intelligence, fuels innovation and novelty. SA Technologies leverages Generative AI to transcend boundaries in content creation and data generation. Through advanced models like Generative Adversarial Networks (GANs) and Variational Autoencoders (VAEs), we craft unique content by decoding patterns ingrained in data.|</p>
+              <p>Generator - This neural network takes random input, often referred to as "noise," and transforms it into authentic and meaningful outputs such as images, text, and more. Our generator's mission is to craft content that resonates with the original data while pushing the boundaries of creativity.</p>
+              <p>Discriminator - Our Discriminator, another neural network, evaluates the generated output, distinguishing it from real examples. It refines its ability to differentiate between genuine and generated content, enhancing the accuracy of its classifications </p>
+              <p>Experience the power of Generative AI with SA Technologies. Embrace limitless innovation in content and data creation.</p>
             </div>
 
             <div className="services-details-image">

@@ -4,6 +4,7 @@ import Footer from "../components/Live/Footer";
 import WhyChooseSAT from "../components/GenerativeAi/WhyChooseSAT";
 import Services from "../components/GenerativeAi/Services";
 import HeroBanner from "../components/GenerativeAi/HeroBanner";
+import TechDetailsContent from "../components/GenerativeAi/TechDetailsContent";
 import FunFacts from "../components/Live/FunFacts";
 import OurIndustry from "../components/Common/OurIndustry";
 import Testimonials from "../components/Live/Testimonials";
@@ -15,11 +16,11 @@ const Index = () => {
     <>
       <Navbar />
       <HeroBanner />
-      {/* <TechDetailsContent /> */}
+      <TechDetailsContent />
       <Services />
       <WhyChooseSAT />
       <OurIndustry />
-      <FunFacts />
+      {/* <FunFacts /> */}
       <Testimonials />
       <BlogPostSlider />
       <CaseStudiesPost />

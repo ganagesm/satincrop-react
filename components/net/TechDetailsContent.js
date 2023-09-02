@@ -7,17 +7,18 @@ const ServiceDetailsContent = () => {
         <div className="container">
           <div className="services-details-overview">
             <div className="services-details-desc mb-30">
-              <h3> What are .NET Development Services?</h3>
-              <p> .NET is an open-source, cross-platform framework developed by Microsoft. It is used to create both form and web-based applications, as well as web services. Most notably, the .NET platform supports language interoperability, which allows developers to create applications that work with code written in different programming languages.</p>
-              
-              <p>Since its initial release in 2002, .NET has evolved from a proprietary software development platform to a fully-featured global ecosystem. Today, businesses use .NET development services to create many different types of applications—from web and mobile to microservices and gaming to machine learning and IoT.</p>
-              <p>.NET developers have the support of a large worldwide community, conformed by over 60,000 active Open Source Software (OSS) contributors and 3,700 company contributors. Under its modular approach to software design, the .NET platform looks forward to a high-efficiency future.</p>
-
+              <h3>What is Oracle Cloud Services ?</h3>
+              <p> Oracle Cloud Services refers to a suite of cloud computing solutions provided 
+                by Oracle Corporation. These services encompass various cloud-based offerings such 
+                as infrastructure as a service (IaaS), platform as a service (PaaS), and software as
+                 a service (SaaS). Oracle Cloud Services enable businesses to deploy, manage, and scale 
+                 applications and resources in a cloud environment.</p>
+            
             </div>
 
             <div className="services-details-image">
               <img
-                src="/images/services-details/service-details1.jpg"
+                src="/images/services-details/Oracle.jpg"
                 alt="image"
               />
             </div>

@@ -4,7 +4,7 @@ import Link from "next/link";
 const Services = () => {
   return (
     <>
-      <section className="services-area bg-f2f6f9 ptb-110">
+      <section className="services-area bg-f2f6f9">
         <div className="container">
           <div className="section-title">
             <h2>Our Offerings Adapted to Your Workflow</h2>
@@ -13,7 +13,7 @@ const Services = () => {
 
           <div className="row">
             <div className="col-lg-4 col-sm-6">
-              <div className="single-services-box">
+              <div className="single-services-box"  style={{height:"330px"}}>
                 <div className="icon">
                   <img
                    src="/images/icons/artificial-intelligence-1.svg"
@@ -38,7 +38,7 @@ const Services = () => {
             </div>
 
             <div className="col-lg-4 col-sm-6">
-              <div className="single-services-box">
+              <div className="single-services-box"  style={{height:"330px"}}>
                 <div className="icon">
                   <img
                     src="/images/icons/machine-learning.svg"

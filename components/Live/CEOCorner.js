@@ -10,9 +10,9 @@ const BlogPostSlider = () => {
         <div className="container">
           <div className="section-title">
             <h2>CEO Corner </h2>
-            <p>
+            {/* <p>
               Learn more about our work through Blog post and technology specific articles.
-            </p>
+            </p> */}
           </div>
           <div className="row justify-content-center">
             <div className="col-lg-4 col-sm-6">
@@ -101,7 +101,7 @@ const BlogPostSlider = () => {
                         </h3>
 
                         <p>
-                          As AI becomes increasingly integrated into our daily lives, it's important to educate our children about it...
+                          As AI becomes increasingly integrated into our...
                         </p>
 
                         <Link href="https://www.linkedin.com/pulse/10-key-lessons-ai-teach-your-kids-week-manoj-joshi/" className="learn-more-btn">
@@ -131,7 +131,7 @@ const BlogPostSlider = () => {
                           </Link>
                         </h3>
                         <p>
-                          Generative AI is poised to revolutionize healthcare by transforming patient care and driving innov...
+                          Generative AI is poised to revolutionize...
                         </p>
 
                         <Link href="https://www.linkedin.com/pulse/harnessing-power-generative-ai-healthcare-manoj-joshi/" className="learn-more-btn">
@@ -161,7 +161,7 @@ const BlogPostSlider = () => {
                           </Link>
                         </h3>
                         <p>
-                          Medical professionals are heralding generative AI in healthcare as a monumental advancement on par wi..
+                          Medical professionals are heralding generative..
                         </p>
 
                         <Link href="https://www.linkedin.com/posts/activity-7090762776842809344-M6Dp/" className="learn-more-btn">

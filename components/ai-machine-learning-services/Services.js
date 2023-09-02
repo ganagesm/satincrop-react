@@ -9,7 +9,7 @@ const Services = () => {
           <div className="section-title">
             <h2>Our Comprehensive Machine Learning Services
             </h2>
-            <p>It's important to note that while generative AI can automate and enhance content creation and services, human oversight and intervention are still essential to ensure quality, ethical considerations, and adherence to desired outcomes.</p>
+            {/* <p>It's important to note that while generative AI can automate and enhance content creation and services, human oversight and intervention are still essential to ensure quality, ethical considerations, and adherence to desired outcomes.</p> */}
           </div>
 
           <div className="row">
@@ -31,7 +31,7 @@ const Services = () => {
 
 
                 </h2>
-                <p>AI examines vast codebases, identifying potential bugs, vulnerabilities, and issues. By suggesting solutions, it considerably reduces debugging time and ensures more stable software outcomes.
+                <p>Our AI & ML expert provides tailored guidance based on Your requirements. Full product development cycle with advanced technology helps you work faster at lower cost and deliver better customer experience.
                 </p>
               </div>
             </div>

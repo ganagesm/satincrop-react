@@ -82,7 +82,7 @@ const Navbar = () => {
                   <li className="nav-item">
                     <Link
                       href="#"
-                      className={`nav-link ${currentPath == "/generativeAi" || currentPath === "/ai-machine-learning-services" || currentPath === "/frontend-development" || currentPath === "/ai-driven-iot" || currentPath === "/ai-machine-learning-services" || currentPath === "/data-science" || currentPath === "/cloud-infrastructure-services" || currentPath === "/rpa"|| currentPath === "/devops" ? "active"
+                      className={`nav-link ${currentPath == "/generativeAi" || currentPath === "/ai-machine-learning-services" || currentPath === "/frontend-development" || currentPath === "/ai-driven-iot" || currentPath === "/ai-machine-learning-services" || currentPath === "/data-science" || currentPath === "/cloud-infrastructure-services" || currentPath === "/rpa"|| currentPath === "/devops" || currentPath === "/mobile-app-development" || currentPath === "/software-quality-assurance" || currentPath === "/software-application-development" || currentPath === "/ui-ux-designer" ? "active"
                           : ""
                         }`}
                     >
@@ -100,8 +100,8 @@ const Navbar = () => {
                       </li>
                       <li className="nav-item">
                         <Link
-                          href="/ai-machine-learning-services/"
-                          className={`nav-link ${currentPath == "/ai-machine-learning-services/" && "active"
+                          href="/ai-machine-learning-services"
+                          className={`nav-link ${currentPath == "/ai-machine-learning-services" && "active"
                             }`}
                         >
                           Machine Learning
@@ -155,8 +155,8 @@ const Navbar = () => {
                       </li>
                       <li className="nav-item">
                         <Link
-                          href="/cloud-infrastructure-services"
-                          className={`nav-link ${currentPath == "/cloud-infrastructure-services" && "active"
+                          href="/UIUXSolutions"
+                          className={`nav-link ${currentPath == "/UIUXSolutions" && "active"
                             }`}
                         >
                           UI & UX Design
@@ -164,8 +164,8 @@ const Navbar = () => {
                       </li>
                       <li className="nav-item">
                         <Link
-                          href="/cloud-infrastructure-services"
-                          className={`nav-link ${currentPath == "/cloud-infrastructure-services" && "active"
+                          href="/software-application-development"
+                          className={`nav-link ${currentPath == "/software-application-development" && "active"
                             }`}
                         >
                           Software Application development
@@ -173,8 +173,8 @@ const Navbar = () => {
                       </li>
                       <li className="nav-item">
                         <Link
-                          href="/cloud-infrastructure-services"
-                          className={`nav-link ${currentPath == "/cloud-infrastructure-services" && "active"
+                          href="/mobile-app-development"
+                          className={`nav-link ${currentPath == "/mobile-app-development" && "active"
                             }`}
                         >
                           Mobile App Development
@@ -182,8 +182,8 @@ const Navbar = () => {
                       </li>
                       <li className="nav-item">
                         <Link
-                          href="/cloud-infrastructure-services"
-                          className={`nav-link ${currentPath == "/cloud-infrastructure-services" && "active"
+                          href="/software-quality-assurance"
+                          className={`nav-link ${currentPath == "/software-quality-assurance" && "active"
                             }`}
                         >
                           Software Quality Assurance
@@ -315,8 +315,8 @@ const Navbar = () => {
                     <ul className="dropdown-menu">
                       <li className="nav-item">
                         <Link
-                          href="/nearshore"
-                          className={`nav-link ${currentPath == "/nearshore" && "active"
+                          href="/contingent-solution"
+                          className={`nav-link ${currentPath == "/contingent-solution" && "active"
                             }`}
                         >
                          Contingent Workforce
@@ -325,8 +325,8 @@ const Navbar = () => {
 
                       <li className="nav-item">
                         <Link
-                          href="/offshore"
-                          className={`nav-link ${currentPath == "/offshore" && "active"
+                          href="/rpo-services"
+                          className={`nav-link ${currentPath == "/rpo-services" && "active"
                             }`}
                         >
                           RPO Services
@@ -335,8 +335,8 @@ const Navbar = () => {
 
                       <li className="nav-item">
                         <Link
-                          href="/onsite"
-                          className={`nav-link ${currentPath == "/onsite" && "active"
+                          href="/hire-train-deploy"
+                          className={`nav-link ${currentPath == "/hire-train-deploy" && "active"
                             }`}
                         >
                           Hire Train Deploy 
@@ -344,8 +344,8 @@ const Navbar = () => {
                       </li>
                       <li className="nav-item">
                         <Link
-                          href="/onsite"
-                          className={`nav-link ${currentPath == "/onsite" && "active"
+                          href="/payroll-outsourcing-services"
+                          className={`nav-link ${currentPath == "/payroll-outsourcing-services" && "active"
                             }`}
                         >
                          Payroll Outsourcing Services
@@ -355,8 +355,8 @@ const Navbar = () => {
                   </li>
                   <li className="nav-item">
                     <Link
-                      href="/about"
-                      className={`nav-link ${currentPath == "/about" && "active"
+                      href="/internal-audit"
+                      className={`nav-link ${currentPath == "/internal-audit" && "active"
                         }`}
                     >
                      Internal Audit

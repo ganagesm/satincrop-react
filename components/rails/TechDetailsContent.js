@@ -7,18 +7,14 @@ const ServiceDetailsContent = () => {
         <div className="container">
           <div className="services-details-overview">
             <div className="services-details-desc mb-30">
-              <h3>What is Rails? </h3>
-              <p>
-                Rails, also known as Ruby on Rails or simply RoR, is a popular web application framework written in the Ruby programming language. It provides a productive and efficient environment for building robust and scalable web applications. </p>
-              <h3>What are rails Services?</h3>
-              <p>In the context of Ruby on Rails (Rails) applications, Rails services typically refer to a design pattern or architectural approach rather than a specific built-in feature or component provided by Rails itself. The Rails services pattern is used to encapsulate complex business logic and promote separation of concerns within the application.</p>
-              <p>Rails services are implemented as plain Ruby classes that encapsulate specific functionality or a set of related operations. They serve as a way to extract and isolate business logic from the controllers or models of a Rails application, promoting cleaner code organization, reusability, and testability.</p>
-
+              <h3>What is ServiceNow Offerings ?</h3>
+              <p>ServiceNow offers a comprehensive platform of cloud-based solutions that help organizations streamline their business processes and enhance their IT service management (ITSM) capabilities. Their offerings include IT service management, customer service management, human resources service management, security operations, and more. The platform enables organizations to automate and optimize workflows, improve collaboration, enhance employee and customer experiences, and drive operational efficiency. ServiceNow's solutions are designed to improve service delivery, increase productivity, and align various departments within an organization to achieve better outcomes.</p>
+            
             </div>
 
             <div className="services-details-image">
               <img
-                src="/images/services-details/service-details1.jpg"
+                src="/images/services-details/servicenow.jpg"
                 alt="image"
               />
             </div>

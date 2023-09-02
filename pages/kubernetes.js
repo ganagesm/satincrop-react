@@ -8,6 +8,7 @@ import TechDetailsContent from "../components/kubernetes/TechDetailsContent";
 import MainServices from "../components/Live/MainServices";
 import BlogPostSlider from "../components/Live/BlogPostSlider";
 import ContactForm from "../components/Contact/ContactForm";
+import Link from "next/link";
 
 
 const Index = () => {
@@ -26,6 +27,13 @@ const Index = () => {
       <TechDetailsContent />
       <ComputerVisionAI />
       {/* <Services /> */}
+      <div className="col-lg-12 col-md-12">
+          <div className="ai-all-services-btn ptb-50">
+            <Link href="#contact" className="btn btn-primary">
+              Contact Us
+            </Link>
+          </div>
+        </div>
       <MainServices />
       <BlogPostSlider />
 

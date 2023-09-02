@@ -92,13 +92,13 @@ const Footer = () => {
                     <Link href="/offshore">Blog</Link>
                   </li>
                   <li>
-                    <Link href="/onsite">Careers</Link>
+                    <Link href="https://jobs.satincorp.com/jobs/Careers" target="_blank">Careers</Link>
                   </li>
                   <li>
-                    <Link href="/onsite">Contact Us</Link>
+                    <Link href="/about">About Us</Link>
                   </li>
                   <li>
-                    <Link href="/onsite">About Us</Link>
+                    <Link href="/contact">Contact Us</Link>
                   </li>
                 </ul>
               </div>

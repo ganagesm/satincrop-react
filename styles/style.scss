@@ -1182,7 +1182,7 @@ Main Banner Area CSS
         margin-bottom: 0;
         line-height: 1.1;
         font: {
-            size: 70px;
+            size: 60px;
             weight: 700;
         }
     }
@@ -3551,8 +3551,39 @@ Page Title Area CSS
     }
     &.item-bg3 {
         background: {
-            image: url(/images/technology-banner/google-banner.jpg);
+            image: url(/images/technology-banner/oracle-banner.jpg);
         }
+        
+    }
+    &.item-bg4 {
+        background: {
+            image: url(/images/technology-banner/oracle-banner.jpg);
+        }
+        
+    }
+    &.item-bg5 {
+        background: {
+            image: url(/images/technology-banner/aws-banner.jpg);
+        }
+        
+    }
+    &.item-bg6 {
+        background: {
+            image: url(/images/technology-banner/saleforce-banner.png);
+        }
+        
+    }
+    &.item-bg7 {
+        background: {
+            image: url(/images/technology-banner/servicenow-banner.jpg);
+        }
+        
+    }
+    &.item-bg8 {
+        background: {
+            image:  url(/images/technology-banner/Contingent.jpg);
+        }
+        
     }
 }
 .page-title-content {
@@ -5387,9 +5418,13 @@ Main Banner Area CSS
     .main-banner {
         height: auto;
         padding: {
-            top: 310px;
-            bottom: 220px;
+            top: 30vh;
+            bottom: 20vh;
         };
+        // padding: {
+        //     top: 310px;
+        //     bottom: 220px;
+        // };
         .main-banner-content {
             overflow: hidden;
             margin: {
@@ -6431,7 +6466,7 @@ h4 {
         }
     }
     p {
-        font-size: 15px;
+        font-size: 18px;
         margin-bottom: 0;
         color: #4a6f8a;
         text-align: center;
