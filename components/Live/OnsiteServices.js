@@ -8,9 +8,9 @@ const NearshoringServices = () => {
         <div className="container">
           <div className="section-title">
             <h2>Maximize Cost Efficiency.</h2>
-            <h2>  Save Resources with Triosource's Newshore Teams.</h2>
+            <h2>  Save Resources with SA Technologies Newshore Teams.</h2>
             <p>
-            In today's competitive business landscape, optimizing costs is a top priority for organizations. When it comes to tech talent solutions, Triosource offers newshore teams that provide an effective way to save resources without compromising on quality. In this blog, we will explore how Triosource's newshore teams can help maximize cost efficiency and provide significant savings for your organization.
+            In today's competitive business landscape, optimizing costs is a top priority for organizations. When it comes to tech talent solutions, SA Technologies offers newshore teams that provide an effective way to save resources without compromising on quality. In this blog, we will explore how SA Technologies newshore teams can help maximize cost efficiency and provide significant savings for your organization.
             </p>
           </div>
 
@@ -24,7 +24,7 @@ const NearshoringServices = () => {
                   <Link href="#">Flexible Engagement Models
                   <h3 style={{color: "darkgray"}}>Dedicated resource models</h3></Link>
                 </h2>
-                <p>Triosource offers flexible engagement models for their newshore teams, such as project-based or dedicated resource models. This flexibility allows you to choose the engagement model that best aligns with your project requirements and budget, ensuring optimal cost efficiency.</p>
+                <p>SA Technologies offers flexible engagement models for their newshore teams, such as project-based or dedicated resource models. This flexibility allows you to choose the engagement model that best aligns with your project requirements and budget, ensuring optimal cost efficiency.</p>
                 <p style={{marginTop: "50px"}}></p>
               </div>
             </div>
@@ -38,7 +38,7 @@ const NearshoringServices = () => {
                   <Link href="#">Efficient Resource Utilization
                   <h3 style={{color: "darkgray"}}>Right resources at the right time</h3></Link>
                 </h2>
-                <p>With Triosource's newshore teams, you have the advantage of utilizing resources more efficiently. You can scale up or down the team size based on project needs, ensuring that you have the right resources at the right time. This agility in resource allocation helps optimize costs by avoiding unnecessary expenses.</p>
+                <p>With SA Technologies newshore teams, you have the advantage of utilizing resources more efficiently. You can scale up or down the team size based on project needs, ensuring that you have the right resources at the right time. This agility in resource allocation helps optimize costs by avoiding unnecessary expenses.</p>
                 <p style={{marginTop: "50px"}}></p>
               </div>
             </div>
@@ -50,9 +50,9 @@ const NearshoringServices = () => {
                 </div>
                 <h2>
                   <Link href="#">Focus on Core Competencies
-                  <h3 style={{color: "darkgray"}}>Triosource handles the development work</h3></Link>
+                  <h3 style={{color: "darkgray"}}>SA Technologies handles the development work</h3></Link>
                 </h2>
-                <p>By partnering with Triosource and leveraging their newshore teams, you can focus your internal resources on core competencies. You can allocate your in-house teams to strategic initiatives and mission-critical tasks, while Triosource handles the development work. This focus on core competencies enhances productivity and ensures optimal utilization of resources.</p>
+                <p>By partnering with SA Technologies and leveraging their newshore teams, you can focus your internal resources on core competencies. You can allocate your in-house teams to strategic initiatives and mission-critical tasks, while SA Technologies handles the development work. This focus on core competencies enhances productivity and ensures optimal utilization of resources.</p>
               </div>
             </div>
           </div>

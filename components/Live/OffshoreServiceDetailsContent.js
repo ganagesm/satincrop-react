@@ -11,11 +11,11 @@ const ServiceDetailsContent = () => {
               <p>Tailored Team Arrangements for Project-specific Needs</p>
 
               <p>
-                Triosource understands that not all projects have the same
+              SA Technologies understands that not all projects have the same
                 requirements. We offer the flexibility to customize team
                 arrangements based on your specific project needs. Whether you
                 need a blend of onsite and nearshore resources or a combination
-                of nearshore and offshore, Triosource can accommodate your
+                of nearshore and offshore, SA Technologies can accommodate your
                 unique requirements.
               </p>
             </div>
@@ -40,14 +40,14 @@ const ServiceDetailsContent = () => {
               <h3>Flexible Solutions for Tech Talent</h3>
               <p>
                 When it comes to tech talent solutions, having flexibility is
-                crucial for organizations. Triosource understands the varying
+                crucial for organizations. SA Technologies understands the varying
                 needs of businesses and offers a range of team arrangements to
                 choose from.
               </p>
               <ul>
                 <li>
                   <strong>Scalability and Agile Team Adjustments:</strong>
-                  Triosource's team arrangements provide scalability and
+                  SA Technologies team arrangements provide scalability and
                   agility. As your project evolves, you can easily scale up or
                   down your team size based on the changing requirements. This
                   flexibility allows you to optimize resource allocation,

@@ -5,6 +5,7 @@ import OnsiteServiceDetailsContent from "../components/Live/OnsiteServiceDetails
 import OnsiteServices from "../components/Live/OnsiteServices";
 import NearshoringTestimonials from "../components/Live/NearshoringTestimonials";
 import Footer from "../components/Live/Footer";
+import Testimonials from "../components/Live/Testimonials";
 
 const ServiceDetails = () => {
   return (
@@ -15,11 +16,11 @@ const ServiceDetails = () => {
         homePageUrl="/"
         homePageText="Home"
         activePageText="Onsite"
-        bgImgClass="item-bg2"
+        bgImgClass="item-bg10"
       />
       <OnsiteServices />
       <OnsiteServiceDetailsContent />
-      <NearshoringTestimonials />
+      <Testimonials />
       <Footer />
     </>
   );

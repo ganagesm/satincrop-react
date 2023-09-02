@@ -5,21 +5,22 @@ import OffshoreServiceDetailsContent from "../components/Live/OffshoreServiceDet
 import OffshoreServices from "../components/Live/OffshoreServices";
 import NearshoringTestimonials from "../components/Live/NearshoringTestimonials";
 import Footer from "../components/Live/Footer";
+import Testimonials from "../components/Live/Testimonials";
 
 const ServiceDetails = () => {
   return (
     <>
       <Navbar />
       <OffshorePageBanner
-        pageTitle="Offshore Teams - Cost Savings and Global Talent Pool"
+        pageTitle="Offshore Teams - Economical Solutions Meets Worldwide Expertise"
         homePageUrl="/"
         homePageText="Home"
         activePageText="Offshore"
-        bgImgClass="item-bg2"
+        bgImgClass="item-bg9"
       />
       <OffshoreServices />
       <OffshoreServiceDetailsContent />
-      <NearshoringTestimonials />
+      <Testimonials />
       <Footer />
     </>
   );

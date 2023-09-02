@@ -42,7 +42,7 @@ const BlogPostSlider = () => {
               <SwiperSlide>
                 <div className="single-blog-post">
                   <div className="entry-thumbnail">
-                    <Link href="/ultimate-guide-to-ai-trained-nearshore-software-development">
+                    <Link href="/technology-impact-sox-auditing/">
                       <img src="/images/blog/ultimate-guide-ai-trained-new.jpeg" alt="image" />
                     </Link>
                   </div>
@@ -58,16 +58,17 @@ const BlogPostSlider = () => {
                     </div>
 
                     <h3>
-                      <Link href="/blog/ultimate-guide-to-ai-trained-nearshore-software-development">
-                        Ultimate Guide to AI-Trained Nearshore Software Development | TrioSource
+                      <Link href="/blog/technology-impact-sox-auditing/">
+                      The Impact of Technology on SOX Internal Auditing Processes
+
                       </Link>
                     </h3>
 
                     <p>
-                      Discover the power of AI-trained nearshore software development teams in our comprehensive guide...
+                    The integration of technology into Sarbanes-Oxley (SOX) internal auditing processes is a game-changing...
                     </p>
 
-                    <Link href="/blog/ultimate-guide-to-ai-trained-nearshore-software-development" className="learn-more-btn">
+                    <Link href="/blog/technology-impact-sox-auditing/" className="learn-more-btn">
                       Read More <i className="flaticon-add"></i>
                     </Link>
                   </div>
@@ -76,7 +77,7 @@ const BlogPostSlider = () => {
               <SwiperSlide>
                 <div className="single-blog-post">
                   <div className="entry-thumbnail">
-                    <Link href="/blog/how-ai-is-revolutionizing-nearshore-software-development/">
+                    <Link href="/blog/sa-technologies-inc-introducing-brand-new-offshore-development-centre-bangalore/">
                       <img src="/images/blog/how-ai-revolutionizing-nearshore-software.jpeg" alt="image" />
                     </Link>
                   </div>
@@ -92,15 +93,15 @@ const BlogPostSlider = () => {
                     </div>
 
                     <h3>
-                      <Link href="/blog/how-ai-is-revolutionizing-nearshore-software-development/">
-                        How AI is Revolutionizing Nearshore Software Development: A Deep Dive
+                      <Link href="/blog/sa-technologies-inc-introducing-brand-new-offshore-development-centre-bangalore/">
+                      Committed to excelling in Digital Engineering and Generative AI
                       </Link>
                     </h3>
                     <p>
-                      Discover how Artificial Intelligence is transforming the landscape of nearshore software development with TrioSource. Dive deep into the AI revolution today...
+                    SA Technologies is excited to announce a new milestone – the launch of our Offshore Development Centre...
                     </p>
 
-                    <Link href="/blog/how-ai-is-revolutionizing-nearshore-software-development/" className="learn-more-btn">
+                    <Link href="/blog/sa-technologies-inc-introducing-brand-new-offshore-development-centre-bangalore/" className="learn-more-btn">
                       Read More <i className="flaticon-add"></i>
                     </Link>
                   </div>
@@ -109,7 +110,7 @@ const BlogPostSlider = () => {
               <SwiperSlide>
                 <div className="single-blog-post">
                   <div className="entry-thumbnail">
-                    <Link href="/blog/future-of-software-development-ai-nearshore-teams/">
+                    <Link href="/blog/navigating-challenges-it-controls-sox-compliance/">
                       <img src="/images/blog/the-future-software-development.png" alt="image" />
                     </Link>
                   </div>
@@ -125,15 +126,15 @@ const BlogPostSlider = () => {
                     </div>
 
                     <h3>
-                      <Link href="/blog/future-of-software-development-ai-nearshore-teams/">
-                        The Future of Software Development: Benefits of AI-Trained Nearshore Teams
+                      <Link href="/blog/navigating-challenges-it-controls-sox-compliance/">
+                      Navigating the Challenges of IT Controls in SOX Compliance
                       </Link>
                     </h3>
                     <p>
-                      The world of software development is evolving at a rapid pace...
+                    Sarbanes-Oxley (SOX) compliance is a critical aspect of maintaining transparent and accurate financial reporting.
                     </p>
 
-                    <Link href="/blog/future-of-software-development-ai-nearshore-teams/" className="learn-more-btn">
+                    <Link href="/blog/navigating-challenges-it-controls-sox-compliance/" className="learn-more-btn">
                       Read More <i className="flaticon-add"></i>
                     </Link>
                   </div>
@@ -142,7 +143,7 @@ const BlogPostSlider = () => {
               <SwiperSlide>
                 <div className="single-blog-post">
                   <div className="entry-thumbnail">
-                    <Link href="/blog/transforming-business-with-ai-nearshore-teams/">
+                    <Link href="/blog/robust-sox-framework-best-practices/">
                       <img src="/images/blog/transforming-business-operations.jpeg" alt="image" />
                     </Link>
                   </div>
@@ -158,53 +159,21 @@ const BlogPostSlider = () => {
                     </div>
 
                     <h3>
-                      <Link href="/blog/transforming-business-with-ai-nearshore-teams/">
-                        Transforming Business Operations with AI-Trained Nearshore Software Development Teams
+                      <Link href="/blog/robust-sox-framework-best-practices/">
+                      Building a Robust SOX Framework: Essential Best Practices
                       </Link>
                     </h3>
                     <p>
-                      In an era where every business is essentially becoming a technology business, the ability to develop efficient, high-quality software has never been more critical...
+                    The Sarbanes-Oxley Act (SOX) was a response to a series of high-profile financial scandals..
                     </p>
 
-                    <Link href="/blog/transforming-business-with-ai-nearshore-teams/" className="learn-more-btn">
+                    <Link href="/blog/robust-sox-framework-best-practices/" className="learn-more-btn">
                       Read More <i className="flaticon-add"></i>
                     </Link>
                   </div>
                 </div>
               </SwiperSlide>
-              <SwiperSlide>
-                <div className="single-blog-post">
-                  <div className="entry-thumbnail">
-                    <Link href="/blog/choosing-ai-trained-nearshore-software-team/">
-                      <img src="/images/blog/choosing-right-ai-trained-nearshore-min.jpeg" alt="image" />
-                    </Link>
-                  </div>
 
-                  <div className="entry-post-content">
-                    <div className="entry-meta">
-                      <ul>
-                        <li>
-                          <Link href="#">Admin</Link>
-                        </li>
-                        <li>July 05, 2023</li>
-                      </ul>
-                    </div>
-
-                    <h3>
-                      <Link href="/blog/choosing-ai-trained-nearshore-software-team/">
-                        Choosing the Right AI-Trained Nearshore Software Development Team: A Comprehensive Guide
-                      </Link>
-                    </h3>
-                    <p>
-                      In an era where technology drives business growth, choosing the right software development team is crucial..
-                    </p>
-
-                    <Link href="/blog/choosing-ai-trained-nearshore-software-team/" className="learn-more-btn">
-                      Read More <i className="flaticon-add"></i>
-                    </Link>
-                  </div>
-                </div>
-              </SwiperSlide>
             </div>
           </Swiper>
         </div>

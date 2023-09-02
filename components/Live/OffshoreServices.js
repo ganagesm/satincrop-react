@@ -8,7 +8,7 @@ const NearshoringServices = () => {
         <div className="container">
           <div className="section-title">
             <h2>Choose the Right Option for your Team.</h2>
-            <h2>Arrangements with Triosource.</h2>
+            <h2>Arrangements with SA Technologies.</h2>
             <p></p>
           </div>
 
@@ -35,7 +35,7 @@ const NearshoringServices = () => {
                   </Link>
                 </h2>
                 <p>
-                  Triosource's offshore teams, situated in countries with lower
+                SA Technologies offshore teams, situated in countries with lower
                   labor costs, offer substantial cost savings without
                   compromising on quality. Leveraging offshore teams allows you
                   to tap into a global talent pool, gaining access to a diverse
@@ -68,7 +68,7 @@ const NearshoringServices = () => {
                   </Link>
                 </h2>
                 <p>
-                  Triosource offers flexible engagement models for their
+                SA Technologies offers flexible engagement models for their
                   offshore teams, such as project-based or dedicated resource
                   models. This flexibility allows you to choose the engagement
                   model that best aligns with your project requirements and
@@ -99,7 +99,7 @@ const NearshoringServices = () => {
                   </Link>
                 </h2>
                 <p>
-                  Triosource's offshore teams provide cost predictability for
+                SA Technologies offshore teams provide cost predictability for
                   your tech projects. They offer transparent pricing models and
                   clear contractual terms, allowing you to have a clear
                   understanding of the costs involved. This predictability

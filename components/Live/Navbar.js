@@ -236,7 +236,7 @@ const Navbar = () => {
                   <li className="nav-item">
                     <Link
                       href=""
-                      className={`nav-link ${currentPath == "/kubernetes" || currentPath === "/react" || currentPath === "/net" || currentPath === "/python" || currentPath === "/c-sharp" || currentPath === "/rails" || currentPath === "/angular" || currentPath === "/android" ? "active"
+                      className={`nav-link ${currentPath == "/microsoft" || currentPath === "/google" || currentPath === "/oracle" || currentPath === "/aws" || currentPath === "/salesforce" || currentPath === "/servicenow" || currentPath === "/angular" || currentPath === "/android" ? "active"
                           : ""
                         }`}
                     >
@@ -245,8 +245,8 @@ const Navbar = () => {
                     <ul className="dropdown-menu">
                       <li className="nav-item">
                         <Link
-                          href="/kubernetes"
-                          className={`nav-link ${currentPath == "/kubernetes" && "active"
+                          href="/microsoft"
+                          className={`nav-link ${currentPath == "/microsoft" && "active"
                             }`}
                         >
                           Microsoft
@@ -255,8 +255,8 @@ const Navbar = () => {
 
                       <li className="nav-item">
                         <Link
-                          href="/react"
-                          className={`nav-link ${currentPath == "/react" && "active"
+                          href="/google"
+                          className={`nav-link ${currentPath == "/google" && "active"
                             }`}
                         >
                           Google
@@ -265,8 +265,8 @@ const Navbar = () => {
 
                       <li className="nav-item">
                         <Link
-                          href="/net"
-                          className={`nav-link ${currentPath == "/net" && "active"
+                          href="/oracle"
+                          className={`nav-link ${currentPath == "/oracle" && "active"
                             }`}
                         >
                           Oracle
@@ -275,8 +275,8 @@ const Navbar = () => {
 
                       <li className="nav-item">
                         <Link
-                          href="/python"
-                          className={`nav-link ${currentPath == "/python" && "active"
+                          href="/aws"
+                          className={`nav-link ${currentPath == "/aws" && "active"
                             }`}
                         >
                           AWS
@@ -285,8 +285,8 @@ const Navbar = () => {
 
                       <li className="nav-item">
                         <Link
-                          href="/c-sharp"
-                          className={`nav-link ${currentPath == "/c-sharp" && "active"
+                          href="/salesforce"
+                          className={`nav-link ${currentPath == "/salesforce" && "active"
                             }`}
                         >
                           Salesforce
@@ -295,8 +295,8 @@ const Navbar = () => {
 
                       <li className="nav-item">
                         <Link
-                          href="/rails"
-                          className={`nav-link ${currentPath == "/rails" && "active"
+                          href="/servicenow"
+                          className={`nav-link ${currentPath == "/servicenow" && "active"
                             }`}
                         >
                           Service Now

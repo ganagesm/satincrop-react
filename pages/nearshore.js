@@ -5,13 +5,14 @@ import ServiceDetailsContent from "../components/Services/ServiceDetailsContent"
 import NearshoringServices from "../components/Live/NearshoringServices";
 import NearshoringTestimonials from "../components/Live/NearshoringTestimonials";
 import Footer from "../components/Live/Footer";
+import Testimonials from "../components/Live/Testimonials";
 
 const ServiceDetails = () => {
   return (
     <>
       <Navbar />
       <PageBanner
-        pageTitle="Nearshore Development Teams - Talent in your time zone"
+        pageTitle="Nearshore Development Squads - Skilled Experts Aligned with Your Time Zone"
         homePageUrl="/"
         homePageText="Home"
         activePageText="Nearshore"
@@ -19,7 +20,7 @@ const ServiceDetails = () => {
       />
       <NearshoringServices />
       <ServiceDetailsContent />
-      <NearshoringTestimonials />
+      <Testimonials />
       <Footer />
     </>
   );
