@@ -7,7 +7,7 @@ import PageBanner from "../components/kubernetes/PageBanner";
 import TechDetailsContent from "../components/kubernetes/TechDetailsContent";
 import MainServices from "../components/Live/MainServices";
 import BlogPostSlider from "../components/Live/BlogPostSlider";
-import ContactForm from "../components/Contact/ContactForm";
+import ContactFormContent from "../components/Common/ContactFormContent";
 import Link from "next/link";
 
 
@@ -37,7 +37,7 @@ const Index = () => {
       <MainServices />
       <BlogPostSlider />
 
-      <section className="contact-area pb-100">
+      {/* <section className="contact-area pb-100">
         <div className="container">
           <div className="section-title">
             <h2>Connect With Us</h2>
@@ -57,9 +57,9 @@ const Index = () => {
             </div>
           </div>          
         </div>
-      </section>
+      </section> */}
 
-      {/* <ContactForm /> */}
+      <ContactFormContent />
       <Footer />
     </>
   )
