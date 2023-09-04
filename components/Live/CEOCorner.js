@@ -82,7 +82,7 @@ const BlogPostSlider = () => {
                   <SwiperSlide>
                     <div className="single-blog-post">
                       <div className="entry-thumbnail">
-                        <Link href="/embracing-machine-first-approach">
+                        <Link href="/embracing-machine-first-approach/">
                           <img src="/images/engineer-cooperation.jpg" alt="image" />
                         </Link>
                       </div>
@@ -95,7 +95,7 @@ const BlogPostSlider = () => {
                         </div>
 
                         <h3>
-                          <Link href="/embracing-machine-first-approach">
+                          <Link href="/embracing-machine-first-approach/">
                           Embracing the Machine-First Approach to Forge Ahead
                           </Link>
                         </h3>
@@ -104,7 +104,7 @@ const BlogPostSlider = () => {
                         In our relentless pursuit of pushing boundaries....
                         </p>
 
-                        <Link href="https://www.linkedin.com/pulse/10-key-lessons-ai-teach-your-kids-week-manoj-joshi/" className="learn-more-btn">
+                        <Link href="/embracing-machine-first-approach/" className="learn-more-btn">
                           Read More <i className="flaticon-add"></i>
                         </Link>
                       </div>
