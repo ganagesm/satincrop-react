@@ -50,7 +50,7 @@ const ServiceDetailsContent = () => {
           <div className="services-details-overview">
             <div className="services-details-image">
               <img
-                src="/images/banners/back-end-development.png"
+                src="/images/services-details/back-end-development.jpg"
                 alt="image"
               />
             </div>

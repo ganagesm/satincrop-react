@@ -8,8 +8,8 @@ const ServiceDetailsContent = () => {
           <div className="services-details-overview">
             <div className="services-details-desc mb-30">
               <h3>What is ServiceNow Offerings ?</h3>
-              <p>ServiceNow offers a comprehensive platform of cloud-based solutions that help organizations streamline their business processes and enhance their IT service management (ITSM) capabilities. Their offerings include IT service management, customer service management, human resources service management, security operations, and more. The platform enables organizations to automate and optimize workflows, improve collaboration, enhance employee and customer experiences, and drive operational efficiency. ServiceNow's solutions are designed to improve service delivery, increase productivity, and align various departments within an organization to achieve better outcomes.</p>
-            
+              <p>ServiceNow offers a comprehensive platform of cloud-based solutions that help organizations streamline their business processes and enhance their IT service management (ITSM) capabilities. Their offerings include IT service management, customer service management, human resources service management, security operations, and more. The platform enables organizations to automate and optimize workflows, improve collaboration, enhance employee and customer experiences, and drive operational efficiency. ServiceNow's solutions are designed to improve service delivery, increase productivity, and align various departments within an organization to achieve better outcomes. </p>
+              <p>With a strong focus on innovation, ServiceNow continues to evolve its platform to meet the changing needs of modern businesses. Their solutions empower organizations to adapt, innovate, and thrive in an increasingly digital and interconnected world. </p>
             </div>
 
             <div className="services-details-image">

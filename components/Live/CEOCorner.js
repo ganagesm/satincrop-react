@@ -29,7 +29,7 @@ const BlogPostSlider = () => {
                       <i className="fab fa-linkedin"></i>
                     </a>
 
-                    <a
+                    {/* <a
                       href="https://www.twitter.com/"
                       target="_blank"
                       rel="noreferrer"
@@ -43,7 +43,7 @@ const BlogPostSlider = () => {
                       rel="noreferrer"
                     >
                       <i className="fab fa-instagram"></i>
-                    </a>
+                    </a> */}
                   </div>
                 </div>
 
