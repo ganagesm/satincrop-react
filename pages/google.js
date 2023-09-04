@@ -20,7 +20,7 @@ const Index = () => {
         homePageUrl="/"
         homePageText="Technology"
         activePageText="Google"
-        bgImgClass="item-bg3"
+        bgImgClass="item-bg10"
       />
 
       <TechDetailsContent />

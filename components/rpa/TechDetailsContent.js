@@ -10,14 +10,13 @@ const ServiceDetailsContent = () => {
             <div className="services-details-desc mb-30">
               <h3> Discover the Future of Business Automation
               </h3>
-              <p>In today's fast-paced digital landscape, staying ahead means embracing innovative solutions that streamline operations and drive efficiency. Dive into the world of Robotic Process Automation (RPA) with SA Technologies and redefine your business processes like never before.
-              </p>
-
+              <p>In today's fast-paced digital landscape, staying ahead means embracing innovative solutions that streamline operations and drive efficiency. Dive into the world of Robotic Process Automation (RPA) with SA Technologies and redefine your business processes like never before.</p>
+              <p>Our RPA expertise empowers you to automate repetitive tasks, reduce errors, and increase productivity across your organization. Seamlessly integrate AI-driven automation into your workflows and unleash the full potential of your business. Elevate your operational efficiency and unlock new levels of growth with our cutting-edge RPA solutions. </p>
             </div>
 
             <div className="services-details-image">
               <img
-                src="/images/banners/IoT-development-services.png"
+                src="/images/services-details/rpa-concept.jpg"
                 alt="image"
               />
             </div>

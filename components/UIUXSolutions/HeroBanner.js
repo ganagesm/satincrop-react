@@ -19,7 +19,7 @@ const HeroBanner = () => {
         <SwiperSlide>
           <div
             className="main-banner"
-            style={{ backgroundImage: `url(/images/main-banner-bg1.jpg)` }}
+            style={{ backgroundImage: `url(/images/banners/uxdesign-hero-banner.jpeg)` }}
           >
             <div className="container">
               <div className="main-banner-content">

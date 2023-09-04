@@ -11,22 +11,14 @@ const ServiceDetailsContent = () => {
               <p>
                 {" "}
                 Microsoft Cloud Transformation refers to the process of transitioning an 
-                organization's IT infrastructure, applications, data, and workloads to Microsoft's 
-                cloud computing platforms and services, primarily Microsoft Azure 
-                and Microsoft 365 (formerly known as Office 365). The aim of 
-                this transformation is to leverage the benefits of cloud computing, 
-                such as scalability, flexibility, cost-efficiency, and enhanced 
-                collaboration, to drive business growth and innovation.
-
- 
-
-
+                organization's IT infrastructure, applications, data, and workloads to Microsoft's cloud 
+                computing platforms and services, primarily Microsoft Azure and Microsoft 365 (formerly known as Office 365). 
+                The aim of this transformation is to leverage the benefits of cloud computing, such as scalability, 
+                flexibility, cost-efficiency, and enhanced collaboration, to drive business growth and innovation. 
               </p>
 
               <p>
-              Microsoft Cloud Transformation typically involves migrating on-premises 
-              servers, applications, and data to the cloud, adopting cloud-native services 
-              and solutions, and integrating cloud technology into existing business processes.{" "}
+              Microsoft Cloud Transformation typically involves migrating on-premises servers, applications, and data to the cloud, adopting cloud-native services and solutions, and integrating cloud technology into existing business processes. This transformation empowers businesses to modernize their operations, improve agility, and embrace digital transformation for a competitive edge in today's rapidly evolving market.{" "}
               </p>
             </div>
 

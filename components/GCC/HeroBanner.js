@@ -19,14 +19,16 @@ const HeroBanner = () => {
         <SwiperSlide>
           <div
             className="main-banner"
-            style={{ backgroundImage: `url(/images/banners/rpa-banner.jpg)` }}
+            style={{ backgroundImage: `url(/images/internal-audit-banner.jpeg)` }}
           >
             <div className="container">
               <div className="main-banner-content">
-                <h1>Transforming Operations: Unleash the Power of Robotic Automation </h1>
+                <h1>
+                SAT - The One-Stop Shop for GCC Services in India
+                </h1>
                 <div className="btn-box">
                   <Link href="/contact/" className="btn btn-primary">
-                    Schedule a Call
+                  Request a Call 
                   </Link>
                 </div>
               </div>
