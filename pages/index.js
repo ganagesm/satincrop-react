@@ -12,11 +12,23 @@ import AboutContact from "../components/Live/AboutContent";
 import CEOCorner from "../components/Live/CEOCorner";
 import Offices from "../components/Live/Offices";
 import MainServices from "../components/Live/MainServices";
+import Script from 'next/script'
 
 
 const Index = () => {
   return (
     <>
+      <Script src="https://www.googletagmanager.com/gtag/js?id=UA-228721401-1" />
+      <Script id="google-analytics">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+ 
+          gtag('config', 'UA-228721401-1');
+        `}
+      </Script>
+
       <Navbar />
       <HeroBanner />
       <AboutContact />
