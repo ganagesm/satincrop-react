@@ -44,7 +44,7 @@ const BlogDetails = () => {
                   </div>
 
 
-                  <div class="pl-lg-4">
+                  <div class="pl-lg-4 ceocorner">
 
                     <p>In our relentless pursuit of pushing boundaries and setting benchmarks in the industry, we're making strategic shifts that will not only define our journey but also the very fabric of digital consulting. As we step into this new quarter, I want to take a moment to share a pivotal direction we're passionately driving towards:<b>Machine-First Digital Consulting.</b> </p>
                     <p>This is not just another buzzword. It's a philosophy, a mindset, and a commitment. By adopting a machine-first approach, we're putting digital prowess at the heart of our solutions. This means leveraging AI-driven analytics to anticipate market shifts, using deep learning to personalize customer experiences, and employing automation to streamline operations, long before human intervention comes into play.</p>
