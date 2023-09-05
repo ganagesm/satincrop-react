@@ -1,8 +1,8 @@
 import React from "react";
-import NavbarTwo from "../components/Layouts/NavbarTwo";
-import PageBanner from "../components/Common/PageBanner";
-import Footer from "../components/Layouts/Footer";
-import CheckoutForm from "../components/Shop/CheckoutForm";
+import NavbarTwo from "../../components/Layouts/NavbarTwo";
+import PageBanner from "../../components/Common/PageBanner";
+import Footer from "../../components/Layouts/Footer";
+import CheckoutForm from "../../components/Shop/CheckoutForm";
 
 const Checkout = () => {
   return (

@@ -1,8 +1,8 @@
 import React from "react";
-import NavbarTwo from "../components/Layouts/NavbarTwo";
-import PageBanner from "../components/Common/PageBanner";
-import Footer from "../components/Layouts/Footer";
-import ProjectsDetailsContent from "../components/Projects/ProjectsDetailsContent";
+import NavbarTwo from "../../components/Layouts/NavbarTwo";
+import PageBanner from "../../components/Common/PageBanner";
+import Footer from "../../components/Layouts/Footer";
+import ProjectsDetailsContent from "../../components/Projects/ProjectsDetailsContent";
 
 const ProjectsDetails = () => {
   return (
