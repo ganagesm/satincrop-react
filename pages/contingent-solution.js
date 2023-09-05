@@ -3,7 +3,7 @@ import Navbar from "../components/Live/Navbar";
 import PageBanner from "../components/Common/PageBanner";
 import ServiceDetailsContent from "../components/Services/ServiceDetailsContent";
 import ContingentOverview from "../components/Live/ContingentOverview";
-import NearshoringTestimonials from "../components/Live/NearshoringTestimonials";
+import Testimonials from "../components/Live/Testimonials";
 import PartnerContent from "../components/Live/PartnerContent";
 import OurIndustry from "../components/Common/OurIndustry";
 import ContactForm from "../components/Contact/ContactForm";
@@ -35,7 +35,7 @@ const ServiceDetails = () => {
       <PartnerContent />
       <OurIndustry />
       {/* <ServiceDetailsContent /> */}
-      <NearshoringTestimonials />
+      <Testimonials />
       <BlogPostSlider />
       <section className="contact-area ptb-100">
         <div className="container">
