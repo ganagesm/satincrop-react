@@ -19,9 +19,9 @@ const TermsConditions = () => {
         <div className="container">
           <p>
             Thanks for using our products, consulting services, and network of
-            websites (the “Services”). The Services are provided by TrioSource
+            websites (the “Services”). The Services are provided by SA Technologies
             Systems, Inc. (referred to in these Terms of Service as
-            “TrioSource”, “we”, “us” or “our”)
+            “SA Technologies”, “we”, “us” or “our”)
           </p>
 
           <p>
@@ -65,9 +65,9 @@ const TermsConditions = () => {
 
           <h3>2. Prohibited Use</h3>
           <p>
-            You may use the Website, application, and the TrioSource Solution
+            You may use the Website, application, and the SA Technologies Solution
             only for lawful purposes. You may not use the Website application
-            and the TrioSource Solution:
+            and the SA Technologies Solution:
           </p>
 
           <p>
@@ -99,24 +99,24 @@ const TermsConditions = () => {
             computer software or hardware.
           </p>
           <p>
-            In contravention of the terms of the TrioSource License Terms. You
+            In contravention of the terms of the SA Technologies License Terms. You
             also agree:
           </p>
           <p>
             Not to reproduce, duplicate, copy or re-sell any part of the
-            Application and the TrioSource in contravention of the provisions of
+            Application and the SA Technologies in contravention of the provisions of
             these application terms of use.
           </p>
           <p>
             Not to access without authority, interfere with, damage, or disrupt:
           </p>
-          <p>any part of the application and the TrioSource website;</p>
+          <p>any part of the application and the SA Technologies website;</p>
           <p>
-            any equipment or network on which application and the TrioSource
+            any equipment or network on which application and the SA Technologies
             website is stored;
           </p>
           <p>
-            any software used in the provision of the application and TrioSource
+            any software used in the provision of the application and SA Technologies
             website; or
           </p>
           <p>

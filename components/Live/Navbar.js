@@ -82,7 +82,7 @@ const Navbar = () => {
                   <li className="nav-item">
                     <Link
                       href="#"
-                      className={`nav-link ${currentPath == "/generativeAi" || currentPath === "/ai-machine-learning-services" || currentPath === "/frontend-development" || currentPath === "/ai-driven-iot" || currentPath === "/ai-machine-learning-services" || currentPath === "/data-science" || currentPath === "/cloud-infrastructure-services" || currentPath === "/rpa"|| currentPath === "/devops" || currentPath === "/mobile-app-development" || currentPath === "/software-quality-assurance" || currentPath === "/software-application-development" || currentPath === "/ui-ux-designer" ? "active"
+                      className={`nav-link ${currentPath == "/generative-ai" || currentPath === "/machine-learning-and-artificial-intelligence" || currentPath === "/frontend-development" || currentPath === "/internet-of-things" || currentPath === "/machine-learning-and-artificial-intelligence" || currentPath === "/data-science-analytics" || currentPath === "/cloud-services" || currentPath === "/rpa"|| currentPath === "/devops" || currentPath === "/mobile-app-development" || currentPath === "/software-quality-assurance" || currentPath === "/software-application-development" || currentPath === "/ui-ux-design" ? "active"
                           : ""
                         }`}
                     >
@@ -91,8 +91,8 @@ const Navbar = () => {
                     <ul className="dropdown-menu">
                       <li className="nav-item">
                         <Link
-                          href="/generativeAi"
-                          className={`nav-link ${currentPath == "/generativeAi" && "active"
+                          href="/generative-ai"
+                          className={`nav-link ${currentPath == "/generative-ai" && "active"
                             }`}
                         >
                           Generative AI
@@ -100,8 +100,8 @@ const Navbar = () => {
                       </li>
                       <li className="nav-item">
                         <Link
-                          href="/ai-machine-learning-services"
-                          className={`nav-link ${currentPath == "/ai-machine-learning-services" && "active"
+                          href="/machine-learning-and-artificial-intelligence"
+                          className={`nav-link ${currentPath == "/machine-learning-and-artificial-intelligence" && "active"
                             }`}
                         >
                           Machine Learning
@@ -109,8 +109,8 @@ const Navbar = () => {
                       </li>
                       <li className="nav-item">
                         <Link
-                          href="/ai-driven-iot"
-                          className={`nav-link ${currentPath == "/ai-driven-iot" && "active"
+                          href="/internet-of-things"
+                          className={`nav-link ${currentPath == "/internet-of-things" && "active"
                             }`}
                         >
                           IOT (Internet of Things)
@@ -118,8 +118,8 @@ const Navbar = () => {
                       </li>
                       <li className="nav-item">
                         <Link
-                          href="/data-science"
-                          className={`nav-link ${currentPath == "/data-science" && "active"
+                          href="/data-science-analytics"
+                          className={`nav-link ${currentPath == "/data-science-analytics" && "active"
                             }`}
                         >
                           Data Science & Analytics
@@ -136,8 +136,8 @@ const Navbar = () => {
                       </li>
                       <li className="nav-item">
                         <Link
-                          href="/cloud-infrastructure-services"
-                          className={`nav-link ${currentPath == "/cloud-infrastructure-services" && "active"
+                          href="/cloud-services"
+                          className={`nav-link ${currentPath == "/cloud-services" && "active"
                             }`}
                         >
                           Cloud Services
@@ -155,8 +155,8 @@ const Navbar = () => {
                       </li>
                       <li className="nav-item">
                         <Link
-                          href="/UIUXSolutions"
-                          className={`nav-link ${currentPath == "/UIUXSolutions" && "active"
+                          href="/ui-ux-design"
+                          className={`nav-link ${currentPath == "/ui-ux-design" && "active"
                             }`}
                         >
                           UI & UX Design
@@ -236,7 +236,7 @@ const Navbar = () => {
                   <li className="nav-item">
                     <Link
                       href=""
-                      className={`nav-link ${currentPath == "/microsoft" || currentPath === "/google" || currentPath === "/oracle" || currentPath === "/aws" || currentPath === "/salesforce" || currentPath === "/servicenow" || currentPath === "/angular" || currentPath === "/android" ? "active"
+                      className={`nav-link ${currentPath == "/microsoft" || currentPath === "/google-cloud" || currentPath === "/oracle" || currentPath === "/aws-services" || currentPath === "/salesforce" || currentPath === "/servicenow" || currentPath === "/angular" || currentPath === "/android" ? "active"
                           : ""
                         }`}
                     >
@@ -255,8 +255,8 @@ const Navbar = () => {
 
                       <li className="nav-item">
                         <Link
-                          href="/google"
-                          className={`nav-link ${currentPath == "/google" && "active"
+                          href="/google-cloud"
+                          className={`nav-link ${currentPath == "/google-cloud" && "active"
                             }`}
                         >
                           Google
@@ -275,8 +275,8 @@ const Navbar = () => {
 
                       <li className="nav-item">
                         <Link
-                          href="/aws"
-                          className={`nav-link ${currentPath == "/aws" && "active"
+                          href="/aws-services"
+                          className={`nav-link ${currentPath == "/aws-services" && "active"
                             }`}
                         >
                           AWS
@@ -307,7 +307,7 @@ const Navbar = () => {
                   <li className="nav-item">
                     <Link
                       href=""
-                      className={`nav-link ${currentPath == "/contingent-solution" || currentPath === "/rpo-services" || currentPath === "/hire-train-deploy" || currentPath === "/payroll-outsourcing-services" || currentPath === "/google-cloud-community" ? "active"
+                      className={`nav-link ${currentPath == "/contigent-service" || currentPath === "/rpo-services" || currentPath === "/hire-train-deploy" || currentPath === "/payroll-outsourcing-services" || currentPath === "/google-cloud-community" ? "active"
                       : ""
                     }`}
                     >
@@ -316,8 +316,8 @@ const Navbar = () => {
                     <ul className="dropdown-menu">
                       <li className="nav-item">
                         <Link
-                          href="/contingent-solution"
-                          className={`nav-link ${currentPath == "/contingent-solution" && "active"
+                          href="/contigent-service"
+                          className={`nav-link ${currentPath == "/contigent-service" && "active"
                             }`}
                         >
                          Contingent Workforce
@@ -387,7 +387,7 @@ const Navbar = () => {
                     ></i>
                   </div> */}
 
-                  <Link href="/contact" className="btn btn-primary">
+                  <Link href="/contact-us" className="btn btn-primary">
                     Contact Us
                   </Link>
                 </div>
