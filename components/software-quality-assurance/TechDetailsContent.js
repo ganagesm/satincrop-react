@@ -8,17 +8,14 @@ const ServiceDetailsContent = () => {
         <div className="container">
           <div className="services-details-overview">
             <div className="services-details-desc mb-30">
-              <h3> Pioneering AI-Driven Software Quality Assurance for Innovations.
-
-  </h3>
-              <p>SA Technologies offers a comprehensive suite of AI-driven Testing and Quality Assurance (QA) services. With our rich history of navigating complex quality challenges and crafting innovative digital platforms tailored to your unique business needs, we stand at the forefront of the QA landscape. Harness the power of AI to elevate your software quality with us.
-
-</p>
+              <h3> Pioneering AI-Driven Software Quality Assurance for Innovations.</h3>
+              <p>SA Technologies offers a comprehensive suite of AI-driven Testing and Quality Assurance (QA) services. With our rich history of navigating complex quality challenges and crafting innovative digital platforms tailored to your unique business needs, we stand at the forefront of the QA landscape. Harness the power of AI to elevate your software quality with us.</p>
+              <p>Our AI-powered solutions ensure robust testing coverage, accelerate testing cycles, and enhance defect detection. We're committed to delivering seamless user experiences and impeccable software quality that empowers your business growth and innovation.</p>
             </div>
 
             <div className="services-details-image">
               <img
-                src="/images/sqt.jpeg"
+                src="/images/services-details/sqt-over.jpeg"
                 alt="image"
               />
             </div>

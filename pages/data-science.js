@@ -20,7 +20,7 @@ const Index = () => {
       <Navbar />
       <HeroBanner />
       {/* <ComputerVisionAI /> */}
-      {/* <TechDetailsContent /> */}
+       <TechDetailsContent /> 
       <Services />
       {/* <Industries /> */}
       <WhyChooseSAT/>

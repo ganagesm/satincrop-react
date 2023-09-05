@@ -78,7 +78,7 @@ button {
 }
 
 p {
-    font-size: 14px;
+    font-size: 17px;
     color: #57647c;
     margin-bottom: 15px;
     line-height: 1.8;
@@ -3058,6 +3058,9 @@ Page Title Area CSS
 }
 .page-title-area.item-bg9 {
     background-image: url(/images/technology-banner/offshore.jpg);
+}
+.page-title-area.item-bg10 {
+    background-image: url(/images/banners/google.png);
 }
 
 .page-title-content h2 {
@@ -8266,6 +8269,11 @@ Footer Wrap Area CSS
 
 .pt-50 {
     padding-top: 50px;
+}
+
+.GCCJourney {
+    background-color: #e2e7f4;
+    margin-top: 70px;
 }
 
 /*End "Home Demo - 6", "Home Demo - 7" & "Home Demo - 8" Style CSS*/

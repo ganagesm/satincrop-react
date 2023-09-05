@@ -29,7 +29,7 @@ const BlogPostSlider = () => {
                       <i className="fab fa-linkedin"></i>
                     </a>
 
-                    <a
+                    {/* <a
                       href="https://www.twitter.com/"
                       target="_blank"
                       rel="noreferrer"
@@ -43,7 +43,7 @@ const BlogPostSlider = () => {
                       rel="noreferrer"
                     >
                       <i className="fab fa-instagram"></i>
-                    </a>
+                    </a> */}
                   </div>
                 </div>
 
@@ -54,6 +54,7 @@ const BlogPostSlider = () => {
               </div>
             </div>
             <div className="col-lg-8 col-sm-12">
+              
               <Swiper
                 spaceBetween={20}
                 autoplay={{
@@ -79,6 +80,37 @@ const BlogPostSlider = () => {
                 className="partner-slides"
               >
                 <div className="row justify-content-center">
+                <SwiperSlide>
+                <div className="single-blog-post">
+                  <div className="entry-thumbnail">
+                    <Link href="/embracing-machine-first-approach/">
+                      <img src="/images/engineer-cooperation.jpg" alt="image" />
+                    </Link>
+                  </div>
+
+                  <div className="entry-post-content">
+                    <div className="entry-meta">
+                      <ul>
+                        <li>Sep 04, 2023</li>
+                      </ul>
+                    </div>
+
+                    <h3>
+                      <Link href="/embracing-machine-first-approach/">
+                        Embracing the Machine-First Approach to Forge Ahead
+                      </Link>
+                    </h3>
+
+                    <p>
+                      In our relentless pursuit of pushing boundaries....
+                    </p>
+
+                    <Link href="/embracing-machine-first-approach/" className="learn-more-btn">
+                      Read More <i className="flaticon-add"></i>
+                    </Link>
+                  </div>
+                </div>
+              </SwiperSlide>
                   <SwiperSlide>
                     <div className="single-blog-post">
                       <div className="entry-thumbnail">
