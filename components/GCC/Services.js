@@ -7,35 +7,33 @@ const Services = () => {
       <section className="services-area bg-f2f6f9 ptb-110">
         <div className="container">
           <div className="section-title">
-            <h2>Our Comprehensive RPA services
-
-            </h2>
-            {/* <p>It's important to note that while generative AI can automate and enhance content creation and services, human oversight and intervention are still essential to ensure quality, ethical considerations, and adherence to desired outcomes.</p> */}
+            <h2>Our Comprehensive Solution Includes</h2>
+            <p>Our comprehensive solution can help you establish a successful Global Capability Center in India, 
+              so you can focus on your core business activities.</p>
           </div>
 
           <div className="row">
             <div className="col-lg-4 col-sm-6">
               <div className="single-services-box">
-                <h2>RPA Advisory
-                </h2>
-                <p>Through our RPA Advisory services, we gauge your automation potential, conduct insightful workshops, chalk out the requirements, craft a strategic automation plan, suggest the ideal RPA tools, and lay down a clear automation trajectory.
-                </p>
+                <h2>GCC Strategy Development</h2>
+                <p>We will work with you to develop a customized GCC strategy that aligns with your business objectives and goals.</p>
               </div>
             </div>
 
             <div className="col-lg-4 col-sm-6">
               <div className="single-services-box">
-                <h2>RPA Deployment
+                <h2>Location Selection
                 </h2>
-                <p>Our RPA Deployment spectrum encompasses solution design, development, rigorous testing, seamless deployment, and vigilant maintenance in the live environment, all governed by a Time & Material or project-centric approach.
+                <p>We will help you identify the optimal location for your GCC, based on factors 
+                such as market access, talent availability, and operational costs.
                 </p>
               </div>
             </div>
             <div className="col-lg-4 col-sm-6">
               <div className="single-services-box">
-                <h2>RPA Customization
+                <h2>Talent Acquisition
                 </h2>
-                <p>Our adept developers curate tailor-made plugins, bots, dashboards, templates, and more, as well as integrate third-party functions to align with your specific business imperatives, ensuring seamless integration and collaboration across your organization.
+                <p>We will recruit and onboard the right talent for your GCC, ensuring that you have the skills and expertise you need to succeed.
                 </p>
               </div>
             </div>
@@ -46,18 +44,43 @@ const Services = () => {
 
             <div className="col-lg-4 col-sm-6">
               <div className="single-services-box" style={{ height: "270px" }}>
-                <h2>On-demand Consulting
+                <h2>Infrastructure Setup
                 </h2>
-                <p>SA Technologies extends RPA consultants for both short and long durations, complementing your team's needs. These experts offer timely aid in areas like mentoring, implementation, performance enhancement, and continuous upkeep of your RPA framework.
+                <p>We will help you set up the physical and digital infrastructure for your GCC, ensuring that it meets your operational requirements.
                 </p>
               </div>
             </div>
             <div className="col-lg-4 col-sm-6">
               <div className="single-services-box" style={{ height: "270px" }}>
-                <h2>RPA Continuous Support
+                <h2>Operational Guidance
                 </h2>
-                <p>Our proactive Managed Support for RPA ensures your automation solutions remain cutting-edge. With scheduled updates, meticulous maintenance, and round-the-clock support, we guarantee your RPA operations align perfectly with your business momentum</p>
+                <p>We will provide ongoing operational guidance and support for your GCC, helping you 
+                to streamline day-to-day operations, IT support, compliance, and quality assurance.</p>
               </div>
+            </div>
+            <div className="col-lg-4 col-sm-6">
+              <div className="single-services-box" style={{ height: "270px" }}>
+                <h2>Legal Registration Support</h2>
+                <p>We will assist you with the legal registration process to establish your company as a legal entity in India.</p>
+              </div>
+            </div>
+            <div className="col-lg-4 col-sm-6">
+              {/* <div className="single-services-box" style={{ height: "270px" }}>
+                <h2>Regulatory Compliance</h2>
+                <p>We will help you navigate the intricacies of Indian legal and regulatory requirements to ensure compliance.</p>
+              </div> */}
+            </div>
+            <div className="col-lg-4 col-sm-6">
+              <div className="single-services-box" style={{ height: "270px" }}>
+                <h2>Regulatory Compliance</h2>
+                <p>We will help you navigate the intricacies of Indian legal and regulatory requirements to ensure compliance.</p>
+              </div>
+            </div>
+            <div className="col-lg-4 col-sm-6">
+              {/* <div className="single-services-box" style={{ height: "270px" }}>
+                <h2>Regulatory Compliance</h2>
+                <p>We will help you navigate the intricacies of Indian legal and regulatory requirements to ensure compliance.</p>
+              </div> */}
             </div>
           </div>
 

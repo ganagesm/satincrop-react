@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../components/Live/Navbar";
 import OnsitePageBanner from "../components/Live/OnsitePageBanner";
 import HiretraindeployServices from "../components/Live/HiretraindeployServices";
-import NearshoringTestimonials from "../components/Live/NearshoringTestimonials";
+import Testimonials from "../components/Live/Testimonials";
 import Link from "next/link";
 import PartnerContent from "../components/Live/PartnerContent";
 import OurIndustry from "../components/Common/OurIndustry";
@@ -36,7 +36,7 @@ const ServiceDetails = () => {
 
       <OurIndustry />
 
-      <NearshoringTestimonials />
+      <Testimonials />
 
       <BlogPostSlider />
       <section className="contact-area pb-100">

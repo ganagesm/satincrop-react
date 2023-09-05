@@ -9,7 +9,8 @@ const ServiceDetailsContent = () => {
         <div className="container">
           <div className="section-title">
             <h2>Our Comprehensive Solution Includes </h2>
-            <p>Our comprehensive solution can help you establish a successful Global Capability Center in India, so you can focus on your core business activities.</p>
+            <p>Our comprehensive solution can help you establish a successful Global Capability Center in India, 
+              so you can focus on your core business activities.</p>
           </div>
 
           <div className="services-details-overview">
@@ -28,7 +29,8 @@ const ServiceDetailsContent = () => {
               <p>We will help you set up the physical and digital infrastructure for your GCC, ensuring that it meets your operational requirements.</p>
 
               <h6>Operational Guidance</h6>
-              <p>We will provide ongoing operational guidance and support for your GCC, helping you to streamline day-to-day operations, IT support, compliance, and quality assurance.</p>  
+              <p>We will provide ongoing operational guidance and support for your GCC, helping you 
+                to streamline day-to-day operations, IT support, compliance, and quality assurance.</p>  
 
               <h6>Legal Registration Support</h6>
               <p>We will assist you with the legal registration process to establish your company as a legal entity in India.</p>  

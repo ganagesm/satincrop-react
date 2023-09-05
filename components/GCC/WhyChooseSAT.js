@@ -26,7 +26,7 @@ const ComputerVisionAI = () => {
 
           </div>
         </div>
-        <div className="GCCJourney">
+        <div className="GCCJourney mt-50">
           <div className="container">
           <div className="row ptb-100 align-items-center">
             <div className="col-lg-6 col-md-6">

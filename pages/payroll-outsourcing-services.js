@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../components/Live/Navbar";
 import OnsitePageBanner from "../components/Live/OnsitePageBanner";
-import NearshoringTestimonials from "../components/Live/NearshoringTestimonials";
+import Testimonials from "../components/Live/Testimonials";
 import PayrolloutsourcingServices from "../components/Live/PayrolloutsourcingServices"
 import Link from "next/link";
 import PartnerContent from "../components/Live/PartnerContent";
@@ -37,7 +37,7 @@ const ServiceDetails = () => {
 
       <OurIndustry />
 
-      <NearshoringTestimonials />
+      <Testimonials />
 
       <BlogPostSlider />
       <section className="contact-area pb-100">

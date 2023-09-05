@@ -70,6 +70,53 @@ const Services = () => {
                 <p>Leave the legal and operational complexities to us, so you can focus on your core business activities.</p>
               </div>
             </div>
+
+            <div className="col-lg-3 col-sm-6">
+              <div className="single-services-box">
+                <div className="icon">
+                  <img src="/images/icon/finance.svg" alt="image"
+                    style={{
+                      width: "75%",
+                      textAlign: "center",
+                      marginTop: "10px",
+                    }} />
+                </div>
+                <h5>Pay-as-You-Go</h5>
+                <p>We believe in simplicity and transparency when it comes to pricing our services. Our 
+                  "Pay-as-You-Go" pricing model ensures that you only pay for the services you use, 
+                  eliminating any unnecessary complexity.</p>
+              </div>
+            </div>
+
+            <div className="col-lg-3 col-sm-6">
+              <div className="single-services-box">
+                <div className="icon">
+                  <img src="/images/icon/finance.svg" alt="image"
+                    style={{
+                      width: "75%",
+                      textAlign: "center",
+                      marginTop: "10px",
+                    }} />
+                </div>
+                <h5>No Legal Compliance</h5>
+                <p>We prioritize a hassle-free experience for our clients. Our approach to legal compliance is straightforward and stress-free.</p>
+              </div>
+            </div>
+
+            <div className="col-lg-3 col-sm-6">
+              <div className="single-services-box">
+                <div className="icon">
+                  <img src="/images/icon/finance.svg" alt="image"
+                    style={{
+                      width: "75%",
+                      textAlign: "center",
+                      marginTop: "10px",
+                    }} />
+                </div>
+                <h5>No Lock-In</h5>
+                <p>Our "No Lock-In" approach is designed to empower you and your business with the freedom to adapt, grow, and make choices that align with your needs.</p>
+              </div>
+            </div>
           </div>
 
         </div>
