@@ -306,9 +306,10 @@ const Navbar = () => {
                   </li>
                   <li className="nav-item">
                     <Link
-                      href="/case-studies"
-                      className={`nav-link ${currentPath == "/case-studies" && "active"
-                        }`}
+                      href=""
+                      className={`nav-link ${currentPath == "/contingent-solution" || currentPath === "/rpo-services" || currentPath === "/hire-train-deploy" || currentPath === "/payroll-outsourcing-services" || currentPath === "/google-cloud-community" ? "active"
+                      : ""
+                    }`}
                     >
                       Talent Solutions
                     </Link>
@@ -349,6 +350,15 @@ const Navbar = () => {
                             }`}
                         >
                          Payroll Outsourcing Services
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link
+                          href="/google-cloud-community"
+                          className={`nav-link ${currentPath == "/google-cloud-community" && "active"
+                            }`}
+                        >
+                         GCC Service
                         </Link>
                       </li>
                     </ul>
