@@ -307,7 +307,7 @@ const Navbar = () => {
                   <li className="nav-item">
                     <Link
                       href=""
-                      className={`nav-link ${currentPath == "/contigent-service" || currentPath === "/rpo-services" || currentPath === "/hire-train-deploy" || currentPath === "/payroll-outsourcing-services" || currentPath === "/google-cloud-community" ? "active"
+                      className={`nav-link ${currentPath == "/contigent-service" || currentPath === "/rpo-services" || currentPath === "/hire-train-deploy" || currentPath === "/payroll-outsourcing-services" || currentPath === "/gcc" ? "active"
                       : ""
                     }`}
                     >
@@ -354,8 +354,8 @@ const Navbar = () => {
                       </li>
                       <li className="nav-item">
                         <Link
-                          href="/google-cloud-community"
-                          className={`nav-link ${currentPath == "/google-cloud-community" && "active"
+                          href="/gcc"
+                          className={`nav-link ${currentPath == "/gcc" && "active"
                             }`}
                         >
                          GCC Service
