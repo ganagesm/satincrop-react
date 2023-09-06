@@ -13,7 +13,7 @@ import CEOCorner from "../components/Live/CEOCorner";
 import Offices from "../components/Live/Offices";
 import MainServices from "../components/Live/MainServices";
 import Script from 'next/script';
-import Head from 'next/Head';
+import Head from "next/Head";
 
 
 const Index = () => {

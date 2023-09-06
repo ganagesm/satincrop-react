@@ -13,7 +13,7 @@ import CaseStudiesPost from "../components/Live/CaseStudiesPost";
 import WhyChooseSAT from "../components/cloud-nfrastructure-services/WhyChooseSAT";
 import Services from "../components/cloud-nfrastructure-services/Services";
 
-import Head from 'next/Head';
+import Head from "next/Head";
 
 const Index = () => {
   return (
