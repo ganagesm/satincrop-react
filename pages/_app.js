@@ -38,7 +38,7 @@ function MyApp({ Component, pageProps }) {
           gtag('config', 'G-EFJWZ4P8SR');
                 `}
       </Script>
-      <head>
+      <Head>
         <meta
           name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         {/* <meta name="google-site-verification" content="1k17_ncXg0fFoTw6047xFIUVipBebzMVIu-LcCvVBY0" /> */}
@@ -53,7 +53,7 @@ function MyApp({ Component, pageProps }) {
         `}
         </Script>
         <Script src="https://www.google-analytics.com/analytics.js" />
-      </head>
+      </Head>
 
       <noscript dangerouslySetInnerHTML={{
         __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M73DP9H"
