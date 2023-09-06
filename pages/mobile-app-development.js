@@ -13,15 +13,24 @@ import OurIndustry from "../components/Common/OurIndustry";
 import Testimonials from "../components/Live/Testimonials";
 import BlogPostSlider from "../components/Live/BlogPostSlider";
 
+import Head from 'next/Head';
+
 const Index = () => {
   return (
     <>
+
+      <Head>
+        <title>AI-Driven Mobile App Development | SA Technologies Inc. </title>
+        <meta property="og:title" content="AI-Driven Mobile App Development | SA Technologies Inc.   " key="title" />
+        <meta name="description" content="Revolutionize your digital solutions with AI-powered mobile app development from SA Technologies. We excel in native, cross-platform, and hybrid app development." key="description" />
+      </Head>
+
       <Navbar />
       <HeroBanner />
       <ComputerVisionAI />
       <TechDetailsContent />
-      <WhyChooseSAT/>
-      <OurIndustry/>
+      <WhyChooseSAT />
+      <OurIndustry />
       <BlogPostSlider />
       <CaseStudiesSlider />
       <Testimonials />

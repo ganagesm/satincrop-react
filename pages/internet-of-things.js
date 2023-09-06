@@ -13,10 +13,18 @@ import ComputerVisionAI from "../components/AIDrivenIoT/ComputerVisionAI";
 import TechDetailsContent from "../components/AIDrivenIoT/TechDetailsContent";
 import Services from "../components/AIDrivenIoT/Services";
 import WhyChooseSAT from "../components/AIDrivenIoT/WhyChooseSAT";
+import Head from 'next/Head';
 
 const Index = () => {
   return (
     <>
+
+      <Head>
+        <title>IoT Services  | SA Technologies Inc. </title>
+        <meta property="og:title" content="IoT Services  | SA Technologies Inc." key="title" />
+        <meta name="description" content="Explore the future of IoT (Internet of Things) services with SA Technologies. Revolutionize your business with IoT strategy, device development, platform integration, security, and support. " key="description" />
+      </Head>
+
       <Navbar />
       <HeroBanner />
       {/* <ComputerVisionAI /> */}
