@@ -11,7 +11,7 @@ import TechDetailsContent from "../components/ai-machine-learning-services/TechD
 import Services from "../components/ai-machine-learning-services/Services";
 import WhyChooseSAT from "../components/ai-machine-learning-services/WhyChooseSAT";
 import OurIndustry from "../components/Common/OurIndustry";
-import Head from 'next/Head';
+import Head from 'next/head';
 
 const Index = () => {
   return (

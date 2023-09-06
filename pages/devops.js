@@ -10,7 +10,7 @@ import CaseStudiesPost from "../components/Live/CaseStudiesPost";
 import WhyChooseSAT from "../components/devops/WhyChooseSAT";
 import Services from "../components/devops/Services";
 
-import Head from 'next/Head';
+import Head from 'next/head';
 
 const Index = () => {
   return (

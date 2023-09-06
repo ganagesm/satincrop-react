@@ -13,7 +13,7 @@ import ComputerVisionAI from "../components/AIDrivenIoT/ComputerVisionAI";
 import TechDetailsContent from "../components/AIDrivenIoT/TechDetailsContent";
 import Services from "../components/AIDrivenIoT/Services";
 import WhyChooseSAT from "../components/AIDrivenIoT/WhyChooseSAT";
-import Head from 'next/Head';
+import Head from 'next/head';
 
 const Index = () => {
   return (

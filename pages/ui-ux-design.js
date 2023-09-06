@@ -11,7 +11,7 @@ import BlogPostSlider from "../components/Live/BlogPostSlider";
 import CaseStudiesPost from "../components/Live/CaseStudiesPost";
 import TechDetailsContent from "../components/UIUXSolutions/TechDetailsContent";
 
-import Head from 'next/Head';
+import Head from 'next/head';
 
 const Index = () => {
   return (
