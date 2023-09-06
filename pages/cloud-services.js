@@ -18,11 +18,11 @@ import Head from "next/Head";
 const Index = () => {
   return (
     <>
-     <head>
+     <Head>
         <title>AI-Powered Cloud Solutions | SA Technologies Inc.  </title>
         <meta property="og:title" content="AI-Powered Cloud Solutions | SA Technologies Inc. " key="title" />
         <meta name="description" content="Elevate your business with AI-enhanced cloud services from SA Technologies. Harness the power of AI for flexible, efficient, and secure cloud solutions. Transform your digital landscape. " key="description" />
-      </head>
+      </Head>
 
       <Navbar />
       <HeroBanner />

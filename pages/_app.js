@@ -9,13 +9,13 @@ import "react-accessible-accordion/dist/fancy-example.css";
 import "swiper/css";
 import "swiper/css/bundle";
 import ReactGA from 'react-ga';
-import Script from 'next/script'
+import Script from 'next/script';
 
 // Global Styles
 import "../styles/style.css";
 import "../styles/responsive.css";
 
-import Head from 'next/Head';
+import Head from "next/Head";
 import GoTop from "../components/Shared/GoTop";
 
 function MyApp({ Component, pageProps }) {
