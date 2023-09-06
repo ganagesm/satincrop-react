@@ -4,4 +4,4 @@ const baseUrl = process.env.NODE_ENV === "production"
 
 export default baseUrl;
 
-NEXT_PUBLIC_GOOGLE_ANALYTICS= 'G-S02J90JMSB'
+const NEXT_PUBLIC_GOOGLE_ANALYTICS = 'G-EFJWZ4P8SR'
