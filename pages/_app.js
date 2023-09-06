@@ -41,7 +41,8 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <meta
           name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="google-site-verification" content="1k17_ncXg0fFoTw6047xFIUVipBebzMVIu-LcCvVBY0" />
+        {/* <meta name="google-site-verification" content="1k17_ncXg0fFoTw6047xFIUVipBebzMVIu-LcCvVBY0" /> */}
+        <meta name="google-site-verification" content="0QxII35pwwkB8U9eMWfYKXQ2WOg1tVNPkBzHqpDP1Bo" />
         <title>IT Consulting Company | Your Digital Transformation Partner | SA Technologies Inc. USA</title>
 
         <Script id="google-analytics">
