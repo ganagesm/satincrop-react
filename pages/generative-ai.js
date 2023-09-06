@@ -10,7 +10,7 @@ import OurIndustry from "../components/Common/OurIndustry";
 import Testimonials from "../components/Live/Testimonials";
 import BlogPostSlider from "../components/Live/BlogPostSlider";
 import CaseStudiesPost from "../components/Live/CaseStudiesPost";
-import Head from "next/Head";
+import Head from 'next/head';
 
 const Index = () => {
   return (
