@@ -15,7 +15,7 @@ import Script from 'next/script'
 import "../styles/style.css";
 import "../styles/responsive.css";
 
-import Head from "next/Head";
+import Head from 'next/Head';
 import GoTop from "../components/Shared/GoTop";
 
 function MyApp({ Component, pageProps }) {
