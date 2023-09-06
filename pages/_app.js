@@ -30,7 +30,8 @@ function MyApp({ Component, pageProps }) {
           name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="google-site-verification" content="1k17_ncXg0fFoTw6047xFIUVipBebzMVIu-LcCvVBY0" />
         <title>IT Consulting Company | Your Digital Transformation Partner | SA Technologies Inc. USA</title>
-        <Script src="https://www.googletagmanager.com/gtag/js?id=UA-228721401-1" />
+        
+        {/* <Script src="https://www.googletagmanager.com/gtag/js?id=UA-228721401-1" />
         <Script id="google-analytics">
           {`
           window.dataLayer = window.dataLayer || [];
@@ -39,7 +40,7 @@ function MyApp({ Component, pageProps }) {
  
           gtag('config', 'UA-228721401-1');
         `}
-        </Script>
+        </Script> */}
         {/* <!-- Google tag (gtag.js) --> */}
         <Script async src="https://www.googletagmanager.com/gtag/js?id=UA-66413880-1"></Script>
         <Script>
@@ -68,11 +69,11 @@ function MyApp({ Component, pageProps }) {
           `}</Script>
       </Head>
 
-      <Component {...pageProps} />
-
       <noscript dangerouslySetInnerHTML={{
         __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M73DP9H"
         height="0" width="0" style="display:none;visibility:hidden"></iframe>`}}></noscript>
+      <Component {...pageProps} />
+
 
       {/* Go Top Button */}
       <GoTop scrollStepInPx="50" delayInMs="10.50" />
