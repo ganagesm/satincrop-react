@@ -11,7 +11,7 @@ const Services = () => {
           </div>
 
           <div className="row">
-            <div className="col-lg-3 col-sm-6">
+            <div className="col-lg-4 col-sm-6">
               <div className="single-services-box">
                 <div className="icon">
                   <img src="/images/icon/chinese-food.svg" alt="image"
@@ -26,7 +26,7 @@ const Services = () => {
               </div>
             </div>
 
-            <div className="col-lg-3 col-sm-6">
+            <div className="col-lg-4 col-sm-6">
               <div className="single-services-box">
                 <div className="icon">
                   <img src="/images/icon/shopping-bag.svg" alt="image"
@@ -41,7 +41,7 @@ const Services = () => {
               </div>
             </div>
 
-            <div className="col-lg-3 col-sm-6">
+            <div className="col-lg-4 col-sm-6">
               <div className="single-services-box">
                 <div className="icon">
                   <img src="/images/icon/fitness.svg" alt="image"
@@ -56,10 +56,10 @@ const Services = () => {
               </div>
             </div>
          
-            <div className="col-lg-3 col-sm-6">
+            <div className="col-lg-4 col-sm-6">
               <div className="single-services-box">
                 <div className="icon">
-                  <img src="/images/icon/finance.svg" alt="image"
+                  <img src="/images/icon/judicial-scrivener.svg" alt="image"
                     style={{
                       width: "75%",
                       textAlign: "center",
@@ -71,7 +71,7 @@ const Services = () => {
               </div>
             </div>
 
-            <div className="col-lg-3 col-sm-6">
+            <div className="col-lg-4 col-sm-6">
               <div className="single-services-box">
                 <div className="icon">
                   <img src="/images/icon/finance.svg" alt="image"
@@ -88,7 +88,7 @@ const Services = () => {
               </div>
             </div>
 
-            <div className="col-lg-3 col-sm-6">
+            {/* <div className="col-lg-4 col-sm-6">
               <div className="single-services-box">
                 <div className="icon">
                   <img src="/images/icon/finance.svg" alt="image"
@@ -101,12 +101,12 @@ const Services = () => {
                 <h5>No Legal Compliance</h5>
                 <p>We prioritize a hassle-free experience for our clients. Our approach to legal compliance is straightforward and stress-free.</p>
               </div>
-            </div>
+            </div> */}
 
-            <div className="col-lg-3 col-sm-6">
+            <div className="col-lg-4 col-sm-6">
               <div className="single-services-box">
                 <div className="icon">
-                  <img src="/images/icon/finance.svg" alt="image"
+                  <img src="/images/icon/lock-in.svg" alt="image"
                     style={{
                       width: "75%",
                       textAlign: "center",
