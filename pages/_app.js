@@ -10,12 +10,12 @@ import "swiper/css";
 import "swiper/css/bundle";
 import ReactGA from 'react-ga';
 import Script from 'next/script';
+import Head from 'next/head';
 
 // Global Styles
 import "../styles/style.css";
 import "../styles/responsive.css";
 
-import Head from "next/Head";
 import GoTop from "../components/Shared/GoTop";
 
 function MyApp({ Component, pageProps }) {
