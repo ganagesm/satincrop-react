@@ -11,10 +11,16 @@ import TechDetailsContent from "../components/ai-machine-learning-services/TechD
 import Services from "../components/ai-machine-learning-services/Services";
 import WhyChooseSAT from "../components/ai-machine-learning-services/WhyChooseSAT";
 import OurIndustry from "../components/Common/OurIndustry";
+import Head from 'next/Head';
 
 const Index = () => {
   return (
     <>
+    <Head>
+        <title>AI & Machine Learning Solutions | SA Technologies Inc. </title>
+        <meta property="og:title" content="AI & Machine Learning Solutions | SA Technologies Inc." key="title" />
+        <meta name="description" content="Elevate your business with AI and Machine Learning solutions from SA Technologies. Customized AI-powered solutions for innovation, efficiency, and data-driven decisions." key="description" />
+      </Head>
       <Navbar />
       <HeroBanner />
       {/* <ComputerVisionAI /> */}

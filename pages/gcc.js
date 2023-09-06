@@ -12,11 +12,15 @@ import ContactForm from "../components/Contact/ContactForm";
 import Services from "../components/GCC/Services";
 import WhyChooseSAT from "../components/GCC/WhyChooseSAT";
 import BlogPostSlider from "../components/Live/BlogPostSlider";
+import Meta from "../components/Common/meta";
 
 
 const Index = () => {
   return (
     <>
+    <Meta title />
+      <Meta keywords />
+      <Meta description />
       <Navbar />
       <HeroBanner />
       {/* <TechDetailsContent /> */}

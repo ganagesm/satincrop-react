@@ -10,10 +10,18 @@ import OurIndustry from "../components/Common/OurIndustry";
 import Testimonials from "../components/Live/Testimonials";
 import BlogPostSlider from "../components/Live/BlogPostSlider";
 import CaseStudiesPost from "../components/Live/CaseStudiesPost";
+import Head from 'next/Head';
 
 const Index = () => {
   return (
     <>
+      <Head>
+        <title>Generative AI Services | SA Technologies Inc. </title>
+        <meta property="og:title" content="Generative AI Services | SA Technologies Inc." key="title" />
+        <meta name="description" content="Experience limitless innovation with Generative AI services from SA Technologies. Transform content creation, automate code generation, enhance testing, and more. Discover the future of AI. " key="description" />
+      </Head>
+
+
       <Navbar />
       <HeroBanner />
       <TechDetailsContent />
