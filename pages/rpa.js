@@ -11,7 +11,7 @@ import ComputerVisionAI from "../components/rpa/ComputerVisionAI";
 import TechDetailsContent from "../components/rpa/TechDetailsContent";
 import Services from "../components/rpa/Services";
 import WhyChooseSAT from "../components/rpa/WhyChooseSAT";
-import Head from 'next/Head';
+import Head from 'next/head';
 
 const Index = () => {
   return (
