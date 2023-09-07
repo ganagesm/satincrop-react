@@ -9,10 +9,18 @@ import OurIndustry from "../components/Common/OurIndustry";
 import ContactForm from "../components/Contact/ContactForm";
 import BlogPostSlider from "../components/Live/BlogPostSlider";
 import Footer from "../components/Live/Footer";
+import ContactFormContent from "../components/Common/ContactFormContent";
+import Head from 'next/head';
 
 const ServiceDetails = () => {
   return (
     <>
+      <Head>
+        <title>Payroll Outsourcing Services | SA Technologies Solutions </title>
+        <meta property="og:title" content="Payroll Outsourcing Services | SA Technologies Solutions" key="title" />
+        <meta name="description" content="Experience streamlined and efficient payroll management with SA Technologies Payroll Outsourcing Services. Focus on your core business while we handle the complexities." key="description" />
+      </Head>
+
       <Navbar />
       <OnsitePageBanner
         pageTitle="Streamlined Payrolls, Amplified Results:
@@ -23,15 +31,15 @@ const ServiceDetails = () => {
         bgImgClass="item-bg11"
       />
       <PayrolloutsourcingServices />
-      
+
 
       <div className="col-lg-12 col-md-12">
-          <div className="ai-all-services-btn ptb-50">
-            <Link href="#contact" className="btn btn-primary">
-              Contact Us
-            </Link>
-          </div>
+        <div className="ai-all-services-btn ptb-50">
+          <Link href="#contact" className="btn btn-primary">
+            Contact Us
+          </Link>
         </div>
+      </div>
 
       <PartnerContent />
 
@@ -40,27 +48,7 @@ const ServiceDetails = () => {
       <Testimonials />
 
       <BlogPostSlider />
-      <section className="contact-area pb-100">
-        <div className="container">
-          <div className="section-title">
-            <h2>Connect With Us</h2>
-          </div>
-
-          <div className="contact-form">
-            <div className="row align-items-center">
-              <div className="col-lg-5 col-md-12">
-                <div className="contact-image">
-                  <img src="/images/footer-img.png" alt="image" />
-                </div>
-              </div>
-
-              <div className="col-lg-7 col-md-12">
-                <ContactForm />
-              </div>
-            </div>
-          </div>          
-        </div>
-      </section>
+      <ContactFormContent />
       <Footer />
     </>
   );

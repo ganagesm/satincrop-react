@@ -13,7 +13,7 @@ const Services = () => {
 
           <div className="row">
             <div className="col-lg-4 col-sm-6">
-              <div className="single-services-box"  style={{height:"330px"}}>
+              <div className="single-services-box">
                 <div className="icon">
                   <img
                    src="/images/icons/artificial-intelligence-1.svg"
@@ -38,7 +38,7 @@ const Services = () => {
             </div>
 
             <div className="col-lg-4 col-sm-6">
-              <div className="single-services-box"  style={{height:"330px"}}>
+              <div className="single-services-box">
                 <div className="icon">
                   <img
                     src="/images/icons/machine-learning.svg"

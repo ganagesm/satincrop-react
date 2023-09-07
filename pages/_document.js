@@ -1,4 +1,5 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
+import Script from 'next/script'
 
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
@@ -18,8 +19,9 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap"
             rel="stylesheet"
           />
-          {/* <link rel="icon" type="image/png" href="/favicon.png"></link> */}
-          <link rel="icon" type="image/png" href="/outsource.svg"></link>
+          <link rel="icon" type="image/png" href="/favicon.png"></link>
+          <link rel="icon" type="image/png" href="/180x180.png"></link>
+          {/* <link rel="icon" type="image/png" href="/outsource.svg"></link> */}
         </Head>
         <body>
           <Main />

@@ -14,9 +14,18 @@ import OurIndustry from "../components/Common/OurIndustry";
 import Testimonials from "../components/Live/Testimonials";
 import BlogPostSlider from "../components/Live/BlogPostSlider";
 
+import Head from 'next/head';
+
 const Index = () => {
   return (
     <>
+
+<Head>
+        <title>AI-Driven Software Quality Assurance | SA Technologies Inc. </title>
+        <meta property="og:title" content="AI-Driven Software Quality Assurance | SA Technologies Inc." key="title" />
+        <meta name="description" content="Elevate software quality with AI-powered quality assurance services from SA Technologies. Comprehensive QA solutions for innovation and seamless user experiences." key="description" />
+      </Head>
+
       <Navbar />
       <HeroBanner />
       {/* <ComputerVisionAI /> */}

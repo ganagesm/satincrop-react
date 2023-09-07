@@ -9,12 +9,18 @@ import MainServices from "../components/Live/MainServices";
 import BlogPostSlider from "../components/Live/BlogPostSlider";
 import ContactFormContent from "../components/Common/ContactFormContent";
 import Link from "next/link";
+import Head from 'next/head';
 
 const Index = () => {
   return (
     <>
+    <Head>
+        <title>Salesforce Offerings | SA Technologies Inc.    </title>
+        <meta property="og:title" content="Salesforce Offerings | SA Technologies Inc.   " key="title" />
+        <meta name="description" content="Discover Salesforce CRM solutions for sales, service, analytics, and more. Partner with us for customized Salesforce solutions and exceptional service. " key="description" />
+      </Head>
+      
       <Navbar />
-
       <PageBanner
         pageTitle="Your trusted Salesforce partner for customized solutions and exceptional service"
         homePageUrl="/"

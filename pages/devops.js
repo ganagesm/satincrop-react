@@ -10,9 +10,17 @@ import CaseStudiesPost from "../components/Live/CaseStudiesPost";
 import WhyChooseSAT from "../components/devops/WhyChooseSAT";
 import Services from "../components/devops/Services";
 
+import Head from 'next/head';
+
 const Index = () => {
   return (
     <>
+    <Head>
+        <title>AI-Enhanced DevOps Solutions | SA Technologies Inc.  </title>
+        <meta property="og:title" content="AI-Enhanced DevOps Solutions | SA Technologies Inc. " key="title" />
+        <meta name="description" content="Elevate organizational agility with AI-infused DevOps solutions from SA Technologies. Achieving rapid software output, streamlined operations, and accelerated innovation. Transform your future with advanced DevOps strategies " key="description" />
+      </Head>
+
       <Navbar />
       <HeroBanner />
       {/* <ComputerVisionAI /> */}

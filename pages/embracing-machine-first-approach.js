@@ -43,7 +43,6 @@ const BlogDetails = () => {
                     </ul>
                   </div>
 
-
                   <div class="pl-lg-4 ceocorner">
 
                     <p>In our relentless pursuit of pushing boundaries and setting benchmarks in the industry, we're making strategic shifts that will not only define our journey but also the very fabric of digital consulting. As we step into this new quarter, I want to take a moment to share a pivotal direction we're passionately driving towards:<b>Machine-First Digital Consulting.</b> </p>

@@ -15,16 +15,25 @@ import OurIndustry from "../components/Common/OurIndustry";
 import Testimonials from "../components/Live/Testimonials";
 import BlogPostSlider from "../components/Live/BlogPostSlider";
 
+import Head from 'next/head';
+
 const Index = () => {
   return (
     <>
+
+      <Head>
+        <title>AI-Enhanced Software Development | SA Technologies Inc.    </title>
+        <meta property="og:title" content="AI-Enhanced Software Development | SA Technologies Inc.   " key="title" />
+        <meta name="description" content="Elevate your software with AI-powered development from SA Technologies. Our expert team creates user-centric, responsive, and secure solutions tailored to your needs. " key="description" />
+      </Head>
+
       <Navbar />
       <HeroBanner />
       <ComputerVisionAI />
       <TechDetailsContent />
       {/* <Services /> */}
-      <WhyChooseSAT/>
-      <OurIndustry/>
+      <WhyChooseSAT />
+      <OurIndustry />
       {/* <Industries /> */}
       {/* <WhyTriosource /> */}
       {/* <BlogPost /> */}

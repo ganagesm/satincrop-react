@@ -9,10 +9,18 @@ import OurIndustry from "../components/Common/OurIndustry";
 import ContactForm from "../components/Contact/ContactForm";
 import BlogPostSlider from "../components/Live/BlogPostSlider";
 import Footer from "../components/Live/Footer";
+import ContactFormContent from "../components/Common/ContactFormContent";
+import Head from 'next/head';
 
 const ServiceDetails = () => {
   return (
     <>
+    <Head>
+        <title>Hire-Train-Deploy Model for Digital Transformation | SA Technologies Inc. </title>
+        <meta property="og:title" content="Hire-Train-Deploy Model for Digital Transformation | SA Technologies Inc." key="title" />
+        <meta name="description" content="Experience the cutting-edge Hire-Train-Deploy model, streamlining recruitment, skills training, and seamless integration into client operations, yielding cost and time savings. " key="description" />
+      </Head>
+
       <Navbar />
       <OnsitePageBanner
         pageTitle="Hire, Train, deploy: Nurturing Talent from Start to Success."
@@ -39,27 +47,7 @@ const ServiceDetails = () => {
       <Testimonials />
 
       <BlogPostSlider />
-      <section className="contact-area pb-100">
-        <div className="container">
-          <div className="section-title">
-            <h2>Connect With Us</h2>
-          </div>
-
-          <div className="contact-form">
-            <div className="row align-items-center">
-              <div className="col-lg-5 col-md-12">
-                <div className="contact-image">
-                  <img src="/images/footer-img.png" alt="image" />
-                </div>
-              </div>
-
-              <div className="col-lg-7 col-md-12">
-                <ContactForm />
-              </div>
-            </div>
-          </div>          
-        </div>
-      </section>
+      <ContactFormContent />
       <Footer />
     </>
   );

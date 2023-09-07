@@ -85,12 +85,12 @@ const Footer = () => {
                 <h3>Quick Links</h3>
 
                 <ul className="footer-services-list">
-                  <li>
+                  {/* <li>
                     <Link href="/nearshore">News</Link>
                   </li>
                   <li>
                     <Link href="/offshore">Blog</Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link href="https://jobs.satincorp.com/jobs/Careers" target="_blank">Careers</Link>
                   </li>
@@ -98,7 +98,7 @@ const Footer = () => {
                     <Link href="/about">About Us</Link>
                   </li>
                   <li>
-                    <Link href="/contact">Contact Us</Link>
+                    <Link href="/contact-us">Contact Us</Link>
                   </li>
                 </ul>
               </div>
@@ -115,22 +115,22 @@ const Footer = () => {
 
                 <ul className="quick-links-list">
                   <li>
-                    <Link href="/generativeAi/">  Microsoft </Link>
+                    <Link href="/microsoft">  Microsoft </Link>
                   </li>
                   <li>
-                    <Link href="/about">Google</Link>
+                    <Link href="/google-cloud">Google</Link>
                   </li>
                   <li>
-                    <Link href="/case-studies/">Oracle</Link>
+                    <Link href="/oracle">Oracle</Link>
                   </li>
                   <li>
-                    <Link href="/blog/">AWS</Link>
+                    <Link href="/aws-services">AWS</Link>
                   </li>
                   <li>
-                    <Link href="/blog/">Salesforce</Link>
+                    <Link href="/salesforce">Salesforce</Link>
                   </li>
                   <li>
-                    <Link href="/blog/">Service Now</Link>
+                    <Link href="/servicenow">Service Now</Link>
                   </li>
                 </ul>
               </div>
