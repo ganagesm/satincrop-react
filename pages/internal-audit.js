@@ -11,17 +11,25 @@ import ComputerVisionAI from "../components/InternalAudit/ComputerVisionAI";
 import TechDetailsContent from "../components/InternalAudit/TechDetailsContent";
 import Services from "../components/InternalAudit/Services";
 import WhyChooseSAT from "../components/InternalAudit/WhyChooseSAT";
+import Head from 'next/head';
 
 const Index = () => {
   return (
     <>
+
+      <Head>
+        <title>SOX Compliance Solutions | SA Technologies Inc.   </title>
+        <meta property="og:title" content="SOX Compliance Solutions | SA Technologies Inc.  " key="title" />
+        <meta name="description" content="Achieve Sarbanes-Oxley (SOX) compliance with SA Technologies. Our internal audit solutions simplify the process, reduce costs, and improve efficiency for your organization." key="description" />
+      </Head>
+
       <Navbar />
       <HeroBanner />
       {/* <ComputerVisionAI /> */}
       <TechDetailsContent />
       {/* <Services /> */}
       {/* <Industries /> */}
-      <WhyChooseSAT/>
+      <WhyChooseSAT />
       <OurIndustry />
       {/* <WhyTriosource /> */}
       <CaseStudiesSlider />

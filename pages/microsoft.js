@@ -9,13 +9,20 @@ import MainServices from "../components/Live/MainServices";
 import BlogPostSlider from "../components/Live/BlogPostSlider";
 import ContactFormContent from "../components/Common/ContactFormContent";
 import Link from "next/link";
+import Head from 'next/head';
 
 
 const Index = () => {
   return (
     <>
-      <Navbar />
 
+      <Head>
+        <title>Microsoft Cloud Transformation Services | SA Technologies Inc. </title>
+        <meta property="og:title" content="Microsoft Cloud Transformation Services | SA Technologies Inc." key="title" />
+        <meta name="description" content="Unlock business growth with Microsoft Cloud Transformation. Migrate to Azure & Microsoft 365 for scalability, innovation, and enhanced collaboration." key="description" />
+      </Head>
+
+      <Navbar />
       <PageBanner
         pageTitle="Redefining Horizons with Microsoft Cloud Evolution"
         homePageUrl="/"
@@ -27,13 +34,13 @@ const Index = () => {
       <TechDetailsContent />
       <ComputerVisionAI />
       {/* <Services /> */}
-        <div className="col-lg-12 col-md-12">
-          <div className="ai-all-services-btn ptb-50">
-            <Link href="#contact" className="btn btn-primary">
-              Contact Us
-            </Link>
-          </div>
+      <div className="col-lg-12 col-md-12">
+        <div className="ai-all-services-btn ptb-50">
+          <Link href="#contact" className="btn btn-primary">
+            Contact Us
+          </Link>
         </div>
+      </div>
       <MainServices />
       <BlogPostSlider />
 

@@ -11,10 +11,17 @@ import BlogPostSlider from "../components/Live/BlogPostSlider";
 import Footer from "../components/Live/Footer";
 import ContactFormContent from "../components/Common/ContactFormContent";
 import Link from "next/link";
+import Head from 'next/head';
 
 const ServiceDetails = () => {
   return (
     <>
+    <Head>
+        <title>Contingent Staffing Services | SA Technologies Inc.  </title>
+        <meta property="og:title" content="Contingent Staffing Services | SA Technologies Inc. " key="title" />
+        <meta name="description" content="Elevate your talent game with SA Technologies' Contingent Staffing Services. Explore flexible staffing and permanent placements with our verified and screened candidates." key="description" />
+      </Head>
+
       <Navbar />
       <PageBanner
         pageTitle="Elevate Your Talent Game with Tailored Contingent Solutions"
