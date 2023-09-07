@@ -10,10 +10,17 @@ import ContactForm from "../components/Contact/ContactForm";
 import BlogPostSlider from "../components/Live/BlogPostSlider";
 import Footer from "../components/Live/Footer";
 import ContactFormContent from "../components/Common/ContactFormContent";
+import Head from 'next/head';
 
 const ServiceDetails = () => {
   return (
     <>
+    <Head>
+        <title>Hire-Train-Deploy Model for Digital Transformation | SA Technologies Inc. </title>
+        <meta property="og:title" content="Hire-Train-Deploy Model for Digital Transformation | SA Technologies Inc." key="title" />
+        <meta name="description" content="Experience the cutting-edge Hire-Train-Deploy model, streamlining recruitment, skills training, and seamless integration into client operations, yielding cost and time savings. " key="description" />
+      </Head>
+
       <Navbar />
       <OnsitePageBanner
         pageTitle="Hire, Train, deploy: Nurturing Talent from Start to Success."

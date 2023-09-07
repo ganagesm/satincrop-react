@@ -9,12 +9,19 @@ import MainServices from "../components/Live/MainServices";
 import BlogPostSlider from "../components/Live/BlogPostSlider";
 import ContactFormContent from "../components/Common/ContactFormContent";
 import Link from "next/link";
+import Head from 'next/head';
 
 const Index = () => {
   return (
     <>
-      <Navbar />
 
+      <Head>
+        <title>Oracle Cloud Services | SA Technologies Inc.    </title>
+        <meta property="og:title" content="Oracle Cloud Services | SA Technologies Inc.   " key="title" />
+        <meta name="description" content="Unlock digital transformation with Oracle Cloud Services. Modernize IT infrastructure, drive innovation, and optimize operations with our comprehensive solutions. " key="description" />
+      </Head>
+
+      <Navbar />
       <PageBanner
         pageTitle="Empowering Futures: Your Oracle Cloud Consulting Ally"
         homePageUrl="/"
@@ -25,13 +32,13 @@ const Index = () => {
 
       <TechDetailsContent />
       <ComputerVisionAI />
-        <div className="col-lg-12 col-md-12">
-          <div className="ai-all-services-btn ptb-50">
-            <Link href="#contact" className="btn btn-primary">
-              Contact Us
-            </Link>
-          </div>
+      <div className="col-lg-12 col-md-12">
+        <div className="ai-all-services-btn ptb-50">
+          <Link href="#contact" className="btn btn-primary">
+            Contact Us
+          </Link>
         </div>
+      </div>
       <MainServices />
       <BlogPostSlider />
 

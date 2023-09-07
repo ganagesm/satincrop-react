@@ -12,24 +12,25 @@ import ContactForm from "../components/Contact/ContactForm";
 import Services from "../components/GCC/Services";
 import WhyChooseSAT from "../components/GCC/WhyChooseSAT";
 import BlogPostSlider from "../components/Live/BlogPostSlider";
-import Meta from "../components/Common/meta";
-
+import Head from 'next/head';
 
 const Index = () => {
   return (
     <>
-    <Meta title />
-      <Meta keywords />
-      <Meta description />
+      <Head>
+        <title>GCC Services in India | SA Technologies GCC Solutions </title>
+        <meta property="og:title" content="GCC Services in India | SA Technologies GCC Solutions" key="title" />
+        <meta name="description" content="Unlock success in India with SA Technologies' comprehensive GCC services. From strategy to legal compliance, we streamline your global capability center journey." key="description" />
+      </Head>
+
       <Navbar />
       <HeroBanner />
       {/* <TechDetailsContent /> */}
-        
-        <Services />  
-       <Industries /> 
-      <WhyChooseSAT/>
+
+      <Services />
+      <Industries />
+      <WhyChooseSAT />
       {/* <OurIndustry /> */}
-      {/* <WhyTriosource /> */}
       {/* <CaseStudiesSlider /> */}
       <BlogPostSlider />
       {/* <Testimonials /> */}
@@ -51,7 +52,7 @@ const Index = () => {
                 <ContactForm />
               </div>
             </div>
-          </div>          
+          </div>
         </div>
       </section>
       <Footer />
