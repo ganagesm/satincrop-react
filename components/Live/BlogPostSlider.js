@@ -77,7 +77,11 @@ const BlogPostSlider = () => {
               <SwiperSlide>
                 <div className="single-blog-post">
                   <div className="entry-thumbnail">
-                    <Link href="/blog/sa-technologies-inc-introducing-brand-new-offshore-development-centre-bangalore/">
+                    {/* <Link href="/blog/sa-technologies-inc-introducing-brand-new-offshore-development-centre-bangalore/">
+                      <img src="/images/blog/how-ai-revolutionizing-nearshore-software.jpeg" alt="image" />
+                    </Link> */}
+
+                    <Link href="/articles/gcc-evolution/">
                       <img src="/images/blog/how-ai-revolutionizing-nearshore-software.jpeg" alt="image" />
                     </Link>
                   </div>
@@ -93,7 +97,11 @@ const BlogPostSlider = () => {
                     </div>
 
                     <h3>
-                      <Link href="/blog/sa-technologies-inc-introducing-brand-new-offshore-development-centre-bangalore/">
+                      {/* <Link href="/blog/sa-technologies-inc-introducing-brand-new-offshore-development-centre-bangalore/">
+                      Committed to excelling in Digital Engineering and Generative AI
+                      </Link> */}
+
+                      <Link href="/articles/gcc-evolution/">
                       Committed to excelling in Digital Engineering and Generative AI
                       </Link>
                     </h3>
@@ -101,7 +109,11 @@ const BlogPostSlider = () => {
                     SA Technologies is excited to announce a new milestone – the launch of our Offshore Development Centre...
                     </p>
 
-                    <Link href="/blog/sa-technologies-inc-introducing-brand-new-offshore-development-centre-bangalore/" className="learn-more-btn">
+                    {/* <Link href="/blog/sa-technologies-inc-introducing-brand-new-offshore-development-centre-bangalore/" className="learn-more-btn">
+                      Read More <i className="flaticon-add"></i>
+                    </Link> */}
+
+                    <Link href="/articles/gcc-evolution/" className="learn-more-btn">
                       Read More <i className="flaticon-add"></i>
                     </Link>
                   </div>

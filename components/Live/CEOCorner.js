@@ -56,61 +56,92 @@ const BlogPostSlider = () => {
             <div className="col-lg-8 col-sm-12">
               
               <Swiper
-                spaceBetween={20}
-                autoplay={{
-                  delay: 900,
-                  disableOnInteraction: true,
-                  pauseOnMouseEnter: true,
-                }}
-                breakpoints={{
-                  0: {
-                    slidesPerView: 2,
-                  },
-                  576: {
-                    slidesPerView: 2,
-                  },
-                  768: {
-                    slidesPerView: 2,
-                  },
-                  1200: {
-                    slidesPerView: 2,
-                  },
-                }}
-                modules={[Autoplay]}
-                className="partner-slides"
-              >
+                  spaceBetween={20}
+                  autoplay={{
+                    delay: 900,
+                    disableOnInteraction: true,
+                    pauseOnMouseEnter: true,
+                  }}
+                  breakpoints={{
+                    0: {
+                      slidesPerView: 2,
+                    },
+                    576: {
+                      slidesPerView: 2,
+                    },
+                    768: {
+                      slidesPerView: 2,
+                    },
+                    1200: {
+                      slidesPerView: 2,
+                    },
+                  }}
+                  modules={[Autoplay]}
+                  className="partner-slides"
+                >
                 <div className="row justify-content-center">
-                <SwiperSlide>
-                <div className="single-blog-post">
-                  <div className="entry-thumbnail">
-                    <Link href="/embracing-machine-first-approach/">
-                      <img src="/images/engineer-cooperation.jpg" alt="image" />
-                    </Link>
-                  </div>
+                  <SwiperSlide>
+                    <div className="single-blog-post">
+                      <div className="entry-thumbnail">
+                        <Link href="/sa-technologies-triumphs-with-cmmi-services-maturity-level-5-certification/">
+                          <img src="/images/news-1.png" alt="image" />
+                        </Link>
+                      </div>
 
-                  <div className="entry-post-content">
-                    <div className="entry-meta">
-                      <ul>
-                        <li>Sep 04, 2023</li>
-                      </ul>
+                      <div className="entry-post-content">
+                        <div className="entry-meta">
+                          <ul>
+                            <li>Sep 06, 2023</li>
+                          </ul>
+                        </div>
+
+                        <h3>
+                          <Link href="/sa-technologies-triumphs-with-cmmi-services-maturity-level-5-certification/">
+                          SA Technologies Triumphs with CMMI Services Maturity Level 5 Certification 
+                          </Link>
+                        </h3>
+
+                        <p>
+                        SA Technologies, a premier AI-focused IT consulting ....
+                        </p>
+
+                        <Link href="/sa-technologies-triumphs-with-cmmi-services-maturity-level-5-certification/" className="learn-more-btn">
+                          Read More <i className="flaticon-add"></i>
+                        </Link>
+                      </div>
                     </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <div className="single-blog-post">
+                      <div className="entry-thumbnail">
+                        <Link href="/embracing-machine-first-approach/">
+                          <img src="/images/engineer-cooperation.jpg" alt="image" />
+                        </Link>
+                      </div>
 
-                    <h3>
-                      <Link href="/embracing-machine-first-approach/">
-                        Embracing the Machine-First Approach to Forge Ahead
-                      </Link>
-                    </h3>
+                      <div className="entry-post-content">
+                        <div className="entry-meta">
+                          <ul>
+                            <li>Sep 04, 2023</li>
+                          </ul>
+                        </div>
 
-                    <p>
-                      In our relentless pursuit of pushing boundaries....
-                    </p>
+                        <h3>
+                          <Link href="/embracing-machine-first-approach/">
+                            Embracing the Machine-First Approach to Forge Ahead
+                          </Link>
+                        </h3>
 
-                    <Link href="/embracing-machine-first-approach/" className="learn-more-btn">
-                      Read More <i className="flaticon-add"></i>
-                    </Link>
-                  </div>
-                </div>
-              </SwiperSlide>
+                        <p>
+                          In our relentless pursuit of pushing boundaries....
+                        </p>
+
+                        <Link href="/embracing-machine-first-approach/" className="learn-more-btn">
+                          Read More <i className="flaticon-add"></i>
+                        </Link>
+                      </div>
+                    </div>
+                  </SwiperSlide>
                   <SwiperSlide>
                     <div className="single-blog-post">
                       <div className="entry-thumbnail">

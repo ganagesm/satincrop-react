@@ -12,6 +12,7 @@ import ContactForm from "../components/Contact/ContactForm";
 import Services from "../components/GCC/Services";
 import WhyChooseSAT from "../components/GCC/WhyChooseSAT";
 import BlogPostSlider from "../components/Live/BlogPostSlider";
+import Team from "../components/GCC/Team";
 
 
 const Index = () => {
@@ -24,9 +25,8 @@ const Index = () => {
         <Services />  
        <Industries /> 
       <WhyChooseSAT/>
-      {/* <OurIndustry /> */}
-      {/* <WhyTriosource /> */}
-      {/* <CaseStudiesSlider /> */}
+    
+      <Team /> 
       <BlogPostSlider />
       {/* <Testimonials /> */}
       <section className="contact-area ptb-100">
