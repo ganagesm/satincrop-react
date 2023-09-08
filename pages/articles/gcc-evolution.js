@@ -88,7 +88,7 @@ const BlogDetails = () => {
 
         <div className="GCCJourney">
           <div className="container">
-            <div className="row ptb-50 align-items-center">
+            <div className="row pt-50 align-items-center" style={{paddingBottom:"10px",}}>
               <div className="col-lg-3 col-md-6">
                 <h2 className="align-items-center">About the Author </h2>
                 <div className="article-image" style={{ marginTop: "10px", marginBottom: "10px", }}>
@@ -98,10 +98,10 @@ const BlogDetails = () => {
                 </div>
               </div>
               <div className="col-lg-7 col-md-6 offset-md-1">
-                <h2>Contact an SA Technologies Representative to Help You Build and Scale Global Teams</h2>
-                <Link href="/contact-us" className="btn btn-primary" style={{marginTop:"25px"}}>
+                <h1>Connect with Our GCC's Representative to Strategically Build and Expand Your Global Teams.</h1>
+                <center><Link href="/contact-us" className="btn btn-primary" style={{marginTop:"25px"}}>
                   Contact Us
-                </Link>
+                </Link></center>
               </div>
 
             </div>
