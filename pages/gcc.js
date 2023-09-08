@@ -71,7 +71,7 @@ const Index = () => {
                   style={{
                     marginTop: "15px",
                   }}>Vasudha Kanade</h5>
-                <p>Direct FInance</p>
+                <p>Director Finance</p>
               </div>
             </div>
             <div className="col-lg-3 col-sm-6">
