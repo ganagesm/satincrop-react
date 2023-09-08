@@ -2,7 +2,8 @@ import React, { useEffect, useState, Component } from 'react';
 import { useRouter } from 'next/router';
 import Link from "next/link";
 
-export default function BlogThreeGrid() {
+const BlogContainer = () => {
+  // console.log("id", id);
   const [posts, setPosts] = useState([]);
 
   useEffect(() => {
@@ -28,48 +29,48 @@ export default function BlogThreeGrid() {
       <section className="blog-area ptb-110">
         <div className="container">
           <div className="row">
-            {posts.map((post, index) => (
-              <div className="col-lg-4 col-md-6">
-                <div className="single-blog-post" key={index}>
-                  <div className="entry-thumbnail">
-                    <Link href={post.link}>
-                      <img src={post.featured_image_url[0]} alt="image" />
-                      {/* <div 
+          {posts.map((post, index) => (
+            <div className="col-lg-4 col-md-6">
+              <div className="single-blog-post" key={index}>
+                <div className="entry-thumbnail">
+                  <Link href={post.link}>
+                    <img src={post.featured_image_url[0]} alt="image" />
+                    {/* <div 
                     dangerouslySetInnerHTML={{__html: post.featured_image_url[0]}}
                     /> */}
-                    </Link>
+                  </Link>
+                </div>
+
+                <div className="entry-post-content">
+                  <div className="entry-meta">
+                    <ul>
+                      <li>
+                        <Link href="#">{post.author_info.name}</Link>
+                      </li>
+                      <li>
+                      <strong>Category :</strong> {post.category}
+                      </li>
+                      <li>{post.date_info}</li>
+                    </ul>
                   </div>
 
-                  <div className="entry-post-content">
-                    <div className="entry-meta">
-                      <ul>
-                        <li>
-                          <Link href="#">{post.author_info.name}</Link>
-                        </li>
-                        <li>
-                          <strong>Category :</strong> {post.category}
-                        </li>
-                        <li>{post.date_info}</li>
-                      </ul>
-                    </div>
+                  <h3>
+                  <div 
+                    dangerouslySetInnerHTML={{__html: post.title.rendered}}
+                    />
+                  </h3>
 
-                    <h3>
-                      <div
-                        dangerouslySetInnerHTML={{ __html: post.title.rendered }}
-                      />
-                    </h3>
+                 
+                  <div dangerouslySetInnerHTML={{__html: post.excerpt.rendered}} />
+                  
+                  {/* <Link  className="learn-more-btn" href={`/blogs/${post.slug}`}> Read More <i className="flaticon-add"></i></Link> */}
 
-
-                    <div dangerouslySetInnerHTML={{ __html: post.excerpt.rendered }} />
-
-                    {/* <Link  className="learn-more-btn" href={`/blogs/${post.slug}`}> Read More <i className="flaticon-add"></i></Link> */}
-
-                    <Link className="learn-more-btn" href={`/blog/${post.slug}/${post.id}`}>
-                      Read More <i className="flaticon-add"></i></Link>
-                  </div>
+                  <Link  className="learn-more-btn" href={`/blogs/${post.id}`}>
+                    Read More <i className="flaticon-add"></i></Link>
                 </div>
               </div>
-            ))}
+            </div>
+ ))}
             {/* Pagination */}
             <div className="col-lg-12 col-sm-12">
               {/* <div className="pagination-area">
@@ -138,4 +139,5 @@ export default function BlogThreeGrid() {
       </section>
     </>
   );
-}
+};
+export default BlogContainer;
