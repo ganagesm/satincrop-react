@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../components/Live/Navbar";
 import PageBanner from "../components/Common/PageBanner";
 import BlogThreeGrid from "../components/Blog/BlogThreeGrid";
+import BlogGrid from "../components/Blog/BlogGrid";
 import Footer from "../components/Live/Footer";
 
 const Blog = () => {
@@ -17,7 +18,8 @@ const Blog = () => {
         bgImgClass="item-bg2"
       />
 
-      <BlogThreeGrid />
+      {/* <BlogThreeGrid /> */}
+      <BlogGrid />
 
       <Footer />
     </>
