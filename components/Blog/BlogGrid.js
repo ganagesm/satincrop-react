@@ -4,11 +4,19 @@ import Link from "next/link";
 
 export default function BlogThreeGrid() {
   const [posts, setPosts] = useState([]);
+  const [currentPage, setCurrentPage] = useState(1);
+  const [totalPages, setTotalPages] = useState(1);
+  const pageSize = 10; // Number of posts per page
+
+  const router = useRouter();
+
 
   useEffect(() => {
     async function fetchPosts() {
       try {
-        const response = await fetch(`https://dev1.satincorp.com/wp-json/wp/v2/posts`);
+        // const response = await fetch(`https://dev1.satincorp.com/wp-json/wp/v2/posts?per_page=${pageSize}&status=publish`);
+        // const response = await fetch(`https://dev1.satincorp.com/wp-json/wp/v2/posts`);
+        const response = await fetch(`https://dev1.satincorp.com/wp-json/wp/v2/posts?page=${currentPage}&per_page=${pageSize}`);
 
         if (!response.ok) {
           throw new Error('Network response was not ok');
@@ -16,13 +24,37 @@ export default function BlogThreeGrid() {
 
         const postsData = await response.json();
         setPosts(postsData);
+
+        // Set the total pages based on the response headers
+        const totalPagesHeader = response.headers.get('X-WP-TotalPages');
+        setTotalPages(parseInt(totalPagesHeader, 10) || 1);
       } catch (error) {
         console.error('Error fetching posts:', error);
       }
     }
 
     fetchPosts();
-  }, []);
+  }, [currentPage]);
+  console.log("currentPage", currentPage);
+
+  const handlePrevPage = () => {
+    if (currentPage > 10) {
+      setCurrentPage(currentPage - 10);
+    }
+  };
+  const handlePageChange = (newPage) => {
+    if (newPage >= 1 && newPage <= totalPages) {
+      setCurrentPage(newPage);
+      // Update the URL with the new page number
+      router.push(`/blog?page=${newPage}`);
+    }
+  };
+
+  const handleNextPage = () => {
+    if (currentPage < totalPages) {
+      setCurrentPage(currentPage + 1);
+    }
+  };
   return (
     <>
       <section className="blog-area ptb-110">
@@ -67,14 +99,14 @@ export default function BlogThreeGrid() {
 
                     {/* <Link className="learn-more-btn" href={`/blog/${post.slug}/${post.id}`}> Read More <i className="flaticon-add"></i></Link> */}
                     <Link className="learn-more-btn" href="/blog/[slug]" as={`/blog/${post.slug}`}> Read More <i className="flaticon-add"></i></Link>
-                  
+
                   </div>
                 </div>
               </div>
             ))}
             {/* Pagination */}
-            <div className="col-lg-12 col-sm-12">
-              {/* <div className="pagination-area">
+            {/* <div className="col-lg-12 col-sm-12">
+              <div className="pagination-area">
                 <a href="#" className="prev page-numbers">
                   <i className="fas fa-angle-double-left"></i>
                 </a>
@@ -98,7 +130,38 @@ export default function BlogThreeGrid() {
                 <a href="#" className="next page-numbers">
                   <i className="fas fa-angle-double-right"></i>
                 </a>
-              </div> */}
+              </div>
+            </div> */}
+
+            {/* Pagination */}
+            <div className="col-lg-12 col-sm-12">
+              <div className="pagination-area">
+                <button
+                  onClick={() => handlePageChange(currentPage - 1)}
+                  disabled={currentPage === 1}
+                  className="prev page-numbers"
+                >
+                  <i className="fas fa-angle-double-left"></i>
+                </button>
+
+                {Array.from({ length: totalPages }, (_, i) => (
+                  <button
+                    key={i}
+                    onClick={() => handlePageChange(i + 1)}
+                    className={`page-numbers ${currentPage === i + 1 ? 'current' : ''}`}
+                  >
+                    {i + 1}
+                  </button>
+                ))}
+
+                <button
+                  onClick={() => handlePageChange(currentPage + 1)}
+                  disabled={currentPage === totalPages}
+                  className="next page-numbers"
+                >
+                  <i className="fas fa-angle-double-right"></i>
+                </button>
+              </div>
             </div>
           </div>
         </div>
