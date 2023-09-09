@@ -100,6 +100,15 @@ const Footer = () => {
                   <li>
                     <Link href="/contact-us">Contact Us</Link>
                   </li>
+                  <li>
+                    <Link href="/blog">Blogs</Link>
+                  </li>
+                  <li>
+                    <Link href="/news-and-events">News and Events</Link>
+                  </li>
+                  <li>
+                    <Link href="/customer-success-stories">Customer Success Stories</Link>
+                  </li>
                 </ul>
               </div>
             </div>
