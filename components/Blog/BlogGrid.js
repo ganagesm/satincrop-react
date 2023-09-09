@@ -32,7 +32,8 @@ export default function BlogThreeGrid() {
               <div className="col-lg-4 col-md-6">
                 <div className="single-blog-post" key={index}>
                   <div className="entry-thumbnail">
-                    <Link href={post.link}>
+                    {/* <Link href={`/blog/${post.id}`}> */}
+                    <Link href="/blog/[slug]" as={`/blog/${post.slug}`}>
                       <img src={post.featured_image_url[0]} alt="image" />
                       {/* <div 
                     dangerouslySetInnerHTML={{__html: post.featured_image_url[0]}}
@@ -64,8 +65,9 @@ export default function BlogThreeGrid() {
 
                     {/* <Link  className="learn-more-btn" href={`/blogs/${post.slug}`}> Read More <i className="flaticon-add"></i></Link> */}
 
-                    <Link className="learn-more-btn" href={`/blog/${post.slug}/${post.id}`}>
-                      Read More <i className="flaticon-add"></i></Link>
+                    {/* <Link className="learn-more-btn" href={`/blog/${post.slug}/${post.id}`}> Read More <i className="flaticon-add"></i></Link> */}
+                    <Link className="learn-more-btn" href="/blog/[slug]" as={`/blog/${post.slug}`}> Read More <i className="flaticon-add"></i></Link>
+                  
                   </div>
                 </div>
               </div>
