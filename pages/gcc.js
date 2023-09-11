@@ -239,6 +239,44 @@ const Index = () => {
             className="partner-slides"
           >
             <div className="row justify-content-center">
+
+            <SwiperSlide>
+                <div className="single-blog-post">
+                  <div className="entry-thumbnail">
+                    <Link href="/how-gccs-can-attain-outstanding-results/">
+                      <img style={{width: "419px",height: "279px",}} src="/images/blog/abhay_article.png" alt="image" />
+                    </Link>
+                  </div>
+
+                  <div className="entry-post-content">
+                    <div className="entry-meta">
+                      <ul>
+                        <li>
+                          <Link href="#">Abhay Bhan</Link>
+                        </li>
+                        <li>August 10, 2023</li>
+                      </ul>
+                    </div>
+
+                    <h3>
+                      <Link href="/blog/how-gccs-can-attain-outstanding-results/">
+                      How GCCs Can Attain Outstanding Results
+
+                      </Link>
+                    </h3>
+
+                    <p>
+                    In the ever-evolving landscape of business, organizations are continually seeking ways to enhance ...
+                    </p>
+
+                    <Link href="/blog/how-gccs-can-attain-outstanding-results/" className="learn-more-btn">
+                      Read More <i className="flaticon-add"></i>
+                    </Link>
+                  </div>
+                </div>
+              </SwiperSlide>
+
+
               <SwiperSlide>
                 <div className="single-blog-post">
                   <div className="entry-thumbnail">
@@ -277,10 +315,6 @@ const Index = () => {
               <SwiperSlide>
                 <div className="single-blog-post">
                   <div className="entry-thumbnail">
-                    {/* <Link href="/blog/sa-technologies-inc-introducing-brand-new-offshore-development-centre-bangalore/">
-                      <img src="/images/blog/how-ai-revolutionizing-nearshore-software.jpeg" alt="image" />
-                    </Link> */}
-
                     <Link href="/articles/gcc-evolution/">
                       <img src="/images/blog/how-ai-revolutionizing-nearshore-software.jpeg" alt="image" />
                     </Link>
@@ -297,9 +331,6 @@ const Index = () => {
                     </div>
 
                     <h3>
-                      {/* <Link href="/blog/sa-technologies-inc-introducing-brand-new-offshore-development-centre-bangalore/">
-                      Committed to excelling in Digital Engineering and Generative AI
-                      </Link> */}
 
                       <Link href="/articles/gcc-evolution/">
                       GCC Evolution: From IT Support to Tech Innovation Hubs

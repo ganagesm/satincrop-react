@@ -39,8 +39,8 @@ const Index = () => {
                           <p>Head Marketing Manager</p>
                       </div>
                       <div className="pro_social">
-                        <Link href="mailto:kanak.sahoo@satincorp.com" style={{marginTop:"9%", fontWeight:"700",}}>Connect with Kanak</Link>
-                        <Link style={{float: "left", width: "12%",}} href="mailto:kanak.sahoo@satincorp.com"><p><i class="fa-regular fa-envelope"></i></p></Link>
+                        <Link className="btn btn-primary cnt_btn" href="mailto:kanak.sahoo@satincorp.com" style={{marginTop:"9%", fontWeight:"700",}}><i class="fa-regular fa-envelope"></i> Connect with Kanak</Link>
+                        {/* <Link style={{float: "left", width: "12%",}} href="mailto:kanak.sahoo@satincorp.com"><p><i class="fa-regular fa-envelope"></i></p></Link> */}
                       </div>
                     </div>
 
