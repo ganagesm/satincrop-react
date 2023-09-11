@@ -6,12 +6,22 @@ import Services from "../components/GCC/Services";
 import WhyChooseSAT from "../components/GCC/WhyChooseSAT";
 import ContactFormContent from "../components/Common/ContactFormContent";
 import Head from 'next/head';
-import { Component } from "react";
+import { Component, useState } from "react";
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper";
+// import Model from "../components/GCC/Model";
+
 
 const Index = () => {
+  const[profile_model, setPop]=useState(false);
+  
+  const handleclickopen = () => {
+    setPop(!profile_model)
+  }
+  const closepopup = () => {
+    setPop(false)
+  }
   return (
     <>
       <Head>
@@ -29,8 +39,6 @@ const Index = () => {
       <Industries />
       <WhyChooseSAT />
 
-      {/* <Team />  */}
-
       <section className="services-area pb-110">
         <div className="container">
           <div className="section-title">
@@ -43,23 +51,21 @@ const Index = () => {
                 <div className="">
                   <img src="/images/team/abhay.jpg" alt="image" />
                 </div>
-                <h5
-                  style={{
-                    marginTop: "15px",
-                  }}>Abhay Bhan</h5>
-                <p>Director Client Engagement <br /> (Europe)</p>
+                  <Link href="/abhay/" >
+                    <h5 style={{ marginTop: "15px", marginBottom:"0",}}>Abhay Bhan</h5>
+                    <p>Director Client Engagement <br /> (Europe)</p>
+                  </Link>
               </div>
             </div>
             <div className="col-lg-3 col-sm-6">
               <div className="">
                 <div className="">
-                  <img src="/images/team/kanak.jpg" alt="image" />
+                  <img src="/images/team/Sonal.png" alt="image" />
                 </div>
-                <h5
-                  style={{
-                    marginTop: "15px",
-                  }}>Kanak Sahoo</h5>
-                <p>Marketing Manager</p>
+                <Link href="/sonal-sinha/" >
+                  <h5 style={{marginTop: "15px",marginBottom:"0",}}>Sonal Sinha</h5>
+                  <p>Director HR & Operations</p>
+                </Link>
               </div>
             </div>
             <div className="col-lg-3 col-sm-6">
@@ -67,11 +73,10 @@ const Index = () => {
                 <div className="">
                   <img src="/images/team/sudha.jpg" alt="image" />
                 </div>
-                <h5
-                  style={{
-                    marginTop: "15px",
-                  }}>Vasudha Kanade</h5>
-                <p>Director Finance</p>
+                <Link href="/vasudha-kanade/" >
+                <h5 style={{marginTop: "15px",marginBottom:"0",}}>Vasudha Kanade</h5>
+                <p>Director Finance & Compliance</p>
+                </Link>
               </div>
             </div>
             <div className="col-lg-3 col-sm-6">
@@ -79,13 +84,62 @@ const Index = () => {
                 <div className="">
                   <img src="/images/team/amita.jpg" alt="image" />
                 </div>
-                <h5
-                  style={{
-                    marginTop: "15px",
-                  }}>Amita Bhosale</h5>
-                <p>Director Client Engagement <br /> (North America) </p>
+                <Link href="/amita/" >
+                  <h5 style={{marginTop: "15px",marginBottom:"0",}}>Amita Bhosale</h5>
+                  <p>Director Client Engagement <br /> (North America) </p>
+                </Link>
               </div>
             </div>
+            
+          </div>
+          <div className="row" style={{marginTop:"20px",}}>
+           
+            <div className="col-lg-3 col-sm-6">
+              <div className="">
+                <div className="">
+                  <img src="/images/team/Malay.png" alt="image" />
+                </div>
+                <Link href="/malay/" >
+                  <h5 style={{marginTop: "15px",marginBottom:"0",}}>Malay Soni</h5>
+                  <p>Director Talent Acquisition</p>
+                </Link>
+              </div>
+            </div>
+            
+            <div className="col-lg-3 col-sm-6">
+              <div className="">
+                <div className="">
+                  <img src="/images/team/Jitendra.png" alt="image" />
+                </div>
+                <Link href="/jitendra/" >
+                <h5 style={{marginTop: "15px",marginBottom:"0",}}>Jitendra Khairnar</h5>
+                <p>Head Workspace & Infrastructure</p>
+                </Link>
+              </div>
+            </div>
+            <div className="col-lg-3 col-sm-6">
+              <div className="">
+                <div className="">
+                  <img src="/images/team/Trishita.png" alt="image" />
+                </div>
+                <Link href="/trishita/">
+                <h5 style={{marginTop: "15px",marginBottom:"0",}}>Trishita Bhattacharya</h5>
+                <p>Head Client Engagement (APAC)</p>
+                </Link>
+              </div>
+            </div>
+            <div className="col-lg-3 col-sm-6">
+              <div className="">
+                <div className="">
+                  <img src="/images/team/kanak.png" alt="image" />
+                </div>
+                <Link href="/kanak/">
+                  <h5 style={{marginTop: "15px",marginBottom:"0",}}>Kanak Sahoo</h5>
+                  <p>Head Marketing Manager</p>
+                </Link>
+              </div>
+            </div>
+            
 
 
           </div>
@@ -185,6 +239,44 @@ const Index = () => {
             className="partner-slides"
           >
             <div className="row justify-content-center">
+
+            <SwiperSlide>
+                <div className="single-blog-post">
+                  <div className="entry-thumbnail">
+                    <Link href="/how-gccs-can-attain-outstanding-results/">
+                      <img style={{width: "419px",height: "279px",}} src="/images/blog/abhay_article.png" alt="image" />
+                    </Link>
+                  </div>
+
+                  <div className="entry-post-content">
+                    <div className="entry-meta">
+                      <ul>
+                        <li>
+                          <Link href="#">Abhay Bhan</Link>
+                        </li>
+                        <li>August 10, 2023</li>
+                      </ul>
+                    </div>
+
+                    <h3>
+                      <Link href="/blog/how-gccs-can-attain-outstanding-results/">
+                      How GCCs Can Attain Outstanding Results
+
+                      </Link>
+                    </h3>
+
+                    <p>
+                    In the ever-evolving landscape of business, organizations are continually seeking ways to enhance ...
+                    </p>
+
+                    <Link href="/blog/how-gccs-can-attain-outstanding-results/" className="learn-more-btn">
+                      Read More <i className="flaticon-add"></i>
+                    </Link>
+                  </div>
+                </div>
+              </SwiperSlide>
+
+
               <SwiperSlide>
                 <div className="single-blog-post">
                   <div className="entry-thumbnail">
@@ -223,10 +315,6 @@ const Index = () => {
               <SwiperSlide>
                 <div className="single-blog-post">
                   <div className="entry-thumbnail">
-                    {/* <Link href="/blog/sa-technologies-inc-introducing-brand-new-offshore-development-centre-bangalore/">
-                      <img src="/images/blog/how-ai-revolutionizing-nearshore-software.jpeg" alt="image" />
-                    </Link> */}
-
                     <Link href="/articles/gcc-evolution/">
                       <img src="/images/blog/how-ai-revolutionizing-nearshore-software.jpeg" alt="image" />
                     </Link>
@@ -243,9 +331,6 @@ const Index = () => {
                     </div>
 
                     <h3>
-                      {/* <Link href="/blog/sa-technologies-inc-introducing-brand-new-offshore-development-centre-bangalore/">
-                      Committed to excelling in Digital Engineering and Generative AI
-                      </Link> */}
 
                       <Link href="/articles/gcc-evolution/">
                       GCC Evolution: From IT Support to Tech Innovation Hubs

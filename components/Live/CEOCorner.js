@@ -97,12 +97,12 @@ const BlogPostSlider = () => {
 
                         <h3>
                           <Link href="/sa-technologies-triumphs-with-cmmi-services-maturity-level-5-certification/">
-                          SA Technologies Triumphs with CMMI Services Maturity Level 5 Certification 
+                          Our Journey to CMMI Level 5 and Beyond
                           </Link>
                         </h3>
 
                         <p>
-                        SA Technologies, a premier AI-focused IT consulting ....
+                        To our valued partners, clients, and stakeholders, ....
                         </p>
 
                         <Link href="/sa-technologies-triumphs-with-cmmi-services-maturity-level-5-certification/" className="learn-more-btn">

@@ -24,7 +24,7 @@ const HeroBanner = () => {
             <div className="container">
               <div className="main-banner-content">
                 <h1>
-                SAT - The One-Stop Shop for GCC Services in India
+                SAT- Your GCC Partner in India: Where Excellence Meets Innovation
                 </h1>
                 <div className="btn-box">
                   <Link href="/contact/" className="btn btn-primary">

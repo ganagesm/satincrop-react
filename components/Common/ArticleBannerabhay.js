@@ -39,10 +39,10 @@ const PageBanner = ({
             <div className="services-details-image">
               <img
               style={{  
-                height: "598px",
+                height: "537px",
                 width: "100%",
               }}
-                src="/images/blog/amit_article.png"
+                src="/images/blog/abhay_article.png"
                 alt="image"
               />
             </div>
@@ -54,12 +54,11 @@ const PageBanner = ({
           >
             <div className="">
               <div className="article_bg mb-30">
-                <h3>GCC Evolution: From IT Support to Tech Innovation Hubs </h3>
+                <h3>How GCCs Can Attain Outstanding Results</h3>
                 {/* <p>Discover the role of SA Technologies' Global Capability Centers (GCCs) in revolutionizing business operations and enabling growth. Explore how SA Technologies' GCCs are driving innovation and efficiency."</p> */}
-                <p>Global Capability Centers (GCCs) have been integral to the growth and success of many businesses.
-                       Over the years, they have evolved significantly, transforming from mere support centers to 
-                       becoming key drivers of innovation and efficiency. In this blog, we'll delve into the world 
-                       of GCCs and how SA Technologies' GCCs are revolutionizing business operations.</p>
+                <p>Discover the strategies and best practices that can lead your Global Capability Center (GCC) to 
+                  delivery excellence. Learn from SA Technologies, a leading IT consulting firm, about optimizing 
+                  your GCC's performance for outstanding results.</p>
               </div>
             </div>
           </div>
