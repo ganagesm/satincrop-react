@@ -9815,4 +9815,60 @@ Footer Wrap Area CSS
 .pt-50 {
     padding-top: 50px;
 }
+
+
+.GCCJourney {
+    background-color: #e2e7f4;
+    margin-top: 70px;
+}
+
+.article_bg.mb-30 {
+    background-color: #8f8f8f;
+    padding: 25% 20% 17% 18%;
+}
+.article-content_section h3 {
+    text-align: center;
+}
+.article_bg.mb-30 p {
+    color: #fff;
+}
+.model-main{
+    background-color: #fff;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    z-index: 999;
+}
+.profile_model{
+    
+    width:100%; 
+    background-color:#fff;
+     /* position: absolute;
+    top:25%;
+    right:25%; */
+    padding-bottom: 100px;
+}
+.popupheader{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 30px 0 15px;
+    border-bottom: 1px solid #000000;
+}
+.pro_heading {
+    margin-top: 50px;
+}
+.pro_heading_dtl {
+    float: left;
+    width: 50%;
+    margin-top: 12%;
+}
+.pro_social{
+    margin-top: 12%;
+    float: left;
+
+}
+.pro_content {
+    margin-top: 50px;
+}
 /*End "Home Demo - 6", "Home Demo - 7" & "Home Demo - 8" Style CSS*/
