@@ -1,9 +1,6 @@
 import Navbar from "../components/Live/Navbar";
 import Footer from "../components/Live/Footer";
 import HeroBanner from "../components/GCC/HeroBanner";
-import Industries from "../components/GCC/Industries";
-import Services from "../components/GCC/Services";
-import WhyChooseSAT from "../components/GCC/WhyChooseSAT";
 import ContactFormContent from "../components/Common/ContactFormContent";
 import Head from 'next/head';
 import { Component, useState } from "react";
@@ -14,205 +11,59 @@ import { Autoplay } from "swiper";
 
 
 const Index = () => {
-  const[profile_model, setPop]=useState(false);
-  
-  const handleclickopen = () => {
-    setPop(!profile_model)
-  }
-  const closepopup = () => {
-    setPop(false)
-  }
   return (
     <>
-      <Head>
-        <title>GCC Services in India | SA Technologies GCC Solutions </title>
-        <meta property="og:title" content="GCC Services in India | SA Technologies GCC Solutions" key="title" />
-        <meta name="description" content="Unlock success in India with SA Technologies' comprehensive GCC services. From strategy to legal compliance, we streamline your global capability center journey." key="description" />
-      </Head>
+      
 
       <Navbar />
       <HeroBanner />
-      {/* <TechDetailsContent /> */}
+    
 
+        <div>
+         
+          {/* <div className="model-main">
+            <div className="profile_model"> */}
+          <div className="">
+            <div className=""> 
+              <div  className="container" style={{maxWidth: "813px",}}>
+                  <div className="row">
+                    <div className="col-lg-3 col-sm-6">
+                      <div className="pro_heading">
+                        <img style={{width:"200px",}} src="/images/team/abhay.jpg" alt="image"/>
+                      </div> 
+                    </div>
 
-      <Services />
-      <Industries />
-      <WhyChooseSAT />
+                    <div className="col-lg-9 col-sm-12">
+                      <div className="pro_heading_dtl">
+                        <h5>Abhay Bhan</h5>
+                          <p>Director Client Engagement <br /> (Europe)</p>
+                      </div>
+                      <div className="pro_social">
+                        <Link href="mailto:abhay.bhan@satincorp.com" style={{marginTop:"9%", fontWeight:"700",}}>Connect with Abhay</Link>
+                        <Link style={{float: "left", width: "11%",}} href="mailto:abhay.bhan@satincorp.com"><p><i class="fa-regular fa-envelope"></i></p></Link>
+                      </div>
+                    </div>
 
-      <section className="services-area pb-110">
-        <div className="container">
-          <div className="section-title">
-            <h2>Meet our GCC Team</h2>
-          </div>
-
-          <div className="row">
-            <div className="col-lg-3 col-sm-6">
-              <div className="">
-                <div className="">
-                  <img src="/images/team/abhay.jpg" alt="image" />
-                </div>
-                  <Link href="/abhay/" >
-                    <h5 style={{ marginTop: "15px", marginBottom:"0",}}>Abhay Bhan</h5>
-                    <p>Director Client Engagement <br /> (Europe)</p>
-                  </Link>
+                    <div className="pro_content">
+                      <p>Abhay Bhan is the Director of Client Engagement for Europe at SA Technologies, with over 12 years of experience in client engagement, business development, Global Capability Center (GCC) operations, and staffing solutions. His role focuses on formulating and executing client acquisition and retention strategies in Europe, underscored by his strategic prowess and consistent success.</p>
+                      
+                      <p>Abhay holds an MBA in Marketing from SSBS Pune and a Bachelor of Engineering (B.E.) in Computer Engineering from AISSMS Pune, providing a strong foundation for his work in the technology sector.  </p>
+                      
+                      <p>Beyond his professional life, Abhay is an avid sports enthusiast, with professional cricket as one of his hobbies, reflecting his commitment to excellence in all aspects of life.  </p>
+                    </div>
+                      
+                  </div>
               </div>
             </div>
-            <div className="col-lg-3 col-sm-6">
-              <div className="">
-                <div className="">
-                  <img src="/images/team/Sonal.png" alt="image" />
-                </div>
-                <Link href="/sonal-sinha/" >
-                  <h5 style={{marginTop: "15px",marginBottom:"0",}}>Sonal Sinha</h5>
-                  <p>Director HR & Operations</p>
-                </Link>
-              </div>
-            </div>
-            <div className="col-lg-3 col-sm-6">
-              <div className="">
-                <div className="">
-                  <img src="/images/team/sudha.jpg" alt="image" />
-                </div>
-                <Link href="/vasudha-kanade/" >
-                <h5 style={{marginTop: "15px",marginBottom:"0",}}>Vasudha Kanade</h5>
-                <p>Director Finance & Compliance</p>
-                </Link>
-              </div>
-            </div>
-            <div className="col-lg-3 col-sm-6">
-              <div className="">
-                <div className="">
-                  <img src="/images/team/amita.jpg" alt="image" />
-                </div>
-                <Link href="/amita/" >
-                  <h5 style={{marginTop: "15px",marginBottom:"0",}}>Amita Bhosale</h5>
-                  <p>Director Client Engagement <br /> (North America) </p>
-                </Link>
-              </div>
-            </div>
-            
-          </div>
-          <div className="row" style={{marginTop:"20px",}}>
-           
-            <div className="col-lg-3 col-sm-6">
-              <div className="">
-                <div className="">
-                  <img src="/images/team/Malay.png" alt="image" />
-                </div>
-                <Link href="/malay/" >
-                  <h5 style={{marginTop: "15px",marginBottom:"0",}}>Malay Soni</h5>
-                  <p>Director Talent Acquisition</p>
-                </Link>
-              </div>
-            </div>
-            
-            <div className="col-lg-3 col-sm-6">
-              <div className="">
-                <div className="">
-                  <img src="/images/team/Jitendra.png" alt="image" />
-                </div>
-                <Link href="/jitendra/" >
-                <h5 style={{marginTop: "15px",marginBottom:"0",}}>Jitendra Khairnar</h5>
-                <p>Head Workspace & Infrastructure</p>
-                </Link>
-              </div>
-            </div>
-            <div className="col-lg-3 col-sm-6">
-              <div className="">
-                <div className="">
-                  <img src="/images/team/Trishita.png" alt="image" />
-                </div>
-                <Link href="/trishita/">
-                <h5 style={{marginTop: "15px",marginBottom:"0",}}>Trishita Bhattacharya</h5>
-                <p>Head Client Engagement (APAC)</p>
-                </Link>
-              </div>
-            </div>
-            <div className="col-lg-3 col-sm-6">
-              <div className="">
-                <div className="">
-                  <img src="/images/team/kanak.png" alt="image" />
-                </div>
-                <Link href="/kanak/">
-                  <h5 style={{marginTop: "15px",marginBottom:"0",}}>Kanak Sahoo</h5>
-                  <p>Head Marketing Manager</p>
-                </Link>
-              </div>
-            </div>
-            
-
-
-          </div>
-
+          </div> { /*:""}*/}
         </div>
 
-        <div className="GCCJourney">
-          <div className="container">
-            <div className="row ptb-100 align-items-center">
-              <div className="col-lg-6 col-md-6">
-                <h2 className="align-items-center"
-                  style={{
-                    textAlign: "right",
-                  }}
-                >Ready to Begin Your GCC Journey?</h2>
-              </div>
-              <div className="col-lg-5 col-md-5"
-                style={{
-                  textAlign: "left",
-                }}
-              >
-                <Link href="#contact" className="btn btn-primary">
-                  Contact Us
-                </Link>
-              </div>
 
-            </div>
-          </div>
-        </div>
 
-        {/* Shape Images */}
-        <div className="shape-img2">
-          <img src="/images/shape/shape2.svg" alt="image" />
-        </div>
-        <div className="shape-img3">
-          <img src="/images/shape/shape3.png" alt="image" />
-        </div>
-        <div className="shape-img4">
-          <img src="/images/shape/shape4.svg" alt="image" />
-        </div>
-        <div className="shape-img5">
-          <img src="/images/shape/shape5.svg" alt="image" />
-        </div>
-        <div className="shape-img3">
-          <img src="/images/shape/shape3.png" alt="image" />
-        </div>
-        <div className="dot-shape1">
-          <img src="/images/shape/dot1.png" alt="image" />
-        </div>
-        <div className="dot-shape2">
-          <img src="/images/shape/dot3.png" alt="image" />
-        </div>
-        <div className="dot-shape2">
-          <img src="/images/shape/dot4.png" alt="image" />
-        </div>
-        <div className="dot-shape2">
-          <img src="/images/shape/dot5.png" alt="image" />
-        </div>
-        <div className="dot-shape2">
-          <img src="/images/shape/dot6.png" alt="image" />
-        </div>
-      </section>
-
-      {/* <OurIndustry /> */}
-      {/* <CaseStudiesSlider /> */}
-      {/* <BlogPostSlider /> */}
       <div className="partner-section ptb-50">
         <div className="container">
           <div className="section-title">
             <h2>Insights</h2>
-            {/* <p>
-              Learn more about our work through Blog post and technology specific articles.
-            </p> */}
           </div>
           <Swiper
             spaceBetween={20}
