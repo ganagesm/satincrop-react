@@ -1,9 +1,6 @@
 import Navbar from "../components/Live/Navbar";
 import Footer from "../components/Live/Footer";
 import HeroBanner from "../components/GCC/HeroBanner";
-import Industries from "../components/GCC/Industries";
-import Services from "../components/GCC/Services";
-import WhyChooseSAT from "../components/GCC/WhyChooseSAT";
 import ContactFormContent from "../components/Common/ContactFormContent";
 import Head from 'next/head';
 import { Component, useState } from "react";
@@ -14,205 +11,59 @@ import { Autoplay } from "swiper";
 
 
 const Index = () => {
-  const[profile_model, setPop]=useState(false);
-  
-  const handleclickopen = () => {
-    setPop(!profile_model)
-  }
-  const closepopup = () => {
-    setPop(false)
-  }
   return (
     <>
-      <Head>
-        <title>GCC Services in India | SA Technologies GCC Solutions </title>
-        <meta property="og:title" content="GCC Services in India | SA Technologies GCC Solutions" key="title" />
-        <meta name="description" content="Unlock success in India with SA Technologies' comprehensive GCC services. From strategy to legal compliance, we streamline your global capability center journey." key="description" />
-      </Head>
+      
 
       <Navbar />
       <HeroBanner />
-      {/* <TechDetailsContent /> */}
+    
 
+        <div>
+         
+          {/* <div className="model-main">
+            <div className="profile_model"> */}
+          <div className="">
+            <div className=""> 
+              <div  className="container" style={{maxWidth: "813px",}}>
+                  <div className="row">
+                    <div className="col-lg-3 col-sm-6">
+                      <div className="pro_heading">
+                        <img style={{width:"200px",}} src="/images/team/amita.jpg" alt="image"/>
+                      </div> 
+                    </div>
 
-      <Services />
-      <Industries />
-      <WhyChooseSAT />
+                    <div className="col-lg-9 col-sm-12">
+                      <div className="pro_heading_dtl">
+                        <h5>Amita Bhosale</h5>
+                          <p>Director Client Engagement <br /> (North America) </p>
+                      </div>
+                      <div className="pro_social">
+                        <Link href="mailto:amita.bhosale@satincorp.com" style={{marginTop:"9%", fontWeight:"700",}}>Connect with Sonal</Link>
+                        <Link style={{float: "left", width: "12%",}} href="mailto:amita.bhosale@satincorp.com"><p><i class="fa-regular fa-envelope"></i></p></Link>
+                      </div>
+                    </div>
 
-      <section className="services-area pb-110">
-        <div className="container">
-          <div className="section-title">
-            <h2>Meet our GCC Team</h2>
-          </div>
-
-          <div className="row">
-            <div className="col-lg-3 col-sm-6">
-              <div className="">
-                <div className="">
-                  <img src="/images/team/abhay.jpg" alt="image" />
-                </div>
-                  <Link href="/abhay/" >
-                    <h5 style={{ marginTop: "15px", marginBottom:"0",}}>Abhay Bhan</h5>
-                    <p>Director Client Engagement <br /> (Europe)</p>
-                  </Link>
+                    <div className="pro_content">
+                      <p>Amita Bhosale, a seasoned Director of Client Engagement with over 13 years of experience at SA Technologies, specializes in managing Global Capability Centers (GCCs) and staffing solutions, particularly in the North American work demographic. Her core strength lies in strategically overseeing these GCCs, which serve as the linchpin in SA Technologies' global expansion and client engagement strategies. Amita's expertise ensures clients have access to a comprehensive array of services, expertise, and a skilled workforce for achieving global growth and success. </p>
+                      
+                      <p>With an MBA in Marketing from MM's IMERT (Pune University), Amita excels in crafting effective client engagement strategies tailored to the North American market. </p>
+                      
+                      <p>Beyond her career, she's passionate about holistic well-being, pursuing exercise, nutrition, and dietetics as hobbies.  </p>
+                    </div>
+                      
+                  </div>
               </div>
             </div>
-            <div className="col-lg-3 col-sm-6">
-              <div className="">
-                <div className="">
-                  <img src="/images/team/Sonal.png" alt="image" />
-                </div>
-                <Link href="/sonal-sinha/" >
-                  <h5 style={{marginTop: "15px",marginBottom:"0",}}>Sonal Sinha</h5>
-                  <p>Director HR & Operations</p>
-                </Link>
-              </div>
-            </div>
-            <div className="col-lg-3 col-sm-6">
-              <div className="">
-                <div className="">
-                  <img src="/images/team/sudha.jpg" alt="image" />
-                </div>
-                <Link href="/vasudha-kanade/" >
-                <h5 style={{marginTop: "15px",marginBottom:"0",}}>Vasudha Kanade</h5>
-                <p>Director Finance & Compliance</p>
-                </Link>
-              </div>
-            </div>
-            <div className="col-lg-3 col-sm-6">
-              <div className="">
-                <div className="">
-                  <img src="/images/team/amita.jpg" alt="image" />
-                </div>
-                <Link href="/amita/" >
-                  <h5 style={{marginTop: "15px",marginBottom:"0",}}>Amita Bhosale</h5>
-                  <p>Director Client Engagement <br /> (North America) </p>
-                </Link>
-              </div>
-            </div>
-            
-          </div>
-          <div className="row" style={{marginTop:"20px",}}>
-           
-            <div className="col-lg-3 col-sm-6">
-              <div className="">
-                <div className="">
-                  <img src="/images/team/Malay.png" alt="image" />
-                </div>
-                <Link href="/malay/" >
-                  <h5 style={{marginTop: "15px",marginBottom:"0",}}>Malay Soni</h5>
-                  <p>Director Talent Acquisition</p>
-                </Link>
-              </div>
-            </div>
-            
-            <div className="col-lg-3 col-sm-6">
-              <div className="">
-                <div className="">
-                  <img src="/images/team/Jitendra.png" alt="image" />
-                </div>
-                <Link href="/jitendra/" >
-                <h5 style={{marginTop: "15px",marginBottom:"0",}}>Jitendra Khairnar</h5>
-                <p>Head Workspace & Infrastructure</p>
-                </Link>
-              </div>
-            </div>
-            <div className="col-lg-3 col-sm-6">
-              <div className="">
-                <div className="">
-                  <img src="/images/team/Trishita.png" alt="image" />
-                </div>
-                <Link href="/trishita/">
-                <h5 style={{marginTop: "15px",marginBottom:"0",}}>Trishita Bhattacharya</h5>
-                <p>Head Client Engagement (APAC)</p>
-                </Link>
-              </div>
-            </div>
-            <div className="col-lg-3 col-sm-6">
-              <div className="">
-                <div className="">
-                  <img src="/images/team/kanak.png" alt="image" />
-                </div>
-                <Link href="/kanak/">
-                  <h5 style={{marginTop: "15px",marginBottom:"0",}}>Kanak Sahoo</h5>
-                  <p>Head Marketing Manager</p>
-                </Link>
-              </div>
-            </div>
-            
-
-
-          </div>
-
+          </div> { /*:""}*/}
         </div>
 
-        <div className="GCCJourney">
-          <div className="container">
-            <div className="row ptb-100 align-items-center">
-              <div className="col-lg-6 col-md-6">
-                <h2 className="align-items-center"
-                  style={{
-                    textAlign: "right",
-                  }}
-                >Ready to Begin Your GCC Journey?</h2>
-              </div>
-              <div className="col-lg-5 col-md-5"
-                style={{
-                  textAlign: "left",
-                }}
-              >
-                <Link href="#contact" className="btn btn-primary">
-                  Contact Us
-                </Link>
-              </div>
 
-            </div>
-          </div>
-        </div>
 
-        {/* Shape Images */}
-        <div className="shape-img2">
-          <img src="/images/shape/shape2.svg" alt="image" />
-        </div>
-        <div className="shape-img3">
-          <img src="/images/shape/shape3.png" alt="image" />
-        </div>
-        <div className="shape-img4">
-          <img src="/images/shape/shape4.svg" alt="image" />
-        </div>
-        <div className="shape-img5">
-          <img src="/images/shape/shape5.svg" alt="image" />
-        </div>
-        <div className="shape-img3">
-          <img src="/images/shape/shape3.png" alt="image" />
-        </div>
-        <div className="dot-shape1">
-          <img src="/images/shape/dot1.png" alt="image" />
-        </div>
-        <div className="dot-shape2">
-          <img src="/images/shape/dot3.png" alt="image" />
-        </div>
-        <div className="dot-shape2">
-          <img src="/images/shape/dot4.png" alt="image" />
-        </div>
-        <div className="dot-shape2">
-          <img src="/images/shape/dot5.png" alt="image" />
-        </div>
-        <div className="dot-shape2">
-          <img src="/images/shape/dot6.png" alt="image" />
-        </div>
-      </section>
-
-      {/* <OurIndustry /> */}
-      {/* <CaseStudiesSlider /> */}
-      {/* <BlogPostSlider /> */}
       <div className="partner-section ptb-50">
         <div className="container">
           <div className="section-title">
             <h2>Insights</h2>
-            {/* <p>
-              Learn more about our work through Blog post and technology specific articles.
-            </p> */}
           </div>
           <Swiper
             spaceBetween={20}
