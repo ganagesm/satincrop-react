@@ -39,7 +39,7 @@ const Index = () => {
                           <p>Head Workspace & Infrastructure</p>
                       </div>
                       <div className="pro_social">
-                        <Link href="mailto:jitendra.khairnar@satincorp.com" style={{marginTop:"9%", fontWeight:"700",}}>Connect with Sonal</Link>
+                        <Link href="mailto:jitendra.khairnar@satincorp.com" style={{marginTop:"9%", fontWeight:"700",}}>Connect with Jitendra</Link>
                         <Link style={{float: "left", width: "12%",}} href="mailto:jitendra.khairnar@satincorp.com"><p><i class="fa-regular fa-envelope"></i></p></Link>
                       </div>
                     </div>

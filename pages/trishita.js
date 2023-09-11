@@ -39,7 +39,7 @@ const Index = () => {
                           <p>Head Client Engagement (APAC)</p>
                       </div>
                       <div className="pro_social">
-                        <Link href="mailto:trishita.bhattacharya@satincorp.com" style={{marginTop:"9%", fontWeight:"700",}}>Connect with Sonal</Link>
+                        <Link href="mailto:trishita.bhattacharya@satincorp.com" style={{marginTop:"9%", fontWeight:"700",}}>Connect with Trishita</Link>
                         <Link style={{float: "left", width: "12%",}} href="mailto:trishita.bhattacharya@satincorp.com"><p><i class="fa-regular fa-envelope"></i></p></Link>
                       </div>
                     </div>
