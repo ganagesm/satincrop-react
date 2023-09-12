@@ -45,11 +45,17 @@ const Index = () => {
                     </div>
 
                     <div className="pro_content">
-                      <p>Vasudha Kanade, the Director of Finance and Compliance at SA Technologies, spearheads the company's growth by establishing top-notch financial systems and processes. Her focus is on enhancing operational excellence, profitability, and business efficiency. With a rich career spanning finance and compliance, Vasudha boasts a deep understanding of financial management in various industries, encompassing both corporate and regulatory contexts. </p>
+                      <p>Vasudha Kanade, the Director of Finance and Compliance at SA Technologies, is at the forefront of the 
+                        company's growth, steering the establishment of top-tier financial systems and processes. Her dedication 
+                        is not limited to enhancing operational excellence, profitability, and business efficiency but also extends 
+                        to ensuring financial compliance within the Global Capability Centers (GCCs). With a rich career spanning 
+                        finance and compliance, Vasudha boasts a deep understanding of financial management in various industries, 
+                        encompassing both corporate and regulatory contexts. Vasudha boasts a deep understanding of financial 
+                        management in various industries. </p>
                       
                       <p>Vasudha holds an MBA in Finance from Bharati Vidyapeeth, complemented by a Master's in Personnel Management (MPM) from Prin.N.G.Naralkar Institute Of Career Development and Research. </p>
                       
-                      <p>Beyond her career, Vasudha's passion lies in finance and investment, aligning with her dedication to staying current with financial trends.  </p>
+                      <p>Beyond her career, Vasudha's passion lies in finance and investment, aligning with her dedication to staying current with financial trends.   </p>
                     </div>
                       
                   </div>

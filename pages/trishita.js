@@ -45,9 +45,9 @@ const Index = () => {
                     </div>
 
                     <div className="pro_content">
-                      <p>Trishita Bhattacharya, Head of Client Engagement for APAC, brings over 8 years of staffing expertise encompassing Volume Hiring, Lateral Hiring, C2H Hiring, MSP Account Management, RPO Account Management, Vendor Management, Leadership Hiring, Key Account Management, Strategic Sourcing, and Resource Management. </p>
+                      <p>Trishita Bhattacharya, as the Head of Client Engagement for APAC, brings over 8 years of staffing expertise, her proficiency is strategically tailored to meet the unique demands of Global Capability Centers (GCCs). Trishita excels in client engagement, relationship building, business development, and account management. This expertise significantly enhances her capabilities in GCC-focused client engagement.</p>
                       
-                      <p>Trishita's enthusiasm for photography complements her meticulous approach to work.  Her ability to capture moments is mirrored in her talent for crafting personalized staffing solutions that meet her clients' unique needs and aspirations, making her a versatile and dedicated professional. </p>
+                      <p>Trishita's enthusiasm for photography complements her meticulous approach to work.  Her ability to capture moments is mirrored in her talent for crafting personalized staffing solutions that meet her client's unique needs and aspirations, making her a versatile and dedicated professional.  </p>
                       
                       <p>She holds a Bachelor of Business Administration (BBA) in Business Administration and Management from Brainware University.</p>
                     </div>

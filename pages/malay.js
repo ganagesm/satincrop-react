@@ -45,11 +45,11 @@ const Index = () => {
                     </div>
 
                     <div className="pro_content">
-                      <p>Malay Soni, the Director of Talent Acquisition at SA Technologies, boasts over 12 years of experience as a seasoned talent acquisition and recruitment professional. He has an impeccable track record of fulfilling organizations' talent needs, having worked across the entire spectrum of the Recruitment Life Cycle. Malay's expertise is particularly dedicated and focused on Technology, Product, and Design Hiring, along with resource management.</p>
+                      <p>Malay Soni, the Director of Talent Acquisition at SA Technologies, boasts over 12 years of experience as a seasoned talent acquisition and recruitment professional. He has an impeccable track record of fulfilling organizations' talent needs, having worked across the entire spectrum of the Recruitment Life Cycle. Malay's expertise is particularly dedicated and focused on Technology, Product, and Design Hiring, along with resource management. His extensive experience spans talent hunting, networking, and research, further strengthening the GCCs' talent acquisition efforts.</p>
                       
-                      <p>His extensive experience spans talent hunting, networking, and research, encompassing roles in both start-ups and corporate recruiting. Malay holds a bachelor's degree in Electronics and Communication from North Maharashtra University, providing him with a strong educational foundation to complement his professional expertise.</p>
+                      <p>His extensive experience spans talent hunting, networking, and research, encompassing roles in both start-ups and corporate recruiting. Malay holds a bachelor's degree in Electronics and Communication from North Maharashtra University, providing him with a strong educational foundation to complement his professional expertise. </p>
                       
-                      <p>Beyond his career, Malay is an avid cricket enthusiast, which reflects his passion and commitment not only in the professional sphere but also in his personal interests.</p>
+                      <p>Beyond his career, Malay is an avid Chess enthusiast, which reflects his passion and commitment not only in the professional sphere but also in his interests. </p>
                     </div>
                       
                   </div>
