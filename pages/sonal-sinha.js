@@ -45,11 +45,11 @@ const Index = () => {
                     </div>
 
                     <div className="pro_content">
-                      <p>Sonal Sinha is a highly experienced HR professional with over 10 years of expertise in various aspects of Human Resources and Capacity Building. Her extensive work demographic spans recruiting, employee engagement, HR planning, budgeting, policy development, payroll management, performance appraisal, grievance handling, training, development, compliance management, and CSR management . </p>
+                      <p>Sonal Sinha is a highly experienced HR professional with over 10 years of expertise. Excels in various aspects of Human Resources and Capacity Building, with a primary focus on Global Capability Centers (GCCs). Her expertise encompasses employee engagement, HR planning, budgeting, policy development, payroll management, performance appraisal, grievance handling, training, development, compliance management, and CSR management, all tailored to meet the unique demands of GCCs.  </p>
                       
-                      <p>Her educational background includes a Post Graduate Diploma in Business Management (PGDM) from FIIB and a Diploma in Human Resources Management/Personnel Administration from IMT Ghaziabad.</p>
+                      <p>Her educational background includes a Post Graduate Diploma in Business Management (PGDM) from FIIB and a Diploma in Human Resources Management/Personnel Administration from IMT Ghaziabad. </p>
                       
-                      <p>Beyond her professional achievements, Sonal is an avid enthusiast of yoga and meditation, reflecting her dedication to a holistic and balanced lifestyle.  </p>
+                      <p>Beyond her professional achievements, Sonal is an avid enthusiast of yoga and meditation, reflecting her dedication to a holistic and balanced lifestyle. </p>
                     </div>
                       
                   </div>
