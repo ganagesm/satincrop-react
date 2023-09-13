@@ -45,11 +45,11 @@ const BlogDetails = () => {
 
                   <h3>Embrace a Customer-Centric Approach-</h3>
                   <p>One of the cornerstones of delivery excellence is a relentless focus on the customer. This means not only meeting their expectations but exceeding them. To achieve this, your GCC should: </p>
-                  <p><b>- Understand Customer Needs:</b> *Invest in understanding your client's specific needs and align your services accordingly.</p>
+                  <p><b>Understand Customer Needs:</b> Invest in understanding your client's specific needs and align your services accordingly.</p>
 
 
 
-                  <p><b>- Continuous Improvement:</b> Implement processes for ongoing improvement based on customer feedback and changing requirements.</p>
+                  <p><b>Continuous Improvement:</b> Implement processes for ongoing improvement based on customer feedback and changing requirements.</p>
 
           
                   <div className="article-image" style={{ marginTop: "10px", marginBottom: "10px", }}>
@@ -69,17 +69,17 @@ const BlogDetails = () => {
                   <p><b>Analytics:</b> Utilize data analytics to gain insights that inform decisions and improvements.</p>
 
                   <h3>Develop a Skilled Workforce</h3>
-                  <p>A skilled and motivated workforce is the backbone of delivery excellence. SA Technologies emphasizes:</p>
-                  <p><b>Talent Development:</b>Invest in ongoing training and skill development for your employees.</p>
-                  <p><b>Recognition and Rewards:</b>Acknowledge and reward high performance to keep motivation levels high.</p>
+                  <p>A skilled and motivated workforce is the backbone of delivery excellence, SA Technologies emphasizes:</p>
+                  <p><b>Talent Development:</b> Invest in ongoing training and skill development for your employees.</p>
+                  <p><b>Recognition and Rewards:</b> Acknowledge and reward high performance to keep motivation levels high.</p>
 
                   <h3>Ensure Compliance and Security</h3>
-                  <p>Compliance with legal and security standards is non-negotiable. SA Technologies emphasizes: </p>
-                  <p><b>Legal Expertise:</b>Stay up-to-date with local and international legal requirements.</p>
+                  <p>Compliance with legal and security standards is non-negotiable, SA Technologies emphasizes: </p>
+                  <p><b>Legal Expertise:</b> Stay up-to-date with local and international legal requirements.</p>
                   <p><b>Robust Security:</b> Implement stringent security measures to protect sensitive data.</p>
 
                   <h3>Conclusion</h3>
-                  <p>By embracing these principles and continuously refining your strategies, your GCC can move closer to achieving delivery excellence. SA Technologies, with its wealth of experience and expertise, stands as a reliable partner in this journey. </p>
+                  <p>By embracing these principles and continuously refining your strategies, your GCC can move closer to achieving delivery excellence, SA Technologies, with its wealth of experience and expertise, stands as a reliable partner in this journey. </p>
 
 
 
@@ -101,7 +101,7 @@ const BlogDetails = () => {
         <div className="GCCJourney">
           <div className="container">
             <div className="row pt-50 align-items-center" style={{paddingBottom:"10px",}}>
-              <div className="col-lg-3 col-md-6">
+              <div className="col-lg-3 col-md-6 pro_card">
                 <h2 className="align-items-center">About the Author </h2>
                 <div className="article-image" style={{ marginTop: "10px", marginBottom: "10px", }}>
                   <img src="/images/team/abhay.jpg" alt="image" />

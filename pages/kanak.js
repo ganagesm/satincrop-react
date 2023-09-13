@@ -45,7 +45,7 @@ const Index = () => {
                     </div>
 
                     <div className="pro_content">
-                      <p>Kanak Sahoo serves as the Head of Marketing at SA Technologies, bringing four years of marketing expertise to the table. Her role revolves around assisting clients in building and strengthening their brand identities. Her innovative approach and commitment make him an essential asset to SA Technologies, driving successful marketing campaigns and brand-building initiatives. </p>
+                      <p>Kanak Sahoo serves as the Head of Marketing at SA Technologies, bringing four years of marketing expertise to the table. Her role revolves around assisting clients in building and strengthening their brand identities. Her innovative approach and commitment make him an essential asset to SA Technologies, driving successful marketing campaigns and brand-building initiatives.</p>
                       
                       <p>With an educational background that includes an MBA from IIMS Pune and a bachelor's in business administration (BBA) from a prestigious college, Kanak combines academic knowledge with practical experience to offer valuable insights and strategies for brand development. </p>
                       

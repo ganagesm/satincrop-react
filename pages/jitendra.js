@@ -45,11 +45,11 @@ const Index = () => {
                     </div>
 
                     <div className="pro_content">
-                      <p>Jitendra Khairnar, Head of Workspace and Infrastructure at SA Technologies, boasts a robust career spanning over 10 years, primarily focusing on managing and optimizing workspace and infrastructure within diverse work demographics. Jitendra's proficiency lies in streamlining and enhancing the workspace environment to cater to the specific needs of various sectors and industries.</p>
+                      <p>Jitendra Khairnar, Head of Workspace and Infrastructure at SA Technologies, boasts a robust career spanning over 10 years, primarily focusing on managing and optimizing workspace and infrastructure within diverse work demographics. Jitendra's proficiency lies in streamlining and enhancing the workspace environment to cater to the specific needs of GCCs, ensuring they are well-equipped to meet the evolving demands of a global workforce. </p>
                       
-                      <p>His role involves designing and executing workspace strategies that align with the demands of an ever-evolving global workforce. Jitendra's experience encompasses catering to unique work demographics, ensuring that workspace and infrastructure solutions are tailored to enhance productivity, collaboration, and efficiency. </p>
+                      <p>His role involves designing and executing workspace strategies that align with the demands of an ever-evolving global workforce. Jitendra's experience encompasses catering to unique work demographics, ensuring that workspace and infrastructure solutions are tailored to enhance productivity, collaboration, and efficiency.</p>
                       
-                      <p>Outside of his professional endeavors, Jitendra is an ardent cricket enthusiast, passionately following and occasionally playing the sport.</p>
+                      <p>Outside of his professional endeavors, Jitendra is an enthusiastic football player, frequently joining matches and passionately following the sport.</p>
                     </div>
                       
                   </div>

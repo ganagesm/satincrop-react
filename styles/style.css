@@ -6571,7 +6571,7 @@ AI Main Banner Area CSS
     position: relative;
     z-index: 1;
     overflow: hidden;
-    background: linear-gradient(180deg, #F5FCFE 3.31%, #F6FCFF 100%);
+    background: linear-gradient(180deg, #c9c9c9 3.31%, #F6FCFF 100%);
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -6882,7 +6882,7 @@ AI About Area CSS
     padding: 0;
     margin-top: 20px;
     margin-bottom: 0;
-    max-width: 450px;
+    /* max-width: 450px; */
 }
 .ai-about-content .about-list li {
     list-style-type: none;
@@ -6892,7 +6892,7 @@ AI About Area CSS
     border-radius: 5px;
     margin-bottom: 18px;
     position: relative;
-    font-size: 14px;
+    font-size: 17px;
     font-weight: 600;
     color: #57647c;
 }
@@ -8331,6 +8331,18 @@ Footer Wrap Area CSS
 a.btn.btn-primary.cnt_btn {
     background-color: #149ad6;
 }
+.team_box:hover {
+    background-color: #fff;
+    box-shadow: 0px 7px 10px #ccc;
+    padding: 10px;
+}
+.pro_card:hover{
+    background-color: #fff;
+    box-shadow: 0px 7px 10px #ccc;
+    padding: 10px;
+}
+
+
 
 
 /*End "Home Demo - 6", "Home Demo - 7" & "Home Demo - 8" Style CSS*/

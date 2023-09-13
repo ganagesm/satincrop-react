@@ -47,7 +47,7 @@ const Index = () => {
 
           <div className="row">
             <div className="col-lg-3 col-sm-6">
-              <div className="">
+              <div className="team_box">
                 <div className="">
                   <img src="/images/team/abhay.jpg" alt="image" />
                 </div>
@@ -58,7 +58,7 @@ const Index = () => {
               </div>
             </div>
             <div className="col-lg-3 col-sm-6">
-              <div className="">
+              <div className="team_box">
                 <div className="">
                   <img src="/images/team/Sonal.png" alt="image" />
                 </div>
@@ -69,7 +69,7 @@ const Index = () => {
               </div>
             </div>
             <div className="col-lg-3 col-sm-6">
-              <div className="">
+              <div className="team_box">
                 <div className="">
                   <img src="/images/team/sudha.jpg" alt="image" />
                 </div>
@@ -80,7 +80,7 @@ const Index = () => {
               </div>
             </div>
             <div className="col-lg-3 col-sm-6">
-              <div className="">
+              <div className="team_box">
                 <div className="">
                   <img src="/images/team/amita.jpg" alt="image" />
                 </div>
@@ -95,7 +95,7 @@ const Index = () => {
           <div className="row" style={{marginTop:"20px",}}>
            
             <div className="col-lg-3 col-sm-6">
-              <div className="">
+              <div className="team_box">
                 <div className="">
                   <img src="/images/team/Malay.png" alt="image" />
                 </div>
@@ -107,7 +107,7 @@ const Index = () => {
             </div>
             
             <div className="col-lg-3 col-sm-6">
-              <div className="">
+              <div className="team_box">
                 <div className="">
                   <img src="/images/team/Jitendra.png" alt="image" />
                 </div>
@@ -118,7 +118,7 @@ const Index = () => {
               </div>
             </div>
             <div className="col-lg-3 col-sm-6">
-              <div className="">
+              <div className="team_box">
                 <div className="">
                   <img src="/images/team/Trishita.png" alt="image" />
                 </div>
@@ -129,7 +129,7 @@ const Index = () => {
               </div>
             </div>
             <div className="col-lg-3 col-sm-6">
-              <div className="">
+              <div className="team_box">
                 <div className="">
                   <img src="/images/team/kanak.png" alt="image" />
                 </div>

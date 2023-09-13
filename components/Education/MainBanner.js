@@ -6,34 +6,32 @@ const DomainSearch = () => {
   const [toggler, setToggler] = useState(false);
   return (
     <>
-      <FsLightbox
+      {/* <FsLightbox
         toggler={toggler}
         sources={["https://www.youtube.com/embed/bk7McNUjWgw"]}
-      />
+      /> */}
 
       <div className="ai-main-banner-area">
         <div className="container-fluid">
           <div className="ai-main-banner-content">
-            <h1>
-              AI and Machine <span>Learning</span> Products Creators
-            </h1>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            <h1>Empowering Educational Excellence with Technology</h1>
+            <p>SA Technologies leads in AI-driven education solutions, optimizing operations and student outcomes
+               with technology. Stay ahead with our dedicated team in a rapidly advancing landscape 
+
             </p>
 
             <ul className="banner-btn">
               <li>
                 <Link href="/contact" className="btn btn-primary">
-                  Get Started Free
+                Get in touch now
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <div onClick={() => setToggler(!toggler)} className="video-btn">
                   <i className="flaticon-play-button"></i>
                   Watch Intro Video
                 </div>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
