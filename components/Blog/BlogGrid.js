@@ -16,7 +16,7 @@ export default function BlogThreeGrid() {
       try {
         // const response = await fetch(`https://dev1.satincorp.com/wp-json/wp/v2/posts?per_page=${pageSize}&status=publish`);
         // const response = await fetch(`https://dev1.satincorp.com/wp-json/wp/v2/posts`);
-        const response = await fetch(`https://dev1.satincorp.com/wp-json/wp/v2/posts?page=${currentPage}&per_page=${pageSize}`);
+        const response = await fetch(`https://dev1.satincorp.com/wp-json/wp/v2/posts?page=${currentPage}&per_page=${pageSize}&order=desc`);
 
         if (!response.ok) {
           throw new Error('Network response was not ok');

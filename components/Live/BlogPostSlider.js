@@ -229,7 +229,7 @@ const BlogPostSlider = () => {
   useEffect(() => {
     async function fetchPosts() {
       try {
-        const response = await fetch(`${postApi}/posts?page=${currentPage}&per_page=${pageSize}`);
+        const response = await fetch(`${postApi}/posts?page=${currentPage}&per_page=${pageSize}&order=desc`);
 
         if (!response.ok) {
           throw new Error('Network response was not ok');

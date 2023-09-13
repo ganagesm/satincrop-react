@@ -17,7 +17,7 @@ export default function BlogThreeGrid() {
         // news and event category
         // const response = await fetch(`https://dev1.satincorp.com/wp-json/wp/v2/posts?categories=130?page=${currentPage}&per_page=${pageSize}`);
         // Customer Success API
-        const response = await fetch(`https://dev1.satincorp.com/wp-json/wp/v2/customer_story?page=${currentPage}&per_page=${pageSize}`);
+        const response = await fetch(`https://dev1.satincorp.com/wp-json/wp/v2/customer_story?page=${currentPage}&per_page=${pageSize}&order=desc`);
 
         if (!response.ok) {
           throw new Error('Network response was not ok');
