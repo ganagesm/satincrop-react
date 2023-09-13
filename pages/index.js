@@ -30,6 +30,7 @@ const Index = () => {
       <HeroBanner />
       <AboutContact />
       <PartnerContent />
+      <NewsPostSlider />
       <Services />
       {/* <MainServices /> */}
       <TechSlider />
@@ -38,7 +39,6 @@ const Index = () => {
       <Testimonials />
       <CaseStudiesPost />
       <BlogPostSlider />
-      <NewsPostSlider />
       <Footer />
 
     </>

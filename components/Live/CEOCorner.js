@@ -77,7 +77,7 @@ const BlogPostSlider = () => {
                     },
                   }}
                   modules={[Autoplay]}
-                  className="partner-slides"
+                  className="ceo-slides"
                 >
                 <div className="row justify-content-center">
                   <SwiperSlide>

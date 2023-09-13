@@ -66,7 +66,7 @@ const BlogPostSlider = () => {
           <div className="section-title">
             <h2>Our Latest News</h2>
             <p>
-              Learn more about our work through Blog post and technology specific articles.
+            Discover more about our endeavors by exploring our news articles and technology-specific reports.
             </p>
           </div>
           <Swiper
@@ -91,48 +91,44 @@ const BlogPostSlider = () => {
               },
             }}
             modules={[Autoplay]}
-            className="partner-slides"
+            className="news-slides"
           >
             <div className="row justify-content-center">
               {posts.map((post, index) => (
                 <SwiperSlide>
                   <div className="single-blog-post" key={index}>
-                    <div className="entry-thumbnail">
+                    {/* <div className="entry-thumbnail">
                       <Link href="/news-and-events/[slug]" as={`/news-and-events/${post.slug}`}>
                         <img src={post.featured_image_url[0]} alt="image" />
                       </Link>
-                    </div>
+                    </div> */}
 
                     <div className="entry-post-content">
                       <div className="entry-meta">
                         <ul>
-                          <li>
-                            <Link href="#">{post.author_info.name}</Link>
-                          </li>
-                          <li>
-                            <strong>Category :</strong> {post.category}
-                          </li>
-                          <li>{post.date_info}</li>
-                        </ul>
-                      </div>
-
-                      <h3>
-                        <div
-                          dangerouslySetInnerHTML={{ __html: post.title.rendered }}
-                        />
-                      </h3>
-
-
-                      <div dangerouslySetInnerHTML={{ __html: post.excerpt.rendered }} />
-                      <Link className="learn-more-btn" href="/news-and-events/[slug]" as={`/news-and-events/${post.slug}`}> Read More <i className="flaticon-add"></i></Link>
-
+                          <li> <Link href="#">{post.author_info.name}</Link> </li>
+                          {/* <li> <strong>Category :</strong> {post.category}</li> */}
+                        <li>{post.date_info}</li>
+                      </ul>
                     </div>
+
+                    <h3>
+                      <div
+                        dangerouslySetInnerHTML={{ __html: post.title.rendered }}
+                      />
+                    </h3>
+
+
+                    {/* <div dangerouslySetInnerHTML={{ __html: post.excerpt.rendered }} /> */}
+                    <Link className="learn-more-btn" href="/news-and-events/[slug]" as={`/news-and-events/${post.slug}`}> Read More <i className="flaticon-add"></i></Link>
+
                   </div>
+                </div>
                 </SwiperSlide>
               ))}
-            </div>
-          </Swiper>
         </div>
+      </Swiper>
+    </div >
 
         <div className="dot-shape1">
           <img src="/images/shape/dot1.png" alt="image" />
@@ -146,7 +142,7 @@ const BlogPostSlider = () => {
         <div className="shape-img5">
           <img src="/images/shape/shape5.svg" alt="image" />
         </div>
-      </div>
+      </div >
     </>
   );
 };
