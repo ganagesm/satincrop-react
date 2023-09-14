@@ -18,12 +18,12 @@ const Services = () => {
             <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="single-services-card">
                 <div className="image-icon">
-                  <img src="/images/home-six/services/mobile-app.png" alt="icon" />
+                  <img src="/images/home-six/services/Cloudservices.png" alt="icon" />
                 </div>
                 <h3>
-                  <Link href="/service-details">Mobile App Development</Link>
+                  <Link href="/service-details">Cloud Infrastructure Solutions</Link>
                 </h3>
-                <p> Develop real-time mobile solutions for production monitoring, inventory tracking, and remote workforce management in manufacturing</p>
+                <p> Emphasize the benefits of cloud adoption, such as scalability, cost-effectiveness, and improved collaboration. Showcase how cloud services can optimize their infrastructure, reduce downtime, and increase accessibility.</p>
 
                 {/* <Link href="/service-details" className="read-btn">
                   Read More
@@ -33,13 +33,13 @@ const Services = () => {
 
             <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="single-services-card">
-                <div className="image-icon bg-two">
-                  <img src="/images/home-six/services/icon2.png" alt="icon" />
+                <div className="image-icon bg-six">
+                  <img src="/images/home-six/services/icon6.png" alt="icon" />
                 </div>
                 <h3>
-                  <Link href="/service-details">Software Development</Link>
+                  <Link href="/service-details">Cybersecurity Solutions</Link>
                 </h3>
-                <p>Custom software solutions for streamlined manufacturing operations: production planning, quality control, and supply chain management. 
+                <p>Stress the importance of robust cybersecurity measures to protect their valuable data and sensitive information. Position your cybersecurity services as a way to safeguard their systems, prevent data breaches, and ensure compliance with regulations.
                 </p>
                 {/* <Link href="/service-details" className="read-btn">
                   Read More
@@ -50,12 +50,12 @@ const Services = () => {
             <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="single-services-card">
                 <div className="image-icon">
-                  <img src="/images/home-six/services/icon1.png" alt="icon" />
+                  <img src="/images/home-six/services/icon.png" alt="icon" />
                 </div>
                 <h3>
-                  <Link href="/service-details">RPA (Robotic Process Automation)</Link>
+                  <Link href="/service-details">Robotic Process Automation (RPA)</Link>
                 </h3>
-                <p>  Automate routine tasks such as order processing, data entry, and inventory management, freeing up your workforce for more strategic activities.  
+                <p>  Highlight how RPA can streamline repetitive tasks, reduce errors, and enhance operational efficiency. Position RPA as a tool to optimize workflows and allow their teams to focus on higher-value tasks.  
                 </p>
                 {/* <Link href="/service-details" className="read-btn">
                   Read More
@@ -68,24 +68,9 @@ const Services = () => {
                   <img src="/images/home-six/services/icon3.png" alt="icon" />
                 </div>
                 <h3>
-                  <Link href="/service-details">Infrastructure management</Link>
+                  <Link href="/service-details">Software Testing and Quality Assurance</Link>
                 </h3>
-                <p> Implement secure and scalable cloud platforms to enhance collaboration, data sharing, and accessibility among your manufacturing teams, suppliers, and customer  </p>
-                {/* <Link href="/service-details" className="read-btn">
-                  Read More
-                </Link> */}
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-6">
-              <div className="single-services-card">
-                <div className="image-icon bg-five">
-                  <img src="/images/home-six/services/icon5.png" alt="icon" />
-                </div>
-                <h3>
-                  <Link href="/service-details">AI and Machine Learning</Link>
-                </h3>
-                <p>Utilize AI-driven predictive analytics to optimize production processes, detect defects early, and forecast demand, leading to improved efficiency and cost savings.
-                </p>
+                <p>Emphasize the importance of delivering glitch-free products to customers. Discuss how thorough testing can improve software reliability, user satisfaction, and reduce post-launch issues.  </p>
                 {/* <Link href="/service-details" className="read-btn">
                   Read More
                 </Link> */}
@@ -99,7 +84,22 @@ const Services = () => {
                 <h3>
                   <Link href="/service-details">IoT Integration</Link>
                 </h3>
-                <p> Leverage IoT to monitor equipment health, track asset utilization, and gather real-time data for predictive maintenance, enhancing overall production efficiency 
+                <p>Showcase how IoT can help them gather real-time data from their products, enabling better insights into customer usage patterns and performance. Position IoT as a tool to enhance customer experiences and drive product innovation.
+                </p>
+                {/* <Link href="/service-details" className="read-btn">
+                  Read More
+                </Link> */}
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 col-sm-6">
+              <div className="single-services-card">
+                <div className="image-icon bg-five">
+                  <img src="/images/home-six/services/icon5.png" alt="icon" />
+                </div>
+                <h3>
+                  <Link href="/service-details">AI and Machine Learning Integration</Link>
+                </h3>
+                <p>Showcase how AI and machine learning can help them extract valuable insights from data, automate tasks, and make informed decisions. Position these technologies as drivers of efficiency, accuracy, and predictive analytics 
                 </p>
                 {/* <Link href="/service-details" className="read-btn">
                   Read More

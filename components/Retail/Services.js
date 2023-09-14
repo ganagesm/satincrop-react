@@ -23,7 +23,7 @@ const Services = () => {
                 <h3>
                   <Link href="/service-details">Mobile App Development</Link>
                 </h3>
-                <p> Develop real-time mobile solutions for production monitoring, inventory tracking, and remote workforce management in manufacturing</p>
+                <p> Create user-friendly mobile apps for seamless shopping experiences, loyalty programs, and personalized offers to engage customers and drive sales. </p>
 
                 {/* <Link href="/service-details" className="read-btn">
                   Read More
@@ -39,7 +39,7 @@ const Services = () => {
                 <h3>
                   <Link href="/service-details">Software Development</Link>
                 </h3>
-                <p>Custom software solutions for streamlined manufacturing operations: production planning, quality control, and supply chain management. 
+                <p>Develop custom software solutions to optimize inventory management, point-of-sale systems, and customer relationship management, enhancing overall efficiency. 
                 </p>
                 {/* <Link href="/service-details" className="read-btn">
                   Read More
@@ -49,28 +49,14 @@ const Services = () => {
 
             <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="single-services-card">
-                <div className="image-icon">
-                  <img src="/images/home-six/services/icon1.png" alt="icon" />
+                <div className="image-icon bg-four">
+                  <img src="/images/home-six/services/Cloudservices.png" alt="icon" />
                 </div>
                 <h3>
-                  <Link href="/service-details">RPA (Robotic Process Automation)</Link>
+                  <Link href="/service-details">Cloud Solutions</Link>
                 </h3>
-                <p>  Automate routine tasks such as order processing, data entry, and inventory management, freeing up your workforce for more strategic activities.  
+                <p> Implement secure and scalable cloud platforms for storing and analyzing customer data, enabling real-time insights and data-driven decision-making.  
                 </p>
-                {/* <Link href="/service-details" className="read-btn">
-                  Read More
-                </Link> */}
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-6">
-              <div className="single-services-card">
-                <div className="image-icon bg-three">
-                  <img src="/images/home-six/services/icon3.png" alt="icon" />
-                </div>
-                <h3>
-                  <Link href="/service-details">Infrastructure management</Link>
-                </h3>
-                <p> Implement secure and scalable cloud platforms to enhance collaboration, data sharing, and accessibility among your manufacturing teams, suppliers, and customer  </p>
                 {/* <Link href="/service-details" className="read-btn">
                   Read More
                 </Link> */}
@@ -84,7 +70,21 @@ const Services = () => {
                 <h3>
                   <Link href="/service-details">AI and Machine Learning</Link>
                 </h3>
-                <p>Utilize AI-driven predictive analytics to optimize production processes, detect defects early, and forecast demand, leading to improved efficiency and cost savings.
+                <p>Utilize AI-powered solutions for demand forecasting, personalized product recommendations, and customer behavior analysis to enhance customer satisfaction and sales. </p>
+                {/* <Link href="/service-details" className="read-btn">
+                  Read More
+                </Link> */}
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 col-sm-6">
+              <div className="single-services-card">
+                <div className="image-icon">
+                  <img src="/images/home-six/services/icon1.png" alt="icon" />
+                </div>
+                <h3>
+                  <Link href="/service-details">Robotic Process Automation (RPA)</Link>
+                </h3>
+                <p>Automate repetitive tasks such as inventory updates, order processing, and customer inquiries, reducing errors and improving operational efficiency. 
                 </p>
                 {/* <Link href="/service-details" className="read-btn">
                   Read More
@@ -97,9 +97,9 @@ const Services = () => {
                   <img src="/images/home-six/services/icon3.png" alt="icon" />
                 </div>
                 <h3>
-                  <Link href="/service-details">IoT Integration</Link>
+                  <Link href="/service-details">Software Testing</Link>
                 </h3>
-                <p> Leverage IoT to monitor equipment health, track asset utilization, and gather real-time data for predictive maintenance, enhancing overall production efficiency 
+                <p>Ensure the reliability of your e-commerce platforms and applications through rigorous testing, enhancing user experience and trust. 
                 </p>
                 {/* <Link href="/service-details" className="read-btn">
                   Read More

@@ -18,7 +18,7 @@ const Services = () => {
             <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="single-services-card">
                 <div className="image-icon">
-                  <img src="/images/home-six/services/icon1.png" alt="icon" />
+                  <img src="/images/home-six/services/mobile-app.png" alt="icon" />
                 </div>
                 <h3>
                   <Link href="/service-details">Mobile App Development</Link>
@@ -34,10 +34,10 @@ const Services = () => {
             <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="single-services-card">
                 <div className="image-icon bg-two">
-                  <img src="/images/home-six/services/icon2.png" alt="icon" />
+                  <img src="/images/home-six/services/Cloudservices.png" alt="icon" />
                 </div>
                 <h3>
-                  <Link href="/service-details">Cloud Solutions: </Link>
+                  <Link href="/service-details">Cloud Solutions</Link>
                 </h3>
                 <p>Offer secure and scalable cloud platforms for efficient storage and access to media content, enabling collaboration among geographically dispersed teams.
                 </p>
@@ -49,8 +49,8 @@ const Services = () => {
 
             <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="single-services-card">
-                <div className="image-icon bg-three">
-                  <img src="/images/home-six/services/icon3.png" alt="icon" />
+                <div className="image-icon bg-five">
+                  <img src="/images/home-six/services/icon5.png" alt="icon" />
                 </div>
                 <h3>
                   <Link href="/service-details">AI and Machine Learning</Link>
@@ -64,8 +64,8 @@ const Services = () => {
             </div>
             <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="single-services-card">
-                <div className="image-icon bg-three">
-                  <img src="/images/home-six/services/icon3.png" alt="icon" />
+                <div className="image-icon">
+                  <img src="/images/home-six/services/icon1.png" alt="icon" />
                 </div>
                 <h3>
                   <Link href="/service-details">Robotic Process Automation (RPA):</Link>
