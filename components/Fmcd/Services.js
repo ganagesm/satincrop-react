@@ -7,7 +7,7 @@ const Services = () => {
       <div className="ai-services-area pt-100 pb-100">
         <div className="container">
           <div className="section-title with-underline-text">
-            <h2>Our Services for Today's Digital Landscape</h2>
+            <h2>Our Services Aligned with Modern Demands</h2>
             {/* <p>
               Lorem ipsum dolor sit amet consectetur adipiscing elit. A ac, ut
               eget pellentesque nulla viverr.
@@ -23,7 +23,7 @@ const Services = () => {
                 <h3>
                   <Link href="/service-details">Mobile App Development</Link>
                 </h3>
-                <p>Create user-friendly apps for seamless communication between students, parents, and faculty, facilitating access to resources and event notifications. </p>
+                <p>Offer mobile solutions for real-time inventory tracking, order management, and customer engagement, enhancing overall operational efficiency and customer experience. </p>
 
                 {/* <Link href="/service-details" className="read-btn">
                   Read More
@@ -34,44 +34,13 @@ const Services = () => {
             <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="single-services-card">
                 <div className="image-icon bg-two">
-                  <img src="/images/home-six/services/Datamanagement.png" alt="icon" />
+                  <img src="/images/home-six/services/icon2.png" alt="icon" />
                 </div>
                 <h3>
-                  <Link href="/service-details">Data Management and Compliance</Link>
+                  <Link href="/service-details">Software Development</Link>
                 </h3>
-                <p>Secure and manage data with cloud systems while ensuring privacy compliance.
+                <p>Develop custom software solutions to streamline supply chain management, sales forecasting, and inventory optimization, leading to smoother FMCD operations.  
                 </p>
-                {/* <Link href="/service-details" className="read-btn">
-                  Read More
-                </Link> */}
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-md-6 col-sm-6">
-              <div className="single-services-card">
-                <div className="image-icon">
-                  <img src="/images/home-six/services/icon1.png" alt="icon" />
-                </div>
-                <h3>
-                  <Link href="/service-details">Robotic Process Automation (RPA)</Link>
-                </h3>
-                <p>Streamline administrative tasks like admissions, enrollment, and grading, reducing manual work and errors. 
-                </p>
-                {/* <Link href="/service-details" className="read-btn">
-                  Read More
-                </Link> */}
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-md-6 col-sm-6">
-              <div className="single-services-card">
-                <div className="image-icon bg-four">
-                  <img src="/images/home-six/services/Cloudservices.png" alt="icon" />
-                </div>
-                <h3>
-                  <Link href="/service-details">Cloud Solutions</Link>
-                </h3>
-                <p>Provide secure cloud platforms for storing and sharing educational materials, supporting remote learning, and optimizing resource management. </p>
                 {/* <Link href="/service-details" className="read-btn">
                   Read More
                 </Link> */}
@@ -84,39 +53,56 @@ const Services = () => {
                   <img src="/images/home-six/services/icon5.png" alt="icon" />
                 </div>
                 <h3>
-                  <Link href="/service-details">AI and Machine Learning</Link>
+                  <Link href="/service-details">Cloud and AI/ML Solutions</Link>
                 </h3>
-                <p>
-                  Implement AI-driven platforms that adapt to individual student needs, offering tailored content and assessments. 
+                <p> Leverage the power of the cloud and AI/ML to analyze consumer behavior, optimize demand forecasting, and personalize marketing strategies for increased sales and reduced wastage.  
                 </p>
                 {/* <Link href="/service-details" className="read-btn">
                   Read More
                 </Link> */}
               </div>
             </div>
-
             <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="single-services-card">
-                <div className="image-icon bg-six">
-                  <img src="/images/home-six/services/icon6.png" alt="icon" />
+                <div className="image-icon">
+                  <img src="/images/home-six/services/icon1.png" alt="icon" />
                 </div>
                 <h3>
-                  <Link href="/service-details">Cybersecurity Solutions</Link>
+                  <Link href="/service-details">Robotic Process Automation (RPA)</Link>
                 </h3>
-                <p>
-                  Safeguard sensitive student and faculty data from cyber threats, ensuring data privacy and compliance with regulations. 
+                <p>Implement RPA to automate routine tasks in production, distribution, and order processing, minimizing errors and increasing efficiency. </p>
+                {/* <Link href="/service-details" className="read-btn">
+                  Read More
+                </Link> */}
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 col-sm-6">
+              <div className="single-services-card">
+                <div className="image-icon bg-three">
+                  <img src="/images/home-six/services/icon3.png" alt="icon" />
+                </div>
+                <h3>
+                  <Link href="/service-details">Software Testing</Link>
+                </h3>
+                <p>Ensure the reliability and security of FMCD software applications through rigorous testing, guaranteeing seamless functionality and consumer data protection.  
                 </p>
                 {/* <Link href="/service-details" className="read-btn">
                   Read More
                 </Link> */}
               </div>
             </div>
-
-            {/* <div className="col-lg-12 col-md-12">
-              <div className="ai-all-services-btn">
-                <Link href="/services" className="btn btn-primary">
-                  View All Services
-                </Link>
+           
+            {/* <div className="col-lg-4 col-md-6 col-sm-6">
+              <div className="single-services-card">
+                <div className="image-icon bg-three">
+                  <img src="/images/home-six/services/icon3.png" alt="icon" />
+                </div>
+                <h3>
+                  <Link href="/service-details">Software Development</Link>
+                </h3>
+                <p>Streamline production workflows by developing customized software solutions for content management, scheduling, collaboration, and distribution.
+                </p>
+               
               </div>
             </div> */}
           </div>
