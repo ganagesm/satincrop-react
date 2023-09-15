@@ -79,12 +79,7 @@ const ComputerVisionAI = () => {
                       <div className="">
                         <h4>Application Modernisation</h4>
                       </div>
-                      <p>A vital step in digital transformation, Application Modernisation 
-                        focuses on updating older software applications to newer, more efficient standards, 
-                        enhancing functionality, user experience, and integration capabilities.
-                        Google For Education Google for Education transforms learning by infusing
-                        classrooms with digital tools, amplifying both engagement and collaboration for 
-                        students and educators alike.</p>
+                      <p>Enhance business agility and user experience through our comprehensive application modernization solutions. We offer a variety of modernization approaches tailored to your IT and business objectives, both immediate and long-term. Our deep automation and machine learning solutions enable transformation at scale, ensuring improved performance, security, and currency for your applications.</p>
                     </div>
                   </div>
                 </div>
