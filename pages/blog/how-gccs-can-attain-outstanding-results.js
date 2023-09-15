@@ -105,8 +105,10 @@ const BlogDetails = () => {
                 <h2 className="align-items-center">About the Author </h2>
                 <div className="article-image" style={{ marginTop: "10px", marginBottom: "10px", }}>
                   <img src="/images/team/abhay.jpg" alt="image" />
-                  <h5 style={{ marginTop: "10px", marginBottom: "0", }} className="align-items-center">Abhay Bhan</h5>
-                  <p>Director Client Engagement <br /> (Europe)</p>
+                  <Link href="/abhay/" >
+                    <h5 style={{ marginTop: "10px", marginBottom: "0", }} className="align-items-center">Abhay Bhan</h5>
+                    <p>Director Client Engagement <br /> (Europe)</p>
+                  </Link>
                 </div>
               </div>
               <div className="col-lg-7 col-md-6 offset-md-1">

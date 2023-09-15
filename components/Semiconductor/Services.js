@@ -7,7 +7,7 @@ const Services = () => {
       <div className="ai-services-area pt-100 pb-100">
         <div className="container">
           <div className="section-title with-underline-text">
-            <h2>Our Services for Today's Digital Landscape</h2>
+            <h2>Our Services Aligned with Modern Demands</h2>
             {/* <p>
               Lorem ipsum dolor sit amet consectetur adipiscing elit. A ac, ut
               eget pellentesque nulla viverr.
@@ -23,7 +23,7 @@ const Services = () => {
                 <h3>
                   <Link href="/service-details">Mobile App Development</Link>
                 </h3>
-                <p>Create user-friendly apps for seamless communication between students, parents, and faculty, facilitating access to resources and event notifications. </p>
+                <p>Enhance operational efficiency with custom mobile apps for real-time monitoring and management of semiconductor manufacturing processes. </p>
 
                 {/* <Link href="/service-details" className="read-btn">
                   Read More
@@ -34,28 +34,12 @@ const Services = () => {
             <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="single-services-card">
                 <div className="image-icon bg-two">
-                  <img src="/images/home-six/services/Datamanagement.png" alt="icon" />
+                  <img src="/images/home-six/services/icon2.png" alt="icon" />
                 </div>
                 <h3>
-                  <Link href="/service-details">Data Management and Compliance</Link>
+                  <Link href="/service-details">Software Development</Link>
                 </h3>
-                <p>Secure and manage data with cloud systems while ensuring privacy compliance.
-                </p>
-                {/* <Link href="/service-details" className="read-btn">
-                  Read More
-                </Link> */}
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-md-6 col-sm-6">
-              <div className="single-services-card">
-                <div className="image-icon">
-                  <img src="/images/home-six/services/icon1.png" alt="icon" />
-                </div>
-                <h3>
-                  <Link href="/service-details">Robotic Process Automation (RPA)</Link>
-                </h3>
-                <p>Streamline administrative tasks like admissions, enrollment, and grading, reducing manual work and errors. 
+                <p>Develop tailored software solutions to optimize manufacturing workflows, quality control, and supply chain management. 
                 </p>
                 {/* <Link href="/service-details" className="read-btn">
                   Read More
@@ -71,13 +55,13 @@ const Services = () => {
                 <h3>
                   <Link href="/service-details">Cloud Solutions</Link>
                 </h3>
-                <p>Provide secure cloud platforms for storing and sharing educational materials, supporting remote learning, and optimizing resource management. </p>
+                <p> Leverage the cloud for secure data storage, efficient collaboration, and seamless access to critical information across your semiconductor operations.  
+                </p>
                 {/* <Link href="/service-details" className="read-btn">
                   Read More
                 </Link> */}
               </div>
             </div>
-
             <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="single-services-card">
                 <div className="image-icon bg-five">
@@ -86,37 +70,38 @@ const Services = () => {
                 <h3>
                   <Link href="/service-details">AI and Machine Learning</Link>
                 </h3>
-                <p>
-                  Implement AI-driven platforms that adapt to individual student needs, offering tailored content and assessments. 
-                </p>
+                <p>Utilize AI-powered analytics for predictive maintenance, production optimization, and data-driven insights to enhance decision-making  </p>
                 {/* <Link href="/service-details" className="read-btn">
                   Read More
                 </Link> */}
               </div>
             </div>
-
             <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="single-services-card">
-                <div className="image-icon bg-six">
-                  <img src="/images/home-six/services/icon6.png" alt="icon" />
+                <div className="image-icon bg-three">
+                  <img src="/images/home-six/services/icon3.png" alt="icon" />
                 </div>
                 <h3>
-                  <Link href="/service-details">Cybersecurity Solutions</Link>
+                  <Link href="/service-details">Software Testing</Link>
                 </h3>
-                <p>
-                  Safeguard sensitive student and faculty data from cyber threats, ensuring data privacy and compliance with regulations. 
+                <p>Ensure the reliability and security of software applications used in semiconductor manufacturing to ensure smooth processes.
                 </p>
                 {/* <Link href="/service-details" className="read-btn">
                   Read More
                 </Link> */}
               </div>
             </div>
-
-            {/* <div className="col-lg-12 col-md-12">
-              <div className="ai-all-services-btn">
-                <Link href="/services" className="btn btn-primary">
-                  View All Services
-                </Link>
+            {/* <div className="col-lg-4 col-md-6 col-sm-6">
+              <div className="single-services-card">
+                <div className="image-icon bg-three">
+                  <img src="/images/home-six/services/icon3.png" alt="icon" />
+                </div>
+                <h3>
+                  <Link href="/service-details">Software Development</Link>
+                </h3>
+                <p>Streamline production workflows by developing customized software solutions for content management, scheduling, collaboration, and distribution.
+                </p>
+               
               </div>
             </div> */}
           </div>
