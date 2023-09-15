@@ -47,7 +47,7 @@ const ComputerVisionAI = () => {
                       <div className="">
                         <h4>Infrastructure Modernisation</h4>
                       </div>
-                      <p>Elevate your organization's capabilities with SA Technologies' AI-driven Infrastructure Modernization services. We transform your infrastructure into an agile, automated powerhouse, supporting specialized workloads and boosting operational efficiency. Trust SA Technologies to help you reimagine your infrastructure strategy and unlock the full potential of your enterprise.</p>
+                      <p>SAT's AI-driven Infrastructure Modernization services transform businesses into agile, automated entities, enhancing workloads and operational efficiency. Through intelligent automation, SAT elevates performance and security, while also reducing costs. These services enable businesses to redefine their infrastructure strategy, unlocking superior enterprise potential, and fostering a scalable infrastructure to meet dynamic needs.</p>
                     </div>
                   </div>
 
@@ -67,7 +67,7 @@ const ComputerVisionAI = () => {
                       <div className="">
                         <h4>Google Workspace</h4>
                       </div>
-                      <p>Discover the power of Google Workspace, a holistic platform for seamless communication and productivity. As Google partners, we're thrilled to introduce Duet AI, enhancing business operations and collaboration with AI-driven productivity tools. Unlock the benefits of enhanced efficiency, real-time collaboration, and streamlined workflows with this innovative addition.</p>
+                      <p>Discover the power of Google Workspace, a holistic platform for seamless communication and productivity. With the latest update, you can now leverage Duet AI, an innovative addition by Google, enhancing business operations and collaboration with AI-driven productivity tools. Unlock the benefits of enhanced efficiency, real-time collaboration, and streamlined workflows with this innovative addition.</p>
                     </div>
                   </div>
                   <div className="col-lg-6 col-sm-6">
@@ -76,7 +76,7 @@ const ComputerVisionAI = () => {
                       <div className="">
                         <h4>Application Modernisation</h4>
                       </div>
-                      <p>Enhance business agility and user experience through our comprehensive application modernization solutions. We offer a variety of modernization approaches tailored to your IT and business objectives, both immediate and long-term. Our deep automation and machine learning solutions enable transformation at scale, ensuring improved performance, security, and currency for your applications.</p>
+                      <p>Now, unlock superior business agility with our unique application modernization solutions. Dive into strategies tailored to your IT and business goals. With our industry-leading automation and machine learning, We ensure unparalleled performance, security, and up-to-date features for your applications, setting us apart in a way others simply can't match.</p>
                     </div>
                   </div>
                 </div>
