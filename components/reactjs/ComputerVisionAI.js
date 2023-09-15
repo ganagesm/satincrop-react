@@ -47,9 +47,7 @@ const ComputerVisionAI = () => {
                       <div className="">
                         <h4>Infrastructure Modernisation</h4>
                       </div>
-                      <p>As the tech landscape rapidly evolves, Infrastructure Modernisation is imperative. 
-                        It's about upgrading legacy systems to agile, scalable, future-centric platforms, 
-                        setting businesses at the forefront of their industries.</p>
+                      <p>Elevate your organization's capabilities with SA Technologies' AI-driven Infrastructure Modernization services. We transform your infrastructure into an agile, automated powerhouse, supporting specialized workloads and boosting operational efficiency. Trust SA Technologies to help you reimagine your infrastructure strategy and unlock the full potential of your enterprise.</p>
                     </div>
                   </div>
 
@@ -69,8 +67,7 @@ const ComputerVisionAI = () => {
                       <div className="">
                         <h4>Google Workspace</h4>
                       </div>
-                      <p>More than just a toolset, Google Workspace offers a holistic platform for communication 
-                        and productivity, streamlining tasks from document creation to real-time collaboration.</p>
+                      <p>Discover the power of Google Workspace, a holistic platform for seamless communication and productivity. As Google partners, we're thrilled to introduce Duet AI, enhancing business operations and collaboration with AI-driven productivity tools. Unlock the benefits of enhanced efficiency, real-time collaboration, and streamlined workflows with this innovative addition.</p>
                     </div>
                   </div>
                   <div className="col-lg-6 col-sm-6">
