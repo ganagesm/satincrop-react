@@ -11,7 +11,7 @@ const TopNavbar = () => {
           <div className="row align-items-center justify-content-center">
             <div className="col-lg-6 col-md-6">
               <div className="topbar-content">
-                <span>Welcome to SA Technologies. Need Help? <a href="/contact-us/">Contact Us</a> </span>
+                <span>Welcome to SA Technologies Inc. Need Help? <a href="/contact-us/">Contact Us</a> </span>
               </div>
             </div>
             <div className="col-lg-6 col-md-6">
