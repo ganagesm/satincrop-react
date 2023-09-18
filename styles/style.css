@@ -3065,6 +3065,12 @@ Page Title Area CSS
 .page-title-area.item-bg11 {
     background-image: url(/images/technology-banner/payroll.png);
 }
+.page-title-area.item-bg12 {
+    background-image: url(/images/technology-banner/contact.png);
+}
+.page-title-area.item-bg13 {
+    background-image: url(/images/MendixBanner.jpg);
+}
 
 .page-title-content h2 {
     margin-bottom: 0;

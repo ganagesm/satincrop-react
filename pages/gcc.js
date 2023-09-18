@@ -243,6 +243,42 @@ const Index = () => {
             <SwiperSlide>
                 <div className="single-blog-post">
                   <div className="entry-thumbnail">
+                    <Link href="/The-Rise-of-GCC-in-India-Harnessing-the-Talent-rich-Landscape-for-Unparalleled-Benefits/">
+                      <img style={{width: "419px",height: "279px",}} src="/images/blog/amita-blog.png" alt="image" />
+                    </Link>
+                  </div>
+
+                  <div className="entry-post-content">
+                    <div className="entry-meta">
+                      <ul>
+                        <li>
+                          <Link href="#">Amita Bhosale</Link>
+                        </li>
+                        <li>August 23, 2023</li>
+                      </ul>
+                    </div>
+
+                    <h3>
+                      <Link href="/blog/The-Rise-of-GCC-in-India-Harnessing-the-Talent-rich-Landscape-for-Unparalleled-Benefits/">
+                        The Rise of GCC in India: Harnessing the Talent-rich Landscape for Unparalleled Benefits
+
+                      </Link>
+                    </h3>
+
+                    <p>
+                    In the digital age, Global Capability Centers (GCCs) are ...
+                    </p>
+
+                    <Link href="/blog/The-Rise-of-GCC-in-India-Harnessing-the-Talent-rich-Landscape-for-Unparalleled-Benefits/" className="learn-more-btn">
+                      Read More <i className="flaticon-add"></i>
+                    </Link>
+                  </div>
+                </div>
+              </SwiperSlide>
+
+              <SwiperSlide>
+                <div className="single-blog-post">
+                  <div className="entry-thumbnail">
                     <Link href="/how-gccs-can-attain-outstanding-results/">
                       <img style={{width: "419px",height: "279px",}} src="/images/blog/abhay_article.png" alt="image" />
                     </Link>
