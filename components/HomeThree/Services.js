@@ -28,11 +28,11 @@ export default class Services extends Component {
         <div className="services-section bg-f2f6f9 ptb-110">
           <div className="container">
             <div className="section-title">
-              <h2>We Offer Professional Solutions</h2>
-              <p>
+              <h2>SAT offerings </h2>
+              {/* <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
+              </p> */}
             </div>
 
             <div className="tab services-tab-list">
@@ -44,20 +44,20 @@ export default class Services extends Component {
                       onClick={(e) => this.openTabSection(e, "tab1")}
                     >
                       <i className="flaticon-income"></i>
-                      <span>Data Analysis</span>
+                      <span>Consulting</span>
                     </li>
 
                     <li onClick={(e) => this.openTabSection(e, "tab2")}>
                       <i className="flaticon-automatic"></i>
-                      <span>Automation Optimization</span>
+                      <span>Migration</span>
                     </li>
 
                     <li onClick={(e) => this.openTabSection(e, "tab3")}>
                       <i className="flaticon-locked"></i>
-                      <span>Security & Surveillance</span>
+                      <span>Manage </span>
                     </li>
 
-                    <li onClick={(e) => this.openTabSection(e, "tab4")}>
+                    {/* <li onClick={(e) => this.openTabSection(e, "tab4")}>
                       <i className="flaticon-molecular"></i>
                       <span>Health & Manufacturing</span>
                     </li>
@@ -70,78 +70,86 @@ export default class Services extends Component {
                     <li onClick={(e) => this.openTabSection(e, "tab6")}>
                       <i className="flaticon-ceo"></i>
                       <span>IT Professional</span>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
 
                 <div className="col-lg-8 col-md-8">
                   <div className="tab-content">
                     <div id="tab1" className="tabs-item">
-                      <div className="image">
+                      {/* <div className="image">
                         <img src="/images/services-img1.png" alt="image" />
-                      </div>
+                      </div> */}
 
                       <div className="content">
                         <p>
-                          There are many variations of passages of Lorem Ipsum
-                          available, but the majority have suffered alteration
-                          in some form, by injected humour, or randomized words
-                          which don't look even slightly believable. If you are
-                          going to use a passage.
+                          Are you looking to harness the power of cloud computing to drive your business forward? Look no 
+                          further! Our expert consulting services are here to guide you every step of the way. At SAT company,
+                           we understand that every business is unique. That's why we offer personalized consulting 
+                           services to assess your specific needs and craft a cloud strategy that aligns perfectly with your goals.
                         </p>
+                        <p>Our team of experienced consultants will work closely with you to gain a deep understanding of your
+                           organization's objectives, challenges, and opportunities. We'll conduct a comprehensive analysis 
+                           to identify the best cloud solutions that can enhance your efficiency, scalability, and security.</p>
 
-                        <Link
+                        {/* <Link
                           href="/service-details"
-                          className="btn btn-primary"
-                        >
+                          className="btn btn-primary">
                           Read More
-                        </Link>
+                        </Link> */}
                       </div>
                     </div>
 
                     <div id="tab2" className="tabs-item">
-                      <div className="image">
+                      {/* <div className="image">
                         <img src="/images/services-img1.png" alt="image" />
-                      </div>
+                      </div> */}
 
                       <div className="content">
-                        <p>
-                          There are many variations of passages of Lorem Ipsum
-                          available, but the majority have suffered alteration
-                          in some form, by injected humour, or randomized words
-                          which don't look even slightly believable. If you are
-                          going to use a passage.
+                        <p>Ready to make the move to Google Cloud? Our migration experts are here to ensure a smooth and secure 
+                          transition. Migrating your workloads to the cloud can be a complex endeavor, but with our guidance, you 
+                          can rest easy knowing that your data and applications are in capable hands.
+                        </p>
+                        <p>We take a meticulous approach to migration, meticulously planning and executing each step to minimize 
+                          downtime and disruptions. Our team will assess your existing infrastructure, design a migration plan 
+                          tailored to your needs, and ensure that your valuable assets are safeguarded throughout the process.
+                          With our assistance, you can make the leap to Google Cloud with confidence.
                         </p>
 
-                        <Link
+                        {/* <Link
                           href="/service-details"
-                          className="btn btn-primary"
-                        >
+                          className="btn btn-primary">
                           Read More
-                        </Link>
+                        </Link> */}
                       </div>
                     </div>
 
                     <div id="tab3" className="tabs-item">
-                      <div className="image">
+                      {/* <div className="image">
                         <img src="/images/services-img1.png" alt="image" />
-                      </div>
+                      </div> */}
 
                       <div className="content">
                         <p>
-                          There are many variations of passages of Lorem Ipsum
-                          available, but the majority have suffered alteration
-                          in some form, by injected humour, or randomized words
-                          which don't look even slightly believable. If you are
-                          going to use a passage.
+                          Managing your Google Cloud environment doesn't have to be a time-consuming and resource-intensive task. 
+                          Our managed services are designed to simplify the management of your cloud resources, allowing you to 
+                          concentrate on what you do best – running your core business operations.
                         </p>
+                        <p>Our dedicated team of cloud management experts will handle all aspects of your Google Cloud environment, 
+                          from monitoring and optimization to security and compliance. We proactively identify and address any 
+                          potential issues, ensuring that your cloud infrastructure remains efficient, cost-effective, and secure.
+                        </p>
+                        <p>Don't let the complexities of cloud computing hold you back. Partner with SAT company and unlock the
+                          full potential of Google Cloud for your business.
+                        </p>
+                        <p>Contact us today to discuss your cloud needs and take the first step toward a brighter, more efficient future.</p>
 
-                        <Link
+                        {/* <Link
                           href="/service-details"
                           className="btn btn-primary"
                         >
                           Read More
-                        </Link>
+                        </Link> */}
                       </div>
                     </div>
 
