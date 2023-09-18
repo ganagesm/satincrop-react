@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 import Link from "next/link";
+import HeaderTopBar from "./HeaderTopBar";
 
 const Navbar = () => {
   // Add active class
@@ -42,7 +43,9 @@ const Navbar = () => {
 
   return (
     <>
-      <div id="navbar" className="navbar-area">
+    <HeaderTopBar />
+      {/* <div id="navbar" className="navbar-area"> */}
+      <div id="navbar" className="navbar-area navbar-area-with-position-relative">
         <div className="main-nav">
           <div className="container">
             <nav className="navbar navbar-expand-md navbar-light">
