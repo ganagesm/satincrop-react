@@ -19,11 +19,11 @@ const TopNavbar = () => {
                 {/* <li>
                   PartnerContent
                   <i class="fa-solid fa-location-pin"></i> 2750 Quadra Street Victoria, Canada
-                </li> */}
+                </li>
                 <li>
                   <i class="fa-solid fa-phone"></i>
                   <a href="tel:+917823025808">+91 7823 02 5808</a>
-                </li>
+                </li> */}
                 <li>
                   <i class="fa-solid fa-envelope"></i>
                   <a href="mailto:sales@satincorp.com">sales@satincorp.com</a>
