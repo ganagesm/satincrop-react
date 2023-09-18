@@ -135,7 +135,7 @@ const Index = () => {
                 </div>
                 <Link href="/kanak/">
                   <h5 style={{marginTop: "15px",marginBottom:"0",}}>Kanak Sahoo</h5>
-                  <p>Head Marketing Manager</p>
+                  <p>Marketing Manager</p>
                 </Link>
               </div>
             </div>
