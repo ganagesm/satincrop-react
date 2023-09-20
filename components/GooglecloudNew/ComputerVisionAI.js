@@ -36,9 +36,11 @@ const ComputerVisionAI = () => {
                       <div className="">
                         <h4>Machine Learning and AI</h4>
                       </div>
-                      <p>Not just technological trends, Machine Learning and AI offer businesses 
-                        the power of predictive analytics and automation, heralding an era of insightful, 
-                        data-informed decision-making.</p>
+                      <p>Machine Learning and AI empower businesses with predictive analytics and advanced automation. Utilizing tools 
+                        like BigQuery ML, AutoML, and Cloud Machine Learning Engine, data processing becomes not only swift but also 
+                        highly automated. As businesses increasingly adopt data-driven strategies, Google Cloud's robust infrastructure 
+                        and expert support further enhance the vast potential of AI and ML, driving unparalleled efficiency 
+                        and innovation.</p>
                     </div>
                   </div>
 
