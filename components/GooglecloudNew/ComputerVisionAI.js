@@ -33,7 +33,7 @@ const ComputerVisionAI = () => {
                 <div className="row">
                   <div className="col-lg-6 col-sm-6">
                     <div className="vision-ai-inner-card">
-                      <div className="">
+                      <div className=""> 
                         <h4>Machine Learning and AI</h4>
                       </div>
                       <p>Machine Learning and AI empower businesses with predictive analytics and advanced automation. Utilizing tools 
