@@ -13,10 +13,11 @@ import Head from 'next/head';
 const Index = () => {
   return (
     <>
+      
       <Head>
-        <title>Google Cloud Services for Business | SA Technologies Inc.  </title>
-        <meta property="og:title" content="Google Cloud Services for Business | SA Technologies Inc. " key="title" />
-        <meta name="description" content="Unlock innovation with Google Cloud Services. Scale, automate, and harness data insights for digital transformation and enhanced efficiency." key="description" />
+        <title>Achieve Rapid App Development with SA Technologies Mendix Expertise</title>
+        <meta property="og:title" content="Experience accelerated app development | SA Technologies Inc. " key="title" />
+        <meta name="description" content="Experience accelerated app development with SA Technologies Mendix services. Empower your business with innovative, low-code solutions." key="description" />
       </Head>
 
       <Navbar />
@@ -24,7 +25,7 @@ const Index = () => {
         pageTitle="Dive Deep with Mendix's Low-Code Revolution"
         homePageUrl="/"
         homePageText="Technology"
-        activePageText="Google"
+        activePageText="Mendix"
         bgImgClass="item-bg13"
       />
 

@@ -32,15 +32,17 @@ const Index = () => {
       <TechDetailsContent />
       <ComputerVisionAI />
 
-      <Services />
-
-        <div className="col-lg-12 col-md-12">
+      <div className="col-lg-12 col-md-12">
           <div className="ai-all-services-btn ptb-50">
             <Link href="#contact" className="btn btn-primary">
               Contact Us
             </Link>
           </div>
         </div>
+
+      <Services />
+
+       
 
        
 
