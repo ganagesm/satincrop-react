@@ -28,7 +28,7 @@ export default class Services extends Component {
         <div className="services-section bg-f2f6f9 ptb-110">
           <div className="container">
             <div className="section-title">
-              <h2>SAT offerings </h2>
+              <h2>SAT's offerings </h2>
               {/* <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.

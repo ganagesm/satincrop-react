@@ -4,7 +4,7 @@ import Link from "next/link";
 const ComputerVisionAI = () => {
   return (
     <>
-      <div className="computer-vision-ai-area ptb-100">
+      <div className="computer-vision-ai-area pt-100">
         <div className="container">
           <div className="row align-items-center">
               {/* <div className="col-lg-6 col-md-12">

@@ -3,7 +3,7 @@ import React from "react";
 const ServiceDetailsContent = () => {
   return (
     <>
-      <div className="services-details-area ptb-110">
+      <div className="services-details-area bg-f2f6f9 ptb-110">
         <div className="container">
           <div className="services-details-overview">
             <div className="services-details-desc mb-30">
