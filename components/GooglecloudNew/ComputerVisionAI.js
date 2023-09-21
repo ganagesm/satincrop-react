@@ -50,8 +50,7 @@ const ComputerVisionAI = () => {
                       <div className="">
                         <h4>Google For Education</h4>
                       </div>
-                      <p>Google for Education transforms learning by infusing classrooms with digital tools,
-                        amplifying both engagement and collaboration for students and educators alike.</p>
+                      <p>Google for Education provides robust analytics, enabling educators to monitor student progress and adjust teaching methods promptly. Its cloud-based infrastructure guarantees secure access to learning materials anytime, merging traditional and digital education. By utilizing Google's resources, educators can tailor instruction, enhancing student engagement and collaboration. Partner with us to shape the future of education.</p>
                     </div>
                   </div>
 

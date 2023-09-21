@@ -1,16 +1,16 @@
 import Navbar from "../components/Live/Navbar";
 import Footer from "../components/Live/Footer";
-import Services from "../components/HomeThree/Services";
-import ComputerVisionAI from "../components/GooglecloudNew/ComputerVisionAI";
-import PageBanner from "../components/GooglecloudNew/PageBanner";
-import TechDetailsContent from "../components/GooglecloudNew/TechDetailsContent";
+import Services from "../components/reactjs/Services";
+import ComputerVisionAI from "../components/reactjs/ComputerVisionAI";
+import PageBanner from "../components/reactjs/PageBanner";
+import TechDetailsContent from "../components/reactjs/TechDetailsContent";
 import MainServices from "../components/Live/MainServices";
 import BlogPostSlider from "../components/Live/BlogPostSlider";
 import ContactFormContent from "../components/Common/ContactFormContent";
 import Link from "next/link";
-import Head from "next/head";
+import Head from 'next/head';
 
-const GoogleCloudNew = () => {
+const Index = () => {
   return (
     <>
       <Head>
@@ -31,22 +31,19 @@ const GoogleCloudNew = () => {
 
       <TechDetailsContent />
       <ComputerVisionAI />
-
-      <div className="col-lg-12 col-md-12">
-        <div className="ai-all-services-btn ptb-50">
-          <Link href="#contact" className="btn btn-primary">
-            Contact Us
-          </Link>
+        <div className="col-lg-12 col-md-12">
+          <div className="ai-all-services-btn ptb-50">
+            <Link href="#contact" className="btn btn-primary">
+              Contact Us
+            </Link>
+          </div>
         </div>
-      </div>
-
-      <Services />
-
       <MainServices />
       <BlogPostSlider />
-      <ContactFormContent />
+
+   <ContactFormContent />
       <Footer />
     </>
   );
 };
-export default GoogleCloudNew;
+export default Index;
