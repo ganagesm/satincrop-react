@@ -4,16 +4,25 @@ import SwiftlyPageBanner from "../components/CaseStudies/SwiftlyPageBanner";
 import BlogDetailsContent from "../components/CaseStudies/BlogDetailsContent";
 import Footer from "../components/Live/Footer";
 import Link from "next/link";
+import Head from 'next/head';
 
 const BlogDetails = () => {
   return (
     <>
+
+      <Head>
+        <title>SA Technologies | Elevating Fin-tech Software Quality & Compliance</title>
+        <meta property="og:title" content="SA Technologies | Elevating Fin-tech Software Quality & Compliance" key="title" />
+        <meta name="description" content="Discover how SAT's QA experts partnered with a leading Fin-tech firm to deliver high-quality, compliant software within tight timelines." key="description" />
+      </Head>
+
+    
+
+
       <Navbar />
 
       <SwiftlyPageBanner
-        pageTitle="A US-based Water Meter Manufacturing Giant Achieved a 60% Reduction in Capex through End-to-End System Testing and Test Automation
-
-        "
+        pageTitle="SA Technologies Partner for a world-class Fin-tech firm"
         homePageUrl="/"
         homePageText="Home"
         activePageText="Case Studies"
