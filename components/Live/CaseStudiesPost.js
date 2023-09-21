@@ -56,7 +56,7 @@ const BlogPostsSection = () => {
             >
               <div className="single-blog-post">
                 <div className="entry-thumbnail">
-                  <Link href="case-study-on-sa-technologies-partner-for-a-world-class-fin-tech-firm/">
+                  <Link href="sa-technologies-partner-for-us-based-water-meter-manufacturing/">
                     <img src="/images/blog/blog2.jpg" alt="image" />
                   </Link>
                 </div>
@@ -69,7 +69,7 @@ const BlogPostsSection = () => {
                   </div>
 
                   <h3>
-                    <Link href="case-study-on-sa-technologies-partner-for-a-world-class-fin-tech-firm/">
+                    <Link href="sa-technologies-partner-for-us-based-water-meter-manufacturing/">
                     A US-based Water Meter Manufacturing Giant Achieved a 60%
 
                     </Link>

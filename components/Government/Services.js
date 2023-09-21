@@ -50,7 +50,7 @@ const Services = () => {
             <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="single-services-card">
                 <div className="image-icon bg-three">
-                  <img src="/images/home-six/services/icon3.png" alt="icon" />
+                  <img src="/images/home-six/services/InfrastructureManagement.png" alt="icon" />
                 </div>
                 <h3>
                   <Link href="/service-details">Infrastructure Management</Link>

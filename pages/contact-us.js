@@ -15,7 +15,7 @@ const Contact = () => {
         homePageUrl="/"
         homePageText="Home"
         activePageText="Contact"
-        bgImgClass="item-bg3"
+        bgImgClass="item-bg12"
       />
 
       <ContactFormContent />

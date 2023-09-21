@@ -4,14 +4,23 @@ import SwiftlyPageBanner from "../components/CaseStudies/SwiftlyPageBanner";
 import BlogDetailsContent from "../components/CaseStudies/BlogDetailsContent";
 import Footer from "../components/Live/Footer";
 import Link from "next/link";
+import Head from 'next/head';
 
 const BlogDetails = () => {
   return (
     <>
+
+      <Head>
+        <title>SA Technologies | Automated Testing: 60% Capex Reduction for Water Meter Manufacturer</title>
+        <meta property="og:title" content="SA Technologies | Elevating Fin-tech Software Quality & Compliance" key="title" />
+        <meta name="description" content="Discover how SA Technologies helped a US water meter manufacturer reduce Capex by 60% through automated testing, improving product quality and market competitiveness." key="description" />
+      </Head>
+
+
       <Navbar />
 
       <SwiftlyPageBanner
-        pageTitle="SA Technologies Partner for a world-class Fin-tech firm
+        pageTitle="A US-based Water Meter Manufacturing Giant Achieved a 60% Reduction in Capex through End-to-End System Testing and Test Automation
         "
         homePageUrl="/"
         homePageText="Home"
@@ -47,7 +56,10 @@ const BlogDetails = () => {
 
                   <div class="pl-lg-4">
 
-                    <h2 class="wp-block-heading"><span class="font-weight-semi-bold">A US-based Water Meter Manufacturing Giant Achieved a 60% Reduction in Capex through End-to-End System Testing and Test Automation</span></h2>
+                    {/* <h2 class="wp-block-heading">
+                      <span class="font-weight-semi-bold">
+                        A US-based Water Meter Manufacturing Giant Achieved a 60% Reduction in Capex through End-to-End S
+                        ystem Testing and Test Automation</span></h2> */}
 
 
 

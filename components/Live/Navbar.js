@@ -305,6 +305,15 @@ const Navbar = () => {
                           Service Now
                         </Link>
                       </li>
+                      <li className="nav-item">
+                        <Link
+                          href="/mendix"
+                          className={`nav-link ${currentPath == "/mendix" && "active"
+                            }`}
+                        >
+                          Mendix
+                        </Link>
+                      </li>
                     </ul>
                   </li>
                   <li className="nav-item">

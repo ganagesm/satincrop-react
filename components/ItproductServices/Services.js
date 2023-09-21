@@ -50,7 +50,7 @@ const Services = () => {
             <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="single-services-card">
                 <div className="image-icon">
-                  <img src="/images/home-six/services/icon.png" alt="icon" />
+                  <img src="/images/home-six/services/RPA.png" alt="icon" />
                 </div>
                 <h3>
                   <Link href="/service-details">Robotic Process Automation (RPA)</Link>
@@ -64,8 +64,8 @@ const Services = () => {
             </div>
             <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="single-services-card">
-                <div className="image-icon bg-three">
-                  <img src="/images/home-six/services/icon3.png" alt="icon" />
+                <div className="image-icon bg-six">
+                  <img src="/images/home-six/services/softwaretest.png" alt="icon" />
                 </div>
                 <h3>
                   <Link href="/service-details">Software Testing and Quality Assurance</Link>
@@ -79,7 +79,7 @@ const Services = () => {
             <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="single-services-card">
                 <div className="image-icon bg-three">
-                  <img src="/images/home-six/services/icon3.png" alt="icon" />
+                  <img src="/images/home-six/services/iot.png" alt="icon" />
                 </div>
                 <h3>
                   <Link href="/service-details">IoT Integration</Link>

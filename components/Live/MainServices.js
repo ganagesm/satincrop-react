@@ -4,7 +4,7 @@ import Link from "next/link";
 const MainServices = () => {
   return (
     <>
-      <div className="main-services-area">
+      <div className="main-services-area" style={{marginTop:"40px",}}>
         <div className="container">
           <div className="section-title">
             <h2>Industry</h2>
