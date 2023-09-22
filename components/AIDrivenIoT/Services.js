@@ -15,7 +15,7 @@ const Services = () => {
 
           <div className="row">
             <div className="col-lg-4 col-sm-6">
-              <div className="single-services-box" style={{ height: "220px" }}>
+              <div className="single-services-box">
                 <h2>IoT Strategy and Consulting
                 </h2>
                 <p>We guide your business through the complex IoT landscape, providing strategic insights and customized solutions to align with your goals.
@@ -25,7 +25,7 @@ const Services = () => {
             </div>
 
             <div className="col-lg-4 col-sm-6">
-              <div className="single-services-box" style={{ height: "220px" }}>
+              <div className="single-services-box">
                 <h2>IoT Device Development
                 </h2>
                 <p>Our experts develop intelligent IoT devices tailored to your specific needs, ensuring seamless integration and functionality.
@@ -33,7 +33,7 @@ const Services = () => {
               </div>
             </div>
             <div className="col-lg-4 col-sm-6">
-              <div className="single-services-box" style={{ height: "220px" }}>
+              <div className="single-services-box">
                 <h2>IoT Platform Integration
 
                 </h2>
@@ -47,7 +47,7 @@ const Services = () => {
 
           <div className="row">
             <div className="col-lg-4 col-sm-6">
-              <div className="single-services-box" style={{ height: "260px" }}>
+              <div className="single-services-box">
                 <h2>IoT Security Solutions:
 
 
@@ -63,7 +63,7 @@ const Services = () => {
             </div>
 
             <div className="col-lg-4 col-sm-6">
-              <div className="single-services-box" style={{ height: "260px" }}>
+              <div className="single-services-box">
                 <h2>IoT Maintenance and Support
 
 
@@ -79,7 +79,7 @@ const Services = () => {
               </div>
             </div>
             <div className="col-lg-4 col-sm-6">
-              <div className="single-services-box" style={{ height: "260px" }}>
+              <div className="single-services-box">
                 <h2>IoT Maintenance and Support
 
 

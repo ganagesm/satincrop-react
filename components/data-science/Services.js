@@ -16,7 +16,7 @@ const Services = () => {
 
           <div className="row">
             <div className="col-lg-6 col-sm-6">
-              <div className="single-services-box" style={{ height: "220px" }}>
+              <div className="single-services-box">
                 <h2>Data Strategy and Consulting
                 </h2>
                 <p>We partner with you to formulate a clear data strategy, that aligns with your business goals and maximizes the value of your data assets.
@@ -27,7 +27,17 @@ const Services = () => {
             </div>
 
             <div className="col-lg-6 col-sm-6">
-              <div className="single-services-box" style={{ height: "220px" }}>
+              <div className="single-services-box">
+                <h2>Big Data Processing & Analysis
+
+                </h2>
+                <p>Harness the power of big data with our scalable processing and analysis solutions, making sense of vast data sets and deriving actionable insights.
+                </p>
+              </div>
+            </div>
+
+            <div className="col-lg-6 col-sm-6">
+              <div className="single-services-box">
                 <h2>BI & Visualization
 
                 </h2>
@@ -36,17 +46,9 @@ const Services = () => {
                 </p>
               </div>
             </div>
+            
             <div className="col-lg-6 col-sm-6">
-              <div className="single-services-box" style={{ height: "220px" }}>
-                <h2>Big Data Processing & Analysis
-
-                </h2>
-                <p>Harness the power of big data with our scalable processing and analysis solutions, making sense of vast data sets and deriving actionable insights.
-                </p>
-              </div>
-            </div>
-            <div className="col-lg-6 col-sm-6">
-              <div className="single-services-box" style={{ height: "220px" }}>
+              <div className="single-services-box">
                 <h2>Marketing Analytics
 
                 </h2>
