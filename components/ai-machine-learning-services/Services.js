@@ -39,7 +39,7 @@ const Services = () => {
 
           <div className="row">
             <div className="col-lg-6 col-sm-6">
-              <div className="single-services-box" style={{ height: "200px" }}>
+              <div className="single-services-box">
                 <h2>Natural Learning Processing
 
 
@@ -52,7 +52,7 @@ const Services = () => {
             </div>
 
             <div className="col-lg-6 col-sm-6">
-              <div className="single-services-box" style={{ height: "200px" }}>
+              <div className="single-services-box">
                 <h2>Chatbot Development
 
 
