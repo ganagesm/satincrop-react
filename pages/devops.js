@@ -16,9 +16,9 @@ const Index = () => {
   return (
     <>
     <Head>
-        <title>AI-Enhanced DevOps Solutions | SA Technologies Inc.  </title>
-        <meta property="og:title" content="AI-Enhanced DevOps Solutions | SA Technologies Inc. " key="title" />
-        <meta name="description" content="Elevate organizational agility with AI-infused DevOps solutions from SA Technologies. Achieving rapid software output, streamlined operations, and accelerated innovation. Transform your future with advanced DevOps strategies " key="description" />
+        <title>Drive Efficiency with SA Technologies DevOps Services   </title>
+        <meta property="og:title" content="Drive Efficiency with SA Technologies DevOps Services  " key="title" />
+        <meta name="description" content="Elevate your organizational performance with AI-driven DevOps solutions from SA Technologies. Improve collaboration, reduce costs, and accelerate digital transformation. " key="description" />
       </Head>
 
       <Navbar />

@@ -16,9 +16,9 @@ const ServiceDetails = () => {
   return (
     <>
     <Head>
-        <title>Hire-Train-Deploy Model for Digital Transformation | SA Technologies Inc. </title>
-        <meta property="og:title" content="Hire-Train-Deploy Model for Digital Transformation | SA Technologies Inc." key="title" />
-        <meta name="description" content="Experience the cutting-edge Hire-Train-Deploy model, streamlining recruitment, skills training, and seamless integration into client operations, yielding cost and time savings. " key="description" />
+        <title>End-to-End Workforce Solutions with Hire Train Deploy | SA Technologies  </title>
+        <meta property="og:title" content="End-to-End Workforce Solutions with Hire Train Deploy | SA Technologies " key="title" />
+        <meta name="description" content="Embrace the future with SA Technologies HTD model. Transform your workforce with our next-gen staffing approach." key="description" />
       </Head>
 
       <Navbar />

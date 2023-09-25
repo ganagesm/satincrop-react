@@ -20,9 +20,9 @@ const Index = () => {
   return (
     <>
       <Head>
-        <title>SA Technologies &#8211; IT Consulting Company | Technology Partners | SA Technologies</title>
-        <meta property="og:title" content="SA Technologies &#8211; IT Consulting Company | Technology Partners | SA Technologies" key="title" />
-        <meta name="description" content="" key="description" />
+        <title>SA Technologies | Leading IT Consulting: AI Solutions, Digital Engineering, Enterprise Modernization</title>
+        <meta property="og:title" content="SA Technologies | Leading IT Consulting: AI Solutions, Digital Engineering, Enterprise Modernization" key="title" />
+        <meta name="description" content="SA Technologies - Your Trusted IT Consulting and Offshore Partner with 20+ years of experience, serving 500+ clients. Elevate your business with AI Solutions, Digital Engineering, and Enterprise Modernization Services." key="" />
       </Head>
 
       <Navbar />

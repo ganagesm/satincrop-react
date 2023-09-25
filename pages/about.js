@@ -12,9 +12,9 @@ const About = () => {
   return (
     <>
       <Head>
-        <title>About &#8211; SA Technologies   </title>
-        <meta property="og:title" content="About &#8211; SA Technologies  " key="title" />
-        <meta name="description" content="Achieve Sarbanes-Oxley (SOX) compliance with SA Technologies. Our internal audit solutions simplify the process, reduce costs, and improve efficiency for your organization." key="description" />
+        <title>Discover SA Technologies: Your Trusted Technology Partner   </title>
+        <meta property="og:title" content="Discover SA Technologies: Your Trusted Technology Partner  " key="title" />
+        <meta name="description" content="Learn about SA Technologies mission, expertise, and commitment to innovation. Join us in shaping the future of technology." key="description" />
       </Head>
 
       <Navbar />

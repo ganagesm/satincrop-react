@@ -20,9 +20,9 @@ const Index = () => {
     <>
 
       <Head>
-        <title>AI-Driven Mobile App Development | SA Technologies Inc. </title>
-        <meta property="og:title" content="AI-Driven Mobile App Development | SA Technologies Inc.   " key="title" />
-        <meta name="description" content="Revolutionize your digital solutions with AI-powered mobile app development from SA Technologies. We excel in native, cross-platform, and hybrid app development." key="description" />
+        <title>AI-Enhanced Mobile App Development: The Key to Customer Satisfaction </title>
+        <meta property="og:title" content="AI-Enhanced Mobile App Development: The Key to Customer Satisfaction   " key="title" />
+        <meta name="description" content="SA Technologies is a leading provider of AI-powered mobile app development services. We can help you to develop and implement AI-powered mobile app solutions that will help you to achieve your business goals and gain a competitive edge in the digital age." key="description" />
       </Head>
 
       <Navbar />
