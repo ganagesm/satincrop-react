@@ -14,6 +14,11 @@ const Index = () => {
   return (
     <>
       
+      <Head>
+        <title>Trishita Bhattacharya | Head of Client Engagement APAC | SA Technologies    </title>
+        <meta property="og:title" content="Trishita Bhattacharya | Head of Client Engagement APAC | SA Technologies   " key="title" />
+        <meta name="description" content="Meet Trishita Bhattacharya, Head of Client Engagement for APAC at SA Technologies, with 8+ years of staffing expertise in enhancing client engagement and crafting personalized solutions." key="description" />
+      </Head>
 
       <Navbar />
       <HeroBanner />

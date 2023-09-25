@@ -17,9 +17,9 @@ const ServiceDetails = () => {
   return (
     <>
       <Head>
-        <title>RPO Services | Talent Acquisition Solutions | SA Technologies   </title>
-        <meta property="og:title" content="RPO Services | Talent Acquisition Solutions | SA Technologies  " key="title" />
-        <meta name="description" content="Discover SA Technologies' comprehensive RPO services, from End-to-End RPO to Project RPO. Elevate your talent acquisition with cost-effective, technology-driven solutions. " key="description" />
+        <title>Enhance Hiring with RPO Services | SA Technologies   </title>
+        <meta property="og:title" content="Enhance Hiring with RPO Services | SA Technologies  " key="title" />
+        <meta name="description" content="Streamline your recruitment processes with SA Technologies RPO services. Acquire top talent more efficiently." key="description" />
       </Head>
 
       <Navbar />

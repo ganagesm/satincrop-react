@@ -17,9 +17,9 @@ const Index = () => {
     <>
 
       <Head>
-        <title>Microsoft Cloud Transformation Services | SA Technologies Inc. </title>
-        <meta property="og:title" content="Microsoft Cloud Transformation Services | SA Technologies Inc." key="title" />
-        <meta name="description" content="Unlock business growth with Microsoft Cloud Transformation. Migrate to Azure & Microsoft 365 for scalability, innovation, and enhanced collaboration." key="description" />
+        <title>Empower Business with Microsoft D365 Solutions by SA Technologies  </title>
+        <meta property="og:title" content="Empower Business with Microsoft D365 Solutions by SA Technologies " key="title" />
+        <meta name="description" content="SA Technologies offers Microsoft solutions for enhanced productivity and innovation. Unleash the potential of Microsoft technologies." key="description" />
       </Head>
 
       <Navbar />

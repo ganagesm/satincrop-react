@@ -13,7 +13,11 @@ import { Autoplay } from "swiper";
 const Index = () => {
   return (
     <>
-      
+      <Head>
+        <title>Jitendra Khairnar | Head of Workspace and Infrastructure | SA Technologies    </title>
+        <meta property="og:title" content="Jitendra Khairnar | Head of Workspace and Infrastructure | SA Technologies   " key="title" />
+        <meta name="description" content="Meet Jitendra Khairnar, Head of Workspace and Infrastructure at SA Technologies, with 10+ years of experience in optimizing workspace for global workforces. A passionate football player." key="description" />
+      </Head>
 
       <Navbar />
       <HeroBanner />

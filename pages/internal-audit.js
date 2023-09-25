@@ -18,9 +18,9 @@ const Index = () => {
     <>
 
       <Head>
-        <title>SOX Compliance Solutions | SA Technologies Inc.   </title>
-        <meta property="og:title" content="SOX Compliance Solutions | SA Technologies Inc.  " key="title" />
-        <meta name="description" content="Achieve Sarbanes-Oxley (SOX) compliance with SA Technologies. Our internal audit solutions simplify the process, reduce costs, and improve efficiency for your organization." key="description" />
+        <title>Strengthen Business Controls with Internal Audit Services | SA Technologies   </title>
+        <meta property="og:title" content="Strengthen Business Controls with Internal Audit Services | SA Technologies  " key="title" />
+        <meta name="description" content="Ensure governance and compliance with SA Technologies internal audit services. Safeguard your business." key="description" />
       </Head>
 
       <Navbar />

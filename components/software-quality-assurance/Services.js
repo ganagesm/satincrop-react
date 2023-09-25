@@ -19,7 +19,7 @@ const Services = () => {
 
         <div className="row">
           <div className="col-lg-4 col-sm-6">
-            <div className="single-services-box" style={{ height: "200px" }}>
+            <div className="single-services-box">
               <h2>Functional Testing
 
 
@@ -31,9 +31,15 @@ const Services = () => {
               </p>
             </div>
           </div>
-
           <div className="col-lg-4 col-sm-6">
-            <div className="single-services-box" style={{ height: "200px" }}>
+            <div className="single-services-box">
+              <h2>Security Testing</h2>
+              <p>SA Technologies offers comprehensive security testing to safeguard your software against potential threats, vulnerabilities, and data breaches.
+              </p>
+            </div>
+          </div>
+          <div className="col-lg-4 col-sm-6">
+            <div className="single-services-box">
               <h2>Performance Testing
 
               </h2>
@@ -41,18 +47,12 @@ const Services = () => {
               </p>
             </div>
           </div>
-          <div className="col-lg-4 col-sm-6">
-            <div className="single-services-box" style={{ height: "200px" }}>
-              <h2>Security Testing</h2>
-              <p>SA Technologies offers comprehensive security testing to safeguard your software against potential threats, vulnerabilities, and data breaches.
-              </p>
-            </div>
-          </div>
+          
         </div>
 
         <div className="row">
           <div className="col-lg-4 col-sm-6">
-            <div className="single-services-box" style={{ height: "230px" }}>
+            <div className="single-services-box">
               <h2>Automation Testing</h2>
               <p>We leverage advanced automation testing tools and techniques to enhance testing efficiency, reduce manual effort, and minimize the risk of human errors.
               </p>
@@ -60,7 +60,7 @@ const Services = () => {
           </div>
 
           <div className="col-lg-4 col-sm-6">
-            <div className="single-services-box" style={{ height: "230px" }}>
+            <div className="single-services-box">
               <h2>Usability Testing </h2>
               <p>We test your user experience with real users to ensure that it is easy to use and understand.
                 We use a variety of methods, such as usability testing, to collect feedback from users.
@@ -68,13 +68,13 @@ const Services = () => {
             </div>
           </div>
           <div className="col-lg-4 col-sm-6">
-            <div className="single-services-box" style={{ height: "230px" }}>
+            <div className="single-services-box">
               <h2>Compatibility Testing</h2>
               <p>This involves testing the software to ensure that it works correctly across different platforms, devices, and operating systems.</p>
             </div>
           </div>
           <div className="col-lg-4 col-sm-6">
-            <div className="single-services-box" style={{ height: "230px" }}>
+            <div className="single-services-box">
               <h2>Usability Testing</h2>
               <p>This involves testing the software to ensure that it is user-friendly and easy to navigate. </p>
             </div>

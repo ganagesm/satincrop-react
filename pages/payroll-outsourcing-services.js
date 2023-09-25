@@ -16,9 +16,9 @@ const ServiceDetails = () => {
   return (
     <>
       <Head>
-        <title>Payroll Outsourcing Services | SA Technologies Solutions </title>
-        <meta property="og:title" content="Payroll Outsourcing Services | SA Technologies Solutions" key="title" />
-        <meta name="description" content="Experience streamlined and efficient payroll management with SA Technologies Payroll Outsourcing Services. Focus on your core business while we handle the complexities." key="description" />
+        <title>Simplify Payroll Management with SA Technologies Services </title>
+        <meta property="og:title" content="Simplify Payroll Management with SA Technologies Services " key="title" />
+        <meta name="description" content=" Achieve payroll accuracy and compliance with SA Technologies payroll outsourcing services. Focus on your core business." key="description" />
       </Head>
 
       <Navbar />

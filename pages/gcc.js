@@ -25,9 +25,9 @@ const Index = () => {
   return (
     <>
       <Head>
-        <title>GCC Services in India | SA Technologies GCC Solutions </title>
-        <meta property="og:title" content="GCC Services in India | SA Technologies GCC Solutions" key="title" />
-        <meta name="description" content="Unlock success in India with SA Technologies' comprehensive GCC services. From strategy to legal compliance, we streamline your global capability center journey." key="description" />
+        <title>Global Capability Center (GCC) Services in India | SA Technologies </title>
+        <meta property="og:title" content="Global Capability Center (GCC) Services in India | SA Technologies" key="title" />
+        <meta name="description" content="Explore SA Technologies GCC As a services for global expansion. Maximize efficiency and innovation with our support." key="description" />
       </Head>
 
       <Navbar />

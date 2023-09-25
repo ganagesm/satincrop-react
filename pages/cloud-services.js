@@ -19,9 +19,9 @@ const Index = () => {
   return (
     <>
      <Head>
-        <title>AI-Powered Cloud Solutions | SA Technologies Inc.  </title>
-        <meta property="og:title" content="AI-Powered Cloud Solutions | SA Technologies Inc. " key="title" />
-        <meta name="description" content="Elevate your business with AI-enhanced cloud services from SA Technologies. Harness the power of AI for flexible, efficient, and secure cloud solutions. Transform your digital landscape. " key="description" />
+        <title>Scale Securely with SA Technologies Cloud Services  </title>
+        <meta property="og:title" content="Scale Securely with SA Technologies Cloud Services " key="title" />
+        <meta name="description" content="SA Technologies offers cloud solutions that enable seamless scalability and security for your business." key="description" />
       </Head>
 
       <Navbar />

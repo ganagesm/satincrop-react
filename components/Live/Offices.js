@@ -108,9 +108,9 @@ const Services = () => {
                   Bangalore
                 </h3>
                 <p>
-                  Office No. 693, Geethanjali Complex,
-                  15th Cross, J.P Nagar, 2nd Phase,
-                  Bangalore, Karnataka – 560078,
+                613/A, 2nd Floor,15th Cross Ring Road, 
+                33rd Main, J P nagar 1st Phase, 
+                Bangalore – 560078
                 </p>
 
               </div>

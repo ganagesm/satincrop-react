@@ -15,8 +15,8 @@ const Index = () => {
     <>
       
       <Head>
-        <title>Achieve Rapid App Development with SA Technologies Mendix Expertise</title>
-        <meta property="og:title" content="Experience accelerated app development | SA Technologies Inc. " key="title" />
+        <title>Achieve Rapid App Development with SA Technologies Mendix Expertise </title>
+        <meta property="og:title" content="Achieve Rapid App Development with SA Technologies Mendix Expertise " key="title" />
         <meta name="description" content="Experience accelerated app development with SA Technologies Mendix services. Empower your business with innovative, low-code solutions." key="description" />
    
       </Head>

@@ -16,7 +16,7 @@ const Services = () => {
 
           <div className="row">
             <div className="col-lg-4 col-sm-6">
-              <div className="single-services-box" style={{ height: "300px" }}>
+              <div className="single-services-box">
                 <h2>Automated Code Generation
 
                 </h2>
@@ -26,7 +26,7 @@ const Services = () => {
             </div>
 
             <div className="col-lg-4 col-sm-6">
-              <div className="single-services-box" style={{ height: "300px" }}>
+              <div className="single-services-box">
                 <h2>User Research and Analysis
 
 
@@ -37,7 +37,7 @@ const Services = () => {
             </div>
 
             <div className="col-lg-4 col-sm-6">
-              <div className="single-services-box" style={{ height: "300px" }}>
+              <div className="single-services-box">
                 <h2>
                   Wireframing and Prototyping
 
@@ -55,7 +55,7 @@ const Services = () => {
 
           <div className="row">
             <div className="col-lg-4 col-sm-6">
-              <div className="single-services-box" style={{ height: "300px" }}>
+              <div className="single-services-box">
                 <h2>Visual Design
 
                 </h2>
@@ -67,7 +67,7 @@ const Services = () => {
             </div>
 
             <div className="col-lg-4 col-sm-6">
-              <div className="single-services-box" style={{ height: "300px" }}>
+              <div className="single-services-box">
                 <h2>Interaction Design
 
 
@@ -80,7 +80,7 @@ const Services = () => {
             </div>
 
             <div className="col-lg-4 col-sm-6">
-              <div className="single-services-box" style={{ height: "300px" }}>
+              <div className="single-services-box">
                 <h2>
                   Usability Testing
 
@@ -95,7 +95,7 @@ const Services = () => {
           </div>
           <div className="row">
             <div className="col-lg-4 col-sm-6">
-              <div className="single-services-box" style={{ height: "300px" }}>
+              <div className="single-services-box">
                 <h2>Accessibility Testing
 
                 </h2>
@@ -106,7 +106,7 @@ const Services = () => {
               </div>
             </div>
             <div className="col-lg-4 col-sm-6">
-              <div className="single-services-box" style={{ height: "300px" }}>
+              <div className="single-services-box">
                 <h2>Content Strategy
 
                 </h2>
@@ -117,7 +117,7 @@ const Services = () => {
               </div>
             </div>
             <div className="col-lg-4 col-sm-6">
-              <div className="single-services-box" style={{ height: "300px" }}>
+              <div className="single-services-box">
                 <h2>Brand Identity
 
                 </h2>

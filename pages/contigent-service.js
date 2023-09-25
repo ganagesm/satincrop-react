@@ -17,9 +17,9 @@ const ServiceDetails = () => {
   return (
     <>
     <Head>
-        <title>Contingent Staffing Services | SA Technologies Inc.  </title>
-        <meta property="og:title" content="Contingent Staffing Services | SA Technologies Inc. " key="title" />
-        <meta name="description" content="Elevate your talent game with SA Technologies' Contingent Staffing Services. Explore flexible staffing and permanent placements with our verified and screened candidates." key="description" />
+        <title>Optimize Your Workforce with Contingent Staffing | SA Technologies  </title>
+        <meta property="og:title" content="Optimize Your Workforce with Contingent Staffing | SA Technologies " key="title" />
+        <meta name="description" content="Explore SA Technologies contingent workforce solutions. Scale your workforce efficiently with our staffing expertise." key="description" />
       </Head>
 
       <Navbar />

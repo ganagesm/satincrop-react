@@ -16,9 +16,9 @@ const Index = () => {
     <>
 
       <Head>
-        <title>Oracle Cloud Services | SA Technologies Inc.    </title>
-        <meta property="og:title" content="Oracle Cloud Services | SA Technologies Inc.   " key="title" />
-        <meta name="description" content="Unlock digital transformation with Oracle Cloud Services. Modernize IT infrastructure, drive innovation, and optimize operations with our comprehensive solutions. " key="description" />
+        <title>Maximizing Potential with Oracle Solutions by SA Technologies    </title>
+        <meta property="og:title" content="Maximizing Potential with Oracle Solutions by SA Technologies   " key="title" />
+        <meta name="description" content="SA Technologies delivers Oracle solutions for optimized operations. Elevate your business with Oracle robust technology." key="description" />
       </Head>
 
       <Navbar />

@@ -15,9 +15,9 @@ const Index = () => {
   return (
     <>
     <Head>
-        <title>Salesforce Offerings | SA Technologies Inc.    </title>
-        <meta property="og:title" content="Salesforce Offerings | SA Technologies Inc.   " key="title" />
-        <meta name="description" content="Discover Salesforce CRM solutions for sales, service, analytics, and more. Partner with us for customized Salesforce solutions and exceptional service. " key="description" />
+        <title>Unlocking Salesforce CRM Excellence with SA Technologies  </title>
+        <meta property="og:title" content="Unlocking Salesforce CRM Excellence with SA Technologies " key="title" />
+        <meta name="description" content="SA Technologies empowers your business with Salesforce solutions. Elevate your CRM capabilities with Salesforce innovation with us." key="description" />
       </Head>
       
       <Navbar />

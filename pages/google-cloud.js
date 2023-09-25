@@ -14,9 +14,9 @@ const GoogleCloudNew = () => {
   return (
     <>
       <Head>
-        <title>Google Cloud Services for Business | SA Technologies Inc.  </title>
-        <meta property="og:title" content="Google Cloud Services for Business | SA Technologies Inc. " key="title" />
-        <meta name="description" content="Unlock innovation with Google Cloud Services. Scale, automate, and harness data insights for digital transformation and enhanced efficiency." key="description" />
+        <title>Get Google Cloud Migration Services and Custom Solutions | SA Technologies  </title>
+        <meta property="og:title" content="Get Google Cloud Migration Services and Custom Solutions | SA Technologies " key="title" />
+        <meta name="description" content="SA Technologies harnesses the power of Google technologies for business transformation. Explore our Google solutions." key="description" />
       </Head>
 
       <Navbar />

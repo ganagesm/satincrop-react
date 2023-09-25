@@ -13,7 +13,11 @@ import { Autoplay } from "swiper";
 const Index = () => {
   return (
     <>
-      
+      <Head>
+        <title>Amita Bhosale | Director of Client Engagement | SA Technologies    </title>
+        <meta property="og:title" content="Amita Bhosale | Director of Client Engagement | SA Technologies   " key="title" />
+        <meta name="description" content="Meet Amita Bhosale, Director of Client Engagement at SA Technologies, specializing in GCC management and staffing solutions for North American clients. MBA in Marketing." key="description" />
+      </Head>
 
       <Navbar />
       <HeroBanner />

@@ -25,7 +25,15 @@ const Services = () => {
                 </p>
               </div>
             </div>
-
+            <div className="col-lg-4 col-sm-6">
+              <div className="single-services-box">
+                <h2>
+                Efficient CI/CD
+                </h2>
+                <p>Our adept DevOps teams bridge developmental and operational silos using AI-enhanced CI/CD methodologies. Witness improved software caliber and expedited deliveries.
+                </p>
+              </div>
+            </div>
             <div className="col-lg-4 col-sm-6">
               <div className="single-services-box">
                 <h2>AI-Optimized Mobile Development
@@ -39,15 +47,7 @@ const Services = () => {
               </div>
             </div>
 
-            <div className="col-lg-4 col-sm-6">
-              <div className="single-services-box">
-                <h2>
-                Efficient CI/CD
-                </h2>
-                <p>Our adept DevOps teams bridge developmental and operational silos using AI-enhanced CI/CD methodologies. Witness improved software caliber and expedited deliveries.
-                </p>
-              </div>
-            </div>
+            
             <div className="col-lg-4 col-sm-6">
               <div className="single-services-box">
                 <h2>

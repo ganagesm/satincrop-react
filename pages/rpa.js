@@ -17,9 +17,9 @@ const Index = () => {
   return (
     <>
      <Head>
-        <title>Robotic Process Automation (RPA) Solutions | SA Technologies </title>
-        <meta property="og:title" content="Robotic Process Automation (RPA) Solutions | SA Technologies" key="title" />
-        <meta name="description" content="Unlock operational efficiency with SA Technologies' RPA solutions. Automate tasks, reduce errors, and drive productivity. Discover the future of business automation." key="description" />
+        <title>Robotic Process Automation (RPA): The Future of Business Automation  </title>
+        <meta property="og:title" content="Robotic Process Automation (RPA): The Future of Business Automation " key="title" />
+        <meta name="description" content="SA Technologies RPA solutions can help you achieve operational excellence by streamlining processes, eliminating errors, and improving productivity. " key="description" />
       </Head>
       <Navbar />
       <HeroBanner />

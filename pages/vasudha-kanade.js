@@ -13,7 +13,11 @@ import { Autoplay } from "swiper";
 const Index = () => {
   return (
     <>
-      
+      <Head>
+        <title>Vasudha Kanade | Director of Finance & Compliance | SA Technologies   </title>
+        <meta property="og:title" content="Vasudha Kanade | Director of Finance & Compliance | SA Technologies  " key="title" />
+        <meta name="description" content="Meet Vasudha Kanade, Director of Finance & Compliance at SA Technologies, with expertise in financial systems, compliance, and operational excellence. MBA in Finance & MPM holder." key="description" />
+      </Head>
 
       <Navbar />
       <HeroBanner />
