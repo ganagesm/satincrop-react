@@ -149,7 +149,6 @@ const BlogPostSlider = () => {
                           <img src="/images/blog/ultimate-guide-ai-trained-new.jpeg" alt="image" />
                         </Link>
                       </div>
-
                       <div className="entry-post-content">
                         <div className="entry-meta">
                           <ul>
