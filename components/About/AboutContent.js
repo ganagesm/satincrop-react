@@ -30,25 +30,25 @@ return (
           </div>
         </div>
       </div>
-      <div class="about-inner-area">
-        <div class="row">
-          <div class="col-lg-6 col-md-6 col-sm-6">
-            <div class="about-text">
+      <div className="about-inner-area">
+        <div className="row">
+          <div className="col-lg-6 col-md-6 col-sm-6">
+            <div className="about-text">
               <h3>Vision</h3>
               <p>Committed to going the extra mile to bring success to the clients consistently We are dedicated to delivering the right people, solutions, and services to the clients that they require to meet their technology challenges and business goals.
 
 </p>
             </div>
           </div>
-          {/* <div class="col-lg-6 col-md-6 col-sm-6">
-            <div class="about-text">
+          {/* <div className="col-lg-6 col-md-6 col-sm-6">
+            <div className="about-text">
               <h3>Our Mission</h3>
               <p>Lorem ipsum dolor sit amet, con se ctetur adipiscing elit. In sagittis eg esta ante, sed viverra nunc
                 tinci dunt nec elei fend et tiram.</p>
             </div>
           </div> */}
-          <div class="col-lg-6 col-md-6 col-sm-6 offset-lg-0 offset-md-3 offset-sm-3">
-            <div class="about-text">
+          <div className="col-lg-6 col-md-6 col-sm-6 offset-lg-0 offset-md-3 offset-sm-3">
+            <div className="about-text">
               <h3>Mission</h3>
               <p>Optimizing client satisfaction with quality services Delivering world-class capabilities to every client leveraging leading technologies & industry best practice</p>
             </div>
