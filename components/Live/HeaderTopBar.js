@@ -11,7 +11,7 @@ const TopNavbar = () => {
           <div className="row align-items-center justify-content-center">
             <div className="col-lg-6 col-md-6">
               <div className="topbar-content">
-                <img alt="cmmi5" src="./images/ca-cmmi_logo.jpeg" width={50} style={{ marginRight: "10px", }} />
+                {/* <img alt="cmmi5" src="./images/ca-cmmi_logo.jpeg" width={50} style={{ marginRight: "10px", }} /> */}
 
                 {/* <span>Welcome to SA Technologies Inc. Need Help? <a href="/contact-us/">Contact Us</a> </span> */}
               </div>
