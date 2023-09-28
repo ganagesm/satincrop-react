@@ -9885,4 +9885,17 @@ a.btn.btn-primary.cnt_btn {
     box-shadow: 0px 7px 10px #ccc;
     padding: 10px;
 }
+.floatWhatsApp {
+    position: fixed;
+    width: 80px;
+    height: 80px;
+    bottom: 15%;
+    right: 0;
+    /* background-color: #0C9; */
+    color: #FFF;
+    /* border-radius: 50px; */
+    text-align: center;
+    /* box-shadow: 2px 2px 3px #999; */
+    z-index: 999999;
+}
 /*End "Home Demo - 6", "Home Demo - 7" & "Home Demo - 8" Style CSS*/

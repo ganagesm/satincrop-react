@@ -195,6 +195,9 @@ const Footer = () => {
           <div className="line"></div>
           <div className="line"></div>
         </div>
+        <Link href="https://api.whatsapp.com/send/?phone=%2B9107875787550&text=Hi%21+I+want+to+know+more+about+SAT+Services" target="_blank" className="floatWhatsApp">
+          <img src="/images/icons/whatsApp.svg" alt="whatsapp" />
+        </Link>
       </footer>
 
       <React.Fragment>
