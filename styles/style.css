@@ -78,7 +78,7 @@ button {
 }
 
 p {
-    font-size: 17px;
+    font-size: 14px;
     color: #57647c;
     margin-bottom: 15px;
     line-height: 1.8;
@@ -3033,7 +3033,7 @@ Page Title Area CSS
     opacity: 0.6;
 }
 .page-title-area.item-bg1 {
-    background-image: url(/images/about/about-banner.png);
+    background-image: url(/images/page-title-bg1.jpg);
 }
 .page-title-area.item-bg2 {
     background-image: url(/images/technology-banner/Microsoft-banner.jpg);
@@ -3054,22 +3054,7 @@ Page Title Area CSS
     background-image: url(/images/technology-banner/servicenow-banner.jpg);
 }
 .page-title-area.item-bg8 {
-    background-image: url(/images/technology-banner/Contingent-new.png);
-}
-.page-title-area.item-bg9 {
-    background-image: url(/images/technology-banner/offshore.jpg);
-}
-.page-title-area.item-bg10 {
-    background-image: url(/images/banners/google.png);
-}
-.page-title-area.item-bg11 {
-    background-image: url(/images/technology-banner/payroll.png);
-}
-.page-title-area.item-bg12 {
-    background-image: url(/images/technology-banner/contact.png);
-}
-.page-title-area.item-bg13 {
-    background-image: url(/images/MendixBanner.jpg);
+    background-image: url(/images/technology-banner/Contingent.jpg);
 }
 
 .page-title-content h2 {
@@ -6888,7 +6873,7 @@ AI About Area CSS
     padding: 0;
     margin-top: 20px;
     margin-bottom: 0;
-    /* max-width: 450px; */
+    max-width: 450px;
 }
 .ai-about-content .about-list li {
     list-style-type: none;
@@ -6898,7 +6883,7 @@ AI About Area CSS
     border-radius: 5px;
     margin-bottom: 18px;
     position: relative;
-    font-size: 17px;
+    font-size: 14px;
     font-weight: 600;
     color: #57647c;
 }
@@ -8289,13 +8274,16 @@ Footer Wrap Area CSS
     background-color: #8f8f8f;
     padding: 25% 20% 17% 18%;
 }
+
 .article-content_section h3 {
     text-align: center;
 }
+
 .article_bg.mb-30 p {
     color: #fff;
 }
-.model-main{
+
+.model-main {
     background-color: #fff;
     height: 100vh;
     width: 100%;
@@ -8303,52 +8291,87 @@ Footer Wrap Area CSS
     top: 0%;
     z-index: 999;
 }
-.profile_model{
-    
-    width:100%; 
-    background-color:#fff;
-     /* position: absolute;
+
+.profile_model {
+    width: 100%;
+    background-color: #fff;
+    /* position: absolute;
     top:25%;
     right:25%; */
     padding-bottom: 100px;
 }
-.popupheader{
+
+.popupheader {
     display: flex;
     justify-content: space-around;
     padding: 0 30px 0 15px;
     border-bottom: 1px solid #000000;
 }
+
 .pro_heading {
     margin-top: 50px;
 }
+
 .pro_heading_dtl {
     float: left;
     width: 50%;
     margin-top: 12%;
 }
-.pro_social{
+
+.pro_social {
     margin-top: 12%;
     float: left;
-
 }
+
 .pro_content {
     margin-top: 50px;
 }
+
 a.btn.btn-primary.cnt_btn {
     background-color: #149ad6;
 }
+
 .team_box:hover {
     background-color: #fff;
     box-shadow: 0px 7px 10px #ccc;
     padding: 10px;
 }
-.pro_card:hover{
+
+.pro_card:hover {
     background-color: #fff;
     box-shadow: 0px 7px 10px #ccc;
     padding: 10px;
 }
 
+.floatWhatsApp {
+    position: fixed;
+    width: 80px;
+    height: 80px;
+    bottom: 15%;
+    right: 0;
+    /* background-color: #0C9; */
+    color: #FFF;
+    /* border-radius: 50px; */
+    text-align: center;
+    /* box-shadow: 2px 2px 3px #999; */
+    z-index: 999999;
+}
 
-
+.cmmi h4 {
+    margin-bottom: -4px;
+    color: #0a1f5e;
+    font-size: 16px;
+    margin-top: 21px;
+}
+.cmmi p {
+    font-size: 11px;
+    float: right;
+    color: #0a1f5e;
+}
+.cmmi span {
+    color: #fd0107;
+    font-size: 14px;
+    font-weight: 700;
+}
 
 /*End "Home Demo - 6", "Home Demo - 7" & "Home Demo - 8" Style CSS*/
