@@ -65,6 +65,12 @@ const Navbar = () => {
                 />
               </Link>
 
+              <div className="cmmi"><h4> A CMMI Level <span>5</span> Company </h4>
+              {/* <p>Level <span>5</span></p>*/}
+              </div> 
+
+              {/* <img alt="cmmi5" src="./images/ca-cmmi_logo.jpeg" width={50} style={{ marginRight: "10px", }} /> */}
+
               <button
                 onClick={toggleNavbar}
                 className={classTwo}
