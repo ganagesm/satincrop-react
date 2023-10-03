@@ -1,9 +1,12 @@
 import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Autoplay } from "swiper";
+import Link from "next/link";
 
 const Team = () => {
   return (
     <>
-      <section className="team-area ptb-50">
+      <section className="team-area product-details-area ptb-50">
         <div className="container">
           <div className="section-title">
             <h2>Life at SA Tech</h2>
@@ -14,13 +17,13 @@ const Team = () => {
           </div>
 
           <div className="row justify-content-center">
-            <div 
-              className="col-lg-3 col-sm-6"
+            <div
+              className="col-lg-4 col-sm-6"
               data-aos="fade-in"
               data-aos-duration="1200"
               data-aos-delay="200"
             >
-              <div className="single-team-box">
+              <div className="single-team-box single-product-box">
                 <div className="image">
                   <img src="/images/team/team1.png" alt="Team Image" />
                 </div>
@@ -32,13 +35,13 @@ const Team = () => {
               </div>
             </div>
 
-            <div 
-              className="col-lg-3 col-sm-6"
+            <div
+              className="col-lg-4 col-sm-6"
               data-aos="fade-in"
               data-aos-duration="1200"
               data-aos-delay="300"
             >
-              <div className="single-team-box">
+              <div className="single-team-box single-product-box">
                 <div className="image">
                   <img src="/images/team/team2.png" alt="Team Image" />
                 </div>
@@ -50,8 +53,8 @@ const Team = () => {
               </div>
             </div>
 
-            <div 
-              className="col-lg-3 col-sm-6"
+            <div
+              className="col-lg-4 col-sm-6"
               data-aos="fade-in"
               data-aos-duration="1200"
               data-aos-delay="400"
@@ -67,8 +70,8 @@ const Team = () => {
               </div>
             </div>
 
-            <div 
-              className="col-lg-3 col-sm-6"
+            <div
+              className="col-lg-4 col-sm-6"
               data-aos="fade-in"
               data-aos-duration="1200"
               data-aos-delay="500"
@@ -84,8 +87,95 @@ const Team = () => {
               </div>
             </div>
           </div>
+          <div className="container-fluid product-details-area ptb-110">
+            <Swiper
+              navigation={true}
+              spaceBetween={25}
+              autoplay={{
+                delay: 6000,
+                pauseOnMouseEnter: true,
+              }}
+              breakpoints={{
+                0: {
+                  slidesPerView: 1,
+                },
+                576: {
+                  slidesPerView: 2,
+                },
+                1024: {
+                  slidesPerView: 3,
+                },
+                1200: {
+                  slidesPerView: 3,
+                },
+              }}
+              modules={[Navigation, Autoplay]}
+              className="projects-slides"
+            >
+              <SwiperSlide>
+                <div className="single-projects-box single-product-box">
+                  <img src="/images/projects-img2.jpg" alt="image" />
+
+                  <div className="product-content product-content">
+                    <h3>Global Sales Meet</h3>
+                    <div className="price">
+                      <span className="new">Where Global Minds and Strategies Converge at SAT's</span>
+                    </div>
+                  </div>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="single-projects-box single-product-box">
+                  <img src="/images/projects-img2.jpg" alt="image" />
+
+                  <div className="product-content product-content">
+                    <h3>Global Sales Meet</h3>
+                    <div className="price">
+                      <span className="new">Where Global Minds and Strategies Converge at SAT's</span>
+                    </div>
+                  </div>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="single-projects-box single-product-box">
+                  <img src="/images/projects-img2.jpg" alt="image" />
+
+                  <div className="product-content product-content">
+                    <h3>Global Sales Meet</h3>
+                    <div className="price">
+                      <span className="new">Where Global Minds and Strategies Converge at SAT's</span>
+                    </div>
+                  </div>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="single-projects-box single-product-box">
+                  <img src="/images/projects-img2.jpg" alt="image" />
+
+                  <div className="product-content product-content">
+                    <h3>Global Sales Meet</h3>
+                    <div className="price">
+                      <span className="new">Where Global Minds and Strategies Converge at SAT's</span>
+                    </div>
+                  </div>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="single-projects-box single-product-box">
+                  <img src="/images/projects-img2.jpg" alt="image" />
+
+                  <div className="product-content product-content">
+                    <h3>Global Sales Meet</h3>
+                    <div className="price">
+                      <span className="new">Where Global Minds and Strategies Converge at SAT's</span>
+                    </div>
+                  </div>
+                </div>
+              </SwiperSlide>
+            </Swiper>
+          </div>
         </div>
-      </section>
+      </section >
     </>
   );
 };

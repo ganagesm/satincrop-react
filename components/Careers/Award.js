@@ -25,10 +25,10 @@ const TechSlider = () => {
                 slidesPerView: 3,
               },
               768: {
-                slidesPerView: 4,
+                slidesPerView: 8,
               },
               1200: {
-                slidesPerView: 4,
+                slidesPerView: 8,
               },
             }}
             modules={[Autoplay]}
@@ -95,6 +95,52 @@ const TechSlider = () => {
               </div>
             </SwiperSlide>
 
+            <SwiperSlide>
+              <div className="single-partner-item">
+                <a href="" target="_blank" rel="noreferrer">
+                  <img
+                    src="/images/team/5.png"
+                    alt="image"
+                    style={{
+                      width: "1%",
+                      textAlign: "center",
+                      marginTop: "10px",
+                    }}
+                  />
+                </a>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="single-partner-item">
+                <a href="" target="_blank" rel="noreferrer">
+                  <img
+                    src="/images/team/4.png"
+                    alt="image"
+                    style={{
+                      width: "1%",
+                      textAlign: "center",
+                      marginTop: "10px",
+                    }}
+                  />
+                </a>
+              </div>
+            </SwiperSlide>
+
+            <SwiperSlide>
+              <div className="single-partner-item">
+                <a href="" target="_blank" rel="noreferrer">
+                  <img
+                    src="/images/team/5.png"
+                    alt="image"
+                    style={{
+                      width: "1%",
+                      textAlign: "center",
+                      marginTop: "10px",
+                    }}
+                  />
+                </a>
+              </div>
+            </SwiperSlide>
             <SwiperSlide>
               <div className="single-partner-item">
                 <a href="" target="_blank" rel="noreferrer">
