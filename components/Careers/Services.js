@@ -7,11 +7,9 @@ const Services = () => {
       <div className="ai-services-area pt-100 pb-100" style={{marginBottom:"50px;",}}>
         <div className="container">
           <div className="section-title with-underline-text">
-             {/*<h2>Our Services for Today's Digital Landscape</h2>
-             <p>
-              Lorem ipsum dolor sit amet consectetur adipiscing elit. A ac, ut
-              eget pellentesque nulla viverr.
-            </p> */}
+             <h2>Benefits at SA Tech</h2>
+             <p>Enjoy tailored benefits and a culture that nurtures growth and initiative within a supportive work environment.
+            </p> 
           </div>
 
           <div className="row justify-content-center">
@@ -23,7 +21,7 @@ const Services = () => {
                 <h3>
                   <Link href="/service-details">Learning & Development</Link>
                 </h3>
-                <p>Embark on a continuous learning journey with us. We're committed to fostering a culture of professional growth and skill enhancement. </p>
+                <p>Propel your career with ongoing educational opportunities.</p>
 
                 {/* <Link href="/service-details" className="read-btn">
                   Read More
@@ -37,9 +35,9 @@ const Services = () => {
                   <img src="/images/home-six/services/Datamanagement.png" alt="icon" />
                 </div>
                 <h3>
-                  <Link href="/service-details">Fun Environment</Link>
+                  <Link href="/service-details">An Energizing & Fun Environment</Link>
                 </h3>
-                <p>Work doesn’t have to be all serious. Dive into a lively workspace that values creativity, camaraderie, and a touch of fun.</p>
+                <p>Thrive in a lively and creatively stimulating workspace.</p>
                 {/* <Link href="/service-details" className="read-btn">
                   Read More
                 </Link> */}
@@ -52,9 +50,9 @@ const Services = () => {
                   <img src="/images/home-six/services/icon1.png" alt="icon" />
                 </div>
                 <h3>
-                  <Link href="/service-details">Employee Health Care</Link>
+                  <Link href="/service-details">Comprehensive Employee Healthcare</Link>
                 </h3>
-                <p>Your well-being is paramount. Benefit from top-tier health care options that ensure you're always at your best.</p>
+                <p>Prioritize your well-being with our thorough health benefits.</p>
                 {/* <Link href="/service-details" className="read-btn">
                   Read More
                 </Link> */}
@@ -67,9 +65,9 @@ const Services = () => {
                   <img src="/images/home-six/services/Cloudservices.png" alt="icon" />
                 </div>
                 <h3>
-                  <Link href="/service-details">Work-Life Balance</Link>
+                  <Link href="/service-details">Authentic Work-Life Balance</Link>
                 </h3>
-                <p>We understand the importance of personal time. Experience a workplace that respects boundaries and promotes a harmonious balance between work and leisure.</p>
+                <p>Achieve equilibrium with our genuine commitment to work-life harmony.</p>
                 {/* <Link href="/service-details" className="read-btn">
                   Read More
                 </Link> */}
@@ -82,10 +80,9 @@ const Services = () => {
                   <img src="/images/home-six/services/icon5.png" alt="icon" />
                 </div>
                 <h3>
-                  <Link href="/service-details">Limitless Career Growth</Link>
+                  <Link href="/service-details">Infinite Career Advancement</Link>
                 </h3>
-                <p>
-                  With us, the sky's the limit. Seize opportunities that pave the way for unparalleled career progression.</p>
+                <p>Explore boundless avenues for career progression.</p>
                 {/* <Link href="/service-details" className="read-btn">
                   Read More
                 </Link> */}
@@ -98,24 +95,22 @@ const Services = () => {
                   <img src="/images/home-six/services/icon6.png" alt="icon" />
                 </div>
                 <h3>
-                  <Link href="/service-details">Flexible Working</Link>
+                  <Link href="/service-details">Versatile Working Culture</Link>
                 </h3>
-                <p>
-Adaptability is key. Enjoy the freedom to tailor your work hours and environment to best suit your needs and preferences. 
-                </p>
+                <p>Enjoy flexibility that respects your working style and life demands</p>
                 {/* <Link href="/service-details" className="read-btn">
                   Read More
                 </Link> */}
               </div>
             </div>
 
-            {/* <div className="col-lg-12 col-md-12">
+            <div className="col-lg-12 col-md-12">
               <div className="ai-all-services-btn">
-                <Link href="/services" className="btn btn-primary">
-                  View All Services
+                <Link href="https://jobs.satincorp.com/jobs/Careers" target="_blank" className="btn btn-primary">
+                  All Job Opportunities
                 </Link>
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
 

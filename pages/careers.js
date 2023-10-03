@@ -8,7 +8,8 @@ import AboutAI from "../components/Careers/AboutAI";
 import Services from "../components/Careers/Services";
 import ComputerVisionAI from "../components/Careers/ComputerVisionAI";
 import ContactFormContent from "../components/Common/ContactFormContent";
-import BlogPostSlider from "../components/Live/BlogPostSlider";
+import Team from "../components/Careers/Team";
+import Award from "../components/Careers/Award";
 
 const Careers = () => {
   return (
@@ -27,6 +28,10 @@ const Careers = () => {
 
       <Services />
 
+      <Team />
+
+      <Award />
+     
       {/* <ComputerVisionAI /> */}
 
       {/* <PricingPlan /> */}
