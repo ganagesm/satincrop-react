@@ -6,7 +6,7 @@ import Link from "next/link";
 const Team = () => {
   return (
     <>
-      <section className="team-area product-details-area ptb-50">
+      <section className="team-area">
         <div className="container">
           <div className="section-title">
             <h2>Life at SA Tech</h2>
@@ -15,79 +15,7 @@ const Team = () => {
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p> */}
           </div>
-
-          <div className="row justify-content-center">
-            <div
-              className="col-lg-4 col-sm-6"
-              data-aos="fade-in"
-              data-aos-duration="1200"
-              data-aos-delay="200"
-            >
-              <div className="single-team-box single-product-box">
-                <div className="image">
-                  <img src="/images/team/team1.png" alt="Team Image" />
-                </div>
-
-                <div className="content tm_title">
-                  <h3>Corporate Cricket Tournament_ SAT's Cricket Champions proving that success is a team effort</h3>
-                  {/* <span>CEO & Founder</span> */}
-                </div>
-              </div>
-            </div>
-
-            <div
-              className="col-lg-4 col-sm-6"
-              data-aos="fade-in"
-              data-aos-duration="1200"
-              data-aos-delay="300"
-            >
-              <div className="single-team-box single-product-box">
-                <div className="image">
-                  <img src="/images/team/team2.png" alt="Team Image" />
-                </div>
-
-                <div className="content tm_title">
-                  <h3>Digitize Tomorrow_ Celebrating the Launch of SAT's New Office in Bangalore!</h3>
-                  {/* <span>React Developer</span> */}
-                </div>
-              </div>
-            </div>
-
-            <div
-              className="col-lg-4 col-sm-6"
-              data-aos="fade-in"
-              data-aos-duration="1200"
-              data-aos-delay="400"
-            >
-              <div className="single-team-box">
-                <div className="image">
-                  <img src="/images/team/team3.png" alt="Team Image" />
-                </div>
-
-                <div className="content tm_title">
-                  <h3>Global Sales Meet_ Where Global Minds and Strategies Converge at SAT's</h3>
-                </div>
-              </div>
-            </div>
-
-            <div
-              className="col-lg-4 col-sm-6"
-              data-aos="fade-in"
-              data-aos-duration="1200"
-              data-aos-delay="500"
-            >
-              <div className="single-team-box">
-                <div className="image">
-                  <img src="/images/team/team4.png" alt="Team Image" />
-                </div>
-
-                <div className="content tm_title">
-                  <h3>Leadership and Collaboration_ Annual Meet-up with our CEO, [Manoj Joshi], spotlighting achievements, and sculpting the path ahead!</h3>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="container-fluid product-details-area ptb-110">
+          <div className="container-fluid product-details-area">
             <Swiper
               navigation={true}
               spaceBetween={25}
@@ -114,7 +42,19 @@ const Team = () => {
             >
               <SwiperSlide>
                 <div className="single-projects-box single-product-box">
-                  <img src="/images/projects-img2.jpg" alt="image" />
+                  <img src="/images/team/team1.png" alt="image" />
+
+                  <div className="product-content product-content">
+                    <h3>Corporate Cricket Tournament</h3>
+                    <div className="price">
+                      <span className="new">SAT's Cricket Champions proving that success is a team effort</span>
+                    </div>
+                  </div>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="single-projects-box single-product-box">
+                  <img src="/images/team/team3.png" alt="image" />
 
                   <div className="product-content product-content">
                     <h3>Global Sales Meet</h3>
@@ -126,48 +66,24 @@ const Team = () => {
               </SwiperSlide>
               <SwiperSlide>
                 <div className="single-projects-box single-product-box">
-                  <img src="/images/projects-img2.jpg" alt="image" />
+                  <img src="/images/team/team2.png" alt="image" />
 
                   <div className="product-content product-content">
-                    <h3>Global Sales Meet</h3>
+                    <h3>Digitize Tomorrow</h3>
                     <div className="price">
-                      <span className="new">Where Global Minds and Strategies Converge at SAT's</span>
+                      <span className="new">Celebrating the Launch of SAT's New Office in Bangalore!</span>
                     </div>
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="single-projects-box single-product-box">
-                  <img src="/images/projects-img2.jpg" alt="image" />
+                  <img src="/images/team/team4.png" alt="image" />
 
                   <div className="product-content product-content">
-                    <h3>Global Sales Meet</h3>
+                    <h3>Leadership and Collaboration</h3>
                     <div className="price">
-                      <span className="new">Where Global Minds and Strategies Converge at SAT's</span>
-                    </div>
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="single-projects-box single-product-box">
-                  <img src="/images/projects-img2.jpg" alt="image" />
-
-                  <div className="product-content product-content">
-                    <h3>Global Sales Meet</h3>
-                    <div className="price">
-                      <span className="new">Where Global Minds and Strategies Converge at SAT's</span>
-                    </div>
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="single-projects-box single-product-box">
-                  <img src="/images/projects-img2.jpg" alt="image" />
-
-                  <div className="product-content product-content">
-                    <h3>Global Sales Meet</h3>
-                    <div className="price">
-                      <span className="new">Where Global Minds and Strategies Converge at SAT's</span>
+                      <span className="new">Annual Meet-up with our CEO, [Manoj Joshi], spotlighting achievements, and sculpting the path ahead!</span>
                     </div>
                   </div>
                 </div>

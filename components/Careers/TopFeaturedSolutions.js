@@ -11,7 +11,7 @@ const TopFeaturedSolutions = () => {
             <div className="col-lg-6 col-sm-6">
               <div style={{textAlign:"center",}} className="top-featured-content">
                 {/* <h2>Begin your journey with SAT today and unlock your utmost potential.</h2> */}
-                <p>At SA Technologies, empower your possibilities and carve your unique career path. Uncover your vibrant spark in a workspace that understands - that elevating our clients begins with prioritizing our people.</p>
+                <p style={{fontSize: '20px'}}>At SA Technologies, empower your possibilities and carve your unique career path. Uncover your vibrant spark in a workspace that understands - that elevating our clients begins with prioritizing our people.</p>
               </div>
             </div>
             <div className="col-lg-3 col-sm-3"></div>

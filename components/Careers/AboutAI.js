@@ -112,7 +112,7 @@ const AboutAI = () => {
 
                 <div className="others-options" style={{marginTop:"40px",}}>
                   <Link href="https://jobs.satincorp.com/jobs/Careers" target="_blank" className="btn btn-primary">
-                  Discover Your Next Role
+                  All Job Opportunities
                   </Link>
                 </div> 
               </div>

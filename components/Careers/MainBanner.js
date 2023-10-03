@@ -15,7 +15,7 @@ const DomainSearch = () => {
         <div className="container-fluid">
           <div className="ai-main-banner-content">
             <h1 style={{color:"#fff"}}>Find Your Passion</h1>
-             <p style={{color:"#fff"}}>Join us and kickstart your career with a global tech firm, offering the freedom to foster your growth, your way.</p> 
+             <p style={{color:"#fff", fontSize: '25px'}}>Join us and kickstart your career with a global tech firm, offering the freedom to foster your growth, your way.</p> 
 
             <ul className="banner-btn">
               {/* <li>

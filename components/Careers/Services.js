@@ -104,13 +104,13 @@ const Services = () => {
               </div>
             </div>
 
-            {/* <div className="col-lg-12 col-md-12">
+            <div className="col-lg-12 col-md-12">
               <div className="ai-all-services-btn">
-                <Link href="/services" className="btn btn-primary">
-                  View All Services
+                <Link href="https://jobs.satincorp.com/jobs/Careers" target="_blank" className="btn btn-primary">
+                  All Job Opportunities
                 </Link>
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
 

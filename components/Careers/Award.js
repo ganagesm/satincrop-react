@@ -5,7 +5,7 @@ import { Autoplay } from "swiper";
 const TechSlider = () => {
   return (
     <>
-      <div className="partner-section ptb-50">
+      <div className="partner-section">
         <div className="section-title">
           <h2>Our Awards and Accolades</h2>
         </div>
@@ -114,7 +114,7 @@ const TechSlider = () => {
               <div className="single-partner-item">
                 <a href="" target="_blank" rel="noreferrer">
                   <img
-                    src="/images/team/4.png"
+                    src="/images/team/iso.png"
                     alt="image"
                     style={{
                       width: "1%",
@@ -130,7 +130,7 @@ const TechSlider = () => {
               <div className="single-partner-item">
                 <a href="" target="_blank" rel="noreferrer">
                   <img
-                    src="/images/team/5.png"
+                    src="/images/team/gsw.png"
                     alt="image"
                     style={{
                       width: "1%",
@@ -145,7 +145,7 @@ const TechSlider = () => {
               <div className="single-partner-item">
                 <a href="" target="_blank" rel="noreferrer">
                   <img
-                    src="/images/team/5.png"
+                    src="/images/team/iso-1.png"
                     alt="image"
                     style={{
                       width: "1%",
