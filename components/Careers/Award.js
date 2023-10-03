@@ -1,23 +1,36 @@
 import React from "react";
-import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper";
 
-const AboutAI = () => {
+const TechSlider = () => {
   return (
     <>
-      <div className="ai-about-area pb-100">
+      <div className="partner-section ptb-50">
+        <div className="section-title">
+          <h2>Our Awards and Accolades</h2>
+        </div>
         <div className="container">
-          <div className="row align-items-center">
-            <div className="col-lg-6 col-md-12">
-            <Swiper
+          <Swiper
             spaceBetween={0}
             autoplay={{
               delay: 900,
               disableOnInteraction: true,
               pauseOnMouseEnter: true,
             }}
-            
+            breakpoints={{
+              0: {
+                slidesPerView: 2,
+              },
+              576: {
+                slidesPerView: 3,
+              },
+              768: {
+                slidesPerView: 4,
+              },
+              1200: {
+                slidesPerView: 4,
+              },
+            }}
             modules={[Autoplay]}
             className="partner-slides"
           >
@@ -25,7 +38,7 @@ const AboutAI = () => {
               <div className="single-partner-item">
                 <a href="" target="_blank" rel="noreferrer">
                   <img
-                    src="/images/team/about1.png"
+                    src="/images/team/1.png"
                     alt="image"
                     style={{
                       width: "1%",
@@ -40,7 +53,7 @@ const AboutAI = () => {
               <div className="single-partner-item">
                 <a href="" target="_blank" rel="noreferrer">
                   <img
-                    src="/images/team/about2.png"
+                    src="/images/team/2.png"
                     alt="image"
                     style={{
                       width: "1%",
@@ -55,7 +68,7 @@ const AboutAI = () => {
               <div className="single-partner-item">
                 <a href="" target="_blank" rel="noreferrer">
                   <img
-                    src="/images/team/about3.png"
+                    src="/images/team/3.png"
                     alt="image"
                     style={{
                       width: "1%",
@@ -70,7 +83,7 @@ const AboutAI = () => {
               <div className="single-partner-item">
                 <a href="" target="_blank" rel="noreferrer">
                   <img
-                    src="/images/team/about4.png"
+                    src="/images/team/4.png"
                     alt="image"
                     style={{
                       width: "1%",
@@ -82,46 +95,40 @@ const AboutAI = () => {
               </div>
             </SwiperSlide>
 
-           
+            <SwiperSlide>
+              <div className="single-partner-item">
+                <a href="" target="_blank" rel="noreferrer">
+                  <img
+                    src="/images/team/5.png"
+                    alt="image"
+                    style={{
+                      width: "1%",
+                      textAlign: "center",
+                      marginTop: "10px",
+                    }}
+                  />
+                </a>
+              </div>
+            </SwiperSlide>
             
           </Swiper>
-            </div>
+        </div>
 
-            <div className="col-lg-6 col-md-12">
-              <div className="ai-about-content">
-                <h3>Dive into an environment where YOUR growth crafts OUR collective success!</h3>
-                 <h5>We offer:
-                </h5>
-
-                 <ul className="about-list">
-                  <li>
-                    <i className="fa-solid fa-check"></i>Career Pathways Tailored Just for You 
-                  </li>
-                  <li>
-                    <i className="fa-solid fa-check"></i> Enrich Job Experiences 
-                  </li>
-                  <li>
-                    <i className="fa-solid fa-check"></i> Reliable Employment
-                  </li>
-                  <li>
-                    <i className="fa-solid fa-check"></i> A diverse, Global Inclusive Work Culture 
-                  </li>
-                 
-                </ul> 
-
-
-                <div className="others-options" style={{marginTop:"40px",}}>
-                  <Link href="https://jobs.satincorp.com/jobs/Careers" target="_blank" className="btn btn-primary">
-                  Discover Your Next Role
-                  </Link>
-                </div> 
-              </div>
-            </div>
-          </div>
+        <div className="dot-shape1">
+          <img src="/images/shape/dot1.png" alt="image" />
+        </div>
+        <div className="shape-img2">
+          <img src="/images/shape/shape2.svg" alt="image" />
+        </div>
+        <div className="shape-img4">
+          <img src="/images/shape/shape4.svg" alt="image" />
+        </div>
+        <div className="shape-img5">
+          <img src="/images/shape/shape5.svg" alt="image" />
         </div>
       </div>
     </>
   );
 };
 
-export default AboutAI;
+export default TechSlider;

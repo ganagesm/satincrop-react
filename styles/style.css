@@ -78,7 +78,7 @@ button {
 }
 
 p {
-    font-size: 14px;
+    font-size: 16px;
     color: #57647c;
     margin-bottom: 15px;
     line-height: 1.8;
@@ -6883,7 +6883,7 @@ AI About Area CSS
     border-radius: 5px;
     margin-bottom: 18px;
     position: relative;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 600;
     color: #57647c;
 }
@@ -8372,6 +8372,10 @@ a.btn.btn-primary.cnt_btn {
     color: #fd0107;
     font-size: 14px;
     font-weight: 700;
+}
+.content.tm_title h3 {
+    text-align: initial;
+    font-size: 20px;
 }
 
 /*End "Home Demo - 6", "Home Demo - 7" & "Home Demo - 8" Style CSS*/

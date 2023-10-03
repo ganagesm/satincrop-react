@@ -18,11 +18,11 @@ const TopNavbar = () => {
             </div>
             <div className="col-lg-6 col-md-6">
               <ul className="topbar-action-list">
-                {/* <li>
-                  PartnerContent
-                  <i class="fa-solid fa-location-pin"></i> 2750 Quadra Street Victoria, Canada
-                </li>
-                <li>
+                 <li > 
+                  <a style={{color:"#ff4800;"}} href="#" target="_blank">Join Our Team  </a>
+                 
+                  </li>
+                {/*<li>
                   <i class="fa-solid fa-phone"></i>
                   <a href="tel:+917823025808">+91 7823 02 5808</a>
                 </li> */}
