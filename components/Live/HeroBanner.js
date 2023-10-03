@@ -9,7 +9,7 @@ const HeroBanner = () => {
       <Swiper
         navigation={true}
         autoplay={{
-          delay: 5000,
+          delay: 3000,
           disableOnInteraction: true,
           pauseOnMouseEnter: true,
         }}
@@ -45,8 +45,9 @@ const HeroBanner = () => {
               <div className="main-banner-content">
                 <h1 style={{ color: "#fff", marginTop: "10px", }}> Ecstatic with Immense Pride!</h1>
                 <p style={{ color: "#fff", margin: "10px 0 20px 0", fontSize:"20px" }}> We take pride to be recognized as </p>
-                <h1 style={{ color: "#fff" }}>Top 50 | Mid Size</h1>
-                <h5 style={{ color: "#fff", marginTop: "10px", fontSize: '30px' }}>India's Best Workplace for Women in 2023</h5>
+                
+                <h5 style={{ color: "#fff", marginTop: "10px", fontSize: '34px' }}>India's Best Workplace for Women in 2023</h5>
+                <h2 style={{ color: "#fff" }}>Top 50 | Mid Size</h2>
                 <div className="btn-box">
                   <Link href="/contact/" className="btn btn-primary">
                     Get in touch now
