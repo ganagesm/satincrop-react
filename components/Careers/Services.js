@@ -7,7 +7,7 @@ const Services = () => {
       <div className="ai-services-area pt-100 pb-100" style={{marginBottom:"50px;",}}>
         <div className="container">
           <div className="section-title with-underline-text">
-             <h2>Benefits at SA Tech</h2>
+             <h2>Benefits at SAT</h2>
              <p>Enjoy tailored benefits and a culture that nurtures growth and initiative within a supportive work environment.
             </p> 
           </div>

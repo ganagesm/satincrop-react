@@ -9,7 +9,7 @@ const Team = () => {
       <section className="team-area">
         <div className="container">
           <div className="section-title">
-            <h2>Life at SA Tech</h2>
+            <h2>Life at SAT</h2>
             {/* <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.

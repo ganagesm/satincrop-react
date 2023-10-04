@@ -8377,5 +8377,14 @@ a.btn.btn-primary.cnt_btn {
     text-align: initial;
     font-size: 20px;
 }
+.c_img a {
+    width: 100%;
+}
+.c_img a img{
+    width: 100% !important;
+}
+.glass_logo{
+    float: right;
+}
 
 /*End "Home Demo - 6", "Home Demo - 7" & "Home Demo - 8" Style CSS*/
