@@ -4,7 +4,7 @@ import Link from "next/link";
 const Cta = () => {
   return (
     <>
-      <div className="ai-services-area" style={{marginBottom:"50px;",backgroundColor:"#ff4800", paddingTop:"70px", paddingBottom:"70px",}}>
+      <div className="ai-services-area pt-100 pb-100" style={{backgroundColor:"#ff4800"}}>
         <div className="container">
           <div className="section-title with-underline-text" style={{marginBottom:"10px",}}>
              <h2 style={{color:"#fff", fontSize: "55px !important",}}>Join Us!</h2>
