@@ -6,7 +6,7 @@ import Link from "next/link";
 const Team = () => {
   return (
     <>
-      <section className="team-area">
+      <section className="team-area pt-100">
         <div className="container">
           <div className="section-title">
             <h2>Life at SAT</h2>
