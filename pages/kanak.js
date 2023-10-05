@@ -14,7 +14,11 @@ const Index = () => {
   return (
     <>
       
-
+      <Head>
+        <title>Kanak Sahoo | Head Marketing Manager | SA Technologies     </title>
+        <meta property="og:title" content="Kanak Sahoo | Head Marketing Manager | SA Technologies    " key="title" />
+        <meta name="description" content="Meet Kanak Sahoo, Head Marketing Manager at SA Technologies, with 4+ years of marketing expertise. Explore her innovative approach to brand building and marketing strategies." key="description" />
+      </Head>
       <Navbar />
       <HeroBanner />
     

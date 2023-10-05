@@ -21,9 +21,9 @@ const Index = () => {
     <>
 
 <Head>
-        <title>AI-Driven Software Quality Assurance | SA Technologies Inc. </title>
-        <meta property="og:title" content="AI-Driven Software Quality Assurance | SA Technologies Inc." key="title" />
-        <meta name="description" content="Elevate software quality with AI-powered quality assurance services from SA Technologies. Comprehensive QA solutions for innovation and seamless user experiences." key="description" />
+        <title>Ensure Excellence quality with SA Technologies Software QA </title>
+        <meta property="og:title" content="Ensure Excellence quality with SA Technologies Software QA" key="title" />
+        <meta name="description" content="SA Technologies is a leading provider of AI-powered QA services. We can help you to develop and implement AI-powered QA solutions that will help you to achieve your software development goals and gain a competitive edge in the marketplace." key="description" />
       </Head>
 
       <Navbar />

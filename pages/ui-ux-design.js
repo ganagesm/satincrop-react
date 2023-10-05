@@ -17,9 +17,9 @@ const Index = () => {
   return (
     <>
     <Head>
-        <title>AI-Enhanced UI/UX Design | SA Technologies Inc.   </title>
-        <meta property="og:title" content="AI-Enhanced UI/UX Design | SA Technologies Inc.  " key="title" />
-        <meta name="description" content="Elevate user engagement with AI-powered UI/UX design solutions from SA Technologies. Our innovative approach combines aesthetics and functionality, delivering exceptional digital experiences." key="description" />
+        <title>Elevate User Engagement With AI-Powered UI/UX Design | SAT    </title>
+        <meta property="og:title" content="Elevate User Engagement With AI-Powered UI/UX Design | SAT   " key="title" />
+        <meta name="description" content="Experience the next-generation of UI/UX design with AI-powered solutions from SA Technologies." key="description" />
       </Head>
 
       <Navbar />

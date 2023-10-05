@@ -25,9 +25,9 @@ const Index = () => {
   return (
     <>
       <Head>
-        <title>GCC Services in India | SA Technologies GCC Solutions </title>
-        <meta property="og:title" content="GCC Services in India | SA Technologies GCC Solutions" key="title" />
-        <meta name="description" content="Unlock success in India with SA Technologies' comprehensive GCC services. From strategy to legal compliance, we streamline your global capability center journey." key="description" />
+        <title>Global Capability Center (GCC) Services in India | SA Technologies </title>
+        <meta property="og:title" content="Global Capability Center (GCC) Services in India | SA Technologies" key="title" />
+        <meta name="description" content="Explore SA Technologies GCC As a services for global expansion. Maximize efficiency and innovation with our support." key="description" />
       </Head>
 
       <Navbar />
@@ -135,7 +135,7 @@ const Index = () => {
                 </div>
                 <Link href="/kanak/">
                   <h5 style={{marginTop: "15px",marginBottom:"0",}}>Kanak Sahoo</h5>
-                  <p>Head Marketing Manager</p>
+                  <p>Marketing Manager</p>
                 </Link>
               </div>
             </div>
@@ -161,7 +161,7 @@ const Index = () => {
                   textAlign: "left",
                 }}
               >
-                <Link href="#contact" className="btn btn-primary">
+                <Link href="/contact-us/" className="btn btn-primary">
                   Contact Us
                 </Link>
               </div>
@@ -241,6 +241,42 @@ const Index = () => {
             <div className="row justify-content-center">
 
             <SwiperSlide>
+                <div className="single-blog-post">
+                  <div className="entry-thumbnail">
+                    <Link href="/The-Rise-of-GCC-in-India-Harnessing-the-Talent-rich-Landscape-for-Unparalleled-Benefits/">
+                      <img style={{width: "419px",height: "279px",}} src="/images/blog/amita-blog.png" alt="image" />
+                    </Link>
+                  </div>
+
+                  <div className="entry-post-content">
+                    <div className="entry-meta">
+                      <ul>
+                        <li>
+                          <Link href="#">Amita Bhosale</Link>
+                        </li>
+                        <li>August 23, 2023</li>
+                      </ul>
+                    </div>
+
+                    <h3>
+                      <Link href="/blog/The-Rise-of-GCC-in-India-Harnessing-the-Talent-rich-Landscape-for-Unparalleled-Benefits/">
+                        The Rise of GCC in India: Harnessing the Talent-rich Landscape for Unparalleled Benefits
+
+                      </Link>
+                    </h3>
+
+                    <p>
+                    In the digital age, Global Capability Centers (GCCs) are ...
+                    </p>
+
+                    <Link href="/blog/The-Rise-of-GCC-in-India-Harnessing-the-Talent-rich-Landscape-for-Unparalleled-Benefits/" className="learn-more-btn">
+                      Read More <i className="flaticon-add"></i>
+                    </Link>
+                  </div>
+                </div>
+              </SwiperSlide>
+
+              <SwiperSlide>
                 <div className="single-blog-post">
                   <div className="entry-thumbnail">
                     <Link href="/how-gccs-can-attain-outstanding-results/">

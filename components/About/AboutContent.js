@@ -8,8 +8,8 @@ return (
       <div className="row align-items-center">
         <div className="col-lg-6 col-md-12">
           <div className="about-image">
-            <img src="/images/about/4.jpg" alt="image" />
-            <img src="/images/about/5.jpg" alt="image" />
+            <img src="/images/about/about2.png" alt="image" />
+            <img src="/images/about/about.png" alt="image" />
           </div>
         </div>
 

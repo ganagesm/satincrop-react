@@ -1,8 +1,15 @@
 import React, { Component, useEffect } from "react";
-import { Helmet } from "react-helmet";
+import { useRouter } from 'next/router';
 import Link from "next/link";
 
 const Footer = () => {
+  const location = useRouter();
+
+  // Check if the current route is the career page
+  const isCareerPage = location.pathname === '/careers';
+
+  // Conditionally render the script based on the route
+
   //Zoho Sales Iq Script:
   const useScript = (url, widgetCode) => {
     useEffect(() => {
@@ -41,6 +48,7 @@ const Footer = () => {
                       width={80}
                     />
                   </Link>
+                  <img alt="cmmi5" src="./images/ca-cmmi_logo.jpeg" width={50} style={{ marginLeft: "10px", }} />
                   <p> SA Technologies Inc is a California based IT Consulting & Offshore Company headquartered at Santa Monica with offices in US, Canada, Singapore & India.</p>
                 </div>
 
@@ -92,7 +100,8 @@ const Footer = () => {
                     <Link href="/offshore">Blog</Link>
                   </li> */}
                   <li>
-                    <Link href="https://jobs.satincorp.com/jobs/Careers" target="_blank">Careers</Link>
+                    <Link href="/careers">Careers </Link>
+                    {/* <Link href="https://jobs.satincorp.com/jobs/Careers" target="_blank">Careers</Link> */}
                   </li>
                   <li>
                     <Link href="/about">About Us</Link>
@@ -163,7 +172,8 @@ const Footer = () => {
                     <span>Email:</span> <a href="mailto:sales@satincorp.com">sales@satincorp.com</a>
                   </li>
                   <li>
-                    <span>Phone:</span> <a href="tel:+917823025808">India : +91-7823025808</a>
+                    <span>Phone:</span> <a href="tel:+917823025808">India : +91 78757 87550</a>
+                    {/* <span>Phone:</span> <a href="tel:+917823025808">India : +91-7823025808</a> */}
                   </li>
                   <li>
                     <span>Phone:</span> <a href="tel:(408) 495-5822">US : (408) 495-5822</a>
@@ -204,10 +214,23 @@ const Footer = () => {
           <div className="line"></div>
           <div className="line"></div>
         </div>
+        <Link href="https://api.whatsapp.com/send/?phone=%2B9107875787550&text=Hi%21+I+want+to+know+more+about+SAT+Services" target="_blank" className="floatWhatsApp">
+          <img src="/images/icons/whatsApp.svg" alt="whatsapp" />
+        </Link>
       </footer>
 
-      <React.Fragment>
+      {/* <React.Fragment>
         {useScript('https://salesiq.zoho.in/widget', 'siqf0be5ba9aefe176393dfbe591c77fef43f5283d3b627b4cd0b623da1760ed2e4117e8194377283a5ded1bc7509f07a7f')}
+      </React.Fragment> */}
+
+      <React.Fragment>
+        {isCareerPage ? (
+          // Load the script on the career page
+          useScript('https://salesiq.zoho.in/widget', 'siqb6893c10dd1c1c4c4cdd0150c0fb02c9b296e864dc452fbee73744582c509b00')
+        ) : (
+          // Render something else for other pages
+          useScript('https://salesiq.zoho.in/widget', 'siqf0be5ba9aefe176393dfbe591c77fef43f5283d3b627b4cd0b623da1760ed2e4117e8194377283a5ded1bc7509f07a7f')
+        )}
       </React.Fragment>
     </>
   );

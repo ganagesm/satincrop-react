@@ -14,7 +14,11 @@ const Index = () => {
   return (
     <>
       
-
+      <Head>
+        <title>Malay Soni | Director of Talent Acquisition | SA Technologies    </title>
+        <meta property="og:title" content="Malay Soni | Director of Talent Acquisition | SA Technologies   " key="title" />
+        <meta name="description" content="Meet Malay Soni, Director of Talent Acquisition at SA Technologies, with 12+ years of expertise in technology, product, and design hiring. A chess enthusiast." key="description" />
+      </Head>
       <Navbar />
       <HeroBanner />
     

@@ -217,7 +217,7 @@ const PartnerContent = () => {
               <div className="ai-all-services-btn" data-aos="fade-in"
               data-aos-duration="1200"
               data-aos-delay="1800">
-                <Link href="/contact/" className="btn btn-primary">
+                <Link href="/contact-us/" className="btn btn-primary">
                   Discover More
                 </Link>
               </div>

@@ -19,7 +19,7 @@ const HeroBanner = () => {
         <SwiperSlide>
           <div
             className="main-banner"
-            style={{ backgroundImage: `url(/images/GCC-banner.png)` }}
+            style={{ backgroundImage: `url(/images/GCC-banner-5.png)` }}
           >
             <div className="container">
               <div className="main-banner-content">
@@ -27,7 +27,7 @@ const HeroBanner = () => {
                 SAT- Your GCC Partner in India: Where Excellence Meets Innovation
                 </h1>
                 <div className="btn-box">
-                  <Link href="/contact/" className="btn btn-primary">
+                  <Link href="/contact-us/" className="btn btn-primary">
                   Request a Call 
                   </Link>
                 </div>

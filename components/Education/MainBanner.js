@@ -22,7 +22,7 @@ const DomainSearch = () => {
 
             <ul className="banner-btn">
               <li>
-                <Link href="/contact" className="btn btn-primary">
+                <Link href="/contact-us/" className="btn btn-primary">
                 Get in touch now
                 </Link>
               </li>

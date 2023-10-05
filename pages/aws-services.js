@@ -18,9 +18,9 @@ const Index = () => {
     <>
 
       <Head>
-        <title>AWS Services | SA Technologies Inc.     </title>
-        <meta property="og:title" content="AWS Services | SA Technologies Inc.    " key="title" />
-        <meta name="description" content="Discover the power of AWS services for your business. Scale, innovate, and accelerate digital transformation with our comprehensive cloud solutions. " key="description" />
+        <title>Scale New Heights with AWS Services: SA Technologies Expertise  </title>
+        <meta property="og:title" content="Scale New Heights with AWS Services: SA Technologies Expertise " key="title" />
+        <meta name="description" content="Explore SA Technologies AWS services for secure, scalable, and flexible cloud solutions. Navigate the cloud confidently with AWS." key="description" />
       </Head>
 
       <Navbar />
@@ -36,7 +36,7 @@ const Index = () => {
       <ComputerVisionAI />
       <div className="col-lg-12 col-md-12">
         <div className="ai-all-services-btn ptb-50">
-          <Link href="#contact" className="btn btn-primary">
+          <Link href="/contact-us/" className="btn btn-primary">
             Contact Us
           </Link>
         </div>

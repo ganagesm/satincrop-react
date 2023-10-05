@@ -9,16 +9,18 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper";
 // import Model from "../components/GCC/Model";
 
-
 const Index = () => {
   return (
     <>
       
+      <Head>
+        <title>Sonal Sinha | HR Professional & GCC Expert | SA Technologies  </title>
+        <meta property="og:title" content="Sonal Sinha | HR Professional & GCC Expert | SA Technologies " key="title" />
+        <meta name="description" content="Meet Sonal Sinha, a seasoned HR professional with 10+ years of expertise, specializing in HR for Global Capability Centers (GCCs). Educational background includes PGDM and HR Management Diploma." key="description" />
+      </Head>
 
       <Navbar />
       <HeroBanner />
-    
-
         <div>
          
           {/* <div className="model-main">

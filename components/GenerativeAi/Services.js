@@ -33,7 +33,7 @@ const Services = () => {
             </div>
 
             <div className="col-lg-4 col-sm-6">
-              <div className="single-services-box" style={{ height: "250px" }}>
+              <div className="single-services-box">
                 <h2>
                   Enhanced Testing
 
@@ -47,7 +47,7 @@ const Services = () => {
 
           <div className="row">
             <div className="col-lg-4 col-sm-6">
-              <div className="single-services-box" style={{ height: "275px" }}>
+              <div className="single-services-box">
                 <h2>Project Management
 
                 </h2>
@@ -57,7 +57,7 @@ const Services = () => {
             </div>
 
             <div className="col-lg-4 col-sm-6">
-              <div className="single-services-box" style={{ height: "275px" }}>
+              <div className="single-services-box">
                 <h2>Intelligent Programming Assistants
 
 
@@ -68,7 +68,7 @@ const Services = () => {
             </div>
 
             <div className="col-lg-4 col-sm-6">
-              <div className="single-services-box" style={{ height: "275px" }}>
+              <div className="single-services-box">
                 <h2>
                   Chatbots and Virtual Assistants
 
@@ -81,7 +81,7 @@ const Services = () => {
           </div>
           <div className="row">
             <div className="col-lg-4 col-sm-6">
-              <div className="single-services-box" style={{ height: "235px" }}>
+              <div className="single-services-box">
                 <h2>Digital Marketing
 
                 </h2>
@@ -90,7 +90,7 @@ const Services = () => {
               </div>
             </div>
             <div className="col-lg-4 col-sm-6">
-              <div className="single-services-box" style={{ height: "235px" }}>
+              <div className="single-services-box">
                 <h2>Content Generation
 
                 </h2>

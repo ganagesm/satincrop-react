@@ -15,9 +15,9 @@ const Index = () => {
   return (
     <>
       <Head>
-        <title>ServiceNow Offerings | SA Technologies Inc. </title>
-        <meta property="og:title" content="ServiceNow Offerings | SA Technologies Inc." key="title" />
-        <meta name="description" content="Explore ServiceNow's IT service management, customer service, and HR service management solutions. Partner with us for ServiceNow consulting and implementation." key="description" />
+        <title>Streamline your Operations with ServiceNow by SA Technologies Expertise  </title>
+        <meta property="og:title" content="Streamline your Operations with ServiceNow by SA Technologies Expertise " key="title" />
+        <meta name="description" content="SA Technologies offers ServiceNow solutions for optimized service management. Discover ServiceNow's potential with SA Technologies." key="description" />
       </Head>
 
       <Navbar />
@@ -33,7 +33,7 @@ const Index = () => {
       <ComputerVisionAI />
       <div className="col-lg-12 col-md-12">
         <div className="ai-all-services-btn ptb-50">
-          <Link href="#contact" className="btn btn-primary">
+          <Link href="/contact-us/" className="btn btn-primary">
             Contact Us
           </Link>
         </div>

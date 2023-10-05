@@ -22,9 +22,9 @@ const Index = () => {
     <>
 
       <Head>
-        <title>AI-Enhanced Software Development | SA Technologies Inc.    </title>
+        <title>Leading the Way in AI-Enhanced Software Development   </title>
         <meta property="og:title" content="AI-Enhanced Software Development | SA Technologies Inc.   " key="title" />
-        <meta name="description" content="Elevate your software with AI-powered development from SA Technologies. Our expert team creates user-centric, responsive, and secure solutions tailored to your needs. " key="description" />
+        <meta name="description" content="SA Technologies is at the forefront of AI-enhanced software development, helping businesses to create innovative and cutting-edge solutions. Our team of experts has the skills and experience to help you turn your ideas into reality " key="description" />
       </Head>
 
       <Navbar />

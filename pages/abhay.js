@@ -14,11 +14,14 @@ const Index = () => {
   return (
     <>
       
+      <Head>
+        <title>Abhay Bhan | Director of Client Engagement Europe | SA Technologies </title>
+        <meta property="og:title" content="Abhay Bhan | Director of Client Engagement Europe | SA Technologies" key="title" />
+        <meta name="description" content="Meet Abhay Bhan, Director of Client Engagement Europe at SA Technologies, with 12+ years of experience in client engagement, GCC operations, and staffing solutions." key="description" />
+      </Head>
 
       <Navbar />
       <HeroBanner />
-    
-
         <div>
          
           {/* <div className="model-main">

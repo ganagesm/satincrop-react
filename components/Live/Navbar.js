@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 import Link from "next/link";
+import HeaderTopBar from "./HeaderTopBar";
 
 const Navbar = () => {
   // Add active class
@@ -42,7 +43,9 @@ const Navbar = () => {
 
   return (
     <>
-      <div id="navbar" className="navbar-area">
+    <HeaderTopBar />
+      {/* <div id="navbar" className="navbar-area"> */}
+      <div id="navbar" className="navbar-area navbar-area-with-position-relative">
         <div className="main-nav">
           <div className="container">
             <nav className="navbar navbar-expand-md navbar-light">
@@ -61,6 +64,12 @@ const Navbar = () => {
                   width={80}
                 />
               </Link>
+
+              <div className="cmmi"><h4> A CMMI Level <span>5</span> Company </h4>
+              {/* <p>Level <span>5</span></p>*/}
+              </div> 
+
+              {/* <img alt="cmmi5" src="./images/ca-cmmi_logo.jpeg" width={50} style={{ marginRight: "10px", }} /> */}
 
               <button
                 onClick={toggleNavbar}
@@ -302,6 +311,15 @@ const Navbar = () => {
                           Service Now
                         </Link>
                       </li>
+                      <li className="nav-item">
+                        <Link
+                          href="/mendix"
+                          className={`nav-link ${currentPath == "/mendix" && "active"
+                            }`}
+                        >
+                          Mendix
+                        </Link>
+                      </li>
                     </ul>
                   </li>
                   <li className="nav-item">
@@ -372,6 +390,107 @@ const Navbar = () => {
                      Internal Audit
                     </Link>
                   </li>
+
+                  <li className="nav-item">
+                    <Link
+                      href="#"
+                      className={`nav-link ${currentPath == "/education" || currentPath === "/government" || currentPath === "/healthcare" || currentPath === "/media-entertainment" || currentPath === "/semiconductor" || currentPath === "/manufacturing" || currentPath === "/Product-services" || currentPath === "/retail" || currentPath === "/fmcd" ? "active"
+                          : ""
+                        }`}
+                    >
+                     Industry
+                    </Link>
+                    <ul className="dropdown-menu">
+                      <li className="nav-item">
+                        <Link
+                          href="/education"
+                          className={`nav-link ${currentPath == "/education" && "active"
+                            }`}
+                        >
+                          Education
+                        </Link>
+                      </li>
+
+                      <li className="nav-item">
+                        <Link
+                          href="/government"
+                          className={`nav-link ${currentPath == "/government" && "active"
+                            }`}
+                        >
+                          Government
+                        </Link>
+                      </li>
+
+                      <li className="nav-item">
+                        <Link
+                          href="/healthcare"
+                          className={`nav-link ${currentPath == "/healthcare" && "active"
+                            }`}
+                        >
+                          Healthcare
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link
+                          href="/media-entertainment"
+                          className={`nav-link ${currentPath == "/media-entertainment" && "active"
+                            }`}
+                        >
+                          Media and Entertainment
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link
+                          href="/semiconductor"
+                          className={`nav-link ${currentPath == "/semiconductor" && "active"
+                            }`}
+                        >
+                          Semiconductor
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link
+                          href="/manufacturing"
+                          className={`nav-link ${currentPath == "/manufacturing" && "active"
+                            }`}
+                        >
+                          Manufacturing
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link
+                          href="/Product-services"
+                          className={`nav-link ${currentPath == "/Product-services" && "active"
+                            }`}
+                        >
+                          IT Product and services
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link
+                          href="/retail"
+                          className={`nav-link ${currentPath == "/retail" && "active"
+                            }`}
+                        >
+                         Retail
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link
+                          href="/fmcd"
+                          className={`nav-link ${currentPath == "/fmcd" && "active"
+                            }`}
+                        >
+                          FMCD
+                        </Link>
+                      </li>
+                    </ul>
+                  </li> 
+
+
+
+
+
                 </ul>
                 {/* others-options */}
                 <div className="others-options">

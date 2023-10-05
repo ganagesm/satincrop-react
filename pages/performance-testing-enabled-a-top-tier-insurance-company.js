@@ -4,10 +4,18 @@ import SwiftlyPageBanner from "../components/CaseStudies/SwiftlyPageBanner";
 import BlogDetailsContent from "../components/CaseStudies/BlogDetailsContent";
 import Footer from "../components/Live/Footer";
 import Link from "next/link";
+import Head from 'next/head';
 
 const BlogDetails = () => {
   return (
     <>
+
+      <Head>
+        <title>Improving Web Application Performance: SA Technologies' Case Study with an Insurance Company</title>
+        <meta property="og:title" content="SA Technologies | Elevating Fin-tech Software Quality & Compliance" key="title" />
+        <meta name="description" content="Learn how SA Technologies performance testing services helped a leading insurance company enhance its web application's performance and user experience." key="description" />
+      </Head>
+
       <Navbar />
 
       <SwiftlyPageBanner

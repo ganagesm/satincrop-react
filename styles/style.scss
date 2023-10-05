@@ -3585,6 +3585,43 @@ Page Title Area CSS
         }
         
     }
+    &.item-bg9 {
+        background: {
+            image:  url(/images/technology-banner/google-banner.png);
+        }
+        
+    }
+    &.item-bg10 {
+        background: {
+            image:  url(/images/technology-banner/htd-banner.jpeg);;
+        }
+        
+    }
+    &.item-bg11 {
+        background: {
+            image:  url(/images/technology-banner/payroll.png);
+        }
+        
+    }
+    &.item-bg12 {
+        background: {
+            image:  url(/images/technology-banner/contact.png);
+        }
+        
+    }
+    &.item-bg13 {
+        background: {
+            image:  url(/images/technology-banner/MendixBanner.jpg);
+        }
+        
+    }
+    &.item-bg14 {
+        background: {
+            image:  url(/images/technology-banner/RPO.png);
+        }
+        
+    }
+
 }
 .page-title-content {
     h2 {
@@ -9885,4 +9922,62 @@ a.btn.btn-primary.cnt_btn {
     box-shadow: 0px 7px 10px #ccc;
     padding: 10px;
 }
+.floatWhatsApp {
+    position: fixed;
+    width: 80px;
+    height: 80px;
+    bottom: 15%;
+    right: 0;
+    /* background-color: #0C9; */
+    color: #FFF;
+    /* border-radius: 50px; */
+    text-align: center;
+    /* box-shadow: 2px 2px 3px #999; */
+    z-index: 999999;
+}
+.cmmi {
+  font-style: italic;
+  
+    h4 {
+      margin-bottom: -4px;
+      color: #0a1f5e;
+      font-size: 16px;
+      margin-top: 21px;
+    }
+p {
+    font-size: 11px;
+    float: right;
+    color: #0a1f5e;
+  }
+span {
+    color: #fd0107;
+    font-size: 14px;
+    font-weight: 700;
+  }
+}
+.content.tm_title {
+     h3 {
+        text-align: initial;
+        font-size: 20px;
+    }
+}
+.c_img {
+
+    a {
+        width: 100%;
+    
+    }
+
+    img {
+        width: 100% !important;
+    }
+
+}
+
+.glass_logo{
+
+    float: right;
+    
+}
+
 /*End "Home Demo - 6", "Home Demo - 7" & "Home Demo - 8" Style CSS*/

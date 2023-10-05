@@ -22,7 +22,7 @@ const Index = () => {
       <Head>
         <title>IoT Services  | SA Technologies Inc. </title>
         <meta property="og:title" content="IoT Services  | SA Technologies Inc." key="title" />
-        <meta name="description" content="Explore the future of IoT (Internet of Things) services with SA Technologies. Revolutionize your business with IoT strategy, device development, platform integration, security, and support. " key="description" />
+        <meta name="description" content="Experience the transformative power of IoT services with SA Technologies. Our comprehensive solutions can help you revolutionize your business and achieve your goals. " key="description" />
       </Head>
 
       <Navbar />

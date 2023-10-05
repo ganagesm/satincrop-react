@@ -16,9 +16,9 @@ const Index = () => {
   return (
     <>
       <Head>
-        <title>Generative AI Services | SA Technologies Inc. </title>
-        <meta property="og:title" content="Generative AI Services | SA Technologies Inc." key="title" />
-        <meta name="description" content="Experience limitless innovation with Generative AI services from SA Technologies. Transform content creation, automate code generation, enhance testing, and more. Discover the future of AI. " key="description" />
+        <title>Unlock Innovation with SA Technologies Generative AI Solutions  </title>
+        <meta property="og:title" content="Unlock Innovation with SA Technologies Generative AI Solutions " key="title" />
+        <meta name="description" content="Experience the future of AI-driven creativity and automation. SA Technologies offers secure Generative AI solutions for transformative outcomes." key="description" />
       </Head>
 
 

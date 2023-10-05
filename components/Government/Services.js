@@ -21,7 +21,7 @@ const Services = () => {
                   <img src="/images/home-six/services/icon1.png" alt="icon" />
                 </div>
                 <h3>
-                  <Link href="/service-details">Data Analytics:</Link>
+                  <Link href="/service-details">Data Analytics</Link>
                 </h3>
                 <p> Offer AI and machine learning solutions for analyzing government data and deriving actionable insights.  </p>
 
@@ -33,8 +33,8 @@ const Services = () => {
 
             <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="single-services-card">
-                <div className="image-icon bg-two">
-                  <img src="/images/home-six/services/icon2.png" alt="icon" />
+                <div className="image-icon bg-six">
+                  <img src="/images/home-six/services/icon6.png" alt="icon" />
                 </div>
                 <h3>
                   <Link href="/service-details">Cybersecurity and Data Privacy</Link>
@@ -50,7 +50,7 @@ const Services = () => {
             <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="single-services-card">
                 <div className="image-icon bg-three">
-                  <img src="/images/home-six/services/icon3.png" alt="icon" />
+                  <img src="/images/home-six/services/InfrastructureManagement.png" alt="icon" />
                 </div>
                 <h3>
                   <Link href="/service-details">Infrastructure Management</Link>
