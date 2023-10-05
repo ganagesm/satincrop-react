@@ -32,7 +32,7 @@ const HeroBanner = () => {
                 </p> */}
 
                 <div className="btn-box">
-                  <Link href="/contact" className="btn btn-primary">
+                  <Link href="/contact-us/" className="btn btn-primary">
                     Get in touch now
                   </Link>
                 </div>

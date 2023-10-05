@@ -28,7 +28,7 @@ Revolutionizing Digital Solutions: AI-Powered Mastery by SA Technologies </h1>
                 {/* <p> Faster Development with AI Integration, High-Quality Apps with Intelligent Features, Enhanced Security with AI-Driven Solutions, AI for Predictive Analysis and Smart Decision-Making </p> */}
 
                 <div className="btn-box">
-                  <Link href="/contact/" className="btn btn-primary">
+                  <Link href="/contact-us/" className="btn btn-primary">
                     Schedule a Call
                   </Link>
                 </div>
