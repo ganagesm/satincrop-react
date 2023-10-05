@@ -28,7 +28,7 @@ const HeroBanner = () => {
                 {/* <p> Nearshore, offshore, onsite. Hire talent anywhere or let our experts unlock business value for you with bleeding edge technologies. </p> */}
 
                 <div className="btn-box">
-                  <Link href="/contact/" className="btn btn-primary">
+                  <Link href="/contact-us/" className="btn btn-primary">
                     Get in touch now
                   </Link>
                 </div>
@@ -49,7 +49,7 @@ const HeroBanner = () => {
                 <h5 style={{ color: "#fff", marginTop: "10px", fontSize: '34px' }}>India's Best Workplace for Women in 2023</h5>
                 <h2 style={{ color: "#fff" }}>Top 50 | Mid Size</h2>
                 <div className="btn-box">
-                  <Link href="/contact/" className="btn btn-primary">
+                  <Link href="/careers/" className="btn btn-primary">
                     Get in touch now
                   </Link>
                 </div>
