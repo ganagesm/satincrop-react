@@ -8,6 +8,7 @@ import PartnerContent from "../components/Live/PartnerContent";
 import Testimonials from "../components/Live/Testimonials";
 import TechSlider from "../components/Live/TechSlider";
 import BlogPostSlider from "../components/Live/BlogPostSlider";
+import NewsPostSlider from "../components/Live/NewsPostSlider";
 import AboutContact from "../components/Live/AboutContent";
 import CEOCorner from "../components/Live/CEOCorner";
 import Offices from "../components/Live/Offices";
@@ -29,6 +30,7 @@ const Index = () => {
       <HeroBanner />
       <AboutContact />
       <PartnerContent />
+      <NewsPostSlider />
       <Services />
       {/* <MainServices /> */}
       <TechSlider />
