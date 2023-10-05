@@ -1,8 +1,15 @@
 import React, { Component, useEffect } from "react";
-import { Helmet } from "react-helmet";
+import { useRouter } from 'next/router';
 import Link from "next/link";
 
 const Footer = () => {
+  const location = useRouter();
+
+  // Check if the current route is the career page
+  const isCareerPage = location.pathname === '/careers';
+
+  // Conditionally render the script based on the route
+
   //Zoho Sales Iq Script:
   const useScript = (url, widgetCode) => {
     useEffect(() => {
@@ -93,7 +100,8 @@ const Footer = () => {
                     <Link href="/offshore">Blog</Link>
                   </li> */}
                   <li>
-                    <Link href="https://jobs.satincorp.com/jobs/Careers" target="_blank">Careers</Link>
+                    <Link href="/careers">Join Our Team </Link>
+                    {/* <Link href="https://jobs.satincorp.com/jobs/Careers" target="_blank">Careers</Link> */}
                   </li>
                   <li>
                     <Link href="/about">About Us</Link>
@@ -202,8 +210,18 @@ const Footer = () => {
         </Link>
       </footer>
 
-      <React.Fragment>
+      {/* <React.Fragment>
         {useScript('https://salesiq.zoho.in/widget', 'siqf0be5ba9aefe176393dfbe591c77fef43f5283d3b627b4cd0b623da1760ed2e4117e8194377283a5ded1bc7509f07a7f')}
+      </React.Fragment> */}
+
+      <React.Fragment>
+        {isCareerPage ? (
+          // Load the script on the career page
+          useScript('https://salesiq.zoho.in/widget', 'siqb6893c10dd1c1c4c4cdd0150c0fb02c9b296e864dc452fbee73744582c509b00')
+        ) : (
+          // Render something else for other pages
+          useScript('https://salesiq.zoho.in/widget', 'siqf0be5ba9aefe176393dfbe591c77fef43f5283d3b627b4cd0b623da1760ed2e4117e8194377283a5ded1bc7509f07a7f')
+        )}
       </React.Fragment>
     </>
   );
