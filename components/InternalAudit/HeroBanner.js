@@ -27,7 +27,7 @@ const HeroBanner = () => {
                 SA Technologies: Paving Your Efficient Path to SOX Compliance with Cost-Effective Solutions
                 </h1>
                 <div className="btn-box">
-                  <Link href="/contact/" className="btn btn-primary">
+                  <Link href="/contact-us/" className="btn btn-primary">
                     Schedule a Call
                   </Link>
                 </div>

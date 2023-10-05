@@ -39,7 +39,7 @@ const PageBanner = ({
             <div className="services-details-image">
               <img
               style={{  
-                height: "570px",
+                height: "562px",
                 width: "100%",
               }}
                 src="/images/blog/amita-blog.png"

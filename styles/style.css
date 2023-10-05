@@ -3054,9 +3054,26 @@ Page Title Area CSS
     background-image: url(/images/technology-banner/servicenow-banner.jpg);
 }
 .page-title-area.item-bg8 {
-    background-image: url(/images/technology-banner/Contingent.jpg);
+    background-image: url(/images/technology-banner/Contingent.png);
 }
-
+.page-title-area.item-bg9 {
+    background-image: url(/images/technology-banner/google-banner.png);
+}
+.page-title-area.item-bg10 {
+    background-image: url(/images/technology-banner/htd-banner.jpeg);
+}
+.page-title-area.item-bg11 {
+    background-image: url(/images/technology-banner/payroll.png);
+}
+.page-title-area.item-bg12 {
+    background-image: url(/images/technology-banner/contact.png);
+}
+.page-title-area.item-bg13 {
+    background-image: url(/images/technology-banner/MendixBanner.jpg);
+}
+.page-title-area.item-bg14 {
+    background-image: url(/images/technology-banner/RPO.png);
+}
 .page-title-content h2 {
     margin-bottom: 0;
     color: #ffffff;

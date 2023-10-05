@@ -96,7 +96,7 @@ const ComputerVisionAI = () => {
                   </div>
                 </div>
                 <div className="computer-vision-ai-btn">
-                  <Link href="/contact" className="btn btn-primary">
+                  <Link href="/contact-us/" className="btn btn-primary">
                     Get in touch now
                   </Link>
                 </div>

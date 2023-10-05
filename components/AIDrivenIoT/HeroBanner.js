@@ -25,7 +25,7 @@ const HeroBanner = () => {
               <div className="main-banner-content">
                 <h1>Your Gateway to the Future of IoT Services   </h1>
                 <div className="btn-box">
-                  <Link href="/contact/" className="btn btn-primary">
+                  <Link href="/contact-us/" className="btn btn-primary">
                     Schedule a Call
                   </Link>
                 </div>

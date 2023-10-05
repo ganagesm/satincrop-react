@@ -28,13 +28,13 @@ const ServiceDetails = () => {
         homePageUrl="/"
         homePageText="Home"
         activePageText="RPO"
-        bgImgClass="item-bg9"
+        bgImgClass="item-bg14"
       />
       <RpoServices />
       {/* <RpoServiceDetailsContent /> */}
       <div className="col-lg-12 col-md-12">
         <div className="ai-all-services-btn ptb-50">
-          <Link href="#contact" className="btn btn-primary">
+          <Link href="/contact-us/" className="btn btn-primary">
             Contact Us
           </Link>
         </div>
