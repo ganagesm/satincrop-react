@@ -10,6 +10,9 @@ import ComputerVisionAI from "../components/Careers/ComputerVisionAI";
 import ContactFormContent from "../components/Common/ContactFormContent";
 import Team from "../components/Careers/Team";
 import Award from "../components/Careers/Award";
+import GoGlobal from "../components/Careers/GoGlobal";
+import Cta from "../components/Careers/Cta";
+import Rating from "../components/Careers/Rating";
 
 const Careers = () => {
   return (
@@ -28,9 +31,15 @@ const Careers = () => {
 
       <Services />
 
+      <GoGlobal />
+
+      <Cta />
+
       <Team />
 
       <Award />
+
+      <Rating />
      
       {/* <ComputerVisionAI /> */}
 

@@ -11,11 +11,11 @@ const DomainSearch = () => {
         sources={["https://www.youtube.com/embed/bk7McNUjWgw"]}
       /> */}
 
-      <div style={{ backgroundImage: `url(/images/technology-banner/career-banner.png)`, padding:"100px 0px" , backgroundSize: "100%", }}>
+      <div style={{ backgroundImage: `url(/images/technology-banner/career-banner.png)`, padding:"100px 0px" , backgroundSize: "cover", }}>
         <div className="container-fluid">
-          <div className="ai-main-banner-content">
+          <div className="ai-main-banner-content" style={{maxWidth: "1280px",textAlign:"left",}}>
             <h1 style={{color:"#fff"}}>Find Your Passion</h1>
-             <p style={{color:"#fff", fontSize: '25px'}}>Join us and kickstart your career with a global tech firm, offering the freedom to foster your growth, your way.</p> 
+             <p style={{color:"#fff", fontSize: '25px',maxWidth: "1280px",textAlign:"left",}}>Join us and kickstart your career with a global tech firm, <br /> offering the freedom to foster your growth, your way.</p> 
 
             <ul className="banner-btn">
               {/* <li>
