@@ -29,7 +29,7 @@ const TechSlider = () => {
               },
             }}
             modules={[Autoplay]}
-            className="partner-slides"
+            className="tech-slides"
           >
             <SwiperSlide>
               <div className="single-partner-item">
