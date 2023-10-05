@@ -16,7 +16,7 @@ const Services = () => {
             <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="single-services-card">
                 <div className="image-icon">
-                  <img src="/images/home-six/services/mobile-app.png" alt="icon" />
+                  <img src="/images/icon/Learning & development.png" alt="icon" />
                 </div>
                 <h3>
                   <Link href="/service-details">Learning & Development</Link>
@@ -32,7 +32,7 @@ const Services = () => {
             <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="single-services-card">
                 <div className="image-icon bg-two">
-                  <img src="/images/home-six/services/Datamanagement.png" alt="icon" />
+                  <img src="/images/icon/Fun environment.png" alt="icon" />
                 </div>
                 <h3>
                   <Link href="/service-details">An Energizing & Fun Environment</Link>
@@ -47,7 +47,7 @@ const Services = () => {
             <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="single-services-card">
                 <div className="image-icon">
-                  <img src="/images/home-six/services/icon1.png" alt="icon" />
+                  <img src="/images/icon/healthcare.png" alt="icon" />
                 </div>
                 <h3>
                   <Link href="/service-details">Comprehensive Employee Healthcare</Link>
@@ -62,7 +62,7 @@ const Services = () => {
             <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="single-services-card">
                 <div className="image-icon bg-four">
-                  <img src="/images/home-six/services/Cloudservices.png" alt="icon" />
+                  <img src="/images/icon/work-life-balance.png" alt="icon" />
                 </div>
                 <h3>
                   <Link href="/service-details">Authentic Work-Life Balance</Link>
@@ -77,7 +77,7 @@ const Services = () => {
             <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="single-services-card">
                 <div className="image-icon bg-five">
-                  <img src="/images/home-six/services/icon5.png" alt="icon" />
+                  <img src="/images/icon/Career Advancement.png" alt="icon" />
                 </div>
                 <h3>
                   <Link href="/service-details">Infinite Career Advancement</Link>
@@ -92,7 +92,7 @@ const Services = () => {
             <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="single-services-card">
                 <div className="image-icon bg-six">
-                  <img src="/images/home-six/services/icon6.png" alt="icon" />
+                  <img src="/images/icon/Work-cluture.png" alt="icon" />
                 </div>
                 <h3>
                   <Link href="/service-details">Versatile Working Culture</Link>
