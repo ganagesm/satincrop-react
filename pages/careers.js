@@ -13,10 +13,18 @@ import Award from "../components/Careers/Award";
 import GoGlobal from "../components/Careers/GoGlobal";
 import Cta from "../components/Careers/Cta";
 import Rating from "../components/Careers/Rating";
+import Head from 'next/head';
 
 const Careers = () => {
   return (
     <>
+
+      <Head>
+        <title>Join Our Team: Exciting Career Opportunities at SAT | Apply Now!</title>
+        <meta property="og:title" content="Get in Touch with SA Technologies Experts | Contact Us Today" key="title" />
+        <meta name="description" content="Embark on a rewarding career journey with SA Technologies. Explore, innovate, and grow in a workplace that values collaboration and personal development. Your future starts here!" key="description" />
+      </Head>
+
       {/* <TopHeader /> */}
 
       <Navbar />
