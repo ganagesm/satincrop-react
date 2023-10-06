@@ -125,3 +125,4 @@ const AboutAI = () => {
 };
 
 export default AboutAI;
+
