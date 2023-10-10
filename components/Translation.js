@@ -12,7 +12,7 @@ export default function Home() {
   const googleTranslateElementInit = () => {
 
     new window.google.translate.TranslateElement({
-      pageLanguage: 'en',
+      // pageLanguage: 'en',
       includedLanguages: "en,ms,ta,zh-CN,ar,hi,ja,ko,fr", // include this for selected languages
       layout: google.translate.TranslateElement.InlineLayout.SIMPLE
     },

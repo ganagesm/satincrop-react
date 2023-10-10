@@ -12,6 +12,9 @@ const nextConfig = {
 // module.exports = nextConfig
 
 module.exports = {
+  i18n: {
+    locales: ['en-US', 'fr', 'nl-NL'],
+  },
   webpack5: true,
   webpack: (config) => {
     config.resolve.fallback = { fs: false };
