@@ -14,7 +14,7 @@ export default function Home() {
     // Function to get user's country using geolocation API
     async function getUserCountry() {
       try {
-        const response = await fetch("https://ipinfo.io?token=YOUR_API_KEY");
+        const response = await fetch("https://ipinfo.io?token=509a36aed52583");
         const data = await response.json();
         return data.country;
       } catch (error) {
@@ -31,8 +31,11 @@ export default function Home() {
         case 'FR':
           return 'fr'; // French as default for France
         // Add more cases for other countries as needed
+        case 'RU':
+          return 'ru'; // French as default for France
+        // Add more cases for other countries as needed
         default:
-          return 'en'; // Default to English for unknown countries
+          return null; // Default to null for unknown countries
       }
     }
 
@@ -45,7 +48,6 @@ export default function Home() {
 
       // Map user's country to a language
       const language = mapCountryToLanguage(country);
-      setSelectedLanguage(language);
 
       // Initialize Google Translate when the script is loaded
       const addScript = document.createElement('script');
@@ -53,11 +55,19 @@ export default function Home() {
       document.body.appendChild(addScript);
 
       window.googleTranslateElementInit = () => {
+        // Set the page language to the user's language if available,
+        // otherwise set it to English as a default
+        const pageLanguage = language || 'en';
+        const includedLanguages = "`{selectedLanguage}`,ru,en,ms,ta,zh-CN,ar,hi,ja,ko,fr"; // include this for selected languages
+        
+        console.log("language", language)
         new window.google.translate.TranslateElement({
-          pageLanguage: language, // Set the page language based on user's country or default
-          includedLanguages: "en,ms,ta,zh-CN,ar,hi,ja,ko,fr", // include this for selected languages
+          pageLanguage,
+          includedLanguages,
           layout: google.translate.TranslateElement.InlineLayout.SIMPLE
         }, 'google_translate_element');
+        
+        setSelectedLanguage(pageLanguage);
       };
     });
   }, []);
@@ -65,7 +75,11 @@ export default function Home() {
   return (
     <div>
       <p>User Country: {userCountry}</p>
-      <p>Selected Language: {selectedLanguage}</p>
+      {selectedLanguage ? (
+        <p>Selected Language: {selectedLanguage}</p>
+      ) : (
+        <p>Loading...</p>
+      )}
       <li id="google_translate_element"></li>
     </div>
   );

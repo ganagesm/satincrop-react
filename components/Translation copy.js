@@ -24,3 +24,6 @@ export default function Home() {
       <li id="google_translate_element" > </li>
   )
 }
+
+
+// 509a36aed52583/
