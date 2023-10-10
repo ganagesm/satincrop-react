@@ -7,6 +7,24 @@ export default function Home() {
     addScript.setAttribute('src', '//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit');
     document.body.appendChild(addScript);
     window.googleTranslateElementInit = googleTranslateElementInit;
+    // Function to get user's language
+    function getUserLanguage() {
+      const userLanguage = window.navigator.language || window.navigator.userLanguage;
+      return userLanguage;
+    }
+
+    // Function to get user's country
+    function getUserCountry() {
+      const userCountry = window.navigator.geolocation?.country;
+      return userCountry;
+    }
+
+    // Get user's language and country
+    const userLanguage = getUserLanguage();
+    const userCountry = getUserCountry();
+
+    console.log('User Language:', userLanguage);
+    console.log('User Country:', userCountry);
   }, [])
 
   const googleTranslateElementInit = () => {
@@ -20,6 +38,6 @@ export default function Home() {
   }
 
   return (
-      <li id="google_translate_element" > </li>
+    <li id="google_translate_element" > </li>
   )
 }
