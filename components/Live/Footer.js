@@ -214,7 +214,7 @@ const Footer = () => {
           <div className="line"></div>
           <div className="line"></div>
         </div>
-        <Link href="https://api.whatsapp.com/send/?phone=%2B9107875787550&text=Hi%21+I+want+to+know+more+about+SAT+Services" target="_blank" className="floatWhatsApp">
+        <Link href="https://api.whatsapp.com/send/?phone=%2B9107875787550&text=Hello!%20I%27m%20interested%20in%20exploring%20your%20SAT%20Services.%20Can%20you%20share%20more%20details?" target="_blank" className="floatWhatsApp">
           <img src="/images/icons/whatsApp.svg" alt="whatsapp" />
         </Link>
       </footer>
