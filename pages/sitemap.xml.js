@@ -106,11 +106,6 @@ const generateSitemap = () => {
      <changefreq>daily</changefreq>
   </url>
   <url>
-     <loc>hhttps://www.satincorp.com/payroll-outsourcing-services</loc>
-     <priority>0.9</priority>
-     <changefreq>daily</changefreq>
-  </url>
-  <url>
      <loc>https://www.satincorp.com/gcc</loc>
      <priority>0.9</priority>
      <changefreq>daily</changefreq>
