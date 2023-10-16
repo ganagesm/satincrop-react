@@ -161,16 +161,16 @@ const Footer = () => {
                 data-aos-duration="1200"
                 data-aos-delay="400"
               >
-                <h3>Contact</h3>
+                <h3>S A Tech Software India Private Limited</h3>
 
                 <ul className="footer-contact-list">
                   <li>
-                    <span>Address:</span>
-                    3031 Tisch Way, 110 Plaza West, <br /> San Jose, CA 95128
+                    <span>India :</span>
+                    6<sup>th</sup> Floor, Office No D-6030, Solitaire Business Hub, Sr. No. 207, Viman Nagar, Pune, Maharashtra, 411014
                   </li>
                   <li>
-                    <span>India Address :</span>
-                    6<sup>th</sup> Floor, Office No D-6030, Solitaire Business Hub, Sr. No. 207, Viman Nagar, Pune, Maharashtra, 411014
+                    <span>US :</span>
+                    3031 Tisch Way, 110 Plaza West, <br /> San Jose, CA 95128
                   </li>
                   <li>
                     <span>Email:</span> <a href="mailto:sales@satincorp.com">sales@satincorp.com</a>
