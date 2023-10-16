@@ -169,6 +169,10 @@ const Footer = () => {
                     3031 Tisch Way, 110 Plaza West, <br /> San Jose, CA 95128
                   </li>
                   <li>
+                    <span>India Address :</span>
+                    6<sup>th</sup> Floor, Office No D-6030, Solitaire Business Hub, Sr. No. 207, Viman Nagar, Pune, Maharashtra, 411014
+                  </li>
+                  <li>
                     <span>Email:</span> <a href="mailto:sales@satincorp.com">sales@satincorp.com</a>
                   </li>
                   <li>
