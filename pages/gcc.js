@@ -14,8 +14,8 @@ import { Autoplay } from "swiper";
 
 
 const Index = () => {
-  const[profile_model, setPop]=useState(false);
-  
+  const [profile_model, setPop] = useState(false);
+
   const handleclickopen = () => {
     setPop(!profile_model)
   }
@@ -47,99 +47,115 @@ const Index = () => {
 
           <div className="row">
             <div className="col-lg-3 col-sm-6">
-              <div className="team_box">
-                <div className="">
+              <div className=" single-team-box">
+                <div className="image">
                   <img src="/images/team/abhay.jpg" alt="image" />
                 </div>
+                <div className="content">
                   <Link href="/abhay/" >
-                    <h5 style={{ marginTop: "15px", marginBottom:"0",}}>Abhay Bhan</h5>
+                    <h5 style={{ marginTop: "15px", marginBottom: "0", }}>Abhay Bhan</h5>
                     <p>Director Client Engagement <br /> (Europe)</p>
                   </Link>
+                </div>
               </div>
             </div>
             <div className="col-lg-3 col-sm-6">
-              <div className="team_box">
-                <div className="">
+              <div className="single-team-box">
+                <div className="image">
                   <img src="/images/team/Sonal.png" alt="image" />
                 </div>
-                <Link href="/sonal-sinha/" >
-                  <h5 style={{marginTop: "15px",marginBottom:"0",}}>Sonal Sinha</h5>
-                  <p>Director HR & Operations</p>
-                </Link>
+                <div className="content">
+                  <Link href="/sonal-sinha/" >
+                    <h5 style={{ marginTop: "15px", marginBottom: "0", }}>Sonal Sinha</h5>
+                    <p>Director HR & Operations <br /><br /></p>
+                  </Link>
+                </div>
               </div>
             </div>
             <div className="col-lg-3 col-sm-6">
-              <div className="team_box">
-                <div className="">
+              <div className="single-team-box">
+                <div className="image">
                   <img src="/images/team/sudha.jpg" alt="image" />
                 </div>
-                <Link href="/vasudha-kanade/" >
-                <h5 style={{marginTop: "15px",marginBottom:"0",}}>Vasudha Kanade</h5>
-                <p>Director Finance & Compliance</p>
-                </Link>
+                <div className="content">
+                  <Link href="/vasudha-kanade/" >
+                    <h5 style={{ marginTop: "15px", marginBottom: "0", }}>Vasudha Kanade</h5>
+                    <p>Director Finance & Compliance <br /><br /></p>
+                  </Link>
+                </div>
               </div>
             </div>
             <div className="col-lg-3 col-sm-6">
-              <div className="team_box">
-                <div className="">
+              <div className="single-team-box">
+                <div className="image">
                   <img src="/images/team/amita.jpg" alt="image" />
                 </div>
-                <Link href="/amita/" >
-                  <h5 style={{marginTop: "15px",marginBottom:"0",}}>Amita Bhosale</h5>
-                  <p>Director Client Engagement <br /> (North America) </p>
-                </Link>
+                <div className="content">
+                  <Link href="/amita/" >
+                    <h5 style={{ marginTop: "15px", marginBottom: "0", }}>Amita Bhosale</h5>
+                    <p>Director Client Engagement <br /> (North America) </p>
+                  </Link>
+                </div>
               </div>
             </div>
-            
+
           </div>
-          <div className="row" style={{marginTop:"20px",}}>
-           
+          <div className="row" style={{ marginTop: "20px", }}>
+
             <div className="col-lg-3 col-sm-6">
-              <div className="team_box">
-                <div className="">
+              <div className="single-team-box">
+                <div className="image">
                   <img src="/images/team/Malay.png" alt="image" />
                 </div>
-                <Link href="/malay/" >
-                  <h5 style={{marginTop: "15px",marginBottom:"0",}}>Malay Soni</h5>
-                  <p>Director Talent Acquisition</p>
-                </Link>
+                <div className="content">
+                  <Link href="/malay/" >
+                    <h5 style={{ marginTop: "15px", marginBottom: "0", }}>Malay Soni</h5>
+                    <p>Director Talent Acquisition</p>
+                  </Link>
+                </div>
               </div>
             </div>
-            
+
             <div className="col-lg-3 col-sm-6">
-              <div className="team_box">
-                <div className="">
+              <div className="single-team-box">
+                <div className="image">
                   <img src="/images/team/Jitendra.png" alt="image" />
                 </div>
-                <Link href="/jitendra/" >
-                <h5 style={{marginTop: "15px",marginBottom:"0",}}>Jitendra Khairnar</h5>
-                <p>Head Workspace & Infrastructure</p>
-                </Link>
+                <div className="content">
+                  <Link href="/jitendra/" >
+                    <h5 style={{ marginTop: "15px", marginBottom: "0", }}>Jitendra Khairnar</h5>
+                    <p>Head Workspace & Infrastructure</p>
+                  </Link>
+                </div>
               </div>
             </div>
             <div className="col-lg-3 col-sm-6">
-              <div className="team_box">
-                <div className="">
+              <div className="single-team-box">
+                <div className="image">
                   <img src="/images/team/Trishita.png" alt="image" />
                 </div>
-                <Link href="/trishita/">
-                <h5 style={{marginTop: "15px",marginBottom:"0",}}>Trishita Bhattacharya</h5>
-                <p>Head Client Engagement (APAC)</p>
-                </Link>
+                <div className="content">
+                  <Link href="/trishita/">
+                    <h5 style={{ marginTop: "15px", marginBottom: "0", }}>Trishita Bhattacharya</h5>
+                    <p>Head Client Engagement (APAC)</p>
+                  </Link>
+                </div>
               </div>
             </div>
             <div className="col-lg-3 col-sm-6">
-              <div className="team_box">
-                <div className="">
-                  <img src="/images/team/kanak.png" alt="image" />
+              <div className="single-team-box">
+                <div className="image">
+                  <img src="/images/team/kanak-02.png" alt="image" />
                 </div>
-                <Link href="/kanak/">
-                  <h5 style={{marginTop: "15px",marginBottom:"0",}}>Kanak Sahoo</h5>
-                  <p>Marketing Manager</p>
-                </Link>
+                <div className="content">
+                  <Link href="/kanak/">
+                    <h5 style={{ marginTop: "15px", marginBottom: "0", }}>Kanak Sahoo</h5>
+                    <p>Marketing Manager</p>
+                  </Link>
+                </div>
               </div>
             </div>
-            
+
 
 
           </div>
@@ -240,11 +256,11 @@ const Index = () => {
           >
             <div className="row justify-content-center">
 
-            <SwiperSlide>
+              <SwiperSlide>
                 <div className="single-blog-post">
                   <div className="entry-thumbnail">
                     <Link href="/The-Rise-of-GCC-in-India-Harnessing-the-Talent-rich-Landscape-for-Unparalleled-Benefits/">
-                      <img style={{width: "419px",height: "279px",}} src="/images/blog/amita-blog.png" alt="image" />
+                      <img style={{ width: "419px", height: "279px", }} src="/images/blog/amita-blog.png" alt="image" />
                     </Link>
                   </div>
 
@@ -266,7 +282,7 @@ const Index = () => {
                     </h3>
 
                     <p>
-                    In the digital age, Global Capability Centers (GCCs) are ...
+                      In the digital age, Global Capability Centers (GCCs) are ...
                     </p>
 
                     <Link href="/blog/The-Rise-of-GCC-in-India-Harnessing-the-Talent-rich-Landscape-for-Unparalleled-Benefits/" className="learn-more-btn">
@@ -280,7 +296,7 @@ const Index = () => {
                 <div className="single-blog-post">
                   <div className="entry-thumbnail">
                     <Link href="/how-gccs-can-attain-outstanding-results/">
-                      <img style={{width: "419px",height: "279px",}} src="/images/blog/abhay_article.png" alt="image" />
+                      <img style={{ width: "419px", height: "279px", }} src="/images/blog/abhay_article.png" alt="image" />
                     </Link>
                   </div>
 
@@ -296,13 +312,13 @@ const Index = () => {
 
                     <h3>
                       <Link href="/blog/how-gccs-can-attain-outstanding-results/">
-                      How GCCs Can Attain Outstanding Results
+                        How GCCs Can Attain Outstanding Results
 
                       </Link>
                     </h3>
 
                     <p>
-                    In the ever-evolving landscape of business, organizations are continually seeking ways to enhance ...
+                      In the ever-evolving landscape of business, organizations are continually seeking ways to enhance ...
                     </p>
 
                     <Link href="/blog/how-gccs-can-attain-outstanding-results/" className="learn-more-btn">
@@ -333,13 +349,13 @@ const Index = () => {
 
                     <h3>
                       <Link href="/blog/technology-impact-sox-auditing/">
-                      The Impact of Technology on SOX Internal Auditing Processes
+                        The Impact of Technology on SOX Internal Auditing Processes
 
                       </Link>
                     </h3>
 
                     <p>
-                    The integration of technology into Sarbanes-Oxley (SOX) internal auditing processes is a game-changing...
+                      The integration of technology into Sarbanes-Oxley (SOX) internal auditing processes is a game-changing...
                     </p>
 
                     <Link href="/blog/technology-impact-sox-auditing/" className="learn-more-btn">
@@ -369,11 +385,11 @@ const Index = () => {
                     <h3>
 
                       <Link href="/articles/gcc-evolution/">
-                      GCC Evolution: From IT Support to Tech Innovation Hubs
+                        GCC Evolution: From IT Support to Tech Innovation Hubs
                       </Link>
                     </h3>
                     <p>
-                    Global Capability Centers (GCCs) have been integral to the growth and success of many businesses...
+                      Global Capability Centers (GCCs) have been integral to the growth and success of many businesses...
                     </p>
 
                     {/* <Link href="/blog/sa-technologies-inc-introducing-brand-new-offshore-development-centre-bangalore/" className="learn-more-btn">
@@ -406,11 +422,11 @@ const Index = () => {
 
                     <h3>
                       <Link href="/blog/navigating-challenges-it-controls-sox-compliance/">
-                      Navigating the Challenges of IT Controls in SOX Compliance
+                        Navigating the Challenges of IT Controls in SOX Compliance
                       </Link>
                     </h3>
                     <p>
-                    Sarbanes-Oxley (SOX) compliance is a critical aspect of maintaining transparent and accurate financial reporting.
+                      Sarbanes-Oxley (SOX) compliance is a critical aspect of maintaining transparent and accurate financial reporting.
                     </p>
 
                     <Link href="/blog/navigating-challenges-it-controls-sox-compliance/" className="learn-more-btn">
@@ -439,11 +455,11 @@ const Index = () => {
 
                     <h3>
                       <Link href="/blog/robust-sox-framework-best-practices/">
-                      Building a Robust SOX Framework: Essential Best Practices
+                        Building a Robust SOX Framework: Essential Best Practices
                       </Link>
                     </h3>
                     <p>
-                    The Sarbanes-Oxley Act (SOX) was a response to a series of high-profile financial scandals..
+                      The Sarbanes-Oxley Act (SOX) was a response to a series of high-profile financial scandals..
                     </p>
 
                     <Link href="/blog/robust-sox-framework-best-practices/" className="learn-more-btn">

@@ -161,11 +161,15 @@ const Footer = () => {
                 data-aos-duration="1200"
                 data-aos-delay="400"
               >
-                <h3>Contact</h3>
+                <h3>S A Tech Software India Private Limited</h3>
 
                 <ul className="footer-contact-list">
                   <li>
-                    <span>Address:</span>
+                    <span>India :</span>
+                    6<sup>th</sup> Floor, Office No D-6030, Solitaire Business Hub, Sr. No. 207, Viman Nagar, Pune, Maharashtra, 411014
+                  </li>
+                  <li>
+                    <span>US :</span>
                     3031 Tisch Way, 110 Plaza West, <br /> San Jose, CA 95128
                   </li>
                   <li>
@@ -214,9 +218,9 @@ const Footer = () => {
           <div className="line"></div>
           <div className="line"></div>
         </div>
-        <Link href="https://api.whatsapp.com/send/?phone=%2B9107875787550&text=Hi%21+I+want+to+know+more+about+SAT+Services" target="_blank" className="floatWhatsApp">
+        {/* <Link href="https://api.whatsapp.com/send/?phone=%2B9107875787550&text=Hello!%20I%27m%20interested%20in%20exploring%20your%20SAT%20Services.%20Can%20you%20share%20more%20details?" target="_blank" className="floatWhatsApp">
           <img src="/images/icons/whatsApp.svg" alt="whatsapp" />
-        </Link>
+        </Link> */}
       </footer>
 
       {/* <React.Fragment>
