@@ -447,6 +447,9 @@ const ContactFormContent = () => {
       <React.Fragment>
         {useScript('https://salesiq.zoho.in/widget', 'siqbc99886751295e349328d05a1c71d630259e368f4e58c64e8cca3d1c5c4fb1f7a660b0e30ad13b107811bd740587e549')}
       </React.Fragment>
+      <Link href="https://api.whatsapp.com/send/?phone=%2B919284004097&text=Hello,%20I%20am%20interested%20in%20%20buying%20O365%20licenses" target="_blank" className="floatWhatsApp">
+          <img src="/images/icons/whatsApp.svg" alt="whatsapp" />
+        </Link>
     </>
   );
 };
