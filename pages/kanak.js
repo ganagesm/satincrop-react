@@ -33,7 +33,7 @@ const Index = () => {
                   <div className="row">
                     <div className="col-lg-3 col-sm-6">
                       <div className="pro_heading">
-                        <img style={{width:"200px",}} src="/images/team/kanak.png" alt="image"/>
+                        <img style={{width:"200px",}} src="/images/team/kanak-02.png" alt="image"/>
                       </div> 
                     </div>
 
