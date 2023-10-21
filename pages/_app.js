@@ -11,6 +11,8 @@ import "swiper/css/bundle";
 import ReactGA from 'react-ga';
 import Script from 'next/script';
 import Head from 'next/head';
+import { useRouter } from 'next/router';
+
 
 // Global Styles
 import "../styles/style.css";
@@ -19,25 +21,38 @@ import "../styles/responsive.css";
 import GoTop from "../components/Shared/GoTop";
 
 function MyApp({ Component, pageProps }) {
+  const router = useRouter();
+// Check if the current route is the microsoft-office-365-licenses page
+const isMicrosoftO365Licenses = router.pathname === '/microsoft-office-365-licenses';
 
   React.useEffect(() => {
     AOS.init();
   }, []);
   return (
     <>
-      <Script
-        strategy="lazyOnload"
-        src={`https://www.googletagmanager.com/gtag/js?id=G-EFJWZ4P8SR`}
-      />
-
-      <Script strategy="lazyOnload">
-        {`
+    {isMicrosoftO365Licenses ? (
+      <><Script
+          strategy="lazyOnload"
+          src={`https://www.googletagmanager.com/gtag/js?id=AW-817476777`} /><Script strategy="lazyOnload">
+            {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'AW-817476777');
+                `}
+          </Script></>
+      ) : (
+        <><Script
+            strategy="lazyOnload"
+            src={`https://www.googletagmanager.com/gtag/js?id=G-EFJWZ4P8SR`} /><Script strategy="lazyOnload">
+              {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
           gtag('config', 'G-EFJWZ4P8SR');
                 `}
-      </Script>
+            </Script></>
+        )}
       <Head>
         <meta
           name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
