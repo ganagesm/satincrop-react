@@ -8,7 +8,7 @@ const Footer = () => {
   // Check if the current route is the career page
   const isCareerPage = location.pathname === '/careers';
   const isEmployeeSelfService = location.pathname === '/employeeselfservice';
-
+  console.log("isEmployeeSelfService", isEmployeeSelfService)
   // Conditionally render the script based on the route
 
   //Zoho Sales Iq Script:
@@ -229,24 +229,17 @@ const Footer = () => {
       </React.Fragment> */}
 
       <React.Fragment>
-        {/* {isCareerPage ? (
+        if (isCareerPage) {
           // Load the script on the career page
           useScript('https://salesiq.zoho.in/widget', 'siqb6893c10dd1c1c4c4cdd0150c0fb02c9b296e864dc452fbee73744582c509b00')
-        ) : (
+        }
+        else if (isEmployeeSelfService) {
+          useScript('https://salesiq.zoho.in/widget', 'siq9db5171ce94a7f6b2ebb4290a65eea5e7709b889f71f08307fa46cbb1628552d')
+        }
+        else {
           // Render something else for other pages
           useScript('https://salesiq.zoho.in/widget', 'siqf0be5ba9aefe176393dfbe591c77fef43f5283d3b627b4cd0b623da1760ed2e4117e8194377283a5ded1bc7509f07a7f')
-        )} */}
-        {isCareerPage ? (
-          // Load the script on the career page
-          useScript('https://salesiq.zoho.in/widget', 'siqb6893c10dd1c1c4c4cdd0150c0fb02c9b296e864dc452fbee73744582c509b00')
-        ) : isEmployeeSelfService ? (
-          // Load the script on the employee self-service page
-          useScript('https://salesiq.zoho.in/widget', 'siq9db5171ce94a7f6b2ebb4290a65eea5e7709b889f71f08307fa46cbb1628552d')
-        ) : (
-          // Handle other cases or render something else
-          useScript('https://salesiq.zoho.in/widget', 'siqf0be5ba9aefe176393dfbe591c77fef43f5283d3b627b4cd0b623da1760ed2e4117e8194377283a5ded1bc7509f07a7f')
-        )}
-
+        }
       </React.Fragment>
     </>
   );
