@@ -9,14 +9,16 @@ const MainBanner = () => {
           <div className="container">
             <div className="startup-banner-content">
               <h1>
-                SAT Self-Service Desk - <br /> Your Ultimate SAT Guide
+                SAT Self-Service Desk <br />
               </h1>
-              <p>
-                Welcome to the SAT Self-Service Desk – Your One-Stop Solution for All Your Queries! From registration to acing the test, we've got you covered. Explore, learn, and conquer the SAT journey with confidence.
-              </p>
+              <br />
+              <h5>
+                Welcome to the SAT Self-Service Desk – Your One-Stop Solution for All Your Queries! 
+                {/* From registration to acing the test, we've got you covered. Explore, learn, and conquer the SAT journey with confidence. */}
+              </h5>
               <div className="btn-box">
                 <Link href="/contact-us/" className="btn btn-primary">
-                  Get in touch now
+                Talk To Us
                 </Link>
               </div>
             </div>
