@@ -8404,4 +8404,17 @@ a.btn.btn-primary.cnt_btn {
     float: right;
 }
 
+ul.about-list.emp_list li {
+    list-style-type: none;
+}
+
+ul.about-list.emp_list {
+    padding: 0;
+}
+
+ul.about-list.emp_list li i {
+    color: #03B5A9;
+    padding: 8px 0;
+}
+
 /*End "Home Demo - 6", "Home Demo - 7" & "Home Demo - 8" Style CSS*/

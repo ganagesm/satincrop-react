@@ -8,16 +8,36 @@ const AboutContact = () => {
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12">
               <div className="about-image">
-                <img src="/images/about/4.jpg" alt="image" />
-                <img src="/images/about/5.jpg" alt="image" />
+                <img src="/images/about/emp_3.jpg" alt="image" />
+                <img src="/images/about/emp_4.jpg" alt="image" />
               </div>
             </div>
 
             <div className="col-lg-6 col-md-12">
               <div className="about-content">
-                <h2>Engaging New Audiences Through Smart Approach</h2>
-                <p> With SA Technologies, propel forward on your digital and AI-driven journey under the aegis of our expert guidance, made possible by our diverse onshore, nearshore, and offshore teams. Our global perspective, combined with deep AI expertise, ensures a holistic approach to digital solutions tailored just for you.</p>
-                <p> Stay abreast with invaluable insights from our seasoned AI and tech experts. These insights not only enlighten but empower, ensuring you maintain a significant competitive edge in the ever-evolving digital and AI terrain. Delve deeper into the latest trends, strategies, and groundbreaking advancements in AI that hold the potential to redefine and elevate your business. With SA Technologies by your side, you're not just reacting to the digital and AI age - you're shaping it.</p>
+                <h2>Engaging Employees  Through a Smart Approach</h2>
+                <p>We're here to empower you with the information and assistance you need, from the moment you join our 
+                  team to well beyond your departure. Whether you're a new recruit or a former colleague, we've got you covered
+                </p>
+
+                <h5>Key Features:</h5>
+                <ul className="about-list emp_list">
+                  <li>
+                    <i className="fa-solid fa-check"></i> <b>Live Chat Support :</b> Have questions? Our team is just a message away.
+                  </li>
+                  <li>
+                    <i className="fa-solid fa-check"></i> <b>HR Resources :</b>  Access policies, forms, and benefits info.
+                  </li>
+                  <li>
+                    <i className="fa-solid fa-check"></i> <b>Frequently Asked Questions :</b>  Find quick answers to common queries.
+                  </li>
+                  <li>
+                    <i className="fa-solid fa-check"></i> <b>Onboarding : </b>  New hires, start your journey here.
+                  </li>
+                  <li>
+                    <i className="fa-solid fa-check"></i> <b>Offboarding : </b> Helpful resources for those moving on.
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
