@@ -126,7 +126,7 @@ const TechSlider = () => {
               </div>
             </SwiperSlide>
 
-            <SwiperSlide>
+            {/* <SwiperSlide>
               <div className="single-partner-item">
                 <a href="" target="_blank" rel="noreferrer">
                   <img
@@ -140,7 +140,7 @@ const TechSlider = () => {
                   />
                 </a>
               </div>
-            </SwiperSlide>
+            </SwiperSlide> */}
             <SwiperSlide>
               <div className="single-partner-item">
                 <a href="" target="_blank" rel="noreferrer">
