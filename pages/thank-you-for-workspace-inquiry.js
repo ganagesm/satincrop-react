@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import Link from "next/link";
 import Head from 'next/head';
 import Script from 'next/script'
-// import $ from 'jquery';
 
 const ContactFormContent = () => {
   const executeFunction = () => {
