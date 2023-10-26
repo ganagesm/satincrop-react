@@ -59,6 +59,15 @@ const ContactFormContent = () => {
         <meta property="og:title" content="Enable Your Remote Team to Work Efficiently with  Microsoft 365(formerly Office 365)(Get Upto 20% OFF* on any License Type) " key="title" />
         <meta name="description" content="Experience accelerated app development with SA Technologies Mendix services. Empower your business with innovative, low-code solutions." key="description" />
         <link rel="stylesheet" href="https://dev1.satincorp.com/microsoft-office-365-licenses/wp-content/themes/microsoft-office-365-licenses-wp-themes-19032021/style.css?ver=20190507" />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-817476777"></script>
+        <script>
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'AW-817476777');
+        `}
+      </script>
         <style>
           {`
           .embed-responsive {

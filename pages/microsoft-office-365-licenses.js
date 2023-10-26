@@ -60,12 +60,21 @@ const ContactFormContent = () => {
         <meta name="description" content="Experience accelerated app development with SA Technologies Mendix services. Empower your business with innovative, low-code solutions." key="description" />
         <link rel="stylesheet" type="text/css" href="https://dev1.satincorp.com/microsoft-office-365-licenses/wp-content/themes/microsoft-office-365-licenses-wp-themes-19032021/style.css?ver=20190507" />
         {/* <!-- Google tag (gtag.js) --> */}
-        <Script async src="https://www.googletagmanager.com/gtag/js?id=AW-817476777"/>
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=AW-817476777" />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-817476777"></script>
         <Script
           dangerouslySetInnerHTML={{
             __html: ` window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-817476777'); `
           }}
         />
+        <script>
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'AW-817476777');
+        `}
+      </script>
         <style>
           {`
           .embed-responsive {

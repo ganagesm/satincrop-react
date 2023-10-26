@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
 import Link from "next/link";
 import Head from 'next/head';
+import Script from 'next/script'
+// import $ from 'jquery';
 
 const ContactFormContent = () => {
   const executeFunction = () => {
@@ -42,27 +44,114 @@ const ContactFormContent = () => {
         <meta property="og:title" content="Effectively Collaborate with Remote Teams Using Google Workspace " key="title" />
         <meta name="description" content="Experience accelerated app development with SA Technologies Mendix services. Empower your business with innovative, low-code solutions." key="description" />
         <link rel="stylesheet" href="https://dev1.satincorp.com/buy-google-workspace/wp-content/themes/buy-google-workspace-wp-themes-19032021/style.css?ver=20190507" />
+
+        <script type='text/javascript' src='https://dev1.satincorp.com/buy-google-workspace/wp-includes/js/jquery/jquery.min.js?ver=3.7.0' id='jquery-core-js'></script>
+        <script type='text/javascript' src='https://dev1.satincorp.com/buy-google-workspace/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1' id='jquery-migrate-js'></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-817476777"></script>
+        <script>
+          {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'AW-817476777');
+        `}
+        </script>
+
+        {/* <!-- Google tag (gtag.js) --> */}
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=AW-817476777" />
+        <script type='text/javascript' src='https://dev1.satincorp.com/buy-google-workspace/wp-content/themes/buy-google-workspace-wp-themes-19032021/assets/vendor/bootstrap/js/bootstrap.bundle.min.js?ver=6.3.2' id='buy_google_scripts_bootstrap-js'></script>
+        <Script
+          dangerouslySetInnerHTML={{
+            __html: ` window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-817476777'); `
+          }}
+        />
+        <style>
+          {`
+          .embed-responsive {
+            position: relative;
+          display: block;
+          width: 100%;
+          padding: 0;
+          overflow: hidden;
+}
+
+          .embed-responsive-23by9::before {
+            content: '';
+          padding-top: 43.4783%; /* 9 / 23 * 100% */
+          display: block;
+}
+
+          .embed-responsive-item {
+            position: absolute;
+          top: 0;
+          left: 0;
+          bottom: 0;
+          right: 0;
+          width: 100%;
+          height: 100%;
+          border: 0;
+}
+.navbar-brand, .navbar-brand > img {
+  width: 5rem;
+}
+
+`}
+        </style>
       </Head>
 
       <main id="content" role="main" className="overflow-hidden">
+        <div id="navbar" className="navbar-area navbar-area-with-position-relative">
+          <div className="main-nav">
+            <div className="container">
+              <nav className="navbar navbar-expand-md navbar-light">
+                <Link href="/" className="navbar-brand">
+                  <img
+                    src="/images/sa-logo.svg"
+                    className="main-logo"
+                    alt="logo"
+                    width={80}
+                  />
+                  <img
+                    src="/images/sa-logo.svg"
+                    className="optional-logo"
+                    alt="logo"
+                    height={30}
+                    width={80}
+                  />
+                </Link>
 
+                <div className="cmmi"><h4> A CMMI Level <span>5</span> Company </h4>
+                </div>
+
+                <div className="collapse navbar-collapse mean-menu">
+                  <ul className="navbar-nav">
+                    <li className="nav-item">
+                      <span>Phone:</span> <a href="tel:+919284004097"> +91 9284 00 4097</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
 
         <div className="bg-light">
           <div className="container space-bottom-2">
             <div className="row align-items-lg-center">
               <div className="col-lg-5 mb-7 mb-lg-0">
+                <img src="https://dev1.satincorp.com/buy-google-workspace/wp-content/themes/buy-google-workspace-wp-themes-19032021/assets/img/banners/Google-cloud-partners-new.png" width={180} />
                 <div className="mb-4">
                   <h1> Effectively Collaborate with Remote Teams Using Google Workspace </h1>
                 </div>
                 <a className="js-go-to position-static btn btn-primary transition-3d-hover" href="#contact">
-                  Select Google Workspace Plan
+                  Get 14 Days Free Trial
                 </a>
 
               </div>
               <div className="col-lg-6 offset-md-1">
-                <div className="w-md-80 w-lg-80 text-center mx-md-auto mt-5">
+                {/* <div className="w-md-80 w-lg-80 text-center mx-md-auto mt-5">
                   <h2> Request a call back </h2>
-                </div>
+                </div> */}
                 <div className="bg-white" id="contact">
 
                   <div>
@@ -77,11 +166,10 @@ const ContactFormContent = () => {
           <div className="container space-2">
             <div className="row justify-content-lg-between align-items-lg-center">
               <div className="col-lg-6 col-xl-5">
-                <div className="min-h-300rem mx-auto" style={{maxwidth: '28rem'}}>
+                <div className="min-h-300rem mx-auto" style={{ maxwidth: '28rem' }}>
 
                   <div className="embed-responsive embed-responsive-16by9">
-                    <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/00vRcdvQcWA?rel=0"
-                      allowfullscreen=""></iframe>
+                    <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/00vRcdvQcWA?rel=0"></iframe>
                   </div>
                 </div>
               </div>
@@ -109,7 +197,7 @@ const ContactFormContent = () => {
               <div className="w-md-80 w-lg-80 text-center mx-auto mb-5">
                 <h2> Get 14 Days Free Trial </h2>
                 <a href="#contact"><span
-                  className="js-go-to position-static btn text-white badge badge-danger badge-pill py-sm-2 px-sm-3 mt-3 mb-4">
+                  className="js-go-to position-static btn text-white btn btn-primary transition-3d-hover py-sm-2 px-sm-3 mt-3 mb-4">
                   Contact For FREE Trial </span></a>
                 <p className="lead text-dark"> Every plan includes </p>
                 <img
@@ -120,8 +208,6 @@ const ContactFormContent = () => {
 
               <div className="container space-2">
                 <div className="table-responsive-lg w-100 mx-lg-auto">
-
-                  r&gt;
                   <table className="table table-striped table-borderless">
                     <thead className="text-center">
                       <tr>
@@ -137,7 +223,7 @@ const ContactFormContent = () => {
                             href="#contact">
                             Select Plan
                           </a>
-                          <p className="badge bg-navy text-white badge-pill py-sm-2 px-sm-3 mb-0"> Assured Additional Discount</p>
+                          <div className="badge bg-navy text-white badge-pill py-sm-2 px-sm-3 mb-0"> Assured Additional Discount</div>
                           <p className="text-danger text-highlight-danger font-size-1 mt-2"> Limited Period Offer </p>
                         </th>
                         <th scope="col" className="w-30 border-left border-right">
@@ -148,11 +234,13 @@ const ContactFormContent = () => {
                             <span className="font-size-3 font-weight-bold  text-dark">736<sup
                               style={{ marginleft: '-5px' }}>*</sup></span><strike>₹ 920 </strike> / user /
                             month </small>
-                          <a className="js-go-to position-static btn btn-danger text-white transition-3d-hover mt-3 mb-3 btn-sm"
-                            href="#contact">
-                            Select Plan
-                          </a>
-                          <p className="badge bg-navy text-white badge-pill py-sm-2 px-sm-3 mb-0">Assured Additional Discount</p>
+                          <div>
+                            <a className="js-go-to position-static btn btn-danger text-white transition-3d-hover mt-3 mb-3 btn-sm"
+                              href="#contact">
+                              Select Plan
+                            </a>
+                          </div>
+                          <div className="badge bg-navy text-white badge-pill py-sm-2 px-sm-3 mb-0">Assured Additional Discount</div>
                           <p className="text-danger text-highlight-danger font-size-1 mt-2"> Limited Period Offer </p>
                         </th>
                         <th scope="col" className="w-25">
@@ -161,11 +249,13 @@ const ContactFormContent = () => {
                             <span className="font-size-2">₹</span>
                             <span className="font-size-3 font-weight-bold text-dark">1380</span> / user /
                             month </small>
-                          <a className="js-go-to position-static btn btn-danger text-white transition-3d-hover mt-3 mb-3 btn-sm"
-                            href="#contact">
-                            Select Plan
-                          </a>
-                          <p className="badge bg-navy text-white badge-pill py-sm-2 px-sm-3 mb-0">Assured Additional Discount</p>
+                          <div>
+                            <a className="js-go-to position-static btn btn-danger text-white transition-3d-hover mt-3 mb-3 btn-sm"
+                              href="#contact">
+                              Select Plan
+                            </a>
+                          </div>
+                          <div className="badge bg-navy text-white badge-pill py-sm-2 px-sm-3 mb-0">Assured Additional Discount</div>
                           <p className="text-danger text-highlight-danger font-size-1 mt-2"> Limited Period Offer </p>
                         </th>
                       </tr>
@@ -1292,7 +1382,7 @@ const ContactFormContent = () => {
             </div>
           </div>
 
-          <div className="container space-bottom-2 " style={{paddingTop: '1rem !important'}}>
+          <div className="container space-bottom-2 " style={{ paddingTop: '1rem !important' }}>
 
             <div className="w-md-80 w-lg-60 text-center mx-md-auto mb-5 mb-md-9">
               <h2>
@@ -1402,6 +1492,20 @@ const ContactFormContent = () => {
                     </div>
                   </div>
                 </a>
+              </div>
+            </div>
+          </div>
+          <div className="webinar-area ptb-110 pricing-area">
+            <div className="container">
+              <div className="webinar-inner" style={{ paddingTop: '5rem' }}>
+                <div className="row m-0 align-items-center">
+                  <div className="col-lg-12 col-md-12 p-0">
+                    <div className="content section-title">
+                      <h2>Try Google Workspace Free</h2>
+                      <p>See why millions of businesses love and rely on Google Workspace for their business needs.</p><a class="btn btn-primary" href="#contact">Start Free Trial</a>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
