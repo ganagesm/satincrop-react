@@ -34,9 +34,23 @@ const ContactFormContent = () => {
       }, false);
     } catch (e) { }
   }
-  useEffect(() => {
-    executeFunction();
-  }, []);
+  //Zoho Sales Iq Script:
+  const useScript = (url, widgetCode) => {
+    useEffect(() => {
+      executeFunction();
+      const script = document.createElement('script');
+      script.setAttribute("type", "text/javascript");
+
+      let code = `var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode: "${widgetCode}", values:{},ready:function(){}};var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;s.src="${url}";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);d.innerHTML = "<div id='zsiqwidget'></div>";`
+
+      script.appendChild(document.createTextNode(code));
+      document.body.appendChild(script);
+
+      return () => {
+        document.body.removeChild(script);
+      }
+    }, [url]);
+  };
   return (
     <>
       <Head>
@@ -1511,6 +1525,12 @@ const ContactFormContent = () => {
           </div>
         </div>
       </main>
+      <React.Fragment>
+        {useScript('https://salesiq.zoho.in/widget', 'siqd501e20f5ff83957af2415d36330a0344fef3b83965c959b579f4a9444020527')}
+      </React.Fragment>
+      <Link href="https://api.whatsapp.com/send/?phone=%2B919284004097&text=Hello,%20I%20am%20interested%20in%20%20buying%20O365%20licenses" target="_blank" className="floatWhatsApp">
+        <img src="/images/icons/whatsApp.svg" alt="whatsapp" />
+      </Link>
     </>
   );
 };
