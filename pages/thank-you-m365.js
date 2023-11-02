@@ -67,6 +67,11 @@ const ContactFormContent = () => {
           gtag('js', new Date());
           gtag('config', 'AW-817476777');
         `}
+        <Script
+          dangerouslySetInnerHTML={{
+            __html: ` window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-817476777'); `
+          }}
+        />
       </script>
         <style>
           {`
