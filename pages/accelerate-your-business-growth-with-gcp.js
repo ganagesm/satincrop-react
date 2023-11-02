@@ -8,33 +8,34 @@ import TopFeaturedSolutions from "../components/MicrosoftGC/TopFeaturedSolutions
 
 const ContactFormContent = () => {
   const executeFunction = () => {
-    try {
+    try{
       var f = document.createElement("iframe");
-      f.src = 'https://forms.zohopublic.in/satechsoftwareipvtltd/form/BuyGoogleWorkspace/formperma/PBwlz1PfEQXqz-nEuTIOHtHVoEiYTReIHigAw4TVy9o?zf_rszfm=1';
-      f.style.border = "none";
-      f.style.height = "668px";
-      f.style.width = "90%";
-      f.style.transition = "all 0.5s ease";
-      var d = document.getElementById("zf_div_PBwlz1PfEQXqz-nEuTIOHtHVoEiYTReIHigAw4TVy9o");
+      f.src = 'https://forms.zohopublic.in/satechsoftwareipvtltd/form/Commonform/formperma/OqtO4dMucPCkviSHfWfmtFFImjjtai4d-o1gh8xkwX0?zf_rszfm=1';
+      f.style.border="none";
+      f.style.height="982px";
+      f.style.width="90%";
+      f.style.transition="all 0.5s ease";
+      
+      var d = document.getElementById("zf_div_OqtO4dMucPCkviSHfWfmtFFImjjtai4d-o1gh8xkwX0");
       d.appendChild(f);
-      window.addEventListener('message', function () {
-        var evntData = event.data;
-        if (evntData && evntData.constructor == String) {
-          var zf_ifrm_data = evntData.split("|");
-          if (zf_ifrm_data.length == 2) {
-            var zf_perma = zf_ifrm_data[0];
-            var zf_ifrm_ht_nw = (parseInt(zf_ifrm_data[1], 10) + 15) + "px";
-            var iframe = document.getElementById("zf_div_PBwlz1PfEQXqz-nEuTIOHtHVoEiYTReIHigAw4TVy9o").getElementsByTagName("iframe")[0];
-            if ((iframe.src).indexOf('formperma') > 0 && (iframe.src).indexOf(zf_perma) > 0) {
-              var prevIframeHeight = iframe.style.height;
-              if (prevIframeHeight != zf_ifrm_ht_nw) {
-                iframe.style.height = zf_ifrm_ht_nw;
-              }
-            }
-          }
-        }
+      window.addEventListener('message', function (){
+      var evntData = event.data;
+      if( evntData && evntData.constructor == String ){
+      var zf_ifrm_data = evntData.split("|");
+      if ( zf_ifrm_data.length == 2 ) {
+      var zf_perma = zf_ifrm_data[0];
+      var zf_ifrm_ht_nw = ( parseInt(zf_ifrm_data[1], 10) + 15 ) + "px";
+      var iframe = document.getElementById("zf_div_OqtO4dMucPCkviSHfWfmtFFImjjtai4d-o1gh8xkwX0").getElementsByTagName("iframe")[0];
+      if ( (iframe.src).indexOf('formperma') > 0 && (iframe.src).indexOf(zf_perma) > 0 ) {
+      var prevIframeHeight = iframe.style.height;
+      if ( prevIframeHeight != zf_ifrm_ht_nw ) {
+      iframe.style.height = zf_ifrm_ht_nw;
+      }
+      }
+      }
+      }
       }, false);
-    } catch (e) { }
+      }catch(e){}
   }
   //Zoho Sales Iq Script:
   const useScript = (url, widgetCode) => {
@@ -59,10 +60,6 @@ const ContactFormContent = () => {
         <title>Effectively Collaborate with Remote Teams Using Google Workspace </title>
         <meta property="og:title" content="Effectively Collaborate with Remote Teams Using Google Workspace " key="title" />
         <meta name="description" content="Experience accelerated app development with SA Technologies Mendix services. Empower your business with innovative, low-code solutions." key="description" />
-        <link rel="stylesheet" href="https://dev1.satincorp.com/buy-google-workspace/wp-content/themes/buy-google-workspace-wp-themes-19032021/style.css?ver=20190507" />
-
-        <script type='text/javascript' src='https://dev1.satincorp.com/buy-google-workspace/wp-includes/js/jquery/jquery.min.js?ver=3.7.0' id='jquery-core-js'></script>
-        <script type='text/javascript' src='https://dev1.satincorp.com/buy-google-workspace/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1' id='jquery-migrate-js'></script>
         <script async src="https://www.googletagmanager.com/gtag/js?id=AW-817476777"></script>
         <script>
           {`
@@ -75,7 +72,6 @@ const ContactFormContent = () => {
 
         {/* <!-- Google tag (gtag.js) --> */}
         <Script async src="https://www.googletagmanager.com/gtag/js?id=AW-817476777" />
-        <script type='text/javascript' src='https://dev1.satincorp.com/buy-google-workspace/wp-content/themes/buy-google-workspace-wp-themes-19032021/assets/vendor/bootstrap/js/bootstrap.bundle.min.js?ver=6.3.2' id='buy_google_scripts_bootstrap-js'></script>
         <Script
           dangerouslySetInnerHTML={{
             __html: ` window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-817476777'); `
@@ -151,7 +147,7 @@ const ContactFormContent = () => {
           </div>
         </div>
 
-        <div className="bg-light">
+        <div>
           <div className="container space-bottom-2">
             <div className="row align-items-lg-center">
               <div className="col-lg-5 mb-7 mb-lg-0">
@@ -172,7 +168,7 @@ const ContactFormContent = () => {
                 <div className="bg-white" id="contact">
 
                   <div>
-                    <div id="zf_div_PBwlz1PfEQXqz-nEuTIOHtHVoEiYTReIHigAw4TVy9o">
+                    <div id="zf_div_OqtO4dMucPCkviSHfWfmtFFImjjtai4d-o1gh8xkwX0">
                     </div>
                   </div>
                 </div>
@@ -189,12 +185,12 @@ const ContactFormContent = () => {
       <AboutAI />
 
       <TopFeaturedSolutions />
-      {/* <React.Fragment>
+      <React.Fragment>
         {useScript('https://salesiq.zoho.in/widget', 'siqd501e20f5ff83957af2415d36330a0344fef3b83965c959b579f4a9444020527')}
       </React.Fragment> 
       <Link href="https://api.whatsapp.com/send/?phone=%2B919284004097&text=Hello,%20I%20am%20interested%20in%20%20buying%20O365%20licenses" target="_blank" className="floatWhatsApp">
         <img src="/images/icons/whatsApp.svg" alt="whatsapp" />
-      </Link>*/}
+      </Link>
     </>
   );
 };
