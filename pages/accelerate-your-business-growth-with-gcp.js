@@ -4,6 +4,7 @@ import Head from 'next/head';
 import Script from 'next/script'
 import AboutAI from "../components/MicrosoftGC/AboutAI";
 import TopFeaturedSolutions from "../components/MicrosoftGC/TopFeaturedSolutions";
+import CustomerSuccess from "../components/MicrosoftGC/CustomerSuccess";
 // import $ from 'jquery';
 
 const ContactFormContent = () => {
@@ -149,12 +150,12 @@ const ContactFormContent = () => {
 
         <div>
           <div className="container space-bottom-2">
-            <div className="row align-items-lg-center">
+            <div className="row"> {/* align-items-lg-center */}
               <div className="col-lg-5 mb-7 mb-lg-0">
                 <img src="https://dev1.satincorp.com/buy-google-workspace/wp-content/themes/buy-google-workspace-wp-themes-19032021/assets/img/banners/Google-cloud-partners-new.png" width={180} />
-                <div className="mb-4">
-                  <h1> Get a $1000 Free Credit to Accelerate Your Small or Mid-Sized Organization with the Google Cloud Platform </h1>
-                  <p>Transform your business with GCP’s advanced cloud solutions – now available with a free $500 credit for new users.</p>
+                <div className="mb-4" style={{marginTop: "28%"}}>
+                  <h1> Get upto $1000 Free Credit to Accelerate Your Small or Mid-Sized Organization with the Google Cloud Platform </h1>
+                  {/* <p>Transform your business with GCP’s advanced cloud solutions – now available with a free $500 credit for new users.</p> */}
                 </div>
                 <a className="js-go-to position-static btn btn-primary transition-3d-hover" href="#contact">
                   Get Started
@@ -185,6 +186,10 @@ const ContactFormContent = () => {
       <AboutAI />
 
       <TopFeaturedSolutions />
+
+      <CustomerSuccess />
+
+      
       <React.Fragment>
         {useScript('https://salesiq.zoho.in/widget', 'siqd501e20f5ff83957af2415d36330a0344fef3b83965c959b579f4a9444020527')}
       </React.Fragment> 
