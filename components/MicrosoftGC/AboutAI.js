@@ -7,23 +7,22 @@ const AboutAI = () => {
       <div className="ai-about-area ptb-100">
         <div className="container">
           <div className="row align-items-center">
+            <div style={{textAlign:"center",}}> 
+              <h3>Unlock the full potential of your business with GCP’s advanced cloud solutions.</h3>
+              <p>Unlock the full potential of your business with GCP’s advanced cloud solutions.</p>
+            </div>
             <div className="col-lg-6 col-md-12">
               <div className="ai-about-image">
-                <img src="/images/home-six/gcp.jpg" alt="image" />
+                <img src="/images/home-six/Google_Cloud-1.jpg" alt="image" />
               </div>
             </div>
 
             <div className="col-lg-6 col-md-12">
               <div className="ai-about-content">
-                <h3>Unlock the full potential of your business with GCP’s advanced cloud solutions. 
-
-                </h3>
-                <p>
-                Unlock the full potential of your business with GCP’s advanced cloud solutions.
-                </p> 
-                <p>Here are some of the qualities that set GCP apart from other cloud platforms:</p>
+              
 
                 <ul className="about-list" style={{maxWidth:"100%",}}>
+                <p>Here are some of the qualities that set GCP apart from other cloud platforms:</p>
                   <li>
                     <i className="fa-solid fa-check"></i> <b>Pre-trained models:</b> GCP offers a wide range of pre-trained ML models that can be used for a variety of tasks, such as image recognition, natural language processing, and translation. This can save businesses a lot of time and effort, as they do not need to train their own models from scratch.
                   </li>
@@ -40,6 +39,9 @@ const AboutAI = () => {
                     <i className="fa-solid fa-check"></i> <b>Compliance:</b> GCP is certified for a wide range of compliance standards, including HIPAA, PCI DSS, and SOC 2. This makes it a good choice for businesses that need to comply with industry regulations.
                   </li>
                 </ul>
+                <p>With GCP, you can reduce costs, improve productivity, and accelerate your organization’s growth. Plus, with $500 in free credits, you can explore GCP’s features and see the impact on your business firsthand.</p>
+                <p><a href="#">Sign Up</a> Claim your $500 free credit today and transform your small or mid-sized
+                   organization with Google Cloud Platform. Sign up now!</p>
                 {/* <div className="about-btn">
                   <Link href="/about-2" className="btn btn-primary">
                     Learn More
