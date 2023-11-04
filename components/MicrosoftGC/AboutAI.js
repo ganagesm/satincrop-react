@@ -13,7 +13,7 @@ const AboutAI = () => {
             </div>
             <div className="col-lg-5 col-md-12">
               <div className="ai-about-image">
-                <img src="/images/home-six/google_Cloud-1.jpg" alt="image" />
+                <img src="/images/home-six/google-cloud-services.jpg" alt="image" />
               </div>
             </div>
 
