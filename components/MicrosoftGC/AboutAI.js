@@ -80,10 +80,10 @@ const AboutAI = () => {
                     </div>
                   </div>
                 </div> */}
-                <p style={{fontSize: '15px', marginTop: '20px'}}>With GCP, you can reduce costs, improve productivity, and accelerate your organization’s growth. Plus, with $500 in free credits, you can explore GCP’s features and see the impact on your business firsthand.</p>
+               {/* <p style={{fontSize: '15px', marginTop: '20px'}}>With GCP, you can reduce costs, improve productivity, and accelerate your organization’s growth. Plus, with $500 in free credits, you can explore GCP’s features and see the impact on your business firsthand.</p>
                 <p style={{fontSize: '15px'}}><a href="#" style={{color: 'red'}}>Sign Up</a> Claim your $500 free credit today and transform your small or mid-sized
                   organization with Google Cloud Platform. Sign up now!</p>
-                {/* <div className="about-btn">
+                 <div className="about-btn">
                   <Link href="/about-2" className="btn btn-primary">
                     Learn More
                   </Link>
