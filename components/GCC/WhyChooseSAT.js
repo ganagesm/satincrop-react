@@ -11,7 +11,7 @@ const ComputerVisionAI = () => {
               <div className="computer-vision-ai-image">
                 <img
                   src="/images/banners/gcc-1.jpg"
-                  alt="image"
+                  alt="Energetic workforce at a bustling Global Capability Center focused on delivering global business solutions."
                 />
               </div>
             </div>
