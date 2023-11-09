@@ -18,7 +18,7 @@ const ComputerVisionAI = () => {
             <div className="col-lg-6 col-md-6">
               <div className="computer-vision-ai-content">
                 <h3>Unlock the Full Potential of Your GCC with SA Technologies</h3>
-                <p>With SA Technologies as your partner, establishing a successful GCC in India becomes an empowering journey. Our integrated approach, combining operational expertise with legal registration support, sets the foundation for your business growth in the Indian market.</p> 
+                <p>With <strong><Link href="https://www.satincorp.com/blog/sa-technologies-becomes-google-workspace-and-google-cloud-platform-partner">SA Technologies </Link></strong> as your partner, establishing a successful Global Capability Center in India becomes an empowering journey. Our integrated approach, combining operational expertise with legal registration support, sets the foundation for your business growth in the Indian market.</p> 
 
                
               </div>
