@@ -78,7 +78,7 @@ const BlogPostsSection = () => {
                   The objective of this case study is to highlight how a US-based water meter manufacturing giant achieved a 60% reduction
                   </p>
 
-                  <Link href="case-study-on-sa-technologies-partner-for-a-world-class-fin-tech-firm/" className="learn-more-btn">
+                  <Link href="sa-technologies-partner-for-a-world-class-fin-tech-firm/" className="learn-more-btn">
                     Read More <i className="flaticon-add"></i>
                   </Link>
                 </div>
