@@ -4827,10 +4827,10 @@ Testimonials Area CSS
 Webinar Area CSS
 =================================================*/
 .webinar-inner {
-    background-color: #f4f0e6;
-    padding-left: 15px;
+    background-color: #fcf8f5;
+    /* padding-left: 15px; */
     padding-right: 125px;
-    padding-top: 10px;
+    /* padding-top: 10px; */
 }
 .webinar-inner .content h2 {
     margin-bottom: 15px;
