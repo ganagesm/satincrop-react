@@ -2358,6 +2358,7 @@ Blog Area CSS
 }
 .single-blog-post .entry-post-content {
     padding: 30px;
+    /* height: 490px; */
 }
 .single-blog-post .entry-post-content .entry-meta {
     margin-bottom: 6px;
@@ -8416,5 +8417,10 @@ ul.about-list.emp_list li i {
     color: #03B5A9;
     padding: 8px 0;
 }
+
+/* .entry-thumbnail img {
+    width: 419px !important;
+    height: 314px !important;
+} */
 
 /*End "Home Demo - 6", "Home Demo - 7" & "Home Demo - 8" Style CSS*/
