@@ -8,7 +8,7 @@ import AboutAI from "../components/Semiconductor/AboutAI";
 import Services from "../components/Semiconductor/Services";
 import ComputerVisionAI from "../components/Semiconductor/ComputerVisionAI";
 import ContactFormContent from "../components/Common/ContactFormContent";
-import BlogPostSlider from "../components/Live/BlogPostSlider";
+import BlogPostSlider from "../components/Semiconductor/BlogPostSlider";
 
 const Semiconductor = () => {
   return (

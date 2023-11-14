@@ -17,8 +17,7 @@ const BlogPostSlider = () => {
   useEffect(() => {
     async function fetchPosts() {
       try {
-        // const response = await fetch(`${postApi}/posts?page=${currentPage}&per_page=${pageSize}&order=desc`);
-        const response = await fetch(`${postApi}/posts?categories=2&page=${currentPage}&per_page=${pageSize}&order=desc`);
+        const response = await fetch(`${postApi}/posts?categories=340&page=${currentPage}&per_page=${pageSize}&order=desc`);
 
         if (!response.ok) {
           throw new Error('Network response was not ok');
@@ -129,6 +128,15 @@ const BlogPostSlider = () => {
               ))}
             </div>
           </Swiper>
+          <div className="col-lg-12 col-md-12">
+              <div className="ai-all-services-btn" data-aos="fade-in"
+              data-aos-duration="1200"
+              data-aos-delay="1800">
+                <Link href="/blog/" className="btn btn-primary">
+                  Read More Blogs
+                </Link>
+              </div>
+            </div>
         </div>
 
         <div className="dot-shape1">
