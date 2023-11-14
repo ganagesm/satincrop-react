@@ -5,8 +5,8 @@ import Services from "../components/CSharp/Services";
 import ComputerVisionAI from "../components/CSharp/ComputerVisionAI";
 import PageBanner from "../components/CSharp/PageBanner";
 import TechDetailsContent from "../components/CSharp/TechDetailsContent";
+import BlogPostSlider from "../components/CSharp/BlogPostSlider";
 import MainServices from "../components/Live/MainServices";
-import BlogPostSlider from "../components/Live/BlogPostSlider";
 import ContactFormContent from "../components/Common/ContactFormContent";
 import Link from "next/link";
 import Head from 'next/head';
@@ -40,7 +40,7 @@ const Index = () => {
         </div>
       <MainServices />
       <BlogPostSlider />
-
+      <BlogPostSlider />
       <ContactFormContent />
       <Footer />
     </>

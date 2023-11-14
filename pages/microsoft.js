@@ -6,7 +6,7 @@ import ComputerVisionAI from "../components/kubernetes/ComputerVisionAI";
 import PageBanner from "../components/kubernetes/PageBanner";
 import TechDetailsContent from "../components/kubernetes/TechDetailsContent";
 import MainServices from "../components/Live/MainServices";
-import BlogPostSlider from "../components/Live/BlogPostSlider";
+import BlogPostSlider from "../components/kubernetes/BlogPostSlider";
 import ContactFormContent from "../components/Common/ContactFormContent";
 import Link from "next/link";
 import Head from 'next/head';
