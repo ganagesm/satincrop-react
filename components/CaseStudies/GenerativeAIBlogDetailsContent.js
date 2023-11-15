@@ -83,11 +83,11 @@ const BlogDetailsContent = () => {
                           <i className="fab fa-linkedin-in"></i>
                         </a>
                       </li>
-                      <li>
+                      {/* <li>
                         <a href="#" target="_blank" rel="noreferrer">
                           <i className="fab fa-instagram"></i>
                         </a>
-                      </li>
+                      </li> */}
                     </ul>
                   </div>
                 </div>
