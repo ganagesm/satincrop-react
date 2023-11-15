@@ -176,7 +176,7 @@ const Footer = () => {
                     <span>Email:</span> <a href="mailto:sales@satincorp.com">sales@satincorp.com</a>
                   </li>
                   <li>
-                    <span>Phone:</span> <a href="tel:+917823025808">India : +91 78757 87550</a>
+                    <span>Phone:</span> <a href="tel:+917875787550">India : +91 78757 87550</a>
                     {/* <span>Phone:</span> <a href="tel:+917823025808">India : +91-7823025808</a> */}
                   </li>
                   <li>
