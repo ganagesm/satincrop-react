@@ -245,7 +245,7 @@ const Navbar = () => {
                   <li className="nav-item">
                     <Link
                       href=""
-                      className={`nav-link ${currentPath == "/microsoft" || currentPath === "/google-cloud" || currentPath === "/oracle" || currentPath === "/aws-services" || currentPath === "/salesforce" || currentPath === "/servicenow" || currentPath === "/angular" || currentPath === "/android" ? "active"
+                      className={`nav-link ${currentPath == "/microsoft" || currentPath === "/google-cloud" || currentPath === "/oracle" || currentPath === "/aws-services" || currentPath === "/salesforce" || currentPath === "/servicenow" || currentPath === "/angular" || currentPath === "/android" || currentPath == "/mendix" ? "active"
                           : ""
                         }`}
                     >

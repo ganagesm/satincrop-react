@@ -31,8 +31,8 @@ const Index = () => {
       <TechDetailsContent />
       <WhyChooseSAT />
       <OurIndustry />
-      <BlogPostSlider />
       <CaseStudiesSlider />
+      <BlogPostSlider />
       <Testimonials />
       <Footer />
     </>

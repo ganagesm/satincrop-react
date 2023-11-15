@@ -98,7 +98,7 @@ const BlogPostSlider = () => {
                   <div className="single-blog-post" key={index}>
                     <div className="entry-thumbnail">
                       <Link href="/blog/[slug]" as={`/blog/${post.slug}`}>
-                        <img src={post.featured_image_url[0]} alt="image"  style={{ height: "279px", width: '100%' }} />
+                        <img src={post.featured_image_url[0]} alt="image" style={{ height: "279px", width: '100%' }} />
                         {/* <div 
                     dangerouslySetInnerHTML={{__html: post.featured_image_url[0]}}
                     /> */}
@@ -129,6 +129,15 @@ const BlogPostSlider = () => {
               ))}
             </div>
           </Swiper>
+          <div className="col-lg-12 col-md-12">
+            <div className="ai-all-services-btn" data-aos="fade-in"
+              data-aos-duration="1200"
+              data-aos-delay="1800">
+              <Link href="/blog/" className="btn btn-primary">
+                Read More Blogs
+              </Link>
+            </div>
+          </div>
         </div>
 
         <div className="dot-shape1">
