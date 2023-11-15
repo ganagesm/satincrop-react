@@ -33,7 +33,7 @@ const Services = () => {
               <div className="single-services-box">
                 <h2>Talent Acquisition
                 </h2>
-                <p>We will recruit and onboard the right talent for your GCC, ensuring that you have the skills and expertise you need to succeed.
+                <p>We will <a href="/contigent-service" target="_blank">recruit</a>  and onboard the right talent for your GCC, ensuring that you have the skills and expertise you need to succeed.
                 </p>
               </div>
             </div>
@@ -73,7 +73,7 @@ const Services = () => {
             <div className="col-lg-4 col-sm-6">
               <div className="single-services-box" style={{ height: "270px" }}>
                 <h2>Regulatory Compliance</h2>
-                <p>We will help you navigate the intricacies of Indian legal and regulatory requirements to ensure compliance.</p>
+                <p>We will help you navigate the intricacies of Indian legal and regulatory requirements to ensure <a href="https://www.satincorp.com/blog/navigating-challenges-it-controls-sox-compliance">compliance</a>.</p>
               </div>
             </div>
             <div className="col-lg-4 col-sm-6">

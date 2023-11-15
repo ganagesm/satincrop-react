@@ -12,7 +12,7 @@ import WhyChooseSAT from "../components/software-quality-assurance/WhyChooseSAT"
 import Services from "../components/software-quality-assurance/Services";
 import OurIndustry from "../components/Common/OurIndustry";
 import Testimonials from "../components/Live/Testimonials";
-import BlogPostSlider from "../components/Live/BlogPostSlider";
+import BlogPostSlider from "../components/software-quality-assurance/BlogPostSlider";
 
 import Head from 'next/head';
 
@@ -33,8 +33,8 @@ const Index = () => {
       <Services/>
       <WhyChooseSAT/>
       <OurIndustry/>
-      <BlogPostSlider />
       <CaseStudiesSlider />
+      <BlogPostSlider />
       <Testimonials />
       <Footer />
     </>

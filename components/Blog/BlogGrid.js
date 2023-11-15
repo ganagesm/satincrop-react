@@ -77,9 +77,6 @@ export default function BlogThreeGrid() {
                     <div className="entry-meta">
                       <ul>
                         <li>
-                          <Link href="#">{post.author_info.name}</Link>
-                        </li>
-                        <li>
                           <strong>Category :</strong> {post.category}
                         </li>
                         <li>{post.date_info}</li>
@@ -88,12 +85,12 @@ export default function BlogThreeGrid() {
 
                     <h3>
                       <div
-                        dangerouslySetInnerHTML={{ __html: post.title.rendered }}
+                        dangerouslySetInnerHTML={{ __html: post.title.rendered.slice(0, 100) + '...' }}
                       />
                     </h3>
 
 
-                    <div dangerouslySetInnerHTML={{ __html: post.excerpt.rendered }} />
+                    <div dangerouslySetInnerHTML={{ __html: post.excerpt.rendered.slice(0, 100) + '...' }} />
 
                     {/* <Link  className="learn-more-btn" href={`/blogs/${post.slug}`}> Read More <i className="flaticon-add"></i></Link> */}
 

@@ -9,7 +9,7 @@ import Link from "next/link";
 import PartnerContent from "../components/Live/PartnerContent";
 import OurIndustry from "../components/Common/OurIndustry";
 import ContactForm from "../components/Contact/ContactForm";
-import BlogPostSlider from "../components/Live/BlogPostSlider";
+import BlogPostSlider from "../components/rpo-service/BlogPostSlider";
 import ContactFormContent from "../components/Common/ContactFormContent";
 import Head from 'next/head';
 

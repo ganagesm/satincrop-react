@@ -5,7 +5,7 @@ import ComputerVisionAI from "../components/GooglecloudNew/ComputerVisionAI";
 import PageBanner from "../components/GooglecloudNew/PageBanner";
 import TechDetailsContent from "../components/GooglecloudNew/TechDetailsContent";
 import MainServices from "../components/Live/MainServices";
-import BlogPostSlider from "../components/Live/BlogPostSlider";
+import BlogPostSlider from "../components/GooglecloudNew/BlogPostSlider";
 import ContactFormContent from "../components/Common/ContactFormContent";
 import Link from "next/link";
 import Head from "next/head";

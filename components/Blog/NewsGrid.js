@@ -7,7 +7,7 @@ export default function BlogThreeGrid() {
   const [currentPage, setCurrentPage] = useState(1);
   const [totalPages, setTotalPages] = useState(1);
   const pageSize = 10; // Number of posts per page
-
+  const postApi = 'https://dev1.satincorp.com/wp-json/wp/v2';
   const router = useRouter();
 
 
@@ -15,8 +15,7 @@ export default function BlogThreeGrid() {
     async function fetchPosts() {
       try {
         // news and event category
-        // const response = await fetch(`https://dev1.satincorp.com/wp-json/wp/v2/posts?categories=130?page=${currentPage}&per_page=${pageSize}`);
-        const response = await fetch(`https://dev1.satincorp.com/wp-json/wp/v2/posts?category_name=news-and-events&page=${currentPage}&per_page=${pageSize}&order=desc`);
+        const response = await fetch(`${postApi}/posts?categories=130&page=${currentPage}&per_page=${pageSize}&order=desc`);
 
         if (!response.ok) {
           throw new Error('Network response was not ok');
@@ -72,9 +71,9 @@ export default function BlogThreeGrid() {
                   <div className="entry-post-content">
                     <div className="entry-meta">
                       <ul>
-                        <li>
+                        {/* <li>
                           <Link href="#">{post.author_info.name}</Link>
-                        </li>
+                        </li> */}
                         <li>
                           <strong>Category :</strong> {post.category}
                         </li>
