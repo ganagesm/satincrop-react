@@ -90,11 +90,11 @@ Our new Bangalore office will serve as a hub for offshore development and Genera
                           <i className="fab fa-linkedin-in"></i>
                         </a>
                       </li>
-                      {/* <li>
+                       <li>
                         <a href="#" target="_blank" rel="noreferrer">
                           <i className="fab fa-instagram"></i>
                         </a>
-                      </li> */}
+                      </li>
                     </ul>
                   </div> */}
                 </div>
