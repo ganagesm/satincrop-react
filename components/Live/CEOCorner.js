@@ -1,6 +1,6 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay } from "swiper";
+import { Pagination, Autoplay } from "swiper";
 import Link from "next/link";
 
 const BlogPostSlider = () => {
@@ -64,10 +64,10 @@ const BlogPostSlider = () => {
                   }}
                   breakpoints={{
                     0: {
-                      slidesPerView: 2,
+                      slidesPerView: 1,
                     },
                     576: {
-                      slidesPerView: 2,
+                      slidesPerView: 1,
                     },
                     768: {
                       slidesPerView: 2,
@@ -76,7 +76,10 @@ const BlogPostSlider = () => {
                       slidesPerView: 2,
                     },
                   }}
-                  modules={[Autoplay]}
+                  pagination={{
+                    clickable: true,
+                  }}
+                  modules={[Pagination, Autoplay]}
                   className="ceo-slides"
                 >
                 <div className="row justify-content-center">

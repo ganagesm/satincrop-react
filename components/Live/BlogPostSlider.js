@@ -1,7 +1,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import React, { useEffect, useState, Component } from 'react';
 import { useRouter } from 'next/router';
-import { Autoplay } from "swiper";
+import { Pagination, Autoplay } from "swiper";
 import Link from "next/link";
 
 const BlogPostSlider = () => {
@@ -89,7 +89,10 @@ const BlogPostSlider = () => {
                 slidesPerView: 3,
               },
             }}
-            modules={[Autoplay]}
+            pagination={{
+              clickable: true,
+            }}
+            modules={[Pagination, Autoplay]}
             className="partner-slides"
           >
             <div className="row justify-content-center">

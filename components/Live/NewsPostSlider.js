@@ -1,7 +1,7 @@
 import React, { useEffect, useState, Component } from 'react';
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination, Autoplay } from "swiper";
 import { useRouter } from 'next/router';
-import { Autoplay } from "swiper";
 import Link from "next/link";
 
 const BlogPostSlider = () => {
@@ -78,10 +78,10 @@ const BlogPostSlider = () => {
             }}
             breakpoints={{
               0: {
-                slidesPerView: 2,
+                slidesPerView: 1,
               },
               576: {
-                slidesPerView: 2,
+                slidesPerView: 1,
               },
               768: {
                 slidesPerView: 3,
@@ -90,7 +90,10 @@ const BlogPostSlider = () => {
                 slidesPerView: 3,
               },
             }}
-            modules={[Autoplay]}
+            pagination={{
+              clickable: true,
+            }}
+            modules={[Pagination, Autoplay]}
             className="news-slides"
           >
             <div className="row justify-content-center">
@@ -106,7 +109,7 @@ const BlogPostSlider = () => {
                     <div className="entry-post-content">
                       <div className="entry-meta">
                         <ul>
-                          <li> <Link href="#">{post.author_info.name}</Link> </li>
+                          {/* <li> <Link href="#">{post.author_info.name}</Link> </li> */}
                           {/* <li> <strong>Category :</strong> {post.category}</li> */}
                         <li>{post.date_info}</li>
                       </ul>

@@ -78,7 +78,7 @@ button {
 }
 
 p {
-    font-size: 16px;
+    font-size: 14px;
     color: #57647c;
     margin-bottom: 15px;
     line-height: 1.8;
@@ -2358,7 +2358,6 @@ Blog Area CSS
 }
 .single-blog-post .entry-post-content {
     padding: 30px;
-    /* height: 490px; */
 }
 .single-blog-post .entry-post-content .entry-meta {
     margin-bottom: 6px;
@@ -3055,7 +3054,7 @@ Page Title Area CSS
     background-image: url(/images/technology-banner/servicenow-banner.jpg);
 }
 .page-title-area.item-bg8 {
-    background-image: url(/images/technology-banner/Contingent.png);
+    background-image: url(/images/technology-banner/Contingent.jpg);
 }
 .page-title-area.item-bg9 {
     background-image: url(/images/technology-banner/google-banner.png);
@@ -3075,6 +3074,7 @@ Page Title Area CSS
 .page-title-area.item-bg14 {
     background-image: url(/images/technology-banner/RPO.png);
 }
+
 .page-title-content h2 {
     margin-bottom: 0;
     color: #ffffff;
@@ -4828,10 +4828,10 @@ Testimonials Area CSS
 Webinar Area CSS
 =================================================*/
 .webinar-inner {
-    background-color: #fcf8f5;
-    /* padding-left: 15px; */
+    background-color: #f4f0e6;
+    padding-left: 15px;
     padding-right: 125px;
-    /* padding-top: 10px; */
+    padding-top: 10px;
 }
 .webinar-inner .content h2 {
     margin-bottom: 15px;
@@ -6901,7 +6901,7 @@ AI About Area CSS
     border-radius: 5px;
     margin-bottom: 18px;
     position: relative;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
     color: #57647c;
 }
@@ -8375,6 +8375,9 @@ a.btn.btn-primary.cnt_btn {
     z-index: 999999;
 }
 
+.cmmi {
+    font-style: italic;
+}
 .cmmi h4 {
     margin-bottom: -4px;
     color: #0a1f5e;
@@ -8391,36 +8394,37 @@ a.btn.btn-primary.cnt_btn {
     font-size: 14px;
     font-weight: 700;
 }
+
 .content.tm_title h3 {
     text-align: initial;
     font-size: 20px;
 }
+
 .c_img a {
     width: 100%;
 }
-.c_img a img{
+.c_img img {
     width: 100% !important;
 }
-.glass_logo{
-    float: right;
-}
 
-ul.about-list.emp_list li {
-    list-style-type: none;
+.glass_logo {
+    float: right;
 }
 
 ul.about-list.emp_list {
     padding: 0;
 }
-
-ul.about-list.emp_list li i {
+ul.about-list.emp_list li {
+    list-style-type: none;
+}
+ul.about-list.emp_list i {
     color: #03B5A9;
     padding: 8px 0;
 }
 
-/* .entry-thumbnail img {
-    width: 419px !important;
-    height: 314px !important;
-} */
-
+@media (max-width: 600px) {
+    .single-partner-item a {
+        font-size: 2.25rem;
+    }
+}
 /*End "Home Demo - 6", "Home Demo - 7" & "Home Demo - 8" Style CSS*/
