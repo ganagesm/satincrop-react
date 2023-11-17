@@ -11518,6 +11518,11 @@ ul.about-list.emp_list {
 }
 
 .blogCustom-style {
+  a {
+    font-weight: 500;
+    color: #ff4800;
+  }
+
   p {
     color: #171818 !important;
 
@@ -11525,8 +11530,13 @@ ul.about-list.emp_list {
       font-weight: 500;
       color: #ff4800;
 
+      mark {
+        color: #ff4800;
+      }
+
       :hover {
         color: #ff4800;
+
         mark {
           color: #ff4800;
         }
