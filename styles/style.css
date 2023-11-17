@@ -8481,11 +8481,18 @@ ul.about-list.emp_list i {
         font-size: 2.25rem;
     }
 }
+.blogCustom-style a {
+    font-weight: 500;
+    color: #ff4800;
+}
 .blogCustom-style p {
     color: #171818 !important;
 }
 .blogCustom-style p a {
     font-weight: 500;
+    color: #ff4800;
+}
+.blogCustom-style p a mark {
     color: #ff4800;
 }
 .blogCustom-style p a :hover {
