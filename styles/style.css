@@ -63,7 +63,18 @@ button {
     outline: 0 !important;
 }
 
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: #212529;
     font-weight: bold;
     font-family: "Dosis", sans-serif;
@@ -2185,7 +2196,8 @@ Feedback Area CSS
     background-size: cover;
     background-repeat: no-repeat;
 }
-.feedback-slides .swiper-button-next, .feedback-slides .swiper-button-prev {
+.feedback-slides .swiper-button-next,
+.feedback-slides .swiper-button-prev {
     color: #fff;
 }
 
@@ -2599,7 +2611,8 @@ Blog Details Area CSS
     background-color: #ff4800;
 }
 
-blockquote, .blockquote {
+blockquote,
+.blockquote {
     overflow: hidden;
     background-color: #fafafa;
     padding: 50px !important;
@@ -2610,7 +2623,8 @@ blockquote, .blockquote {
     margin-bottom: 20px;
     margin-top: 20px;
 }
-blockquote p, .blockquote p {
+blockquote p,
+.blockquote p {
     color: #212529;
     line-height: 1.6;
     margin-bottom: 0;
@@ -2618,10 +2632,12 @@ blockquote p, .blockquote p {
     font-weight: 600;
     font-size: 20px;
 }
-blockquote cite, .blockquote cite {
+blockquote cite,
+.blockquote cite {
     display: none;
 }
-blockquote::before, .blockquote::before {
+blockquote::before,
+.blockquote::before {
     color: #efefef;
     content: "";
     position: absolute;
@@ -2642,7 +2658,8 @@ blockquote::before, .blockquote::before {
     font-size: 23px;
     font-weight: 700;
 }
-.comments-area ol, .comments-area ul {
+.comments-area ol,
+.comments-area ul {
     padding: 0;
     margin: 0;
     list-style-type: none;
@@ -2756,7 +2773,19 @@ blockquote::before, .blockquote::before {
     font-weight: 600;
     font-family: "Dosis", sans-serif;
 }
-.comments-area .comment-respond input[type=date], .comments-area .comment-respond input[type=time], .comments-area .comment-respond input[type=datetime-local], .comments-area .comment-respond input[type=week], .comments-area .comment-respond input[type=month], .comments-area .comment-respond input[type=text], .comments-area .comment-respond input[type=email], .comments-area .comment-respond input[type=url], .comments-area .comment-respond input[type=password], .comments-area .comment-respond input[type=search], .comments-area .comment-respond input[type=tel], .comments-area .comment-respond input[type=number], .comments-area .comment-respond textarea {
+.comments-area .comment-respond input[type=date],
+.comments-area .comment-respond input[type=time],
+.comments-area .comment-respond input[type=datetime-local],
+.comments-area .comment-respond input[type=week],
+.comments-area .comment-respond input[type=month],
+.comments-area .comment-respond input[type=text],
+.comments-area .comment-respond input[type=email],
+.comments-area .comment-respond input[type=url],
+.comments-area .comment-respond input[type=password],
+.comments-area .comment-respond input[type=search],
+.comments-area .comment-respond input[type=tel],
+.comments-area .comment-respond input[type=number],
+.comments-area .comment-respond textarea {
     display: block;
     width: 100%;
     background-color: #ffffff;
@@ -2765,7 +2794,19 @@ blockquote::before, .blockquote::before {
     outline: 0;
     transition: 0.5s;
 }
-.comments-area .comment-respond input[type=date]:focus, .comments-area .comment-respond input[type=time]:focus, .comments-area .comment-respond input[type=datetime-local]:focus, .comments-area .comment-respond input[type=week]:focus, .comments-area .comment-respond input[type=month]:focus, .comments-area .comment-respond input[type=text]:focus, .comments-area .comment-respond input[type=email]:focus, .comments-area .comment-respond input[type=url]:focus, .comments-area .comment-respond input[type=password]:focus, .comments-area .comment-respond input[type=search]:focus, .comments-area .comment-respond input[type=tel]:focus, .comments-area .comment-respond input[type=number]:focus, .comments-area .comment-respond textarea:focus {
+.comments-area .comment-respond input[type=date]:focus,
+.comments-area .comment-respond input[type=time]:focus,
+.comments-area .comment-respond input[type=datetime-local]:focus,
+.comments-area .comment-respond input[type=week]:focus,
+.comments-area .comment-respond input[type=month]:focus,
+.comments-area .comment-respond input[type=text]:focus,
+.comments-area .comment-respond input[type=email]:focus,
+.comments-area .comment-respond input[type=url]:focus,
+.comments-area .comment-respond input[type=password]:focus,
+.comments-area .comment-respond input[type=search]:focus,
+.comments-area .comment-respond input[type=tel]:focus,
+.comments-area .comment-respond input[type=number]:focus,
+.comments-area .comment-respond textarea:focus {
     border-color: #ff4800;
 }
 .comments-area .comment-respond .comment-form-author {
@@ -3618,7 +3659,8 @@ FAQ Area CSS
     margin-left: -10px;
     margin-right: -10px;
 }
-.faq-contact-form form .row .col-lg-12, .faq-contact-form form .row .col-lg-6 {
+.faq-contact-form form .row .col-lg-12,
+.faq-contact-form form .row .col-lg-6 {
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -3848,7 +3890,8 @@ Contact Area CSS
     margin-left: -10px;
     margin-right: -10px;
 }
-.contact-form form .row .col-lg-12, .contact-form form .row .col-lg-6 {
+.contact-form form .row .col-lg-12,
+.contact-form form .row .col-lg-6 {
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -4268,17 +4311,25 @@ Go Top CSS
 }
 
 /* Text container */
-.text-container h1, .text-container h2, .text-container h3, .text-container h4, .text-container h5, .text-container h6 {
+.text-container h1,
+.text-container h2,
+.text-container h3,
+.text-container h4,
+.text-container h5,
+.text-container h6 {
     margin-bottom: 15px;
 }
-.text-container ul, .text-container ol {
+.text-container ul,
+.text-container ol {
     padding-left: 17px;
 }
-.text-container ul li, .text-container ol li {
+.text-container ul li,
+.text-container ol li {
     line-height: 1.8;
     margin-bottom: 6px;
 }
-.text-container ul li:last-child, .text-container ol li:last-child {
+.text-container ul li:last-child,
+.text-container ol li:last-child {
     margin-bottom: 0;
 }
 
@@ -4507,7 +4558,8 @@ Main Banner Area CSS
 .home-slides .main-banner .main-banner-content p {
     margin-top: 30px;
 }
-.home-slides .swiper-button-next, .home-slides .swiper-button-prev {
+.home-slides .swiper-button-next,
+.home-slides .swiper-button-prev {
     color: #ff4800;
 }
 
@@ -5074,7 +5126,8 @@ Projects Area CSS
     transform: scale(1);
 }
 
-.projects-slides .swiper-button-next, .projects-slides .swiper-button-prev {
+.projects-slides .swiper-button-next,
+.projects-slides .swiper-button-prev {
     color: #ff4800;
 }
 
@@ -5488,7 +5541,8 @@ Projects Details Area CSS
 .projects-details-desc p {
     margin-bottom: 12px;
 }
-.projects-details-desc blockquote p, .projects-details-desc .blockquote p {
+.projects-details-desc blockquote p,
+.projects-details-desc .blockquote p {
     font-size: 25px;
 }
 
@@ -8314,8 +8368,8 @@ Footer Wrap Area CSS
     width: 100%;
     background-color: #fff;
     /* position: absolute;
-    top:25%;
-    right:25%; */
+      top:25%;
+      right:25%; */
     padding-bottom: 100px;
 }
 
@@ -8427,4 +8481,18 @@ ul.about-list.emp_list i {
         font-size: 2.25rem;
     }
 }
+.blogCustom-style p {
+    color: #171818 !important;
+}
+.blogCustom-style p a {
+    font-weight: 500;
+    color: #ff4800;
+}
+.blogCustom-style p a :hover {
+    color: #ff4800;
+}
+.blogCustom-style p a :hover mark {
+    color: #ff4800;
+}
+
 /*End "Home Demo - 6", "Home Demo - 7" & "Home Demo - 8" Style CSS*/

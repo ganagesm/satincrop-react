@@ -5,6 +5,7 @@ import Industries from "../components/GCC/Industries";
 import Services from "../components/GCC/Services";
 import WhyChooseSAT from "../components/GCC/WhyChooseSAT";
 import ContactFormContent from "../components/Common/ContactFormContent";
+import BlogPostSlider from "../components/GCC/BlogPostSlider";
 import Head from 'next/head';
 import { Component, useState } from "react";
 import Link from "next/link";
@@ -32,13 +33,9 @@ const Index = () => {
 
       <Navbar />
       <HeroBanner />
-      {/* <TechDetailsContent /> */}
-
-
       <Services />
       <Industries />
       <WhyChooseSAT />
-
       <section className="services-area pb-110">
         <div className="container">
           <div className="section-title">
@@ -218,17 +215,11 @@ const Index = () => {
           <img src="/images/shape/dot6.png" alt="image" />
         </div>
       </section>
-
-      {/* <OurIndustry /> */}
-      {/* <CaseStudiesSlider /> */}
-      {/* <BlogPostSlider /> */}
-      <div className="partner-section ptb-50">
+      <BlogPostSlider />
+      {/* <div className="partner-section ptb-50">
         <div className="container">
           <div className="section-title">
             <h2>Insights</h2>
-            {/* <p>
-              Learn more about our work through Blog post and technology specific articles.
-            </p> */}
           </div>
           <Swiper
             spaceBetween={20}
@@ -391,11 +382,6 @@ const Index = () => {
                     <p>
                       Global Capability Centers (GCCs) have been integral to the growth and success of many businesses...
                     </p>
-
-                    {/* <Link href="/blog/sa-technologies-inc-introducing-brand-new-offshore-development-centre-bangalore/" className="learn-more-btn">
-                      Read More <i className="flaticon-add"></i>
-                    </Link> */}
-
                     <Link href="/articles/gcc-evolution/" className="learn-more-btn">
                       Read More <i className="flaticon-add"></i>
                     </Link>
@@ -485,7 +471,7 @@ const Index = () => {
         <div className="shape-img5">
           <img src="/images/shape/shape5.svg" alt="image" />
         </div>
-      </div>
+      </div> */}
       {/* <Testimonials /> */}
       <ContactFormContent />
       <Footer />
