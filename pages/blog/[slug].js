@@ -57,7 +57,7 @@ export default function BlogPost() {
         activePageText="Blog"
         bgImgClass="item-bg2"
       />
-      <section className="blog-details-area ptb-110">
+      <section className="blog-details-area blogCustom-style ptb-110">
         <div className="container">
           <div className="row">
             <div className="col-lg-8 col-md-12 offset-lg-2">
