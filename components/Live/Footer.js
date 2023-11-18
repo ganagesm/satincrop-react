@@ -8,8 +8,7 @@ const Footer = () => {
   // Check if the current route is the career page
   const isCareerPage = location.pathname === '/careers';
   const isEmployeeSelfService = location.pathname === '/employeeselfservice';
-
-  // Conditionally render the script based on the route
+  const isGCC = location.pathname === '/gcc';
 
   //Zoho Sales Iq Script:
   const useScript = (url, widgetCode) => {
@@ -76,9 +75,9 @@ const Footer = () => {
                     </a>
                   </li>
                   <li style={{ padding: "0", }}><Link href="https://twitter.com/SatechGlobal" target="_blank" rel="noreferrer">
-                  <svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="#fff" viewBox="0 0 512 512">
-                    <path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" /></svg></Link>
-                </li>
+                    <svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="#fff" viewBox="0 0 512 512">
+                      <path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" /></svg></Link>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -93,15 +92,8 @@ const Footer = () => {
                 <h3>Quick Links</h3>
 
                 <ul className="footer-services-list">
-                  {/* <li>
-                    <Link href="/nearshore">News</Link>
-                  </li>
-                  <li>
-                    <Link href="/offshore">Blog</Link>
-                  </li> */}
                   <li>
                     <Link href="/careers">Careers </Link>
-                    {/* <Link href="https://jobs.satincorp.com/jobs/Careers" target="_blank">Careers</Link> */}
                   </li>
                   <li>
                     <Link href="/about">About Us</Link>
@@ -218,31 +210,32 @@ const Footer = () => {
           <div className="line"></div>
           <div className="line"></div>
         </div>
-        <Link href="https://api.whatsapp.com/send/?phone=%2B9107875787550&text=Hello!%20I%27m%20interested%20in%20exploring%20your%20SAT%20Services.%20Can%20you%20share%20more%20details?" target="_blank" className="floatWhatsApp">
-          <img src="/images/icons/whatsApp.svg" alt="whatsapp" />
-        </Link>
+        {isGCC ? (
+          // Render if isGCC is true (SAT Services)
+          <Link href="https://api.whatsapp.com/send/?phone=+91%2097669%2097718&text=Hello!%20I%27m%20interested%20in%20exploring%20your%20GCC%20Services.%20Can%20you%20share%20more%20details?" target="_blank" className="floatWhatsApp">
+            <img src="/images/icons/whatsApp.svg" alt="whatsapp" />
+          </Link>
+        ) : (
+          // Render if isGCC is false (GCC Services)
+          <Link href="https://api.whatsapp.com/send/?phone=%2B9107875787550&text=Hello!%20I%27m%20interested%20in%20exploring%20your%20SAT%20Services.%20Can%20you%20share%20more%20details?" target="_blank" className="floatWhatsApp">
+            <img src="/images/icons/whatsApp.svg" alt="whatsapp" />
+          </Link>
+        )}
+
       </footer>
 
-      {/* <React.Fragment>
-        {useScript('https://salesiq.zoho.in/widget', 'siqf0be5ba9aefe176393dfbe591c77fef43f5283d3b627b4cd0b623da1760ed2e4117e8194377283a5ded1bc7509f07a7f')}
-      </React.Fragment> */}
-
       <React.Fragment>
-        {/* {isCareerPage ? (
-          // Load the script on the career page
-          useScript('https://salesiq.zoho.in/widget', 'siqb6893c10dd1c1c4c4cdd0150c0fb02c9b296e864dc452fbee73744582c509b00')
-        ) : (
-          // Render something else for other pages
-          useScript('https://salesiq.zoho.in/widget', 'siqf0be5ba9aefe176393dfbe591c77fef43f5283d3b627b4cd0b623da1760ed2e4117e8194377283a5ded1bc7509f07a7f')
-        )} */}
         {isCareerPage ? (
           // Load the script on the career page
           useScript('https://salesiq.zoho.in/widget', 'siqb6893c10dd1c1c4c4cdd0150c0fb02c9b296e864dc452fbee73744582c509b00')
         ) : isEmployeeSelfService ? (
           // Load the script on the employee self-service page
           useScript('https://salesiq.zoho.in/widget', 'siq9db5171ce94a7f6b2ebb4290a65eea5e7709b889f71f08307fa46cbb1628552d')
+        ) : isGCC ? (
+          // Load the script on the GCC page
+          useScript('https://salesiq.zoho.in/widget', 'siqd501e20f5ff83957af2415d36330a0344fef3b83965c959b579f4a9444020527')
         ) : (
-          // Handle other cases or render something else
+          // Dana Bot
           useScript('https://salesiq.zoho.in/widget', 'siqf0be5ba9aefe176393dfbe591c77fef43f5283d3b627b4cd0b623da1760ed2e4117e8194377283a5ded1bc7509f07a7f')
         )}
 
