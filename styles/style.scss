@@ -11544,5 +11544,15 @@ ul.about-list.emp_list {
     }
   }
 }
+.homeBannerSecond {
+  background-image: url(/images/icons/home-banner2.jpeg);
+  background-Size: "100% 100%",
+}
+@media (max-width: 600px) {
+  .homeBannerSecond {
+    background-image: url(/images/icons/home-banner2.jpeg);
+    background-Size: cover,
+  }
+}
 
 /*End "Home Demo - 6", "Home Demo - 7" & "Home Demo - 8" Style CSS*/
