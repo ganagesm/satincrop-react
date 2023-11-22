@@ -322,7 +322,7 @@ const Navbar = () => {
                       </li>
                     </ul>
                   </li>
-                  <li className="nav-item">
+                  {/* <li className="nav-item">
                     <Link
                       href=""
                       className={`nav-link ${currentPath == "/contigent-service" || currentPath === "/rpo-services" || currentPath === "/hire-train-deploy" || currentPath === "/payroll-outsourcing-services" || currentPath === "/gcc" ? "active"
@@ -380,7 +380,16 @@ const Navbar = () => {
                         </Link>
                       </li>
                     </ul>
-                  </li>
+                  </li> */}
+                  <li className="nav-item">
+                        <Link
+                          href="/gcc"
+                          className={`nav-link ${currentPath == "/gcc" && "active"
+                            }`}
+                        >
+                         GCC Service
+                        </Link>
+                      </li>
                   <li className="nav-item">
                     <Link
                       href="/internal-audit"
