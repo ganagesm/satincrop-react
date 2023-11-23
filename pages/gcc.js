@@ -46,7 +46,7 @@ const Index = () => {
             <div className="col-lg-3 col-sm-6">
               <div className=" single-team-box">
                 <div className="image">
-                  <img src="/images/team/abhay.jpg" alt="image" />
+                  <img src="/images/team/abhay.jpg" alt="Abhay Bhan" />
                 </div>
                 <div className="content">
                   <Link href="/abhay/" >
@@ -59,7 +59,7 @@ const Index = () => {
             <div className="col-lg-3 col-sm-6">
               <div className="single-team-box">
                 <div className="image">
-                  <img src="/images/team/Sonal.png" alt="image" />
+                  <img src="/images/team/Sonal.png" alt="Sonal Sinha" />
                 </div>
                 <div className="content">
                   <Link href="/sonal-sinha/" >
@@ -72,7 +72,7 @@ const Index = () => {
             <div className="col-lg-3 col-sm-6">
               <div className="single-team-box">
                 <div className="image">
-                  <img src="/images/team/sudha.jpg" alt="image" />
+                  <img src="/images/team/sudha.jpg" alt="Vasudha Kanade" />
                 </div>
                 <div className="content">
                   <Link href="/vasudha-kanade/" >
@@ -85,7 +85,7 @@ const Index = () => {
             <div className="col-lg-3 col-sm-6">
               <div className="single-team-box">
                 <div className="image">
-                  <img src="/images/team/amita.jpg" alt="image" />
+                  <img src="/images/team/amita.jpg" alt="Amita Bhosale" />
                 </div>
                 <div className="content">
                   <Link href="/amita/" >
@@ -102,7 +102,7 @@ const Index = () => {
             <div className="col-lg-3 col-sm-6">
               <div className="single-team-box">
                 <div className="image">
-                  <img src="/images/team/Malay.png" alt="image" />
+                  <img src="/images/team/Malay.png" alt="Malay Soni" />
                 </div>
                 <div className="content">
                   <Link href="/malay/" >
@@ -116,7 +116,7 @@ const Index = () => {
             <div className="col-lg-3 col-sm-6">
               <div className="single-team-box">
                 <div className="image">
-                  <img src="/images/team/Jitendra.png" alt="image" />
+                  <img src="/images/team/Jitendra.png" alt="Jitendra Khairnar" />
                 </div>
                 <div className="content">
                   <Link href="/jitendra/" >
@@ -129,7 +129,7 @@ const Index = () => {
             <div className="col-lg-3 col-sm-6">
               <div className="single-team-box">
                 <div className="image">
-                  <img src="/images/team/Trishita.png" alt="image" />
+                  <img src="/images/team/Trishita.png" alt="Trishita Bhattacharya" />
                 </div>
                 <div className="content">
                   <Link href="/trishita/">
@@ -142,7 +142,7 @@ const Index = () => {
             <div className="col-lg-3 col-sm-6">
               <div className="single-team-box">
                 <div className="image">
-                  <img src="/images/team/kanak-02.png" alt="image" />
+                  <img src="/images/team/kanak-02.png" alt="Kanak Sahoo" />
                 </div>
                 <div className="content">
                   <Link href="/kanak/">
