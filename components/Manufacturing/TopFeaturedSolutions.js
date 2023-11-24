@@ -10,7 +10,7 @@ const TopFeaturedSolutions = () => {
             <div className="col-lg-12 col-sm-12">
               <div style={{textAlign:"center",}} className="top-featured-content">
                 <h2>Overview</h2>
-                <p>Unlock efficiency by seamlessly harmonizing processes, supply chains, and customer demands. With advanced automation, faster production cycles, and real-time insights, navigate disruptions with agility and enhance your financial performance. Partner with SA Technologies for a manufacturing revolution. 
+                <p>Unlock efficiency by seamlessly harmonizing processes, supply chains, and customer demands. With advanced automation, faster production cycles, and real-time insights, navigate disruptions with agility and enhance your financial performance. Partner with <a href="/" className="interlink">SA Technologies</a> for a manufacturing revolution. 
   
 </p>
               </div>

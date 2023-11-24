@@ -8,7 +8,7 @@ const ServiceDetailsContent = () => {
           <div className="services-details-overview">
             <div className="services-details-desc mb-30">
               <h3>What is Oracle Cloud Services ?</h3>
-              <p> Oracle Cloud Services refers to a suite of cloud computing solutions provided by Oracle Corporation. 
+              <p> Oracle <a href="/cloud-services/" className="interlink">Cloud Services</a> refers to a suite of cloud computing solutions provided by Oracle Corporation. 
                 These services encompass various cloud-based offerings such as infrastructure as a service (IaaS), platform as a 
                 service (PaaS), and software as a service (SaaS). Oracle Cloud Services enable businesses to deploy, manage, and scale applications and resources in a cloud environment. 
                 With a focus on security, performance, and innovation, Oracle Cloud Services empower organizations to modernize their IT 

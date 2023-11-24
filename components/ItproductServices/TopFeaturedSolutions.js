@@ -10,7 +10,7 @@ const TopFeaturedSolutions = () => {
             <div className="col-lg-12 col-sm-12">
               <div style={{textAlign:"center",}} className="top-featured-content">
                 <h2>Overview</h2>
-                <p>At SA Technologies, we understand every business's unique IT needs. Our AI-driven consulting services are tailored to meet diverse requirements, covering IT strategy, implementation, and support. With an expert team updated on AI and industry trends, we deliver innovative solutions for business success. 
+                <p>At <a href="/" className="interlink">SA Technologies</a>, we understand every business's unique IT needs. Our AI-driven consulting services are tailored to meet diverse requirements, covering IT strategy, implementation, and support. With an expert team updated on <a href="/generative-ai/" className="interlink"> AI</a> and industry trends, we deliver innovative solutions for business success. 
 </p>
               </div>
             </div>

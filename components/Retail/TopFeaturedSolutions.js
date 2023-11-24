@@ -10,7 +10,7 @@ const TopFeaturedSolutions = () => {
             <div className="col-lg-12 col-sm-12">
               <div style={{textAlign:"center",}} className="top-featured-content">
                 <h2>Overview</h2>
-                <p>In the rapidly changing world of retail, SA Technologies is your strategic partner. With expertise in the latest technologies and trends, we elevate your IT environment, enhance customer experiences, and drive your business forward. </p>
+                <p>In the rapidly changing world of retail, <a href="/" className="interlink">SA Technologies</a> is your strategic partner. With expertise in the latest technologies and trends, we elevate your IT environment, enhance customer experiences, and drive your business forward. </p>
               </div>
             </div>
 

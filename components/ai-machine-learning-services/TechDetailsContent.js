@@ -9,7 +9,7 @@ const ServiceDetailsContent = () => {
           <div className="services-details-overview">
             <div className="services-details-desc mb-30">
               <h3>Unleash Business Potential with AI & Machine Learning </h3>
-              <p>In the dynamic business realm, capitalizing on AI's prowess is paramount. At SA Technologies, we excel in crafting customized AI solutions. Our focus is amplifying your business prowess, automating operations, and elevating customer experiences.</p>
+              <p>In the dynamic business realm, capitalizing on AI's prowess is paramount. At <a href="/" className="interlink">SA Technologies</a>, we excel in crafting customized AI solutions. Our focus is amplifying your business prowess, automating operations, and elevating customer experiences.</p>
               <p>Our AI-powered solutions empower you to surpass customer expectations with tailored precision, infusing innovation into every facet of your enterprise. With cutting-edge technology and industry expertise, we pave the way for sustainable growth and competitive edge. Join us in revolutionizing your business landscape through AI-driven transformation.</p>
             </div>
 

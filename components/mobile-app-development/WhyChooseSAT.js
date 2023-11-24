@@ -48,7 +48,7 @@ const ComputerVisionAI = () => {
                         </h4>
                       </div>
                       <p>
-                      With a meticulous QA process, we ensure flawless app performance, no matter the platform or device.
+                      With a meticulous <a href="/software-quality-assurance/" className="interlink">QA</a> process, we ensure flawless app performance, no matter the platform or device.
                       </p>
                     </div>
                   </div>

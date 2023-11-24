@@ -8,7 +8,7 @@ const ServiceDetailsContent = () => {
           <div className="services-details-overview">
             <div className="services-details-desc mb-30">
               <h3>Why Google cloud</h3>
-              <p>Google Cloud offers a comprehensive suite of cloud computing services that can help you digitally transform 
+              <p><a href="/blog/google-cloud-v-s-aws/" className="interlink">Google Cloud</a> offers a comprehensive suite of cloud computing services that can help you digitally transform 
                 your business. With Google Cloud, you can access the latest AI innovations, get insights from your data, and 
                 build secure and scalable applications.</p>
               <p><b>Data insights that speed innovation:</b> Google Cloud's data analytics tools can help you make sense of your data and identify new opportunities.</p>

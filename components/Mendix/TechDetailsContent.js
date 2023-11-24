@@ -41,7 +41,7 @@ const ServiceDetailsContent = () => {
              
               <p>An <b>intuitive interface</b> that ensures even those with minimal coding knowledge can contribute and innovate. </p>
               <p><b>Process automation</b> that streamlines operations, eliminating redundancies and optimizing workflows. </p>
-              <p>Advanced <b>AI-based recommendations</b> that guide users in making the best design and development decisions.</p>
+              <p>Advanced <b>AI-based recommendations</b> that guide users in making the best design and <a href="/software-application-development/" className="interlink"> development</a> decisions.</p>
             </div>
           </div>
         </div>
