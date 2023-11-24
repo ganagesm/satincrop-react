@@ -10,7 +10,7 @@ const TopFeaturedSolutions = () => {
             <div className="col-lg-12 col-sm-12">
               <div style={{textAlign:"center",}} className="top-featured-content">
                 <h2>Overview</h2>
-                <p>Navigating the ever-changing media and entertainment landscape requires tailored IT solutions. SA Technologies offers specialized consulting services that optimize operations, drive efficiency, and foster growth in this dynamic industry. Our experts understand your unique challenges and craft personalized strategies for success. 
+                <p>Navigating the ever-changing media and entertainment landscape requires tailored IT solutions. <a href="/" className="interlink">SA Technologies </a> offers specialized consulting services that optimize operations, drive efficiency, and foster growth in this dynamic industry. Our experts understand your unique challenges and craft personalized strategies for success. 
 </p>
               </div>
             </div>

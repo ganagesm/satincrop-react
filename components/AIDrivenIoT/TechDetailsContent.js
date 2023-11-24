@@ -10,7 +10,7 @@ const ServiceDetailsContent = () => {
             <div className="services-details-desc mb-30">
               <h3>Revolutionizing Business with IoT (Internet of Things)
               </h3>
-              <p>The world is rapidly transforming into a digital ecosystem where everything is connected. At SA Technologies, we believe in spearheading this transformation by offering next-generation IoT (Internet of Things) services. </p>
+              <p>The world is rapidly transforming into a digital ecosystem where everything is connected. At <a href="/" className="interlink">SA Technologies</a>, we believe in spearheading this transformation by offering next-generation IoT (Internet of Things) services. </p>
               <p>Combining the power of AI and IoT, we have created a robust platform that enhances efficiency, improves decision-making, and streamlines your business processes. Our integrated solutions empower real-time data insights and predictive analytics, enabling you to proactively respond to market trends and enhance customer experiences.</p>
             </div>
 
