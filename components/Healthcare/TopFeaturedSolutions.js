@@ -10,7 +10,7 @@ const TopFeaturedSolutions = () => {
             <div className="col-lg-12 col-sm-12">
               <div style={{textAlign:"center",}} className="top-featured-content">
                 <h2>Overview</h2>
-                <p>Elevate healthcare with AI-driven IT consulting. From advanced system implementation to patient care optimization, we offer strategy, integration, analytics, cybersecurity, and compliance solutions. </p>
+                <p>Elevate <a href="/blog/sharepoint-solutions-for-healthcare-industry/" className="interlink"> healthcare</a> with AI-driven IT consulting. From advanced system implementation to patient care optimization, we offer strategy, integration, analytics, cybersecurity, and compliance solutions. </p>
               </div>
             </div>
 

@@ -12,7 +12,7 @@ const ServiceDetailsContent = () => {
               <p>
               Amazon Web Services (AWS) provides a comprehensive suite of cloud computing services that encompass computing power, storage, databases, networking, analytics, machine learning, and more. It offers businesses the flexibility to scale and innovate without the need for upfront investments in physical infrastructure. AWS services enable organizations to build, deploy, and manage applications in the cloud, supporting a wide range of use cases and industries.{" "}
               </p>
-              <p>With a global presence and a focus on security, AWS empowers businesses to accelerate their digital transformation journey. From startups to enterprises, AWS offers a reliable and scalable platform for driving efficiency, agility, and customer-centric solutions. Organizations can harness AWS services to turn data into actionable insights, enabling smarter decisions and better outcomes.</p>
+              <p>With a global presence and a focus on security, <a href="/blog/google-cloud-v-s-aws/" className="interlink"> AWS </a> empowers businesses to accelerate their digital transformation journey. From startups to enterprises, AWS offers a reliable and scalable platform for driving efficiency, agility, and customer-centric solutions. Organizations can harness AWS services to turn data into actionable insights, enabling smarter decisions and better outcomes.</p>
             </div>
 
             <div className="services-details-image">

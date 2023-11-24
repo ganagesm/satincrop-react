@@ -10,7 +10,7 @@ const TopFeaturedSolutions = () => {
             <div className="col-lg-12 col-sm-12">
               <div style={{textAlign:"center",}} className="top-featured-content">
                 <h2>Overview</h2>
-                <p>SA Tech delivers AI-driven IT consulting for educational institutions, ranging from K-12 to universities. Our services encompass technology evaluations, AI-integrated cloud solutions, cybersecurity, and IT strategy development. With vast experience in the academic sector, we provide tailored solutions and ongoing support to meet unique educational needs.</p>
+                <p><a href="/" className="interlink"> SA Tech </a> delivers AI-driven IT consulting for educational institutions, ranging from K-12 to universities. Our services encompass technology evaluations, AI-integrated cloud solutions, cybersecurity, and IT strategy development. With vast experience in the academic sector, we provide tailored solutions and ongoing support to meet unique educational needs.</p>
               </div>
             </div>
 

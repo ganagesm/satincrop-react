@@ -10,7 +10,7 @@ const TopFeaturedSolutions = () => {
             <div className="col-lg-12 col-sm-12">
               <div style={{textAlign:"center",}} className="top-featured-content">
                 <h2>Overview</h2>
-                <p>Operational excellence is vital in the Fast-Moving Consumer Durables (FMCD) industry. SA Technologies provides tailored IT consulting services to meet the unique needs of FMCD enterprises. With skilled professionals and AI solutions, we empower FMCD companies to conquer challenges and achieve operational goals seamlessly. </p>
+                <p>Operational excellence is vital in the Fast-Moving Consumer Durables (FMCD) industry. <a href="/" className="interlink">SA Technologies</a> provides tailored IT consulting services to meet the unique needs of FMCD enterprises. With skilled professionals and AI solutions, we empower FMCD companies to conquer challenges and achieve operational goals seamlessly. </p>
               </div>
             </div>
 

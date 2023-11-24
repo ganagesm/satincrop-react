@@ -31,7 +31,7 @@ const ComputerVisionAI = () => {
                       <div className="">
                         <h4>Custom Integration</h4>
                       </div>
-                        <p>SA Technologies ensures your tools and systems communicate flawlessly with tailored integration solutions, optimizing data flow and efficiency.</p>
+                        <p><a href="/" className="interlink"> SA Technologies</a> ensures your tools and systems communicate flawlessly with tailored integration solutions, optimizing data flow and efficiency.</p>
                     </div>
                   </div>
 

@@ -30,7 +30,7 @@ const ComputerVisionAI = () => {
                       <div className="">
                         <h4>Platform Mastery</h4>
                       </div>
-                      <p>Expertise in GCP, Azure, and AWS ensures top-tier cloud solutions.</p>
+                      <p>Expertise in GCP, Azure, and <a href="/aws-services/" className="interlink">AWS</a> ensures top-tier cloud solutions.</p>
                     </div>
                   </div>
 

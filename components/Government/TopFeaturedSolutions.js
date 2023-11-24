@@ -10,7 +10,7 @@ const TopFeaturedSolutions = () => {
             <div className="col-lg-12 col-sm-12">
               <div style={{textAlign:"center",}} className="top-featured-content">
                 <h2>Overview</h2>
-                <p>In the realm of contemporary governance, SA Technologies offers personalized consulting services. Tailored to address distinct challenges of each agency, our approach involves close collaboration to understand operations, policies, and procedures. This results in pragmatic, effective, and sustainable solutions.</p>
+                <p>In the realm of contemporary governance, <a href="/" className="interlink"> SA Technologies</a> offers personalized consulting services. Tailored to address distinct challenges of each agency, our approach involves close collaboration to understand operations, policies, and procedures. This results in pragmatic, effective, and sustainable solutions.</p>
               </div>
             </div>
 

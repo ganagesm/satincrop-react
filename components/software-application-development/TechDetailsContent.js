@@ -56,7 +56,7 @@ const ServiceDetailsContent = () => {
             </div>
             <div className="services-details-desc mb-30">
               <h3> Back-End Development  </h3>
-              <p>We provide a robust back-end foundation that integrates with AI to enhance performance. The backbone of any robust application lies in its Back-End Development. We at SA Technologies provide scalable and efficient server-side solutions that make your applications perform flawlessly. We use AI to optimize our back-end code, so it is more efficient and scalable. We also use AI to secure our back-end code, so it is more resistant to attacks.</p>
+              <p>We provide a robust back-end foundation that integrates with AI to enhance performance. The backbone of any robust application lies in its Back-End Development. We at <a href="/" className="interlink">SA Technologies </a> provide scalable and efficient server-side solutions that make your applications perform flawlessly. We use AI to optimize our back-end code, so it is more efficient and scalable. We also use AI to secure our back-end code, so it is more resistant to attacks.</p>
 
               <h5 className="pt-3 pb-3">Why Choose Back-End Development with AI? </h5>
               <ul>
