@@ -156,10 +156,10 @@ const Footer = () => {
                 <h3>S A Tech Software India Private Limited</h3>
 
                 <ul className="footer-contact-list">
-                  <li>
+                  {/* <li>
                     <span>India :</span>
                     6<sup>th</sup> Floor, Office No D-6030, Solitaire Business Hub, Sr. No. 207, Viman Nagar, Pune, Maharashtra, 411014
-                  </li>
+                  </li> */}
                   <li>
                     <span>US :</span>
                     3031 Tisch Way, 110 Plaza West, <br /> San Jose, CA 95128
