@@ -215,8 +215,8 @@ const Index = () => {
           <img src="/images/shape/dot6.png" alt="image" />
         </div>
       </section>
-      <BlogPostSlider />
-      {/* <div className="partner-section ptb-50">
+      {/* <BlogPostSlider /> */}
+      <div className="partner-section ptb-50">
         <div className="container">
           <div className="section-title">
             <h2>Insights</h2>
@@ -471,7 +471,7 @@ const Index = () => {
         <div className="shape-img5">
           <img src="/images/shape/shape5.svg" alt="image" />
         </div>
-      </div> */}
+      </div>
       {/* <Testimonials /> */}
       <ContactFormContent />
       <Footer />
