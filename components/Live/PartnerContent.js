@@ -10,7 +10,8 @@ const PartnerContent = () => {
             <h2>
             With 20 Years of Consulting & Outsourcing, We've Served 500+ Clients 
             </h2>
-            <p> Rooted in the Enterprise: With 20+ Years of experience, we've immersed ourselves in partnering with companies ranging from 10 to 10,000 employees. Our expertise lies in outsourcing and hiring hundreds of engineers across nearshore and offshore locations. We understand your work culture and preferences, ensuring our engineers seamlessly align with your approach. </p>
+            {/* <p> Rooted in the Enterprise: With 20+ Years of experience, we've immersed ourselves in partnering with companies ranging from 10 to 10,000 employees. Our expertise lies in outsourcing and hiring hundreds of engineers across nearshore and offshore locations. We understand your work culture and preferences, ensuring our engineers seamlessly align with your approach. </p> */}
+            <p>With over 20 years of experience, we specialize in partnering with companies of 10 to 10,000 employees, excelling in outsourcing and hiring engineers globally. Our understanding of diverse work cultures ensures our engineers align perfectly with your approach. </p>
           </div>
 
           <div className="customers-partner-list">
