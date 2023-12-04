@@ -49,7 +49,7 @@ const Footer = () => {
                     />
                   </Link>
                   <img alt="cmmi5" src="./images/ca-cmmi_logo.jpeg" width={50} style={{ marginLeft: "10px", }} />
-                  <p> SA Technologies Inc is a California based IT Consulting & Offshore Company headquartered at Santa Monica with offices in US, Canada, Singapore & India.</p>
+                  <p> SAT Inc is a California based IT Consulting & Offshore Company headquartered at Santa Monica with offices in US, Canada, Singapore & India.</p>
                 </div>
 
                 <ul className="social">
@@ -153,7 +153,7 @@ const Footer = () => {
                 data-aos-duration="1200"
                 data-aos-delay="400"
               >
-                <h3>S A Tech Software India Private Limited</h3>
+                <h3>SAT Software India Private Limited</h3>
 
                 <ul className="footer-contact-list">
                   {/* <li>
@@ -168,11 +168,11 @@ const Footer = () => {
                     <span>Email:</span> <a href="mailto:sales@satincorp.com">sales@satincorp.com</a>
                   </li>
                   <li>
-                    <span>Phone:</span> <a href="tel:+917875787550">India : +91 78757 87550</a>
-                    {/* <span>Phone:</span> <a href="tel:+917823025808">India : +91-7823025808</a> */}
+                    <span>Phone:</span> <a href="tel:(408) 495-5822">US : (408) 495-5822</a>
                   </li>
                   <li>
-                    <span>Phone:</span> <a href="tel:(408) 495-5822">US : (408) 495-5822</a>
+                    <span>Phone:</span> <a href="tel:+917875787550">India : +91 78757 87550</a>
+                    {/* <span>Phone:</span> <a href="tel:+917823025808">India : +91-7823025808</a> */}
                   </li>
                 </ul>
               </div>
