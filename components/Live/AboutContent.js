@@ -15,9 +15,8 @@ const AboutContact = () => {
 
             <div className="col-lg-6 col-md-12">
               <div className="about-content">
-                <h2>Engaging New Audiences Through Smart Approach</h2>
-                <p> With SA Technologies, propel forward on your digital and AI-driven journey under the aegis of our expert guidance, made possible by our diverse onshore, nearshore, and offshore teams. Our global perspective, combined with deep AI expertise, ensures a holistic approach to digital solutions tailored just for you.</p>
-                <p> Stay abreast with invaluable insights from our seasoned AI and tech experts. These insights not only enlighten but empower, ensuring you maintain a significant competitive edge in the ever-evolving digital and AI terrain. Delve deeper into the latest trends, strategies, and groundbreaking advancements in AI that hold the potential to redefine and elevate your business. With SA Technologies by your side, you're not just reacting to the digital and AI age - you're shaping it.</p>
+                <h2>Boost Your Business with SA Technologies: Dive into Digital and AI</h2>
+                <p> Choose SAT to guide you through the world of digital and AI. Our team, from all around the world, is skilled in AI and offers custom digital solutions to keep your business ahead. </p>
               </div>
             </div>
           </div>
