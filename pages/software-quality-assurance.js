@@ -6,7 +6,7 @@ import WhyTriosource from "../components/software-quality-assurance/WhyTriosourc
 // import Testimonials from "../components/software-quality-assurance/Testimonials";
 import BlogPost from "../components/software-quality-assurance/BlogPost";
 import ComputerVisionAI from "../components/software-quality-assurance/ComputerVisionAI";
-import CaseStudiesSlider from "../components/Live/CaseStudiesSlider";
+import CaseStudiesPost from "../components/Live/CaseStudiesPost";
 import TechDetailsContent from "../components/software-quality-assurance/TechDetailsContent";
 import WhyChooseSAT from "../components/software-quality-assurance/WhyChooseSAT";
 import Services from "../components/software-quality-assurance/Services";
@@ -33,9 +33,9 @@ const Index = () => {
       <Services/>
       <WhyChooseSAT/>
       <OurIndustry/>
-      <CaseStudiesSlider />
-      <BlogPostSlider />
       <Testimonials />
+      <BlogPostSlider />
+      <CaseStudiesPost />
       <Footer />
     </>
   )

@@ -8,7 +8,7 @@ import TechDetailsContent from "../components/GenerativeAi/TechDetailsContent";
 import FunFacts from "../components/Live/FunFacts";
 import OurIndustry from "../components/Common/OurIndustry";
 import Testimonials from "../components/Live/Testimonials";
-import BlogPostSlider from "../components/Live/BlogPostSlider";
+import BlogPostSlider from "../components/GenerativeAi/BlogPostSlider";
 import CaseStudiesPost from "../components/Live/CaseStudiesPost";
 import Head from 'next/head';
 

@@ -5,7 +5,7 @@ import WhyTriosource from "../components/mobile-app-development/WhyTriosource";
 // import Testimonials from "../components/mobile-app-development/Testimonials";
 import BlogPost from "../components/mobile-app-development/BlogPost";
 import ComputerVisionAI from "../components/mobile-app-development/ComputerVisionAI";
-import CaseStudiesSlider from "../components/Live/CaseStudiesSlider";
+import CaseStudiesPost from "../components/Live/CaseStudiesPost";
 import TechDetailsContent from "../components/mobile-app-development/TechDetailsContent";
 
 import WhyChooseSAT from "../components/mobile-app-development/WhyChooseSAT";
@@ -31,9 +31,9 @@ const Index = () => {
       <TechDetailsContent />
       <WhyChooseSAT />
       <OurIndustry />
-      <CaseStudiesSlider />
-      <BlogPostSlider />
       <Testimonials />
+      <BlogPostSlider />
+      <CaseStudiesPost />
       <Footer />
     </>
   )

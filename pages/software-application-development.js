@@ -37,8 +37,8 @@ const Index = () => {
       {/* <Industries /> */}
       {/* <WhyTriosource /> */}
       {/* <BlogPost /> */}
-      <BlogPostSlider />
       <Testimonials />
+      <BlogPostSlider />
       <Footer />
     </>
   )

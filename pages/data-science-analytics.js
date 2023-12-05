@@ -34,9 +34,9 @@ const Index = () => {
       <WhyChooseSAT />
       <OurIndustry />
       {/* <WhyTriosource /> */}
-      <CaseStudiesPost />
-      <BlogPostSlider />
       <Testimonials />
+      <BlogPostSlider />
+      <CaseStudiesPost />
       <Footer />
     </>
   )
