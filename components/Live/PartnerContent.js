@@ -4,7 +4,7 @@ import Link from "next/link";
 const PartnerContent = () => {
   return (
     <>
-      <div className="partner-area ptb-110 bg-f2f6f9">
+      <div className="partner-area ptb-110">
         <div className="container">
           <div className="section-title">
             <h2>
