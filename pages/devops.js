@@ -28,7 +28,7 @@ const Index = () => {
       <Services />
       <WhyChooseSAT />
       <OurIndustry />
-      <CaseStudiesSlider />
+      {/* <CaseStudiesSlider /> */}
       <Testimonials />
       <BlogPostSlider />
       <CaseStudiesPost />

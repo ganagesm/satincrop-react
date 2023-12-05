@@ -30,8 +30,8 @@ const Index = () => {
       <OurIndustry />
       {/* <FunFacts /> */}
       <Testimonials />
-      <CaseStudiesPost />
       <BlogPostSlider />
+      <CaseStudiesPost />
       <Footer />
     </>
   )

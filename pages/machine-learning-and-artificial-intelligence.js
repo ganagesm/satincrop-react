@@ -12,6 +12,7 @@ import Services from "../components/ai-machine-learning-services/Services";
 import WhyChooseSAT from "../components/ai-machine-learning-services/WhyChooseSAT";
 import OurIndustry from "../components/Common/OurIndustry";
 import CaseStudiesPost from "../components/Live/CaseStudiesPost";
+import BlogPostSlider from "../components/ai-machine-learning-services/BlogPostSlider";
 import Head from 'next/head';
 
 const Index = () => {
@@ -31,8 +32,9 @@ const Index = () => {
       <WhyChooseSAT />
       <OurIndustry />
       {/* <CaseStudiesSlider /> */}
-      <CaseStudiesPost />
       <Testimonials />
+      <BlogPostSlider/>
+      <CaseStudiesPost />
       <Footer />
     </>
   )

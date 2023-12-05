@@ -13,6 +13,7 @@ import ComputerVisionAI from "../components/AIDrivenIoT/ComputerVisionAI";
 import TechDetailsContent from "../components/AIDrivenIoT/TechDetailsContent";
 import Services from "../components/AIDrivenIoT/Services";
 import WhyChooseSAT from "../components/AIDrivenIoT/WhyChooseSAT";
+import CaseStudiesPost from "../components/Live/CaseStudiesPost";
 import Head from 'next/head';
 
 const Index = () => {
@@ -33,8 +34,8 @@ const Index = () => {
       {/* <AboutUs /> */}
       <WhyChooseSAT />
       <OurIndustry />
-      <CaseStudiesSlider />
       <Testimonials />
+      <CaseStudiesPost />
       <Footer />
     </>
   )
