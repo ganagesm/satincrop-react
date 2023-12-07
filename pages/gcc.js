@@ -215,6 +215,7 @@ const Index = () => {
           <img src="/images/shape/dot6.png" alt="image" />
         </div>
       </section>
+
       {/* <BlogPostSlider /> */}
       <div className="partner-section ptb-50">
         <div className="container">
@@ -320,7 +321,7 @@ const Index = () => {
               </SwiperSlide>
 
 
-              <SwiperSlide>
+              {/* <SwiperSlide>
                 <div className="single-blog-post">
                   <div className="entry-thumbnail">
                     <Link href="/technology-impact-sox-auditing/">
@@ -354,7 +355,8 @@ const Index = () => {
                     </Link>
                   </div>
                 </div>
-              </SwiperSlide>
+              </SwiperSlide> */}
+              
               <SwiperSlide>
                 <div className="single-blog-post">
                   <div className="entry-thumbnail">
@@ -388,7 +390,7 @@ const Index = () => {
                   </div>
                 </div>
               </SwiperSlide>
-              <SwiperSlide>
+              {/* <SwiperSlide>
                 <div className="single-blog-post">
                   <div className="entry-thumbnail">
                     <Link href="/blog/navigating-challenges-it-controls-sox-compliance/">
@@ -420,7 +422,7 @@ const Index = () => {
                     </Link>
                   </div>
                 </div>
-              </SwiperSlide>
+              </SwiperSlide> 
               <SwiperSlide>
                 <div className="single-blog-post">
                   <div className="entry-thumbnail">
@@ -453,7 +455,7 @@ const Index = () => {
                     </Link>
                   </div>
                 </div>
-              </SwiperSlide>
+              </SwiperSlide>*/}
 
             </div>
           </Swiper>

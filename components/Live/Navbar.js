@@ -91,11 +91,11 @@ const Navbar = () => {
                   <li className="nav-item">
                     <Link
                       href="#"
-                      className={`nav-link ${currentPath == "/generative-ai" || currentPath === "/machine-learning-and-artificial-intelligence" || currentPath === "/frontend-development" || currentPath === "/internet-of-things" || currentPath === "/machine-learning-and-artificial-intelligence" || currentPath === "/data-science-analytics" || currentPath === "/cloud-services" || currentPath === "/rpa"|| currentPath === "/devops" || currentPath === "/mobile-app-development" || currentPath === "/software-quality-assurance" || currentPath === "/software-application-development" || currentPath === "/ui-ux-design" ? "active"
+                      className={`nav-link ${currentPath == "/generative-ai" || currentPath === "/machine-learning-and-artificial-intelligence" || currentPath === "/frontend-development" || currentPath === "/internet-of-things" || currentPath === "/machine-learning-and-artificial-intelligence" || currentPath === "/data-science-analytics" || currentPath === "/cloud-services" || currentPath === "/rpa"|| currentPath === "/devops" || currentPath === "/mobile-app-development" || currentPath === "/software-quality-assurance" || currentPath === "/software-application-development" || currentPath === "/ui-ux-design" || currentPath === "/qa-automation" ? "active"
                           : ""
                         }`}
                     >
-                      AI Services
+                      Services
                     </Link>
                     <ul className="dropdown-menu">
                       <li className="nav-item">
@@ -196,6 +196,15 @@ const Navbar = () => {
                             }`}
                         >
                           Software Quality Assurance
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link
+                          href="/qa-automation"
+                          className={`nav-link ${currentPath == "/qa-automation" && "active"
+                            }`}
+                        >
+                          QA Automation
                         </Link>
                       </li>
 
