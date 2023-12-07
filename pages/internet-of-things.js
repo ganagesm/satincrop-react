@@ -14,6 +14,7 @@ import TechDetailsContent from "../components/AIDrivenIoT/TechDetailsContent";
 import Services from "../components/AIDrivenIoT/Services";
 import WhyChooseSAT from "../components/AIDrivenIoT/WhyChooseSAT";
 import CaseStudiesPost from "../components/Live/CaseStudiesPost";
+import BlogPostSlider from "../components/AIDrivenIoT/BlogPostSlider";
 import Head from 'next/head';
 
 const Index = () => {
@@ -35,6 +36,7 @@ const Index = () => {
       <WhyChooseSAT />
       <OurIndustry />
       <Testimonials />
+      <BlogPostSlider/>
       <CaseStudiesPost />
       <Footer />
     </>
