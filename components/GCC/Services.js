@@ -10,6 +10,7 @@ const Services = () => {
             <h2>Our Comprehensive Solution Includes</h2>
             <p>Our comprehensive solution can help you establish a successful Global Capability Center in India, 
               so you can focus on your core business activities.</p>
+              
           </div>
 
           <div className="row">
@@ -17,6 +18,8 @@ const Services = () => {
               <div className="single-services-box">
                 <h2>GCC Strategy Development</h2>
                 <p>We will work with you to develop a customized GCC strategy that aligns with your business objectives and goals.</p>
+                <br />
+                <Link  href="/gcc-strategy-development/" style={{color:"#ff4800"}}>Learn More</Link>
               </div>
             </div>
 
@@ -27,14 +30,19 @@ const Services = () => {
                 <p>We will help you identify the optimal location for your GCC, based on factors 
                 such as market access, talent availability, and operational costs.
                 </p>
+                <br />
+                <Link  href="/gcc-location-selection/" style={{color:"#ff4800"}}>Learn More</Link>
               </div>
             </div>
+
             <div className="col-lg-4 col-sm-6">
               <div className="single-services-box">
                 <h2>Talent Acquisition
                 </h2>
                 <p>We will <a href="/contigent-service" target="_blank">recruit</a>  and onboard the right talent for your GCC, ensuring that you have the skills and expertise you need to succeed.
                 </p>
+                <br />
+                <Link  href="/gcc-talent-acquisition/" style={{color:"#ff4800"}}>Learn More</Link>
               </div>
             </div>
           </div>
@@ -48,6 +56,8 @@ const Services = () => {
                 </h2>
                 <p>We will help you set up the physical and digital infrastructure for your GCC, ensuring that it meets your operational requirements.
                 </p>
+                <br />
+                <Link  href="/gcc-infrastructure-setup/" style={{color:"#ff4800"}}>Learn More</Link>
               </div>
             </div>
             <div className="col-lg-4 col-sm-6">
@@ -56,12 +66,16 @@ const Services = () => {
                 </h2>
                 <p>We will provide ongoing operational guidance and support for your GCC, helping you 
                 to streamline day-to-day operations, IT support, compliance, and quality assurance.</p>
+                <br />
+                <Link  href="/gcc-operational-guidance/" style={{color:"#ff4800"}}>Learn More</Link>
               </div>
             </div>
             <div className="col-lg-4 col-sm-6">
               <div className="single-services-box" style={{ height: "270px" }}>
                 <h2>Legal Registration Support</h2>
                 <p>We will assist you with the legal registration process to establish your company as a legal entity in India.</p>
+                <br />
+                <Link  href="/gcc-legal-registration-support/" style={{color:"#ff4800"}}>Learn More</Link>
               </div>
             </div>
             <div className="col-lg-4 col-sm-6">

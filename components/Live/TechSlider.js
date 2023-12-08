@@ -33,35 +33,35 @@ const TechSlider = () => {
           >
             <SwiperSlide>
               <div className="single-partner-item">
-                <a href="" target="_blank" rel="noreferrer">
+                <a href="/google-cloud/" target="_blank" rel="noreferrer">
                   Google
                 </a>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="single-partner-item">
-                <a href="" target="_blank" rel="noreferrer">
+                <a href="/microsoft/" target="_blank" rel="noreferrer">
                   Microsoft
                 </a>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="single-partner-item">
-                <a href="" target="_blank" rel="noreferrer">
+                <a href="/oracle/" target="_blank" rel="noreferrer">
                  Oracle
                 </a>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="single-partner-item">
-                <a href="" target="_blank" rel="noreferrer">
+                <a href="/aws-services/" target="_blank" rel="noreferrer">
                  AWS
                 </a>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="single-partner-item">
-                <a href="" target="_blank" rel="noreferrer">
+                <a href="/salesforce/" target="_blank" rel="noreferrer">
                  Salesforce
                 </a>
               </div>
@@ -69,7 +69,7 @@ const TechSlider = () => {
 
             <SwiperSlide>
               <div className="single-partner-item">
-                <a href="" target="_blank" rel="noreferrer">
+                <a href="/servicenow/" target="_blank" rel="noreferrer">
                 Servicenow
                 </a>
               </div>
