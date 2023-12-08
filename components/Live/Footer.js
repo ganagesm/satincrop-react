@@ -153,7 +153,7 @@ const Footer = () => {
                 data-aos-duration="1200"
                 data-aos-delay="400"
               >
-                <h3>SAT Software India Private Limited</h3>
+                <h3>SA Technologies Inc</h3>
 
                 <ul className="footer-contact-list">
                   {/* <li>
