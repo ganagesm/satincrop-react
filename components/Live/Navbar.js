@@ -189,7 +189,7 @@ const Navbar = () => {
                           Mobile App Development
                         </Link>
                       </li>
-                      <li className="nav-item">
+                      {/* <li className="nav-item">
                         <Link
                           href="/software-quality-assurance"
                           className={`nav-link ${currentPath == "/software-quality-assurance" && "active"
@@ -197,8 +197,8 @@ const Navbar = () => {
                         >
                           Software Quality Assurance
                         </Link>
-                      </li>
-                      {/* <li className="nav-item">
+                      </li> */}
+                      <li className="nav-item">
                         <Link
                           href="/qa-automation"
                           className={`nav-link ${currentPath == "/qa-automation" && "active"
@@ -206,7 +206,7 @@ const Navbar = () => {
                         >
                           QA Automation
                         </Link>
-                      </li> */}
+                      </li>
 
                     </ul>
                   </li>
