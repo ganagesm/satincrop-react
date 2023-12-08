@@ -198,7 +198,7 @@ const Navbar = () => {
                           Software Quality Assurance
                         </Link>
                       </li>
-                      <li className="nav-item">
+                      {/* <li className="nav-item">
                         <Link
                           href="/qa-automation"
                           className={`nav-link ${currentPath == "/qa-automation" && "active"
@@ -206,7 +206,7 @@ const Navbar = () => {
                         >
                           QA Automation
                         </Link>
-                      </li>
+                      </li> */}
 
                     </ul>
                   </li>
