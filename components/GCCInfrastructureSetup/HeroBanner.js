@@ -23,7 +23,7 @@ const HeroBanner = () => {
           >
             <div className="container">
               <div className="main-banner-content">
-                <h1 style={{ color: "#fff" }}> Building the Foundation for Tomorrow's Success - Innovative Infrastructure Solutions for Your GCC  </h1>
+                <h1 style={{ color: "#fff" }}> GCC Infrastructure Setup  </h1>
                 {/* <p>
                   Nearshore, offshore, onsite. Hire talent anywhere or let our
                   experts unlock business value for you with bleeding edge

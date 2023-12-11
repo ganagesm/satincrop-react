@@ -18,9 +18,9 @@ const Index = () => {
   return (
     <>
       <Head>
-        <title>GCC Talent Acquisition - Your Gateway to a World-Class Workforce</title>
-        <meta property="og:title" content="GCC Talent Acquisition - Your Gateway to a World-Class Workforce" key="title" />
-        <meta name="description" content="Experience the future of AI-driven creativity and automation. SA Technologies offers secure Generative AI solutions for transformative outcomes." key="description" />
+        <title>The Key to Successful Infrastructure Setup</title>
+        <meta property="og:title" content="The Key to Successful Infrastructure Setup" key="title" />
+        <meta name="description" content="Unlock success by choosing our expert infrastructure setup services. Your path to a robust foundation starts here." key="description" />
       </Head>
 
 

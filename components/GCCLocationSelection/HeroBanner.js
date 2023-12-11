@@ -23,7 +23,7 @@ const HeroBanner = () => {
           >
             <div className="container">
               <div className="main-banner-content">
-                <h1 style={{ color: "#fff" }}> Strategic Location Mastery: Crafting Your Global Advantage </h1>
+                <h1 style={{ color: "#fff" }}> GCC Location Selection  </h1>
                 {/* <p>
                   Nearshore, offshore, onsite. Hire talent anywhere or let our
                   experts unlock business value for you with bleeding edge
