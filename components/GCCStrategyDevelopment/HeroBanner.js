@@ -23,7 +23,7 @@ const HeroBanner = () => {
           >
             <div className="container">
               <div className="main-banner-content">
-                <h1 style={{ color: "#fff" }}> GCC Strategy Development - Crafting Your Path to Global Excellence </h1>
+                <h1 style={{ color: "#fff" }}> GCC Strategy Development  </h1>
                 {/* <p>
                   Nearshore, offshore, onsite. Hire talent anywhere or let our
                   experts unlock business value for you with bleeding edge
