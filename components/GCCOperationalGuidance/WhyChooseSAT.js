@@ -17,7 +17,7 @@ const ComputerVisionAI = () => {
             </div>
             <div className="col-lg-6 col-md-6">
               <div className="computer-vision-ai-content">
-                {/* <h3>Key Pillars of Our Infrastructure Excellence</h3> */}
+                <h3>Guiding Excellence: Our Operational Support for Your GCC</h3> 
                 {/* <p>They serve as a way to extract and isolate business logic from the controllers or models of a Rails application, promoting cleaner code organization, reusability, and testability.</p> */}
 
                 <div className="row justify-content-center">
