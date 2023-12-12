@@ -391,14 +391,93 @@ const Navbar = () => {
                     </ul>
                   </li> */}
                   <li className="nav-item">
+                    <Link
+                      href="#"
+                      className={`nav-link ${currentPath == "/gcc" || currentPath === "/gcc-strategy-development" || currentPath === "/gcc-location-selection" || currentPath === "/gcc-talent-acquisition" || currentPath === "/gcc-infrastructure-setup" || currentPath === "/gcc-operational-guidance" || currentPath === "/gcc-legal-registration-support" || currentPath === "/gccregulatorycompliance" ? "active"
+                          : ""
+                        }`}
+                    >
+                      GCC Service
+                    </Link>
+
+                    <ul className="dropdown-menu">
+                      <li className="nav-item">
                         <Link
                           href="/gcc"
                           className={`nav-link ${currentPath == "/gcc" && "active"
                             }`}
                         >
-                         GCC Service
+                          Overview
                         </Link>
                       </li>
+                      <li className="nav-item">
+                        <Link
+                          href="/gcc-strategy-development"
+                          className={`nav-link ${currentPath == "/gcc-strategy-development" && "active"
+                            }`}
+                        >
+                          GCC Strategy Development
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link
+                          href="/gcc-location-selection"
+                          className={`nav-link ${currentPath == "/gcc-location-selection" && "active"
+                            }`}
+                        >
+                          GCC Location Selection
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link
+                          href="/gcc-talent-acquisition"
+                          className={`nav-link ${currentPath == "/gcc-talent-acquisition" && "active"
+                            }`}
+                        >
+                          GCC Talent Acquisition
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link
+                          href="/gcc-infrastructure-setup/"
+                          className={`nav-link ${currentPath == "/gcc-infrastructure-setup" && "active"
+                            }`}
+                        >
+                         GCC Infrastructure Setup
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link
+                          href="/gcc-operational-guidance"
+                          className={`nav-link ${currentPath == "/gcc-operational-guidance" && "active"
+                            }`}
+                        >
+                          GCC Operational Guidance
+                        </Link>
+                      </li>
+
+                      <li className="nav-item">
+                        <Link
+                          href="/gcc-legal-registration-support"
+                          className={`nav-link ${currentPath == "/gcc-legal-registration-support" && "active"
+                            }`}
+                        >
+                          GCC Legal Registration Support
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link
+                          href="/gccregulatorycompliance"
+                          className={`nav-link ${currentPath == "/gccregulatorycompliance" && "active"
+                            }`}
+                        >
+                          GCC Regulatory Compliance
+                        </Link>
+                      </li>
+                    </ul>
+
+                  </li>
+
                   <li className="nav-item">
                     <Link
                       href="/internal-audit"
