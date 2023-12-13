@@ -22,10 +22,10 @@ const Services = () => {
                   }}
                 />
                 <h3>
-                  Canada
+                USA
                 </h3>
                 <p>
-                  552A Clarke Road, Suite 299, Coquitlam BC V3J 0A3
+                3031 Tisch Way, 110 Plaza West, San Jose, CA 95128
                 </p>
               </div>
             </div>
@@ -77,7 +77,7 @@ const Services = () => {
                   Viman Nagar, Pune,
                   Maharashtra 411014
                 </p>
-                <p>Phone: <a href="tel:+91 7823 02 5808">+91 7823 02 5808</a></p>
+                {/* <p>Phone: <a href="tel:+91 7823 02 5808">+91 7823 02 5808</a></p> */}
               </div>
             </div>
             <div className="col-lg-3 col-sm-6 col-md-6">
@@ -97,7 +97,7 @@ const Services = () => {
                 <p>
                 613/A, 2nd Floor,15th Cross Ring Road, 33rd Main, J P nagar 1st Phase, Bangalore – 560078
                 </p>
-                <p>Phone: <a href="tel:080 4375 1188">080 4375 1188</a></p>
+                {/* <p>Phone: <a href="tel:080 4375 1188">080 4375 1188</a></p> */}
               </div>
             </div>
             <div className="col-lg-3 col-sm-6 col-md-6">

@@ -10,6 +10,7 @@ import TechSlider from "../components/Live/TechSlider";
 import BlogPostSlider from "../components/Live/BlogPostSlider";
 import NewsPostSlider from "../components/Live/NewsPostSlider";
 import AboutContact from "../components/Live/AboutContent";
+import AiApplication from "../components/Live/AiApplication"
 import CEOCorner from "../components/Live/CEOCorner";
 import Offices from "../components/Live/Offices";
 import MainServices from "../components/Live/MainServices";
@@ -29,6 +30,7 @@ const Index = () => {
       <Navbar />
       <HeroBanner />
       <AboutContact />
+      <AiApplication />
       <Services />
       <PartnerContent />
       <NewsPostSlider />

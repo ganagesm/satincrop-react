@@ -7,7 +7,7 @@ import HeroBanner from "../components/UIUXSolutions/HeroBanner";
 import FunFacts from "../components/Live/FunFacts";
 import OurIndustry from "../components/Common/OurIndustry";
 import Testimonials from "../components/Live/Testimonials";
-import BlogPostSlider from "../components/Live/BlogPostSlider";
+import BlogPostSlider from "../components/UIUXSolutions/BlogPostSlider";
 import CaseStudiesPost from "../components/Live/CaseStudiesPost";
 import TechDetailsContent from "../components/UIUXSolutions/TechDetailsContent";
 
