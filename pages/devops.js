@@ -5,7 +5,7 @@ import CaseStudiesSlider from "../components/Live/CaseStudiesSlider";
 import HeroBanner from "../components/devops/HeroBanner";
 import TechDetailsContent from "../components/devops/TechDetailsContent";
 import OurIndustry from "../components/Common/OurIndustry";
-import BlogPostSlider from "../components/Live/BlogPostSlider";
+import BlogPostSlider from "../components/devops/BlogPostSlider";
 import CaseStudiesPost from "../components/Live/CaseStudiesPost";
 import WhyChooseSAT from "../components/devops/WhyChooseSAT";
 import Services from "../components/devops/Services";

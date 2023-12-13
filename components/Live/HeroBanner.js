@@ -34,8 +34,11 @@ const HeroBanner = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
+          {/* <div className="main-banner homeBannerSecond"> */}
           <div
-            className="main-banner homeBannerSecond">
+            className="main-banner"
+            style={{ backgroundImage: `url(/images/icons/home-banner2.png)` }}
+          >
             <div className="container">
               <div className="main-banner-content">
                 <h1 style={{ color: "#fff", marginTop: "10px", }}> Ecstatic with Immense Pride!</h1>

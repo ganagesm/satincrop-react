@@ -6,6 +6,7 @@ import Industries from "../components/Live/Industries";
 import OurIndustry from "../components/Common/OurIndustry";
 import Testimonials from "../components/Live/Testimonials";
 import CaseStudiesPost from "../components/Live/CaseStudiesPost";
+import BlogPostSlider from "../components/rpa/BlogPostSlider";
 import WhyTriosource from "../components/rpa/WhyTriosource";
 import ComputerVisionAI from "../components/rpa/ComputerVisionAI";
 import TechDetailsContent from "../components/rpa/TechDetailsContent";
@@ -31,6 +32,7 @@ const Index = () => {
       <OurIndustry />
       {/* <WhyTriosource /> */}
       <Testimonials />
+      <BlogPostSlider />
       <CaseStudiesPost />
       <Footer />
     </>

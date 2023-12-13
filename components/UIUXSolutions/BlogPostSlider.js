@@ -18,7 +18,7 @@ const BlogPostSlider = () => {
     async function fetchPosts() {
       try {
         // const response = await fetch(`${postApi}/posts?page=${currentPage}&per_page=${pageSize}&order=desc`);
-        const response = await fetch(`${postApi}/posts?categories=349&page=${currentPage}&per_page=${pageSize}&order=desc`);
+        const response = await fetch(`${postApi}/posts?categories=352&page=${currentPage}&per_page=${pageSize}&order=desc`);
 
         if (!response.ok) {
           throw new Error('Network response was not ok');
@@ -120,7 +120,7 @@ const BlogPostSlider = () => {
 
                       <h3>
                         {/* <div dangerouslySetInnerHTML={{ __html: post.title.rendered }}/> */}
-                        <div dangerouslySetInnerHTML={{ __html: post.title.rendered.slice(0, 70) + '...' }}/>
+                        <div dangerouslySetInnerHTML={{ __html: post.title.rendered.slice(0, 65) + '...' }}/>
                       </h3>
                       <div dangerouslySetInnerHTML={{ __html: post.excerpt.rendered.slice(0, 100) + '...' }} />
                       <Link className="learn-more-btn" href="/blog/[slug]" as={`/blog/${post.slug}`}> Read More <i className="flaticon-add"></i></Link>
