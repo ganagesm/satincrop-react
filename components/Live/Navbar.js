@@ -393,7 +393,7 @@ const Navbar = () => {
                   <li className="nav-item">
                     <Link
                       href="#"
-                      className={`nav-link ${currentPath == "/gcc" || currentPath === "/gcc-strategy-development" || currentPath === "/gcc-location-selection" || currentPath === "/gcc-talent-acquisition" || currentPath === "/gcc-infrastructure-setup" || currentPath === "/gcc-operational-guidance" || currentPath === "/gcc-legal-registration-support" || currentPath === "/gccregulatorycompliance" ? "active"
+                      className={`nav-link ${currentPath == "/gcc" || currentPath === "/gcc-strategy-development" || currentPath === "/gcc-location-selection" || currentPath === "/gcc-talent-acquisition" || currentPath === "/gcc-infrastructure-setup" || currentPath === "/gcc-operational-guidance" || currentPath === "/gcc-legal-registration-support" || currentPath === "/gccregulatorycompliance" || currentPath === "/gcc-workspace-solutions" ? "active"
                           : ""
                         }`}
                     >
@@ -410,6 +410,8 @@ const Navbar = () => {
                           Overview
                         </Link>
                       </li>
+                      
+
                       <li className="nav-item">
                         <Link
                           href="/gcc-strategy-development"
@@ -421,13 +423,22 @@ const Navbar = () => {
                       </li>
                       <li className="nav-item">
                         <Link
+                          href="/gcc-workspace-solutions"
+                          className={`nav-link ${currentPath == "/gcc-workspace-solutions" && "active"
+                            }`}
+                        >
+                          GCC Workspace Solutions
+                        </Link>
+                      </li>
+                      {/* <li className="nav-item">
+                        <Link
                           href="/gcc-location-selection"
                           className={`nav-link ${currentPath == "/gcc-location-selection" && "active"
                             }`}
                         >
                           GCC Location Selection
                         </Link>
-                      </li>
+                      </li> */}
                       <li className="nav-item">
                         <Link
                           href="/gcc-talent-acquisition"

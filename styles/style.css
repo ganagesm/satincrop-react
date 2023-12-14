@@ -4210,7 +4210,7 @@ Footer Area CSS
     width: 1px;
     height: 100%;
     top: 0;
-    left: 50%;
+    left: 48%;
     background: rgba(255, 255, 255, 0.1);
     overflow: hidden;
 }
@@ -8419,7 +8419,7 @@ a.btn.btn-primary.cnt_btn {
     position: fixed;
     width: 80px;
     height: 80px;
-    bottom: 15%;
+    bottom: 20%;
     right: 0;
     /* background-color: #0C9; */
     color: #FFF;
@@ -8476,11 +8476,18 @@ ul.about-list.emp_list i {
     padding: 8px 0;
 }
 
-@media (max-width: 600px) {
-    .single-partner-item a {
-        font-size: 2.25rem;
+@media (max-width: 767px) {
+   
+    ul.navbar-nav {
+        padding-left: 15px !important;
     }
+    .main-banner {
+        height: 560px !important;
+    }
+
 }
+
+
 .blogCustom-style a {
     font-weight: 500;
     color: #ff4800;
@@ -8513,6 +8520,9 @@ ul.about-list.emp_list i {
         background-image: url(/images/icons/home-banner2.jpeg);
         background-Size: cover;
     }
+    .single-partner-item a {
+        font-size: 2.25rem;
+    }
 }
 
 .interlink{
@@ -8532,6 +8542,10 @@ ul.about-list.emp_list i {
 a.btn.btn-primary.ai_btn {
     float: right;
     margin-top: 0;
+}
+.siq_bR {
+    bottom: 72px !important;
+
 }
 
 /*End "Home Demo - 6", "Home Demo - 7" & "Home Demo - 8" Style CSS*/
