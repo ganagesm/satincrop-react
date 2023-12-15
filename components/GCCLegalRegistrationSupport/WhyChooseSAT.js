@@ -17,44 +17,25 @@ const ComputerVisionAI = () => {
             </div>
             <div className="col-lg-6 col-md-6">
               <div className="computer-vision-ai-content">
-                 <h3>Our Comprehensive Legal Support: Guiding Your GCC's Legal Establishment </h3> 
+                 <h3>Strategic Insights: Essential Elements for GCC Success</h3> 
                 {/* <p>They serve as a way to extract and isolate business logic from the controllers or models of a Rails application, promoting cleaner code organization, reusability, and testability.</p> */}
 
                 <div className="row justify-content-center">
                   <div className="col-lg-6 col-sm-6">
                     <div className="vision-ai-inner-card">
                       <div className="">
-                        <h4>Bureaucratic Navigation</h4>
+                        <h4>Adaptation to Recent Legal Developments</h4>
                       </div>
-                      <p>Expertly guide you through complex legal processes with streamlined documentation. </p>
+                      <p>Staying current with legal updates like Budget 2022's provisions for SEZs, foreign university access, and R&D in emerging tech sectors. </p>
                     </div>
                   </div>
 
                   <div className="col-lg-6 col-sm-6">
                     <div className="vision-ai-inner-card">
                       <div className="">
-                        <h4>Local Law Expertise</h4>
+                        <h4>Audit and Risk Management</h4>
                       </div>
-                      <p>Ensure compliance with in-depth knowledge of local regulations and tailored strategies.</p>
-                    </div>
-                  </div>
-
-                  <div className="col-lg-6 col-sm-6">
-                    <div className="vision-ai-inner-card">
-                      {/* <div className="content"> */}
-                      <div className="">
-                        <h4>Customized Legal Solutions</h4>
-                      </div>
-                      <p>Deliver tailored legal solutions aligned with your unique business needs </p>
-                    </div>
-                  </div>
-                  <div className="col-lg-6 col-sm-6">
-                    <div className="vision-ai-inner-card">
-                      {/* <div className="content"> */}
-                      <div className="">
-                        <h4>Regulatory Compliance Assurance:</h4>
-                      </div>
-                      <p>Provide ongoing monitoring and updates on evolving regulations.</p>
+                      <p>Regular audits and proactive risk assessment to ensure legal compliance and operational safety.</p>
                     </div>
                   </div>
 
@@ -62,9 +43,55 @@ const ComputerVisionAI = () => {
                     <div className="vision-ai-inner-card">
                       {/* <div className="content"> */}
                       <div className="">
-                        <h4>Transparent Communication</h4>
+                        <h4>GCC Growth & Government Role</h4>
                       </div>
-                      <p>Offer clear and timely updates on your legal registration progress. </p>
+                      <p>The GCC sector, projected to reach $60-$85 billion by 2025 and create over a million jobs, is bolstered by government support in infrastructure and skill development. </p>
+                    </div>
+                  </div>
+                  <div className="col-lg-6 col-sm-6">
+                    <div className="vision-ai-inner-card">
+                      {/* <div className="content"> */}
+                      <div className="">
+                        <h4>Tax Benefit Guidance</h4>
+                      </div>
+                      <p> Helping GCCs capitalize on government tax incentives for optimal fiscal efficiency. </p>
+                    </div>
+                  </div>
+
+                  <div className="col-lg-6 col-sm-6">
+                    <div className="vision-ai-inner-card">
+                      {/* <div className="content"> */}
+                      <div className="">
+                        <h4>Legal and Tax Updates</h4>
+                      </div>
+                      <p>Ensuring GCCs stay informed and compliant with the latest legal and tax changes, including Budget 2022 insights.  </p>
+                    </div>
+                  </div>
+                  <div className="col-lg-6 col-sm-6">
+                    <div className="vision-ai-inner-card">
+                      {/* <div className="content"> */}
+                      <div className="">
+                        <h4>Optimizing Operations</h4>
+                      </div>
+                      <p>Streamlining GCC efficiency and innovation through the adoption of industry best practices and advanced technology integration.</p>
+                    </div>
+                  </div>
+                  <div className="col-lg-6 col-sm-6">
+                    <div className="vision-ai-inner-card">
+                      {/* <div className="content"> */}
+                      <div className="">
+                        <h4>Performance and Partnership Synergy</h4>
+                      </div>
+                      <p>Effectively tracking performance metrics while managing change and fostering strategic partnerships to enhance operational excellence. </p>
+                    </div>
+                  </div>
+                  <div className="col-lg-6 col-sm-6">
+                    <div className="vision-ai-inner-card">
+                      {/* <div className="content"> */}
+                      <div className="">
+                        <h4>Sustainability and CSR Integration</h4>
+                      </div>
+                      <p>Advising on incorporating sustainable practices and corporate social responsibility into GCC operations. </p>
                     </div>
                   </div>
                 </div>

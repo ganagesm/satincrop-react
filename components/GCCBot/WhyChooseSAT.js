@@ -17,34 +17,34 @@ const ComputerVisionAI = () => {
             </div>
             <div className="col-lg-6 col-md-6">
               <div className="computer-vision-ai-content">
-                <h3>Guiding Excellence: Our Operational Support for Your GCC</h3> 
+                <h3>Why Choose SAT's BOT Model? </h3> 
                 {/* <p>They serve as a way to extract and isolate business logic from the controllers or models of a Rails application, promoting cleaner code organization, reusability, and testability.</p> */}
 
                 <div className="row justify-content-center">
                   <div className="col-lg-6 col-sm-6">
                     <div className="vision-ai-inner-card">
                       <div className="">
-                        <h4>Best Practice Implementation</h4>
+                        <h4>Comprehensive Expertise</h4>
                       </div>
-                      <p>Leveraging industry best practices to enhance operational efficiency. Streamlining processes for greater productivity and reduced costs. </p>
+                      <p>SAT's team provides end-to-end guidance in every project phase, offering custom solutions across various industries.</p>
                     </div>
                   </div>
                   <div className="col-lg-6 col-sm-6">
                     <div className="vision-ai-inner-card">
                      
                       <div className="">
-                        <h4>Technology Adoption Guidance: </h4>
+                        <h4>Risk Management</h4>
                       </div>
-                      <p>Implementing cutting-edge solutions to drive digital transformation. & Ensuring seamless integration of technology for optimized workflows. </p>
+                      <p> We expertly manage project risks, ensuring smooth progress and protecting your interests. </p>
                     </div>
                   </div>
 
                   <div className="col-lg-6 col-sm-6">
                     <div className="vision-ai-inner-card">
                       <div className="">
-                        <h4>Risk Management Strategies: </h4>
+                        <h4>Financial Agility</h4>
                       </div>
-                      <p>Identifying potential operational risks and developing strategies to mitigate them.  </p>
+                      <p>Our model allows for ambitious projects without heavy initial investments, aligning financial support with your project's lifecycle.  </p>
                     </div>
                   </div>
 
@@ -52,18 +52,18 @@ const ComputerVisionAI = () => {
                     <div className="vision-ai-inner-card">
                       {/* <div className="content"> */}
                       <div className="">
-                        <h4>Performance Metrics Tracking: </h4>
+                        <h4>Operational Excellence</h4>
                       </div>
-                      <p>Establishing key performance indicators (KPIs) to monitor GCC performance. </p>
+                      <p>Employing advanced technologies and efficient processes, we guarantee productivity and timely delivery without sacrificing quality. </p>
                     </div>
                   </div>
                   <div className="col-lg-6 col-sm-6">
                     <div className="vision-ai-inner-card">
                       {/* <div className="content"> */}
                       <div className="">
-                        <h4>Change Management Solutions: </h4>
+                        <h4>Lasting Partnerships</h4>
                       </div>
-                      <p>Our expertise ensures a smooth transition while maintaining employee support and engagement, elevating your GCC's operational standards </p>
+                      <p>Beyond building and operating, SAT focuses on transferring skills and knowledge for your team's long-term growth and success </p>
                     </div>
                   </div>
 
@@ -74,6 +74,23 @@ const ComputerVisionAI = () => {
             </div>
 
           </div>
+
+          <div className="services-details-overview">
+              <div className="services-details-desc mb-30">
+                <img
+                  src="/images/banners/operationalguidance-right.jpg"
+                  alt="image"
+                />
+              </div>
+
+              <div className="services-details-image">
+               <h3>Join Hands with SAT for a Future-Ready Approach </h3> 
+                  <p>At SA Technologies, your vision is our mission. Embrace the BOT model with us and transform the way your business tackles large-scale projects. Together, let’s pave the path towards innovation, efficiency, and unparalleled success. </p>
+              </div>
+            </div>
+
+
+
         </div>
       </div>
     </>

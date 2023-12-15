@@ -19,11 +19,11 @@ const HeroBanner = () => {
         <SwiperSlide>
           <div
             className="main-banner"
-            style={{ backgroundImage: `url(/images/banners/GCCOperationalGuidancebanner.jpg)` }}
+            style={{ backgroundImage: `url(/images/banners/botbanner.png)` }}
           >
             <div className="container">
               <div className="main-banner-content">
-                <h1 style={{ color: "#fff" }}>GCC Operational Guidance</h1>
+                <h1 style={{ color: "#fff" }}>Build Operate Transfer (BOT) Model</h1>
                 {/* <p>
                   Nearshore, offshore, onsite. Hire talent anywhere or let our
                   experts unlock business value for you with bleeding edge

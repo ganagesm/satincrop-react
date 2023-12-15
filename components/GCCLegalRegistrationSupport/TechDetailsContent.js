@@ -7,15 +7,16 @@ const ServiceDetailsContent = () => {
       <div className="services-details-area ptb-110">
         <div className="container">
           <div className="section-title">
-            <h2>Seamless Legal Registration for Your GCC Success</h2>
+            <h2>Gateway to Global Excellence: Legal and Operational Strategies for GCC businesses. </h2>
           </div>
           <div className="services-details-overview">
             <div className="services-details-desc mb-30">
-              <h3>Navigating India's Legal Terrain with Expert Guidance </h3>
-              <p>At SA Technologies, our GCC Legal Registration Support service is your trusted partner on this journey. We don't just simplify the process; we make it seamless and hassle-free. Our team of legal experts is dedicated to providing expert guidance through every legal hurdle, from comprehending local laws to navigating bureaucratic processes. </p>
+              <h3>Mastering the Future of GCCs with Legal Registration, Regulatory Compliance, and Operational Excellence</h3>
 
-              <p>Our goal is to ensure that your legal registration process is not a roadblock but a stepping stone towards GCC success. </p>
-            
+              <p>SA Technologies streamlines the journey for Global Capability Centers (GCC) in India, offering expert guidance in regulatory compliance and legal registration.</p>
+
+              <p>Our services are vital in the evolving digital and IT sector landscape, ensuring your GCC navigates India’s complex legal and regulatory framework effectively. </p>
+              <p>We transform legal challenges into strategic assets, providing in-depth insights for compliance, risk management, and seamless legal registration. Our goal is to turn the legal registration process from a roadblock into a stepping stone for your GCC's success.</p>
               </div>
 
             <div className="services-details-image">
