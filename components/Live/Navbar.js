@@ -450,24 +450,24 @@ const Navbar = () => {
                       </li>
                       <li className="nav-item">
                         <Link
-                          href="/gcc-infrastructure-setup/"
-                          className={`nav-link ${currentPath == "/gcc-infrastructure-setup" && "active"
+                          href="/gcc-legal-registration-support/"
+                          className={`nav-link ${currentPath == "/gcc-legal-registration-support" && "active"
                             }`}
                         >
-                         GCC Infrastructure Setup
+                        GCC Legal registration Support 
                         </Link>
                       </li>
                       <li className="nav-item">
                         <Link
-                          href="/gcc-operational-guidance"
-                          className={`nav-link ${currentPath == "/gcc-operational-guidance" && "active"
+                          href="/gcc-bot"
+                          className={`nav-link ${currentPath == "/gcc-bot" && "active"
                             }`}
                         >
-                          GCC Operational Guidance
+                          BOT
                         </Link>
                       </li>
 
-                      <li className="nav-item">
+                      {/* <li className="nav-item">
                         <Link
                           href="/gcc-legal-registration-support"
                           className={`nav-link ${currentPath == "/gcc-legal-registration-support" && "active"
@@ -484,7 +484,7 @@ const Navbar = () => {
                         >
                           GCC Regulatory Compliance
                         </Link>
-                      </li>
+                      </li> */}
                     </ul>
 
                   </li>
