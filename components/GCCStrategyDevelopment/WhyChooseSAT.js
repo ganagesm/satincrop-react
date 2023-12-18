@@ -71,7 +71,7 @@ const ComputerVisionAI = () => {
 
               </div>
             </div>
-            <div className="computer-vision-ai-image">
+              <div className="computer-vision-ai-image">
                <center> <img style={{width:"700px",marginTop:"30px"}}
                   src="/images/home-six/computer-vision/gcc-strategy-development-info.png"
                   alt="image"

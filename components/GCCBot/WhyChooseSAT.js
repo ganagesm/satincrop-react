@@ -78,7 +78,7 @@ const ComputerVisionAI = () => {
           <div className="services-details-overview">
               <div className="services-details-desc mb-30">
                 <img
-                  src="/images/banners/operationalguidance-right.jpg"
+                  src="/images/banners/bot-left-last.png"
                   alt="image"
                 />
               </div>
