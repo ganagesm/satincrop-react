@@ -463,7 +463,7 @@ const Navbar = () => {
                           className={`nav-link ${currentPath == "/gcc-bot" && "active"
                             }`}
                         >
-                          BOT
+                          Build Operate Transfer (BOT)
                         </Link>
                       </li>
 
