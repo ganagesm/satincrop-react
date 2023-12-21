@@ -8,7 +8,6 @@ import {
   AccordionItemButton,
 } from "react-accessible-accordion";
 import ProductsDetailsTab from "../SingleProducts/ProductsDetailsTab";
-import FaqForm from "./FaqForm";
 
 const FaqContent = () => {
   return (
