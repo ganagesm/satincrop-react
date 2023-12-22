@@ -103,7 +103,7 @@ export default class ProductsDetailsTab extends Component {
                             </AccordionItemPanel>
                           </AccordionItem>
 
-                          <AccordionItem uuid="c">
+                          {/* <AccordionItem uuid="c">
                             <AccordionItemHeading>
                               <AccordionItemButton>
                                 <span>SA Technologies Financials
@@ -113,7 +113,7 @@ export default class ProductsDetailsTab extends Component {
                             <AccordionItemPanel>
                               <div className="investors-details">
                                 <div className="article-tags">
-                                  2023
+                                SA Technologies Financials 2023
                                 </div>
 
                                 <div className="article-share">
@@ -123,7 +123,7 @@ export default class ProductsDetailsTab extends Component {
                                 </div>
                               </div>
                             </AccordionItemPanel>
-                          </AccordionItem>
+                          </AccordionItem> */}
 
                           <AccordionItem uuid="d">
                             <AccordionItemHeading>
@@ -133,17 +133,6 @@ export default class ProductsDetailsTab extends Component {
                               </AccordionItemButton>
                             </AccordionItemHeading>
                             <AccordionItemPanel>
-                              <div className="investors-details">
-                                <div className="article-tags">
-                                  Sa Technologies DRHP
-                                </div>
-
-                                <div className="article-share">
-                                  <Link href="investors/annual-report_2023.pdf" target="_blank" rel="noreferrer" download>
-                                    <i class="fa-solid fa-download fa-lg"></i>
-                                  </Link>
-                                </div>
-                              </div>
                             </AccordionItemPanel>
                           </AccordionItem>
                         </Accordion>
@@ -176,17 +165,6 @@ export default class ProductsDetailsTab extends Component {
                               </AccordionItemButton>
                             </AccordionItemHeading>
                             <AccordionItemPanel>
-                              <div className="investors-details">
-                                <div className="article-tags">
-                                  2023
-                                </div>
-
-                                <div className="article-share">
-                                  <Link href="investors/annual-report_2023.pdf" target="_blank" rel="noreferrer" download>
-                                    <i class="fa-solid fa-download fa-lg"></i>
-                                  </Link>
-                                </div>
-                              </div>
                             </AccordionItemPanel>
                           </AccordionItem>
 
@@ -198,17 +176,6 @@ export default class ProductsDetailsTab extends Component {
                               </AccordionItemButton>
                             </AccordionItemHeading>
                             <AccordionItemPanel>
-                              <div className="investors-details">
-                                <div className="article-tags">
-                                  2023
-                                </div>
-
-                                <div className="article-share">
-                                  <Link href="investors/annual-report_2023.pdf" target="_blank" rel="noreferrer" download>
-                                    <i class="fa-solid fa-download fa-lg"></i>
-                                  </Link>
-                                </div>
-                              </div>
                             </AccordionItemPanel>
                           </AccordionItem>
 
@@ -220,17 +187,6 @@ export default class ProductsDetailsTab extends Component {
                               </AccordionItemButton>
                             </AccordionItemHeading>
                             <AccordionItemPanel>
-                              <div className="investors-details">
-                                <div className="article-tags">
-                                  2023
-                                </div>
-
-                                <div className="article-share">
-                                  <Link href="investors/annual-report_2023.pdf" target="_blank" rel="noreferrer" download>
-                                    <i class="fa-solid fa-download fa-lg"></i>
-                                  </Link>
-                                </div>
-                              </div>
                             </AccordionItemPanel>
                           </AccordionItem>
 
@@ -263,391 +219,9 @@ export default class ProductsDetailsTab extends Component {
               </div>
 
               {/* <div id="tab2" className="tabs_item">
-                <div className="products-details-tab-content">
-                  <div className="row">
-                    <div className="col-lg-6 col-md-12">
-                      <div className="faq-accordion">
-                        <Accordion>
-                          <AccordionItem uuid="a">
-                            <AccordionItemHeading>
-                              <AccordionItemButton>
-                                <span>Annual Report
-                                </span>
-                              </AccordionItemButton>
-                            </AccordionItemHeading>
-                            <AccordionItemPanel>
-                              <div className="investors-details">
-                                <div className="article-tags">
-                                  2023
-                                </div>
-
-                                <div className="article-share">
-                                  <Link href="investors/annual-report_2023.pdf" target="_blank" rel="noreferrer" download>
-                                    <i class="fa-solid fa-download fa-lg"></i>
-                                  </Link>
-                                </div>
-                              </div>
-                            </AccordionItemPanel>
-                          </AccordionItem>
-
-                          <AccordionItem uuid="b">
-                            <AccordionItemHeading>
-                              <AccordionItemButton>
-                                <span>Corporate Announcements
-                                </span>
-                              </AccordionItemButton>
-                            </AccordionItemHeading>
-                            <AccordionItemPanel>
-                              <div className="investors-details">
-                                <div className="article-tags">
-                                  2023
-                                </div>
-
-                                <div className="article-share">
-                                  <Link href="investors/annual-report_2023.pdf" target="_blank" rel="noreferrer" download>
-                                    <i class="fa-solid fa-download fa-lg"></i>
-                                  </Link>
-                                </div>
-                              </div>
-                            </AccordionItemPanel>
-                          </AccordionItem>
-
-                          <AccordionItem uuid="c">
-                            <AccordionItemHeading>
-                              <AccordionItemButton>
-                                <span>SA Technologies Financials
-                                </span>
-                              </AccordionItemButton>
-                            </AccordionItemHeading>
-                            <AccordionItemPanel>
-                              <div className="investors-details">
-                                <div className="article-tags">
-                                  2023
-                                </div>
-
-                                <div className="article-share">
-                                  <Link href="investors/annual-report_2023.pdf" target="_blank" rel="noreferrer" download>
-                                    <i class="fa-solid fa-download fa-lg"></i>
-                                  </Link>
-                                </div>
-                              </div>
-                            </AccordionItemPanel>
-                          </AccordionItem>
-
-                          <AccordionItem uuid="d">
-                            <AccordionItemHeading>
-                              <AccordionItemButton>
-                                <span>Draft Red Herring Prospectus
-                                </span>
-                              </AccordionItemButton>
-                            </AccordionItemHeading>
-                            <AccordionItemPanel>
-                              <div className="investors-details">
-                                <div className="article-tags">
-                                  Sa Technologies DRHP
-                                </div>
-
-                                <div className="article-share">
-                                  <Link href="investors/annual-report_2023.pdf" target="_blank" rel="noreferrer" download>
-                                    <i class="fa-solid fa-download fa-lg"></i>
-                                  </Link>
-                                </div>
-                              </div>
-                            </AccordionItemPanel>
-                          </AccordionItem>
-                        </Accordion>
-                      </div>
-                    </div>
-
-                    <div className="col-lg-6 col-md-12">
-                      <div className="faq-accordion">
-                        <Accordion>
-                          <AccordionItem uuid="a">
-                            <AccordionItemHeading>
-                              <AccordionItemButton>
-                                <span>Share Holding Pattern
-                                </span>
-                              </AccordionItemButton>
-                            </AccordionItemHeading>
-                            <AccordionItemPanel>
-                              <div className="investors-details">
-                                <div className="article-tags">
-                                  2023
-                                </div>
-
-                                <div className="article-share">
-                                  <Link href="investors/annual-report_2023.pdf" target="_blank" rel="noreferrer" download>
-                                    <i class="fa-solid fa-download fa-lg"></i>
-                                  </Link>
-                                </div>
-                              </div>
-                            </AccordionItemPanel>
-                          </AccordionItem>
-
-                          <AccordionItem uuid="b">
-                            <AccordionItemHeading>
-                              <AccordionItemButton>
-                                <span>Shareholder Meeting
-                                </span>
-                              </AccordionItemButton>
-                            </AccordionItemHeading>
-                            <AccordionItemPanel>
-                              <div className="investors-details">
-                                <div className="article-tags">
-                                  2023
-                                </div>
-
-                                <div className="article-share">
-                                  <Link href="investors/annual-report_2023.pdf" target="_blank" rel="noreferrer" download>
-                                    <i class="fa-solid fa-download fa-lg"></i>
-                                  </Link>
-                                </div>
-                              </div>
-                            </AccordionItemPanel>
-                          </AccordionItem>
-
-                          <AccordionItem uuid="c">
-                            <AccordionItemHeading>
-                              <AccordionItemButton>
-                                <span>Corporate Governance
-                                </span>
-                              </AccordionItemButton>
-                            </AccordionItemHeading>
-                            <AccordionItemPanel>
-                              <div className="investors-details">
-                                <div className="article-tags">
-                                  2023
-                                </div>
-
-                                <div className="article-share">
-                                  <Link href="investors/annual-report_2023.pdf" target="_blank" rel="noreferrer" download>
-                                    <i class="fa-solid fa-download fa-lg"></i>
-                                  </Link>
-                                </div>
-                              </div>
-                            </AccordionItemPanel>
-                          </AccordionItem>
-
-                          <AccordionItem uuid="d">
-                            <AccordionItemHeading>
-                              <AccordionItemButton>
-                                <span>Annual Returns
-                                </span>
-                              </AccordionItemButton>
-                            </AccordionItemHeading>
-                            <AccordionItemPanel>
-                              <div className="investors-details">
-                                <div className="article-tags">
-                                  Sa Technologies DRHP
-                                </div>
-
-                                <div className="article-share">
-                                  <Link href="investors/annual-report_2023.pdf" target="_blank" rel="noreferrer" download>
-                                    <i class="fa-solid fa-download fa-lg"></i>
-                                  </Link>
-                                </div>
-                              </div>
-                            </AccordionItemPanel>
-                          </AccordionItem>
-                        </Accordion>
-                      </div>
-                    </div>
-                  </div>
-                </div>
               </div>
 
               <div id="tab3" className="tabs_item">
-                <div className="products-details-tab-content">
-                  <div className="row">
-                    <div className="col-lg-6 col-md-12">
-                      <div className="faq-accordion">
-                        <Accordion>
-                          <AccordionItem uuid="a">
-                            <AccordionItemHeading>
-                              <AccordionItemButton>
-                                <span>Annual Report
-                                </span>
-                              </AccordionItemButton>
-                            </AccordionItemHeading>
-                            <AccordionItemPanel>
-                              <div className="investors-details">
-                                <div className="article-tags">
-                                  2023
-                                </div>
-
-                                <div className="article-share">
-                                  <Link href="investors/annual-report_2023.pdf" target="_blank" rel="noreferrer" download>
-                                    <i class="fa-solid fa-download fa-lg"></i>
-                                  </Link>
-                                </div>
-                              </div>
-                            </AccordionItemPanel>
-                          </AccordionItem>
-
-                          <AccordionItem uuid="b">
-                            <AccordionItemHeading>
-                              <AccordionItemButton>
-                                <span>Corporate Announcements
-                                </span>
-                              </AccordionItemButton>
-                            </AccordionItemHeading>
-                            <AccordionItemPanel>
-                              <div className="investors-details">
-                                <div className="article-tags">
-                                  2023
-                                </div>
-
-                                <div className="article-share">
-                                  <Link href="investors/annual-report_2023.pdf" target="_blank" rel="noreferrer" download>
-                                    <i class="fa-solid fa-download fa-lg"></i>
-                                  </Link>
-                                </div>
-                              </div>
-                            </AccordionItemPanel>
-                          </AccordionItem>
-
-                          <AccordionItem uuid="c">
-                            <AccordionItemHeading>
-                              <AccordionItemButton>
-                                <span>SA Technologies Financials
-                                </span>
-                              </AccordionItemButton>
-                            </AccordionItemHeading>
-                            <AccordionItemPanel>
-                              <div className="investors-details">
-                                <div className="article-tags">
-                                  2023
-                                </div>
-
-                                <div className="article-share">
-                                  <Link href="investors/annual-report_2023.pdf" target="_blank" rel="noreferrer" download>
-                                    <i class="fa-solid fa-download fa-lg"></i>
-                                  </Link>
-                                </div>
-                              </div>
-                            </AccordionItemPanel>
-                          </AccordionItem>
-
-                          <AccordionItem uuid="d">
-                            <AccordionItemHeading>
-                              <AccordionItemButton>
-                                <span>Draft Red Herring Prospectus
-                                </span>
-                              </AccordionItemButton>
-                            </AccordionItemHeading>
-                            <AccordionItemPanel>
-                              <div className="investors-details">
-                                <div className="article-tags">
-                                  Sa Technologies DRHP
-                                </div>
-
-                                <div className="article-share">
-                                  <Link href="investors/annual-report_2023.pdf" target="_blank" rel="noreferrer" download>
-                                    <i class="fa-solid fa-download fa-lg"></i>
-                                  </Link>
-                                </div>
-                              </div>
-                            </AccordionItemPanel>
-                          </AccordionItem>
-                        </Accordion>
-                      </div>
-                    </div>
-
-                    <div className="col-lg-6 col-md-12">
-                      <div className="faq-accordion">
-                        <Accordion>
-                          <AccordionItem uuid="a">
-                            <AccordionItemHeading>
-                              <AccordionItemButton>
-                                <span>Share Holding Pattern
-                                </span>
-                              </AccordionItemButton>
-                            </AccordionItemHeading>
-                            <AccordionItemPanel>
-                              <div className="investors-details">
-                                <div className="article-tags">
-                                  2023
-                                </div>
-
-                                <div className="article-share">
-                                  <Link href="investors/annual-report_2023.pdf" target="_blank" rel="noreferrer" download>
-                                    <i class="fa-solid fa-download fa-lg"></i>
-                                  </Link>
-                                </div>
-                              </div>
-                            </AccordionItemPanel>
-                          </AccordionItem>
-
-                          <AccordionItem uuid="b">
-                            <AccordionItemHeading>
-                              <AccordionItemButton>
-                                <span>Shareholder Meeting
-                                </span>
-                              </AccordionItemButton>
-                            </AccordionItemHeading>
-                            <AccordionItemPanel>
-                              <div className="investors-details">
-                                <div className="article-tags">
-                                  2023
-                                </div>
-
-                                <div className="article-share">
-                                  <Link href="investors/annual-report_2023.pdf" target="_blank" rel="noreferrer" download>
-                                    <i class="fa-solid fa-download fa-lg"></i>
-                                  </Link>
-                                </div>
-                              </div>
-                            </AccordionItemPanel>
-                          </AccordionItem>
-
-                          <AccordionItem uuid="c">
-                            <AccordionItemHeading>
-                              <AccordionItemButton>
-                                <span>Corporate Governance
-                                </span>
-                              </AccordionItemButton>
-                            </AccordionItemHeading>
-                            <AccordionItemPanel>
-                              <div className="investors-details">
-                                <div className="article-tags">
-                                  2023
-                                </div>
-
-                                <div className="article-share">
-                                  <Link href="investors/annual-report_2023.pdf" target="_blank" rel="noreferrer" download>
-                                    <i class="fa-solid fa-download fa-lg"></i>
-                                  </Link>
-                                </div>
-                              </div>
-                            </AccordionItemPanel>
-                          </AccordionItem>
-
-                          <AccordionItem uuid="d">
-                            <AccordionItemHeading>
-                              <AccordionItemButton>
-                                <span>Annual Returns
-                                </span>
-                              </AccordionItemButton>
-                            </AccordionItemHeading>
-                            <AccordionItemPanel>
-                              <div className="investors-details">
-                                <div className="article-tags">
-                                  Sa Technologies DRHP
-                                </div>
-
-                                <div className="article-share">
-                                  <Link href="investors/annual-report_2023.pdf" target="_blank" rel="noreferrer" download>
-                                    <i class="fa-solid fa-download fa-lg"></i>
-                                  </Link>
-                                </div>
-                              </div>
-                            </AccordionItemPanel>
-                          </AccordionItem>
-                        </Accordion>
-                      </div>
-                    </div>
-                  </div>
-                </div>
               </div> */}
             </div>
           </div>

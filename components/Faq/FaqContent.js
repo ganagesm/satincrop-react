@@ -30,22 +30,11 @@ const FaqContent = () => {
                   <AccordionItem uuid="a">
                     <AccordionItemHeading>
                       <AccordionItemButton>
-                        <span>News and Event
+                        <span>News and Events
                         </span>
                       </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
-                      <div className="investors-details">
-                        <div className="article-tags">
-                          2023
-                        </div>
-
-                        <div className="article-share">
-                          <Link href="investors/annual-report_2023.pdf" target="_blank" rel="noreferrer" download>
-                            <i class="fa-solid fa-download fa-lg"></i>
-                          </Link>
-                        </div>
-                      </div>
                     </AccordionItemPanel>
                   </AccordionItem>
 
@@ -90,7 +79,7 @@ const FaqContent = () => {
                         </div>
 
                         <div className="article-share">
-                          <Link href="investors/directors/pj-profile.docx" target="_blank" rel="noreferrer" download>
+                          <Link href="investors/directors/pj.pdf" target="_blank" rel="noreferrer" download>
                             <i class="fa-solid fa-download fa-lg"></i>
                           </Link>
                         </div>
@@ -147,7 +136,7 @@ const FaqContent = () => {
                     </AccordionItemPanel>
                   </AccordionItem>
 
-                  <AccordionItem uuid="d">
+                  {/* <AccordionItem uuid="d">
                     <AccordionItemHeading>
                       <AccordionItemButton>
                         <span>Red Herring Prospectus
@@ -167,7 +156,7 @@ const FaqContent = () => {
                         </div>
                       </div>
                     </AccordionItemPanel>
-                  </AccordionItem>
+                  </AccordionItem> */}
 
                   <AccordionItem uuid="e">
                     <AccordionItemHeading>
@@ -177,17 +166,6 @@ const FaqContent = () => {
                       </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
-                      <div className="investors-details">
-                        <div className="article-tags">
-                          Sa Technologies DRHP
-                        </div>
-
-                        <div className="article-share">
-                          <Link href="investors/annual-report_2023.pdf" target="_blank" rel="noreferrer" download>
-                            <i class="fa-solid fa-download fa-lg"></i>
-                          </Link>
-                        </div>
-                      </div>
                     </AccordionItemPanel>
                   </AccordionItem>
 
@@ -242,17 +220,6 @@ const FaqContent = () => {
                       </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
-                      <div className="investors-details">
-                        <div className="article-tags">
-                          Key Management Professionals
-                        </div>
-
-                        <div className="article-share">
-                          <Link href="investors/annual-report_2023.pdf" target="_blank" rel="noreferrer" download>
-                            <i class="fa-solid fa-download fa-lg"></i>
-                          </Link>
-                        </div>
-                      </div>
                     </AccordionItemPanel>
                   </AccordionItem>
 
@@ -271,36 +238,31 @@ const FaqContent = () => {
                               <th scope="col">Sr. No.</th>
                               <th scope="col">Name of the Member</th>
                               <th scope="col">Designation</th>
-                              <th scope="col">Nature of Directorship</th>
                             </tr>
                           </thead>
 
                           <tbody>
-                            {/* <tr>
-                              <td>1</td>
-                              <td className="product-name">PRIYANKA MANOJKUMAR JOSHI (DIN 09302795)</td>
-                              <td className="product-price"> </td>
-                              <td className="product-price">Non-Executive Director</td>
-                            </tr> */}
-
                             <tr>
                               <td>1</td>
-                              <td className="product-name">RITESH RAMAVTAR SHARMA (DIN 02676486)</td>
-                              <td className="product-price">Chairman</td>
+                              <td className="product-name">PRIYANKA MANOJKUMAR JOSHI (DIN 09302795)</td>
                               <td className="product-price">Non-Executive Director</td>
                             </tr>
 
                             <tr>
                               <td>2</td>
+                              <td className="product-name">RITESH RAMAVTAR SHARMA (DIN 02676486)</td>
+                              <td className="product-price">Non-Executive Director</td>
+                            </tr>
+
+                            <tr>
+                              <td>3</td>
                               <td className="product-name">KAUSTUBH NARAYAN KARWE (DIN 08553122)</td>
-                              <td className="product-price">Member</td>
                               <td className="product-price">Independent Director</td>
                             </tr>
 
                             <tr>
                               <td>4</td>
                               <td className="product-name">SARIKA SHARMA (DIN 10245269)</td>
-                              <td className="product-price">Member</td>
                               <td className="product-price">Independent Director</td>
                             </tr>
                           </tbody>
@@ -336,25 +298,24 @@ const FaqContent = () => {
                               <td>1</td>
                               <td className="product-name">PRIYANKA MANOJKUMAR JOSHI (DIN 09302795)</td>
                               <td className="product-price">Non-Executive Director</td>
-                              <td className="product-price">Member </td>
                             </tr> */}
 
                             <tr>
-                              <td>2</td>
+                              <td>1</td>
                               <td className="product-name">RITESH RAMAVTAR SHARMA (DIN 02676486)</td>
                               <td className="product-price">Member</td>
                               <td className="product-price">Non-Executive Director</td>
                             </tr>
 
                             <tr>
-                              <td>3</td>
+                              <td>2</td>
                               <td className="product-name">KAUSTUBH NARAYAN KARWE (DIN 08553122)</td>
                               <td className="product-price">Chairman</td>
                               <td className="product-price">Independent Director</td>
                             </tr>
 
                             <tr>
-                              <td>4</td>
+                              <td>3</td>
                               <td className="product-name">SARIKA SHARMA (DIN 10245269)</td>
                               <td className="product-price">Member</td>
                               <td className="product-price">Independent Director</td>
@@ -423,14 +384,14 @@ const FaqContent = () => {
                               <tr>
                                 <td>1</td>
                                 <td className="product-name">RITESH RAMAVTAR SHARMA (DIN 02676486)</td>
-                                <td className="product-price">Chairman</td>
+                                <td className="product-price">Member</td>
                                 <td className="product-price">Non- Executive Director</td>
                               </tr>
 
                               <tr>
                                 <td>2</td>
                                 <td className="product-name">KAUSTUBH NARAYAN KARWE (DIN 08553122)</td>
-                                <td className="product-price">Member</td>
+                                <td className="product-price">Chairman</td>
                                 <td className="product-price">Independent Director</td>
                               </tr>
 
