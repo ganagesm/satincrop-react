@@ -11,11 +11,10 @@ const ServiceDetailsContent = () => {
           </div>
           <div className="services-details-overview">
             <div className="services-details-desc mb-30">
-              <h3>Tailored GCC Strategy:  Paving Your Road to Global Leadership</h3>
-              <p>In the complex and evolving landscape of global business, a tailored approach is essential for success. SA Technologies' GCC Strategy Development service is crafted to transcend traditional, one-size-fits-all strategies.</p>
+              <h3>Crafting Your Unique Path to Global Excellence </h3>
+              <p>At SAT, we specialize in GCC Strategy Development, navigating the dynamic landscape of Global Capability Centers (GCCs) in India. With over 1600+ GCCs projected for 2023 and employing more than 1.66 million professionals, we understand the challenges and opportunities of this thriving sector. </p>
 
-              <p>We delve deep into understanding your unique business context, shaping a strategy that is not just aligned but is an integral part of your global vision.  </p>
-              <p>By combining our extensive experience in designing and establishing GCCs with innovative approaches, we ensure that your GCC strategy is both forward-thinking and grounded in practical insights, setting the stage for sustainable growth and operational excellence.  </p>
+              <p>Our tailored strategies align with your business objectives, foster innovation, and drive operational excellence, ensuring your GCC remains at the forefront of industry advancements Our focus on specialized Centers of Excellence (CoEs) and domain-specific knowledge ensures that your GCC remains at the forefront of industry advancements.</p>
               </div>
 
             <div className="services-details-image">

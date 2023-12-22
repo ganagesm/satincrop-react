@@ -18,7 +18,7 @@ const BlogPostSlider = () => {
     async function fetchPosts() {
       try {
         // const response = await fetch(`${postApi}/posts?page=${currentPage}&per_page=${pageSize}&order=desc`);
-        const response = await fetch(`${postApi}/posts?categories=344&page=${currentPage}&per_page=${pageSize}&order=desc`);
+        const response = await fetch(`${postApi}/posts?categories=349&page=${currentPage}&per_page=${pageSize}&order=desc`);
 
         if (!response.ok) {
           throw new Error('Network response was not ok');

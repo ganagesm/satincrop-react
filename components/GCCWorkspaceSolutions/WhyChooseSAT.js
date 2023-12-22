@@ -17,34 +17,34 @@ const ComputerVisionAI = () => {
             </div>
             <div className="col-lg-6 col-md-6">
               <div className="computer-vision-ai-content">
-                {/* <h3>Key Pillars of Our Infrastructure Excellence</h3> */}
+                <h3>Key Considerations for Optimal Location& Infrastructure Setup</h3> 
                 {/* <p>They serve as a way to extract and isolate business logic from the controllers or models of a Rails application, promoting cleaner code organization, reusability, and testability.</p> */}
 
                 <div className="row justify-content-center">
                   <div className="col-lg-6 col-sm-6">
                     <div className="vision-ai-inner-card">
                       <div className="">
-                        <h4>Best Practice Implementation</h4>
+                        <h4>Prime Destinations</h4>
                       </div>
-                      <p>Leveraging industry best practices to enhance operational efficiency. Streamlining processes for greater productivity and reduced costs. </p>
+                      <p>Bengaluru, Hyderabad, Delhi NCR, Mumbai, Pune, Chennai - ideal for GCCs with their strong infrastructure and skilled talent.</p>
                     </div>
                   </div>
                   <div className="col-lg-6 col-sm-6">
                     <div className="vision-ai-inner-card">
                      
                       <div className="">
-                        <h4>Technology Adoption Guidance: </h4>
+                        <h4>Global Presence</h4>
                       </div>
-                      <p>Implementing cutting-edge solutions to drive digital transformation. & Ensuring seamless integration of technology for optimized workflows. </p>
+                      <p>Dominated by US firms, with significant European presence and rising APAC influence.</p>
                     </div>
                   </div>
 
                   <div className="col-lg-6 col-sm-6">
                     <div className="vision-ai-inner-card">
                       <div className="">
-                        <h4>Risk Management Strategies: </h4>
+                        <h4>Office Space Expansion</h4>
                       </div>
-                      <p>Identifying potential operational risks and developing strategies to mitigate them.  </p>
+                      <p>GCCs occupy over 200 million square feet across these major cities.</p>
                     </div>
                   </div>
 
@@ -52,18 +52,37 @@ const ComputerVisionAI = () => {
                     <div className="vision-ai-inner-card">
                       {/* <div className="content"> */}
                       <div className="">
-                        <h4>Performance Metrics Tracking: </h4>
+                        <h4>Educational Hubs</h4>
                       </div>
-                      <p>Establishing key performance indicators (KPIs) to monitor GCC performance. </p>
+                      <p>These cities are rich in top-tier educational institutions, supplying skilled graduates for GCCs. </p>
                     </div>
                   </div>
                   <div className="col-lg-6 col-sm-6">
                     <div className="vision-ai-inner-card">
                       {/* <div className="content"> */}
                       <div className="">
-                        <h4>Change Management Solutions: </h4>
+                        <h4> Language Proficiency</h4>
                       </div>
-                      <p>Our expertise ensures a smooth transition while maintaining employee support and engagement, elevating your GCC's operational standards </p>
+                      <p>High English proficiency in these regions facilitates global GCC communication. </p>
+                    </div>
+                  </div>
+
+                  <div className="col-lg-6 col-sm-6">
+                    <div className="vision-ai-inner-card">
+                      {/* <div className="content"> */}
+                      <div className="">
+                        <h4>Tech Ecosystem</h4>
+                      </div>
+                      <p>Vibrant tech environments in these cities enhance innovation and collaboration for GCCs.</p>
+                    </div>
+                  </div>
+                  <div className="col-lg-6 col-sm-6">
+                    <div className="vision-ai-inner-card">
+                      {/* <div className="content"> */}
+                      <div className="">
+                        <h4>Infrastructure Excellence </h4>
+                      </div>
+                      <p>SAT emphasizes ergonomic, sustainable, and technology-integrated workspaces. </p>
                     </div>
                   </div>
 

@@ -1,13 +1,9 @@
 
 import Navbar from "../components/Live/Navbar";
 import Footer from "../components/Live/Footer";
-import WhyChooseSAT from "../components/GCCOperationalGuidance/WhyChooseSAT";
-import Services from "../components/GCCOperationalGuidance/Services";
-import HeroBanner from "../components/GCCOperationalGuidance/HeroBanner";
-import TechDetailsContent from "../components/GCCOperationalGuidance/TechDetailsContent";
-import FunFacts from "../components/Live/FunFacts";
-import OurIndustry from "../components/Common/OurIndustry";
-import CaseStudiesPost from "../components/Live/CaseStudiesPost";
+import WhyChooseSAT from "../components/GCCWorkspaceSolutions/WhyChooseSAT";
+import HeroBanner from "../components/GCCWorkspaceSolutions/HeroBanner";
+import TechDetailsContent from "../components/GCCWorkspaceSolutions/TechDetailsContent";
 import ContactFormContent from "../components/Common/ContactFormContent";
 import Head from 'next/head';
 import Link from "next/link";

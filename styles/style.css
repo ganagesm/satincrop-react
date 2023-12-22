@@ -89,7 +89,7 @@ h6 {
 }
 
 p {
-    font-size: 17px;
+    font-size: 14px;
     color: #57647c;
     margin-bottom: 15px;
     line-height: 1.8;
@@ -129,7 +129,7 @@ textarea.form-control {
 /* Section title */
 .section-title {
     text-align: center;
-    max-width: 900px;
+    max-width: 670px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 60px;
@@ -5884,9 +5884,6 @@ Product Details Area CSS
     display: block;
 }
 
-.products-details-tab {
-    margin-top: 50px;
-}
 .products-details-tab .tabs {
     list-style-type: none;
     margin-bottom: -1px;
@@ -5983,7 +5980,6 @@ Product Details Area CSS
 }
 .products-details-tab .tab_content .tabs_item .products-details-tab-content .additional-information li span {
     display: inline-block;
-    width: 30%;
     color: #212529;
     font-family: "Dosis", sans-serif;
     font-size: 16px;
@@ -8513,8 +8509,69 @@ ul.about-list.emp_list i {
         background-Size: cover;
     }
 }
-
-.interlink{
+.interlink {
     color: #ff4800;
 }
+
+.single-team-box:hover .content h5 {
+    color: #fff;
+}
+.single-team-box:hover .content .single-team-box:hover .content p {
+    color: #fff;
+}
+
+.content p {
+    color: #57647c;
+}
+
+a.btn.btn-primary.ai_btn {
+    float: right;
+    margin-top: 0;
+}
+
+.siq_bR {
+    bottom: 72px !important;
+}
+
+.investors-details {
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 10px;
+    align-items: center;
+    border: 1px solid #eeeeee;
+}
+.investors-details .article-tags {
+    -ms-flex: 0 0 50%;
+    -webkit-box-flex: 0;
+    flex: 0 0 50%;
+    max-width: 50%;
+    font-weight: 700;
+    font-size: 15px;
+    font-family: "Dosis", sans-serif;
+}
+.investors-details .article-share {
+    -ms-flex: 0 0 50%;
+    -webkit-box-flex: 0;
+    flex: 0 0 50%;
+    max-width: 50%;
+    text-align: right;
+    padding-left: 0;
+}
+.investors-details .article-share a {
+    color: #212529;
+    background-color: #f7f7f7;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 13px;
+}
+.investors-details .article-share a:hover {
+    color: #ffffff;
+    background-color: #ff4800;
+}
+
 /*End "Home Demo - 6", "Home Demo - 7" & "Home Demo - 8" Style CSS*/
