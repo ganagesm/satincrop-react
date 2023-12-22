@@ -40,13 +40,13 @@ export default class ProductsDetailsTab extends Component {
                 <div className="dot"></div> 2023-24
               </li>
 
-              <li onClick={(e) => this.openTabSection(e, "tab2")}>
+              {/* <li onClick={(e) => this.openTabSection(e, "tab2")}>
                 <div className="dot"></div> 2022-23
               </li>
 
               <li onClick={(e) => this.openTabSection(e, "tab3")}>
                 <div className="dot"></div> 2021-22
-              </li>
+              </li> */}
             </ul>
           </div>
 
@@ -69,7 +69,7 @@ export default class ProductsDetailsTab extends Component {
                             <AccordionItemPanel>
                               <div className="investors-details">
                                 <div className="article-tags">
-                                  2023
+                                  Annual Report 2023
                                 </div>
 
                                 <div className="article-share">
@@ -89,7 +89,7 @@ export default class ProductsDetailsTab extends Component {
                               </AccordionItemButton>
                             </AccordionItemHeading>
                             <AccordionItemPanel>
-                              <div className="investors-details">
+                              {/* <div className="investors-details">
                                 <div className="article-tags">
                                   2023
                                 </div>
@@ -99,7 +99,7 @@ export default class ProductsDetailsTab extends Component {
                                     <i class="fa-solid fa-download fa-lg"></i>
                                   </Link>
                                 </div>
-                              </div>
+                              </div> */}
                             </AccordionItemPanel>
                           </AccordionItem>
 
@@ -117,7 +117,7 @@ export default class ProductsDetailsTab extends Component {
                                 </div>
 
                                 <div className="article-share">
-                                  <Link href="investors/annual-report_2023.pdf" target="_blank" rel="noreferrer" download>
+                                  <Link href="investors/sa-tech-financials_2023.pdf" target="_blank" rel="noreferrer" download>
                                     <i class="fa-solid fa-download fa-lg"></i>
                                   </Link>
                                 </div>
@@ -244,11 +244,11 @@ export default class ProductsDetailsTab extends Component {
                             <AccordionItemPanel>
                               <div className="investors-details">
                                 <div className="article-tags">
-                                  Sa Technologies DRHP
+                                  Annual Return 2023
                                 </div>
 
                                 <div className="article-share">
-                                  <Link href="investors/annual-report_2023.pdf" target="_blank" rel="noreferrer" download>
+                                  <Link href="investors/annual_return_2023.pdf" target="_blank" rel="noreferrer" download>
                                     <i class="fa-solid fa-download fa-lg"></i>
                                   </Link>
                                 </div>
@@ -262,12 +262,11 @@ export default class ProductsDetailsTab extends Component {
                 </div>
               </div>
 
-              <div id="tab2" className="tabs_item">
+              {/* <div id="tab2" className="tabs_item">
                 <div className="products-details-tab-content">
-                <div className="row">
+                  <div className="row">
                     <div className="col-lg-6 col-md-12">
                       <div className="faq-accordion">
-                        {/* <Accordion preExpanded={["a"]}> */}
                         <Accordion>
                           <AccordionItem uuid="a">
                             <AccordionItemHeading>
@@ -459,10 +458,9 @@ export default class ProductsDetailsTab extends Component {
 
               <div id="tab3" className="tabs_item">
                 <div className="products-details-tab-content">
-                <div className="row">
+                  <div className="row">
                     <div className="col-lg-6 col-md-12">
                       <div className="faq-accordion">
-                        {/* <Accordion preExpanded={["a"]}> */}
                         <Accordion>
                           <AccordionItem uuid="a">
                             <AccordionItemHeading>
@@ -650,7 +648,7 @@ export default class ProductsDetailsTab extends Component {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

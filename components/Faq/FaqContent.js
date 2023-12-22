@@ -59,11 +59,65 @@ const FaqContent = () => {
                     <AccordionItemPanel>
                       <div className="investors-details">
                         <div className="article-tags">
-                          2023
+                          Ritesh Sharma
                         </div>
 
                         <div className="article-share">
-                          <Link href="investors/annual-report_2023.pdf" target="_blank" rel="noreferrer" download>
+                          <Link href="investors/directors/ritesh-sharma.pdf" target="_blank" rel="noreferrer" download>
+                            <i class="fa-solid fa-download fa-lg"></i>
+                          </Link>
+                        </div>
+                      </div>
+                    </AccordionItemPanel>
+
+                    <AccordionItemPanel>
+                      <div className="investors-details">
+                        <div className="article-tags">
+                          Manoj Joshi
+                        </div>
+
+                        <div className="article-share">
+                          <Link href="investors/directors/mj.pdf" target="_blank" rel="noreferrer" download>
+                            <i class="fa-solid fa-download fa-lg"></i>
+                          </Link>
+                        </div>
+                      </div>
+                    </AccordionItemPanel>
+                    <AccordionItemPanel>
+                      <div className="investors-details">
+                        <div className="article-tags">
+                          Priyanka Joshi
+                        </div>
+
+                        <div className="article-share">
+                          <Link href="investors/directors/pj-profile.docx" target="_blank" rel="noreferrer" download>
+                            <i class="fa-solid fa-download fa-lg"></i>
+                          </Link>
+                        </div>
+                      </div>
+                    </AccordionItemPanel>
+
+                    <AccordionItemPanel>
+                      <div className="investors-details">
+                        <div className="article-tags">
+                          Sarika Sharma
+                        </div>
+
+                        <div className="article-share">
+                          <Link href="investors/directors/sarika-sharma.pdf" target="_blank" rel="noreferrer" download>
+                            <i class="fa-solid fa-download fa-lg"></i>
+                          </Link>
+                        </div>
+                      </div>
+                    </AccordionItemPanel>
+                    <AccordionItemPanel>
+                      <div className="investors-details">
+                        <div className="article-tags">
+                          Kaustubh Karwe
+                        </div>
+
+                        <div className="article-share">
+                          <Link href="investors/directors/kk.pdf" target="_blank" rel="noreferrer" download>
                             <i class="fa-solid fa-download fa-lg"></i>
                           </Link>
                         </div>
@@ -145,16 +199,37 @@ const FaqContent = () => {
                       </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
-                      <div className="investors-details">
-                        <div className="article-tags">
-                          Key Management Professionals
-                        </div>
+                      <div className="cart-table table-responsive">
+                        <table className="table table-bordered">
+                          <thead>
+                            <tr>
+                              <th scope="col">Sr. No.</th>
+                              <th scope="col">Name of the Member</th>
+                              <th scope="col">Designation</th>
+                            </tr>
+                          </thead>
 
-                        <div className="article-share">
-                          <Link href="investors/annual-report_2023.pdf" target="_blank" rel="noreferrer" download>
-                            <i class="fa-solid fa-download fa-lg"></i>
-                          </Link>
-                        </div>
+                          <tbody>
+                            <tr>
+                              <td>1</td>
+                              <td className="product-name">Mr. Manoj Navrattam Joshi</td>
+                              <td className="product-price">Chief Executive Officer</td>
+                            </tr>
+
+                            <tr>
+                              <td>2</td>
+                              <td className="product-name">Mr. Bhavin Goda</td>
+                              <td className="product-price">Chief Financial Officer</td>
+                            </tr>
+
+                            <tr>
+                              <td>3</td>
+                              <td className="product-name">Ms. Arnika Choudhary</td>
+                              <td className="product-price">Company Secretary and Compliance Officer</td>
+                            </tr>
+                          </tbody>
+                        </table>
+
                       </div>
                     </AccordionItemPanel>
                   </AccordionItem>
@@ -189,16 +264,49 @@ const FaqContent = () => {
                       </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
-                      <div className="investors-details">
-                        <div className="article-tags">
-                          Key Management Professionals
-                        </div>
+                      <div className="cart-table table-responsive">
+                        <table className="table table-bordered">
+                          <thead>
+                            <tr>
+                              <th scope="col">Sr. No.</th>
+                              <th scope="col">Name of the Member</th>
+                              <th scope="col">Designation</th>
+                              <th scope="col">Nature of Directorship</th>
+                            </tr>
+                          </thead>
 
-                        <div className="article-share">
-                          <Link href="investors/annual-report_2023.pdf" target="_blank" rel="noreferrer" download>
-                            <i class="fa-solid fa-download fa-lg"></i>
-                          </Link>
-                        </div>
+                          <tbody>
+                            {/* <tr>
+                              <td>1</td>
+                              <td className="product-name">PRIYANKA MANOJKUMAR JOSHI (DIN 09302795)</td>
+                              <td className="product-price"> </td>
+                              <td className="product-price">Non-Executive Director</td>
+                            </tr> */}
+
+                            <tr>
+                              <td>1</td>
+                              <td className="product-name">RITESH RAMAVTAR SHARMA (DIN 02676486)</td>
+                              <td className="product-price">Chairman</td>
+                              <td className="product-price">Non-Executive Director</td>
+                            </tr>
+
+                            <tr>
+                              <td>2</td>
+                              <td className="product-name">KAUSTUBH NARAYAN KARWE (DIN 08553122)</td>
+                              <td className="product-price">Member</td>
+                              <td className="product-price">Independent Director</td>
+                            </tr>
+
+                            <tr>
+                              <td>4</td>
+                              <td className="product-name">SARIKA SHARMA (DIN 10245269)</td>
+                              <td className="product-price">Member</td>
+                              <td className="product-price">Independent Director</td>
+                            </tr>
+                          </tbody>
+                        </table>
+
+
                       </div>
                     </AccordionItemPanel>
                   </AccordionItem>
@@ -211,16 +319,131 @@ const FaqContent = () => {
                       </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
-                      <div className="investors-details">
-                        <div className="article-tags">
-                          Key Management Professionals
+                      <h3>AUDIT COMMITTEE</h3>
+                      <div className="cart-table table-responsive">
+                        <table className="table table-bordered">
+                          <thead>
+                            <tr>
+                              <th scope="col">Sr. No.</th>
+                              <th scope="col">Name of the Member</th>
+                              <th scope="col">Designation</th>
+                              <th scope="col">Nature of Directorship</th>
+                            </tr>
+                          </thead>
+
+                          <tbody>
+                            {/* <tr>
+                              <td>1</td>
+                              <td className="product-name">PRIYANKA MANOJKUMAR JOSHI (DIN 09302795)</td>
+                              <td className="product-price">Non-Executive Director</td>
+                              <td className="product-price">Member </td>
+                            </tr> */}
+
+                            <tr>
+                              <td>2</td>
+                              <td className="product-name">RITESH RAMAVTAR SHARMA (DIN 02676486)</td>
+                              <td className="product-price">Member</td>
+                              <td className="product-price">Non-Executive Director</td>
+                            </tr>
+
+                            <tr>
+                              <td>3</td>
+                              <td className="product-name">KAUSTUBH NARAYAN KARWE (DIN 08553122)</td>
+                              <td className="product-price">Chairman</td>
+                              <td className="product-price">Independent Director</td>
+                            </tr>
+
+                            <tr>
+                              <td>4</td>
+                              <td className="product-name">SARIKA SHARMA (DIN 10245269)</td>
+                              <td className="product-price">Member</td>
+                              <td className="product-price">Independent Director</td>
+                            </tr>
+                          </tbody>
+                        </table>
+
+                      </div>
+
+                      <h3>NOMINATION AND REMUNERATION COMMITTEE</h3>
+                      <div className="cart-table table-responsive">
+                        <table className="table table-bordered">
+                          <thead>
+                            <tr>
+                              <th scope="col">Sr. No.</th>
+                              <th scope="col">Name of the Member</th>
+                              <th scope="col">Designation</th>
+                              <th scope="col">Nature of Directorship</th>
+                            </tr>
+                          </thead>
+
+                          <tbody>
+                            {/* <tr>
+                              <td>1</td>
+                              <td className="product-name">PRIYANKA MANOJKUMAR JOSHI (DIN 09302795)</td>
+                              <td className="product-price">Non-Executive Director</td>
+                              <td className="product-price"> </td>
+                            </tr> */}
+
+                            <tr>
+                              <td>2</td>
+                              <td className="product-name">RITESH RAMAVTAR SHARMA (DIN 02676486)</td>
+                              <td className="product-price">Chairman</td>
+                              <td className="product-price">Non-Executive Director</td>
+                            </tr>
+
+                            <tr>
+                              <td>3</td>
+                              <td className="product-name">KAUSTUBH NARAYAN KARWE (DIN 08553122)</td>
+                              <td className="product-price">Member</td>
+                              <td className="product-price">Independent Director</td>
+                            </tr>
+
+                            <tr>
+                              <td>4</td>
+                              <td className="product-name">SARIKA SHARMA (DIN 10245269)</td>
+                              <td className="product-price">Member</td>
+                              <td className="product-price">Independent Director</td>
+                            </tr>
+                          </tbody>
+                        </table>
+
+                        <h3>STAKEHOLDERS RELATIONSHIP COMMITTEE</h3>
+                        <div className="cart-table table-responsive">
+                          <table className="table table-bordered">
+                            <thead>
+                              <tr>
+                                <th scope="col">Sr. No.</th>
+                                <th scope="col">Name of the Member</th>
+                                <th scope="col">Designation</th>
+                                <th scope="col">Nature of Directorship</th>
+                              </tr>
+                            </thead>
+
+                            <tbody>
+                              <tr>
+                                <td>1</td>
+                                <td className="product-name">RITESH RAMAVTAR SHARMA (DIN 02676486)</td>
+                                <td className="product-price">Chairman</td>
+                                <td className="product-price">Non- Executive Director</td>
+                              </tr>
+
+                              <tr>
+                                <td>2</td>
+                                <td className="product-name">KAUSTUBH NARAYAN KARWE (DIN 08553122)</td>
+                                <td className="product-price">Member</td>
+                                <td className="product-price">Independent Director</td>
+                              </tr>
+
+                              <tr>
+                                <td>3</td>
+                                <td className="product-name">SARIKA SHARMA (DIN 10245269)</td>
+                                <td className="product-price">Member</td>
+                                <td className="product-price">Independent Director</td>
+                              </tr>
+                            </tbody>
+                          </table>
                         </div>
 
-                        <div className="article-share">
-                          <Link href="investors/annual-report_2023.pdf" target="_blank" rel="noreferrer" download>
-                            <i class="fa-solid fa-download fa-lg"></i>
-                          </Link>
-                        </div>
                       </div>
                     </AccordionItemPanel>
                   </AccordionItem>
@@ -230,7 +453,6 @@ const FaqContent = () => {
           </div>
         </div>
       </section>
-
 
       <div className="container ptb-50">
         <div className="section-title">
@@ -281,19 +503,19 @@ const FaqContent = () => {
                         <span><h5>Investor’s Contact Person Details:</h5></span>
                       </li>
                       <li>
-                        <span>Contact Person	:</span> CS. Binny Porwal
+                        <span>Contact Person	:</span> CS. Arnika Chaudhary
                       </li>
                       <li>
                         <span>Designation	:</span> Company Secretary & Compliance Officer
                       </li>
                       <li>
-                        <span>Contact No.:</span> +91 9209401967
+                        <span>Contact No.:</span> +91 9022909131
                       </li>
                       <li>
-                        <span>Email id	:</span> cs@opalforce.com	
+                        <span>Email id	:</span> cs@satincorp.com
                       </li>
                       <li>
-                        <span>E-mail	:</span> investors@opalforce.com
+                        <span>E-mail	:</span> investors@satincorp.com
                       </li>
                     </ul>
                   </div>
