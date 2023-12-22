@@ -18,9 +18,11 @@ const TopNavbar = () => {
             </div>
             <div className="col-lg-6 col-md-6">
               <ul className="topbar-action-list">
-                 <li > 
+                 <li> 
                   <Link style={{color:"#ff4800;"}} href="/careers">Join Our Team  </Link>
-                 
+                  </li>
+                 <li style={{marginLeft:"-20px"}}> 
+                  <Link style={{color:"#ff4800;"}} href="/investors">Investor</Link>
                   </li>
                 {/*<li>
                   <i class="fa-solid fa-phone"></i>
