@@ -124,16 +124,194 @@ const FaqContent = () => {
                     <AccordionItemPanel>
                       <div className="investors-details">
                         <div className="article-tags">
-                          2023
+                          Archival Policy (Annexure 13)
                         </div>
 
                         <div className="article-share">
-                          <Link href="investors/annual-report_2023.pdf" target="_blank" rel="noreferrer" download>
+                          <Link href="investors/Archival Policy (Annexure 13).pdf" target="_blank" rel="noreferrer" download>
                             <i class="fa-solid fa-download fa-lg"></i>
                           </Link>
                         </div>
                       </div>
                     </AccordionItemPanel>
+
+                    <AccordionItemPanel>
+                      <div className="investors-details">
+                        <div className="article-tags">
+                        Familiarization Program for Independent Director (Annexure 9)
+                        </div>
+
+                        <div className="article-share">
+                          <Link href="investors/Familiarization Program for Independent Director (Annexure 9).pdf" target="_blank" rel="noreferrer" download>
+                            <i class="fa-solid fa-download fa-lg"></i>
+                          </Link>
+                        </div>
+                      </div>
+                    </AccordionItemPanel>
+
+
+                    <AccordionItemPanel>
+                      <div className="investors-details">
+                        <div className="article-tags">
+                        Preservation of Documents
+                        </div>
+
+                        <div className="article-share">
+                          <Link href="investors/Preservation of Documents.pdf" target="_blank" rel="noreferrer" download>
+                            <i class="fa-solid fa-download fa-lg"></i>
+                          </Link>
+                        </div>
+                      </div>
+                    </AccordionItemPanel>
+
+
+                    <AccordionItemPanel>
+                      <div className="investors-details">
+                        <div className="article-tags">
+                        Risk Management Policy
+                        </div>
+
+                        <div className="article-share">
+                          <Link href="investors/Risk Management Policy.pdf" target="_blank" rel="noreferrer" download>
+                            <i class="fa-solid fa-download fa-lg"></i>
+                          </Link>
+                        </div>
+                      </div>
+                    </AccordionItemPanel>
+
+                    <AccordionItemPanel>
+                      <div className="investors-details">
+                        <div className="article-tags">
+                        RPT Policy (Annexure 7 )
+                        </div>
+
+                        <div className="article-share">
+                          <Link href="investors/RPT Policy (Annexure 7 ).pdf" target="_blank" rel="noreferrer" download>
+                            <i class="fa-solid fa-download fa-lg"></i>
+                          </Link>
+                        </div>
+                      </div>
+                    </AccordionItemPanel>
+
+                    <AccordionItemPanel>
+                      <div className="investors-details">
+                        <div className="article-tags">
+                        Terms and Conditions of ID Appointment (Annexure 3)
+                        </div>
+
+                        <div className="article-share">
+                          <Link href="investors/Terms and Conditions of ID Appointment (Annexure 3).pdf" target="_blank" rel="noreferrer" download>
+                            <i class="fa-solid fa-download fa-lg"></i>
+                          </Link>
+                        </div>
+                      </div>
+                    </AccordionItemPanel>
+
+                    <AccordionItemPanel>
+                      <div className="investors-details">
+                        <div className="article-tags">
+                        Whistle Blower Policy (Annexure 6)
+                        </div>
+
+                        <div className="article-share">
+                          <Link href="investors/Whistle Blower Policy (Annexure 6).pdf" target="_blank" rel="noreferrer" download>
+                            <i class="fa-solid fa-download fa-lg"></i>
+                          </Link>
+                        </div>
+                      </div>
+                    </AccordionItemPanel>
+
+                    <AccordionItemPanel>
+                      <div className="investors-details">
+                        <div className="article-tags">
+                        Details of Familiarization Program for Independent Director
+                        </div>
+
+                        <div className="article-share">
+                          <Link href="investors/Details of Familiarization Program for Independent Director.pdf" target="_blank" rel="noreferrer" download>
+                            <i class="fa-solid fa-download fa-lg"></i>
+                          </Link>
+                        </div>
+                      </div>
+                    </AccordionItemPanel>
+
+                    <AccordionItemPanel>
+                      <div className="investors-details">
+                        <div className="article-tags">
+                        Insider_Trading_Policy and code of conduct for fair disclosure
+                        </div>
+
+                        <div className="article-share">
+                          <Link href="investors/Insider_Trading_Policy and code of conduct for fair disclosure.pdf" target="_blank" rel="noreferrer" download>
+                            <i class="fa-solid fa-download fa-lg"></i>
+                          </Link>
+                        </div>
+                      </div>
+                    </AccordionItemPanel>
+                    <AccordionItemPanel>
+                      <div className="investors-details">
+                        <div className="article-tags">
+                        Policy on Identification of Material Creditors and Material Litigations
+                        </div>
+
+                        <div className="article-share">
+                          <Link href="investors/Policy on Identification of Material Creditors and Material Litigations.pdf" target="_blank" rel="noreferrer" download>
+                            <i class="fa-solid fa-download fa-lg"></i>
+                          </Link>
+                        </div>
+                      </div>
+                    </AccordionItemPanel>
+                    <AccordionItemPanel>
+                      <div className="investors-details">
+                        <div className="article-tags">
+                        policy on material subsidiary
+                        </div>
+
+                        <div className="article-share">
+                          <Link href="investors/policy on material subsidiary.pdf" target="_blank" rel="noreferrer" download>
+                            <i class="fa-solid fa-download fa-lg"></i>
+                          </Link>
+                        </div>
+                      </div>
+                    </AccordionItemPanel>
+                    <AccordionItemPanel>
+                      <div className="investors-details">
+                        <div className="article-tags">
+                        Policy_on_Board_Diversity
+                        </div>
+
+                        <div className="article-share">
+                          <Link href="investors/Policy_on_Board_Diversity.pdf" target="_blank" rel="noreferrer" download>
+                            <i class="fa-solid fa-download fa-lg"></i>
+                          </Link>
+                        </div>
+                      </div>
+                    </AccordionItemPanel>
+                    <AccordionItemPanel>
+                      <div className="investors-details">
+                        <div className="article-tags">
+                        Policy_on_Code of Conduct
+                        </div>
+
+                        <div className="article-share">
+                          <Link href="investors/Policy_on_Code of Conduct.pdf" target="_blank" rel="noreferrer" download>
+                            <i class="fa-solid fa-download fa-lg"></i>
+                          </Link>
+                        </div>
+                      </div>
+                    </AccordionItemPanel>
+                    
+
+
+                    
+
+
+                    
+
+
+
+
+
                   </AccordionItem>
 
                   {/* <AccordionItem uuid="d">
@@ -346,21 +524,21 @@ const FaqContent = () => {
                             </tr> */}
 
                             <tr>
-                              <td>2</td>
+                              <td>1</td>
                               <td className="product-name">RITESH RAMAVTAR SHARMA (DIN 02676486)</td>
                               <td className="product-price">Chairman</td>
                               <td className="product-price">Non-Executive Director</td>
                             </tr>
 
                             <tr>
-                              <td>3</td>
+                              <td>2</td>
                               <td className="product-name">KAUSTUBH NARAYAN KARWE (DIN 08553122)</td>
                               <td className="product-price">Member</td>
                               <td className="product-price">Independent Director</td>
                             </tr>
 
                             <tr>
-                              <td>4</td>
+                              <td>3</td>
                               <td className="product-name">SARIKA SHARMA (DIN 10245269)</td>
                               <td className="product-price">Member</td>
                               <td className="product-price">Independent Director</td>
@@ -464,7 +642,7 @@ const FaqContent = () => {
                         <span><h5>Investor’s Contact Person Details:</h5></span>
                       </li>
                       <li>
-                        <span>Contact Person	:</span> CS. Arnika Chaudhary
+                        <span>Contact Person	:</span> CS. Arnika Choudhary
                       </li>
                       <li>
                         <span>Designation	:</span> Company Secretary & Compliance Officer
