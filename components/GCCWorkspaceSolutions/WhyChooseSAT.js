@@ -86,6 +86,16 @@ const ComputerVisionAI = () => {
                     </div>
                   </div>
 
+                  <div className="col-lg-6 col-sm-6">
+                    <div className="vision-ai-inner-card">
+                      {/* <div className="content"> */}
+                      <div className="">
+                        <h4>GCC's workspace solutions </h4>
+                      </div>
+                      <p>We offer workspaces like Collaborative and Shared Office Spaces, tailored for productivity and networking in the GCC region. </p>
+                    </div>
+                  </div>
+
                   
                 </div>
 
