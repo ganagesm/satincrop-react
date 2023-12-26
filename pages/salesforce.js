@@ -39,7 +39,7 @@ const Index = () => {
           </div>
         </div>
       <MainServices />
-      <BlogPostSlider />
+      {/* <BlogPostSlider /> */}
       <BlogPostSlider />
       <ContactFormContent />
       <Footer />
