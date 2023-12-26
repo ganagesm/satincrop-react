@@ -15,9 +15,9 @@ const Index = () => {
   return (
     <>
       <Head>
-        <title>Streamline Operations with Expert Guidance</title>
-        <meta property="og:title" content="Streamline Operations with Expert Guidance" key="title" />
-        <meta name="description" content="Achieve efficiency and success with our operational guidance. Tailored solutions for your business." key="description" />
+        <title>Maximizing GCC Efficiency with SAT's Build Operate Transfer (BOT) Expertise</title>
+        <meta property="og:title" content="Maximizing GCC Efficiency with SAT's Build Operate Transfer (BOT) Expertise" key="title" />
+        <meta name="description" content="Elevate your Global Capability Center's performance through SAT's specialized Build Operate Transfer (BOT) approach, offering customized solutions for superior business outcomes." key="description" />
       </Head>
 
 
