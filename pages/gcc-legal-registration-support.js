@@ -14,8 +14,8 @@ const Index = () => {
   return (
     <>
       <Head>
-        <title>SAT's Seamless Legal Registration Support for Global Capability Centers.</title>
-        <meta property="og:title" content="SAT's Seamless Legal Registration Support for Global Capability Centers" key="title" />
+        <title>SAT Seamless Legal Registration Support for Global Capability Centers.</title>
+        <meta property="og:title" content="SAT Seamless Legal Registration Support for Global Capability Centers" key="title" />
         <meta name="description" content="Get expert assistance for hassle-free legal registration in Global Capability Centers. Ensure compliance and protect your business." key="description" />
       </Head>
 

@@ -4,7 +4,7 @@ import Link from "next/link";
 const AboutContact = () => {
   return (
     <>
-      <section className="about-area ptb-110">
+      <section className="about-area">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-10 col-md-12">
@@ -70,7 +70,7 @@ const AboutContact = () => {
               </div>
             </div>
             <div className="btn-box">
-                    <Link href="http://envir.satincorp.com/wordpress/satx/" className="btn btn-primary ai_btn">
+                    <Link href="/contact-us/" className="btn btn-primary ai_btn">
                       Learn More
                     </Link>
                   </div> 
