@@ -18,9 +18,9 @@ const Index = () => {
   return (
     <>
       <Head>
-        <title>The Key to Successful Infrastructure Setup</title>
-        <meta property="og:title" content="The Key to Successful Infrastructure Setup" key="title" />
-        <meta name="description" content="Unlock success by choosing our expert infrastructure setup services. Your path to a robust foundation starts here." key="description" />
+        <title>Build a Strong GCC Infrastructure with SAT's Expertise</title>
+        <meta property="og:title" content="Build a Strong GCC Infrastructure with SAT's Expertise" key="title" />
+        <meta name="description" content="Unlock success by choosing our expert infrastructure setup services for Global Capability Centers. Your path to a robust foundation starts here." key="description" />
       </Head>
 
 

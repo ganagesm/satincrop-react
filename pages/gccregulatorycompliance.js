@@ -18,9 +18,9 @@ const Index = () => {
   return (
     <>
       <Head>
-        <title>Comprehensive Legal Registration Support </title>
-        <meta property="og:title" content="Comprehensive Legal Registration Support" key="title" />
-        <meta name="description" content="Get expert assistance for hassle-free legal registration. Ensure compliance and protect your business." key="description" />
+        <title>Navigating GCC Regulatory Compliance Successfully with SAT's Expertise.</title>
+        <meta property="og:title" content="Navigating GCC Regulatory Compliance Successfully with SAT's Expertise." key="title" />
+        <meta name="description" content="Navigate regulatory compliance for your Global Capability Center with our expertise. Ensure legal adherence for global success." key="description" />
       </Head>
 
 

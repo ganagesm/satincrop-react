@@ -14,8 +14,8 @@ const Index = () => {
   return (
     <>
       <Head>
-        <title>Unlock success by selecting the perfect location for your Global Capability Center</title>
-        <meta property="og:title" content="Unlock success by selecting the perfect location for your Global Capability Center" key="title" />
+        <title>Choose Prime GCC Locations with SAT: Unlock Success</title>
+        <meta property="og:title" content="Choose Prime GCC Locations with SAT: Unlock Success" key="title" />
         <meta name="description" content="Discover strategic insights to choose the perfect location for your Global Capability Center (GCC). Maximize success" key="description" />
       </Head>
 

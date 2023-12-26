@@ -18,9 +18,9 @@ const Index = () => {
   return (
     <>
       <Head>
-        <title>Efficient Talent Acquisition Solutions</title>
-        <meta property="og:title" content="Efficient Talent Acquisition Solutions" key="title" />
-        <meta name="description" content="Streamline your hiring process with our Talent Acquisition Services. Get the right talent on board quickly and efficiently." key="description" />
+        <title>SAT's GCC Talent Acquisition: Streamlined Hiring Solutions</title>
+        <meta property="og:title" content="SAT's GCC Talent Acquisition: Streamlined Hiring Solutions" key="title" />
+        <meta name="description" content="Streamline your hiring process with our Talent Acquisition Services for Global Capability Centers. Get the right talent on board quickly and efficiently." key="description" />
       </Head>
 
 
