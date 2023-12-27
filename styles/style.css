@@ -4546,8 +4546,7 @@ Navbar Area CSS
 Main Banner Area CSS
 =================================================*/
 .home-slides .main-banner {
-    /* height: auto; */
-    height: 550px;
+    height: auto;
     padding-top: 30vh;
     padding-bottom: 20vh;
 }
