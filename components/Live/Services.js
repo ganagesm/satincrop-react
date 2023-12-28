@@ -128,7 +128,7 @@ const Services = () => {
                     {/* <h3 style={{ color: "darkgray" }}>Talent at scale</h3> */}
                   </Link>
                 </h2>
-                <p>Dive into SAT Technologies AI-enhanced UI/UX offerings, seamlessly bridging the divide between cognitive thought and your advanced digital services.</p>
+                <p>Dive into SAT AI-enhanced UI/UX offerings, seamlessly bridging the divide between cognitive thought and your advanced digital services.</p>
               </div>
             </div>
 

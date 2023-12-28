@@ -1341,7 +1341,7 @@ Search Popup CSS
 Main Banner Area CSS
 =================================================*/
 .main-banner {
-  height: 950px;
+  height: 540px !important;
   position: relative;
 
   background: {
@@ -6316,6 +6316,7 @@ Main Banner Area CSS
 .home-slides {
   .main-banner {
     height: auto;
+    // height: 550px;
 
     padding: {
       top: 30vh;

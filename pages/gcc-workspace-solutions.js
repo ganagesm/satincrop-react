@@ -14,9 +14,9 @@ const Index = () => {
   return (
     <>
       <Head>
-        <title>Streamline Operations with Expert Guidance</title>
-        <meta property="og:title" content="Streamline Operations with Expert Guidance" key="title" />
-        <meta name="description" content="Achieve efficiency and success with our operational guidance. Tailored solutions for your business." key="description" />
+        <title>SAT Advanced Workspace Solutions for Modern Businesses</title>
+        <meta property="og:title" content="SAT Advanced Workspace Solutions for Modern Businesses" key="title" />
+        <meta name="description" content="Discover how SAT innovative workspace solutions are transforming the modern business environment. Explore a range of options from traditional setups to co-working and virtual spaces, all designed to boost productivity and collaboration." key="description" />
       </Head>
 
 

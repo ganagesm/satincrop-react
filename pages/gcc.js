@@ -251,7 +251,7 @@ const Index = () => {
               <SwiperSlide>
                 <div className="single-blog-post">
                   <div className="entry-thumbnail">
-                    <Link href="/The-Rise-of-GCC-in-India-Harnessing-the-Talent-rich-Landscape-for-Unparalleled-Benefits/">
+                    <Link href="/blog/The-Rise-of-GCC-in-India-Harnessing-the-Talent-rich-Landscape-for-Unparalleled-Benefits">
                       <img style={{ width: "419px", height: "279px", }} src="/images/blog/amita-blog.png" alt="image" />
                     </Link>
                   </div>
@@ -287,7 +287,7 @@ const Index = () => {
               <SwiperSlide>
                 <div className="single-blog-post">
                   <div className="entry-thumbnail">
-                    <Link href="/how-gccs-can-attain-outstanding-results/">
+                    <Link href="/blog/how-gccs-can-attain-outstanding-results">
                       <img style={{ width: "419px", height: "279px", }} src="/images/blog/abhay_article.png" alt="image" />
                     </Link>
                   </div>
@@ -360,7 +360,7 @@ const Index = () => {
               <SwiperSlide>
                 <div className="single-blog-post">
                   <div className="entry-thumbnail">
-                    <Link href="/articles/gcc-evolution/">
+                    <Link href="/articles/gcc-evolution">
                       <img src="/images/blog/how-ai-revolutionizing-nearshore-software.jpeg" alt="image" />
                     </Link>
                   </div>
