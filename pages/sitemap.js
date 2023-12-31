@@ -86,12 +86,32 @@ export async function getServerSideProps() {
   };
 }
 
-async function getPages(directory, excludedPages) {
-  const files = await fs.readdir(directory);
-  const allowedPages = files
-    .filter((file) => file.endsWith('.js') && !excludedPages.includes(file.replace(/\.js$/, '')))
-    .map((file) => file.replace(/\.js$/, ''));
+// async function getPages(directory, excludedPages) {
+//   const files = await fs.readdir(directory);
+//   const allowedPages = files
+//     .filter((file) => file.endsWith('.js') && !excludedPages.includes(file.replace(/\.js$/, '')))
+//     .map((file) => file.replace(/\.js$/, ''));
 
-  return allowedPages;
+//   return allowedPages;
+// }
+
+// Async function to get allowed page names in a directory
+async function getPages(directory, excludedPages) {
+  try {
+    // Read the contents of the directory
+    const files = await fs.readdir(directory);
+
+    // Filter and map the allowed page names
+    const allowedPages = files
+      .filter((file) => file.endsWith('.js') && !excludedPages.includes(file.replace(/\.js$/, '')))
+      .map((file) => file.replace(/\.js$/, ''));
+
+    // Return the array of allowed page names
+    return allowedPages;
+  } catch (error) {
+    // Handle errors, log them, and return an empty array
+    console.error('Error reading pages directory:', error);
+    return [];
+  }
 }
 export default SitemapPage;
