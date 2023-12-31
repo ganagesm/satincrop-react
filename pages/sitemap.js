@@ -3,6 +3,7 @@
 import Link from "next/link";
 import fs from 'fs/promises';
 import path from 'path';
+const files = fs.readdirSync(directory);
 
 const SitemapPage = ({ pages, apiBlog, apiCustomerStory }) => {
   return (
@@ -87,12 +88,17 @@ export async function getServerSideProps() {
 }
 
 async function getPages(directory, excludedPages) {
-  const files = await fs.readdir(directory);
-  const allowedPages = files
-    .filter((file) => file.endsWith('.js') && !excludedPages.includes(file.replace(/\.js$/, '')))
-    .map((file) => file.replace(/\.js$/, ''));
+  try {
+    const files = await fs.readdir(directory);
+    const allowedPages = files
+      .filter((file) => file.endsWith('.js') && !excludedPages.includes(file.replace(/\.js$/, '')))
+      .map((file) => file.replace(/\.js$/, ''));
 
-  return allowedPages;
+    return allowedPages;
+  } catch (error) {
+    console.error('Error reading pages directory:', error);
+    return [];
+  }
 }
 
 export default SitemapPage;
