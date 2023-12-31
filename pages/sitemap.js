@@ -1,7 +1,6 @@
 // pages/sitemap.js
 
 import Link from "next/link";
-import fs from 'fs/promises';
 import path from 'path';
 const files = fs.readdirSync(directory);
 
