@@ -43,7 +43,7 @@
   
   function generateSitemap(allowedPages, apiBlog, apiCaseStudies) {
     // Construct sitemap
-    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://satincrop-git-dev-satincrop.vercel.app/';
+    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL;
     const pageUrls = allowedPages.map((page) => `<url><loc>${baseUrl}/${page}</loc></url>`);
     const blogUrls = apiBlog.map((item) => `<url><loc>${baseUrl}/blog/${item.slug}</loc></url>`);
     const caseStudiesUrls = apiCaseStudies.map((item) => `<url><loc>${baseUrl}/case-studies/${item.slug}</loc></url>`);
