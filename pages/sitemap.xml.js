@@ -1,148 +1,67 @@
-// import { getServerSideSitemap } from 'next-sitemap';
+// pages/sitemap.xml.js
 
-// Replace this function with your sitemap generation logic.
-const generateSitemap = () => {
-  // Generate your sitemap content here.
-  const sitemapXml = `<?xml version="1.0" encoding="UTF-8"?>
-  <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-     <loc>https://www.satincorp.com</loc>
-     <priority>1.0</priority>
-     <changefreq>daily</changefreq>
-  </url>
-  <url>
-     <loc>https://www.satincorp.com/generative-ai</loc>
-     <priority>0.9</priority>
-     <changefreq>daily</changefreq>
-  </url>
-  <url>
-     <loc>https://www.satincorp.com/machine-learning-and-artificial-intelligence</loc>
-     <priority>0.9</priority>
-     <changefreq>daily</changefreq>
-  </url>
-  <url>
-     <loc>https://www.satincorp.com/internet-of-things</loc>
-     <priority>0.9</priority>
-     <changefreq>daily</changefreq>
-  </url>
-  <url>
-     <loc>https://www.satincorp.com/data-science-analytics</loc>
-     <priority>0.9</priority>
-     <changefreq>daily</changefreq>
-  </url>
-  <url>
-     <loc>https://www.satincorp.com/rpa</loc>
-     <priority>0.9</priority>
-     <changefreq>daily</changefreq>
-  </url>
-  <url>
-     <loc>https://www.satincorp.com/cloud-services</loc>
-     <priority>0.9</priority>
-     <changefreq>daily</changefreq>
-  </url>
-  <url>
-     <loc>https://www.satincorp.com/devops</loc>
-     <priority>0.9</priority>
-     <changefreq>daily</changefreq>
-  </url>
-  <url>
-     <loc>https://www.satincorp.com/ui-ux-design</loc>
-     <priority>0.9</priority>
-     <changefreq>daily</changefreq>
-  </url>
-  <url>
-     <loc>https://www.satincorp.com/software-application-development</loc>
-     <priority>0.9</priority>
-     <changefreq>daily</changefreq>
-  </url>
-  <url>
-     <loc>https://www.satincorp.com/mobile-app-development</loc>
-     <priority>0.9</priority>
-     <changefreq>daily</changefreq>
-  </url>
-  <url>
-     <loc>https://www.satincorp.com/software-quality-assurance</loc>
-     <priority>0.9</priority>
-     <changefreq>daily</changefreq>
-  </url>
-  <url>
-     <loc>https://www.satincorp.com/microsoft</loc>
-     <priority>0.9</priority>
-     <changefreq>daily</changefreq>
-  </url>
-  <url>
-     <loc>https://www.satincorp.com/google-cloud</loc>
-     <priority>0.9</priority>
-     <changefreq>daily</changefreq>
-  </url>
-  <url>
-     <loc>https://www.satincorp.com/oracle</loc>
-     <priority>0.9</priority>
-     <changefreq>daily</changefreq>
-  </url>
-  <url>
-     <loc>https://www.satincorp.com/aws-services</loc>
-     <priority>0.9</priority>
-     <changefreq>daily</changefreq>
-  </url>
-  <url>
-     <loc>https://www.satincorp.com/salesforce</loc>
-     <priority>0.9</priority>
-     <changefreq>daily</changefreq>
-  </url>
-  <url>
-     <loc>https://www.satincorp.com/contigent-service</loc>
-     <priority>0.9</priority>
-     <changefreq>daily</changefreq>
-  </url>
-  <url>
-     <loc>https://www.satincorp.com/rpo-services</loc>
-     <priority>0.9</priority>
-     <changefreq>daily</changefreq>
-  </url>
-  <url>
-     <loc>https://www.satincorp.com/hire-train-deploy</loc>
-     <priority>0.9</priority>
-     <changefreq>daily</changefreq>
-  </url>
-  <url>
-     <loc>https://www.satincorp.com/gcc</loc>
-     <priority>0.9</priority>
-     <changefreq>daily</changefreq>
-  </url>
-  <url>
-     <loc>https://www.satincorp.com/internal-audit</loc>
-     <priority>0.9</priority>
-     <changefreq>daily</changefreq>
-  </url>
-  <url>
-     <loc>https://www.satincorp.com/contact-us</loc>
-     <priority>0.9</priority>
-     <changefreq>daily</changefreq>
-  </url>
-  <url>
-     <loc>https://www.satincorp.com/about</loc>
-     <priority>0.9</priority>
-     <changefreq>daily</changefreq>
-  </url>
-</urlset>
-  `;
+import fs from 'fs/promises';
+import path from 'path';
 
-  return sitemapXml;
+const baseUrl = process.env.NEXT_PUBLIC_BASE_URL;
+
+const Sitemap = ({ pages, apiBlog, apiCaseStudies }) => {
+   console.log("apiBlog:", apiBlog);
+   console.log("apiCaseStudies:", apiCaseStudies);
+
+   const createSitemap = (pages) => {
+      const baseUrl = process.env.NEXT_PUBLIC_BASE_URL;
+      const pageUrls = pages.map((page) => `<url><loc>${baseUrl}/${page}</loc></url>`);
+  
+      // Include blog URLs
+      const blogUrls = apiBlog.map((item) => `<url><loc>${baseUrl}/blog/${item.slug}</loc></url>`);
+  
+      // Include case studies URLs
+      const caseStudiesUrls = apiCaseStudies.map((item) => `<url><loc>${baseUrl}/case-studies/${item.slug}</loc></url>`);
+  
+      return `<?xml version="1.0" encoding="UTF-8"?>
+        <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+          ${pageUrls.join('')}
+          ${blogUrls.join('')}
+          ${caseStudiesUrls.join('')}
+        </urlset>`;
+    };
+
+  return <>{createSitemap(pages)}</>;
 };
 
-export const getServerSideProps = async ({ res }) => {
-  const sitemap = generateSitemap();
+export async function getServerSideProps() {
+   const pagesDirectory = path.join(process.cwd(), 'pages');
+   const excludedPages = [
+     'checkout', 'blog2', 'coming-soon', 'case-studies', 'blog-details', '_document', 'privacy-policy',
+     'services', 'terms-conditions', 'customers-and-partners', 'index', 'cart', '_app', 'case-studies-details', 'partner'
+   ];
+   const pages = await getPages(pagesDirectory, excludedPages);
+ 
+   // Fetch blog data
+   const blogResponse = await fetch('https://dev1.satincorp.com/wp-json/wp/v2/posts?page=1&per_page=100&order=desc');
+   const apiBlog = await blogResponse.json();
+ 
+   // Fetch case studies data
+   const caseStudiesResponse = await fetch('https://dev1.satincorp.com/wp-json/wp/v2/customer_story?page=1&per_page=100');
+   const apiCaseStudies = await caseStudiesResponse.json();
+ 
+   return {
+     props: {
+       pages,
+       apiBlog,
+       apiCaseStudies,
+     },
+   };
+ }
 
-  res.setHeader('Content-Type', 'application/xml');
-  res.write(sitemap);
-  res.end();
+async function getPages(directory, excludedPages) {
+  const files = await fs.readdir(directory);
+  const allowedPages = files
+    .filter((file) => file.endsWith('.js') && !excludedPages.includes(file.replace(/\.js$/, '')))
+    .map((file) => file.replace(/\.js$/, ''));
 
-  return {
-    props: {},
-  };
-};
-
-const Sitemap = () => null;
+  return allowedPages;
+}
 
 export default Sitemap;
