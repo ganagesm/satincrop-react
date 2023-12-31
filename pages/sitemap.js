@@ -4,7 +4,7 @@ import Link from "next/link";
 import fs from 'fs/promises';
 import path from 'path';
 
-const SitemapPage = ({ pages, apiBlog,apiCustomerStory }) => {
+const SitemapPage = ({ pages, apiBlog, apiCustomerStory }) => {
   return (
     <div className="projects-details-area ptb-110">
       <div className="container">
@@ -23,28 +23,36 @@ const SitemapPage = ({ pages, apiBlog,apiCustomerStory }) => {
               </div>
             </div>
             {/* Display API data */}
-            <div className="api-data" style={{marginTop: '80px'}}>
+            <div className="api-data" style={{ marginTop: '80px' }}>
               <h2>Recent 100 Blogs</h2>
               <ul>
-                {apiBlog.map((post) => (
-                  <li key={post.id}>
-                    <Link href="/blog/[slug]" as={`/blog/${post.slug}`}>
-                      {post.title.rendered}
-                    </Link>
-                  </li>
-                ))}
+                {Array.isArray(apiBlog) ? (
+                  apiBlog.map((post) => (
+                    <li key={post.id}>
+                      <Link href="/blog/[slug]" as={`/blog/${post.slug}`}>
+                        {post.title.rendered}
+                      </Link>
+                    </li>
+                  ))
+                ) : (
+                  <li>No blog data available</li>
+                )}
               </ul>
             </div>
-            <div className="api-data" style={{marginTop: '80px'}}>
+            <div className="api-data" style={{ marginTop: '80px' }}>
               <h2>Recent 100 Customer Stories</h2>
               <ul>
-                {apiCustomerStory.map((post) => (
-                  <li key={post.id}>
-                    <Link href="/customer-success-stories/[slug]" as={`/customer-success-stories/${post.slug}`}>
-                      {post.title.rendered}
-                    </Link>
-                  </li>
-                ))}
+                {Array.isArray(apiCustomerStory) ? (
+                  apiCustomerStory.map((post) => (
+                    <li key={post.id}>
+                      <Link href="/customer-success-stories/[slug]" as={`/customer-success-stories/${post.slug}`}>
+                        {post.title.rendered}
+                      </Link>
+                    </li>
+                  ))
+                ) : (
+                  <li>No customer story data available</li>
+                )}
               </ul>
             </div>
           </div>
@@ -62,9 +70,10 @@ export async function getServerSideProps() {
   const currentPage = 1;
   const pageSize = 100;
   const response = await fetch(`https://dev1.satincorp.com/wp-json/wp/v2/posts?page=${currentPage}&per_page=${pageSize}&order=desc`);
+  // const response = await fetch(`https://dev1.satincorp.com/wp-json/wp/v2/posts?page=1&per_page=$100&order=desc`);
   const apiBlog = await response.json();
 
-   // Fetch data for Customer Stories
+  // Fetch data for Customer Stories
   const customerStoryResponse = await fetch(`https://dev1.satincorp.com/wp-json/wp/v2/customer_story?page=${currentPage}&per_page=${pageSize}&order=desc`);
   const apiCustomerStory = await customerStoryResponse.json();
 
