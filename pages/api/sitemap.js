@@ -1,7 +1,7 @@
 // pages/api/sitemap.js
 
-import fs from 'fs/promises';
-import path from 'path';
+// import fs from 'fs/promises';
+// import path from 'path';
 
 // export default async function handler(req, res) {
 //   const pagesDirectory = path.join(process.cwd(), 'pages');
