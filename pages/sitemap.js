@@ -62,6 +62,15 @@ const SitemapPage = ({ pages, apiBlog, apiCustomerStory }) => {
   );
 };
 
+async function getPages(directory, excludedPages) {
+  const files = await fs.readdir(directory);
+  const allowedPages = files
+    .filter((file) => file.endsWith('.js') && !excludedPages.includes(file.replace(/\.js$/, '')))
+    .map((file) => file.replace(/\.js$/, ''));
+
+  return allowedPages;
+}
+
 export async function getServerSideProps() {
   const pagesDirectory = path.join(process.cwd(), 'pages');
   const excludedPages = ['checkout', 'thank-you-for-workspace-inquiry', 'thank-you-for-gcp-inquiry', 'team', 'blog2', 'coming-soon', 'case-studies', 'thank-you-m365', 'blog-details', '_document', 'privacy-policy', 'services', 'terms-conditions', 'customers-and-partners', 'index', 'cart', '_app', 'case-studies-details', 'partner'];
@@ -70,7 +79,6 @@ export async function getServerSideProps() {
   const currentPage = 1;
   const pageSize = 100;
   const response = await fetch(`https://dev1.satincorp.com/wp-json/wp/v2/posts?page=${currentPage}&per_page=${pageSize}&order=desc`);
-  // const response = await fetch(`https://dev1.satincorp.com/wp-json/wp/v2/posts?page=1&per_page=$100&order=desc`);
   const apiBlog = await response.json();
 
   // Fetch data for Customer Stories
@@ -84,34 +92,5 @@ export async function getServerSideProps() {
       apiCustomerStory
     },
   };
-}
-
-// async function getPages(directory, excludedPages) {
-//   const files = await fs.readdir(directory);
-//   const allowedPages = files
-//     .filter((file) => file.endsWith('.js') && !excludedPages.includes(file.replace(/\.js$/, '')))
-//     .map((file) => file.replace(/\.js$/, ''));
-
-//   return allowedPages;
-// }
-
-// Async function to get allowed page names in a directory
-async function getPages(directory, excludedPages) {
-  try {
-    // Read the contents of the directory
-    const files = await fs.readdir(directory);
-
-    // Filter and map the allowed page names
-    const allowedPages = files
-      .filter((file) => file.endsWith('.js') && !excludedPages.includes(file.replace(/\.js$/, '')))
-      .map((file) => file.replace(/\.js$/, ''));
-
-    // Return the array of allowed page names
-    return allowedPages;
-  } catch (error) {
-    // Handle errors, log them, and return an empty array
-    console.error('Error reading pages directory:', error);
-    return [];
-  }
 }
 export default SitemapPage;
