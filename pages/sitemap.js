@@ -81,6 +81,7 @@ async function getPages(directory, excludedPages) {
     const apiBlog = await response.json();
     
     console.log('Allowed Pages:', pages);
+    console.log('pagesDirectory Pages:', pagesDirectory);
   // Fetch data for Customer Stories
   const customerStoryResponse = await fetch(`https://dev1.satincorp.com/wp-json/wp/v2/customer_story?page=${currentPage}&per_page=${pageSize}&order=desc`);
   const apiCustomerStory = await customerStoryResponse.json();
