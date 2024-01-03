@@ -44,9 +44,15 @@
   function generateSitemap(allowedPages, apiBlog, apiCaseStudies) {
     // Construct sitemap
     const baseUrl = process.env.NEXT_PUBLIC_BASE_URL;
-    const pageUrls = allowedPages.map((page) => `<url><loc>${baseUrl}/${page}</loc></url>`);
-    const blogUrls = apiBlog.map((item) => `<url><loc>${baseUrl}/blog/${item.slug}</loc></url>`);
-    const caseStudiesUrls = apiCaseStudies.map((item) => `<url><loc>${baseUrl}/case-studies/${item.slug}</loc></url>`);
+    const pageUrls = allowedPages.map((page) => `<url><loc>${baseUrl}/${page}</loc><lastmod>${new Date().toISOString()}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority></url>`);
+    const blogUrls = apiBlog.map((item) => `<url><loc>${baseUrl}/blog/${item.slug}</loc><lastmod>${new Date().toISOString()}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority></url>`);
+    const caseStudiesUrls = apiCaseStudies.map((item) => `<url><loc>${baseUrl}/case-studies/${item.slug}</loc><lastmod>${new Date().toISOString()}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority></url>`);
   
     // Combine the entries into a complete sitemap XML
     return `<?xml version="1.0" encoding="UTF-8"?>
