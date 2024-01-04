@@ -22,13 +22,15 @@ export default async function handler(req, res) {
     const apiCaseStudies = await caseStudiesResponse.json();
 
     // Get allowed pages using the utility function
-    const allowedPages = await getPages();
+    // const allowedPages = await getPages();
 
     // Construct sitemap
     const baseUrl = process.env.NEXT_PUBLIC_BASE_URL;
+    const allowedPages = await getPages();  // Use the getPages function
+
     const pageUrls = allowedPages.map(page => (
       `<url>
-        <loc>${baseUrl}/${page}/</loc>
+        <loc>${page.loc}</loc>
         <lastmod>${new Date().toISOString()}</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
