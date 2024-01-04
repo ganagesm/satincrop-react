@@ -3,12 +3,13 @@
 import fs from 'fs/promises';
 import path from 'path';
 import { getPages } from '../../utils/getPages';
+import zlib from 'zlib';
 
 export default async function handler(req, res) {
   try {
     // Set response headers
     res.statusCode = 200;
-    res.setHeader('Content-Type', 'text/xml');
+    res.setHeader('Content-Type', 'application/xml');
     // Instructing the Vercel edge to cache the file
     res.setHeader('Cache-control', 'stale-while-revalidate, s-maxage=3600');
 
@@ -60,8 +61,14 @@ export default async function handler(req, res) {
         ${caseStudiesUrls.join('')}
       </urlset>`;
 
-    // Send the sitemap as the response
-    res.end(sitemap);
+    // Compress the sitemap data before sending it in the response
+    const compressedSitemap = zlib.gzipSync(sitemap);
+
+    // Set Content-Encoding header to inform the client that the content is compressed
+    res.setHeader('Content-Encoding', 'gzip');
+
+    // Send the compressed sitemap as the response
+    res.end(compressedSitemap);
   } catch (error) {
     console.error('Error:', error);
     res.status(500).end('Internal Server Error');
