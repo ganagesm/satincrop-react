@@ -43,14 +43,28 @@
   
   function generateSitemap(allowedPages, apiBlog, apiCaseStudies) {
     // Construct sitemap
+    const pages = [
+      {
+        loc: "https://www.satincorp.com/",
+        lastmod: "2024-01-04T07:51:19+00:00",
+        priority: 1.0,
+      },
+      {
+        loc: "https://www.satincorp.com/careers/",
+        lastmod: "2024-01-04T07:51:19+00:00",
+        priority: 0.80,
+      },
+      // Add other pages similarly
+    ];
+
     const baseUrl = process.env.NEXT_PUBLIC_BASE_URL;
-    const pageUrls = allowedPages.map((page) => `<url><loc>${baseUrl}/${page}</loc><lastmod>${new Date().toISOString()}</lastmod>
+    const pageUrls = allowedPages.map((pages) => `<url><loc>${baseUrl}/${pages}</loc><lastmod>${new Date().toISOString()}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority></url>`);
     const blogUrls = apiBlog.map((item) => `<url><loc>${baseUrl}/blog/${item.slug}</loc><lastmod>${new Date().toISOString()}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority></url>`);
-    const caseStudiesUrls = apiCaseStudies.map((item) => `<url><loc>${baseUrl}/case-studies/${item.slug}</loc><lastmod>${new Date().toISOString()}</lastmod>
+    const caseStudiesUrls = apiCaseStudies.map((item) => `<url><loc>${baseUrl}/customer-success-stories/${item.slug}</loc><lastmod>${new Date().toISOString()}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority></url>`);
   
