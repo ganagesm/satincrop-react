@@ -36,317 +36,317 @@ export function getPages() {
   ];
   const allowedPages = [
     {
-      loc: "https://www.satincorp.com/",
+      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/`,
       lastmod: "2024-01-04T07:51:19+00:00",
       priority: 1.00
     },
     {
-      loc: "https://www.satincorp.com/careers/",
+      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/careers/`,
       lastmod: "2024-01-04T07:51:19+00:00",
       priority: 0.80
     },
     {
-      loc: "https://www.satincorp.com/investors/",
+      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/investors/`,
       lastmod: "2024-01-04T07:51:19+00:00",
       priority: 0.80
     },
     {
-      loc: "https://www.satincorp.com/generative-ai/",
+      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/generative-ai/`,
       lastmod: "2024-01-04T07:51:19+00:00",
       priority: 0.80
     },
     {
-      loc: "https://www.satincorp.com/machine-learning-and-artificial-intelligence/",
+      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/machine-learning-and-artificial-intelligence/`,
       lastmod: "2024-01-04T07:51:19+00:00",
       priority: 0.80
     },
     {
-      loc: "https://www.satincorp.com/internet-of-things/",
+      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/internet-of-things/`,
       lastmod: "2024-01-04T07:51:19+00:00",
       priority: 0.80
     },
     {
-      loc: "https://www.satincorp.com/data-science-analytics/",
+      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/data-science-analytics/`,
       lastmod: "2024-01-04T07:51:19+00:00",
       priority: 0.80
     },
     {
-      loc: "https://www.satincorp.com/rpa/",
+      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/rpa/`,
       lastmod: "2024-01-04T07:51:19+00:00",
       priority: 0.80
     },
     {
-      loc: "https://www.satincorp.com/cloud-services/",
+      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/cloud-services/`,
       lastmod: "2024-01-04T07:51:19+00:00",
       priority: 0.80
     },
     {
-      loc: "https://www.satincorp.com/devops/",
+      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/devops/`,
       lastmod: "2024-01-04T07:51:19+00:00",
       priority: 0.80
     },
     {
-      loc: "https://www.satincorp.com/ui-ux-design/",
+      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/ui-ux-design/`,
       lastmod: "2024-01-04T07:51:19+00:00",
       priority: 0.80
     },
     {
-      loc: "https://www.satincorp.com/software-application-development/",
+      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/software-application-development/`,
       lastmod: "2024-01-04T07:51:19+00:00",
       priority: 0.80
     },
     {
-      loc: "https://www.satincorp.com/mobile-app-development/",
+      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/mobile-app-development/`,
       lastmod: "2024-01-04T07:51:19+00:00",
       priority: 0.80
     },
     {
-      loc: "https://www.satincorp.com/qa-automation/",
+      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/qa-automation/`,
       lastmod: "2024-01-04T07:51:19+00:00",
       priority: 0.80
     },
     {
-      loc: "https://www.satincorp.com/microsoft/",
+      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/microsoft/`,
       lastmod: "2024-01-04T07:51:19+00:00",
       priority: 0.80
     },
     {
-      loc: "https://www.satincorp.com/google-cloud/",
+      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/google-cloud/`,
       lastmod: "2024-01-04T07:51:19+00:00",
       priority: 0.80
     },
     {
-      loc: "https://www.satincorp.com/oracle/",
+      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/oracle/`,
       lastmod: "2024-01-04T07:51:19+00:00",
       priority: 0.80
     },
     {
-      loc: "https://www.satincorp.com/aws-services/",
+      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/aws-services/`,
       lastmod: "2024-01-04T07:51:19+00:00",
       priority: 0.80
     },
     {
-      loc: "https://www.satincorp.com/salesforce/",
+      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/salesforce/`,
       lastmod: "2024-01-04T07:51:19+00:00",
       priority: 0.80
     },
     {
-      loc: "https://www.satincorp.com/servicenow/",
+      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/servicenow/`,
       lastmod: "2024-01-04T07:51:19+00:00",
       priority: 0.80
     },
     {
-      loc: "https://www.satincorp.com/mendix/",
+      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/mendix/`,
       lastmod: "2024-01-04T07:51:19+00:00",
       priority: 0.80
     },
     {
-      loc: "https://www.satincorp.com/gcc/",
+      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/gcc/`,
       lastmod: "2024-01-04T07:51:19+00:00",
       priority: 0.80
     },
     {
-      loc: "https://www.satincorp.com/gcc-strategy-development/",
+      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/gcc-strategy-development/`,
       lastmod: "2024-01-04T07:51:19+00:00",
       priority: 0.80
     },
     {
-      loc: "https://www.satincorp.com/gcc-workspace-solutions/",
+      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/gcc-workspace-solutions/`,
       lastmod: "2024-01-04T07:51:19+00:00",
       priority: 0.80
     },
     {
-      loc: "https://www.satincorp.com/gcc-talent-acquisition/",
+      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/gcc-talent-acquisition/`,
       lastmod: "2024-01-04T07:51:19+00:00",
       priority: 0.80
     },
     {
-      loc: "https://www.satincorp.com/gcc-legal-registration-support/",
+      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/gcc-legal-registration-support/`,
       lastmod: "2024-01-04T07:51:19+00:00",
       priority: 0.80
     },
     {
-      loc: "https://www.satincorp.com/gcc-bot/",
+      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/gcc-bot/`,
       lastmod: "2024-01-04T07:51:19+00:00",
       priority: 0.80
     },
     {
-      loc: "https://www.satincorp.com/internal-audit/",
+      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/internal-audit/`,
       lastmod: "2024-01-04T07:51:19+00:00",
       priority: 0.80
     },
     {
-      loc: "https://www.satincorp.com/education/",
+      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/education/`,
       lastmod: "2024-01-04T07:51:19+00:00",
       priority: 0.80
     },
     {
-      loc: "https://www.satincorp.com/government/",
+      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/government/`,
       lastmod: "2024-01-04T07:51:19+00:00",
       priority: 0.80
     },
     {
-      loc: "https://www.satincorp.com/healthcare/",
+      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/healthcare/`,
       lastmod: "2024-01-04T07:51:19+00:00",
       priority: 0.80
     },
     {
-      loc: "https://www.satincorp.com/media-entertainment/",
+      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/media-entertainment/`,
       lastmod: "2024-01-04T07:51:19+00:00",
       priority: 0.80
     },
     {
-      loc: "https://www.satincorp.com/semiconductor/",
+      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/semiconductor/`,
       lastmod: "2024-01-04T07:51:19+00:00",
       priority: 0.80
     },
     {
-      loc: "https://www.satincorp.com/manufacturing/",
+      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/manufacturing/`,
       lastmod: "2024-01-04T07:51:19+00:00",
       priority: 0.80
     },
     {
-      loc: "https://www.satincorp.com/Product-services/",
+      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/Product-services/`,
       lastmod: "2024-01-04T07:51:19+00:00",
       priority: 0.80
     },
     {
-      loc: "https://www.satincorp.com/retail/",
+      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/retail/`,
       lastmod: "2024-01-04T07:51:19+00:00",
       priority: 0.80
     },
     {
-      loc: "https://www.satincorp.com/fmcd/",
+      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/fmcd/`,
       lastmod: "2024-01-04T07:51:19+00:00",
       priority: 0.80
     },
     {
-      loc: "https://www.satincorp.com/contact-us/",
+      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/contact-us/`,
       lastmod: "2024-01-04T07:51:19+00:00",
       priority: 0.80
     },
     {
-      loc: "https://www.satincorp.com/nearshore/",
+      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/nearshore/`,
       lastmod: "2024-01-04T07:51:19+00:00",
       priority: 0.80
     },
     {
-      loc: "https://www.satincorp.com/offshore/",
+      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/offshore/`,
       lastmod: "2024-01-04T07:51:19+00:00",
       priority: 0.80
     },
     {
-      loc: "https://www.satincorp.com/onsite/",
+      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/onsite/`,
       lastmod: "2024-01-04T07:51:19+00:00",
       priority: 0.80
     },
     {
-      loc: "https://www.satincorp.com/sa-technologies-triumphs-with-cmmi-services-maturity-level-5-certification/",
+      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/sa-technologies-triumphs-with-cmmi-services-maturity-level-5-certification/`,
       lastmod: "2024-01-04T07:51:19+00:00",
       priority: 0.80
     },
     {
-      loc: "https://www.satincorp.com/embracing-machine-first-approach/",
+      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/embracing-machine-first-approach/`,
       lastmod: "2024-01-04T07:51:19+00:00",
       priority: 0.80
     },
     {
-      loc: "https://www.satincorp.com/blog/",
+      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/blog/`,
       lastmod: "2024-01-04T07:51:19+00:00",
       priority: 0.80
     },
     {
-      loc: "https://www.satincorp.com/about/",
+      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/about/`,
       lastmod: "2024-01-04T07:51:19+00:00",
       priority: 0.80
     },
     {
-      loc: "https://www.satincorp.com/news-and-events/",
+      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/news-and-events/`,
       lastmod: "2024-01-04T07:51:19+00:00",
       priority: 0.80
     },
     {
-      loc: "https://www.satincorp.com/customer-success-stories/",
+      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/customer-success-stories/`,
       lastmod: "2024-01-04T07:51:19+00:00",
       priority: 0.80
     },
     {
-      loc: "https://www.satincorp.com/privacy-policy/",
+      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/privacy-policy/`,
       lastmod: "2024-01-04T07:51:19+00:00",
       priority: 0.80
     },
     {
-      loc: "https://www.satincorp.com/terms-conditions/",
+      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/terms-conditions/`,
       lastmod: "2024-01-04T07:51:19+00:00",
       priority: 0.80
     },
     {
-      loc: "https://www.satincorp.com/software-quality-assurance/",
+      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/software-quality-assurance/`,
       lastmod: "2024-01-04T07:51:19+00:00",
       priority: 0.60
     },
     {
-      loc: "https://www.satincorp.com/gcc-location-selection/",
+      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/gcc-location-selection/`,
       lastmod: "2024-01-04T07:51:19+00:00",
       priority: 0.60
     },
     {
-      loc: "https://www.satincorp.com/contigent-service/",
+      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/contigent-service/`,
       lastmod: "2024-01-04T07:51:19+00:00",
       priority: 0.60
     },
     {
-      loc: "https://www.satincorp.com/gcc-infrastructure-setup/",
+      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/gcc-infrastructure-setup/`,
       lastmod: "2024-01-04T07:51:19+00:00",
       priority: 0.60
     },
     {
-      loc: "https://www.satincorp.com/gccregulatorycompliance/",
+      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/gccregulatorycompliance/`,
       lastmod: "2024-01-04T07:51:19+00:00",
       priority: 0.60
     },
     {
-      loc: "https://www.satincorp.com/abhay/",
+      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/abhay/`,
       lastmod: "2024-01-04T07:51:19+00:00",
       priority: 0.60
     },
     {
-      loc: "https://www.satincorp.com/sonal-sinha/",
+      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/sonal-sinha/`,
       lastmod: "2024-01-04T07:51:19+00:00",
       priority: 0.60
     },
     {
-      loc: "https://www.satincorp.com/vasudha-kanade/",
+      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/vasudha-kanade/`,
       lastmod: "2024-01-04T07:51:19+00:00",
       priority: 0.60
     },
     {
-      loc: "https://www.satincorp.com/amita/",
+      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/amita/`,
       lastmod: "2024-01-04T07:51:19+00:00",
       priority: 0.60
     },
     {
-      loc: "https://www.satincorp.com/malay/",
+      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/malay/`,
       lastmod: "2024-01-04T07:51:19+00:00",
       priority: 0.60
     },
     {
-      loc: "https://www.satincorp.com/jitendra/",
+      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/jitendra/`,
       lastmod: "2024-01-04T07:51:19+00:00",
       priority: 0.60
     },
     {
-      loc: "https://www.satincorp.com/trishita/",
+      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/trishita/`,
       lastmod: "2024-01-04T07:51:19+00:00",
       priority: 0.60
     },
     {
-      loc: "https://www.satincorp.com/kanak/",
+      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/kanak/`,
       lastmod: "2024-01-04T07:51:19+00:00",
       priority: 0.60
     },
     {
-      loc: "https://www.satincorp.com/articles/gcc-evolution/",
+      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/articles/gcc-evolution/`,
       lastmod: "2024-01-04T07:51:19+00:00",
       priority: 0.60
     }
