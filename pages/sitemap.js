@@ -12,6 +12,7 @@ const SitemapPage = ({ pages, apiBlog, apiCustomerStory }) => {
           <div className="projects-details-info">
             <div className="d-table">
               <div className="d-table-cell">
+              <h2>Pages</h2>
                 <ul>
                   {pages.map((page) => (
                     <li key={page}>
@@ -405,9 +406,9 @@ async function getPages(directory, excludedPages) {
 
   return {
     props: {
-      pages,
+      staticPages,
       apiBlog,
-      apiCustomerStory
+      apiCustomerStory,
     },
   };
 }
