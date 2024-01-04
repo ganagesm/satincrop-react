@@ -1,10 +1,39 @@
-// pages/sitemap.js
+// // utils/getPages.js
 
-import Link from "next/link";
-import fs from 'fs/promises';
+// import fs from 'fs/promises';
+// import path from 'path';
+
+// export async function getPages() {
+//   const pagesDirectory = path.join(process.cwd(), 'pages');
+//   const excludedPages = [
+//     'checkout', 'blog2', 'coming-soon', 'case-studies', 'blog-details', '_document', 'privacy-policy',
+//     'services', 'terms-conditions', 'customers-and-partners', 'index', 'cart', '_app', 'case-studies-details', 'partner'
+//   ];
+
+//   try {
+//     const files = await fs.readdir(pagesDirectory);
+//     const allowedPages = files
+//       .filter((file) => file.endsWith('.js') && !file.startsWith('_') && !excludedPages.includes(file.replace(/\.js$/, '')))
+//       .map((file) => file.replace(/\.js$/, ''));
+
+//     return allowedPages;
+//   } catch (error) {
+//     console.error('Error reading pages directory:', error);
+//     throw error;
+//   }
+// }
+
+// utils/getPages.js
+
+import fs from 'fs';
 import path from 'path';
 
-const SitemapPage = ({ pages, apiBlog, apiCustomerStory }) => {
+export function getPages() {
+  const pagesDirectory = path.join(process.cwd(), 'pages');
+  const excludedPages = [
+    'checkout', 'blog2', 'coming-soon', 'case-studies', 'blog-details', '_document', 'privacy-policy',
+    'services', 'terms-conditions', 'customers-and-partners', 'index', 'cart', '_app', 'case-studies-details', 'partner'
+  ];
   const allowedPages = [
     {
       loc: "https://www.satincorp.com/",
@@ -322,95 +351,17 @@ const SitemapPage = ({ pages, apiBlog, apiCustomerStory }) => {
       priority: 0.60
     }
   ]
-  return (
-    <div className="projects-details-area ptb-110">
-      <div className="container">
-        <div className="">
-          <div className="projects-details-info">
-            <div className="d-table">
-              <div className="d-table-cell">
-                <ul>
-                  {pages.map((page) => (
-                    <li key={page}>
-                      <a href={`/${page}`}>{page}</a>
-                    </li>
-                  ))}
-                </ul>
+  try {
+    const files = fs.readdirSync(pagesDirectory);
 
-              </div>
-            </div>
-            {/* Display API data */}
-            <div className="api-data" style={{ marginTop: '80px' }}>
-              <h2>Recent 100 Blogs</h2>
-              <ul>
-                {Array.isArray(apiBlog) ? (
-                  apiBlog.map((post) => (
-                    <li key={post.id}>
-                      <Link href="/blog/[slug]" as={`/blog/${post.slug}`}>
-                        {post.title.rendered}
-                      </Link>
-                    </li>
-                  ))
-                ) : (
-                  <li>No blog data available</li>
-                )}
-              </ul>
-            </div>
-            <div className="api-data" style={{ marginTop: '80px' }}>
-              <h2>Recent 100 Customer Stories</h2>
-              <ul>
-                {Array.isArray(apiCustomerStory) ? (
-                  apiCustomerStory.map((post) => (
-                    <li key={post.id}>
-                      <Link href="/customer-success-stories/[slug]" as={`/customer-success-stories/${post.slug}`}>
-                        {post.title.rendered}
-                      </Link>
-                    </li>
-                  ))
-                ) : (
-                  <li>No customer story data available</li>
-                )}
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-};
+    // Filter out files starting with an underscore ('_') and those in the excludedPages array
+    const allowedPages = files
+      .filter((file) => file.endsWith('.js') && !file.startsWith('_') && !excludedPages.includes(file.replace(/\.js$/, '')))
+      .map((file) => file.replace(/\.js$/, ''));
 
-async function getPages(directory, excludedPages) {
-  const files = await fs.readdir(directory);
-  const allowedPagesFromFileSystem = files
-    .filter((file) => file.endsWith('.js') && !excludedPages.includes(file.replace(/\.js$/, '')))
-    .map((file) => file.replace(/\.js$/, ''));
-
-  return allowedPages.concat(allowedPagesFromFileSystem);
+    return allowedPages;
+  } catch (error) {
+    console.error('Error reading pages directory:', error);
+    throw error;
+  }
 }
-
-export async function getServerSideProps() {
-  const pagesDirectory = path.join(process.cwd(), 'pages');
-  const excludedPages = ['checkout', 'thank-you-for-workspace-inquiry', 'thank-you-for-gcp-inquiry', 'team', 'blog2', 'coming-soon', 'case-studies', 'thank-you-m365', 'blog-details', '_document', 'privacy-policy', 'services', 'terms-conditions', 'customers-and-partners', 'index', 'cart', '_app', 'case-studies-details', 'partner'];
-  const pages = await getPages(pagesDirectory, excludedPages);
-  const allAllowedPages = [...predefinedPages, ...pages];
-  // Fetch API data
-  const currentPage = 1;
-  const pageSize = 100;
-  const response = await fetch(`https://dev1.satincorp.com/wp-json/wp/v2/posts?page=${currentPage}&per_page=${pageSize}&order=desc`);
-  const apiBlog = await response.json();
-
-  console.log('Allowed Pages:', pages);
-  console.log('pagesDirectory Pages:', pagesDirectory);
-  // Fetch data for Customer Stories
-  const customerStoryResponse = await fetch(`https://dev1.satincorp.com/wp-json/wp/v2/customer_story?page=${currentPage}&per_page=${pageSize}&order=desc`);
-  const apiCustomerStory = await customerStoryResponse.json();
-
-  return {
-    props: {
-      pages: allAllowedPages,
-      apiBlog,
-      apiCustomerStory
-    },
-  };
-}
-export default SitemapPage;
