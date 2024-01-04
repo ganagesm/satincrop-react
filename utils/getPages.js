@@ -25,20 +25,18 @@
 
 // utils/getPages.js
 
-import fs from 'fs/promises';
+import fs from 'fs';
 import path from 'path';
 
-export async function getPages() {
-  // const pagesDirectory = path.join(process.cwd(), 'pages');
+export function getPages() {
   const pagesDirectory = path.join(process.cwd(), 'pages');
-
   const excludedPages = [
     'checkout', 'blog2', 'coming-soon', 'case-studies', 'blog-details', '_document', 'privacy-policy',
     'services', 'terms-conditions', 'customers-and-partners', 'index', 'cart', '_app', 'case-studies-details', 'partner'
   ];
 
   try {
-    const files = await fs.promises.readdir(pagesDirectory);
+    const files = fs.readdirSync(pagesDirectory);
 
     // Filter out files starting with an underscore ('_') and those in the excludedPages array
     const allowedPages = files
