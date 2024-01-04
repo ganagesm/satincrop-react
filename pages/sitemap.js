@@ -379,7 +379,7 @@ const SitemapPage = ({ pages, apiBlog, apiCustomerStory }) => {
   );
 };
 
-async function getPages(directory, excludedPages) {
+async function getPages(directory, excludedPages, allowedPages) {
   const files = await fs.readdir(directory);
   const allowedPagesFromFileSystem = files
     .filter((file) => file.endsWith('.js') && !excludedPages.includes(file.replace(/\.js$/, '')))
@@ -391,7 +391,7 @@ async function getPages(directory, excludedPages) {
 export async function getServerSideProps() {
   const pagesDirectory = path.join(process.cwd(), 'pages');
   const excludedPages = ['checkout', 'thank-you-for-workspace-inquiry', 'thank-you-for-gcp-inquiry', 'team', 'blog2', 'coming-soon', 'case-studies', 'thank-you-m365', 'blog-details', '_document', 'privacy-policy', 'services', 'terms-conditions', 'customers-and-partners', 'index', 'cart', '_app', 'case-studies-details', 'partner'];
-  const pages = await getPages(pagesDirectory, excludedPages);
+  const pages = await getPages(pagesDirectory, excludedPages, allowedPages);
   const allAllowedPages = [...predefinedPages, ...pages];
   // Fetch API data
   const currentPage = 1;
