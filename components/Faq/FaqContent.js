@@ -468,20 +468,21 @@ const FaqContent = () => {
                         <span>Offer Documents</span>
                       </AccordionItemButton>
                     </AccordionItemHeading>
-                    <div className="investors-details">
-                      <div className="article-tags">Offer Documents</div>
-
-                      <div className="article-share">
-                        <Link
-                          href="investors/offerdocuments.pdf"
-                          target="_blank"
-                          rel="noreferrer"
-                          download
-                        >
-                          <i class="fa-solid fa-download fa-lg"></i>
-                        </Link>
+                    <AccordionItemPanel>
+                      <div className="investors-details">
+                        <div className="article-tags">Offer Documents</div>
+                        <div className="article-share">
+                          <Link
+                            href="investors/offerdocuments.pdf"
+                            target="_blank"
+                            rel="noreferrer"
+                            download
+                          >
+                            <i class="fa-solid fa-download fa-lg"></i>
+                          </Link>
+                        </div>
                       </div>
-                    </div>
+                    </AccordionItemPanel>
                   </AccordionItem>
 
                   <AccordionItem uuid="h">
