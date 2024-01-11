@@ -470,7 +470,7 @@ const FaqContent = () => {
                     </AccordionItemHeading>
                     <AccordionItemPanel>
                       <div className="investors-details">
-                        <div className="article-tags">Offer Documents</div>
+                        <div className="article-tags">Offer Documents </div>
                         <div className="article-share">
                           <Link
                             href="investors/offerdocuments.pdf"
