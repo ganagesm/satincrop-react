@@ -9,6 +9,7 @@ import Services from "../components/Healthcare/Services";
 import ComputerVisionAI from "../components/Healthcare/ComputerVisionAI";
 import ContactFormContent from "../components/Common/ContactFormContent";
 import BlogPostSlider from "../components/Live/BlogPostSlider";
+import Link from "next/link";
 
 const Healthcare = () => {
   return (
@@ -22,6 +23,7 @@ const Healthcare = () => {
       {/* <FunFacts /> */}
 
       <TopFeaturedSolutions />
+
 
       <AboutAI />
 
