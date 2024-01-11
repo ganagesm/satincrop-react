@@ -62,8 +62,7 @@ export default class ProductsDetailsTab extends Component {
                           <AccordionItem uuid="a">
                             <AccordionItemHeading>
                               <AccordionItemButton>
-                                <span>Annual Report
-                                </span>
+                                <span>Annual Report</span>
                               </AccordionItemButton>
                             </AccordionItemHeading>
                             <AccordionItemPanel>
@@ -73,7 +72,12 @@ export default class ProductsDetailsTab extends Component {
                                 </div>
 
                                 <div className="article-share">
-                                  <Link href="investors/annual-report_2023.pdf" target="_blank" rel="noreferrer" download>
+                                  <Link
+                                    href="investors/annual-report_2023.pdf"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    download
+                                  >
                                     <i class="fa-solid fa-download fa-lg"></i>
                                   </Link>
                                 </div>
@@ -84,8 +88,7 @@ export default class ProductsDetailsTab extends Component {
                           <AccordionItem uuid="b">
                             <AccordionItemHeading>
                               <AccordionItemButton>
-                                <span>Corporate Announcements
-                                </span>
+                                <span>Corporate Announcements</span>
                               </AccordionItemButton>
                             </AccordionItemHeading>
                             <AccordionItemPanel>
@@ -128,11 +131,26 @@ export default class ProductsDetailsTab extends Component {
                           <AccordionItem uuid="d">
                             <AccordionItemHeading>
                               <AccordionItemButton>
-                                <span>Draft Red Herring Prospectus
-                                </span>
+                                <span>Draft Red Herring Prospectus</span>
                               </AccordionItemButton>
                             </AccordionItemHeading>
                             <AccordionItemPanel>
+                              <div className="investors-details">
+                                <div className="article-tags">
+                                  Draft Red Herring Prospectus
+                                </div>
+
+                                <div className="article-share">
+                                  <Link
+                                    href="investors/drhptech.pdf"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    download
+                                  >
+                                    <i class="fa-solid fa-download fa-lg"></i>
+                                  </Link>
+                                </div>
+                              </div>
                             </AccordionItemPanel>
                           </AccordionItem>
                         </Accordion>
@@ -160,41 +178,34 @@ export default class ProductsDetailsTab extends Component {
                           <AccordionItem uuid="a">
                             <AccordionItemHeading>
                               <AccordionItemButton>
-                                <span>Share Holding Pattern
-                                </span>
+                                <span>Share Holding Pattern</span>
                               </AccordionItemButton>
                             </AccordionItemHeading>
-                            <AccordionItemPanel>
-                            </AccordionItemPanel>
+                            <AccordionItemPanel></AccordionItemPanel>
                           </AccordionItem>
 
                           <AccordionItem uuid="b">
                             <AccordionItemHeading>
                               <AccordionItemButton>
-                                <span>Shareholder Meeting
-                                </span>
+                                <span>Shareholder Meeting</span>
                               </AccordionItemButton>
                             </AccordionItemHeading>
-                            <AccordionItemPanel>
-                            </AccordionItemPanel>
+                            <AccordionItemPanel></AccordionItemPanel>
                           </AccordionItem>
 
                           <AccordionItem uuid="c">
                             <AccordionItemHeading>
                               <AccordionItemButton>
-                                <span>Corporate Governance
-                                </span>
+                                <span>Corporate Governance</span>
                               </AccordionItemButton>
                             </AccordionItemHeading>
-                            <AccordionItemPanel>
-                            </AccordionItemPanel>
+                            <AccordionItemPanel></AccordionItemPanel>
                           </AccordionItem>
 
                           <AccordionItem uuid="d">
                             <AccordionItemHeading>
                               <AccordionItemButton>
-                                <span>Annual Returns
-                                </span>
+                                <span>Annual Returns</span>
                               </AccordionItemButton>
                             </AccordionItemHeading>
                             <AccordionItemPanel>
@@ -204,7 +215,12 @@ export default class ProductsDetailsTab extends Component {
                                 </div>
 
                                 <div className="article-share">
-                                  <Link href="investors/annual_return_2023.pdf" target="_blank" rel="noreferrer" download>
+                                  <Link
+                                    href="investors/annual_return_2023.pdf"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    download
+                                  >
                                     <i class="fa-solid fa-download fa-lg"></i>
                                   </Link>
                                 </div>

@@ -30,29 +30,29 @@ const FaqContent = () => {
                   <AccordionItem uuid="a">
                     <AccordionItemHeading>
                       <AccordionItemButton>
-                        <span>News and Events
-                        </span>
+                        <span>News and Events</span>
                       </AccordionItemButton>
                     </AccordionItemHeading>
-                    <AccordionItemPanel>
-                    </AccordionItemPanel>
+                    <AccordionItemPanel></AccordionItemPanel>
                   </AccordionItem>
 
                   <AccordionItem uuid="b">
                     <AccordionItemHeading>
                       <AccordionItemButton>
-                        <span>Profile of Directors
-                        </span>
+                        <span>Profile of Directors</span>
                       </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
                       <div className="investors-details">
-                        <div className="article-tags">
-                          Ritesh Sharma
-                        </div>
+                        <div className="article-tags">Ritesh Sharma</div>
 
                         <div className="article-share">
-                          <Link href="investors/directors/ritesh-sharma.pdf" target="_blank" rel="noreferrer" download>
+                          <Link
+                            href="investors/directors/ritesh-sharma.pdf"
+                            target="_blank"
+                            rel="noreferrer"
+                            download
+                          >
                             <i class="fa-solid fa-download fa-lg"></i>
                           </Link>
                         </div>
@@ -61,12 +61,15 @@ const FaqContent = () => {
 
                     <AccordionItemPanel>
                       <div className="investors-details">
-                        <div className="article-tags">
-                          Manoj Joshi
-                        </div>
+                        <div className="article-tags">Manoj Joshi</div>
 
                         <div className="article-share">
-                          <Link href="investors/directors/mj.pdf" target="_blank" rel="noreferrer" download>
+                          <Link
+                            href="investors/directors/mj.pdf"
+                            target="_blank"
+                            rel="noreferrer"
+                            download
+                          >
                             <i class="fa-solid fa-download fa-lg"></i>
                           </Link>
                         </div>
@@ -74,12 +77,15 @@ const FaqContent = () => {
                     </AccordionItemPanel>
                     <AccordionItemPanel>
                       <div className="investors-details">
-                        <div className="article-tags">
-                          Priyanka Joshi
-                        </div>
+                        <div className="article-tags">Priyanka Joshi</div>
 
                         <div className="article-share">
-                          <Link href="investors/directors/pj.pdf" target="_blank" rel="noreferrer" download>
+                          <Link
+                            href="investors/directors/pj.pdf"
+                            target="_blank"
+                            rel="noreferrer"
+                            download
+                          >
                             <i class="fa-solid fa-download fa-lg"></i>
                           </Link>
                         </div>
@@ -88,12 +94,15 @@ const FaqContent = () => {
 
                     <AccordionItemPanel>
                       <div className="investors-details">
-                        <div className="article-tags">
-                          Sarika Sharma
-                        </div>
+                        <div className="article-tags">Sarika Sharma</div>
 
                         <div className="article-share">
-                          <Link href="investors/directors/sarika-sharma.pdf" target="_blank" rel="noreferrer" download>
+                          <Link
+                            href="investors/directors/sarika-sharma.pdf"
+                            target="_blank"
+                            rel="noreferrer"
+                            download
+                          >
                             <i class="fa-solid fa-download fa-lg"></i>
                           </Link>
                         </div>
@@ -101,12 +110,15 @@ const FaqContent = () => {
                     </AccordionItemPanel>
                     <AccordionItemPanel>
                       <div className="investors-details">
-                        <div className="article-tags">
-                          Kaustubh Karwe
-                        </div>
+                        <div className="article-tags">Kaustubh Karwe</div>
 
                         <div className="article-share">
-                          <Link href="investors/directors/kk.pdf" target="_blank" rel="noreferrer" download>
+                          <Link
+                            href="investors/directors/kk.pdf"
+                            target="_blank"
+                            rel="noreferrer"
+                            download
+                          >
                             <i class="fa-solid fa-download fa-lg"></i>
                           </Link>
                         </div>
@@ -117,8 +129,7 @@ const FaqContent = () => {
                   <AccordionItem uuid="c">
                     <AccordionItemHeading>
                       <AccordionItemButton>
-                        <span>Policies
-                        </span>
+                        <span>Policies</span>
                       </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
@@ -128,7 +139,12 @@ const FaqContent = () => {
                         </div>
 
                         <div className="article-share">
-                          <Link href="investors/Archival Policy (Annexure 13).pdf" target="_blank" rel="noreferrer" download>
+                          <Link
+                            href="investors/Archival Policy (Annexure 13).pdf"
+                            target="_blank"
+                            rel="noreferrer"
+                            download
+                          >
                             <i class="fa-solid fa-download fa-lg"></i>
                           </Link>
                         </div>
@@ -138,41 +154,17 @@ const FaqContent = () => {
                     <AccordionItemPanel>
                       <div className="investors-details">
                         <div className="article-tags">
-                        Familiarization Program for Independent Director (Annexure 9)
+                          Familiarization Program for Independent Director
+                          (Annexure 9)
                         </div>
 
                         <div className="article-share">
-                          <Link href="investors/Familiarization Program for Independent Director (Annexure 9).pdf" target="_blank" rel="noreferrer" download>
-                            <i class="fa-solid fa-download fa-lg"></i>
-                          </Link>
-                        </div>
-                      </div>
-                    </AccordionItemPanel>
-
-
-                    <AccordionItemPanel>
-                      <div className="investors-details">
-                        <div className="article-tags">
-                        Preservation of Documents
-                        </div>
-
-                        <div className="article-share">
-                          <Link href="investors/Preservation of Documents.pdf" target="_blank" rel="noreferrer" download>
-                            <i class="fa-solid fa-download fa-lg"></i>
-                          </Link>
-                        </div>
-                      </div>
-                    </AccordionItemPanel>
-
-
-                    <AccordionItemPanel>
-                      <div className="investors-details">
-                        <div className="article-tags">
-                        Risk Management Policy
-                        </div>
-
-                        <div className="article-share">
-                          <Link href="investors/Risk Management Policy.pdf" target="_blank" rel="noreferrer" download>
+                          <Link
+                            href="investors/Familiarization Program for Independent Director (Annexure 9).pdf"
+                            target="_blank"
+                            rel="noreferrer"
+                            download
+                          >
                             <i class="fa-solid fa-download fa-lg"></i>
                           </Link>
                         </div>
@@ -182,11 +174,16 @@ const FaqContent = () => {
                     <AccordionItemPanel>
                       <div className="investors-details">
                         <div className="article-tags">
-                        RPT Policy (Annexure 7 )
+                          Preservation of Documents
                         </div>
 
                         <div className="article-share">
-                          <Link href="investors/RPT Policy (Annexure 7 ).pdf" target="_blank" rel="noreferrer" download>
+                          <Link
+                            href="investors/Preservation of Documents.pdf"
+                            target="_blank"
+                            rel="noreferrer"
+                            download
+                          >
                             <i class="fa-solid fa-download fa-lg"></i>
                           </Link>
                         </div>
@@ -196,11 +193,16 @@ const FaqContent = () => {
                     <AccordionItemPanel>
                       <div className="investors-details">
                         <div className="article-tags">
-                        Terms and Conditions of ID Appointment (Annexure 3)
+                          Risk Management Policy
                         </div>
 
                         <div className="article-share">
-                          <Link href="investors/Terms and Conditions of ID Appointment (Annexure 3).pdf" target="_blank" rel="noreferrer" download>
+                          <Link
+                            href="investors/Risk Management Policy.pdf"
+                            target="_blank"
+                            rel="noreferrer"
+                            download
+                          >
                             <i class="fa-solid fa-download fa-lg"></i>
                           </Link>
                         </div>
@@ -210,11 +212,16 @@ const FaqContent = () => {
                     <AccordionItemPanel>
                       <div className="investors-details">
                         <div className="article-tags">
-                        Whistle Blower Policy (Annexure 6)
+                          RPT Policy (Annexure 7 )
                         </div>
 
                         <div className="article-share">
-                          <Link href="investors/Whistle Blower Policy (Annexure 6).pdf" target="_blank" rel="noreferrer" download>
+                          <Link
+                            href="investors/RPT Policy (Annexure 7 ).pdf"
+                            target="_blank"
+                            rel="noreferrer"
+                            download
+                          >
                             <i class="fa-solid fa-download fa-lg"></i>
                           </Link>
                         </div>
@@ -224,11 +231,16 @@ const FaqContent = () => {
                     <AccordionItemPanel>
                       <div className="investors-details">
                         <div className="article-tags">
-                        Details of Familiarization Program for Independent Director
+                          Terms and Conditions of ID Appointment (Annexure 3)
                         </div>
 
                         <div className="article-share">
-                          <Link href="investors/Details of Familiarization Program for Independent Director.pdf" target="_blank" rel="noreferrer" download>
+                          <Link
+                            href="investors/Terms and Conditions of ID Appointment (Annexure 3).pdf"
+                            target="_blank"
+                            rel="noreferrer"
+                            download
+                          >
                             <i class="fa-solid fa-download fa-lg"></i>
                           </Link>
                         </div>
@@ -238,11 +250,56 @@ const FaqContent = () => {
                     <AccordionItemPanel>
                       <div className="investors-details">
                         <div className="article-tags">
-                        Insider_Trading_Policy and code of conduct for fair disclosure
+                          Whistle Blower Policy (Annexure 6)
                         </div>
 
                         <div className="article-share">
-                          <Link href="investors/Insider_Trading_Policy and code of conduct for fair disclosure.pdf" target="_blank" rel="noreferrer" download>
+                          <Link
+                            href="investors/Whistle Blower Policy (Annexure 6).pdf"
+                            target="_blank"
+                            rel="noreferrer"
+                            download
+                          >
+                            <i class="fa-solid fa-download fa-lg"></i>
+                          </Link>
+                        </div>
+                      </div>
+                    </AccordionItemPanel>
+
+                    <AccordionItemPanel>
+                      <div className="investors-details">
+                        <div className="article-tags">
+                          Details of Familiarization Program for Independent
+                          Director
+                        </div>
+
+                        <div className="article-share">
+                          <Link
+                            href="investors/Details of Familiarization Program for Independent Director.pdf"
+                            target="_blank"
+                            rel="noreferrer"
+                            download
+                          >
+                            <i class="fa-solid fa-download fa-lg"></i>
+                          </Link>
+                        </div>
+                      </div>
+                    </AccordionItemPanel>
+
+                    <AccordionItemPanel>
+                      <div className="investors-details">
+                        <div className="article-tags">
+                          Insider_Trading_Policy and code of conduct for fair
+                          disclosure
+                        </div>
+
+                        <div className="article-share">
+                          <Link
+                            href="investors/Insider_Trading_Policy and code of conduct for fair disclosure.pdf"
+                            target="_blank"
+                            rel="noreferrer"
+                            download
+                          >
                             <i class="fa-solid fa-download fa-lg"></i>
                           </Link>
                         </div>
@@ -251,11 +308,17 @@ const FaqContent = () => {
                     <AccordionItemPanel>
                       <div className="investors-details">
                         <div className="article-tags">
-                        Policy on Identification of Material Creditors and Material Litigations
+                          Policy on Identification of Material Creditors and
+                          Material Litigations
                         </div>
 
                         <div className="article-share">
-                          <Link href="investors/Policy on Identification of Material Creditors and Material Litigations.pdf" target="_blank" rel="noreferrer" download>
+                          <Link
+                            href="investors/Policy on Identification of Material Creditors and Material Litigations.pdf"
+                            target="_blank"
+                            rel="noreferrer"
+                            download
+                          >
                             <i class="fa-solid fa-download fa-lg"></i>
                           </Link>
                         </div>
@@ -264,11 +327,16 @@ const FaqContent = () => {
                     <AccordionItemPanel>
                       <div className="investors-details">
                         <div className="article-tags">
-                        policy on material subsidiary
+                          policy on material subsidiary
                         </div>
 
                         <div className="article-share">
-                          <Link href="investors/policy on material subsidiary.pdf" target="_blank" rel="noreferrer" download>
+                          <Link
+                            href="investors/policy on material subsidiary.pdf"
+                            target="_blank"
+                            rel="noreferrer"
+                            download
+                          >
                             <i class="fa-solid fa-download fa-lg"></i>
                           </Link>
                         </div>
@@ -277,11 +345,16 @@ const FaqContent = () => {
                     <AccordionItemPanel>
                       <div className="investors-details">
                         <div className="article-tags">
-                        Policy_on_Board_Diversity
+                          Policy_on_Board_Diversity
                         </div>
 
                         <div className="article-share">
-                          <Link href="investors/Policy_on_Board_Diversity.pdf" target="_blank" rel="noreferrer" download>
+                          <Link
+                            href="investors/Policy_on_Board_Diversity.pdf"
+                            target="_blank"
+                            rel="noreferrer"
+                            download
+                          >
                             <i class="fa-solid fa-download fa-lg"></i>
                           </Link>
                         </div>
@@ -290,28 +363,21 @@ const FaqContent = () => {
                     <AccordionItemPanel>
                       <div className="investors-details">
                         <div className="article-tags">
-                        Policy_on_Code of Conduct
+                          Policy_on_Code of Conduct
                         </div>
 
                         <div className="article-share">
-                          <Link href="investors/Policy_on_Code of Conduct.pdf" target="_blank" rel="noreferrer" download>
+                          <Link
+                            href="investors/Policy_on_Code of Conduct.pdf"
+                            target="_blank"
+                            rel="noreferrer"
+                            download
+                          >
                             <i class="fa-solid fa-download fa-lg"></i>
                           </Link>
                         </div>
                       </div>
                     </AccordionItemPanel>
-                    
-
-
-                    
-
-
-                    
-
-
-
-
-
                   </AccordionItem>
 
                   {/* <AccordionItem uuid="d">
@@ -339,19 +405,16 @@ const FaqContent = () => {
                   <AccordionItem uuid="e">
                     <AccordionItemHeading>
                       <AccordionItemButton>
-                        <span>Disclosures
-                        </span>
+                        <span>Disclosures</span>
                       </AccordionItemButton>
                     </AccordionItemHeading>
-                    <AccordionItemPanel>
-                    </AccordionItemPanel>
+                    <AccordionItemPanel></AccordionItemPanel>
                   </AccordionItem>
 
                   <AccordionItem uuid="f">
                     <AccordionItemHeading>
                       <AccordionItemButton>
-                        <span>Key Management Professionals
-                        </span>
+                        <span>Key Management Professionals</span>
                       </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
@@ -368,24 +431,33 @@ const FaqContent = () => {
                           <tbody>
                             <tr>
                               <td>1</td>
-                              <td className="product-name">Mr. Manoj Navrattam Joshi</td>
-                              <td className="product-price">Chief Executive Officer</td>
+                              <td className="product-name">
+                                Mr. Manoj Navrattam Joshi
+                              </td>
+                              <td className="product-price">
+                                Chief Executive Officer
+                              </td>
                             </tr>
 
                             <tr>
                               <td>2</td>
                               <td className="product-name">Mr. Bhavin Goda</td>
-                              <td className="product-price">Chief Financial Officer</td>
+                              <td className="product-price">
+                                Chief Financial Officer
+                              </td>
                             </tr>
 
                             <tr>
                               <td>3</td>
-                              <td className="product-name">Ms. Arnika Choudhary</td>
-                              <td className="product-price">Company Secretary and Compliance Officer</td>
+                              <td className="product-name">
+                                Ms. Arnika Choudhary
+                              </td>
+                              <td className="product-price">
+                                Company Secretary and Compliance Officer
+                              </td>
                             </tr>
                           </tbody>
                         </table>
-
                       </div>
                     </AccordionItemPanel>
                   </AccordionItem>
@@ -393,19 +465,29 @@ const FaqContent = () => {
                   <AccordionItem uuid="g">
                     <AccordionItemHeading>
                       <AccordionItemButton>
-                        <span>Offer Documents
-                        </span>
+                        <span>Offer Documents</span>
                       </AccordionItemButton>
                     </AccordionItemHeading>
-                    <AccordionItemPanel>
-                    </AccordionItemPanel>
+                    <div className="investors-details">
+                      <div className="article-tags">Offer Documents</div>
+
+                      <div className="article-share">
+                        <Link
+                          href="investors/offerdocuments.pdf"
+                          target="_blank"
+                          rel="noreferrer"
+                          download
+                        >
+                          <i class="fa-solid fa-download fa-lg"></i>
+                        </Link>
+                      </div>
+                    </div>
                   </AccordionItem>
 
                   <AccordionItem uuid="h">
                     <AccordionItemHeading>
                       <AccordionItemButton>
-                        <span>Board Members
-                        </span>
+                        <span>Board Members</span>
                       </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
@@ -422,31 +504,45 @@ const FaqContent = () => {
                           <tbody>
                             <tr>
                               <td>1</td>
-                              <td className="product-name">PRIYANKA MANOJKUMAR JOSHI (DIN 09302795)</td>
-                              <td className="product-price">Non-Executive Director</td>
+                              <td className="product-name">
+                                PRIYANKA MANOJKUMAR JOSHI (DIN 09302795)
+                              </td>
+                              <td className="product-price">
+                                Non-Executive Director
+                              </td>
                             </tr>
 
                             <tr>
                               <td>2</td>
-                              <td className="product-name">RITESH RAMAVTAR SHARMA (DIN 02676486)</td>
-                              <td className="product-price">Non-Executive Director</td>
+                              <td className="product-name">
+                                RITESH RAMAVTAR SHARMA (DIN 02676486)
+                              </td>
+                              <td className="product-price">
+                                Non-Executive Director
+                              </td>
                             </tr>
 
                             <tr>
                               <td>3</td>
-                              <td className="product-name">KAUSTUBH NARAYAN KARWE (DIN 08553122)</td>
-                              <td className="product-price">Independent Director</td>
+                              <td className="product-name">
+                                KAUSTUBH NARAYAN KARWE (DIN 08553122)
+                              </td>
+                              <td className="product-price">
+                                Independent Director
+                              </td>
                             </tr>
 
                             <tr>
                               <td>4</td>
-                              <td className="product-name">SARIKA SHARMA (DIN 10245269)</td>
-                              <td className="product-price">Independent Director</td>
+                              <td className="product-name">
+                                SARIKA SHARMA (DIN 10245269)
+                              </td>
+                              <td className="product-price">
+                                Independent Director
+                              </td>
                             </tr>
                           </tbody>
                         </table>
-
-
                       </div>
                     </AccordionItemPanel>
                   </AccordionItem>
@@ -454,8 +550,7 @@ const FaqContent = () => {
                   <AccordionItem uuid="i">
                     <AccordionItemHeading>
                       <AccordionItemButton>
-                        <span>Committees
-                        </span>
+                        <span>Committees</span>
                       </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
@@ -480,27 +575,38 @@ const FaqContent = () => {
 
                             <tr>
                               <td>1</td>
-                              <td className="product-name">RITESH RAMAVTAR SHARMA (DIN 02676486)</td>
+                              <td className="product-name">
+                                RITESH RAMAVTAR SHARMA (DIN 02676486)
+                              </td>
                               <td className="product-price">Member</td>
-                              <td className="product-price">Non-Executive Director</td>
+                              <td className="product-price">
+                                Non-Executive Director
+                              </td>
                             </tr>
 
                             <tr>
                               <td>2</td>
-                              <td className="product-name">KAUSTUBH NARAYAN KARWE (DIN 08553122)</td>
+                              <td className="product-name">
+                                KAUSTUBH NARAYAN KARWE (DIN 08553122)
+                              </td>
                               <td className="product-price">Chairman</td>
-                              <td className="product-price">Independent Director</td>
+                              <td className="product-price">
+                                Independent Director
+                              </td>
                             </tr>
 
                             <tr>
                               <td>3</td>
-                              <td className="product-name">SARIKA SHARMA (DIN 10245269)</td>
+                              <td className="product-name">
+                                SARIKA SHARMA (DIN 10245269)
+                              </td>
                               <td className="product-price">Member</td>
-                              <td className="product-price">Independent Director</td>
+                              <td className="product-price">
+                                Independent Director
+                              </td>
                             </tr>
                           </tbody>
                         </table>
-
                       </div>
 
                       <h3>NOMINATION AND REMUNERATION COMMITTEE</h3>
@@ -525,23 +631,35 @@ const FaqContent = () => {
 
                             <tr>
                               <td>1</td>
-                              <td className="product-name">RITESH RAMAVTAR SHARMA (DIN 02676486)</td>
+                              <td className="product-name">
+                                RITESH RAMAVTAR SHARMA (DIN 02676486)
+                              </td>
                               <td className="product-price">Chairman</td>
-                              <td className="product-price">Non-Executive Director</td>
+                              <td className="product-price">
+                                Non-Executive Director
+                              </td>
                             </tr>
 
                             <tr>
                               <td>2</td>
-                              <td className="product-name">KAUSTUBH NARAYAN KARWE (DIN 08553122)</td>
+                              <td className="product-name">
+                                KAUSTUBH NARAYAN KARWE (DIN 08553122)
+                              </td>
                               <td className="product-price">Member</td>
-                              <td className="product-price">Independent Director</td>
+                              <td className="product-price">
+                                Independent Director
+                              </td>
                             </tr>
 
                             <tr>
                               <td>3</td>
-                              <td className="product-name">SARIKA SHARMA (DIN 10245269)</td>
+                              <td className="product-name">
+                                SARIKA SHARMA (DIN 10245269)
+                              </td>
                               <td className="product-price">Member</td>
-                              <td className="product-price">Independent Director</td>
+                              <td className="product-price">
+                                Independent Director
+                              </td>
                             </tr>
                           </tbody>
                         </table>
@@ -561,28 +679,39 @@ const FaqContent = () => {
                             <tbody>
                               <tr>
                                 <td>1</td>
-                                <td className="product-name">RITESH RAMAVTAR SHARMA (DIN 02676486)</td>
+                                <td className="product-name">
+                                  RITESH RAMAVTAR SHARMA (DIN 02676486)
+                                </td>
                                 <td className="product-price">Member</td>
-                                <td className="product-price">Non- Executive Director</td>
+                                <td className="product-price">
+                                  Non- Executive Director
+                                </td>
                               </tr>
 
                               <tr>
                                 <td>2</td>
-                                <td className="product-name">KAUSTUBH NARAYAN KARWE (DIN 08553122)</td>
+                                <td className="product-name">
+                                  KAUSTUBH NARAYAN KARWE (DIN 08553122)
+                                </td>
                                 <td className="product-price">Chairman</td>
-                                <td className="product-price">Independent Director</td>
+                                <td className="product-price">
+                                  Independent Director
+                                </td>
                               </tr>
 
                               <tr>
                                 <td>3</td>
-                                <td className="product-name">SARIKA SHARMA (DIN 10245269)</td>
+                                <td className="product-name">
+                                  SARIKA SHARMA (DIN 10245269)
+                                </td>
                                 <td className="product-price">Member</td>
-                                <td className="product-price">Independent Director</td>
+                                <td className="product-price">
+                                  Independent Director
+                                </td>
                               </tr>
                             </tbody>
                           </table>
                         </div>
-
                       </div>
                     </AccordionItemPanel>
                   </AccordionItem>
@@ -606,13 +735,17 @@ const FaqContent = () => {
                   <div className="products-details-tab-content">
                     <ul className="additional-information">
                       <li>
-                        <span><h5>Registrar & Transfer Agent:</h5></span>
+                        <span>
+                          <h5>Registrar & Transfer Agent:</h5>
+                        </span>
                       </li>
                       <li>
                         <span>Name:</span> Bigshare Services Pvt. Ltd.
                       </li>
                       <li>
-                        <span>Head Office	:</span> 1st Floor, Bharat Tin Works Building, Opp. Vasant Oasis, Makwana Road, Marol, Andheri East, Mumbai 400059, Maharashtra, India
+                        <span>Head Office :</span> 1st Floor, Bharat Tin Works
+                        Building, Opp. Vasant Oasis, Makwana Road, Marol,
+                        Andheri East, Mumbai 400059, Maharashtra, India
                       </li>
                       <li>
                         <span>Telephone:</span> + 91-22-6263 8200
@@ -621,10 +754,10 @@ const FaqContent = () => {
                         <span>Fax:</span> +91-22-6263 8299
                       </li>
                       <li>
-                        <span>E-mail	:</span> investor@bigshareonline.com
+                        <span>E-mail :</span> investor@bigshareonline.com
                       </li>
                       <li>
-                        <span>Website	:</span> www.bigshareonline.com
+                        <span>Website :</span> www.bigshareonline.com
                       </li>
                     </ul>
                   </div>
@@ -639,22 +772,25 @@ const FaqContent = () => {
                   <div className="products-details-tab-content">
                     <ul className="additional-information">
                       <li>
-                        <span><h5>Investor’s Contact Person Details:</h5></span>
+                        <span>
+                          <h5>Investor’s Contact Person Details:</h5>
+                        </span>
                       </li>
                       <li>
-                        <span>Contact Person	:</span> CS. Arnika Choudhary
+                        <span>Contact Person :</span> CS. Arnika Choudhary
                       </li>
                       <li>
-                        <span>Designation	:</span> Company Secretary & Compliance Officer
+                        <span>Designation :</span> Company Secretary &
+                        Compliance Officer
                       </li>
                       <li>
                         <span>Contact No.:</span> +91 9022909131
                       </li>
                       <li>
-                        <span>Email id	:</span> cs@satincorp.com
+                        <span>Email id :</span> cs@satincorp.com
                       </li>
                       <li>
-                        <span>E-mail	:</span> investors@satincorp.com
+                        <span>E-mail :</span> investors@satincorp.com
                       </li>
                     </ul>
                   </div>
@@ -664,7 +800,6 @@ const FaqContent = () => {
           </div>
         </div>
       </div>
-
     </>
   );
 };
