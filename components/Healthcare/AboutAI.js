@@ -46,8 +46,16 @@ const AboutAI = () => {
                     Learn More
                   </Link>
                 </div> */}
+                
               </div>
             </div>
+            <div className="col-lg-12 col-md-12">
+              <div class="ebookbtn">
+                <Link href="investors/E-book- Unlock the transformative power of AI for healthcare workers.pdf" className="btn btn-primary" target="_blank" rel="noreferrer" download>
+                  Download Our E-Book
+                </Link>
+              </div>
+            </div> 
           </div>
         </div>
       </div>
