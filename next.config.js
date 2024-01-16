@@ -15,4 +15,13 @@ module.exports = {
   //     },
   //   ];
   // },
+  async redirects() {
+    return [
+      {
+        source: '/software-quality-assurance',
+        destination: '/qa-automation',
+        permanent: true,
+      },
+    ];
+  },
 };
