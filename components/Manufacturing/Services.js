@@ -37,7 +37,7 @@ const Services = () => {
                   <img src="/images/home-six/services/softwaredevelopement.png" alt="icon" />
                 </div>
                 <h3>
-                  <Link href="/service-details">Software Development</Link>
+                  <Link href="/software-application-development/">Software Development</Link>
                 </h3>
                 <p>Custom software solutions for streamlined manufacturing operations: production planning, quality control, and supply chain management. 
                 </p>
@@ -53,7 +53,7 @@ const Services = () => {
                   <img src="/images/home-six/services/icon1.png" alt="icon" />
                 </div>
                 <h3>
-                  <Link href="/service-details">RPA (Robotic Process Automation)</Link>
+                  <Link href="/rpa/">RPA (Robotic Process Automation)</Link>
                 </h3>
                 <p>  Automate routine tasks such as order processing, data entry, and inventory management, freeing up your workforce for more strategic activities.  
                 </p>
@@ -68,7 +68,7 @@ const Services = () => {
                   <img src="/images/home-six/services/InfrastructureManagement.png" alt="icon" />
                 </div>
                 <h3>
-                  <Link href="/service-details">Infrastructure management</Link>
+                  <Link href="#">Infrastructure management</Link>
                 </h3>
                 <p> Implement secure and scalable cloud platforms to enhance collaboration, data sharing, and accessibility among your manufacturing teams, suppliers, and customer  </p>
                 {/* <Link href="/service-details" className="read-btn">
@@ -82,7 +82,7 @@ const Services = () => {
                   <img src="/images/home-six/services/icon5.png" alt="icon" />
                 </div>
                 <h3>
-                  <Link href="/service-details">AI and Machine Learning</Link>
+                  <Link href="/machine-learning-and-artificial-intelligence/">AI and Machine Learning</Link>
                 </h3>
                 <p>Utilize AI-driven predictive analytics to optimize production processes, detect defects early, and forecast demand, leading to improved efficiency and cost savings.
                 </p>
@@ -97,7 +97,7 @@ const Services = () => {
                   <img src="/images/home-six/services/iot.png" alt="icon" />
                 </div>
                 <h3>
-                  <Link href="/service-details">IoT Integration</Link>
+                  <Link href="/internet-of-things/">IoT Integration</Link>
                 </h3>
                 <p> Leverage IoT to monitor equipment health, track asset utilization, and gather real-time data for predictive maintenance, enhancing overall production efficiency 
                 </p>
