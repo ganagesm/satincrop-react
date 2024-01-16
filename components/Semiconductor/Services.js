@@ -21,7 +21,7 @@ const Services = () => {
                   <img src="/images/home-six/services/mobile-app.png" alt="icon" />
                 </div>
                 <h3>
-                  <Link href="/service-details">Mobile App Development</Link>
+                  <Link href="/mobile-app-development/">Mobile App Development</Link>
                 </h3>
                 <p>Enhance operational efficiency with custom mobile apps for real-time monitoring and management of semiconductor manufacturing processes. </p>
 
@@ -37,7 +37,7 @@ const Services = () => {
                   <img src="/images/home-six/services/softwaredevelopement.png" alt="icon" />
                 </div>
                 <h3>
-                  <Link href="/service-details">Software Development</Link>
+                  <Link href="/software-application-development/">Software Development</Link>
                 </h3>
                 <p>Develop tailored software solutions to optimize manufacturing workflows, quality control, and supply chain management. 
                 </p>
@@ -53,7 +53,7 @@ const Services = () => {
                   <img src="/images/home-six/services/Cloudservices.png" alt="icon" />
                 </div>
                 <h3>
-                  <Link href="/service-details">Cloud Solutions</Link>
+                  <Link href="/cloud-services/">Cloud Solutions</Link>
                 </h3>
                 <p> Leverage the cloud for secure data storage, efficient collaboration, and seamless access to critical information across your semiconductor operations.  
                 </p>
@@ -68,7 +68,7 @@ const Services = () => {
                   <img src="/images/home-six/services/icon5.png" alt="icon" />
                 </div>
                 <h3>
-                  <Link href="/service-details">AI and Machine Learning</Link>
+                  <Link href="/machine-learning-and-artificial-intelligence/">AI and Machine Learning</Link>
                 </h3>
                 <p>Utilize AI-powered analytics for predictive maintenance, production optimization, and data-driven insights to enhance decision-making  </p>
                 {/* <Link href="/service-details" className="read-btn">
@@ -82,7 +82,7 @@ const Services = () => {
                   <img src="/images/home-six/services/softwaretest.png" alt="icon" />
                 </div>
                 <h3>
-                  <Link href="/service-details">Software Testing</Link>
+                  <Link href="/qa-automation/">Software Testing</Link>
                 </h3>
                 <p>Ensure the reliability and security of software applications used in semiconductor manufacturing to ensure smooth processes.
                 </p>

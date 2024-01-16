@@ -21,7 +21,7 @@ const Services = () => {
                   <img src="/images/home-six/services/mobile-app.png" alt="icon" />
                 </div>
                 <h3>
-                  <Link href="/service-details">Mobile App Development</Link>
+                  <Link href="/mobile-app-development/">Mobile App Development</Link>
                 </h3>
                 <p>User-friendly healthcare apps for remote monitoring, appointments, and record access. </p>
 
@@ -37,7 +37,7 @@ const Services = () => {
                   <img src="/images/home-six/services/softwaredevelopement.png" alt="icon" />
                 </div>
                 <h3>
-                  <Link href="/service-details">Software Development</Link>
+                  <Link href="/software-application-development/">Software Development</Link>
                 </h3>
                 <p>Custom solutions to streamline tasks, patient data, and department communication. . 
                 </p>
@@ -53,7 +53,7 @@ const Services = () => {
                   <img src="/images/home-six/services/Cloudservices.png" alt="icon" />
                 </div>
                 <h3>
-                  <Link href="/service-details">Cloud Solutions</Link>
+                  <Link href="/cloud-services/">Cloud Solutions</Link>
                 </h3>
                 <p>Secure, scalable platform for patient records and data accessibility, fostering collaboration 
                 </p>
@@ -68,7 +68,7 @@ const Services = () => {
                   <img src="/images/home-six/services/icon5.png" alt="icon" />
                 </div>
                 <h3>
-                  <Link href="/service-details">AI & Machine Learning</Link>
+                  <Link href="/machine-learning-and-artificial-intelligence/">AI & Machine Learning</Link>
                 </h3>
                 <p>Predictive analytics for disease detection, treatment recommendations, data-driven decisions. 
                 </p>
@@ -83,7 +83,7 @@ const Services = () => {
                   <img src="/images/home-six/services/icon1.png" alt="icon" />
                 </div>
                 <h3>
-                  <Link href="/service-details">RPA</Link>
+                  <Link href="/rpa/">RPA</Link>
                 </h3>
                 <p>Automate admin tasks like scheduling, billing, claims, boosting efficiency. 
                 </p>
@@ -98,7 +98,7 @@ const Services = () => {
                   <img src="/images/home-six/services/softwaretest.png" alt="icon" />
                 </div>
                 <h3>
-                  <Link href="/service-details">Software Testing</Link>
+                  <Link href="/qa-automation/">Software Testing</Link>
                 </h3>
                 <p>Reliable, secure apps via rigorous testing for patient data privacy and functionality. 
                 </p>

@@ -21,7 +21,7 @@ const Services = () => {
                   <img src="/images/home-six/services/mobile-app.png" alt="icon" />
                 </div>
                 <h3>
-                  <Link href="/service-details">Mobile App Development</Link>
+                  <Link href="/mobile-app-development/">Mobile App Development</Link>
                 </h3>
                 <p>Create user-friendly apps for seamless communication between students, parents, and faculty, facilitating access to resources and event notifications. </p>
 
@@ -37,7 +37,7 @@ const Services = () => {
                   <img src="/images/home-six/services/Datamanagement.png" alt="icon" />
                 </div>
                 <h3>
-                  <Link href="/service-details">Data Management and Compliance</Link>
+                  <Link href="/data-science-analytics/">Data Management and Compliance</Link>
                 </h3>
                 <p>Secure and manage data with cloud systems while ensuring privacy compliance.
                 </p>
@@ -53,7 +53,7 @@ const Services = () => {
                   <img src="/images/home-six/services/icon1.png" alt="icon" />
                 </div>
                 <h3>
-                  <Link href="/service-details">Robotic Process Automation (RPA)</Link>
+                  <Link href="/rpa/">Robotic Process Automation (RPA)</Link>
                 </h3>
                 <p>Streamline administrative tasks like admissions, enrollment, and grading, reducing manual work and errors. 
                 </p>
@@ -69,7 +69,7 @@ const Services = () => {
                   <img src="/images/home-six/services/Cloudservices.png" alt="icon" />
                 </div>
                 <h3>
-                  <Link href="/service-details">Cloud Solutions</Link>
+                  <Link href="/cloud-services/">Cloud Solutions</Link>
                 </h3>
                 <p>Provide secure cloud platforms for storing and sharing educational materials, supporting remote learning, and optimizing resource management. </p>
                 {/* <Link href="/service-details" className="read-btn">
@@ -84,7 +84,7 @@ const Services = () => {
                   <img src="/images/home-six/services/icon5.png" alt="icon" />
                 </div>
                 <h3>
-                  <Link href="/service-details">AI and Machine Learning</Link>
+                  <Link href="/machine-learning-and-artificial-intelligence/">AI and Machine Learning</Link>
                 </h3>
                 <p>
                   Implement AI-driven platforms that adapt to individual student needs, offering tailored content and assessments. 
@@ -101,7 +101,7 @@ const Services = () => {
                   <img src="/images/home-six/services/icon6.png" alt="icon" />
                 </div>
                 <h3>
-                  <Link href="/service-details">Cybersecurity Solutions</Link>
+                  <Link href="/data-science-analytics/">Cybersecurity Solutions</Link>
                 </h3>
                 <p>
                   Safeguard sensitive student and faculty data from cyber threats, ensuring data privacy and compliance with regulations. 

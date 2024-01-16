@@ -21,7 +21,7 @@ const Services = () => {
                   <img src="/images/home-six/services/mobile-app.png" alt="icon" />
                 </div>
                 <h3>
-                  <Link href="/service-details">Mobile App Development</Link>
+                  <Link href="/mobile-app-development/">Mobile App Development</Link>
                 </h3>
                 <p>Offer mobile solutions for real-time inventory tracking, order management, and customer engagement, enhancing overall operational efficiency and customer experience. </p>
 
@@ -37,7 +37,7 @@ const Services = () => {
                   <img src="/images/home-six/services/softwaredevelopement.png" alt="icon" />
                 </div>
                 <h3>
-                  <Link href="/service-details">Software Development</Link>
+                  <Link href="/software-application-development/">Software Development</Link>
                 </h3>
                 <p>Develop custom software solutions to streamline supply chain management, sales forecasting, and inventory optimization, leading to smoother FMCD operations.  
                 </p>
@@ -53,7 +53,7 @@ const Services = () => {
                   <img src="/images/home-six/services/icon5.png" alt="icon" />
                 </div>
                 <h3>
-                  <Link href="/service-details">Cloud and AI/ML Solutions</Link>
+                  <Link href="/cloud-services/">Cloud and AI/ML Solutions</Link>
                 </h3>
                 <p> Leverage the power of the cloud and AI/ML to analyze consumer behavior, optimize demand forecasting, and personalize marketing strategies for increased sales and reduced wastage.  
                 </p>
@@ -68,7 +68,7 @@ const Services = () => {
                   <img src="/images/home-six/services/RPA.png" alt="icon" />
                 </div>
                 <h3>
-                  <Link href="/service-details">Robotic Process Automation (RPA)</Link>
+                  <Link href="/rpa/">Robotic Process Automation (RPA)</Link>
                 </h3>
                 <p>Implement RPA to automate routine tasks in production, distribution, and order processing, minimizing errors and increasing efficiency. </p>
                 {/* <Link href="/service-details" className="read-btn">
@@ -82,7 +82,7 @@ const Services = () => {
                   <img src="/images/home-six/services/softwaretest.png" alt="icon" />
                 </div>
                 <h3>
-                  <Link href="/service-details">Software Testing</Link>
+                  <Link href="/qa-automation/">Software Testing</Link>
                 </h3>
                 <p>Ensure the reliability and security of FMCD software applications through rigorous testing, guaranteeing seamless functionality and consumer data protection.  
                 </p>

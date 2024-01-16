@@ -21,7 +21,7 @@ const Services = () => {
                   <img src="/images/home-six/services/icon1.png" alt="icon" />
                 </div>
                 <h3>
-                  <Link href="/service-details">Data Analytics</Link>
+                  <Link href="/data-science-analytics/">Data Analytics</Link>
                 </h3>
                 <p> Offer AI and machine learning solutions for analyzing government data and deriving actionable insights.  </p>
 
@@ -37,7 +37,7 @@ const Services = () => {
                   <img src="/images/home-six/services/icon6.png" alt="icon" />
                 </div>
                 <h3>
-                  <Link href="/service-details">Cybersecurity and Data Privacy</Link>
+                  <Link href="/data-science-analytics/">Cybersecurity and Data Privacy</Link>
                 </h3>
                 <p>Provide cybersecurity solutions to safeguard sensitive government data from cyber threats. 
                 </p>
@@ -53,7 +53,7 @@ const Services = () => {
                   <img src="/images/home-six/services/InfrastructureManagement.png" alt="icon" />
                 </div>
                 <h3>
-                  <Link href="/service-details">Infrastructure Management</Link>
+                  <Link href="#">Infrastructure Management</Link>
                 </h3>
                 <p>Assist in migrating government applications and services to the cloud for scalability and efficiency 
                 </p>
