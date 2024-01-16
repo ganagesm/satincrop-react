@@ -48,7 +48,7 @@ const Footer = () => {
                       width={80}
                     />
                   </Link>
-                  <img alt="cmmi5" src="./images/ca-cmmi_logo.jpeg" width={50} style={{ marginLeft: "10px", }} />
+                  <img alt="cmmi5" src="/images/ca-cmmi_logo.jpeg" width={50} style={{ marginLeft: "10px", }} />
                   <p> SAT Inc is a California based IT Consulting & Offshore Company headquartered at Santa Monica with offices in US, Canada, Singapore & India.</p>
                 </div>
 

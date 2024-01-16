@@ -21,7 +21,7 @@ const Services = () => {
                   <img src="/images/home-six/services/mobile-app.png" alt="icon" />
                 </div>
                 <h3>
-                  <Link href="/service-details">Mobile App Development</Link>
+                  <Link href="/mobile-app-development/">Mobile App Development</Link>
                 </h3>
                 <p>Address the need for enhanced audience engagement by creating interactive mobile apps for content consumption, real-time updates, and personalized experiences.</p>
 
@@ -37,7 +37,7 @@ const Services = () => {
                   <img src="/images/home-six/services/Cloudservices.png" alt="icon" />
                 </div>
                 <h3>
-                  <Link href="/service-details">Cloud Solutions</Link>
+                  <Link href="/cloud-services/">Cloud Solutions</Link>
                 </h3>
                 <p>Offer secure and scalable cloud platforms for efficient storage and access to media content, enabling collaboration among geographically dispersed teams.
                 </p>
@@ -53,7 +53,7 @@ const Services = () => {
                   <img src="/images/home-six/services/icon5.png" alt="icon" />
                 </div>
                 <h3>
-                  <Link href="/service-details">AI and Machine Learning</Link>
+                  <Link href="/machine-learning-and-artificial-intelligence/">AI and Machine Learning</Link>
                 </h3>
                 <p> Leverage AI to analyze user preferences and behaviors, providing personalized content recommendations for improved viewer satisfaction. 
                 </p>
@@ -68,7 +68,7 @@ const Services = () => {
                   <img src="/images/home-six/services/icon1.png" alt="icon" />
                 </div>
                 <h3>
-                  <Link href="/service-details">Robotic Process Automation (RPA):</Link>
+                  <Link href="/rpa/">Robotic Process Automation (RPA)</Link>
                 </h3>
                 <p>Automate repetitive tasks like content tagging, metadata management, and distribution, freeing up human resources for more creative tasks. </p>
                 {/* <Link href="/service-details" className="read-btn">
@@ -82,7 +82,7 @@ const Services = () => {
                   <img src="/images/home-six/services/softwaretest.png" alt="icon" />
                 </div>
                 <h3>
-                  <Link href="/service-details">Software Testing</Link>
+                  <Link href="/qa-automation/">Software Testing</Link>
                 </h3>
                 <p>Ensure seamless performance of digital platforms and applications, preventing glitches during live streaming, interactive experiences, and content delivery.
                 </p>
@@ -97,7 +97,7 @@ const Services = () => {
                   <img src="/images/home-six/services/softwaredevelopement.png" alt="icon" />
                 </div>
                 <h3>
-                  <Link href="/service-details">Software Development</Link>
+                  <Link href="/software-application-development/">Software Development</Link>
                 </h3>
                 <p>Streamline production workflows by developing customized software solutions for content management, scheduling, collaboration, and distribution.
                 </p>

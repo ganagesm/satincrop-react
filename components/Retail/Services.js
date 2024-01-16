@@ -21,7 +21,7 @@ const Services = () => {
                   <img src="/images/home-six/services/mobile-app.png" alt="icon" />
                 </div>
                 <h3>
-                  <Link href="/service-details">Mobile App Development</Link>
+                  <Link href="/mobile-app-development/">Mobile App Development</Link>
                 </h3>
                 <p> Create user-friendly mobile apps for seamless shopping experiences, loyalty programs, and personalized offers to engage customers and drive sales. </p>
 
@@ -37,7 +37,7 @@ const Services = () => {
                   <img src="/images/home-six/services/softwaredevelopement.png" alt="icon" />
                 </div>
                 <h3>
-                  <Link href="/service-details">Software Development</Link>
+                  <Link href="/software-application-development/">Software Development</Link>
                 </h3>
                 <p>Develop custom software solutions to optimize inventory management, point-of-sale systems, and customer relationship management, enhancing overall efficiency. 
                 </p>
@@ -53,7 +53,7 @@ const Services = () => {
                   <img src="/images/home-six/services/Cloudservices.png" alt="icon" />
                 </div>
                 <h3>
-                  <Link href="/service-details">Cloud Solutions</Link>
+                  <Link href="/cloud-services/">Cloud Solutions</Link>
                 </h3>
                 <p> Implement secure and scalable cloud platforms for storing and analyzing customer data, enabling real-time insights and data-driven decision-making.  
                 </p>
@@ -68,7 +68,7 @@ const Services = () => {
                   <img src="/images/home-six/services/icon5.png" alt="icon" />
                 </div>
                 <h3>
-                  <Link href="/service-details">AI and Machine Learning</Link>
+                  <Link href="/machine-learning-and-artificial-intelligence/">AI and Machine Learning</Link>
                 </h3>
                 <p>Utilize AI-powered solutions for demand forecasting, personalized product recommendations, and customer behavior analysis to enhance customer satisfaction and sales. </p>
                 {/* <Link href="/service-details" className="read-btn">
@@ -82,7 +82,7 @@ const Services = () => {
                   <img src="/images/home-six/services/RPA.png" alt="icon" />
                 </div>
                 <h3>
-                  <Link href="/service-details">Robotic Process Automation (RPA)</Link>
+                  <Link href="/rpa/">Robotic Process Automation (RPA)</Link>
                 </h3>
                 <p>Automate repetitive tasks such as inventory updates, order processing, and customer inquiries, reducing errors and improving operational efficiency. 
                 </p>
@@ -97,7 +97,7 @@ const Services = () => {
                   <img src="/images/home-six/services/softwaretest.png" alt="icon" />
                 </div>
                 <h3>
-                  <Link href="/service-details">Software Testing</Link>
+                  <Link href="/qa-automation/">Software Testing</Link>
                 </h3>
                 <p>Ensure the reliability of your e-commerce platforms and applications through rigorous testing, enhancing user experience and trust. 
                 </p>
