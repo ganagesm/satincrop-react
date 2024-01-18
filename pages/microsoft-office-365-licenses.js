@@ -131,7 +131,8 @@ const ContactFormContent = () => {
               <div className="collapse navbar-collapse mean-menu">
                 <ul className="navbar-nav">
                   <li className="nav-item">
-                    <img src="https://dev1.satincorp.com/microsoft-office-365-licenses/wp-content/themes/microsoft-office-365-licenses-wp-themes-19032021/images/microsoft-logo-new.png" width={180} />
+                  <span>Phone:</span> <a href="tel:+919284004097"> +91 9284 00 4097</a>
+                    
                   </li>
                 </ul>
               </div>
@@ -148,10 +149,12 @@ const ContactFormContent = () => {
         backgroundColor: '#eb3d01',
         backgroundSize: '80% !important',
       }}>
-        <div className="container">
+        <div className="container" id="contact">
           <div className="row">
             <div className="col-lg-6 col-md-10 col-12 d-flex flex-column justify-content-center align-items-center">
               <div className="hero-text">
+              <img src="/images/microsoft-365.png" width={180} />
+              {/* <img src="https://dev1.satincorp.com/microsoft-office-365-licenses/wp-content/themes/microsoft-office-365-licenses-wp-themes-19032021/images/microsoft-logo-new.png" width={180} /> */}
                 <h1 className="text-white achive">Enable Your Remote Team to Work Efficiently with  Microsoft 365 <br />(formerly Office 365)<span> <br />(Get Upto 20% OFF* on any License Type)</span></h1>
                 <a href="#ms-plans" className="custom-btn btn-bg btn mt-3 scroll-btn smoothScroll see-plans">See plans</a>
               </div>
@@ -518,6 +521,24 @@ const ContactFormContent = () => {
                 <h3>Robust Support </h3>
                 <h5>We are ready to help and assist whenever you need us with our 24*7*365 support. We will be
                   with you on every step of the journey.</h5>
+              </div>
+            </div>
+          </div>
+
+          <div className="webinar-area ptb-110 pricing-area">
+            <div className="container">
+              <div className="webinar-inner" style={{ paddingTop: '5rem' }}>
+                <div className="row m-0 align-items-center">
+                  <div className="col-lg-12 col-md-12 p-0">
+                    <div className="content section-title">
+                      <h2 style={{fontSize:'30px'}}>Supercharge your remote team with Microsoft 365. 
+                        <br /> work anywhere, work smarter!</h2>
+                      <p style={{fontSize:'16px', marginBottom:'10px'}}>Get Upto 20% OFF* on any License Type</p>
+
+                      <a class="btn btn-primary" href="#contact">Claim This Offer Now</a>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
