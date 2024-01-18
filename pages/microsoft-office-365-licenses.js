@@ -101,6 +101,16 @@ const ContactFormContent = () => {
           height: 100%;
           border: 0;
 }
+        .navbar {
+          background-color: transparent;
+        }
+        .navbar-area {
+          padding: 16px;
+      }
+      .collapse.navbar-collapse.mean-menu {
+        display: block;
+        padding-bottom: 0;
+    }
 
 `}
         </style>
@@ -533,7 +543,7 @@ const ContactFormContent = () => {
                     <div className="content section-title">
                       <h2 style={{fontSize:'30px'}}>Supercharge your remote team with Microsoft 365. 
                         <br /> work anywhere, work smarter!</h2>
-                      <p style={{fontSize:'16px', marginBottom:'10px'}}>Get Upto 20% OFF* on any License Type</p>
+                      <p style={{fontSize:'18px', marginBottom:'10px'}}>Get Upto 20% OFF* on any License Type</p>
 
                       <a class="btn btn-primary" href="#contact">Claim This Offer Now</a>
                     </div>
