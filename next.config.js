@@ -22,6 +22,11 @@ module.exports = {
         destination: '/qa-automation',
         permanent: true,
       },
+      {
+        source: '/blog-details/',
+        destination: '/blog',
+        permanent: true,
+      },
     ];
   },
 };
