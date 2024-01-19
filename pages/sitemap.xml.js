@@ -1,400 +1,381 @@
 // pages/sitemap.xml.js
-const EXTERNAL_DATA_BLOG_URL =
-  "https://dev1.satincorp.com/wp-json/wp/v2/posts?per_page=100&order=desc";
+const EXTERNAL_DATA_URL = "https://dev1.satincorp.com/wp-json/wp/v2/posts";
 const EXTERNAL_DATA_CUSTOMER_STORY_URL =
   "https://dev1.satincorp.com/wp-json/wp/v2/customer_story?per_page=100&order=desc";
 
-function generateSiteMap(apiBlog, apiCustomerStory) {
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL;
-  const staticPages = [
-    {
-      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/`,
-      lastmod: "2024-01-04T07:51:19+00:00",
-      priority: 1.0,
-    },
-    {
-      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/careers/`,
-      lastmod: "2024-01-04T07:51:19+00:00",
-      priority: 1.0,
-    },
-    {
-      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/investors/`,
-      lastmod: "2024-01-04T07:51:19+00:00",
-      priority: 1.0,
-    },
-    {
-      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/generative-ai/`,
-      lastmod: "2024-01-04T07:51:19+00:00",
-      priority: 1.0,
-    },
-    {
-      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/machine-learning-and-artificial-intelligence/`,
-      lastmod: "2024-01-04T07:51:19+00:00",
-      priority: 1.0,
-    },
-    {
-      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/internet-of-things/`,
-      lastmod: "2024-01-04T07:51:19+00:00",
-      priority: 1.0,
-    },
-    {
-      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/data-science-analytics/`,
-      lastmod: "2024-01-04T07:51:19+00:00",
-      priority: 1.0,
-    },
-    {
-      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/rpa/`,
-      lastmod: "2024-01-04T07:51:19+00:00",
-      priority: 1.0,
-    },
-    {
-      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/cloud-services/`,
-      lastmod: "2024-01-04T07:51:19+00:00",
-      priority: 1.0,
-    },
-    {
-      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/devops/`,
-      lastmod: "2024-01-04T07:51:19+00:00",
-      priority: 1.0,
-    },
-    {
-      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/ui-ux-design/`,
-      lastmod: "2024-01-04T07:51:19+00:00",
-      priority: 1.0,
-    },
-    {
-      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/software-application-development/`,
-      lastmod: "2024-01-04T07:51:19+00:00",
-      priority: 1.0,
-    },
-    {
-      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/mobile-app-development/`,
-      lastmod: "2024-01-04T07:51:19+00:00",
-      priority: 1.0,
-    },
-    {
-      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/qa-automation/`,
-      lastmod: "2024-01-04T07:51:19+00:00",
-      priority: 1.0,
-    },
-    {
-      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/microsoft/`,
-      lastmod: "2024-01-04T07:51:19+00:00",
-      priority: 1.0,
-    },
-    {
-      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/google-cloud/`,
-      lastmod: "2024-01-04T07:51:19+00:00",
-      priority: 1.0,
-    },
-    {
-      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/oracle/`,
-      lastmod: "2024-01-04T07:51:19+00:00",
-      priority: 1.0,
-    },
-    {
-      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/aws-services/`,
-      lastmod: "2024-01-04T07:51:19+00:00",
-      priority: 1.0,
-    },
-    {
-      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/salesforce/`,
-      lastmod: "2024-01-04T07:51:19+00:00",
-      priority: 1.0,
-    },
-    {
-      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/servicenow/`,
-      lastmod: "2024-01-04T07:51:19+00:00",
-      priority: 1.0,
-    },
-    {
-      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/mendix/`,
-      lastmod: "2024-01-04T07:51:19+00:00",
-      priority: 1.0,
-    },
-    {
-      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/gcc/`,
-      lastmod: "2024-01-04T07:51:19+00:00",
-      priority: 1.0,
-    },
-    {
-      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/gcc-strategy-development/`,
-      lastmod: "2024-01-04T07:51:19+00:00",
-      priority: 1.0,
-    },
-    {
-      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/gcc-workspace-solutions/`,
-      lastmod: "2024-01-04T07:51:19+00:00",
-      priority: 1.0,
-    },
-    {
-      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/gcc-talent-acquisition/`,
-      lastmod: "2024-01-04T07:51:19+00:00",
-      priority: 1.0,
-    },
-    {
-      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/gcc-legal-registration-support/`,
-      lastmod: "2024-01-04T07:51:19+00:00",
-      priority: 1.0,
-    },
-    {
-      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/gcc-bot/`,
-      lastmod: "2024-01-04T07:51:19+00:00",
-      priority: 1.0,
-    },
-    {
-      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/internal-audit/`,
-      lastmod: "2024-01-04T07:51:19+00:00",
-      priority: 1.0,
-    },
-    {
-      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/education/`,
-      lastmod: "2024-01-04T07:51:19+00:00",
-      priority: 1.0,
-    },
-    {
-      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/government/`,
-      lastmod: "2024-01-04T07:51:19+00:00",
-      priority: 1.0,
-    },
-    {
-      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/healthcare/`,
-      lastmod: "2024-01-04T07:51:19+00:00",
-      priority: 1.0,
-    },
-    {
-      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/media-entertainment/`,
-      lastmod: "2024-01-04T07:51:19+00:00",
-      priority: 1.0,
-    },
-    {
-      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/semiconductor/`,
-      lastmod: "2024-01-04T07:51:19+00:00",
-      priority: 1.0,
-    },
-    {
-      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/manufacturing/`,
-      lastmod: "2024-01-04T07:51:19+00:00",
-      priority: 1.0,
-    },
-    {
-      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/Product-services/`,
-      lastmod: "2024-01-04T07:51:19+00:00",
-      priority: 1.0,
-    },
-    {
-      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/retail/`,
-      lastmod: "2024-01-04T07:51:19+00:00",
-      priority: 1.0,
-    },
-    {
-      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/fmcd/`,
-      lastmod: "2024-01-04T07:51:19+00:00",
-      priority: 1.0,
-    },
-    {
-      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/contact-us/`,
-      lastmod: "2024-01-04T07:51:19+00:00",
-      priority: 1.0,
-    },
-    {
-      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/nearshore/`,
-      lastmod: "2024-01-04T07:51:19+00:00",
-      priority: 1.0,
-    },
-    {
-      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/offshore/`,
-      lastmod: "2024-01-04T07:51:19+00:00",
-      priority: 1.0,
-    },
-    {
-      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/onsite/`,
-      lastmod: "2024-01-04T07:51:19+00:00",
-      priority: 1.0,
-    },
-    {
-      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/sa-technologies-triumphs-with-cmmi-services-maturity-level-5-certification/`,
-      lastmod: "2024-01-04T07:51:19+00:00",
-      priority: 1.0,
-    },
-    {
-      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/embracing-machine-first-approach/`,
-      lastmod: "2024-01-04T07:51:19+00:00",
-      priority: 1.0,
-    },
-    {
-      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/blog/`,
-      lastmod: "2024-01-04T07:51:19+00:00",
-      priority: 1.0,
-    },
-    {
-      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/about/`,
-      lastmod: "2024-01-04T07:51:19+00:00",
-      priority: 1.0,
-    },
-    {
-      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/news-and-events/`,
-      lastmod: "2024-01-04T07:51:19+00:00",
-      priority: 1.0,
-    },
-    {
-      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/customer-success-stories/`,
-      lastmod: "2024-01-04T07:51:19+00:00",
-      priority: 1.0,
-    },
-    {
-      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/privacy-policy/`,
-      lastmod: "2024-01-04T07:51:19+00:00",
-      priority: 1.0,
-    },
-    {
-      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/terms-conditions/`,
-      lastmod: "2024-01-04T07:51:19+00:00",
-      priority: 1.0,
-    },
-    {
-      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/software-quality-assurance/`,
-      lastmod: "2024-01-04T07:51:19+00:00",
-      priority: 1.0,
-    },
-    {
-      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/gcc-location-selection/`,
-      lastmod: "2024-01-04T07:51:19+00:00",
-      priority: 1.0,
-    },
-    {
-      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/contigent-service/`,
-      lastmod: "2024-01-04T07:51:19+00:00",
-      priority: 1.0,
-    },
-    {
-      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/gcc-infrastructure-setup/`,
-      lastmod: "2024-01-04T07:51:19+00:00",
-      priority: 1.0,
-    },
-    {
-      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/gccregulatorycompliance/`,
-      lastmod: "2024-01-04T07:51:19+00:00",
-      priority: 1.0,
-    },
-    {
-      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/abhay/`,
-      lastmod: "2024-01-04T07:51:19+00:00",
-      priority: 1.0,
-    },
-    {
-      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/sonal-sinha/`,
-      lastmod: "2024-01-04T07:51:19+00:00",
-      priority: 1.0,
-    },
-    {
-      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/vasudha-kanade/`,
-      lastmod: "2024-01-04T07:51:19+00:00",
-      priority: 1.0,
-    },
-    {
-      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/amita/`,
-      lastmod: "2024-01-04T07:51:19+00:00",
-      priority: 1.0,
-    },
-    {
-      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/malay/`,
-      lastmod: "2024-01-04T07:51:19+00:00",
-      priority: 1.0,
-    },
-    {
-      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/jitendra/`,
-      lastmod: "2024-01-04T07:51:19+00:00",
-      priority: 1.0,
-    },
-    {
-      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/trishita/`,
-      lastmod: "2024-01-04T07:51:19+00:00",
-      priority: 1.0,
-    },
-    {
-      loc: `${process.env.NEXT_PUBLIC_BASE_URL}/kanak/`,
-      lastmod: "2024-01-04T07:51:19+00:00",
-      priority: 1.0,
-    },
-    // Add other pages similarly
-  ];
-
-  const pageUrls = staticPages.map(
-    (page) => `
-      <url>
-        <loc>${page.loc}</loc>
-        <lastmod>${page.lastmod}</lastmod>
-        <priority>${page.priority}</priority>
-      </url>`
-  );
-
-  const blogUrls = Array.isArray(apiBlog)
-    ? apiBlog.map(
-        (post) =>
-          `<url>
-          <loc>${`${baseUrl}/blog/${post.slug}`}</loc>
-          <lastmod>${new Date().toISOString()}</lastmod>
-          <changefreq>monthly</changefreq>
-          <priority>1.0</priority>
-        </url>`
-      )
-    : [];
-
-  // Combine the entries into a complete sitemap XML
-  const allUrls = [...pageUrls, ...blogUrls];
-
+function generateSiteMap(posts, customerstory) {
   return `<?xml version="1.0" encoding="UTF-8"?>
-    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-      ${allUrls.join("")}
-    </urlset>`;
+   <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+     <!--We manually set the two URLs we know already-->
+     <url>
+     <loc>https://www.satincorp.com/</loc>
+     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
+     <priority>1.00</priority>
+   </url>
+   <url>
+     <loc>https://www.satincorp.com/careers/</loc>
+     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
+     <priority>0.80</priority>
+   </url>
+   <url>
+     <loc>https://www.satincorp.com/investors/</loc>
+     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
+     <priority>0.80</priority>
+   </url>
+   <url>
+     <loc>https://www.satincorp.com/generative-ai/</loc>
+     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
+     <priority>0.80</priority>
+   </url>
+   <url>
+     <loc>https://www.satincorp.com/machine-learning-and-artificial-intelligence/</loc>
+     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
+     <priority>0.80</priority>
+   </url>
+   <url>
+     <loc>https://www.satincorp.com/internet-of-things/</loc>
+     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
+     <priority>0.80</priority>
+   </url>
+   <url>
+     <loc>https://www.satincorp.com/data-science-analytics/</loc>
+     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
+     <priority>0.80</priority>
+   </url>
+   <url>
+     <loc>https://www.satincorp.com/rpa/</loc>
+     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
+     <priority>0.80</priority>
+   </url>
+   <url>
+     <loc>https://www.satincorp.com/cloud-services/</loc>
+     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
+     <priority>0.80</priority>
+   </url>
+   <url>
+     <loc>https://www.satincorp.com/devops/</loc>
+     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
+     <priority>0.80</priority>
+   </url>
+   <url>
+     <loc>https://www.satincorp.com/ui-ux-design/</loc>
+     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
+     <priority>0.80</priority>
+   </url>
+   <url>
+     <loc>https://www.satincorp.com/software-application-development/</loc>
+     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
+     <priority>0.80</priority>
+   </url>
+   <url>
+     <loc>https://www.satincorp.com/mobile-app-development/</loc>
+     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
+     <priority>0.80</priority>
+   </url>
+   <url>
+     <loc>https://www.satincorp.com/qa-automation/</loc>
+     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
+     <priority>0.80</priority>
+   </url>
+   <url>
+     <loc>https://www.satincorp.com/microsoft/</loc>
+     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
+     <priority>0.80</priority>
+   </url>
+   <url>
+     <loc>https://www.satincorp.com/google-cloud/</loc>
+     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
+     <priority>0.80</priority>
+   </url>
+   <url>
+     <loc>https://www.satincorp.com/oracle/</loc>
+     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
+     <priority>0.80</priority>
+   </url>
+   <url>
+     <loc>https://www.satincorp.com/aws-services/</loc>
+     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
+     <priority>0.80</priority>
+   </url>
+   <url>
+     <loc>https://www.satincorp.com/salesforce/</loc>
+     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
+     <priority>0.80</priority>
+   </url>
+   <url>
+     <loc>https://www.satincorp.com/servicenow/</loc>
+     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
+     <priority>0.80</priority>
+   </url>
+   <url>
+     <loc>https://www.satincorp.com/mendix/</loc>
+     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
+     <priority>0.80</priority>
+   </url>
+   <url>
+     <loc>https://www.satincorp.com/gcc/</loc>
+     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
+     <priority>0.80</priority>
+   </url>
+   <url>
+     <loc>https://www.satincorp.com/gcc-strategy-development/</loc>
+     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
+     <priority>0.80</priority>
+   </url>
+   <url>
+     <loc>https://www.satincorp.com/gcc-workspace-solutions/</loc>
+     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
+     <priority>0.80</priority>
+   </url>
+   <url>
+     <loc>https://www.satincorp.com/gcc-talent-acquisition/</loc>
+     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
+     <priority>0.80</priority>
+   </url>
+   <url>
+     <loc>https://www.satincorp.com/gcc-legal-registration-support/</loc>
+     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
+     <priority>0.80</priority>
+   </url>
+   <url>
+     <loc>https://www.satincorp.com/gcc-bot/</loc>
+     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
+     <priority>0.80</priority>
+   </url>
+   <url>
+     <loc>https://www.satincorp.com/internal-audit/</loc>
+     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
+     <priority>0.80</priority>
+   </url>
+   <url>
+     <loc>https://www.satincorp.com/education/</loc>
+     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
+     <priority>0.80</priority>
+   </url>
+   <url>
+     <loc>https://www.satincorp.com/government/</loc>
+     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
+     <priority>0.80</priority>
+   </url>
+   <url>
+     <loc>https://www.satincorp.com/healthcare/</loc>
+     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
+     <priority>0.80</priority>
+   </url>
+   <url>
+     <loc>https://www.satincorp.com/media-entertainment/</loc>
+     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
+     <priority>0.80</priority>
+   </url>
+   <url>
+     <loc>https://www.satincorp.com/semiconductor/</loc>
+     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
+     <priority>0.80</priority>
+   </url>
+   <url>
+     <loc>https://www.satincorp.com/manufacturing/</loc>
+     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
+     <priority>0.80</priority>
+   </url>
+   <url>
+     <loc>https://www.satincorp.com/Product-services/</loc>
+     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
+     <priority>0.80</priority>
+   </url>
+   <url>
+     <loc>https://www.satincorp.com/retail/</loc>
+     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
+     <priority>0.80</priority>
+   </url>
+   <url>
+     <loc>https://www.satincorp.com/fmcd/</loc>
+     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
+     <priority>0.80</priority>
+   </url>
+   <url>
+     <loc>https://www.satincorp.com/contact-us/</loc>
+     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
+     <priority>0.80</priority>
+   </url>
+   <url>
+     <loc>https://www.satincorp.com/nearshore/</loc>
+     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
+     <priority>0.80</priority>
+   </url>
+   <url>
+     <loc>https://www.satincorp.com/offshore/</loc>
+     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
+     <priority>0.80</priority>
+   </url>
+   <url>
+     <loc>https://www.satincorp.com/onsite/</loc>
+     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
+     <priority>0.80</priority>
+   </url>
+   <url>
+     <loc>
+       https://www.satincorp.com/sa-technologies-triumphs-with-cmmi-services-maturity-level-5-certification/</loc>
+     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
+     <priority>0.80</priority>
+   </url>
+   <url>
+     <loc>https://www.satincorp.com/embracing-machine-first-approach/</loc>
+     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
+     <priority>0.80</priority>
+   </url>
+   <url>
+     <loc>https://www.satincorp.com/blog/</loc>
+     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
+     <priority>0.80</priority>
+   </url>
+   <url>
+     <loc>https://www.satincorp.com/about/</loc>
+     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
+     <priority>0.80</priority>
+   </url>
+   <url>
+     <loc>https://www.satincorp.com/news-and-events/</loc>
+     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
+     <priority>0.80</priority>
+   </url>
+   <url>
+     <loc>https://www.satincorp.com/customer-success-stories/</loc>
+     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
+     <priority>0.80</priority>
+   </url>
+   <url>
+     <loc>https://www.satincorp.com/privacy-policy/</loc>
+     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
+     <priority>0.80</priority>
+   </url>
+   <url>
+     <loc>https://www.satincorp.com/terms-conditions/</loc>
+     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
+     <priority>0.80</priority>
+   </url>
+   <url>
+     <loc>https://www.satincorp.com/software-quality-assurance/</loc>
+     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
+     <priority>0.64</priority>
+   </url>
+   <url>
+     <loc>https://www.satincorp.com/gcc-location-selection/</loc>
+     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
+     <priority>0.64</priority>
+   </url>
+   <url>
+     <loc>https://www.satincorp.com/contigent-service/</loc>
+     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
+     <priority>0.64</priority>
+   </url>
+   <url>
+     <loc>https://www.satincorp.com/gcc-infrastructure-setup/</loc>
+     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
+     <priority>0.64</priority>
+   </url>
+   <url>
+     <loc>https://www.satincorp.com/gccregulatorycompliance/</loc>
+     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
+     <priority>0.64</priority>
+   </url>
+   <url>
+     <loc>https://www.satincorp.com/abhay/</loc>
+     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
+     <priority>0.64</priority>
+   </url>
+   <url>
+     <loc>https://www.satincorp.com/sonal-sinha/</loc>
+     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
+     <priority>0.64</priority>
+   </url>
+   <url>
+     <loc>https://www.satincorp.com/vasudha-kanade/</loc>
+     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
+     <priority>0.64</priority>
+   </url>
+   <url>
+     <loc>https://www.satincorp.com/amita/</loc>
+     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
+     <priority>0.64</priority>
+   </url>
+   <url>
+     <loc>https://www.satincorp.com/malay/</loc>
+     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
+     <priority>0.64</priority>
+   </url>
+   <url>
+     <loc>https://www.satincorp.com/jitendra/</loc>
+     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
+     <priority>0.64</priority>
+   </url>
+   <url>
+     <loc>https://www.satincorp.com/trishita/</loc>
+     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
+     <priority>0.64</priority>
+   </url>
+   <url>
+     <loc>https://www.satincorp.com/kanak/</loc>
+     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
+     <priority>0.64</priority>
+   </url>
+   <url>
+     <loc>https://www.satincorp.com/articles/gcc-evolution/</loc>
+     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
+     <priority>0.64</priority>
+   </url>
+     ${posts
+       .map(({ slug }) => {
+         return `
+            <url>
+               <loc>${`https://www.satincorp.com/blog/${slug}`}</loc>
+               <lastmod>2024-01-04T07:51:19+00:00</lastmod>
+               <priority>0.80</priority>
+            </url>
+         `;
+       })
+       .join("")}
+     ${customerstory
+       .map(({ slug }) => {
+         return `
+            <url>
+               <loc>${`https://www.satincorp.com/customer-success-stories/${slug}`}</loc>
+               <lastmod>2024-01-04T07:51:19+00:00</lastmod>
+               <priority>0.80</priority>
+            </url>
+         `;
+       })
+       .join("")}
+   </urlset>
+ `;
 }
 
-function SiteMap({ xml }) {
-  return xml;
+function SiteMap() {
+  // getServerSideProps will do the heavy lifting
 }
 
 export async function getServerSideProps({ res }) {
-  try {
-    // Fetch static pages
-    const staticPages = [
-      // ... your existing static pages
-    ];
+  // We make API calls to gather the URLs for our site
+  const blogRequest = await fetch(
+    `${EXTERNAL_DATA_URL}?per_page=100&order=desc`
+  );
+  const customerStoryRequest = await fetch(
+    `${EXTERNAL_DATA_CUSTOMER_STORY_URL}?per_page=100&order=desc`
+  );
 
-    // Fetch API data
-    const blogResponse = await fetch(EXTERNAL_DATA_BLOG_URL);
-    const apiBlog = await blogResponse.json();
+  const posts = await blogRequest.json();
+  const customerstory = await customerStoryRequest.json();
 
-    const customerStoryResponse = await fetch(EXTERNAL_DATA_CUSTOMER_STORY_URL);
-    const apiCustomerStory = await customerStoryResponse.json();
-    console.log("apiCustomerStory", apiCustomerStory);
-    // Generate the XML sitemap
-    const sitemapXml = generateSiteMap(staticPages, apiBlog, apiCustomerStory);
-    console.log("apiBlog", apiBlog);
+  // We generate the XML sitemap with the posts data
+  const sitemap = generateSiteMap(posts, customerstory);
 
-    res.setHeader("Content-Type", "text/xml");
-    // Send the XML to the browser
-    res.write(sitemapXml);
-    res.end();
+  res.setHeader("Content-Type", "text/xml");
+  // we send the XML to the browser
+  res.write(sitemap);
+  res.end();
 
-    return {
-      props: {
-        xml: sitemapXml,
-      },
-    };
-  } catch (error) {
-    console.error("Error fetching data:", error);
-
-    res.setHeader("Content-Type", "text/plain");
-    res.statusCode = 500;
-    res.end("Internal Server Error");
-
-    return {
-      props: {
-        xml: "Internal Server Error",
-      },
-    };
-  }
+  return {
+    props: {},
+  };
 }
 
 export default SiteMap;
