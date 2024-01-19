@@ -17,9 +17,9 @@ const Index = () => {
     <>
 
       <Head>
-        <title>Empower Business with Microsoft D365 Solutions by SA Technologies  </title>
-        <meta property="og:title" content="Empower Business with Microsoft D365 Solutions by SA Technologies " key="title" />
-        <meta name="description" content="SA Technologies offers Microsoft solutions for enhanced productivity and innovation. Unleash the potential of Microsoft technologies." key="description" />
+        <title>Microsoft Dynamics CRM Consulting Services | SA Technologies</title>
+        <meta property="og:title" content="Microsoft Dynamics CRM Consulting Services | SA Technologies" key="title" />
+        <meta name="description" content="SA Technologies is a Microsoft Gold partner with 20+ years of expertise in Comprehensive Microsoft Dynamics 365 CRM consulting services." key="description" />
       </Head>
 
       <Navbar />
