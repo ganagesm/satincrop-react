@@ -60,7 +60,7 @@ const ComputerVisionAI = () => {
                     <div className="vision-ai-inner-card">
                       {/* <div className="content"> */}
                       <div className="">
-                        <h4>Microsoft Dynamics CRM</h4>
+                       <a href="/microsoft-dynamics-365-crm-consulting-services/"> <h4>Microsoft Dynamics CRM</h4></a>
                       </div>
                       <p>
                         {" "}
