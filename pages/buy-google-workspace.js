@@ -105,9 +105,17 @@ const ContactFormContent = () => {
           height: 100%;
           border: 0;
 }
-.navbar-brand, .navbar-brand > img {
-  width: 5rem;
-}
+      .navbar-brand, .navbar-brand > img {
+        width: 5rem;
+      }
+      .navbar-area {
+        padding: 16px;
+        text-align: right;
+    }
+    .collapse.navbar-collapse.mean-menu {
+      display: block;
+      padding-bottom: 0;
+  }
 
 `}
         </style>
