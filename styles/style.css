@@ -3118,6 +3118,12 @@ Page Title Area CSS
 .page-title-area.item-bg15 {
     background-image: url(/images/technology-banner/microsoftcrm-banner.jpg);
 }
+.page-title-area.item-bg16 {
+    background-image: url(/images/technology-banner/Microsoft_azure_banner.png);
+}
+.page-title-area.item-bg17 {
+    background-image: url(/images/technology-banner/Microsoft365_banner.png);
+}
 
 .page-title-content h2 {
     margin-bottom: 0;
