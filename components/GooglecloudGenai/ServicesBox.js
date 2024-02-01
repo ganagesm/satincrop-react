@@ -7,7 +7,7 @@ const Services = () => {
       <div className="ai-services-area pt-100 pb-100">
         <div className="container">
           <div className="section-title with-underline-text">
-            <h2>Heading- Elevating AI Systems for Startups </h2>
+            <h2>Elevating AI Systems for Startups </h2>
           </div>
 
           <div className="row justify-content-center">
@@ -20,7 +20,7 @@ const Services = () => {
                   <Link href="#">Improve AI Systems </Link>
                 </h3>
                 <p>Amend or replace open AI API calls and in-house AI infrastructure. </p>
-                <p>Link to Milk Infra Case Study for real-world insights. </p>
+                {/* <p>Link to Milk Infra Case Study for real-world insights. </p> */}
 
                 {/* <Link href="/service-details" className="read-btn">
                   Read More
@@ -67,8 +67,7 @@ const Services = () => {
                 <h3>
                   <Link href="/#/">Enhanced Fine-Tuning: </Link>
                 </h3>
-                <p>Fine-tune models on your datasets or Google’s public datasets.</p>
-                <p>Decrease false positive rates and significantly improve overall system performance. </p>
+                <p>Fine-tune models on your datasets or Google’s public datasets. Decrease false positive rates and significantly improve overall system performance. </p>
               </div>
             </div>
 
