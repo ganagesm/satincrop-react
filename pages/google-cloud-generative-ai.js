@@ -32,9 +32,8 @@ const GooglecloudGenai = () => {
 
         <div className=" ptb-50">
           <div className="section-title">
-            <h3>Power BI Consulting Services</h3>
-            <p> We can help you build ai into your products and bring ai to all your internal teams all perfectly aligned with your 
-            company mission and values.</p>
+            <h3>Generative ai is transforming every business vertical.  </h3>
+            <p> We can help you build ai into your products and bring ai to all your internal teams all perfectly aligned with your company mission and values. </p>
           </div>
         </div>  
 
@@ -43,7 +42,7 @@ const GooglecloudGenai = () => {
       <Services />
       <ServicesBox />
 
-      <div className="GCCJourney" >
+      <div className="GCCJourney"  >
           <div className="container">
             <div className="row ptb-100 pb-100 align-items-center">
               <div className="col-lg-8 col-md-8">
