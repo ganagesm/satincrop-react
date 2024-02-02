@@ -65,7 +65,7 @@ const Services = () => {
                   <img src="/images/home-six/services/Cloudservices.png" alt="icon" />
                 </div>
                 <h3>
-                  <Link href="/#/">Enhanced Fine-Tuning: </Link>
+                  <Link href="/#/">Fine-Tune Custom LLM Models</Link>
                 </h3>
                 <p>Fine-tune models on your datasets or Google’s public datasets. Decrease false positive rates and significantly improve overall system performance. </p>
               </div>
