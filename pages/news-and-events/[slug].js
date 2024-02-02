@@ -75,8 +75,8 @@ export default function BlogPost() {
                     </span>
 
                     <Link href="#">{post.category}</Link>
-                    <Link href="#">Games</Link>
-                    <Link href="#">Travel</Link>
+                    {/* <Link href="#">Games</Link>
+                    <Link href="#">Travel</Link> */}
                   </div>
 
                   <div className="article-share">
