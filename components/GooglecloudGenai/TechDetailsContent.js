@@ -20,7 +20,7 @@ const ServiceDetailsContent = () => {
 
               <p><b>Data Security:</b> Safeguard sensitive information throughout the AI development lifecycle</p>
 
-              <p><b>Elevate your business with Vertex AI – where innovation meets efficiency, making AI a tangible asset for your success.:</b></p>
+              <p><b>Elevate your business with Vertex AI – where innovation meets efficiency, making AI a tangible asset for your success.</b></p>
               
               </div>
 
