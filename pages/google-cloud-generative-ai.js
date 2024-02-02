@@ -32,7 +32,7 @@ const GooglecloudGenai = () => {
 
         <div className=" ptb-50">
           <div className="section-title">
-            <h3>Generative ai is transforming every business vertical.  </h3>
+            <h3>Generative AI is transforming every business vertical.  </h3>
             <p> We can help you build ai into your products and bring ai to all your internal teams all perfectly aligned with your company mission and values. </p>
           </div>
         </div>  
