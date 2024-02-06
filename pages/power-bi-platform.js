@@ -1,13 +1,15 @@
 
 import Navbar from "../components/Live/Navbar";
 import Footer from "../components/Live/Footer";
-import Services from "../components/MicrosoftAzure/Services";
-import WhyChooseSAT from "../components/MicrosoftAzure/WhyChooseSAT";
-import PageBanner from "../components/MicrosoftAzure/PageBanner";
-import TechDetailsContent from "../components/MicrosoftAzure/TechDetailsContent";
+import Services from "../components/PowerbiPlatform/Services";
+import WhyChooseSAT from "../components/PowerbiPlatform/WhyChooseSAT";
+import PageBanner from "../components/PowerbiPlatform/PageBanner";
+import TechDetailsContent from "../components/PowerbiPlatform/TechDetailsContent";
 import MainServices from "../components/Live/MainServices";
-import BlogPostSlider from "../components/MicrosoftAzure/BlogPostSlider";
+import BlogPostSlider from "../components/PowerbiPlatform/BlogPostSlider";
 import ContactFormContent from "../components/Common/ContactFormContent";
+import AboutAI from "../components/PowerbiPlatform/AboutAI";
+import ServicesBox from "../components/PowerbiPlatform/ServicesBox";
 import Link from "next/link";
 import Head from 'next/head';
 
@@ -17,24 +19,29 @@ const Index = () => {
     <>
 
       <Head>
-        <title>Microsoft Azure Services | SA Technologies</title>
-        <meta property="og:title" content="Microsoft Azure Services | SA Technologies" key="title" />
-        <meta name="description" content="Make your organization more efficient and gain agility with our Microsoft Azure Services We focus on finding the right problem and strive to overcome it" key="description" />
+        <title>Power BI Consulting Services | SA Technologies</title>
+        <meta property="og:title" content="Power BI Consulting Services | SA Technologies" key="title" />
+        <meta name="description" content="SA Technologies Power BI Consulting in the Bay Area, USA, aids businesses in overcoming challenges. Elevate your enterprise with expert Power BI assistance" key="description" />
       </Head>
 
       <Navbar />
       <PageBanner
-        pageTitle="Make your organization more efficient and gain agility with our Microsoft Azure Services."
+        pageTitle="Unify your business data on a single dashboard & experience-rich visuals at Cloud Speed. "
         homePageUrl="/"
         homePageText="Home"
-        activePageText="Microsoft Azure"
-        bgImgClass="item-bg16"
+        activePageText="Power-BI-Platform"
+        bgImgClass="item-bg17"
       />
       
 
       <TechDetailsContent />
 
-      <div className="GCCJourney" >
+      
+      <AboutAI />
+
+      <ServicesBox />
+
+      <div className="" >
           <div className="container">
             <div className="row ptb-100 pb-100 align-items-center">
               <div className="col-lg-7 col-md-7">
@@ -62,6 +69,8 @@ const Index = () => {
 
       <Services />
 
+      
+
       <div className="col-lg-12 col-md-12">
         <div className="ai-all-services-btn ptb-50">
           <Link href="/contact-us/" className="btn btn-primary">
@@ -70,7 +79,9 @@ const Index = () => {
         </div>
       </div>
 
-      <WhyChooseSAT />             
+      {/* <WhyChooseSAT />   */}
+
+
 
       <MainServices />
       <BlogPostSlider />

@@ -73,9 +73,9 @@ const ComputerVisionAI = () => {
                   <div className="col-lg-4 col-sm-4">
                     <div className="vision-ai-inner-card">
                       {/* <div className="content"> */}
-                      <div className="">
+                      <a href="/power-bi-platform/">
                         <h4>Power BI Platform</h4>
-                      </div>
+                      </a>
                       <p>
                         {" "}
                         Power BI turns raw data into vivid visual reports, facilitating 
@@ -86,9 +86,9 @@ const ComputerVisionAI = () => {
                   <div className="col-lg-4 col-sm-4">
                     <div className="vision-ai-inner-card">
                       {/* <div className="content"> */}
-                      <div className="">
+                      <a href="/microsoft-business-central/">
                         <h4>Business Central</h4>
-                      </div>
+                      </a>
                       <p>
                         {" "}
                         Designed for SMEs, Business Central is a comprehensive 

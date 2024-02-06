@@ -7,25 +7,20 @@ const Services = () => {
       <div className="ai-services-area pt-100 pb-100">
         <div className="container">
           <div className="section-title with-underline-text">
-            <h2>Why SA Technologies for Power BI Consulting Services?</h2>
-            <p>
-            Being the Power BI Partner that has been successfully delivering driven Power BI consulting services globally for more 
-            than 17 years, SA Technologies brings along precision, comprehensive experience, expertise, and deep industry knowledge. 
-            Our forte is offering unparalleled Power BI consulting services along with the flawless Power BI implementation that will 
-            craft a roadmap to help you streamline the data, processes, and business goals.
-            </p>
+            <h2>Choose SA Technologies for Licensing Microsoft 365 and Advance your Business with Digitalized Workspace</h2>
+           
           </div>
 
           <div className="row justify-content-center">
-            <div className="col-lg-4 col-md-6 col-sm-6">
+            <div className="col-lg-3 col-md-6 col-sm-6">
               <div className="single-services-card">
                 <div className="image-icon">
                   <img src="/images/home-six/services/mobile-app.png" alt="icon" />
                 </div>
                 <h3>
-                  <Link href="#">Cost-effective Solutions </Link>
+                  <Link href="#">Selecting the Ideal Plan </Link>
                 </h3>
-                <p>Our approach is simple – we focus on finding the right problem and strive to overcome it with minimum time.</p>
+                <p>Explore our curated plans tailored to specific business needs, supported by consultancy to help you choose the perfect plan. </p>
 
                 {/* <Link href="/service-details" className="read-btn">
                   Read More
@@ -33,15 +28,15 @@ const Services = () => {
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6 col-sm-6">
+            <div className="col-lg-3 col-md-6 col-sm-6">
               <div className="single-services-card">
                 <div className="image-icon bg-two">
                   <img src="/images/home-six/services/Datamanagement.png" alt="icon" />
                 </div>
                 <h3>
-                  <Link href="#">Global Presence </Link>
+                  <Link href="#">Efficient Setup & Deployment </Link>
                 </h3>
-                <p>We take immense pride in our global presence that allows us to serve our clients present across the globe. 
+                <p>Rely on our team of Microsoft experts to handle the setup and configuration of 365 solutions according to your requirements.  
                 </p>
                 {/* <Link href="/service-details" className="read-btn">
                   Read More
@@ -49,36 +44,81 @@ const Services = () => {
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6 col-sm-6">
+            <div className="col-lg-3 col-md-6 col-sm-6">
               <div className="single-services-card">
                 <div className="image-icon">
                   <img src="/images/home-six/services/icon1.png" alt="icon" />
                 </div>
                 <h3>
-                  <Link href="#">Dedicated ODC Team </Link>
+                  <Link href="#">Seamless Data Migration  </Link>
                 </h3>
-                <p>We understand the importance and uniqueness of every project. This is why we have a dedicated ODC team.  
+                <p>Experience smooth and secure data migration from your current workspace to Microsoft 365 with our assistance.   
                 </p>
                
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6 col-sm-6">
+            <div className="col-lg-3 col-md-6 col-sm-6">
               <div className="single-services-card">
                 <div className="image-icon bg-four">
                   <img src="/images/home-six/services/Cloudservices.png" alt="icon" />
                 </div>
                 <h3>
-                  <Link href="/cloud-services/">Experienced Professionals</Link>
+                  <Link href="#">Robust 24/7 Support </Link>
                 </h3>
-                <p>We have a team of experienced professionals that enhances efficiency and renders quality as well as quantity. </p>
+                <p>Count on our continuous support, available 24/7/365, guiding you at every step of your journey. </p>
                
               </div>
             </div>
 
-            
-
-           
+            <div className="col-lg-3 col-md-6 col-sm-6">
+              <div className="single-services-card">
+                <div className="image-icon bg-five">
+                  <img src="/images/home-six/services/icon5.png" alt="icon" />
+                </div>
+                <h3>
+                  <Link href="#">Enhanced Office Apps </Link>
+                </h3>
+                <p>Work seamlessly with the latest versions of Word, Outlook, Excel, PowerPoint, OneNote, and Publisher.  </p>
+               
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-6 col-sm-6">
+              <div className="single-services-card">
+                <div className="image-icon bg-six">
+                  <img src="/images/home-six/services/Cloudservices.png" alt="icon" />
+                </div>
+                <h3>
+                  <Link href="#">Premium Email Functionality  </Link>
+                </h3>
+                <p>Benefit from a 50 GB mailbox and attachments up to 150 MB through Outlook on desktop or Outlook Web App via a browser. </p>
+               
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-6 col-sm-6">
+              <div className="single-services-card">
+                <div className="image-icon bg-seven">
+                  <img src="/images/home-six/services/Cloudservices.png" alt="icon" />
+                </div>
+                <h3>
+                  <Link href="#">Effortless Calendar Sharing </Link>
+                </h3>
+                <p>Simplify scheduling by easily sharing your calendar and announcing your availability. </p>
+               
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-6 col-sm-6">
+              <div className="single-services-card">
+                <div className="image-icon">
+                  <img src="/images/home-six/services/Cloudservices.png" alt="icon" />
+                </div>
+                <h3>
+                  <Link href="#">Universal Device Compatibility  </Link>
+                </h3>
+                <p>Install and access Office apps effortlessly on systems, laptops, Macs, tablets, and mobile devices. </p>
+               
+              </div>
+            </div>
           </div>
         </div>
 

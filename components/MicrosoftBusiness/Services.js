@@ -7,47 +7,57 @@ const Services = () => {
       <section className="services-area bg-f2f6f9 ptb-110">
         <div className="container">
           <div className="section-title">
-            <h2>Why Choose Microsoft 365 Business? </h2>
+            <h2>Get end-to-end consulting for Business Central with an Expert Dynamics 365 Business Central Partner  {" "}
+            </h2>
+             <p>As a trusted Microsoft Dynamics 365 Partner, SA Technologies handles your migration, maintenance, and integration 
+              for Microsoft Business Central. Our skilled consultants maximize the potential of Microsoft Dynamics NAV. With 20+ years 
+              of experience, we've aided countless users in achieving business goals through platforms like Microsoft D365 Business
+               Central. </p> 
           </div>
 
           <div className="row justify-content-center">
             <div className="col-lg-4 col-sm-6">
               <div className="single-services-box">
-                <h2>Enable secure remote access and protect identity </h2>
-                {/* <p>Our industry experts offer you a personalized solution after doing a comprehensive assessment of your unique 
-                  business needs</p> */}
+                <h2>Revitalize Financial Management</h2>
+                <p>Enhance financial accuracy and reporting efficiency, ensuring compliance standards are met. </p>
                 
               </div>
             </div>
 
             <div className="col-lg-4 col-sm-6">
               <div className="single-services-box">
-                <h2>Secure personal and company owned devices</h2>
-                {/* <p>We deploy on-demand certified Cloud Specialists to help you meet your strategic goals & respond quickly to the 
-                  market needs</p> */}
+                <h2>Automate SCM Processes</h2>
+                <p>Improve visibility and control over the purchasing process within your Supply Chain Management.  </p>
                 
               </div>
             </div>
-          </div>
+         
 
-          <div className="row justify-content-center">
-            <div className="col-lg-4 col-sm-6">
-              <div className="single-services-box">
-              <h2>Safeguard confidential business and customer data </h2>
-                {/* <p>We ensure a seamless business transformation by helping you implement exclusively tailored strategies that 
-                  mitigate risk</p> */}
+            <div className="row justify-content-center">
+              <div className="col-lg-4 col-sm-6">
+                <div className="single-services-box">
+                <h2>Elevate Sales Service Management </h2>
+                  <p>Boost service quality and revenue opportunities through D365 Business Central's integrated functionality.</p>
+                </div>
+              </div>
+
+              <div className="col-lg-4 col-sm-6">
+                <div className="single-services-box">
+                <h2>Efficient Project Management  </h2>
+                  <p>Ensure on-time and budget-friendly project deliverables with real-time data visibility on resources. </p>
+                </div>
               </div>
             </div>
-
             <div className="col-lg-4 col-sm-6">
               <div className="single-services-box">
-              <h2>Access and co-author via cloud file storage </h2>
-                {/* <p>We analyze your current technology and process maturity to devise a customized integration approach 
-                  that addresses all your requirements. </p> */}
+              <h2>Optimize Operation Management  </h2>
+                <p>Streamline both front and back-end operations for timely product delivery and cost reduction.  </p>
               </div>
             </div>
+            
           </div>
         </div>
+       
 
         {/* Shape Images */}
         <div className="shape-img2">

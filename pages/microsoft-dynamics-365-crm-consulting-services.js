@@ -19,7 +19,7 @@ const Index = () => {
       <Head>
         <title>Microsoft Dynamics CRM Consulting Services | SA Technologies</title>
         <meta property="og:title" content="Microsoft Dynamics CRM Consulting Services | SA Technologies" key="title" />
-        <meta name="description" content="SA Technologies is a Microsoft Gold partner with 20+ years of expertise in Comprehensive Microsoft Dynamics 365 CRM consulting services." key="description" />
+        <meta name="description" content="SA Technologies is a Microsoft Gold partner with 17 years of expertise in Comprehensive Microsoft Dynamics 365 CRM consulting services." key="description" />
       </Head>
 
       <Navbar />
