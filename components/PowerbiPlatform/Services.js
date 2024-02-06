@@ -7,24 +7,28 @@ const Services = () => {
       <section className="services-area bg-f2f6f9 ptb-110">
         <div className="container">
           <div className="section-title">
-            <h2>Why Choose Microsoft 365 Business? </h2>
+            <h2>One Stop Power BI Solution {" "}
+            </h2>
+             <p>We make our Power BI consulting Company unique, by involving specifically crafted methodologies that adapt well 
+              to your needs and demands. Our customized module developments and the ability to integrate a huge volume of data 
+              from internal as well as external sources makes us one of the best Power BI consulting service providers for Microsoft 
+              Power BI Solutions. </p> 
           </div>
 
           <div className="row justify-content-center">
             <div className="col-lg-4 col-sm-6">
               <div className="single-services-box">
-                <h2>Enable secure remote access and protect identity </h2>
-                {/* <p>Our industry experts offer you a personalized solution after doing a comprehensive assessment of your unique 
-                  business needs</p> */}
+                <h2>Power BI Desktop</h2>
+                <p>Our industry experts offer you a personalized solution after doing a comprehensive assessment of your unique business needs</p>
                 
               </div>
             </div>
 
             <div className="col-lg-4 col-sm-6">
               <div className="single-services-box">
-                <h2>Secure personal and company owned devices</h2>
-                {/* <p>We deploy on-demand certified Cloud Specialists to help you meet your strategic goals & respond quickly to the 
-                  market needs</p> */}
+                <h2>Power BI Mobile</h2>
+                <p>We deploy on-demand certified Cloud Specialists to help you meet your strategic goals & respond quickly to the 
+                  market needs</p>
                 
               </div>
             </div>
@@ -33,17 +37,15 @@ const Services = () => {
           <div className="row justify-content-center">
             <div className="col-lg-4 col-sm-6">
               <div className="single-services-box">
-              <h2>Safeguard confidential business and customer data </h2>
-                {/* <p>We ensure a seamless business transformation by helping you implement exclusively tailored strategies that 
-                  mitigate risk</p> */}
+              <h2>Power BI Premium </h2>
+                <p>We ensure a seamless business transformation by helping you implement exclusively tailored strategies that mitigate risk</p>
               </div>
             </div>
 
             <div className="col-lg-4 col-sm-6">
               <div className="single-services-box">
-              <h2>Access and co-author via cloud file storage </h2>
-                {/* <p>We analyze your current technology and process maturity to devise a customized integration approach 
-                  that addresses all your requirements. </p> */}
+              <h2>Power BI Embedded </h2>
+                <p>We analyze your current technology and process maturity to devise a customized integration approach that addresses all your requirements. </p>
               </div>
             </div>
           </div>
