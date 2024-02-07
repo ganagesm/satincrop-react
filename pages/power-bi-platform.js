@@ -1,13 +1,15 @@
 
 import Navbar from "../components/Live/Navbar";
 import Footer from "../components/Live/Footer";
-import Services from "../components/MicrosoftConsulting/Services";
-import ComputerVisionAI from "../components/MicrosoftConsulting/ComputerVisionAI";
-import PageBanner from "../components/MicrosoftConsulting/PageBanner";
-import TechDetailsContent from "../components/MicrosoftConsulting/TechDetailsContent";
+import Services from "../components/PowerbiPlatform/Services";
+import WhyChooseSAT from "../components/PowerbiPlatform/WhyChooseSAT";
+import PageBanner from "../components/PowerbiPlatform/PageBanner";
+import TechDetailsContent from "../components/PowerbiPlatform/TechDetailsContent";
 import MainServices from "../components/Live/MainServices";
-import BlogPostSlider from "../components/MicrosoftConsulting/BlogPostSlider";
+import BlogPostSlider from "../components/PowerbiPlatform/BlogPostSlider";
 import ContactFormContent from "../components/Common/ContactFormContent";
+import AboutAI from "../components/PowerbiPlatform/AboutAI";
+import ServicesBox from "../components/PowerbiPlatform/ServicesBox";
 import Link from "next/link";
 import Head from 'next/head';
 
@@ -17,24 +19,29 @@ const Index = () => {
     <>
 
       <Head>
-        <title>Microsoft Dynamics CRM Consulting Services | SA Technologies</title>
-        <meta property="og:title" content="Microsoft Dynamics CRM Consulting Services | SA Technologies" key="title" />
-        <meta name="description" content="SA Technologies is a Microsoft Gold partner with 17 years of expertise in Comprehensive Microsoft Dynamics 365 CRM consulting services." key="description" />
+        <title>Power BI Consulting Services | SA Technologies</title>
+        <meta property="og:title" content="Power BI Consulting Services | SA Technologies" key="title" />
+        <meta name="description" content="SA Technologies Power BI Consulting in the Bay Area, USA, aids businesses in overcoming challenges. Elevate your enterprise with expert Power BI assistance" key="description" />
       </Head>
 
       <Navbar />
       <PageBanner
-        pageTitle="Accelerate your business growth with Dynamics 365, the next generation of CRM and ERP applications."
+        pageTitle="Unify your business data on a single dashboard & experience-rich visuals at Cloud Speed. "
         homePageUrl="/"
         homePageText="Home"
-        activePageText="Microsoft Dynamics-365 crm consulting services"
-        bgImgClass="item-bg15"
+        activePageText="Power-BI-Platform"
+        bgImgClass="item-bg17"
       />
       
 
       <TechDetailsContent />
 
-      <div className="GCCJourney" >
+      
+      <AboutAI />
+
+      <ServicesBox />
+
+      <div className="" >
           <div className="container">
             <div className="row ptb-100 pb-100 align-items-center">
               <div className="col-lg-7 col-md-7">
@@ -61,6 +68,9 @@ const Index = () => {
       {/* <ComputerVisionAI /> */}
 
       <Services />
+
+      
+
       <div className="col-lg-12 col-md-12">
         <div className="ai-all-services-btn ptb-50">
           <Link href="/contact-us/" className="btn btn-primary">
@@ -68,6 +78,11 @@ const Index = () => {
           </Link>
         </div>
       </div>
+
+      {/* <WhyChooseSAT />   */}
+
+
+
       <MainServices />
       <BlogPostSlider />
 

@@ -1,12 +1,12 @@
 
 import Navbar from "../components/Live/Navbar";
 import Footer from "../components/Live/Footer";
-import Services from "../components/MicrosoftConsulting/Services";
-import ComputerVisionAI from "../components/MicrosoftConsulting/ComputerVisionAI";
-import PageBanner from "../components/MicrosoftConsulting/PageBanner";
-import TechDetailsContent from "../components/MicrosoftConsulting/TechDetailsContent";
+import Services from "../components/MicrosoftAzure/Services";
+import WhyChooseSAT from "../components/MicrosoftAzure/WhyChooseSAT";
+import PageBanner from "../components/MicrosoftAzure/PageBanner";
+import TechDetailsContent from "../components/MicrosoftAzure/TechDetailsContent";
 import MainServices from "../components/Live/MainServices";
-import BlogPostSlider from "../components/MicrosoftConsulting/BlogPostSlider";
+import BlogPostSlider from "../components/MicrosoftAzure/BlogPostSlider";
 import ContactFormContent from "../components/Common/ContactFormContent";
 import Link from "next/link";
 import Head from 'next/head';
@@ -17,18 +17,18 @@ const Index = () => {
     <>
 
       <Head>
-        <title>Microsoft Dynamics CRM Consulting Services | SA Technologies</title>
-        <meta property="og:title" content="Microsoft Dynamics CRM Consulting Services | SA Technologies" key="title" />
-        <meta name="description" content="SA Technologies is a Microsoft Gold partner with 17 years of expertise in Comprehensive Microsoft Dynamics 365 CRM consulting services." key="description" />
+        <title>Microsoft Azure Services | SA Technologies</title>
+        <meta property="og:title" content="Microsoft Azure Services | SA Technologies" key="title" />
+        <meta name="description" content="Make your organization more efficient and gain agility with our Microsoft Azure Services We focus on finding the right problem and strive to overcome it" key="description" />
       </Head>
 
       <Navbar />
       <PageBanner
-        pageTitle="Accelerate your business growth with Dynamics 365, the next generation of CRM and ERP applications."
+        pageTitle="Make your organization more efficient and gain agility with our Microsoft Azure Services."
         homePageUrl="/"
         homePageText="Home"
-        activePageText="Microsoft Dynamics-365 crm consulting services"
-        bgImgClass="item-bg15"
+        activePageText="Microsoft Azure"
+        bgImgClass="item-bg16"
       />
       
 
@@ -61,6 +61,7 @@ const Index = () => {
       {/* <ComputerVisionAI /> */}
 
       <Services />
+
       <div className="col-lg-12 col-md-12">
         <div className="ai-all-services-btn ptb-50">
           <Link href="/contact-us/" className="btn btn-primary">
@@ -68,6 +69,9 @@ const Index = () => {
           </Link>
         </div>
       </div>
+
+      <WhyChooseSAT />             
+
       <MainServices />
       <BlogPostSlider />
 

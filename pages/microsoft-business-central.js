@@ -1,13 +1,14 @@
 
 import Navbar from "../components/Live/Navbar";
 import Footer from "../components/Live/Footer";
-import Services from "../components/MicrosoftConsulting/Services";
-import ComputerVisionAI from "../components/MicrosoftConsulting/ComputerVisionAI";
-import PageBanner from "../components/MicrosoftConsulting/PageBanner";
-import TechDetailsContent from "../components/MicrosoftConsulting/TechDetailsContent";
+import Services from "../components/MicrosoftBusiness/Services";
+import PageBanner from "../components/MicrosoftBusiness/PageBanner";
+import TechDetailsContent from "../components/MicrosoftBusiness/TechDetailsContent";
 import MainServices from "../components/Live/MainServices";
-import BlogPostSlider from "../components/MicrosoftConsulting/BlogPostSlider";
+import BlogPostSlider from "../components/MicrosoftBusiness/BlogPostSlider";
 import ContactFormContent from "../components/Common/ContactFormContent";
+import AboutAI from "../components/MicrosoftBusiness/AboutAI";
+import ServicesBox from "../components/MicrosoftBusiness/ServicesBox";
 import Link from "next/link";
 import Head from 'next/head';
 
@@ -17,26 +18,27 @@ const Index = () => {
     <>
 
       <Head>
-        <title>Microsoft Dynamics CRM Consulting Services | SA Technologies</title>
-        <meta property="og:title" content="Microsoft Dynamics CRM Consulting Services | SA Technologies" key="title" />
-        <meta name="description" content="SA Technologies is a Microsoft Gold partner with 17 years of expertise in Comprehensive Microsoft Dynamics 365 CRM consulting services." key="description" />
+        <title>Dynamics 365 Business Central | SA Technologies Partner</title>
+        <meta property="og:title" content="Dynamics 365 Business Central | SA Technologies Partner" key="title" />
+        <meta name="description" content="Unlock seamless Business Central Implementation with SA Technologies, a Microsoft Gold Partner. Services include Nav to BC Migration and Integration." key="description" />
       </Head>
 
       <Navbar />
       <PageBanner
-        pageTitle="Accelerate your business growth with Dynamics 365, the next generation of CRM and ERP applications."
+        pageTitle="Business Central Implementation"
         homePageUrl="/"
         homePageText="Home"
-        activePageText="Microsoft Dynamics-365 crm consulting services"
-        bgImgClass="item-bg15"
+        activePageText="Microsoft Business"
+        bgImgClass="item-bg17"
       />
       
 
       <TechDetailsContent />
 
-      <div className="GCCJourney" >
+
+      <div className="" >
           <div className="container">
-            <div className="row ptb-100 pb-100 align-items-center">
+            <div className="row pb-100 align-items-center">
               <div className="col-lg-7 col-md-7">
                 <h2 className="align-items-center"
                   style={{
@@ -57,10 +59,9 @@ const Index = () => {
             </div>
           </div>
         </div>
+      
+      <AboutAI />
 
-      {/* <ComputerVisionAI /> */}
-
-      <Services />
       <div className="col-lg-12 col-md-12">
         <div className="ai-all-services-btn ptb-50">
           <Link href="/contact-us/" className="btn btn-primary">
@@ -68,6 +69,23 @@ const Index = () => {
           </Link>
         </div>
       </div>
+
+      <ServicesBox />
+
+      
+
+      {/* <ComputerVisionAI /> */}
+
+      <Services />
+
+      
+
+      
+
+      {/* <WhyChooseSAT />   */}
+
+
+
       <MainServices />
       <BlogPostSlider />
 
