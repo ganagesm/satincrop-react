@@ -50,7 +50,7 @@ const GooglecloudGenai = () => {
                   style={{
                     textAlign: "",
                   }}
-                >Free engineering help from the SA Technologies team to quickly transition to vertex AI and $350k in GCP credits</h2>
+                >Free engineering help from the SAT team to quickly transition to vertex AI and $350k in GCP credits</h2>
               </div>
               <div className="col-lg-4 col-md-4"
                 style={{
