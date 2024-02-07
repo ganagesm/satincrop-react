@@ -33,7 +33,7 @@ const ComputerVisionAI = () => {
                   <div className="col-lg-4 col-sm-4">
                     <div className="vision-ai-inner-card">
                       <div className="">
-                      <a href="/microsoft-azure/">  <h4>Microsoft Azure</h4></a>
+                      <a href="">  <h4>Microsoft Azure</h4></a>
                       </div>
                       <p>
                       Microsoft Azure is a versatile cloud platform, offering a wide 
@@ -46,7 +46,7 @@ const ComputerVisionAI = () => {
                   <div className="col-lg-4 col-sm-4">
                     <div className="vision-ai-inner-card">
                       <div className="">
-                      <a href="/microsoft-365/"> <h4>Microsoft 365</h4></a>
+                      <a href=""> <h4>Microsoft 365</h4></a>
                       </div>
                       <p>
                       A suite of premier Office applications and collaboration tools, 
@@ -73,7 +73,7 @@ const ComputerVisionAI = () => {
                   <div className="col-lg-4 col-sm-4">
                     <div className="vision-ai-inner-card">
                       {/* <div className="content"> */}
-                      <a href="/power-bi-platform/">
+                      <a href="">
                         <h4>Power BI Platform</h4>
                       </a>
                       <p>
@@ -86,7 +86,7 @@ const ComputerVisionAI = () => {
                   <div className="col-lg-4 col-sm-4">
                     <div className="vision-ai-inner-card">
                       {/* <div className="content"> */}
-                      <a href="/microsoft-business-central/">
+                      <a href="">
                         <h4>Business Central</h4>
                       </a>
                       <p>
