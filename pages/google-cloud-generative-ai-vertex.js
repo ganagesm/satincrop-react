@@ -23,7 +23,7 @@ const GooglecloudGenai = () => {
 
       <Navbar />
       <PageBanner
-        pageTitle="SA Technologies can help you transform your business with generative AI on google cloud. "
+        pageTitle="SA Technologies can help you transform your business with generative AI on Google Cloud. "
         homePageUrl="/"
         homePageText="Technology"
         activePageText=" Google Cloud Generative AI"
