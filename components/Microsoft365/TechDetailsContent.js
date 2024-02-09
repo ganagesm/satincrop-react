@@ -23,7 +23,7 @@ const ServiceDetailsContent = () => {
 
             <div className="services-details-image">
               <img
-                src="/images/services-details/Microsoft365_right.png"
+                src="/images/services-details/Microsoft365_right.jpg"
                 alt="image"
               />
             </div>

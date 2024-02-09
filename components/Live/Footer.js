@@ -128,7 +128,7 @@ const Footer = () => {
                     <Link href="/microsoft">  Microsoft </Link>
                   </li>
                   <li>
-                    <Link href="/google-cloud">Google</Link>
+                    <Link href="/google-cloud">Google Cloud</Link>
                   </li>
                   <li>
                     <Link href="/google-cloud-generative-ai-vertex/">Vertex AI</Link>

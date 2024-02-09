@@ -7,10 +7,10 @@ const MainServices = () => {
       <div className="main-services-area" style={{marginTop:"50px",}}>
         <div className="container">
            <div className="section-title">
-            <h2>Discover all-in-one solutions with Microsoft 365 Business Plans, offering innovative Office apps, intelligent Cloud services, and top-notch security. </h2>
-            {/* <p> Explore your industry with SA Technologies & learn how organizations are digitally transforming with industry solutions. </p> */}
+            <h2>Modernize Your Workplace with Microsoft 365</h2>
+             <p> Get Suitable M365 Business & Enterprise Plans at Competitive Prices with the Top Microsoft Gold Partner </p> 
           </div> 
-          <div className="row justify-content-center">
+          {/* <div className="row justify-content-center">
             <div className="col-lg-4 col-sm-6 col-md-6">
               <div className="single-main-services-box">
                 <img
@@ -113,7 +113,7 @@ const MainServices = () => {
             </div>
 
             
-          </div>
+          </div> */}
         </div>
       </div>
     </>
