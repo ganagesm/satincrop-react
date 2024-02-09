@@ -20,7 +20,7 @@ const ServiceDetailsContent = () => {
 
             <div className="services-details-image">
               <img
-                src="/images/services-details/Microsoft365_right.png"
+                src="/images/services-details/Powerbi.png"
                 alt="image"
               />
             </div>
@@ -34,7 +34,7 @@ const ServiceDetailsContent = () => {
 
           <div className="services-details-image">
               <img
-                src="/images/services-details/Microsoft365_left.png"
+                src="/images/services-details/Powerbi-left.png"
                 alt="image"
               />
             </div>

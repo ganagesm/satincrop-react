@@ -21,7 +21,7 @@ const ServiceDetailsContent = () => {
 
             <div className="services-details-image">
               <img
-                src="/images/services-details/Microsoft365_right.png"
+                src="/images/services-details/dynamics-365-business-central-side.png"
                 alt="image"
               />
             </div>
