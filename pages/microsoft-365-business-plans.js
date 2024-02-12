@@ -36,6 +36,7 @@ const Index = () => {
       />
       
       <Microsoftservices />
+      
       <TechDetailsContent />
 
       <section className="outer-sec-ban" id="ms-plans">

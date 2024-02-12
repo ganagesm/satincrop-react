@@ -26,11 +26,11 @@ const Index = () => {
 
       <Navbar />
       <PageBanner
-        pageTitle="Unify your business data on a single dashboard & experience-rich visuals at Cloud Speed. "
+        pageTitle="Transform your Data with Power BI Consulting Services"
         homePageUrl="/"
         homePageText="Home"
         activePageText="Power-BI-Platform"
-        bgImgClass="item-bg17"
+        bgImgClass="item-bg19"
       />
       
 
