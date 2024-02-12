@@ -34,6 +34,29 @@ const HeroBanner = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
+          <div
+            className="main-banner"
+            style={{ backgroundImage: `url(/images/icons/home-banner-3.png)`,backgroundSize: "100% 100%", }}
+          >
+            <div className="container">
+              <div className="main-banner-content" style={{float:"right" }}>
+              <h1 style={{ color: "#000", marginBottom:"20px",fontSize: "50px" }}> Leading the Future of AI with Vertex AI Expertise <br /> Where Data Meets Transformation </h1>
+                
+               
+                <div className="btn-box">
+                  <Link href="/google-cloud-generative-ai-vertex/" className="btn btn-primary" style={{marginRight:"20px"}}>
+                     Explore More
+                  </Link>
+                
+                  <Link href="/contact-us/" className="btn btn-primary">
+                    Get in touch now
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
           {/* <div className="main-banner homeBannerSecond"> */}
           <div
             className="main-banner"
@@ -55,23 +78,7 @@ const HeroBanner = () => {
             </div>
           </div>
         </SwiperSlide>
-        {/* <SwiperSlide>
-          <div
-            className="main-banner"
-            style={{ backgroundImage: `url(/images/icons/4.png)`,backgroundSize: "100% 100%", }}
-          >
-            <div className="container">
-              <div className="main-banner-content">
-              <h1 style={{ color: "#fff" }}> Making Recruiting More Human-Centered </h1>
-                <div className="btn-box">
-                  <Link href="/contact" className="btn btn-primary">
-                    Get in touch now
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-        </SwiperSlide> */}
+        
       </Swiper>
     </>
   );
