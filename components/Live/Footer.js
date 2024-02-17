@@ -128,10 +128,10 @@ const Footer = () => {
                     <Link href="/microsoft">  Microsoft </Link>
                   </li>
                   <li>
-                    <Link href="/google-cloud">Google</Link>
+                    <Link href="/google-cloud">Google Cloud</Link>
                   </li>
                   <li>
-                    <Link href="/oracle">Oracle</Link>
+                    <Link href="/google-cloud-generative-ai-vertex/">Vertex AI</Link>
                   </li>
                   <li>
                     <Link href="/aws-services">AWS</Link>

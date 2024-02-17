@@ -2566,11 +2566,11 @@ Blog Details Area CSS
     margin-right: 10px;
     position: relative;
 }
-.blog-details .article-footer .article-tags a::before {
+/* .blog-details .article-footer .article-tags a::before {
     content: ",";
     position: absolute;
     right: -4px;
-}
+} */
 .blog-details .article-footer .article-tags a::before:last-child {
     display: none;
 }
@@ -3114,6 +3114,27 @@ Page Title Area CSS
 }
 .page-title-area.item-bg14 {
     background-image: url(/images/technology-banner/RPO.png);
+}
+.page-title-area.item-bg15 {
+    background-image: url(/images/technology-banner/microsoftcrm-banner.jpg);
+}
+.page-title-area.item-bg16 {
+    background-image: url(/images/technology-banner/Microsoft_azure_banner.jpg);
+}
+.page-title-area.item-bg17 {
+    background-image: url(/images/technology-banner/Microsoft365_banner.jpg);
+}
+.page-title-area.item-bg18 {
+    background-image: url(/images/technology-banner/google_gne_ai.png);
+}
+.page-title-area.item-bg19 {
+    background-image: url(/images/technology-banner/power_bi_banner.png);
+}
+.page-title-area.item-bg20 {
+    background-image: url(/images/technology-banner/dynamics-365-business-central-banner.png);
+}
+.page-title-area.item-bg21 {
+    background-image: url(/images/technology-banner/mserp.png);
 }
 
 .page-title-content h2 {

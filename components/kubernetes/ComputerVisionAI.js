@@ -33,7 +33,7 @@ const ComputerVisionAI = () => {
                   <div className="col-lg-4 col-sm-4">
                     <div className="vision-ai-inner-card">
                       <div className="">
-                        <h4>Microsoft Azure</h4>
+                      <a href="/Microsoft-azure-consulting-services/"> <h4>Microsoft Azure</h4></a>
                       </div>
                       <p>
                       Microsoft Azure is a versatile cloud platform, offering a wide 
@@ -46,7 +46,7 @@ const ComputerVisionAI = () => {
                   <div className="col-lg-4 col-sm-4">
                     <div className="vision-ai-inner-card">
                       <div className="">
-                        <h4>Microsoft 365</h4>
+                      <a href="/microsoft-365-business-plans/"> <h4>Microsoft 365</h4></a>
                       </div>
                       <p>
                       A suite of premier Office applications and collaboration tools, 
@@ -60,7 +60,7 @@ const ComputerVisionAI = () => {
                     <div className="vision-ai-inner-card">
                       {/* <div className="content"> */}
                       <div className="">
-                        <h4>Microsoft Dynamics CRM</h4>
+                       <a href="/microsoft-dynamics-365-crm-consulting-services/"> <h4>Microsoft Dynamics CRM</h4></a>
                       </div>
                       <p>
                         {" "}
@@ -73,9 +73,9 @@ const ComputerVisionAI = () => {
                   <div className="col-lg-4 col-sm-4">
                     <div className="vision-ai-inner-card">
                       {/* <div className="content"> */}
-                      <div className="">
+                      <a href="/power-bi-platform/">
                         <h4>Power BI Platform</h4>
-                      </div>
+                      </a>
                       <p>
                         {" "}
                         Power BI turns raw data into vivid visual reports, facilitating 
@@ -86,9 +86,9 @@ const ComputerVisionAI = () => {
                   <div className="col-lg-4 col-sm-4">
                     <div className="vision-ai-inner-card">
                       {/* <div className="content"> */}
-                      <div className="">
+                      <a href="/dynamics-365-business-central-implementation/">
                         <h4>Business Central</h4>
-                      </div>
+                      </a>
                       <p>
                         {" "}
                         Designed for SMEs, Business Central is a comprehensive 
@@ -99,9 +99,9 @@ const ComputerVisionAI = () => {
                   <div className="col-lg-4 col-sm-4">
                     <div className="vision-ai-inner-card">
                       {/* <div className="content"> */}
-                      <div className="">
+                      <a href="/microsoft-365-enterprise/">
                         <h4>Microsoft Dynamics ERP</h4>
-                      </div>
+                      </a>
                       <p>
                         {" "}
                         An integrated business solution, Dynamics ERP seamlessly manages 

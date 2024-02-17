@@ -8,7 +8,7 @@ const MainServices = () => {
         <div className="container">
           <div className="section-title">
             <h2>Industry</h2>
-            <p> Explore your industry with SA Technologies & learn how organizations are digitally transforming with industry solutions. </p>
+            <p> Explore your industry with SAT & learn how organizations are digitally transforming with industry solutions. </p>
           </div>
           <div className="row justify-content-center">
             <div className="col-lg-4 col-sm-6 col-md-6">

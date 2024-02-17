@@ -43,7 +43,7 @@ const ContactFormContent = () => {
             <span>Message Us</span>
             <h2>Drop us a Message with any inquiry</h2>
             <p>
-              Thank you for your interest in SA Technologies. We’d like to ask you a few questions to get to know you and your requirements better.
+              Thank you for your interest in SAT. We’d like to ask you a few questions to get to know you and your requirements better.
             </p>
           </div>
 
