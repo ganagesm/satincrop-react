@@ -19,7 +19,7 @@ const ServiceDetailsContent = () => {
 
             <div className="services-details-image">
               <img
-                src="/images/services-details/google_gen_side_img.png"
+                src="/images/services-details/data-analytics.jpg"
                 alt="image"
               />
             </div>

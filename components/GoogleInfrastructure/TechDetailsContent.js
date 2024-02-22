@@ -21,14 +21,14 @@ const ServiceDetailsContent = () => {
             </div>
             <div className="services-details-image">
               <img
-                src="/images/services-details/google_gen_side_img.png"
+                src="/images/services-details/Infrastructure modernization.jpg"
                 alt="image" />
             </div>
           </div>
           <div className="services-details-overview">
             <div className="services-details-image">
               <img
-                src="/images/services-details/google_gen_side_img.png"
+                src="/images/services-details/SAP-Solutions-Google-Cloud.jpg"
                 alt="image" />
             </div>
             <div className="services-details-desc mb-30">
@@ -49,14 +49,14 @@ const ServiceDetailsContent = () => {
             </div>
             <div className="services-details-image">
               <img
-                src="/images/services-details/google_gen_side_img.png"
+                src="/images/services-details/VMware Cloud Services.jpg"
                 alt="image" />
             </div>
           </div>
           <div className="services-details-overview">
             <div className="services-details-image">
               <img
-                src="/images/services-details/google_gen_side_img.png"
+                src="/images/services-details/Cloud-Integrated Backup and Disaster Recovery.jpg"
                 alt="image" />
             </div>
             <div className="services-details-desc mb-30">
@@ -76,14 +76,14 @@ const ServiceDetailsContent = () => {
             </div>
             <div className="services-details-image">
               <img
-                src="/images/services-details/google_gen_side_img.png"
+                src="/images/services-details/High-Performance Computing (HPC).jpg"
                 alt="image" />
             </div>
           </div>
           <div className="services-details-overview">
             <div className="services-details-image">
               <img
-                src="/images/services-details/google_gen_side_img.png"
+                src="/images/services-details/Microsoft and Windows Solutions on Google Cloud.jpg"
                 alt="image" />
             </div>
             <div className="services-details-desc mb-30">
@@ -104,14 +104,14 @@ const ServiceDetailsContent = () => {
             </div>
             <div className="services-details-image">
               <img
-                src="/images/services-details/google_gen_side_img.png"
+                src="/images/services-details/Virtual Desktop Infrastructure (VDI).jpg"
                 alt="image" />
             </div>
           </div>
           <div className="services-details-overview">
             <div className="services-details-image">
               <img
-                src="/images/services-details/google_gen_side_img.png"
+                src="/images/services-details/Bare Metal Solution.jpg"
                 alt="image" />
             </div>
             <div className="services-details-desc mb-30">
@@ -131,14 +131,14 @@ const ServiceDetailsContent = () => {
             </div>
             <div className="services-details-image">
               <img
-                src="/images/services-details/google_gen_side_img.png"
+                src="/images/services-details/Data Center Migration.jpg"
                 alt="image" />
             </div>
           </div>
           <div className="services-details-overview">
             <div className="services-details-image">
               <img
-                src="/images/services-details/google_gen_side_img.png"
+                src="/images/services-details/Intelligence Operations with Active Assist.jpg"
                 alt="image" />
             </div>
             <div className="services-details-desc mb-30">
