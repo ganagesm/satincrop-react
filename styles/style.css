@@ -3137,10 +3137,20 @@ Page Title Area CSS
     background-image: url(/images/technology-banner/mserp.png);
 }
 .page-title-area.item-bg22 {
-    background-image: url(/images/technology-banner/mserp.png);
+    background-image: url(/images/technology-banner/InfrastructureModernizationbanner.jpg);
 }
 .page-title-area.item-bg23 {
-    background-image: url(/images/technology-banner/mserp.png);
+    background-image: url(/images/technology-banner/Google-data-analytics-banner.jpg);
+}
+
+.page-title-area.item-bg24 {
+    background-image: url(/images/technology-banner/google-education-banner.jpg);
+}
+.page-title-area.item-bg25 {
+    background-image: url(/images/technology-banner/Google-workspace-banner.jpg);
+}
+.page-title-area.item-bg26 {
+    background-image: url(/images/technology-banner/Application-banner.jpg);
 }
 
 .page-title-content h2 {
