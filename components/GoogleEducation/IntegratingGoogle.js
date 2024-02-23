@@ -11,7 +11,11 @@ const ServiceDetailsContent = () => {
               
               
               <p>SAT is dedicated to integrating Google for Education into your institution, offering tools and 
-                solutions that pave the way for a more interactive, secure, and efficient educational journey. Reach out to us to discover how we can help you leverage these technologies for unparalleled educational success.</p>
+                solutions that pave the way for a more interactive, secure, and efficient educational journey. 
+                Reach out to us to discover how we can help you leverage these technologies for unparalleled 
+                educational success.</p>
+              <p>Connect and empower your school community with Google for Education. Select the edition that best fits 
+                your educational needs and start transforming the way you teach and learn.</p>  
             </div>
 
             <div className="services-details-image">

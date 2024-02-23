@@ -6,7 +6,7 @@ const AboutAI = () => {
     <>
       <div className="ai-about-area ptb-100">
         <div className="container">
-          <div className="row align-items-center">
+          <div className="row align-items-center pt-100">
             <div className="col-lg-6 col-md-12">
               <div className="ai-about-image">
                 <img src="/images/services-details/Google-workspace.jpg" alt="image" />
@@ -45,7 +45,7 @@ const AboutAI = () => {
             </div>
           </div>
 
-          <div className="row align-items-center">
+          <div className="row align-items-center pt-100">
             <div className="col-lg-6 col-md-12">
               <div className="ai-about-content">
                 <h5>Google Classroom: Your Learning Management System</h5>
@@ -63,7 +63,7 @@ const AboutAI = () => {
             </div>
           </div>
 
-          <div className="row align-items-center">
+          <div className="row align-items-center pt-100">
             <div className="col-lg-6 col-md-12">
               <div className="ai-about-image">
                 <img src="/images/services-details/Google-Chromebook.jpg" alt="image" />

@@ -23,7 +23,7 @@ const MainServices = () => {
                   }}
                 />
                 <h3>
-                  <Link href="#contact">
+                  <Link href="google-for-education">
                     Education
                   </Link>
                 </h3>
@@ -31,7 +31,7 @@ const MainServices = () => {
                   Elevate learning experiences with innovative tools and immersive content.
                 </p>
 
-                <Link href="#contact" className="link-btn">
+                <Link href="google-for-education" className="link-btn">
                   Read More
                 </Link>
               </div>

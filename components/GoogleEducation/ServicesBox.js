@@ -13,7 +13,7 @@ const Services = () => {
           <div className="row justify-content-center">
             <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="single-services-card">
-                <div className="image-icon">
+                <div className="image-icon" style={{width:"127px",height: "117px"}}>
                   <img src="/images/google/googleworkspace.jpg" alt="icon" />
                 </div>
                 <h3> Google Workspace for Education</h3>
@@ -26,7 +26,7 @@ const Services = () => {
 
             <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="single-services-card">
-                <div className="image-icon bg-two">
+                <div className="image-icon bg-two" style={{width:"127px",height: "117px"}}>
                   <img src="/images/google/googleclasroom.jpg" alt="icon" />
                 </div>
                 <h3>Google Classroom</h3>
@@ -39,7 +39,7 @@ const Services = () => {
 
             <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="single-services-card">
-                <div className="image-icon">
+                <div className="image-icon" style={{width:"127px",height: "117px"}}>
                   <img src="/images/google/chromebook.jpg" alt="icon" />
                 </div>
                 <h3>Future-Proof Education with Chromebooks</h3>
