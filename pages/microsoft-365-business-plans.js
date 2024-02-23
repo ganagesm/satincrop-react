@@ -320,7 +320,7 @@ const Index = () => {
                   style={{
                     textAlign: "right",
                   }}
-                >Connect with our Dynamics 365 CRM Expert now</h2>
+                >Connect with our Expert now</h2>
               </div>
               <div className="col-lg-5 col-md-5"
                 style={{
