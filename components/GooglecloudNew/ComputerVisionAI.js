@@ -26,7 +26,7 @@ const ComputerVisionAI = () => {
                   <div className="col-lg-6 col-sm-6">
                     <div className="vision-ai-inner-card">
                       <div className="">
-                       <a href=""> <h4>Generative AI with Vertex</h4></a>
+                       <a href="/google-cloud-generative-ai-vertex/"> <h4>Generative AI with Vertex</h4></a>
                       </div>
                       <p>GenAI is a powerful new  technology that can be used to create unique content and unleash business growth. SAT is a cloud consulting company that offers generative AI solutions to businesses of all sizes.
                           SAT’s generative AI solutions are powered by Google Cloud's Vertex AI platform. SAT offers a variety of resources to help businesses learn about and adopt generative AI, including consultations, workshops.
