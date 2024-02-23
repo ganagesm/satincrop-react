@@ -41,7 +41,52 @@ const Index = () => {
       <MainServices />
       {/* <BlogPostSlider /> */}
       <BlogPostSlider />
-      <ContactFormContent />
+      {/* <ContactFormContent /> */}
+      <section className="contact-area ptb-110 bg-f2f6f9">
+        <div className="container">
+          <div className="section-title" style={{ marginBottom: "20px" }}>
+            <span>Message Us</span>
+            <h3>Contact us by Phone Number or Email Address</h3>
+          </div>
+
+          {/* Contact info */}
+          <div className="contact-info">
+            <div className="contact-info-content">
+              {/* <h2 style={{ marginBottom: "20px" }}>
+                Contact us by Phone Number or Email Address
+              </h2> */}
+              <h5>Click on the chatbot to connect with our Expert</h5>
+              <h5>
+                Contact us by WhatsApp with
+                <Link
+                  href="https://api.whatsapp.com/send/?phone=%2B9107875787550&text=Hello!%20I%27m%20interested%20in%20exploring%20your%20SAT%20Services.%20Can%20you%20share%20more%20details?"
+                  target="_blank"
+                  className="">
+                  <img
+                    src="/images/icon/whatsApp-logo.svg"
+                    width={"80px"}
+                    alt="whatsapp"
+                  />
+                </Link>
+              </h5>
+              <h2 style={{ padding: "10px 0" }}>
+                <span className="number">
+                  USA : <a href="tel:(408)-495-5822">(408)-495-5822</a>
+                </span>
+                <span className="number">&nbsp;&nbsp;&nbsp;</span>
+                <span className="number">
+                  India : <a href="tel:+917875787550">+91 78757 87550</a>
+                </span>
+              </h2>
+              <h2>
+                <span className="email">
+                  <a href="mailto:sales@satincorp.com">sales@satincorp.com</a>
+                </span>
+              </h2>
+            </div>
+          </div>
+        </div>
+      </section>
       <Footer />
     </>
   )

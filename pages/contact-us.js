@@ -1,10 +1,10 @@
 import React from "react";
+import Head from 'next/head';
 import Navbar from "../components/Live/Navbar";
 import PageBanner from "../components/Common/PageBanner";
 import ContactFormContent from "../components/Contact/ContactFormContent";
 import Services from "../components/Contact/Services";
 import Footer from "../components/Live/Footer";
-import Head from 'next/head';
 
 const Contact = () => {
   return (
