@@ -18,7 +18,7 @@ const AboutAI = () => {
 
             <div className="col-lg-6 col-md-12">
               <div className="ai-about-content">
-                <h3>Why SA Technologies for FMCD Solutions</h3>
+                <h3>Why SA Technologies for Retail Solutions?</h3>
                 {/* <p>
                   Embark on your journey with Google for Education by exploring
                   our range of products tailored for educational success
@@ -29,31 +29,35 @@ const AboutAI = () => {
                 <ul className="about-list">
                   <li>
                     <i className="fa-solid fa-check"></i>
-                    <strong>Expertise in FMCD:</strong> Specialized knowledge
-                    and years of experience in the FMCD sector.
+                    <strong>Retail Expertise:</strong> Our team has extensive
+                    experience in the retail sector, ensuring solutions that are
+                    both innovative and practical.
                   </li>
                   <li>
                     <i className="fa-solid fa-check"></i>
-                    <strong> Innovative Solutions:</strong> Cutting-edge
-                    technology tailored to meet the unique challenges of the
-                    industry.
+                    <strong> Customized Approach:</strong> We understand the
+                    unique challenges faced by retailers and offer customized
+                    solutions to meet these specific needs.
                   </li>
                   <li>
                     <i className="fa-solid fa-check"></i>
-                    <strong> Customer-Centric Approach:</strong> We prioritize
-                    your needs and goals, offering personalized solutions.
+                    <strong> Smooth Integration:</strong> Our experts ensure a
+                    hassle-free integration of Google services into your
+                    existing retail operations, enhancing efficiency without
+                    disruption.
                   </li>
                   <li>
                     <i className="fa-solid fa-check"></i>
-                    <strong>Global Reach with Local Insight:</strong> Our global
-                    presence combined with local market understanding ensures
-                    that you receive the best of both worlds.
+                    <strong>Continuous Support:</strong> SA Technologies
+                    provides ongoing support and training, helping you maximize
+                    the benefits of your technology investment.
                   </li>
                   <li>
                     <i className="fa-solid fa-check"></i>
-                    <strong>Commitment to Excellence:</strong> Quality and
-                    innovation are at the heart of everything we do, aiming to
-                    exceed your expectations.
+                    <strong>Track Record of Success:</strong> We are committed
+                    to your success, with a history of helping retail clients
+                    achieve significant improvements in customer engagement,
+                    operational efficiency, and sales growth.
                   </li>
                 </ul>
               </div>

@@ -26,14 +26,14 @@ const MainServices = () => {
                   }}
                 />
                 <h3>
-                  <Link href="google-for-education">Education</Link>
+                  <Link href="/google-for-education/">Education</Link>
                 </h3>
                 <p>
                   Elevate learning experiences with innovative tools and
                   immersive content.
                 </p>
 
-                <Link href="google-for-education" className="link-btn">
+                <Link href="/google-for-education/" className="link-btn">
                   Read More
                 </Link>
               </div>
@@ -51,14 +51,14 @@ const MainServices = () => {
                   }}
                 />
                 <h3>
-                  <Link href="#contact">Government</Link>
+                  <Link href="/government/">Government</Link>
                 </h3>
                 <p>
                   Reimagine governance with streamlined processes and
                   citizen-centric solutions.
                 </p>
 
-                <Link href="#contact" className="link-btn">
+                <Link href="/government/" className="link-btn">
                   Read More
                 </Link>
               </div>
@@ -76,15 +76,14 @@ const MainServices = () => {
                   }}
                 />
                 <h3>
-                  <Link href="#contact">Healthcare</Link>
+                  <Link href="/google-for-healthcare/">Healthcare</Link>
                 </h3>
                 <p>
-                  {" "}
                   Optimize patient outcomes with cutting-edge technology and
                   personalized care.
                 </p>
 
-                <Link href="#contact" className="link-btn">
+                <Link href="/google-for-healthcare/" className="link-btn">
                   Read More
                 </Link>
               </div>
@@ -95,14 +94,18 @@ const MainServices = () => {
                   <i className="flaticon-robot-1"></i>
                 </div>
                 <h3>
-                  <Link href="#contact">Media and Entertainment</Link>
+                  <Link href="/google-for-media-and-entertainment/">
+                    Media and Entertainment
+                  </Link>
                 </h3>
                 <p>
                   Revolutionize your media experience with enhanced creativity &
                   superior audience engagement.
                 </p>
 
-                <Link href="#contact" className="link-btn">
+                <Link
+                  href="/google-for-media-and-entertainment/"
+                  className="link-btn">
                   Read More
                 </Link>
               </div>
@@ -120,14 +123,14 @@ const MainServices = () => {
                   }}
                 />
                 <h3>
-                  <Link href="#contact">Manufacturing</Link>
+                  <Link href="/google-for-manufacturing/">Manufacturing</Link>
                 </h3>
                 <p>
                   Revolutionizing production lines with smart, sustainable, and
                   scalable solutions.
                 </p>
 
-                <Link href="#contact" className="link-btn">
+                <Link href="/google-for-manufacturing/" className="link-btn">
                   Read More
                 </Link>
               </div>
@@ -145,7 +148,7 @@ const MainServices = () => {
                   }}
                 />
                 <h3>
-                  <Link href="#contact">Semiconductor</Link>
+                  <Link href="/google-for-semiconductor/">Semiconductor</Link>
                 </h3>
                 <p>
                   {" "}
@@ -153,7 +156,7 @@ const MainServices = () => {
                   and innovations.
                 </p>
 
-                <Link href="#contact" className="link-btn">
+                <Link href="/google-for-semiconductor/" className="link-btn">
                   Read More
                 </Link>
               </div>
@@ -170,14 +173,16 @@ const MainServices = () => {
                   }}
                 />
                 <h3>
-                  <Link href="#contact">IT Product and services</Link>
+                  <Link href="/google-for-it-production/">
+                    IT Product and services
+                  </Link>
                 </h3>
                 <p>
                   Driving digital transformation with state-of-the-art IT
                   solutions and unparalleled services.{" "}
                 </p>
 
-                <Link href="#contact" className="link-btn">
+                <Link href="/google-for-it-production/" className="link-btn">
                   Read More
                 </Link>
               </div>
@@ -195,14 +200,14 @@ const MainServices = () => {
                   }}
                 />
                 <h3>
-                  <Link href="#contact">Retail</Link>
+                  <Link href="/google-for-retail/">Retail</Link>
                 </h3>
                 <p>
                   Redefining shopping experiences with curated solutions and
                   omnichannel engagement.
                 </p>
 
-                <Link href="#contact" className="link-btn">
+                <Link href="/google-for-retail/" className="link-btn">
                   Read More
                 </Link>
               </div>
@@ -220,7 +225,7 @@ const MainServices = () => {
                   }}
                 />
                 <h3>
-                  <Link href="#contact">FMCD</Link>
+                  <Link href="/google-for-fmcd/">FMCD</Link>
                 </h3>
                 <p>
                   {" "}
@@ -228,7 +233,7 @@ const MainServices = () => {
                   dependable products.
                 </p>
 
-                <Link href="#contact" className="link-btn">
+                <Link href="/google-for-fmcd/" className="link-btn">
                   Read More
                 </Link>
               </div>

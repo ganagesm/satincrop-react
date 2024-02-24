@@ -18,7 +18,7 @@ const AboutAI = () => {
 
             <div className="col-lg-6 col-md-12">
               <div className="ai-about-content">
-                <h3>Why SA Technologies for FMCD Solutions</h3>
+                <h3>Why Choose SAT for Your Healthcare Solutions? </h3>
                 {/* <p>
                   Embark on your journey with Google for Education by exploring
                   our range of products tailored for educational success
@@ -29,31 +29,27 @@ const AboutAI = () => {
                 <ul className="about-list">
                   <li>
                     <i className="fa-solid fa-check"></i>
-                    <strong>Expertise in FMCD:</strong> Specialized knowledge
-                    and years of experience in the FMCD sector.
+                    <strong>Expertise:</strong> Our specialists excel in
+                    deploying and customizing Google for Healthcare solutions,
+                    maximizing their impact for your organization.
                   </li>
                   <li>
                     <i className="fa-solid fa-check"></i>
-                    <strong> Innovative Solutions:</strong> Cutting-edge
-                    technology tailored to meet the unique challenges of the
-                    industry.
+                    <strong> Customized Solutions:</strong> Recognizing the
+                    unique needs of each healthcare entity, we tailor solutions
+                    to meet your specific objectives and challenges.
                   </li>
                   <li>
                     <i className="fa-solid fa-check"></i>
-                    <strong> Customer-Centric Approach:</strong> We prioritize
-                    your needs and goals, offering personalized solutions.
+                    <strong> Security Commitment:</strong> Protecting patient
+                    data is our utmost priority. We adhere to the strictest data
+                    protection standards to safeguard health information.
                   </li>
                   <li>
                     <i className="fa-solid fa-check"></i>
-                    <strong>Global Reach with Local Insight:</strong> Our global
-                    presence combined with local market understanding ensures
-                    that you receive the best of both worlds.
-                  </li>
-                  <li>
-                    <i className="fa-solid fa-check"></i>
-                    <strong>Commitment to Excellence:</strong> Quality and
-                    innovation are at the heart of everything we do, aiming to
-                    exceed your expectations.
+                    <strong>Ongoing Support:</strong> Beyond implementation, we
+                    offer continuous support and training, ensuring your team's
+                    proficiency and confidence in using these technologies.
                   </li>
                 </ul>
               </div>

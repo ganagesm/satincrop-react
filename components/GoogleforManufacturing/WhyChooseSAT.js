@@ -18,7 +18,7 @@ const AboutAI = () => {
 
             <div className="col-lg-6 col-md-12">
               <div className="ai-about-content">
-                <h3>Why SA Technologies for FMCD Solutions</h3>
+                <h3>Why Choose SAT for Your Manufacturing Solutions</h3>
                 {/* <p>
                   Embark on your journey with Google for Education by exploring
                   our range of products tailored for educational success
@@ -29,31 +29,27 @@ const AboutAI = () => {
                 <ul className="about-list">
                   <li>
                     <i className="fa-solid fa-check"></i>
-                    <strong>Expertise in FMCD:</strong> Specialized knowledge
-                    and years of experience in the FMCD sector.
+                    <strong>Proven Expertise:</strong> Our deep understanding of
+                    both Google technologies and the manufacturing sector sets
+                    us apart
                   </li>
                   <li>
                     <i className="fa-solid fa-check"></i>
-                    <strong> Innovative Solutions:</strong> Cutting-edge
-                    technology tailored to meet the unique challenges of the
-                    industry.
+                    <strong> Tailored Solutions:</strong> We customize Google's
+                    powerful tools to meet your specific operational needs,
+                    ensuring a perfect fit for your business.
                   </li>
                   <li>
                     <i className="fa-solid fa-check"></i>
-                    <strong> Customer-Centric Approach:</strong> We prioritize
-                    your needs and goals, offering personalized solutions.
+                    <strong> Seamless Integration:</strong> Our skilled team
+                    ensures smooth integration with your existing systems,
+                    minimizing disruption and maximizing benefits.
                   </li>
                   <li>
                     <i className="fa-solid fa-check"></i>
-                    <strong>Global Reach with Local Insight:</strong> Our global
-                    presence combined with local market understanding ensures
-                    that you receive the best of both worlds.
-                  </li>
-                  <li>
-                    <i className="fa-solid fa-check"></i>
-                    <strong>Commitment to Excellence:</strong> Quality and
-                    innovation are at the heart of everything we do, aiming to
-                    exceed your expectations.
+                    <strong>Ongoing ated Support:</strong> We provide continuous
+                    support and training, helping you get the most out of your
+                    investment.
                   </li>
                 </ul>
               </div>

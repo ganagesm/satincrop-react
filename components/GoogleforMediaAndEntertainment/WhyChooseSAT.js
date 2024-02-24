@@ -18,7 +18,7 @@ const AboutAI = () => {
 
             <div className="col-lg-6 col-md-12">
               <div className="ai-about-content">
-                <h3>Why SA Technologies for FMCD Solutions</h3>
+                <h3>Why Choose SA Technologies?</h3>
                 {/* <p>
                   Embark on your journey with Google for Education by exploring
                   our range of products tailored for educational success
@@ -29,31 +29,35 @@ const AboutAI = () => {
                 <ul className="about-list">
                   <li>
                     <i className="fa-solid fa-check"></i>
-                    <strong>Expertise in FMCD:</strong> Specialized knowledge
-                    and years of experience in the FMCD sector.
+                    <strong>Innovative Approach:</strong> We are at the
+                    forefront of technological advancements, constantly
+                    exploring new ways to leverage technology for creative
+                    expression and engagement.
                   </li>
                   <li>
                     <i className="fa-solid fa-check"></i>
-                    <strong> Innovative Solutions:</strong> Cutting-edge
-                    technology tailored to meet the unique challenges of the
-                    industry.
+                    <strong> Customized Solutions:</strong> Understanding that
+                    each business is unique, we offer tailored solutions that
+                    perfectly fit your specific needs and objectives.
                   </li>
                   <li>
                     <i className="fa-solid fa-check"></i>
-                    <strong> Customer-Centric Approach:</strong> We prioritize
-                    your needs and goals, offering personalized solutions.
+                    <strong> Expert Team:</strong> Our team of experts brings
+                    together years of experience in technology and the media and
+                    entertainment industry, ensuring you have the best minds
+                    working on your projects.
                   </li>
                   <li>
                     <i className="fa-solid fa-check"></i>
-                    <strong>Global Reach with Local Insight:</strong> Our global
-                    presence combined with local market understanding ensures
-                    that you receive the best of both worlds.
+                    <strong>Global Reach, Local Insight:</strong> With a
+                    presence in multiple countries, we offer the perfect blend
+                    of global technological trends and local market insights.
                   </li>
                   <li>
                     <i className="fa-solid fa-check"></i>
-                    <strong>Commitment to Excellence:</strong> Quality and
-                    innovation are at the heart of everything we do, aiming to
-                    exceed your expectations.
+                    <strong>Commitment to Excellence:</strong> Your success is
+                    our success. We are committed to delivering solutions that
+                    exceed your expectations and drive your business forward.
                   </li>
                 </ul>
               </div>

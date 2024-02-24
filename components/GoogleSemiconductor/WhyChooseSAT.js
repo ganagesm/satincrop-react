@@ -18,7 +18,7 @@ const AboutAI = () => {
 
             <div className="col-lg-6 col-md-12">
               <div className="ai-about-content">
-                <h3>Why SA Technologies for FMCD Solutions</h3>
+                <h3>Why SAT for Semiconductor Solutions?</h3>
                 {/* <p>
                   Embark on your journey with Google for Education by exploring
                   our range of products tailored for educational success
@@ -29,31 +29,36 @@ const AboutAI = () => {
                 <ul className="about-list">
                   <li>
                     <i className="fa-solid fa-check"></i>
-                    <strong>Expertise in FMCD:</strong> Specialized knowledge
-                    and years of experience in the FMCD sector.
+                    <strong>Specialized Expertise:</strong> Our team's
+                    specialized knowledge in the semiconductor industry and
+                    Google technologies delivers solutions that truly understand
+                    and meet your needs.
                   </li>
                   <li>
                     <i className="fa-solid fa-check"></i>
-                    <strong> Innovative Solutions:</strong> Cutting-edge
-                    technology tailored to meet the unique challenges of the
-                    industry.
+                    <strong> Customized Approach:</strong> We recognize the
+                    unique challenges of semiconductor manufacturing and offer
+                    customized Google solutions to address them effectively.
                   </li>
                   <li>
                     <i className="fa-solid fa-check"></i>
-                    <strong> Customer-Centric Approach:</strong> We prioritize
-                    your needs and goals, offering personalized solutions.
+                    <strong> Efficient Integration:</strong> Our experts ensure
+                    Google services integrate seamlessly with your existing
+                    systems, enhancing productivity without disrupting
+                    operations.
                   </li>
                   <li>
                     <i className="fa-solid fa-check"></i>
-                    <strong>Global Reach with Local Insight:</strong> Our global
-                    presence combined with local market understanding ensures
-                    that you receive the best of both worlds.
+                    <strong>Dedicated Support:</strong> Benefit from our ongoing
+                    support and training to maximize your technology investment
+                    and keep your operations running smoothly.
                   </li>
                   <li>
                     <i className="fa-solid fa-check"></i>
-                    <strong>Commitment to Excellence:</strong> Quality and
-                    innovation are at the heart of everything we do, aiming to
-                    exceed your expectations.
+                    <strong>Proven Success:</strong> Our commitment to
+                    excellence is evident in our track record, with
+                    semiconductor clients achieving significant gains in
+                    efficiency, quality, and innovation.
                   </li>
                 </ul>
               </div>
