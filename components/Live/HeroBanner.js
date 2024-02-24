@@ -14,16 +14,23 @@ const HeroBanner = () => {
           pauseOnMouseEnter: true,
         }}
         modules={[Navigation, Autoplay]}
-        className="home-slides"
-      >
+        className="home-slides">
         <SwiperSlide>
           <div
             className="main-banner"
-            style={{ backgroundImage: `url(/images/icons/home-banner-8.jpeg)` }}
-          >
+            style={{
+              backgroundImage: `url(/images/icons/home-banner-8.jpeg)`,
+            }}>
             <div className="container">
               <div className="main-banner-content">
-                <h1 style={{ color: "#fff" }}> AI First Software Development Company </h1>
+                <h1 style={{ color: "#fff" }}>
+                  Your Google Cloud AI Service Experts
+                </h1>
+                <p style={{ color: "#fff" }}>
+                  Migrate, modernize, and transform your business with the power
+                  of Google Cloud AI.
+                </p>
+                {/* <h1 style={{ color: "#fff" }}> AI First Software Development Company </h1> */}
                 <div className="btn-box">
                   <Link href="/contact-us/" className="btn btn-primary">
                     Get in touch now
@@ -36,18 +43,31 @@ const HeroBanner = () => {
         <SwiperSlide>
           <div
             className="main-banner"
-            style={{ backgroundImage: `url(/images/icons/home-banner-3.png)`,backgroundSize: "100% 100%", }}
-          >
+            style={{
+              backgroundImage: `url(/images/icons/home-banner-3.png)`,
+              backgroundSize: "100% 100%",
+            }}>
             <div className="container">
-              <div className="main-banner-content" style={{float:"right" }}>
-              <h1 style={{ color: "#000", marginBottom:"20px",fontSize: "50px" }}> Leading the Future of AI with Vertex AI Expertise <br /> Where Data Meets Transformation </h1>
-                
-               
+              <div className="main-banner-content" style={{ float: "right" }}>
+                <h1
+                  style={{
+                    color: "#000",
+                    marginBottom: "20px",
+                    fontSize: "50px",
+                  }}>
+                  {" "}
+                  Leading the Future of AI with Vertex AI Expertise <br /> Where
+                  Data Meets Transformation{" "}
+                </h1>
+
                 <div className="btn-box">
-                  <Link href="/google-cloud-generative-ai-vertex/" className="btn btn-primary" style={{marginRight:"20px"}}>
-                     Explore More
+                  <Link
+                    href="/google-cloud-generative-ai-vertex/"
+                    className="btn btn-primary"
+                    style={{ marginRight: "20px" }}>
+                    Explore More
                   </Link>
-                
+
                   <Link href="/contact-us/" className="btn btn-primary">
                     Get in touch now
                   </Link>
@@ -60,14 +80,31 @@ const HeroBanner = () => {
           {/* <div className="main-banner homeBannerSecond"> */}
           <div
             className="main-banner"
-            style={{ backgroundImage: `url(/images/icons/home-banner2.png)` }}
-          >
+            style={{ backgroundImage: `url(/images/icons/home-banner2.png)` }}>
             <div className="container">
               <div className="main-banner-content">
-                <h1 style={{ color: "#fff", marginTop: "10px", }}> Ecstatic with Immense Pride!</h1>
-                <p style={{ color: "#fff", margin: "10px 0 20px 0", fontSize:"20px" }}> We take pride to be recognized as </p>
-                
-                <h5 style={{ color: "#fff", marginTop: "10px", fontSize: '34px' }}>India's Best Workplace for Women in 2023</h5>
+                <h1 style={{ color: "#fff", marginTop: "10px" }}>
+                  {" "}
+                  Ecstatic with Immense Pride!
+                </h1>
+                <p
+                  style={{
+                    color: "#fff",
+                    margin: "10px 0 20px 0",
+                    fontSize: "20px",
+                  }}>
+                  {" "}
+                  We take pride to be recognized as{" "}
+                </p>
+
+                <h5
+                  style={{
+                    color: "#fff",
+                    marginTop: "10px",
+                    fontSize: "34px",
+                  }}>
+                  India's Best Workplace for Women in 2023
+                </h5>
                 <h2 style={{ color: "#fff" }}>Top 50 | Mid Size</h2>
                 <div className="btn-box">
                   <Link href="/careers/" className="btn btn-primary">
@@ -78,7 +115,6 @@ const HeroBanner = () => {
             </div>
           </div>
         </SwiperSlide>
-        
       </Swiper>
     </>
   );

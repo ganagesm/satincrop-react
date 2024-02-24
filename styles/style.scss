@@ -4300,6 +4300,16 @@ Page Title Area CSS
       image: url(/images/technology-banner/google-semiconducter.jpeg);
     }
   }
+  &.item-bg35 {
+    background: {
+      image: url(/images/google-banner-2.jpeg);
+    }
+    &::before {
+      content: '';
+      background-color: rgb(0 0 0 / 31%);
+    }
+  }
+  
 
 }
 
@@ -6423,7 +6433,7 @@ Main Banner Area CSS
     // height: 550px;
 
     padding: {
-      top: 30vh;
+      top: 20vh;
       bottom: 20vh;
     }
 

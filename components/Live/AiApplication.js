@@ -10,12 +10,13 @@ const AboutContact = () => {
             <div className="col-lg-10 col-md-12">
               <div className="about-content">
                 {/* <h2>Boost Your Business with SAT: Dive into Digital and AI</h2> */}
-                <h4>As your AI application modernization partner, SAT leads the way in digital transformation. Our 
-                  global team of experts specializes in tailoring digital solutions to meet your specific requirements, 
-                  driving innovation and success.
-                  </h4>
+                <h4>
+                  As your AI application modernization partner, SAT leads the
+                  way in digital transformation. Our global team of experts
+                  specializes in tailoring digital solutions to meet your
+                  specific requirements, driving innovation and success.
+                </h4>
               </div>
-              
             </div>
             {/* <div className="col-lg-6 col-md-12">
               <div className="about-image">
@@ -26,66 +27,42 @@ const AboutContact = () => {
           </div>
 
           <div className="services-area pt-50">
-        <div className="container">
-         
-          <div className="row justify-content-center">
-            <div className="col-lg-3 col-sm-6 col-md-6">
-              <div className="single-main-services-box">
-                <h3>
-                Take control
-                </h3>
-                <p>
-                of their digital <br /> transformation
-                </p>
+            <div className="container">
+              <div className="row justify-content-center">
+                <div className="col-lg-3 col-sm-6 col-md-6 d-flex">
+                  <div className="single-main-services-box flex-fill">
+                    <h3>Take control</h3>
+                    <p>
+                      of their digital <br /> transformation
+                    </p>
+                  </div>
+                </div>
+                <div className="col-lg-3 col-sm-6 col-md-6 d-flex">
+                  <div className="single-main-services-box flex-fill">
+                    <h3>Modernize</h3>
+                    <p>applications, legacy systems, and infrastructure</p>
+                  </div>
+                </div>
+                <div className="col-lg-3 col-sm-6 col-md-6 d-flex">
+                  <div className="single-main-services-box flex-fill">
+                    <h3>Build</h3>
+                    <p>and launch complex products rapidly and drive growth</p>
+                  </div>
+                </div>
+                <div className="col-lg-3 col-sm-6 col-md-6 d-flex">
+                  <div className="single-main-services-box flex-fill">
+                    <h3>Reduce</h3>
+                    <p>costs of IT and business operations</p>
+                  </div>
+                </div>
+              </div>
+              <div className="btn-box">
+                <Link href="/contact-us/" className="btn btn-primary ai_btn">
+                  Learn More
+                </Link>
               </div>
             </div>
-            <div className="col-lg-3 col-sm-6 col-md-6">
-              <div className="single-main-services-box">
-                <h3>
-                Modernize
-                </h3>
-                <p>
-                applications, legacy systems, and infrastructure
-                </p>
-              </div>
-            </div>
-            <div className="col-lg-3 col-sm-6 col-md-6">
-              <div className="single-main-services-box">
-                <h3>
-                Build
-                </h3>
-                <p>
-                and launch complex products rapidly and drive growth
-                </p>
-              </div>
-            </div>
-            <div className="col-lg-3 col-sm-6 col-md-6">
-              <div className="single-main-services-box">
-                <h3>
-                Reduce
-                </h3>
-                <p>
-                costs of IT and business operations
-                </p>
-              </div>
-            </div>
-            <div className="btn-box">
-                    <Link href="/contact-us/" className="btn btn-primary ai_btn">
-                      Learn More
-                    </Link>
-                  </div> 
           </div>
-        </div>
-      </div>
-
-
-
-
-
-
-
-
-
         </div>
 
         {/* Shape Images */}

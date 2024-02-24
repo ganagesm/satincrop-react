@@ -3173,6 +3173,13 @@ Page Title Area CSS
 .page-title-area.item-bg33 {
     background-image: url(/images/technology-banner/google-semiconducter.jpeg);
 }
+.page-title-area.item-bg35 {
+    background-image: url(/images/google-banner-2.jpeg);
+}
+.page-title-area.item-bg35::before {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.31);
+}
 
 .page-title-content h2 {
     margin-bottom: 0;
@@ -4608,7 +4615,7 @@ Main Banner Area CSS
 =================================================*/
 .home-slides .main-banner {
     height: auto;
-    padding-top: 30vh;
+    padding-top: 20vh;
     padding-bottom: 20vh;
 }
 .home-slides .main-banner .main-banner-content {
