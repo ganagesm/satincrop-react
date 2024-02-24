@@ -3151,6 +3151,10 @@ Page Title Area CSS
 .page-title-area.item-bg26 {
     background-image: url(/images/technology-banner/Application-banner.jpg);
 }
+.page-title-area.item-bg27 {
+    background-image: url(/images/technology-banner/fmcd-banner.png);
+    background-size: 100% 150%;
+}
 
 .page-title-content h2 {
     margin-bottom: 0;
