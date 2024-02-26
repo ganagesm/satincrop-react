@@ -81,8 +81,8 @@ const ContactFormContent = () => {
       <section className="contact-area ptb-110 bg-f2f6f9">
         <div className="container">
           <div className="section-title" style={{ marginBottom: "20px" }}>
-            <span>Message Us</span>
-            <h3>Contact us by Phone Number or Email Address</h3>
+            <span>Contact Us</span>
+            {/* <h3>Contact us by Phone Number or Email Address</h3> */}
           </div>
 
           {/* Contact info */}
@@ -91,9 +91,9 @@ const ContactFormContent = () => {
               {/* <h2 style={{ marginBottom: "20px" }}>
                 Contact us by Phone Number or Email Address
               </h2> */}
-              <h5>Click on the chatbot to connect with our Expert</h5>
+              <h5>Click on the below chatbot to connect with us</h5>
               <h5>
-                Contact us by WhatsApp with
+                Contact us by WhatsApp
                 <Link
                   href="https://api.whatsapp.com/send/?phone=%2B9107875787550&text=Hello!%20I%27m%20interested%20in%20exploring%20your%20SAT%20Services.%20Can%20you%20share%20more%20details?"
                   target="_blank"
@@ -105,7 +105,7 @@ const ContactFormContent = () => {
                   />
                 </Link>
               </h5>
-              <h2 style={{ padding: "10px 0" }}>
+              <h3 style={{ padding: "10px 0" }}>
                 <span className="number">
                   USA : <a href="tel:(408)-495-5822">(408)-495-5822</a>
                 </span>
@@ -113,12 +113,12 @@ const ContactFormContent = () => {
                 <span className="number">
                   India : <a href="tel:+917875787550">+91 78757 87550</a>
                 </span>
-              </h2>
-              <h2>
+              </h3>
+              <h3>
                 <span className="email">
                   <a href="mailto:sales@satincorp.com">sales@satincorp.com</a>
                 </span>
-              </h2>
+              </h3>
             </div>
           </div>
         </div>
