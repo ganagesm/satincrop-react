@@ -1,4 +1,3 @@
-
 import Navbar from "../components/Live/Navbar";
 import Footer from "../components/Live/Footer";
 import Services from "../components/kubernetes/Services";
@@ -9,17 +8,25 @@ import MainServices from "../components/Live/MainServices";
 import BlogPostSlider from "../components/kubernetes/BlogPostSlider";
 import ContactFormContent from "../components/Common/ContactFormContent";
 import Link from "next/link";
-import Head from 'next/head';
-
+import Head from "next/head";
 
 const Index = () => {
   return (
     <>
-
       <Head>
-        <title>Empower Business with Microsoft D365 Solutions by SA Technologies  </title>
-        <meta property="og:title" content="Empower Business with Microsoft D365 Solutions by SA Technologies " key="title" />
-        <meta name="description" content="SA Technologies offers Microsoft solutions for enhanced productivity and innovation. Unleash the potential of Microsoft technologies." key="description" />
+        <title>
+          Empower Business with Microsoft D365 Solutions by SA Technologies{" "}
+        </title>
+        <meta
+          property="og:title"
+          content="Empower Business with Microsoft D365 Solutions by SA Technologies "
+          key="title"
+        />
+        <meta
+          name="description"
+          content="SA Technologies offers Microsoft solutions for enhanced productivity and innovation. Unleash the potential of Microsoft technologies."
+          key="description"
+        />
       </Head>
 
       <Navbar />
@@ -69,6 +76,6 @@ const Index = () => {
       <ContactFormContent />
       <Footer />
     </>
-  )
-}
+  );
+};
 export default Index;

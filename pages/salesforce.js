@@ -1,4 +1,3 @@
-
 import Navbar from "../components/Live/Navbar";
 import Footer from "../components/Live/Footer";
 import Services from "../components/CSharp/Services";
@@ -9,17 +8,25 @@ import BlogPostSlider from "../components/CSharp/BlogPostSlider";
 import MainServices from "../components/Live/MainServices";
 import ContactFormContent from "../components/Common/ContactFormContent";
 import Link from "next/link";
-import Head from 'next/head';
+import Head from "next/head";
 
 const Index = () => {
   return (
     <>
-    <Head>
-        <title>Unlocking Salesforce CRM Excellence with SA Technologies  </title>
-        <meta property="og:title" content="Unlocking Salesforce CRM Excellence with SA Technologies " key="title" />
-        <meta name="description" content="SA Technologies empowers your business with Salesforce solutions. Elevate your CRM capabilities with Salesforce innovation with us." key="description" />
+      <Head>
+        <title>Unlocking Salesforce CRM Excellence with SA Technologies </title>
+        <meta
+          property="og:title"
+          content="Unlocking Salesforce CRM Excellence with SA Technologies "
+          key="title"
+        />
+        <meta
+          name="description"
+          content="SA Technologies empowers your business with Salesforce solutions. Elevate your CRM capabilities with Salesforce innovation with us."
+          key="description"
+        />
       </Head>
-      
+
       <Navbar />
       <PageBanner
         pageTitle="Your trusted Salesforce partner for customized solutions and exceptional service"
@@ -31,19 +38,19 @@ const Index = () => {
 
       <TechDetailsContent />
       <ComputerVisionAI />
-        <div className="col-lg-12 col-md-12">
-          <div className="ai-all-services-btn ptb-50">
-            <Link href="/contact-us/" className="btn btn-primary">
-              Contact Us
-            </Link>
-          </div>
+      <div className="col-lg-12 col-md-12">
+        <div className="ai-all-services-btn ptb-50">
+          <Link href="/contact-us/" className="btn btn-primary">
+            Contact Us
+          </Link>
         </div>
+      </div>
       <MainServices />
       {/* <BlogPostSlider /> */}
       <BlogPostSlider />
       <ContactFormContent />
       <Footer />
     </>
-  )
-}
+  );
+};
 export default Index;

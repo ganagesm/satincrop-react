@@ -2566,11 +2566,11 @@ Blog Details Area CSS
     margin-right: 10px;
     position: relative;
 }
-/* .blog-details .article-footer .article-tags a::before {
+.blog-details .article-footer .article-tags a::before {
     content: ",";
     position: absolute;
     right: -4px;
-} */
+}
 .blog-details .article-footer .article-tags a::before:last-child {
     display: none;
 }
@@ -3142,7 +3142,6 @@ Page Title Area CSS
 .page-title-area.item-bg23 {
     background-image: url(/images/technology-banner/Google-data-analytics-banner.jpg);
 }
-
 .page-title-area.item-bg24 {
     background-image: url(/images/technology-banner/google-education-banner.jpg);
 }
@@ -3151,6 +3150,35 @@ Page Title Area CSS
 }
 .page-title-area.item-bg26 {
     background-image: url(/images/technology-banner/Application-banner.jpg);
+}
+.page-title-area.item-bg27 {
+    background-image: url(/images/technology-banner/fmcd-banner.png);
+    background-size: 100% 150%;
+}
+.page-title-area.item-bg28 {
+    background-image: url(/images/technology-banner/healthcare-banner.jpeg);
+}
+.page-title-area.item-bg29 {
+    background-image: url(/images/technology-banner/google-it-production.jpeg);
+}
+.page-title-area.item-bg30 {
+    background-image: url(/images/technology-banner/google-manufacturing-banner.jpeg);
+}
+.page-title-area.item-bg31 {
+    background-image: url(/images/technology-banner/google-infrastructure-modernization.jpeg);
+}
+.page-title-area.item-bg32 {
+    background-image: url(/images/technology-banner/google-retail.jpeg);
+}
+.page-title-area.item-bg33 {
+    background-image: url(/images/technology-banner/google-semiconducter.jpeg);
+}
+.page-title-area.item-bg35 {
+    background-image: url(/images/google-banner-2.jpeg);
+}
+.page-title-area.item-bg35::before {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.31);
 }
 
 .page-title-content h2 {
@@ -3971,9 +3999,12 @@ Contact Area CSS
     font-weight: 700;
 }
 
+.topbar-action-list li .active {
+    color: #ff4800;
+}
+
 .contact-info {
     text-align: center;
-    margin-top: 60px;
 }
 .contact-info .contact-info-content h3 {
     margin-bottom: 15px;
@@ -4584,7 +4615,7 @@ Main Banner Area CSS
 =================================================*/
 .home-slides .main-banner {
     height: auto;
-    padding-top: 30vh;
+    padding-top: 20vh;
     padding-bottom: 20vh;
 }
 .home-slides .main-banner .main-banner-content {
@@ -8452,7 +8483,7 @@ a.btn.btn-primary.cnt_btn {
     position: fixed;
     width: 80px;
     height: 80px;
-    bottom: 23%;
+    bottom: 15%;
     right: 0;
     /* background-color: #0C9; */
     color: #FFF;
@@ -8610,6 +8641,7 @@ a.btn.btn-primary.ai_btn {
     color: #ffffff;
     background-color: #ff4800;
 }
+
 .ebookbtn {
     text-align: center;
     margin-top: 20px;

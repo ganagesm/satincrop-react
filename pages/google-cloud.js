@@ -7,6 +7,7 @@ import TechDetailsContent from "../components/GooglecloudNew/TechDetailsContent"
 import MainServices from "../components/Live/MainServices";
 import BlogPostSlider from "../components/GooglecloudNew/BlogPostSlider";
 import ContactFormContent from "../components/Common/ContactFormContent";
+import CaseStudiesGooglePost from "../components/Live/CaseStudiesGooglePost";
 import Link from "next/link";
 import Head from "next/head";
 
@@ -14,9 +15,20 @@ const GoogleCloudNew = () => {
   return (
     <>
       <Head>
-        <title>Get Google Cloud Migration Services and Custom Solutions | SA Technologies  </title>
-        <meta property="og:title" content="Get Google Cloud Migration Services and Custom Solutions | SA Technologies " key="title" />
-        <meta name="description" content="SA Technologies harnesses the power of Google technologies for business transformation. Explore our Google solutions." key="description" />
+        <title>
+          Get Google Cloud Migration Services and Custom Solutions | SA
+          Technologies
+        </title>
+        <meta
+          property="og:title"
+          content="Get Google Cloud Migration Services and Custom Solutions | SA Technologies "
+          key="title"
+        />
+        <meta
+          name="description"
+          content="SA Technologies harnesses the power of Google technologies for business transformation. Explore our Google solutions."
+          key="description"
+        />
       </Head>
 
       <Navbar />
@@ -26,23 +38,14 @@ const GoogleCloudNew = () => {
         homePageUrl="/"
         homePageText="Technology"
         activePageText="Google"
-        bgImgClass="item-bg9"
+        bgImgClass="item-bg35"
       />
 
-      <TechDetailsContent />
+      {/* <TechDetailsContent /> */}
       <ComputerVisionAI />
-
-      <div className="col-lg-12 col-md-12">
-        <div className="ai-all-services-btn ptb-50">
-          <Link href="/contact-us/" className="btn btn-primary">
-            Contact Us
-          </Link>
-        </div>
-      </div>
-
       <Services />
-
       <MainServices />
+      <CaseStudiesGooglePost />
       <BlogPostSlider />
       <ContactFormContent />
       <Footer />

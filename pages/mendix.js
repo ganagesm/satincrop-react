@@ -8,17 +8,25 @@ import MainServices from "../components/Live/MainServices";
 import BlogPostSlider from "../components/Live/BlogPostSlider";
 import ContactFormContent from "../components/Common/ContactFormContent";
 import Link from "next/link";
-import Head from 'next/head';
+import Head from "next/head";
 
 const Index = () => {
   return (
     <>
-      
       <Head>
-        <title>Achieve Rapid App Development with SA Technologies Mendix Expertise </title>
-        <meta property="og:title" content="Achieve Rapid App Development with SA Technologies Mendix Expertise " key="title" />
-        <meta name="description" content="Experience accelerated app development with SA Technologies Mendix services. Empower your business with innovative, low-code solutions." key="description" />
-   
+        <title>
+          Achieve Rapid App Development with SA Technologies Mendix Expertise{" "}
+        </title>
+        <meta
+          property="og:title"
+          content="Achieve Rapid App Development with SA Technologies Mendix Expertise "
+          key="title"
+        />
+        <meta
+          name="description"
+          content="Experience accelerated app development with SA Technologies Mendix services. Empower your business with innovative, low-code solutions."
+          key="description"
+        />
       </Head>
 
       <Navbar />
@@ -35,20 +43,18 @@ const Index = () => {
 
       {/* <Services /> */}
 
-        <div className="col-lg-12 col-md-12">
-          <div className="ai-all-services-btn ptb-50">
-            <Link href="/contact-us/" className="btn btn-primary">
-              Contact Us
-            </Link>
-          </div>
+      <div className="col-lg-12 col-md-12">
+        <div className="ai-all-services-btn ptb-50">
+          <Link href="/contact-us/" className="btn btn-primary">
+            Contact Us
+          </Link>
         </div>
-
-       
+      </div>
 
       <MainServices />
       <BlogPostSlider />
 
-   <ContactFormContent />
+      <ContactFormContent />
       <Footer />
     </>
   );

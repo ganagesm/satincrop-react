@@ -1,4 +1,3 @@
-
 import Navbar from "../components/Live/Navbar";
 import Footer from "../components/Live/Footer";
 import Services from "../components/rails/Services";
@@ -9,15 +8,26 @@ import MainServices from "../components/Live/MainServices";
 import BlogPostSlider from "../components/Live/BlogPostSlider";
 import ContactFormContent from "../components/Common/ContactFormContent";
 import Link from "next/link";
-import Head from 'next/head';
+import Head from "next/head";
 
 const Index = () => {
   return (
     <>
       <Head>
-        <title>Streamline your Operations with ServiceNow by SA Technologies Expertise  </title>
-        <meta property="og:title" content="Streamline your Operations with ServiceNow by SA Technologies Expertise " key="title" />
-        <meta name="description" content="SA Technologies offers ServiceNow solutions for optimized service management. Discover ServiceNow's potential with SA Technologies." key="description" />
+        <title>
+          Streamline your Operations with ServiceNow by SA Technologies
+          Expertise{" "}
+        </title>
+        <meta
+          property="og:title"
+          content="Streamline your Operations with ServiceNow by SA Technologies Expertise "
+          key="title"
+        />
+        <meta
+          name="description"
+          content="SA Technologies offers ServiceNow solutions for optimized service management. Discover ServiceNow's potential with SA Technologies."
+          key="description"
+        />
       </Head>
 
       <Navbar />
@@ -48,6 +58,6 @@ const Index = () => {
 
       <Footer />
     </>
-  )
-}
+  );
+};
 export default Index;

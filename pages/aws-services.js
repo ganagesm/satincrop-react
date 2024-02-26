@@ -1,4 +1,3 @@
-
 import Navbar from "../components/Live/Navbar";
 import Footer from "../components/Live/Footer";
 import Services from "../components/python/Services";
@@ -11,16 +10,25 @@ import MainServices from "../components/Live/MainServices";
 import BlogPostSlider from "../components/Live/BlogPostSlider";
 import ContactFormContent from "../components/Common/ContactFormContent";
 import Link from "next/link";
-import Head from 'next/head';
+import Head from "next/head";
 
 const Index = () => {
   return (
     <>
-
       <Head>
-        <title>Scale New Heights with AWS Services: SA Technologies Expertise  </title>
-        <meta property="og:title" content="Scale New Heights with AWS Services: SA Technologies Expertise " key="title" />
-        <meta name="description" content="Explore SA Technologies AWS services for secure, scalable, and flexible cloud solutions. Navigate the cloud confidently with AWS." key="description" />
+        <title>
+          Scale New Heights with AWS Services: SA Technologies Expertise{" "}
+        </title>
+        <meta
+          property="og:title"
+          content="Scale New Heights with AWS Services: SA Technologies Expertise "
+          key="title"
+        />
+        <meta
+          name="description"
+          content="Explore SA Technologies AWS services for secure, scalable, and flexible cloud solutions. Navigate the cloud confidently with AWS."
+          key="description"
+        />
       </Head>
 
       <Navbar />
@@ -45,9 +53,8 @@ const Index = () => {
       <BlogPostSlider />
 
       <ContactFormContent />
-
       <Footer />
     </>
-  )
-}
+  );
+};
 export default Index;
