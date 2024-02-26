@@ -42,7 +42,7 @@ const GoogleRetail = () => {
       <ServicesBox />
       {/* <Cta /> */}
       <WhyChooseSAT />
-      {/* <Cta /> */}
+      <Cta />
 
       {/* <div className="GCCJourney">
         <div className="container">

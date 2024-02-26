@@ -13,13 +13,10 @@ const ServiceDetailsContent = () => {
               </h3>
 
               <p>
-                At SAT, we are at the forefront of integrating Google's
-                innovative technologies to transform the healthcare landscape.
-                Our mission is to empower healthcare organizations,
-                professionals, and patients by harnessing the power of Google
-                for Healthcare. We believe in creating a future where healthcare
-                is more accessible, efficient, and data-driven, ensuring better
-                outcomes for everyone involved.
+                At SAT, we specialize in leveraging Google's state-of-the-art technologies to redefine IT production
+                landscapes. Our bespoke Google services are designed to boost your IT production capabilities, ensuring
+                your operations are efficient, scalable, and ahead of the technological curve. Embrace innovation and
+                drive your IT production to new heights with our expertly tailored solutions.
               </p>
             </div>
 
