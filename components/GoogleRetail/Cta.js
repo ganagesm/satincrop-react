@@ -12,7 +12,7 @@ const Cta = () => {
             className="section-title with-underline-text"
             style={{ marginBottom: "10px" }}>
             <h2 style={{ color: "#fff", fontSize: "55px !important" }}>
-              Take the First Step Towards Manufacturing Excellence.{" "}
+              Take the First Step Towards Google Excellence. Explore Our Services Now{" "}
             </h2>
             {/* <h4 style={{color:"#fff", fontSize: "25px !important"}}>Free engineering help from the SAT AI team to
               quickly transition to vertex AI and receive $350k in GCP credits</h4>  */}
