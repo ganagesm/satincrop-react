@@ -24,11 +24,10 @@ const ComputerVisionAI = () => {
                 </p>
 
                 <div className="row">
-                  <div className="col-lg-6 col-sm-6">
-                    <div className="vision-ai-inner-card">
+                  <div className="col-lg-4 col-md-3 col-sm-6 d-flex">
+                    <div className="single-services-box top-featured-card flex-fill">
                       <h4 className="">
                         <a href="/google-cloud-generative-ai-vertex/">
-                          {" "}
                           Generative AI with Vertex
                         </a>
                       </h4>
