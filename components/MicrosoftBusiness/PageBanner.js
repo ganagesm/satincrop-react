@@ -20,15 +20,13 @@ const PageBanner = ({
               </li>
               <li>{activePageText}</li>
             </ul>
-            
           </div>
-          <div className="btn-box" style={{marginTop:'20px'}}>
+          <div className="btn-box" style={{ marginTop: "20px" }}>
             <Link href="/contact-us/" className="btn btn-primary">
-              Get in touch now
+              Quick call back now
             </Link>
           </div>
         </div>
-          
 
         <div className="lines">
           <div className="line"></div>

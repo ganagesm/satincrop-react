@@ -14,13 +14,21 @@ const DomainSearch = () => {
       <div className="ai-main-banner-area">
         <div className="container-fluid">
           <div className="ai-main-banner-content">
-            <h1>Elevating Success in Semiconductors: Tailored IT Consulting by SA Technologies</h1>
-            <p>Stay ahead in the dynamic semiconductor industry with SA Technologies' specialized IT consulting. Tailored to your needs and powered by AI, our expertise empowers you to surpass competition and achieve your goals effortlessly.</p>
+            <h1>
+              Elevating Success in Semiconductors: Tailored IT Consulting by SA
+              Technologies
+            </h1>
+            <p>
+              Stay ahead in the dynamic semiconductor industry with SA
+              Technologies' specialized IT consulting. Tailored to your needs
+              and powered by AI, our expertise empowers you to surpass
+              competition and achieve your goals effortlessly.
+            </p>
 
             <ul className="banner-btn">
               <li>
                 <Link href="/contact-us/" className="btn btn-primary">
-                Get in touch now
+                  Quick call back now
                 </Link>
               </li>
               {/* <li>

@@ -4,7 +4,7 @@ import Services from "../components/HomeThree/Services";
 import ComputerVisionAI from "../components/Mendix/ComputerVisionAI";
 import PageBanner from "../components/Mendix/PageBanner";
 import TechDetailsContent from "../components/Mendix/TechDetailsContent";
-import MainServices from "../components/Live/MainServices";
+import MainIndustry from "../components/Live/MainIndustry";
 import BlogPostSlider from "../components/Live/BlogPostSlider";
 import ContactFormContent from "../components/Common/ContactFormContent";
 import Link from "next/link";
@@ -51,7 +51,7 @@ const Index = () => {
         </div>
       </div>
 
-      <MainServices />
+      <MainIndustry />
       <BlogPostSlider />
 
       <ContactFormContent />

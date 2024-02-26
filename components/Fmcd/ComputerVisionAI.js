@@ -9,7 +9,9 @@ const ComputerVisionAI = () => {
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12">
               <div className="computer-vision-ai-content">
-                <h3>Benefits of Partnering with SA Technologies for FMCD Industry.</h3>
+                <h3>
+                  Benefits of Partnering with SA Technologies for FMCD Industry.
+                </h3>
                 {/* <p>
                   Lorem ipsum dolor sit amet consectetur adipiscing elit. Nulla
                   faucibus pulvinar iaculis et eu arcu mauris euismod duis diam
@@ -28,7 +30,10 @@ const ComputerVisionAI = () => {
                         </div>
                         <h4>Enhanced Efficiency</h4>
                       </div>
-                      <p>Our solutions optimize your operational processes, reducing waste and improving overall efficiency.  </p>
+                      <p>
+                        Our solutions optimize your operational processes,
+                        reducing waste and improving overall efficiency.{" "}
+                      </p>
                     </div>
                   </div>
 
@@ -43,7 +48,11 @@ const ComputerVisionAI = () => {
                         </div>
                         <h4>Innovative Customer Experience </h4>
                       </div>
-                      <p>Our strategies help you create engaging, personalized consumer experiences that foster loyalty and drive sales.  </p>
+                      <p>
+                        Our strategies help you create engaging, personalized
+                        consumer experiences that foster loyalty and drive
+                        sales.{" "}
+                      </p>
                     </div>
                   </div>
 
@@ -58,7 +67,10 @@ const ComputerVisionAI = () => {
                         </div>
                         <h4>Enhanced Security</h4>
                       </div>
-                      <p>Our solutions provide robust cybersecurity measures, safeguarding consumer data and business operations. </p>
+                      <p>
+                        Our solutions provide robust cybersecurity measures,
+                        safeguarding consumer data and business operations.{" "}
+                      </p>
                     </div>
                   </div>
 
@@ -73,10 +85,14 @@ const ComputerVisionAI = () => {
                         </div>
                         <h4>Data-Driven Insights </h4>
                       </div>
-                      <p>Our analytics and AI-powered solutions provide actionable insights, aiding strategic decision-making for business growth.</p>
+                      <p>
+                        Our analytics and AI-powered solutions provide
+                        actionable insights, aiding strategic decision-making
+                        for business growth.
+                      </p>
                     </div>
                   </div>
-                   <div className="col-lg-6 col-sm-6">
+                  <div className="col-lg-6 col-sm-6">
                     <div className="vision-ai-inner-card">
                       <div className="content">
                         <div className="image-icon">
@@ -87,14 +103,16 @@ const ComputerVisionAI = () => {
                         </div>
                         <h4>Cost Optimization</h4>
                       </div>
-                      <p>We help you identify cost-saving opportunities, enabling better resource allocation and increased profitability   
+                      <p>
+                        We help you identify cost-saving opportunities, enabling
+                        better resource allocation and increased profitability
                       </p>
                     </div>
-                  </div> 
+                  </div>
                 </div>
                 <div className="computer-vision-ai-btn">
                   <Link href="/contact-us/" className="btn btn-primary">
-                    Get in touch now
+                    Quick call back now
                   </Link>
                 </div>
               </div>

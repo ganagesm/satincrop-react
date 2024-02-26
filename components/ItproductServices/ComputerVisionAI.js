@@ -9,7 +9,9 @@ const ComputerVisionAI = () => {
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12">
               <div className="computer-vision-ai-content">
-                <h3>Benefits of Collaborating with SA Technologies for IT Consulting  
+                <h3>
+                  Benefits of Collaborating with SA Technologies for IT
+                  Consulting
                 </h3>
                 {/* <p>
                   Lorem ipsum dolor sit amet consectetur adipiscing elit. Nulla
@@ -29,7 +31,11 @@ const ComputerVisionAI = () => {
                         </div>
                         <h4>Amplified Efficiency </h4>
                       </div>
-                      <p>Elevate operational effectiveness through our bespoke solutions that optimize IT infrastructure and streamline processes. </p>
+                      <p>
+                        Elevate operational effectiveness through our bespoke
+                        solutions that optimize IT infrastructure and streamline
+                        processes.{" "}
+                      </p>
                     </div>
                   </div>
 
@@ -44,7 +50,11 @@ const ComputerVisionAI = () => {
                         </div>
                         <h4>Fortified Security</h4>
                       </div>
-                      <p>Our cybersecurity and risk management services bolster digital defenses, safeguarding IT assets from evolving cyber threats. </p>
+                      <p>
+                        Our cybersecurity and risk management services bolster
+                        digital defenses, safeguarding IT assets from evolving
+                        cyber threats.{" "}
+                      </p>
                     </div>
                   </div>
 
@@ -59,7 +69,11 @@ const ComputerVisionAI = () => {
                         </div>
                         <h4>Heightened Productivity </h4>
                       </div>
-                      <p> Free up resources and focus on core operations, driving increased productivity and agility within your business. </p>
+                      <p>
+                        {" "}
+                        Free up resources and focus on core operations, driving
+                        increased productivity and agility within your business.{" "}
+                      </p>
                     </div>
                   </div>
 
@@ -74,7 +88,12 @@ const ComputerVisionAI = () => {
                         </div>
                         <h4>Strategic Edge </h4>
                       </div>
-                      <p> Stay ahead of the curve with our IT consulting services, leveraging cutting-edge technologies and industry insights for competitive superiority.</p>
+                      <p>
+                        {" "}
+                        Stay ahead of the curve with our IT consulting services,
+                        leveraging cutting-edge technologies and industry
+                        insights for competitive superiority.
+                      </p>
                     </div>
                   </div>
                   <div className="col-lg-6 col-sm-6">
@@ -88,14 +107,16 @@ const ComputerVisionAI = () => {
                         </div>
                         <h4>Cost Efficiency:</h4>
                       </div>
-                      <p>Maximize profitability by reducing costs through streamlined processes and data-driven decision-making.  
+                      <p>
+                        Maximize profitability by reducing costs through
+                        streamlined processes and data-driven decision-making.
                       </p>
                     </div>
                   </div>
                 </div>
                 <div className="computer-vision-ai-btn">
                   <Link href="/contact-us/" className="btn btn-primary">
-                    Get in touch now
+                    Quick call back now
                   </Link>
                 </div>
               </div>

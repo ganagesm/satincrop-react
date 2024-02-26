@@ -18,6 +18,7 @@ const ComputerVisionAI = () => {
                 <p
                   style={{
                     textAlign: "center",
+                    marginBottom: "30px",
                   }}>
                   Leveraging AI for Swift Development, Smart Features, Proactive
                   Insights, and Premium Quality For Google Cloud

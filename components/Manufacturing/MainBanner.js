@@ -14,13 +14,21 @@ const DomainSearch = () => {
       <div className="ai-main-banner-area">
         <div className="container-fluid">
           <div className="ai-main-banner-content">
-            <h1>Empower Your Manufacturing: Unleash Efficiency, Profitability, and Resilience</h1>
-            <p>In today's digital era, manufacturing success hinges on speed, adaptability, and agility. Discrete manufacturers face innovation challenges, supply chain complexities, and the need for enterprise visibility.</p>
+            <h1>
+              Empower Your Manufacturing: Unleash Efficiency, Profitability, and
+              Resilience
+            </h1>
+            <p>
+              In today's digital era, manufacturing success hinges on speed,
+              adaptability, and agility. Discrete manufacturers face innovation
+              challenges, supply chain complexities, and the need for enterprise
+              visibility.
+            </p>
 
             <ul className="banner-btn">
               <li>
                 <Link href="/contact-us/" className="btn btn-primary">
-                Get in touch now
+                  Quick call back now
                 </Link>
               </li>
               {/* <li>

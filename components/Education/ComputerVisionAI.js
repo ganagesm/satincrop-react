@@ -9,7 +9,8 @@ const ComputerVisionAI = () => {
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12">
               <div className="computer-vision-ai-content">
-                <h3>Benefit of Partnering with SA Tech for Education IT Consulting 
+                <h3>
+                  Benefit of Partnering with SA Tech for Education IT Consulting
                 </h3>
                 {/* <p>
                   Lorem ipsum dolor sit amet consectetur adipiscing elit. Nulla
@@ -29,7 +30,9 @@ const ComputerVisionAI = () => {
                         </div>
                         <h4>Elevated Efficiency </h4>
                       </div>
-                      <p>Experience streamlined operations and reduced manual tasks through our tailored solutions. 
+                      <p>
+                        Experience streamlined operations and reduced manual
+                        tasks through our tailored solutions.
                       </p>
                     </div>
                   </div>
@@ -45,7 +48,9 @@ const ComputerVisionAI = () => {
                         </div>
                         <h4>Empowered Student Success </h4>
                       </div>
-                      <p>Leverage technology to amplify student engagement, performance, and overall outcomes. 
+                      <p>
+                        Leverage technology to amplify student engagement,
+                        performance, and overall outcomes.
                       </p>
                     </div>
                   </div>
@@ -61,7 +66,9 @@ const ComputerVisionAI = () => {
                         </div>
                         <h4>Financial Edge </h4>
                       </div>
-                      <p>Embrace cost-effective solutions that lead to substantial savings and sustainable financial benefits.
+                      <p>
+                        Embrace cost-effective solutions that lead to
+                        substantial savings and sustainable financial benefits.
                       </p>
                     </div>
                   </div>
@@ -77,14 +84,17 @@ const ComputerVisionAI = () => {
                         </div>
                         <h4>Guided Excellence </h4>
                       </div>
-                      <p>Access our team's profound expertise and experience, receiving expert insights and guidance for optimal results. 
+                      <p>
+                        Access our team's profound expertise and experience,
+                        receiving expert insights and guidance for optimal
+                        results.
                       </p>
                     </div>
                   </div>
                 </div>
                 <div className="computer-vision-ai-btn">
                   <Link href="/contact-us/" className="btn btn-primary">
-                    Get in touch now
+                    Quick call back now
                   </Link>
                 </div>
               </div>

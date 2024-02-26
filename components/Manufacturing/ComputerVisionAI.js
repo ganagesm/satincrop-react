@@ -9,7 +9,9 @@ const ComputerVisionAI = () => {
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12">
               <div className="computer-vision-ai-content">
-                <h3>Benefits of Partnering with SA Technologies for Manufacturing Industry 
+                <h3>
+                  Benefits of Partnering with SA Technologies for Manufacturing
+                  Industry
                 </h3>
                 {/* <p>
                   Lorem ipsum dolor sit amet consectetur adipiscing elit. Nulla
@@ -29,7 +31,11 @@ const ComputerVisionAI = () => {
                         </div>
                         <h4>Enhanced Operational Efficiency</h4>
                       </div>
-                      <p>Our tailored software solutions optimize production processes, reducing bottlenecks and enhancing overall efficiency.</p>
+                      <p>
+                        Our tailored software solutions optimize production
+                        processes, reducing bottlenecks and enhancing overall
+                        efficiency.
+                      </p>
                     </div>
                   </div>
 
@@ -44,7 +50,12 @@ const ComputerVisionAI = () => {
                         </div>
                         <h4>Improved Decision-Making</h4>
                       </div>
-                      <p> Real-time insights from our solutions empower informed decision-making, leading to better resource allocation and strategic planning. </p>
+                      <p>
+                        {" "}
+                        Real-time insights from our solutions empower informed
+                        decision-making, leading to better resource allocation
+                        and strategic planning.{" "}
+                      </p>
                     </div>
                   </div>
 
@@ -59,7 +70,11 @@ const ComputerVisionAI = () => {
                         </div>
                         <h4>Seamless Collaboration</h4>
                       </div>
-                      <p> Mobile apps and cloud solutions facilitate seamless communication among teams, suppliers, and stakeholders, promoting collaboration and timely information sharing. 
+                      <p>
+                        {" "}
+                        Mobile apps and cloud solutions facilitate seamless
+                        communication among teams, suppliers, and stakeholders,
+                        promoting collaboration and timely information sharing.
                       </p>
                     </div>
                   </div>
@@ -75,7 +90,12 @@ const ComputerVisionAI = () => {
                         </div>
                         <h4>Reduced Errors</h4>
                       </div>
-                      <p> Our software and AI-driven solutions minimize errors in production, quality control, and supply chain management, leading to higher product quality and reliability. 
+                      <p>
+                        {" "}
+                        Our software and AI-driven solutions minimize errors in
+                        production, quality control, and supply chain
+                        management, leading to higher product quality and
+                        reliability.
                       </p>
                     </div>
                   </div>
@@ -90,14 +110,16 @@ const ComputerVisionAI = () => {
                         </div>
                         <h4>Cost Efficiency:</h4>
                       </div>
-                      <p>Maximize profitability by reducing costs through streamlined processes and data-driven decision-making.  
+                      <p>
+                        Maximize profitability by reducing costs through
+                        streamlined processes and data-driven decision-making.
                       </p>
                     </div>
                   </div>
                 </div>
                 <div className="computer-vision-ai-btn">
                   <Link href="/contact-us/" className="btn btn-primary">
-                    Get in touch now
+                    Quick call back now
                   </Link>
                 </div>
               </div>

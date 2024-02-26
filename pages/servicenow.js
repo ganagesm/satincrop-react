@@ -4,7 +4,7 @@ import Services from "../components/rails/Services";
 import ComputerVisionAI from "../components/rails/ComputerVisionAI";
 import PageBanner from "../components/rails/PageBanner";
 import TechDetailsContent from "../components/rails/TechDetailsContent";
-import MainServices from "../components/Live/MainServices";
+import MainIndustry from "../components/Live/MainIndustry";
 import BlogPostSlider from "../components/Live/BlogPostSlider";
 import ContactFormContent from "../components/Common/ContactFormContent";
 import Link from "next/link";
@@ -48,7 +48,7 @@ const Index = () => {
           </Link>
         </div>
       </div>
-      <MainServices />
+      <MainIndustry />
       <BlogPostSlider />
 
       <ContactFormContent />

@@ -4,7 +4,7 @@ import Services from "../components/kubernetes/Services";
 import ComputerVisionAI from "../components/kubernetes/ComputerVisionAI";
 import PageBanner from "../components/kubernetes/PageBanner";
 import TechDetailsContent from "../components/kubernetes/TechDetailsContent";
-import MainServices from "../components/Live/MainServices";
+import MainIndustry from "../components/Live/MainIndustry";
 import BlogPostSlider from "../components/kubernetes/BlogPostSlider";
 import ContactFormContent from "../components/Common/ContactFormContent";
 import Link from "next/link";
@@ -48,7 +48,7 @@ const Index = () => {
           </Link>
         </div>
       </div>
-      <MainServices />
+      <MainIndustry />
       <BlogPostSlider />
 
       {/* <section className="contact-area pb-100">

@@ -15,12 +15,16 @@ const DomainSearch = () => {
         <div className="container-fluid">
           <div className="ai-main-banner-content">
             <h1>AI-Powered IT Solutions for Business Advancement</h1>
-            <p>At SA Technologies, we understand diverse business IT needs. Our AI-driven services offer tailored solutions from strategy to support, delivering innovation for success. </p>
+            <p>
+              At SA Technologies, we understand diverse business IT needs. Our
+              AI-driven services offer tailored solutions from strategy to
+              support, delivering innovation for success.{" "}
+            </p>
 
             <ul className="banner-btn">
               <li>
                 <Link href="/contact-us/" className="btn btn-primary">
-                Get in touch now
+                  Quick call back now
                 </Link>
               </li>
               {/* <li>

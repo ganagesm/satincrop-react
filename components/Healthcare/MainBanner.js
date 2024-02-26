@@ -14,13 +14,21 @@ const DomainSearch = () => {
       <div className="ai-main-banner-area">
         <div className="container-fluid">
           <div className="ai-main-banner-content">
-            <h1>Empowering Healthcare Innovation: Unleashing Technology's Potential</h1>
-            <p>In the ever-changing healthcare landscape, providers must embrace the latest technologies for quality patient care. Yet, managing complex IT systems can be overwhelming. This is where healthcare IT consulting services play a pivotal role.</p>
+            <h1>
+              Empowering Healthcare Innovation: Unleashing Technology's
+              Potential
+            </h1>
+            <p>
+              In the ever-changing healthcare landscape, providers must embrace
+              the latest technologies for quality patient care. Yet, managing
+              complex IT systems can be overwhelming. This is where healthcare
+              IT consulting services play a pivotal role.
+            </p>
 
             <ul className="banner-btn">
               <li>
                 <Link href="/contact-us/" className="btn btn-primary">
-                Get in touch now
+                  Quick call back now
                 </Link>
               </li>
               {/* <li>

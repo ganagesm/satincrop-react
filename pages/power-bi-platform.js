@@ -1,27 +1,32 @@
-
 import Navbar from "../components/Live/Navbar";
 import Footer from "../components/Live/Footer";
 import Services from "../components/PowerbiPlatform/Services";
 import WhyChooseSAT from "../components/PowerbiPlatform/WhyChooseSAT";
 import PageBanner from "../components/PowerbiPlatform/PageBanner";
 import TechDetailsContent from "../components/PowerbiPlatform/TechDetailsContent";
-import MainServices from "../components/Live/MainServices";
+import MainIndustry from "../components/Live/MainIndustry";
 import BlogPostSlider from "../components/PowerbiPlatform/BlogPostSlider";
 import ContactFormContent from "../components/Common/ContactFormContent";
 import AboutAI from "../components/PowerbiPlatform/AboutAI";
 import ServicesBox from "../components/PowerbiPlatform/ServicesBox";
 import Link from "next/link";
-import Head from 'next/head';
-
+import Head from "next/head";
 
 const Index = () => {
   return (
     <>
-
       <Head>
         <title>Power BI Consulting Services | SA Technologies</title>
-        <meta property="og:title" content="Power BI Consulting Services | SA Technologies" key="title" />
-        <meta name="description" content="SA Technologies Power BI Consulting in the Bay Area, USA, aids businesses in overcoming challenges. Elevate your enterprise with expert Power BI assistance" key="description" />
+        <meta
+          property="og:title"
+          content="Power BI Consulting Services | SA Technologies"
+          key="title"
+        />
+        <meta
+          name="description"
+          content="SA Technologies Power BI Consulting in the Bay Area, USA, aids businesses in overcoming challenges. Elevate your enterprise with expert Power BI assistance"
+          key="description"
+        />
       </Head>
 
       <Navbar />
@@ -32,44 +37,41 @@ const Index = () => {
         activePageText="Power-BI-Platform"
         bgImgClass="item-bg19"
       />
-      
 
       <TechDetailsContent />
 
-      
       <AboutAI />
 
       <ServicesBox />
 
-      <div className="" >
-          <div className="container">
-            <div className="row ptb-100 pb-100 align-items-center">
-              <div className="col-lg-7 col-md-7">
-                <h2 className="align-items-center"
-                  style={{
-                    textAlign: "right",
-                  }}
-                >Connect with our Expert now</h2>
-              </div>
-              <div className="col-lg-5 col-md-5"
+      <div className="">
+        <div className="container">
+          <div className="row ptb-100 pb-100 align-items-center">
+            <div className="col-lg-7 col-md-7">
+              <h2
+                className="align-items-center"
                 style={{
-                  textAlign: "left",
-                }}
-              >
-                <Link href="/contact-us/" className="btn btn-primary">
+                  textAlign: "right",
+                }}>
+                Connect with our Expert now
+              </h2>
+            </div>
+            <div
+              className="col-lg-5 col-md-5"
+              style={{
+                textAlign: "left",
+              }}>
+              <Link href="/contact-us/" className="btn btn-primary">
                 Talk to our Microsoft Expert
-                </Link>
-              </div>
-
+              </Link>
             </div>
           </div>
         </div>
+      </div>
 
       {/* <ComputerVisionAI /> */}
 
       <Services />
-
-      
 
       <div className="col-lg-12 col-md-12">
         <div className="ai-all-services-btn ptb-50">
@@ -81,9 +83,7 @@ const Index = () => {
 
       {/* <WhyChooseSAT />   */}
 
-
-
-      <MainServices />
+      <MainIndustry />
       <BlogPostSlider />
 
       {/* <section className="contact-area pb-100">
@@ -111,6 +111,6 @@ const Index = () => {
       <ContactFormContent />
       <Footer />
     </>
-  )
-}
+  );
+};
 export default Index;

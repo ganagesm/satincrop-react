@@ -14,17 +14,19 @@ const HeroBanner = () => {
           pauseOnMouseEnter: true,
         }}
         modules={[Navigation, Autoplay]}
-        className="home-slides"
-      >
+        className="home-slides">
         <SwiperSlide>
           <div
             className="main-banner"
-            style={{ backgroundImage: `url(/images/banners/Data-Science-hero-banner.jpeg)` }}
-          >
+            style={{
+              backgroundImage: `url(/images/banners/Data-Science-hero-banner.jpeg)`,
+            }}>
             <div className="container">
               <div className="main-banner-content">
-                <h1 style={{ color: "#fff" }}>  Transform the Future with Our DevOps Excellence
- </h1>
+                <h1 style={{ color: "#fff" }}>
+                  {" "}
+                  Transform the Future with Our DevOps Excellence
+                </h1>
                 {/* <p>
                   Nearshore, offshore, onsite. Hire talent anywhere or let our
                   experts unlock business value for you with bleeding edge
@@ -33,7 +35,7 @@ const HeroBanner = () => {
 
                 <div className="btn-box">
                   <Link href="/contact-us/" className="btn btn-primary">
-                    Get in touch now
+                    Quick call back now
                   </Link>
                 </div>
               </div>
