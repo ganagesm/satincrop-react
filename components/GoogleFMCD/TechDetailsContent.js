@@ -8,8 +8,7 @@ const ServiceDetailsContent = () => {
           <div className="services-details-overview">
             <div className="services-details-desc mb-30">
               <h3>
-                SA Technologies introduces comprehensive Google for FMCD
-                Services
+                Revolutionize FMCD with Googles customer-centric solutions.
               </h3>
 
               <p>
