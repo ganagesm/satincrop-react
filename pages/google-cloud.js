@@ -33,8 +33,7 @@ const GoogleCloudNew = () => {
 
       <Navbar />
       <PageBanner
-        pageTitle="Business Solutions using
-        Google Cloud"
+        pageTitle="Leverage Google Cloud with SAT"
         homePageUrl="/"
         homePageText="Technology"
         activePageText="Google"

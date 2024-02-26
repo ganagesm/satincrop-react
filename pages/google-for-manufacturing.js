@@ -34,7 +34,7 @@ const GoogleforManufacturing = () => {
         pageTitle="Transform Your Manufacturing Landscape with Google's Cutting-Edge Technologies"
         homePageUrl="/"
         homePageText="Technology"
-        activePageText=" Google for Manufacturing"
+        activePageText=" Google Cloud for Manufacturing"
         bgImgClass="item-bg30"
       />
 

@@ -8,8 +8,8 @@ const ServiceDetailsContent = () => {
           <div className="services-details-overview">
             <div className="services-details-desc mb-30">
               <h3>
-                Revolutionize Media and Entertainment with Googles
-                customer-centric solutions.
+                Revolutionize Media and Entertainment with customer-centric
+                solutions of Google
               </h3>
 
               <p>

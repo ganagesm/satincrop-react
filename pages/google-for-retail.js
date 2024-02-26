@@ -34,7 +34,7 @@ const GoogleRetail = () => {
         pageTitle="Boost Retail Success with Google Solutions"
         homePageUrl="/"
         homePageText="Technology"
-        activePageText="Google for Retail"
+        activePageText="Google Cloud for Retail"
         bgImgClass="item-bg32"
       />
 
