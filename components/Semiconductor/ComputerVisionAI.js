@@ -9,7 +9,9 @@ const ComputerVisionAI = () => {
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12">
               <div className="computer-vision-ai-content">
-                <h3>Benefits of Partnering with SA Technologies for Semiconductor Industry 
+                <h3>
+                  Benefits of Partnering with SA Technologies for Semiconductor
+                  Industry
                 </h3>
                 {/* <p>
                   Lorem ipsum dolor sit amet consectetur adipiscing elit. Nulla
@@ -29,7 +31,10 @@ const ComputerVisionAI = () => {
                         </div>
                         <h4>Enhanced Efficiency</h4>
                       </div>
-                      <p>Elevate operational efficiency and productivity to meet the demands of a fast-paced semiconductor industry.  </p>
+                      <p>
+                        Elevate operational efficiency and productivity to meet
+                        the demands of a fast-paced semiconductor industry.{" "}
+                      </p>
                     </div>
                   </div>
 
@@ -44,7 +49,10 @@ const ComputerVisionAI = () => {
                         </div>
                         <h4>Optimized Product Quality</h4>
                       </div>
-                      <p>Ensure superior product quality and reliability through robust IT solutions and streamlined processes. </p>
+                      <p>
+                        Ensure superior product quality and reliability through
+                        robust IT solutions and streamlined processes.{" "}
+                      </p>
                     </div>
                   </div>
 
@@ -59,7 +67,10 @@ const ComputerVisionAI = () => {
                         </div>
                         <h4>Efficient Supply Chain </h4>
                       </div>
-                      <p> Seamlessly manage your supply chain to meet production deadlines and optimize resource allocation 
+                      <p>
+                        {" "}
+                        Seamlessly manage your supply chain to meet production
+                        deadlines and optimize resource allocation
                       </p>
                     </div>
                   </div>
@@ -75,7 +86,10 @@ const ComputerVisionAI = () => {
                         </div>
                         <h4>Cybersecurity Confidence </h4>
                       </div>
-                      <p>Safeguard sensitive data with state-of-the-art cybersecurity measures, reducing risks and ensuring compliance.  
+                      <p>
+                        Safeguard sensitive data with state-of-the-art
+                        cybersecurity measures, reducing risks and ensuring
+                        compliance.
                       </p>
                     </div>
                   </div>
@@ -90,14 +104,16 @@ const ComputerVisionAI = () => {
                         </div>
                         <h4>Cost Efficiency:</h4>
                       </div>
-                      <p>Maximize profitability by reducing costs through streamlined processes and data-driven decision-making.  
+                      <p>
+                        Maximize profitability by reducing costs through
+                        streamlined processes and data-driven decision-making.
                       </p>
                     </div>
                   </div>
                 </div>
                 <div className="computer-vision-ai-btn">
                   <Link href="/contact-us/" className="btn btn-primary">
-                    Get in touch now
+                    Quick call back now
                   </Link>
                 </div>
               </div>

@@ -4200,7 +4200,7 @@ Page Title Area CSS
     background: {
       image: url(/images/technology-banner/RPO.png);
     }
-    
+
   }
 
   &.item-bg15 {
@@ -4209,107 +4209,128 @@ Page Title Area CSS
     }
 
   }
+
   &.item-bg16 {
     background: {
       image: url(/images/technology-banner/Microsoft_azure_banner.jpg);
     }
   }
+
   &.item-bg17 {
     background: {
       image: url(/images/technology-banner/Microsoft365_banner.jpg);
     }
   }
+
   &.item-bg18 {
     background: {
       image: url(/images/technology-banner/google_gne_ai.png);
     }
   }
+
   &.item-bg19 {
     background: {
       image: url(/images/technology-banner/power_bi_banner.png);
     }
   }
+
   &.item-bg20 {
     background: {
       image: url(/images/technology-banner/dynamics-365-business-central-banner.png);
     }
   }
+
   &.item-bg21 {
     background: {
       image: url(/images/technology-banner/mserp.png);
     }
   }
+
   &.item-bg22 {
     background: {
       image: url(/images/technology-banner/InfrastructureModernizationbanner.jpg);
     }
   }
+
   &.item-bg23 {
     background: {
       image: url(/images/technology-banner/Google-data-analytics-banner.jpg);
     }
   }
+
   &.item-bg24 {
     background: {
       image: url(/images/technology-banner/google-education-banner.jpg);
     }
   }
+
   &.item-bg25 {
     background: {
       image: url(/images/technology-banner/Google-workspace-banner.jpg);
     }
   }
+
   &.item-bg26 {
     background: {
       image: url(/images/technology-banner/Application-banner.jpg);
     }
   }
+
   &.item-bg27 {
     background: {
       image: url(/images/technology-banner/fmcd-banner.png);
     }
+
     background-size: 100% 150%;
   }
+
   &.item-bg28 {
     background: {
       image: url(/images/technology-banner/healthcare-banner.jpeg);
     }
   }
+
   &.item-bg29 {
     background: {
       image: url(/images/technology-banner/google-it-production.jpeg);
     }
   }
+
   &.item-bg30 {
     background: {
       image: url(/images/technology-banner/google-manufacturing-banner.jpeg);
     }
   }
+
   &.item-bg31 {
     background: {
       image: url(/images/technology-banner/google-infrastructure-modernization.jpeg);
     }
   }
+
   &.item-bg32 {
     background: {
-      image: url(/images/technology-banner/google-retail.jpeg);
+      image: url(/images/technology-banner/google-retail.png);
     }
   }
+
   &.item-bg33 {
     background: {
       image: url(/images/technology-banner/google-semiconducter.jpeg);
     }
   }
+
   &.item-bg35 {
     background: {
       image: url(/images/google-banner-2.jpeg);
     }
+
     &::before {
       content: '';
       background-color: rgb(0 0 0 / 31%);
     }
   }
-  
+
 
 }
 
@@ -5444,6 +5465,7 @@ Contact Area CSS
     }
   }
 }
+
 .topbar-action-list {
   li {
     .active {
@@ -5451,6 +5473,7 @@ Contact Area CSS
     }
   }
 }
+
 .contact-info {
   text-align: center;
   // margin-top: 20px;
@@ -11659,10 +11682,12 @@ ul.about-list.emp_list {
     }
   }
 }
+
 .homeBannerSecond {
   background-image: url(/images/icons/home-banner2.jpeg);
   background-Size: "100% 100%",
 }
+
 @media (max-width: 600px) {
   .homeBannerSecond {
     background-image: url(/images/icons/home-banner2.jpeg);
@@ -11670,7 +11695,7 @@ ul.about-list.emp_list {
   }
 }
 
-.interlink{
+.interlink {
   color: #ff4800;
 }
 
@@ -11679,6 +11704,7 @@ ul.about-list.emp_list {
   h5 {
     color: #fff;
   }
+
   .single-team-box:hover .content p {
     color: #fff;
   }
@@ -11686,26 +11712,29 @@ ul.about-list.emp_list {
 }
 
 .content p {
-  color: #57647c;;
+  color: #57647c;
+  ;
 }
 
 a.btn.btn-primary.ai_btn {
   float: right;
   margin-top: 0;
 }
+
 .siq_bR {
   bottom: 72px !important;
 
 }
+
 .investors-details {
   display: -ms-flexbox;
   display: -webkit-box;
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  padding:  10px;
+  padding: 10px;
   align-items: center;
-  border:  1px solid #eeeeee;
+  border: 1px solid #eeeeee;
 
   .article-tags {
     -ms-flex: 0 0 50%;
@@ -11741,9 +11770,10 @@ a.btn.btn-primary.ai_btn {
     }
   }
 }
+
 .ebookbtn {
-    text-align: center;
-    margin-top: 20px;
+  text-align: center;
+  margin-top: 20px;
 }
 
 

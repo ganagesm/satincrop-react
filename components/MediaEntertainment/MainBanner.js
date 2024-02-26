@@ -14,13 +14,21 @@ const DomainSearch = () => {
       <div className="ai-main-banner-area">
         <div className="container-fluid">
           <div className="ai-main-banner-content">
-            <h1>Empowering Evolution: IT Consulting for Media and Entertainment Industry</h1>
-            <p>Navigating the dynamic digital era, the media and entertainment industry is undergoing transformative changes. SA Technologies offers tailored IT consulting to empower businesses in this evolving landscape. </p>
+            <h1>
+              Empowering Evolution: IT Consulting for Media and Entertainment
+              Industry
+            </h1>
+            <p>
+              Navigating the dynamic digital era, the media and entertainment
+              industry is undergoing transformative changes. SA Technologies
+              offers tailored IT consulting to empower businesses in this
+              evolving landscape.{" "}
+            </p>
 
             <ul className="banner-btn">
               <li>
                 <Link href="/contact-us/" className="btn btn-primary">
-                Get in touch now
+                  Quick call back now
                 </Link>
               </li>
               {/* <li>

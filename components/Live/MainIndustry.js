@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-const MainServices = () => {
+const MainIndustry = () => {
   return (
     <>
       <div className="main-services-area" style={{ marginTop: "40px" }}>
@@ -14,8 +14,8 @@ const MainServices = () => {
             </p>
           </div>
           <div className="row justify-content-center">
-            <div className="col-lg-4 col-sm-6 col-md-6 d-flex">
-              <div className="single-main-services-box flex-fill">
+            <div className="col-lg-4 col-sm-6 col-md-6">
+              <div className="single-main-services-box">
                 <img
                   src="/images/icons/indusrty-icon/e1.png"
                   alt="image"
@@ -26,22 +26,20 @@ const MainServices = () => {
                   }}
                 />
                 <h3>
-                  <Link href="/google-for-education/">
-                    Google For Education
-                  </Link>
+                  <Link href="/education/">Education</Link>
                 </h3>
                 <p>
-                  Empowering Education with Google: Transform Teaching and
-                  Learning
+                  Elevate learning experiences with innovative tools and
+                  immersive content.
                 </p>
 
-                <Link href="/google-for-education/" className="link-btn">
+                <Link href="/education/" className="link-btn">
                   Read More
                 </Link>
               </div>
             </div>
 
-            {/* <div className="col-lg-4 col-sm-6 col-md-6 d-flex">
+            <div className="col-lg-4 col-sm-6 col-md-6">
               <div className="single-main-services-box">
                 <img
                   src="/images/icons/indusrty-icon/government.png"
@@ -64,10 +62,10 @@ const MainServices = () => {
                   Read More
                 </Link>
               </div>
-            </div> */}
+            </div>
 
-            <div className="col-lg-4 col-sm-6 col-md-6 d-flex">
-              <div className="single-main-services-box flex-fill">
+            <div className="col-lg-4 col-sm-6 col-md-6">
+              <div className="single-main-services-box">
                 <img
                   src="/images/icons/indusrty-icon/healthcare.png"
                   alt="image"
@@ -78,45 +76,41 @@ const MainServices = () => {
                   }}
                 />
                 <h3>
-                  <Link href="/google-for-healthcare/">
-                    Google For Healthcare
-                  </Link>
+                  <Link href="/healthcare/">Healthcare</Link>
                 </h3>
                 <p>
-                  Revolutionizing Healthcare with Google's Cutting-edge
-                  Solutions
+                  Optimize patient outcomes with cutting-edge technology and
+                  personalized care.
                 </p>
 
-                <Link href="/google-for-healthcare/" className="link-btn">
+                <Link href="/healthcare/" className="link-btn">
                   Read More
                 </Link>
               </div>
             </div>
-            <div className="col-lg-4 col-sm-6 col-md-6 d-flex">
-              <div className="single-main-services-box flex-fill">
+            <div className="col-lg-4 col-sm-6 col-md-6">
+              <div className="single-main-services-box">
                 <div className="icon">
                   <i className="flaticon-robot-1"></i>
                 </div>
                 <h3>
-                  <Link href="/google-for-media-and-entertainment/">
-                    Google For Media and Entertainment
+                  <Link href="/media-entertainment/">
+                    Media and Entertainment
                   </Link>
                 </h3>
                 <p>
-                  Revolutionizing Media and Entertainment with Cutting-Edge
-                  Google Technologies
+                  Revolutionize your media experience with enhanced creativity &
+                  superior audience engagement.
                 </p>
 
-                <Link
-                  href="/google-for-media-and-entertainment/"
-                  className="link-btn">
+                <Link href="/media-entertainment/" className="link-btn">
                   Read More
                 </Link>
               </div>
             </div>
 
-            <div className="col-lg-4 col-sm-6 col-md-6 d-flex">
-              <div className="single-main-services-box flex-fill">
+            <div className="col-lg-4 col-sm-6 col-md-6">
+              <div className="single-main-services-box">
                 <img
                   src="/images/icons/indusrty-icon/manufacturing.png"
                   alt="image"
@@ -127,23 +121,21 @@ const MainServices = () => {
                   }}
                 />
                 <h3>
-                  <Link href="/google-for-manufacturing/">
-                    Google For Manufacturing
-                  </Link>
+                  <Link href="/manufacturing/">Manufacturing</Link>
                 </h3>
                 <p>
-                  Transform Your Manufacturing Landscape with Google's
-                  Cutting-Edge Technologies
+                  Revolutionizing production lines with smart, sustainable, and
+                  scalable solutions.
                 </p>
 
-                <Link href="/google-for-manufacturing/" className="link-btn">
+                <Link href="/manufacturing/" className="link-btn">
                   Read More
                 </Link>
               </div>
             </div>
 
-            <div className="col-lg-4 col-sm-6 col-md-6 d-flex">
-              <div className="single-main-services-box flex-fill">
+            <div className="col-lg-4 col-sm-6 col-md-6">
+              <div className="single-main-services-box">
                 <img
                   src="/images/icons/indusrty-icon/semi.png"
                   alt="image"
@@ -154,22 +146,21 @@ const MainServices = () => {
                   }}
                 />
                 <h3>
-                  <Link href="/google-for-semiconductor/">
-                    Google For Semiconductor
-                  </Link>
+                  <Link href="/semiconductor/">Semiconductor</Link>
                 </h3>
                 <p>
-                  Accelerating Semiconductor Innovation with Google's Advanced
-                  Technologies.
+                  {" "}
+                  Powering the next tech revolution with advanced chip solutions
+                  and innovations.
                 </p>
 
-                <Link href="/google-for-semiconductor/" className="link-btn">
+                <Link href="/semiconductor/" className="link-btn">
                   Read More
                 </Link>
               </div>
             </div>
-            <div className="col-lg-4 col-sm-6 col-md-6 d-flex">
-              <div className="single-main-services-box flex-fill">
+            <div className="col-lg-4 col-sm-6 col-md-6">
+              <div className="single-main-services-box">
                 <img
                   src="/images/icons/indusrty-icon/it.png"
                   alt="image"
@@ -180,23 +171,21 @@ const MainServices = () => {
                   }}
                 />
                 <h3>
-                  <Link href="/google-for-it-production/">
-                    Google For IT Product and services
-                  </Link>
+                  <Link href="/Product-services/">IT Product and services</Link>
                 </h3>
                 <p>
-                  Powering IT Production Excellence with Google's Revolutionary
-                  Technologies
+                  Driving digital transformation with state-of-the-art IT
+                  solutions and unparalleled services.{" "}
                 </p>
 
-                <Link href="/google-for-it-production/" className="link-btn">
+                <Link href="/Product-services/" className="link-btn">
                   Read More
                 </Link>
               </div>
             </div>
 
-            <div className="col-lg-4 col-sm-6 col-md-6 d-flex">
-              <div className="single-main-services-box flex-fill">
+            <div className="col-lg-4 col-sm-6 col-md-6">
+              <div className="single-main-services-box">
                 <img
                   src="/images/icons/indusrty-icon/retail.png"
                   alt="image"
@@ -207,18 +196,21 @@ const MainServices = () => {
                   }}
                 />
                 <h3>
-                  <Link href="/google-for-retail/">Google For Retail</Link>
+                  <Link href="/retail/">Retail</Link>
                 </h3>
-                <p>Boost Retail Success with Google Solutions</p>
+                <p>
+                  Redefining shopping experiences with curated solutions and
+                  omnichannel engagement.
+                </p>
 
-                <Link href="/google-for-retail/" className="link-btn">
+                <Link href="/retail/" className="link-btn">
                   Read More
                 </Link>
               </div>
             </div>
 
-            <div className="col-lg-4 col-sm-6 col-md-6 d-flex">
-              <div className="single-main-services-box flex-fill">
+            <div className="col-lg-4 col-sm-6 col-md-6">
+              <div className="single-main-services-box">
                 <img
                   src="/images/icons/indusrty-icon/fmcd.png"
                   alt="image"
@@ -229,11 +221,15 @@ const MainServices = () => {
                   }}
                 />
                 <h3>
-                  <Link href="/google-for-fmcd/">Google For FMCD</Link>
+                  <Link href="/fmcd/">FMCD</Link>
                 </h3>
-                <p>Elevate Your FMCD Business with Strategic SAT Solutions</p>
+                <p>
+                  {" "}
+                  Enhancing consumer lifestyles with dynamic, durable, and
+                  dependable products.
+                </p>
 
-                <Link href="/google-for-fmcd/" className="link-btn">
+                <Link href="/fmcd/" className="link-btn">
                   Read More
                 </Link>
               </div>
@@ -245,4 +241,4 @@ const MainServices = () => {
   );
 };
 
-export default MainServices;
+export default MainIndustry;

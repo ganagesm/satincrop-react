@@ -9,7 +9,9 @@ const ComputerVisionAI = () => {
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12">
               <div className="computer-vision-ai-content">
-                <h3>The benefit of Partnering with SA Tech for healthcare IT consulting offers a range of advantages 
+                <h3>
+                  The benefit of Partnering with SA Tech for healthcare IT
+                  consulting offers a range of advantages
                 </h3>
                 {/* <p>
                   Lorem ipsum dolor sit amet consectetur adipiscing elit. Nulla
@@ -29,7 +31,10 @@ const ComputerVisionAI = () => {
                         </div>
                         <h4>Enhanced Patient Care </h4>
                       </div>
-                      <p>Optimized IT systems lead to improved patient care and better outcomes.</p>
+                      <p>
+                        Optimized IT systems lead to improved patient care and
+                        better outcomes.
+                      </p>
                     </div>
                   </div>
 
@@ -44,7 +49,10 @@ const ComputerVisionAI = () => {
                         </div>
                         <h4>Efficiency Boost</h4>
                       </div>
-                      <p>Streamlined operations and cost reduction result in enhanced efficiency.</p>
+                      <p>
+                        Streamlined operations and cost reduction result in
+                        enhanced efficiency.
+                      </p>
                     </div>
                   </div>
 
@@ -59,7 +67,9 @@ const ComputerVisionAI = () => {
                         </div>
                         <h4>Data-driven Insights </h4>
                       </div>
-                      <p>Leverage analytics for informed decisions and insightful operations.
+                      <p>
+                        Leverage analytics for informed decisions and insightful
+                        operations.
                       </p>
                     </div>
                   </div>
@@ -75,14 +85,16 @@ const ComputerVisionAI = () => {
                         </div>
                         <h4>Robust Cybersecurity </h4>
                       </div>
-                      <p>Stay ahead of security threats with strong cybersecurity measures. 
+                      <p>
+                        Stay ahead of security threats with strong cybersecurity
+                        measures.
                       </p>
                     </div>
                   </div>
                 </div>
                 <div className="computer-vision-ai-btn">
                   <Link href="/contact-us/" className="btn btn-primary">
-                    Get in touch now
+                    Quick call back now
                   </Link>
                 </div>
               </div>

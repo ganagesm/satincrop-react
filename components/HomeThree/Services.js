@@ -41,8 +41,7 @@ export default class Services extends Component {
                   <ul className="tabs">
                     <li
                       className="current"
-                      onClick={(e) => this.openTabSection(e, "tab1")}
-                    >
+                      onClick={(e) => this.openTabSection(e, "tab1")}>
                       <i className="flaticon-income"></i>
                       <span>Consulting</span>
                     </li>
@@ -83,14 +82,23 @@ export default class Services extends Component {
 
                       <div className="content">
                         <p>
-                          Are you looking to harness the power of cloud computing to drive your business forward? Look no 
-                          further! Our expert consulting services are here to guide you every step of the way. At SAT company,
-                           we understand that every business is unique. That's why we offer personalized consulting 
-                           services to assess your specific needs and craft a cloud strategy that aligns perfectly with your goals.
+                          Are you looking to harness the power of cloud
+                          computing to drive your business forward? Look no
+                          further! Our expert consulting services are here to
+                          guide you every step of the way. At SAT company, we
+                          understand that every business is unique. That's why
+                          we offer personalized consulting services to assess
+                          your specific needs and craft a cloud strategy that
+                          aligns perfectly with your goals.
                         </p>
-                        <p>Our team of experienced consultants will work closely with you to gain a deep understanding of your
-                           organization's objectives, challenges, and opportunities. We'll conduct a comprehensive analysis 
-                           to identify the best cloud solutions that can enhance your efficiency, scalability, and security.</p>
+                        <p>
+                          Our team of experienced consultants will work closely
+                          with you to gain a deep understanding of your
+                          organization's objectives, challenges, and
+                          opportunities. We'll conduct a comprehensive analysis
+                          to identify the best cloud solutions that can enhance
+                          your efficiency, scalability, and security.
+                        </p>
 
                         {/* <Link
                           href="/service-details"
@@ -106,14 +114,23 @@ export default class Services extends Component {
                       </div> */}
 
                       <div className="content">
-                        <p>Ready to make the move to Google Cloud? Our migration experts are here to ensure a smooth and secure 
-                          transition. Migrating your workloads to the cloud can be a complex endeavor, but with our guidance, you 
-                          can rest easy knowing that your data and applications are in capable hands.
+                        <p>
+                          Ready to make the move to Google Cloud? Our migration
+                          experts are here to ensure a smooth and secure
+                          transition. Migrating your workloads to the cloud can
+                          be a complex endeavor, but with our guidance, you can
+                          rest easy knowing that your data and applications are
+                          in capable hands.
                         </p>
-                        <p>We take a meticulous approach to migration, meticulously planning and executing each step to minimize 
-                          downtime and disruptions. Our team will assess your existing infrastructure, design a migration plan 
-                          tailored to your needs, and ensure that your valuable assets are safeguarded throughout the process.
-                          With our assistance, you can make the leap to Google Cloud with confidence.
+                        <p>
+                          We take a meticulous approach to migration,
+                          meticulously planning and executing each step to
+                          minimize downtime and disruptions. Our team will
+                          assess your existing infrastructure, design a
+                          migration plan tailored to your needs, and ensure that
+                          your valuable assets are safeguarded throughout the
+                          process. With our assistance, you can make the leap to
+                          Google Cloud with confidence.
                         </p>
 
                         {/* <Link
@@ -131,18 +148,32 @@ export default class Services extends Component {
 
                       <div className="content">
                         <p>
-                          Managing your Google Cloud environment doesn't have to be a time-consuming and resource-intensive task. 
-                          Our managed services are designed to simplify the management of your cloud resources, allowing you to 
-                          concentrate on what you do best – running your core business operations.
+                          Managing your Google Cloud environment doesn't have to
+                          be a time-consuming and resource-intensive task. Our
+                          managed services are designed to simplify the
+                          management of your cloud resources, allowing you to
+                          concentrate on what you do best – running your core
+                          business operations.
                         </p>
-                        <p>Our dedicated team of cloud management experts will handle all aspects of your Google Cloud environment, 
-                          from monitoring and optimization to security and compliance. We proactively identify and address any 
-                          potential issues, ensuring that your cloud infrastructure remains efficient, cost-effective, and secure.
+                        <p>
+                          Our dedicated team of cloud management experts will
+                          handle all aspects of your Google Cloud environment,
+                          from monitoring and optimization to security and
+                          compliance. We proactively identify and address any
+                          potential issues, ensuring that your cloud
+                          infrastructure remains efficient, cost-effective, and
+                          secure.
                         </p>
-                        <p>Don't let the complexities of cloud computing hold you back. Partner with SAT company and unlock the
-                          full potential of Google Cloud for your business.
+                        <p>
+                          Don't let the complexities of cloud computing hold you
+                          back. Partner with SAT company and unlock the full
+                          potential of Google Cloud for your business.
                         </p>
-                        <p>Contact us today to discuss your cloud needs and take the first step toward a brighter, more efficient future.</p>
+                        <p>
+                          Contact us today to discuss your cloud needs and take
+                          the first step toward a brighter, more efficient
+                          future.
+                        </p>
 
                         {/* <Link
                           href="/service-details"
@@ -169,8 +200,7 @@ export default class Services extends Component {
 
                         <Link
                           href="/service-details"
-                          className="btn btn-primary"
-                        >
+                          className="btn btn-primary">
                           Read More
                         </Link>
                       </div>
@@ -192,8 +222,7 @@ export default class Services extends Component {
 
                         <Link
                           href="/service-details"
-                          className="btn btn-primary"
-                        >
+                          className="btn btn-primary">
                           Read More
                         </Link>
                       </div>
@@ -215,8 +244,7 @@ export default class Services extends Component {
 
                         <Link
                           href="/service-details"
-                          className="btn btn-primary"
-                        >
+                          className="btn btn-primary">
                           Read More
                         </Link>
                       </div>

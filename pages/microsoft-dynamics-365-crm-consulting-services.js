@@ -1,25 +1,32 @@
-
 import Navbar from "../components/Live/Navbar";
 import Footer from "../components/Live/Footer";
 import Services from "../components/MicrosoftConsulting/Services";
 import ComputerVisionAI from "../components/MicrosoftConsulting/ComputerVisionAI";
 import PageBanner from "../components/MicrosoftConsulting/PageBanner";
 import TechDetailsContent from "../components/MicrosoftConsulting/TechDetailsContent";
-import MainServices from "../components/Live/MainServices";
+import MainIndustry from "../components/Live/MainIndustry";
 import BlogPostSlider from "../components/MicrosoftConsulting/BlogPostSlider";
 import ContactFormContent from "../components/Common/ContactFormContent";
 import Link from "next/link";
-import Head from 'next/head';
-
+import Head from "next/head";
 
 const Index = () => {
   return (
     <>
-
       <Head>
-        <title>Microsoft Dynamics CRM Consulting Services | SA Technologies</title>
-        <meta property="og:title" content="Microsoft Dynamics CRM Consulting Services | SA Technologies" key="title" />
-        <meta name="description" content="SA Technologies is a Microsoft Gold partner with 17 years of expertise in Comprehensive Microsoft Dynamics 365 CRM consulting services." key="description" />
+        <title>
+          Microsoft Dynamics CRM Consulting Services | SA Technologies
+        </title>
+        <meta
+          property="og:title"
+          content="Microsoft Dynamics CRM Consulting Services | SA Technologies"
+          key="title"
+        />
+        <meta
+          name="description"
+          content="SA Technologies is a Microsoft Gold partner with 17 years of expertise in Comprehensive Microsoft Dynamics 365 CRM consulting services."
+          key="description"
+        />
       </Head>
 
       <Navbar />
@@ -30,33 +37,33 @@ const Index = () => {
         activePageText="Microsoft Dynamics-365 crm consulting services"
         bgImgClass="item-bg15"
       />
-      
 
       <TechDetailsContent />
 
-      <div className="GCCJourney" >
-          <div className="container">
-            <div className="row ptb-100 pb-100 align-items-center">
-              <div className="col-lg-7 col-md-7">
-                <h2 className="align-items-center"
-                  style={{
-                    textAlign: "right",
-                  }}
-                >Connect with our Expert now</h2>
-              </div>
-              <div className="col-lg-5 col-md-5"
+      <div className="GCCJourney">
+        <div className="container">
+          <div className="row ptb-100 pb-100 align-items-center">
+            <div className="col-lg-7 col-md-7">
+              <h2
+                className="align-items-center"
                 style={{
-                  textAlign: "left",
-                }}
-              >
-                <Link href="/contact-us/" className="btn btn-primary">
+                  textAlign: "right",
+                }}>
+                Connect with our Expert now
+              </h2>
+            </div>
+            <div
+              className="col-lg-5 col-md-5"
+              style={{
+                textAlign: "left",
+              }}>
+              <Link href="/contact-us/" className="btn btn-primary">
                 Talk to our Microsoft Expert
-                </Link>
-              </div>
-
+              </Link>
             </div>
           </div>
         </div>
+      </div>
 
       {/* <ComputerVisionAI /> */}
 
@@ -68,7 +75,7 @@ const Index = () => {
           </Link>
         </div>
       </div>
-      <MainServices />
+      <MainIndustry />
       <BlogPostSlider />
 
       {/* <section className="contact-area pb-100">
@@ -96,6 +103,6 @@ const Index = () => {
       <ContactFormContent />
       <Footer />
     </>
-  )
-}
+  );
+};
 export default Index;

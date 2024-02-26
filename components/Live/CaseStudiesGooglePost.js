@@ -16,8 +16,9 @@ const BlogPostsSection = () => {
   useEffect(() => {
     async function fetchPosts() {
       try {
+        // const response = await fetch(`${postApi}/customer_story?page=${currentPage}&per_page=${pageSize}&order=desc`);
         const response = await fetch(
-          `${postApi}/customer_story?page=${currentPage}&per_page=${pageSize}&order=desc`
+          `${postApi}/customer_story?customer-success-category=367&page=${currentPage}&per_page=${pageSize}&order=desc`
         );
 
         if (!response.ok) {

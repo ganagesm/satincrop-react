@@ -33,7 +33,7 @@ const HeroBanner = () => {
                 {/* <h1 style={{ color: "#fff" }}> AI First Software Development Company </h1> */}
                 <div className="btn-box">
                   <Link href="/contact-us/" className="btn btn-primary">
-                    Get in touch now
+                    Quick call back now
                   </Link>
                 </div>
               </div>
@@ -69,7 +69,7 @@ const HeroBanner = () => {
                   </Link>
 
                   <Link href="/contact-us/" className="btn btn-primary">
-                    Get in touch now
+                    Quick call back now
                   </Link>
                 </div>
               </div>
@@ -108,7 +108,7 @@ const HeroBanner = () => {
                 <h2 style={{ color: "#fff" }}>Top 50 | Mid Size</h2>
                 <div className="btn-box">
                   <Link href="/careers/" className="btn btn-primary">
-                    Get in touch now
+                    Quick call back now
                   </Link>
                 </div>
               </div>

@@ -9,7 +9,9 @@ const ComputerVisionAI = () => {
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12">
               <div className="computer-vision-ai-content">
-                <h3>The benefit of Partnering with SA Tech for Government IT Consulting: - 
+                <h3>
+                  The benefit of Partnering with SA Tech for Government IT
+                  Consulting: -
                 </h3>
                 {/* <p>
                   Lorem ipsum dolor sit amet consectetur adipiscing elit. Nulla
@@ -29,7 +31,11 @@ const ComputerVisionAI = () => {
                         </div>
                         <h4>Operational Efficiency Enhancement </h4>
                       </div>
-                      <p>Our government consulting services offer streamlined workflows and optimized procedures, empowering clients to operate with enhanced efficiency.</p>
+                      <p>
+                        Our government consulting services offer streamlined
+                        workflows and optimized procedures, empowering clients
+                        to operate with enhanced efficiency.
+                      </p>
                     </div>
                   </div>
 
@@ -44,7 +50,11 @@ const ComputerVisionAI = () => {
                         </div>
                         <h4>Outcome Amplification </h4>
                       </div>
-                      <p>Our tailored solutions are designed to accelerate clients' goal achievements, resulting in boosted effectiveness and superior outcomes. </p>
+                      <p>
+                        Our tailored solutions are designed to accelerate
+                        clients' goal achievements, resulting in boosted
+                        effectiveness and superior outcomes.{" "}
+                      </p>
                     </div>
                   </div>
 
@@ -59,7 +69,10 @@ const ComputerVisionAI = () => {
                         </div>
                         <h4>Regulatory Adherence</h4>
                       </div>
-                      <p>We ensure clients' compliance with regulations and guidelines, mitigating the risk of breaches and non-compliance incidents.
+                      <p>
+                        We ensure clients' compliance with regulations and
+                        guidelines, mitigating the risk of breaches and
+                        non-compliance incidents.
                       </p>
                     </div>
                   </div>
@@ -75,14 +88,17 @@ const ComputerVisionAI = () => {
                         </div>
                         <h4>Service Delivery Enhancement</h4>
                       </div>
-                      <p>Government agencies leveraging our services experience improved service delivery and program efficiency, ultimately leading to better public outcomes. 
+                      <p>
+                        Government agencies leveraging our services experience
+                        improved service delivery and program efficiency,
+                        ultimately leading to better public outcomes.
                       </p>
                     </div>
                   </div>
                 </div>
                 <div className="computer-vision-ai-btn">
                   <Link href="/contact-us/" className="btn btn-primary">
-                    Get in touch now
+                    Quick call back now
                   </Link>
                 </div>
               </div>

@@ -14,13 +14,20 @@ const DomainSearch = () => {
       <div className="ai-main-banner-area">
         <div className="container-fluid">
           <div className="ai-main-banner-content">
-            <h1>Empowering FMCD Success: Tailored IT Consulting for Seamless Growth</h1>
-            <p>Stay ahead in the FMCG sector with SA Technologies' IT consulting and AI solutions, tailored to navigate the evolving tech landscape and drive business success.</p>
+            <h1>
+              Empowering FMCD Success: Tailored IT Consulting for Seamless
+              Growth
+            </h1>
+            <p>
+              Stay ahead in the FMCG sector with SA Technologies' IT consulting
+              and AI solutions, tailored to navigate the evolving tech landscape
+              and drive business success.
+            </p>
 
             <ul className="banner-btn">
               <li>
                 <Link href="/contact-us/" className="btn btn-primary">
-                Get in touch now
+                  Quick call back now
                 </Link>
               </li>
               {/* <li>

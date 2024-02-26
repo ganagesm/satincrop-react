@@ -14,21 +14,22 @@ const HeroBanner = () => {
           pauseOnMouseEnter: true,
         }}
         modules={[Navigation, Autoplay]}
-        className="home-slides"
-      >
+        className="home-slides">
         <SwiperSlide>
           <div
             className="main-banner"
-            style={{ backgroundImage: `url(/images/banners/qa-banner.png)` }}
-          >
+            style={{ backgroundImage: `url(/images/banners/qa-banner.png)` }}>
             <div className="container">
               <div className="main-banner-content">
                 <h1 style={{ color: "#fff" }}> Test Smarter, Deploy Faster </h1>
-                 <p style={{fontSize:"20px"}}>Revolutionizing Testing with Big Data, Deep Learning, and Computer Vision</p> 
+                <p style={{ fontSize: "20px" }}>
+                  Revolutionizing Testing with Big Data, Deep Learning, and
+                  Computer Vision
+                </p>
 
                 <div className="btn-box">
                   <Link href="/contact-us/" className="btn btn-primary">
-                    Get in touch now
+                    Quick call back now
                   </Link>
                 </div>
               </div>
