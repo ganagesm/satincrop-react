@@ -8,8 +8,8 @@ const ServiceDetailsContent = () => {
           <div className="services-details-overview">
             <div className="services-details-desc mb-30">
               <h3>
-                SA Technologies introduces comprehensive Google for Healthcare
-                Services
+                Revolutionize IT Product and Services with Googles
+                customer-centric solutions.
               </h3>
 
               <p>

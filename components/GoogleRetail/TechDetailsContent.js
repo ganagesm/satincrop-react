@@ -8,8 +8,7 @@ const ServiceDetailsContent = () => {
           <div className="services-details-overview">
             <div className="services-details-desc mb-30">
               <h3>
-                SA Technologies introduces comprehensive Google for retail
-                industry
+                Revolutionize retail with customer-centric solutions of Google
               </h3>
 
               <p>
