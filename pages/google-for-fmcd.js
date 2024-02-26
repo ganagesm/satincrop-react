@@ -36,7 +36,7 @@ const GoogleFMCD = () => {
         pageTitle="Elevate Your FMCD Business with Strategic SAT Solutions"
         homePageUrl="/"
         homePageText="Technology"
-        activePageText=" Google for FMCD"
+        activePageText=" Google Cloud for FMCD"
         bgImgClass="item-bg27 "
       />
 

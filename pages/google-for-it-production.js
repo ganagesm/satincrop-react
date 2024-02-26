@@ -31,10 +31,10 @@ const GoogleforITProduction = () => {
 
       <Navbar />
       <PageBanner
-        pageTitle="Powering IT Production Excellence with Google's Revolutionary Technologies "
+        pageTitle="Powering IT Production Excellence with Google Revolutionary Technologies "
         homePageUrl="/"
         homePageText="Technology"
-        activePageText=" Google for IT Production"
+        activePageText=" Google Cloud for IT Production"
         bgImgClass="item-bg29"
       />
 

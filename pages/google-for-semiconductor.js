@@ -36,7 +36,7 @@ const GoogleSemiconductor = () => {
         pageTitle="Accelerating Semiconductor Innovation with Google's Advanced Technologies."
         homePageUrl="/"
         homePageText="Technology"
-        activePageText="Google for Semiconductor"
+        activePageText="Google Cloud for Semiconductor"
         bgImgClass="item-bg32"
       />
 

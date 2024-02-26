@@ -27,7 +27,7 @@ const MainServices = () => {
                 />
                 <h3>
                   <Link href="/google-for-education/">
-                    Google For Education
+                    Google Cloud For Education
                   </Link>
                 </h3>
                 <p>
@@ -79,7 +79,7 @@ const MainServices = () => {
                 />
                 <h3>
                   <Link href="/google-for-healthcare/">
-                    Google For Healthcare
+                    Google Cloud For Healthcare
                   </Link>
                 </h3>
                 <p>
@@ -99,7 +99,7 @@ const MainServices = () => {
                 </div>
                 <h3>
                   <Link href="/google-for-media-and-entertainment/">
-                    Google For Media and Entertainment
+                    Google Cloud For Media and Entertainment
                   </Link>
                 </h3>
                 <p>
@@ -128,7 +128,7 @@ const MainServices = () => {
                 />
                 <h3>
                   <Link href="/google-for-manufacturing/">
-                    Google For Manufacturing
+                    Google Cloud For Manufacturing
                   </Link>
                 </h3>
                 <p>
@@ -155,11 +155,11 @@ const MainServices = () => {
                 />
                 <h3>
                   <Link href="/google-for-semiconductor/">
-                    Google For Semiconductor
+                    Google Cloud For Semiconductor
                   </Link>
                 </h3>
                 <p>
-                  Accelerating Semiconductor Innovation with Google's Advanced
+                  Accelerating Semiconductor Innovation with Google Advanced
                   Technologies.
                 </p>
 
@@ -181,11 +181,11 @@ const MainServices = () => {
                 />
                 <h3>
                   <Link href="/google-for-it-production/">
-                    Google For IT Product and services
+                    Google Cloud For IT Product and services
                   </Link>
                 </h3>
                 <p>
-                  Powering IT Production Excellence with Google's Revolutionary
+                  Powering IT Production Excellence with Google Revolutionary
                   Technologies
                 </p>
 
@@ -207,7 +207,9 @@ const MainServices = () => {
                   }}
                 />
                 <h3>
-                  <Link href="/google-for-retail/">Google For Retail</Link>
+                  <Link href="/google-for-retail/">
+                    Google Cloud For Retail
+                  </Link>
                 </h3>
                 <p>Boost Retail Success with Google Solutions</p>
 
@@ -229,7 +231,7 @@ const MainServices = () => {
                   }}
                 />
                 <h3>
-                  <Link href="/google-for-fmcd/">Google For FMCD</Link>
+                  <Link href="/google-for-fmcd/">Google Cloud For FMCD</Link>
                 </h3>
                 <p>Elevate Your FMCD Business with Strategic SAT Solutions</p>
 

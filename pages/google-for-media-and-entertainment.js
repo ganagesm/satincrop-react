@@ -36,7 +36,7 @@ const GoogleforMediaAndEntertainment = () => {
         pageTitle="Revolutionizing Media and Entertainment with Cutting-Edge Google Technologies "
         homePageUrl="/"
         homePageText="Technology"
-        activePageText=" Google for Media & Entertainment"
+        activePageText=" Google Cloud for Media & Entertainment"
         bgImgClass="item-bg31"
       />
 
