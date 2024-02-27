@@ -67,15 +67,17 @@ const Index = () => {
 
       {/* <Services /> */}
 
+
+
+      <WhyChooseSAT />
+
       <div className="col-lg-12 col-md-12">
-        <div className="ai-all-services-btn ptb-50">
+        <div className="ai-all-services-btn pb-50">
           <Link href="/contact-us/" className="btn btn-primary">
             Contact Us
           </Link>
         </div>
       </div>
-
-      <WhyChooseSAT />
 
       <MainIndustry />
       <BlogPostSlider />
