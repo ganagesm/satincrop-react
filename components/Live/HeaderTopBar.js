@@ -24,7 +24,6 @@ const TopNavbar = () => {
               </div>
             </div>
             <div className="col-lg-9 col-md-9">
-
               {/* <ul class="topbar-action-list">
                 <li><a class="nav-link false" href="/careers/">USA : +1 (408) 495-5822</a></li>
                 <li><a class="nav-link false" href="/careers/">India : +91 78757 87550</a></li>
@@ -35,52 +34,51 @@ const TopNavbar = () => {
                 </li>
               </ul> */}
 
-
-
-
               <ul className="topbar-action-list">
                 <li>
-                  <Link
-                    href="tel:(408)-495-5822"
-                    className={`nav-link ${currentPath == "tel:(408)-495-5822" && "active"
-                      }`}>
-                    USA : +1 (408)-495-5822
-                  </Link>
+                  <Link href="tel:(408)-495-5822">USA : +1 (408)-495-5822</Link>
                 </li>
 
                 <li>
-                  <Link
-                    href="tel:+91 78757 87550"
-                    className={`nav-link ${currentPath == "tel:+91 78757 87550" && "active"
-                      }`}>
+                  <Link href="tel:+91 78757 87550">
                     India : +91 78757 87550
                   </Link>
                 </li>
-
                 <li>
                   <Link
-                    href="mailto:sales@satincorp.com"
-                    className={`nav-link ${currentPath == "mailto:sales@satincorp.com" && "active"
-                      }`}>
+                    href="https://api.whatsapp.com/send/?phone=%2B9107875787550&text=Hello!%20I%27m%20interested%20in%20exploring%20your%20SAT%20Services.%20Can%20you%20share%20more%20details?"
+                    target="_blank"
+                    className="">
+                    <img
+                      src="/images/icon/whatsApp-logo.svg"
+                      width={"40px"}
+                      alt="whatsapp"
+                    />
+                  </Link>
+                </li>
+
+                <li>
+                  <Link href="mailto:sales@satincorp.com">
                     sales@satincorp.com
                   </Link>
                 </li>
 
-
                 <li>
                   <Link
                     href="/careers/"
-                    className={`nav-link ${currentPath == "/careers/" && "active"
-                      }`}>
+                    className={`nav-link ${
+                      currentPath == "/careers/" && "active"
+                    }`}>
                     Join Our Team
                   </Link>
                 </li>
-                <li style={{ marginLeft: "-20px" }}>
+                <li>
                   <Link
                     style={{ color: "#ff4800" }}
                     href="/investors/"
-                    className={`nav-link ${currentPath == "/investors/" && "active"
-                      }`}>
+                    className={`nav-link ${
+                      currentPath == "/investors/" && "active"
+                    }`}>
                     Investor
                   </Link>
                 </li>
