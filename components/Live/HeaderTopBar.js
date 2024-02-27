@@ -16,21 +16,62 @@ const TopNavbar = () => {
       <div className="topbar-wrap-area">
         <div className="container-fluid">
           <div className="row align-items-center justify-content-center">
-            <div className="col-lg-6 col-md-6">
+            <div className="col-lg-3 col-md-3">
               <div className="topbar-content">
                 {/* <img alt="cmmi5" src="./images/ca-cmmi_logo.jpeg" width={50} style={{ marginRight: "10px", }} /> */}
 
                 {/* <span>Welcome to SA Technologies Inc. Need Help? <a href="/contact-us/">Contact Us</a> </span> */}
               </div>
             </div>
-            <div className="col-lg-6 col-md-6">
+            <div className="col-lg-9 col-md-9">
+
+              {/* <ul class="topbar-action-list">
+                <li><a class="nav-link false" href="/careers/">USA : +1 (408) 495-5822</a></li>
+                <li><a class="nav-link false" href="/careers/">India : +91 78757 87550</a></li>
+                <li><a class="nav-link false" href="/careers/">sales@satincorp.com</a></li>
+                <li><a class="nav-link false" href="/careers/">Join Our Team</a></li>
+                <li style="margin-left: -20px;">
+                  <a class="nav-link false" href="/investors/" style="color: rgb(255, 72, 0);">Investor</a>
+                </li>
+              </ul> */}
+
+
+
+
               <ul className="topbar-action-list">
                 <li>
                   <Link
+                    href="tel:(408)-495-5822"
+                    className={`nav-link ${currentPath == "tel:(408)-495-5822" && "active"
+                      }`}>
+                    USA : +1 (408)-495-5822
+                  </Link>
+                </li>
+
+                <li>
+                  <Link
+                    href="tel:+91 78757 87550"
+                    className={`nav-link ${currentPath == "tel:+91 78757 87550" && "active"
+                      }`}>
+                    India : +91 78757 87550
+                  </Link>
+                </li>
+
+                <li>
+                  <Link
+                    href="mailto:sales@satincorp.com"
+                    className={`nav-link ${currentPath == "mailto:sales@satincorp.com" && "active"
+                      }`}>
+                    sales@satincorp.com
+                  </Link>
+                </li>
+
+
+                <li>
+                  <Link
                     href="/careers/"
-                    className={`nav-link ${
-                      currentPath == "/careers/" && "active"
-                    }`}>
+                    className={`nav-link ${currentPath == "/careers/" && "active"
+                      }`}>
                     Join Our Team
                   </Link>
                 </li>
@@ -38,9 +79,8 @@ const TopNavbar = () => {
                   <Link
                     style={{ color: "#ff4800" }}
                     href="/investors/"
-                    className={`nav-link ${
-                      currentPath == "/investors/" && "active"
-                    }`}>
+                    className={`nav-link ${currentPath == "/investors/" && "active"
+                      }`}>
                     Investor
                   </Link>
                 </li>
@@ -52,7 +92,7 @@ const TopNavbar = () => {
                   <i class="fa-solid fa-envelope"></i>
                   <a href="mailto:sales@satincorp.com">sales@satincorp.com</a>
                 </li> */}
-                <li>
+                {/* <li>
                   <Link
                     href="https://www.linkedin.com/company/sa-technologies-inc-/"
                     target="_blank">
@@ -80,7 +120,7 @@ const TopNavbar = () => {
                       <path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" />
                     </svg>
                   </Link>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
