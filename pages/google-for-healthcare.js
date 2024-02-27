@@ -31,7 +31,7 @@ const GoogleHeathcare = () => {
 
       <Navbar />
       <PageBanner
-        pageTitle="Revolutionize Education with customer-centric solutions of Google"
+        pageTitle="Revolutionizing Healthcare with Google's Cutting-edge Solutions "
         homePageUrl="/"
         homePageText="Technology"
         activePageText=" Google Cloud for Healthcare"
