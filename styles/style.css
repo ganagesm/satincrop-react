@@ -8646,4 +8646,14 @@ a.btn.btn-primary.ai_btn {
     margin-top: 20px;
 }
 
+.contactPageSupport .section-title {
+    margin-bottom: 120px;
+}
+.contactPageSupport .icon {
+    top: -13%;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+}
+
 /*End "Home Demo - 6", "Home Demo - 7" & "Home Demo - 8" Style CSS*/
