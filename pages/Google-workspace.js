@@ -17,13 +17,21 @@ const GoogleWorkspace = () => {
     <>
       <Head>
         <title>Get Google Workspace Solutions with SAT</title>
-        <meta property="og:title" content="Get Google Workspace Solutions with SAT" key="title" />
-        <meta name="description" content="Bring your team together with Google Workspace Solutions by SA Technologies. Enhance collaboration and productivity with SAT comprehensive google cloud-based solutions." key="description" />
+        <meta
+          property="og:title"
+          content="Get Google Workspace Solutions with SAT"
+          key="title"
+        />
+        <meta
+          name="description"
+          content="Bring your team together with Google Workspace Solutions by SA Technologies. Enhance collaboration and productivity with SAT comprehensive google cloud-based solutions."
+          key="description"
+        />
       </Head>
 
       <Navbar />
       <PageBanner
-        pageTitle="Elevate Your Business with Google Workspace and Duet AI"
+        pageTitle="Elevate Your Business with Google Workspace"
         homePageUrl="/"
         homePageText="Technology"
         activePageText=" Google Workspace"
@@ -31,33 +39,32 @@ const GoogleWorkspace = () => {
       />
 
       <TechDetailsContent />
-       <ServicesBox />
+      <ServicesBox />
       <Cta />
       <Services />
-      <div className="GCCJourney" style={{marginTop:"0"}}>
+      <div className="GCCJourney" style={{ marginTop: "0" }}>
         <div className="container">
           <div className="row ptb-100 pb-100 align-items-center">
             <div className="col-lg-7 col-md-8">
-              <h2 className="align-items-center"
-                style={{textAlign: "",}}> 
-                Ready to Transform Your Workspace? Bring Google Workspace to Your Business
+              <h2 className="align-items-center" style={{ textAlign: "" }}>
+                Ready to Transform Your Workspace? Bring Google Workspace to
+                Your Business
               </h2>
             </div>
-            <div className="col-lg-5 col-md-4"
+            <div
+              className="col-lg-5 col-md-4"
               style={{
                 textAlign: "left",
-              }}
-            >
+              }}>
               <Link href="/contact-us/" className="btn btn-primary">
-              Contact us
+                Contact us
               </Link>
             </div>
-
           </div>
         </div>
       </div>
-      
-      <IntegratingGoogle />            
+
+      <IntegratingGoogle />
       <MainServices />
       <BlogPostSlider />
       <ContactFormContent />

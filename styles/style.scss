@@ -9270,7 +9270,7 @@ Topbar Wrap Area CSS
     display: inline-block;
     margin-right: 30px;
     position: relative;
-    padding-left: 20px;
+    
 
     &::before {
       content: "";
@@ -9284,6 +9284,7 @@ Topbar Wrap Area CSS
 
     &:last-child {
       margin-right: 0;
+      // padding-left: 20px;
 
       &::before {
         display: none;
@@ -11776,5 +11777,16 @@ a.btn.btn-primary.ai_btn {
   margin-top: 20px;
 }
 
+.contactPageSupport {
+  .section-title {
+    margin-bottom: 120px;
+  }
+  .icon {
+    top: -13%;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+  }
+}
 
 /*End "Home Demo - 6", "Home Demo - 7" & "Home Demo - 8" Style CSS*/

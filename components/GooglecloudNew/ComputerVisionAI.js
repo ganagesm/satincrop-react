@@ -135,7 +135,7 @@ const ComputerVisionAI = () => {
                     <div className="single-services-box top-featured-card flex-fill">
                       {/* <div className="content"> */}
                       <h4>
-                        <a href="#">Google Workspace</a>
+                        <a href="/Google-workspace/">Google Workspace</a>
                       </h4>
                       <p>
                         Discover the power of Google Workspace, a holistic

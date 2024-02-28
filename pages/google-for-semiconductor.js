@@ -9,6 +9,7 @@ import Cta from "../components/GoogleSemiconductor/Cta";
 import WhyChooseSAT from "../components/GoogleSemiconductor/WhyChooseSAT";
 import ServicesBox from "../components/GoogleSemiconductor/ServicesBox";
 import IntegratingGoogle from "../components/GoogleSemiconductor/IntegratingGoogle";
+import CaseStudiesGooglePost from "../components/Live/CaseStudiesGooglePost";
 import Link from "next/link";
 import Head from "next/head";
 
@@ -82,6 +83,7 @@ const GoogleSemiconductor = () => {
 
       {/* <MainServices /> */}
       <BlogPostSlider />
+      <CaseStudiesGooglePost />
       <ContactFormContent />
       <Footer />
     </>

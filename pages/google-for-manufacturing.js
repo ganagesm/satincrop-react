@@ -9,6 +9,7 @@ import Cta from "../components/GoogleforManufacturing/Cta";
 import WhyChooseSAT from "../components/GoogleforManufacturing/WhyChooseSAT";
 import ServicesBox from "../components/GoogleforManufacturing/ServicesBox";
 import IntegratingGoogle from "../components/GoogleforManufacturing/IntegratingGoogle";
+import CaseStudiesGooglePost from "../components/Live/CaseStudiesGooglePost";
 import Link from "next/link";
 import Head from "next/head";
 
@@ -80,6 +81,7 @@ const GoogleforManufacturing = () => {
 
       {/* <MainServices /> */}
       <BlogPostSlider />
+      <CaseStudiesGooglePost />
       <ContactFormContent />
       <Footer />
     </>

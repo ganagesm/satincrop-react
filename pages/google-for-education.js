@@ -9,6 +9,7 @@ import Cta from "../components/GoogleEducation/Cta";
 import WhyChooseSAT from "../components/GoogleEducation/WhyChooseSAT";
 import ServicesBox from "../components/GoogleEducation/ServicesBox";
 import IntegratingGoogle from "../components/GoogleEducation/IntegratingGoogle";
+import CaseStudiesGooglePost from "../components/Live/CaseStudiesGooglePost";
 import Link from "next/link";
 import Head from "next/head";
 
@@ -81,6 +82,7 @@ const GoogleEducation = () => {
 
       {/* <MainServices /> */}
       <BlogPostSlider />
+      <CaseStudiesGooglePost />
       <ContactFormContent />
       <Footer />
     </>
