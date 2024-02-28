@@ -4,10 +4,10 @@ import Link from "next/link";
 const Services = () => {
   return (
     <>
-      <div className="services-area bg-f2f6f9 ptb-70 pt-50">
+      <div className="services-area bg-f2f6f9 ptb-70">
         <div className="container">
           <div className="section-title">
-            <h2>North America</h2>
+            <h2>Our Offices</h2>
           </div>
           <div className="row justify-content-center">
             <div className="col-lg-4 col-sm-6 col-md-6">
@@ -22,10 +22,10 @@ const Services = () => {
                   }}
                 />
                 <h3>
-                USA
+                  USA
                 </h3>
                 <p>
-                3031 Tisch Way, 110 Plaza West, San Jose, CA 95128
+                  3031 Tisch Way, 110 Plaza West, San Jose, CA 95128
                 </p>
               </div>
             </div>
@@ -95,7 +95,7 @@ const Services = () => {
                   Bangalore
                 </h3>
                 <p>
-                613/A, 2nd Floor,15th Cross Ring Road, 33rd Main, J P nagar 1st Phase, Bangalore – 560078
+                  613/A, 2nd Floor,15th Cross Ring Road, 33rd Main, J P nagar 1st Phase, Bangalore – 560078
                 </p>
                 {/* <p>Phone: <a href="tel:080 4375 1188">080 4375 1188</a></p> */}
               </div>
@@ -245,10 +245,10 @@ const Services = () => {
                   }}
                 />
                 <h3>
-                New York
+                  New York
                 </h3>
                 <p>
-                459 Columbus Ave #4029 New York, NY 10024
+                  459 Columbus Ave #4029 New York, NY 10024
                 </p>
                 {/* <p>Phone: <a href="tel:080 4375 1188">080 4375 1188</a></p> */}
               </div>
@@ -265,10 +265,10 @@ const Services = () => {
                   }}
                 />
                 <h3>
-                Scottsdale
+                  Scottsdale
                 </h3>
                 <p>
-                13802 N Scottsdale Rd Suite 151 – 141 Scottsdale, AZ 85254-340
+                  13802 N Scottsdale Rd Suite 151 – 141 Scottsdale, AZ 85254-340
                 </p>
                 {/* <p>Phone: <a href="tel:080 4375 1188">080 4375 1188</a></p> */}
               </div>
