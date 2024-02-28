@@ -46,7 +46,7 @@ const GoogleCloudNew = () => {
       <MainServices />
       <CaseStudiesGooglePost />
       <BlogPostSlider />
-      <ContactFormContent />
+      {/* <ContactFormContent /> */}
       <Footer />
     </>
   );

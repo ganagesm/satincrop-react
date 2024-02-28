@@ -50,7 +50,7 @@ const Index = () => {
       <MainIndustry />
       <BlogPostSlider />
 
-      <ContactFormContent />
+      {/* <ContactFormContent /> */}
       <Footer />
     </>
   );

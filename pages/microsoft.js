@@ -73,7 +73,7 @@ const Index = () => {
         </div>
       </section> */}
 
-      <ContactFormContent />
+      {/* <ContactFormContent /> */}
       <Footer />
     </>
   );
