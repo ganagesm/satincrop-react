@@ -44,7 +44,7 @@ const GoogleCloudNew = () => {
       <ComputerVisionAI />
       <Services />
       <MainServices />
-      {/* <CaseStudiesGooglePost /> */}
+      <CaseStudiesGooglePost />
       <BlogPostSlider />
       <ContactFormContent />
       <Footer />

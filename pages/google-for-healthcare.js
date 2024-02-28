@@ -9,6 +9,7 @@ import Cta from "../components/GoogleHeathcare/Cta";
 import WhyChooseSAT from "../components/GoogleHeathcare/WhyChooseSAT";
 import ServicesBox from "../components/GoogleHeathcare/ServicesBox";
 import IntegratingGoogle from "../components/GoogleHeathcare/IntegratingGoogle";
+import CaseStudiesGooglePost from "../components/Live/CaseStudiesGooglePost";
 import Link from "next/link";
 import Head from "next/head";
 
@@ -79,6 +80,7 @@ const GoogleHeathcare = () => {
 
       {/* <MainServices /> */}
       <BlogPostSlider />
+      <CaseStudiesGooglePost />
       <ContactFormContent />
       <Footer />
     </>
