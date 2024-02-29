@@ -43,6 +43,7 @@ const GoogleRetail = () => {
       <ServicesBox />
       {/* <Cta /> */}
       <WhyChooseSAT />
+      <CaseStudiesGooglePost />
       <Cta />
 
       {/* <div className="GCCJourney">
@@ -81,7 +82,7 @@ const GoogleRetail = () => {
 
       {/* <MainServices /> */}
       <BlogPostSlider />
-      <CaseStudiesGooglePost />
+
       <ContactFormContent />
       <Footer />
     </>

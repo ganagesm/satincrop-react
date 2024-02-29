@@ -78,19 +78,15 @@ const ContactFormContent = () => {
         </div>
       </section> */}
 
-      <section className="contact-area ptb-110 bg-f2f6f9">
+      {/* <section className="contact-area ptb-110 bg-f2f6f9">
         <div className="container">
           <div className="section-title" style={{ marginBottom: "20px" }}>
             <span>Contact Us</span>
-            {/* <h3>Contact us by Phone Number or Email Address</h3> */}
           </div>
 
-          {/* Contact info */}
+          Contact info
           <div className="contact-info">
             <div className="contact-info-content">
-              {/* <h2 style={{ marginBottom: "20px" }}>
-                Contact us by Phone Number or Email Address
-              </h2> */}
               <h5>Click on the below chatbot to connect with us</h5>
               <h5>
                 Contact us by WhatsApp
@@ -122,7 +118,7 @@ const ContactFormContent = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 };
