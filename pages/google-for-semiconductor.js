@@ -43,6 +43,7 @@ const GoogleSemiconductor = () => {
 
       <TechDetailsContent />
       <ServicesBox />
+      <CaseStudiesGooglePost />
       <Cta />
       <WhyChooseSAT />
       {/* <Cta /> */}
@@ -83,7 +84,7 @@ const GoogleSemiconductor = () => {
 
       {/* <MainServices /> */}
       <BlogPostSlider />
-      <CaseStudiesGooglePost />
+
       <ContactFormContent />
       <Footer />
     </>

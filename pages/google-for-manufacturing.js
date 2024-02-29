@@ -43,6 +43,7 @@ const GoogleforManufacturing = () => {
       <ServicesBox />
       {/* <Cta /> */}
       <WhyChooseSAT />
+      <CaseStudiesGooglePost />
       <Cta />
 
       {/* <div className="GCCJourney">
@@ -81,7 +82,7 @@ const GoogleforManufacturing = () => {
 
       {/* <MainServices /> */}
       <BlogPostSlider />
-      <CaseStudiesGooglePost />
+
       <ContactFormContent />
       <Footer />
     </>

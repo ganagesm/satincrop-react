@@ -41,6 +41,7 @@ const GoogleforITProduction = () => {
 
       <TechDetailsContent />
       <ServicesBox />
+      <CaseStudiesGooglePost />
       {/* <Cta /> */}
       <WhyChooseSAT />
 
@@ -80,7 +81,7 @@ const GoogleforITProduction = () => {
 
       {/* <MainServices /> */}
       <BlogPostSlider />
-      <CaseStudiesGooglePost />
+
       <ContactFormContent />
       <Footer />
     </>

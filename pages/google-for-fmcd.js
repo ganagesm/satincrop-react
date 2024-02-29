@@ -45,7 +45,7 @@ const GoogleFMCD = () => {
       <ServicesBox />
       {/* <Cta /> */}
       <WhyChooseSAT />
-
+      <CaseStudiesGooglePost />
       {/* <div className="GCCJourney">
         <div className="container">
           <div className="row ptb-100 pb-100 align-items-center">
@@ -82,7 +82,7 @@ const GoogleFMCD = () => {
 
       {/* <MainServices /> */}
       <BlogPostSlider />
-      <CaseStudiesGooglePost />
+
       <ContactFormContent />
       <Footer />
     </>

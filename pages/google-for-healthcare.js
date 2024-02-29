@@ -43,6 +43,7 @@ const GoogleHeathcare = () => {
       <ServicesBox />
       {/* <Cta /> */}
       <WhyChooseSAT />
+      <CaseStudiesGooglePost />
 
       {/* <div className="GCCJourney">
         <div className="container">
@@ -80,7 +81,7 @@ const GoogleHeathcare = () => {
 
       {/* <MainServices /> */}
       <BlogPostSlider />
-      <CaseStudiesGooglePost />
+
       <ContactFormContent />
       <Footer />
     </>

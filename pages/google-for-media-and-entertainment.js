@@ -45,6 +45,7 @@ const GoogleforMediaAndEntertainment = () => {
       <ServicesBox />
       {/* <Cta /> */}
       <WhyChooseSAT />
+      <CaseStudiesGooglePost />
       {/* <Cta /> */}
 
       {/* <div className="GCCJourney">
@@ -83,7 +84,7 @@ const GoogleforMediaAndEntertainment = () => {
 
       {/* <MainServices /> */}
       <BlogPostSlider />
-      <CaseStudiesGooglePost />
+
       <ContactFormContent />
       <Footer />
     </>
