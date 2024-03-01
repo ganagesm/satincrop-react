@@ -6597,7 +6597,6 @@ Topbar Wrap Area CSS
     display: inline-block;
     margin-right: 30px;
     position: relative;
-    padding-left: 20px;
 }
 .topbar-action-list li::before {
     content: "";
@@ -6609,7 +6608,7 @@ Topbar Wrap Area CSS
     border: 2px solid #E4E7FB;
 }
 .topbar-action-list li:last-child {
-    margin-right: 0;
+    margin-right: 20px;
 }
 .topbar-action-list li:last-child::before {
     display: none;

@@ -48,7 +48,7 @@ const Index = () => {
       <MainIndustry />
       {/* <BlogPostSlider /> */}
       <BlogPostSlider />
-      <ContactFormContent />
+      {/* <ContactFormContent /> */}
       <Footer />
     </>
   );

@@ -9,6 +9,7 @@ import Cta from "../components/GoogleRetail/Cta";
 import WhyChooseSAT from "../components/GoogleRetail/WhyChooseSAT";
 import ServicesBox from "../components/GoogleRetail/ServicesBox";
 import IntegratingGoogle from "../components/GoogleRetail/IntegratingGoogle";
+import CaseStudiesGooglePost from "../components/Live/CaseStudiesGooglePost";
 import Link from "next/link";
 import Head from "next/head";
 
@@ -42,6 +43,7 @@ const GoogleRetail = () => {
       <ServicesBox />
       {/* <Cta /> */}
       <WhyChooseSAT />
+      <CaseStudiesGooglePost />
       <Cta />
 
       {/* <div className="GCCJourney">
@@ -80,6 +82,7 @@ const GoogleRetail = () => {
 
       {/* <MainServices /> */}
       <BlogPostSlider />
+
       <ContactFormContent />
       <Footer />
     </>

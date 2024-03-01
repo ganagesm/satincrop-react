@@ -51,7 +51,7 @@ const Index = () => {
       <MainIndustry />
       <BlogPostSlider />
 
-      <ContactFormContent />
+      {/* <ContactFormContent /> */}
 
       {/*<Services />
        <BlogPost /> */}

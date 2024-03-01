@@ -98,8 +98,8 @@ const BlogPostsSection = () => {
             className="partner-slides">
             <div className="row justify-content-center">
               {posts.map((post, index) => (
-                <SwiperSlide>
-                  <div className="single-blog-post" key={index}>
+                <SwiperSlide className="d-flex">
+                  <div className="single-blog-post flex-fill" key={index}>
                     <div className="entry-thumbnail">
                       <Link
                         href="/customer-success-stories/[slug]"

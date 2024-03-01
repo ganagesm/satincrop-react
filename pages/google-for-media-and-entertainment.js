@@ -9,6 +9,7 @@ import Cta from "../components/GoogleforMediaAndEntertainment/Cta";
 import WhyChooseSAT from "../components/GoogleforMediaAndEntertainment/WhyChooseSAT";
 import ServicesBox from "../components/GoogleforMediaAndEntertainment/ServicesBox";
 import IntegratingGoogle from "../components/GoogleforMediaAndEntertainment/IntegratingGoogle";
+import CaseStudiesGooglePost from "../components/Live/CaseStudiesGooglePost";
 import Link from "next/link";
 import Head from "next/head";
 
@@ -44,6 +45,7 @@ const GoogleforMediaAndEntertainment = () => {
       <ServicesBox />
       {/* <Cta /> */}
       <WhyChooseSAT />
+      <CaseStudiesGooglePost />
       {/* <Cta /> */}
 
       {/* <div className="GCCJourney">
@@ -82,6 +84,7 @@ const GoogleforMediaAndEntertainment = () => {
 
       {/* <MainServices /> */}
       <BlogPostSlider />
+
       <ContactFormContent />
       <Footer />
     </>

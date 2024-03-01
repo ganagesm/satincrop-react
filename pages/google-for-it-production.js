@@ -9,6 +9,7 @@ import Cta from "../components/GoogleforITProduction/Cta";
 import WhyChooseSAT from "../components/GoogleforITProduction/WhyChooseSAT";
 import ServicesBox from "../components/GoogleforITProduction/ServicesBox";
 import IntegratingGoogle from "../components/GoogleforITProduction/IntegratingGoogle";
+import CaseStudiesGooglePost from "../components/Live/CaseStudiesGooglePost";
 import Link from "next/link";
 import Head from "next/head";
 
@@ -40,6 +41,7 @@ const GoogleforITProduction = () => {
 
       <TechDetailsContent />
       <ServicesBox />
+      <CaseStudiesGooglePost />
       {/* <Cta /> */}
       <WhyChooseSAT />
 
@@ -79,6 +81,7 @@ const GoogleforITProduction = () => {
 
       {/* <MainServices /> */}
       <BlogPostSlider />
+
       <ContactFormContent />
       <Footer />
     </>
