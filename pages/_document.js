@@ -21,7 +21,7 @@ class MyDocument extends Document {
           />
           <link rel="icon" type="image/png" href="/favicon.png"></link>
           <link rel="icon" type="image/png" href="/180x180.png"></link>
-          {/* <link rel="icon" type="image/png" href="/outsource.svg"></link> */}
+      
           {/* ZOho Code 01/03/2024 */}
           <script
             dangerouslySetInnerHTML={{
