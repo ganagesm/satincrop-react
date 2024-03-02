@@ -10,7 +10,7 @@ const Footer = () => {
   const isEmployeeSelfService = location.pathname === "/employeeselfservice";
   const isGCC = location.pathname === "/gcc";
   const isAccelerateYourBusinessGrowthWithGcp =
-    location.pathname === "/accelerate-your-business-growth-with-gcp";
+    location.pathname === "/accelerate-your-business-growth-with-gcp/";
 
   //Zoho Sales Iq Script:
   const useScript = (url, widgetCode) => {
@@ -282,7 +282,7 @@ const Footer = () => {
           ? // Load the script on the accelerate-your-business-growth-with-gcp page
             useScript(
               "https://salesiq.zoho.in/widget",
-              "siqf3592159c32026e2a0131f3864f287f5"
+              "siq1ffd8dea6a104956cdb9b859b7e0f05934dbf68c3bcad978c43112ff16fcd931"
             )
           : // Dana Bot
             useScript(
