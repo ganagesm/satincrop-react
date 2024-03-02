@@ -185,7 +185,7 @@ const ContactFormContent = () => {
                 <ul className="navbar-nav">
                   <li className="nav-item">
                     <span>Phone:</span>{" "}
-                    <a href="tel:+919284004097"> +91 9284 00 4097</a>
+                    <a href="tel:+917058188896"> +91 7058 18 8896</a>
                   </li>
                 </ul>
               </div>
@@ -780,7 +780,7 @@ const ContactFormContent = () => {
         )}
       </React.Fragment>
       <Link
-        href="https://api.whatsapp.com/send/?phone=%2B919284004097&text=Hello,%20I%20am%20interested%20in%20%20buying%20O365%20licenses"
+        href="https://api.whatsapp.com/send/?phone=%2B9170581%2088896&text=Hello,%20I%20am%20interested%20in%20%20buying%20O365%20licenses"
         target="_blank"
         className="floatWhatsApp">
         <img src="/images/icons/whatsApp.svg" alt="whatsapp" />
