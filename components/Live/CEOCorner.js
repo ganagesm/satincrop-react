@@ -24,8 +24,7 @@ const BlogPostSlider = () => {
                     <a
                       href="https://www.linkedin.com/in/manojjoshi/"
                       target="_blank"
-                      rel="noreferrer"
-                    >
+                      rel="noreferrer">
                       <i className="fab fa-linkedin"></i>
                     </a>
 
@@ -54,35 +53,67 @@ const BlogPostSlider = () => {
               </div>
             </div>
             <div className="col-lg-8 col-sm-12">
-              
               <Swiper
-                  spaceBetween={20}
-                  autoplay={{
-                    delay: 900,
-                    disableOnInteraction: true,
-                    pauseOnMouseEnter: true,
-                  }}
-                  breakpoints={{
-                    0: {
-                      slidesPerView: 1,
-                    },
-                    576: {
-                      slidesPerView: 1,
-                    },
-                    768: {
-                      slidesPerView: 2,
-                    },
-                    1200: {
-                      slidesPerView: 2,
-                    },
-                  }}
-                  pagination={{
-                    clickable: true,
-                  }}
-                  modules={[Pagination, Autoplay]}
-                  className="ceo-slides"
-                >
+                spaceBetween={20}
+                autoplay={{
+                  delay: 900,
+                  disableOnInteraction: true,
+                  pauseOnMouseEnter: true,
+                }}
+                breakpoints={{
+                  0: {
+                    slidesPerView: 1,
+                  },
+                  576: {
+                    slidesPerView: 1,
+                  },
+                  768: {
+                    slidesPerView: 2,
+                  },
+                  1200: {
+                    slidesPerView: 2,
+                  },
+                }}
+                pagination={{
+                  clickable: true,
+                }}
+                modules={[Pagination, Autoplay]}
+                className="ceo-slides">
                 <div className="row justify-content-center">
+                  <SwiperSlide>
+                    <div className="single-blog-post">
+                      <div className="entry-thumbnail">
+                        <Link href="/blog/generative-ai-for-efficiency-and-customer-satisfaction/">
+                          <img
+                            src="https://dev1.satincorp.com/wp-content/uploads/2024/02/Generative-AI-1.jpg"
+                            alt="image"
+                          />
+                        </Link>
+                      </div>
+
+                      <div className="entry-post-content">
+                        <div className="entry-meta">
+                          <ul>
+                            <li>Feb 29, 2024</li>
+                          </ul>
+                        </div>
+
+                        <h3>
+                          <Link href="/blog/generative-ai-for-efficiency-and-customer-satisfaction/">
+                            Transform Your Business with Generative AI: A
+                            Game-Changer for Efficiency and Customer
+                            Satisfaction
+                          </Link>
+                        </h3>
+
+                        <Link
+                          href="/blog/generative-ai-for-efficiency-and-customer-satisfaction/"
+                          className="learn-more-btn">
+                          Read More <i className="flaticon-add"></i>
+                        </Link>
+                      </div>
+                    </div>
+                  </SwiperSlide>
                   <SwiperSlide>
                     <div className="single-blog-post">
                       <div className="entry-thumbnail">
@@ -100,25 +131,32 @@ const BlogPostSlider = () => {
 
                         <h3>
                           <Link href="/sa-technologies-triumphs-with-cmmi-services-maturity-level-5-certification/">
-                          Our Journey to CMMI Level 5 and Beyond
+                            Our Journey to CMMI Level 5 and Beyond
                           </Link>
                         </h3>
 
                         <p>
-                        To our valued partners, clients, and stakeholders, ....
+                          To our valued partners, clients, and stakeholders,
+                          ....
                         </p>
 
-                        <Link href="/sa-technologies-triumphs-with-cmmi-services-maturity-level-5-certification/" className="learn-more-btn">
+                        <Link
+                          href="/sa-technologies-triumphs-with-cmmi-services-maturity-level-5-certification/"
+                          className="learn-more-btn">
                           Read More <i className="flaticon-add"></i>
                         </Link>
                       </div>
                     </div>
                   </SwiperSlide>
+
                   <SwiperSlide>
                     <div className="single-blog-post">
                       <div className="entry-thumbnail">
                         <Link href="/embracing-machine-first-approach/">
-                          <img src="/images/engineer-cooperation.jpg" alt="image" />
+                          <img
+                            src="/images/engineer-cooperation.jpg"
+                            alt="image"
+                          />
                         </Link>
                       </div>
 
@@ -139,7 +177,9 @@ const BlogPostSlider = () => {
                           In our relentless pursuit of pushing boundaries....
                         </p>
 
-                        <Link href="/embracing-machine-first-approach/" className="learn-more-btn">
+                        <Link
+                          href="/embracing-machine-first-approach/"
+                          className="learn-more-btn">
                           Read More <i className="flaticon-add"></i>
                         </Link>
                       </div>
@@ -149,7 +189,10 @@ const BlogPostSlider = () => {
                     <div className="single-blog-post">
                       <div className="entry-thumbnail">
                         <Link href="https://www.linkedin.com/pulse/10-key-lessons-ai-teach-your-kids-week-manoj-joshi/">
-                          <img src="/images/blog/ultimate-guide-ai-trained-new.jpeg" alt="image" />
+                          <img
+                            src="/images/blog/ultimate-guide-ai-trained-new.jpeg"
+                            alt="image"
+                          />
                         </Link>
                       </div>
                       <div className="entry-post-content">
@@ -165,11 +208,11 @@ const BlogPostSlider = () => {
                           </Link>
                         </h3>
 
-                        <p>
-                          As AI becomes increasingly integrated into our...
-                        </p>
+                        <p>As AI becomes increasingly integrated into our...</p>
 
-                        <Link href="https://www.linkedin.com/pulse/10-key-lessons-ai-teach-your-kids-week-manoj-joshi/" className="learn-more-btn">
+                        <Link
+                          href="https://www.linkedin.com/pulse/10-key-lessons-ai-teach-your-kids-week-manoj-joshi/"
+                          className="learn-more-btn">
                           Read More <i className="flaticon-add"></i>
                         </Link>
                       </div>
@@ -179,7 +222,10 @@ const BlogPostSlider = () => {
                     <div className="single-blog-post">
                       <div className="entry-thumbnail">
                         <Link href="https://www.linkedin.com/pulse/harnessing-power-generative-ai-healthcare-manoj-joshi/">
-                          <img src="/images/blog/how-ai-revolutionizing-nearshore-software.jpeg" alt="image" />
+                          <img
+                            src="/images/blog/how-ai-revolutionizing-nearshore-software.jpeg"
+                            alt="image"
+                          />
                         </Link>
                       </div>
 
@@ -195,11 +241,11 @@ const BlogPostSlider = () => {
                             Harnessing the Power of Generative AI in Healthcare
                           </Link>
                         </h3>
-                        <p>
-                          Generative AI is poised to revolutionize...
-                        </p>
+                        <p>Generative AI is poised to revolutionize...</p>
 
-                        <Link href="https://www.linkedin.com/pulse/harnessing-power-generative-ai-healthcare-manoj-joshi/" className="learn-more-btn">
+                        <Link
+                          href="https://www.linkedin.com/pulse/harnessing-power-generative-ai-healthcare-manoj-joshi/"
+                          className="learn-more-btn">
                           Read More <i className="flaticon-add"></i>
                         </Link>
                       </div>
@@ -209,7 +255,10 @@ const BlogPostSlider = () => {
                     <div className="single-blog-post">
                       <div className="entry-thumbnail">
                         <Link href="https://www.linkedin.com/posts/activity-7090762776842809344-M6Dp/">
-                          <img src="/images/blog/the-future-software-development.png" alt="image" />
+                          <img
+                            src="/images/blog/the-future-software-development.png"
+                            alt="image"
+                          />
                         </Link>
                       </div>
 
@@ -222,14 +271,15 @@ const BlogPostSlider = () => {
 
                         <h3>
                           <Link href="https://www.linkedin.com/posts/activity-7090762776842809344-M6Dp/">
-                            Generative AI in Healthcare: A Revolutionary Breakthrough
+                            Generative AI in Healthcare: A Revolutionary
+                            Breakthrough
                           </Link>
                         </h3>
-                        <p>
-                          Medical professionals are heralding generative..
-                        </p>
+                        <p>Medical professionals are heralding generative..</p>
 
-                        <Link href="https://www.linkedin.com/posts/activity-7090762776842809344-M6Dp/" className="learn-more-btn">
+                        <Link
+                          href="https://www.linkedin.com/posts/activity-7090762776842809344-M6Dp/"
+                          className="learn-more-btn">
                           Read More <i className="flaticon-add"></i>
                         </Link>
                       </div>
@@ -239,7 +289,6 @@ const BlogPostSlider = () => {
               </Swiper>
             </div>
           </div>
-
         </div>
 
         <div className="dot-shape1">
