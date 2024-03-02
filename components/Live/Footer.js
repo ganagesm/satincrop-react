@@ -1,29 +1,31 @@
 import React, { Component, useEffect } from "react";
-import { useRouter } from 'next/router';
+import { useRouter } from "next/router";
 import Link from "next/link";
 
 const Footer = () => {
   const location = useRouter();
 
   // Check if the current route is the career page
-  const isCareerPage = location.pathname === '/careers';
-  const isEmployeeSelfService = location.pathname === '/employeeselfservice';
-  const isGCC = location.pathname === '/gcc';
+  const isCareerPage = location.pathname === "/careers";
+  const isEmployeeSelfService = location.pathname === "/employeeselfservice";
+  const isGCC = location.pathname === "/gcc";
+  const isAccelerateYourBusinessGrowthWithGcp =
+    location.pathname === "/accelerate-your-business-growth-with-gcp";
 
   //Zoho Sales Iq Script:
   const useScript = (url, widgetCode) => {
     useEffect(() => {
-      const script = document.createElement('script');
+      const script = document.createElement("script");
       script.setAttribute("type", "text/javascript");
 
-      let code = `var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode: "${widgetCode}", values:{},ready:function(){}};var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;s.src="${url}";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);d.innerHTML = "<div id='zsiqwidget'></div>";`
+      let code = `var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode: "${widgetCode}", values:{},ready:function(){}};var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;s.src="${url}";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);d.innerHTML = "<div id='zsiqwidget'></div>";`;
 
       script.appendChild(document.createTextNode(code));
       document.body.appendChild(script);
 
       return () => {
         document.body.removeChild(script);
-      }
+      };
     }, [url]);
   };
 
@@ -38,8 +40,7 @@ const Footer = () => {
                 className="single-footer-widget"
                 data-aos="fade-in"
                 data-aos-duration="1200"
-                data-aos-delay="100"
-              >
+                data-aos-delay="100">
                 <div className="logo">
                   <Link href="/">
                     <img
@@ -48,35 +49,56 @@ const Footer = () => {
                       width={80}
                     />
                   </Link>
-                  <img alt="cmmi5" src="/images/ca-cmmi_logo.jpeg" width={50} style={{ marginLeft: "10px", }} />
-                  <p> SAT Inc is a California based IT Consulting & Offshore Company headquartered at Santa Monica with offices in US, Canada, Singapore & India.</p>
+                  <img
+                    alt="cmmi5"
+                    src="/images/ca-cmmi_logo.jpeg"
+                    width={50}
+                    style={{ marginLeft: "10px" }}
+                  />
+                  <p>
+                    {" "}
+                    SAT Inc is a California based IT Consulting & Offshore
+                    Company headquartered at Santa Monica with offices in US,
+                    Canada, Singapore & India.
+                  </p>
                 </div>
 
                 <ul className="social">
                   <li>
                     <a
                       href="https://www.linkedin.com/company/sa-technologies-inc-/"
-                      target="_blank"
-                    >
+                      target="_blank">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="24"
                         height="24"
                         fill="white"
-                        viewBox="0 0 24 24"
-                      >
+                        viewBox="0 0 24 24">
                         <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
                       </svg>
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.facebook.com/satincorp" target="_blank" rel="noreferrer">
+                    <a
+                      href="https://www.facebook.com/satincorp"
+                      target="_blank"
+                      rel="noreferrer">
                       <i className="fab fa-facebook-f"></i>
                     </a>
                   </li>
-                  <li style={{ padding: "0", }}><Link href="https://twitter.com/SatechGlobal" target="_blank" rel="noreferrer">
-                    <svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="#fff" viewBox="0 0 512 512">
-                      <path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" /></svg></Link>
+                  <li style={{ padding: "0" }}>
+                    <Link
+                      href="https://twitter.com/SatechGlobal"
+                      target="_blank"
+                      rel="noreferrer">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="1em"
+                        fill="#fff"
+                        viewBox="0 0 512 512">
+                        <path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" />
+                      </svg>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -87,8 +109,7 @@ const Footer = () => {
                 className="single-footer-widget"
                 data-aos="fade-in"
                 data-aos-duration="1200"
-                data-aos-delay="200"
-              >
+                data-aos-delay="200">
                 <h3>Quick Links</h3>
 
                 <ul className="footer-services-list">
@@ -108,7 +129,9 @@ const Footer = () => {
                     <Link href="/news-and-events">News and Events</Link>
                   </li>
                   <li>
-                    <Link href="/customer-success-stories">Customer Success Stories</Link>
+                    <Link href="/customer-success-stories">
+                      Customer Success Stories
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -119,19 +142,20 @@ const Footer = () => {
                 className="single-footer-widget"
                 data-aos="fade-in"
                 data-aos-duration="1200"
-                data-aos-delay="300"
-              >
+                data-aos-delay="300">
                 <h3>Technologies</h3>
 
                 <ul className="quick-links-list">
                   <li>
-                    <Link href="/microsoft">  Microsoft </Link>
+                    <Link href="/microsoft"> Microsoft </Link>
                   </li>
                   <li>
                     <Link href="/google-cloud">Google Cloud</Link>
                   </li>
                   <li>
-                    <Link href="/google-cloud-generative-ai-vertex/">Vertex AI</Link>
+                    <Link href="/google-cloud-generative-ai-vertex/">
+                      Vertex AI
+                    </Link>
                   </li>
                   <li>
                     <Link href="/aws-services">AWS</Link>
@@ -151,8 +175,7 @@ const Footer = () => {
                 className="single-footer-widget"
                 data-aos="fade-in"
                 data-aos-duration="1200"
-                data-aos-delay="400"
-              >
+                data-aos-delay="400">
                 <h3>SA Technologies Inc</h3>
 
                 <ul className="footer-contact-list">
@@ -165,13 +188,16 @@ const Footer = () => {
                     3031 Tisch Way, 110 Plaza West, <br /> San Jose, CA 95128
                   </li>
                   <li>
-                    <span>Email:</span> <a href="mailto:sales@satincorp.com">sales@satincorp.com</a>
+                    <span>Email:</span>{" "}
+                    <a href="mailto:sales@satincorp.com">sales@satincorp.com</a>
                   </li>
                   <li>
-                    <span>Phone:</span> <a href="tel:(408) 495-5822">US : (408) 495-5822</a>
+                    <span>Phone:</span>{" "}
+                    <a href="tel:(408) 495-5822">US : (408) 495-5822</a>
                   </li>
                   <li>
-                    <span>Phone:</span> <a href="tel:+917875787550">India : +91 78757 87550</a>
+                    <span>Phone:</span>{" "}
+                    <a href="tel:+917875787550">India : +91 78757 87550</a>
                     {/* <span>Phone:</span> <a href="tel:+917823025808">India : +91-7823025808</a> */}
                   </li>
                 </ul>
@@ -184,7 +210,11 @@ const Footer = () => {
           <div className="container">
             <div className="row align-items-center">
               <div className="col-lg-6 col-md-6 col-sm-6">
-                <p> Copyright &copy;{currentYear} SA Technologies. All Rights Reserved. </p>
+                <p>
+                  {" "}
+                  Copyright &copy;{currentYear} SA Technologies. All Rights
+                  Reserved.{" "}
+                </p>
               </div>
 
               <div className="col-lg-6 col-md-6 col-sm-6">
@@ -212,34 +242,53 @@ const Footer = () => {
         </div>
         {isGCC ? (
           // Render if isGCC is true (SAT Services)
-          <Link href="https://api.whatsapp.com/send/?phone=+91%2097669%2097718&text=Hello!%20I%27m%20interested%20in%20exploring%20your%20GCC%20Services.%20Can%20you%20share%20more%20details?" target="_blank" className="floatWhatsApp">
+          <Link
+            href="https://api.whatsapp.com/send/?phone=+91%2097669%2097718&text=Hello!%20I%27m%20interested%20in%20exploring%20your%20GCC%20Services.%20Can%20you%20share%20more%20details?"
+            target="_blank"
+            className="floatWhatsApp">
             <img src="/images/icons/whatsApp.svg" alt="whatsapp" />
           </Link>
         ) : (
           // Render if isGCC is false (GCC Services)
-          <Link href="https://api.whatsapp.com/send/?phone=%2B9107875787550&text=Hello!%20I%27m%20interested%20in%20exploring%20your%20SAT%20Services.%20Can%20you%20share%20more%20details?" target="_blank" className="floatWhatsApp">
+          <Link
+            href="https://api.whatsapp.com/send/?phone=%2B9107875787550&text=Hello!%20I%27m%20interested%20in%20exploring%20your%20SAT%20Services.%20Can%20you%20share%20more%20details?"
+            target="_blank"
+            className="floatWhatsApp">
             <img src="/images/icons/whatsApp.svg" alt="whatsapp" />
           </Link>
         )}
-
       </footer>
 
       <React.Fragment>
-        {isCareerPage ? (
-          // Load the script on the career page
-          useScript('https://salesiq.zoho.in/widget', 'siqb6893c10dd1c1c4c4cdd0150c0fb02c9b296e864dc452fbee73744582c509b00')
-        ) : isEmployeeSelfService ? (
-          // Load the script on the employee self-service page
-          useScript('https://salesiq.zoho.in/widget', 'siq9db5171ce94a7f6b2ebb4290a65eea5e7709b889f71f08307fa46cbb1628552d')
-        ) : isGCC ? (
-          // Load the script on the GCC page
-          useScript('https://salesiq.zoho.in/widget', 'siqf3592159c32026e2a0131f3864f287f5')
-          // useScript('https://salesiq.zoho.in/widget', 'siqd501e20f5ff83957af2415d36330a0344fef3b83965c959b579f4a9444020527')
-        ) : (
-          // Dana Bot
-          useScript('https://salesiq.zoho.in/widget', 'siqf0be5ba9aefe176393dfbe591c77fef43f5283d3b627b4cd0b623da1760ed2e4117e8194377283a5ded1bc7509f07a7f')
-        )}
-
+        {isCareerPage
+          ? // Load the script on the career page
+            useScript(
+              "https://salesiq.zoho.in/widget",
+              "siqb6893c10dd1c1c4c4cdd0150c0fb02c9b296e864dc452fbee73744582c509b00"
+            )
+          : isEmployeeSelfService
+          ? // Load the script on the employee self-service page
+            useScript(
+              "https://salesiq.zoho.in/widget",
+              "siq9db5171ce94a7f6b2ebb4290a65eea5e7709b889f71f08307fa46cbb1628552d"
+            )
+          : isGCC
+          ? // Load the script on the GCC page
+            useScript(
+              "https://salesiq.zoho.in/widget",
+              "siqf3592159c32026e2a0131f3864f287f5"
+            )
+          : isAccelerateYourBusinessGrowthWithGcp
+          ? // Load the script on the accelerate-your-business-growth-with-gcp page
+            useScript(
+              "https://salesiq.zoho.in/widget",
+              "siqf3592159c32026e2a0131f3864f287f5"
+            )
+          : // Dana Bot
+            useScript(
+              "https://salesiq.zoho.in/widget",
+              "siqf0be5ba9aefe176393dfbe591c77fef43f5283d3b627b4cd0b623da1760ed2e4117e8194377283a5ded1bc7509f07a7f"
+            )}
       </React.Fragment>
     </>
   );
