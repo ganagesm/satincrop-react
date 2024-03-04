@@ -35,4 +35,7 @@ Disallow:
 Crawl-delay: 5
 Disallow: /cgi-bin/
 Disallow: /private/
+Disallow: /case-studies/
+Disallow: /employee-verification/
+Disallow: /customer-success-stories/
 Sitemap: https://www.satincorp.com/sitemap.xml
