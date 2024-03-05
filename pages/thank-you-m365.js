@@ -144,7 +144,9 @@ const ContactFormContent = () => {
         className="navbar-area navbar-area-with-position-relative">
         <div className="main-nav">
           <div className="container">
-            <nav className="navbar navbar-expand-md navbar-light">
+            <nav
+              className="navbar navbar-expand-md navbar-light"
+              style={{ background: "transparent" }}>
               <Link href="/" className="navbar-brand">
                 <img
                   src="/images/sa-logo.svg"
