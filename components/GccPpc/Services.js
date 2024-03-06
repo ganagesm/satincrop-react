@@ -16,8 +16,8 @@ const Services = () => {
           <div className="row justify-content-center">
             <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="single-services-card">
-                <div className="image-icon">
-                  <img src="/images/home-six/services/mobile-app.png" alt="icon" />
+                <div className="image-icon bg-six">
+                  <img src="/images/home-six/services/GCC strategy Development.png" alt="icon" />
                 </div>
                 <h3>
                   <Link href="">GCC Strategy Development</Link>
@@ -30,8 +30,8 @@ const Services = () => {
 
             <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="single-services-card">
-                <div className="image-icon bg-two">
-                  <img src="/images/home-six/services/Datamanagement.png" alt="icon" />
+                <div className="image-icon bg-six">
+                  <img src="/images/home-six/services/Location Selection.png" alt="icon" />
                 </div>
                 <h3>
                   <Link href="">Location Selection</Link>
@@ -44,8 +44,8 @@ const Services = () => {
 
             <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="single-services-card">
-                <div className="image-icon">
-                  <img src="/images/home-six/services/icon1.png" alt="icon" />
+                <div className="image-icon bg-six">
+                  <img src="/images/home-six/services/talent aciquisition.png" alt="icon" />
                 </div>
                 <h3>
                   <Link href="">Talent Acquisition</Link>
@@ -57,8 +57,8 @@ const Services = () => {
 
             <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="single-services-card">
-                <div className="image-icon bg-four">
-                  <img src="/images/home-six/services/Cloudservices.png" alt="icon" />
+                <div className="image-icon bg-six">
+                  <img src="/images/home-six/services/Infrastructure setup.png" alt="icon" />
                 </div>
                 <h3>
                   <Link href="">Infrastructure Setup</Link>
@@ -70,8 +70,8 @@ const Services = () => {
 
             <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="single-services-card">
-                <div className="image-icon bg-five">
-                  <img src="/images/home-six/services/icon5.png" alt="icon" />
+                <div className="image-icon bg-six">
+                  <img src="/images/home-six/services/operational guidance.png" alt="icon" />
                 </div>
                 <h3>
                   <Link href="">Operational Guidance</Link>
@@ -85,7 +85,7 @@ const Services = () => {
             <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="single-services-card">
                 <div className="image-icon bg-six">
-                  <img src="/images/home-six/services/icon6.png" alt="icon" />
+                  <img src="/images/home-six/services/Legal Registration Support.png" alt="icon" />
                 </div>
                 <h3>
                   <Link href="">Legal Registration Support</Link>
@@ -98,7 +98,7 @@ const Services = () => {
             <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="single-services-card">
                 <div className="image-icon bg-six">
-                  <img src="/images/home-six/services/icon6.png" alt="icon" />
+                  <img src="/images/home-six/services/regulatory compliance.png" alt="icon" />
                 </div>
                 <h3>
                   <Link href="">Regulatory Compliance </Link>
@@ -109,10 +109,6 @@ const Services = () => {
               </div>
             </div>
           </div>
-        </div>
-
-        <div className="ai-services-shape">
-          <img src="/images/home-six/services/shape.png" alt="image" />
         </div>
       </div>
     </>

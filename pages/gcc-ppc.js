@@ -3,9 +3,7 @@ import Link from "next/link";
 import Head from "next/head";
 import Script from "next/script";
 import Services from "../components/GccPpc/Services";
-import CaseStudiesPost from "../components/Live/CaseStudiesPost";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay } from "swiper";
+import Testimonials from "../components/GccPpc/Testimonials";
 
 const ContactFormContent = () => {
   const executeFunction = () => {
@@ -206,7 +204,7 @@ const ContactFormContent = () => {
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
           // backgroundColor: "#eb3d01",
-          backgroundSize: "80% !important",
+          backgroundSize: "cover",
         }}>
         <div className="container" id="contact">
           <div className="row">
@@ -248,15 +246,15 @@ const ContactFormContent = () => {
                 style={{
                   textAlign: "right",
                 }}
-              >Explore Our GCC-as-a-Service Model. Launch Your Centre with Ease. </h2>
+              >Explore Our GCC Service Model, Connect with Our GCC Experts Today! </h2>
             </div>
             <div className="col-lg-3 col-md-3"
               style={{
                 textAlign: "left",
               }}
             >
-              <Link href="/contact-us/" className="btn btn-primary">
-                Partner with us !
+              <Link href="#contact" className="btn btn-primary">
+                Connect our GCC Expert
               </Link>
             </div>
 
@@ -291,8 +289,12 @@ const ContactFormContent = () => {
       <div className="services-details-area">
         <div className="container">
           <div className="row m-0 align-items-center services-details-image">
+
+            <div className="section-title">
+              <h2>The survey explores five core areas shaping GCCs' future vision</h2>
+            </div>
             <img
-              src="/images/services-details/GCCServices.jpg"
+              src="/images/services-details/GCCppc.png"
               alt="image"
               style={{
                 width: "55%",
@@ -441,7 +443,7 @@ const ContactFormContent = () => {
                   textAlign: "left",
                 }}
               >
-                <Link href="/contact-us/" className="btn btn-primary">
+                <Link href="#contact" className="btn btn-primary">
                   Join us Today !
                 </Link>
               </div>
@@ -483,267 +485,8 @@ const ContactFormContent = () => {
         </div>
       </section>
 
-      {/* <CaseStudiesPost /> */}
 
-      {/* <BlogPostSlider /> */}
-      <div className="partner-section ptb-50">
-        <div className="container">
-          <div className="section-title">
-            <h2>Insights</h2>
-          </div>
-          <Swiper
-            spaceBetween={20}
-            autoplay={{
-              delay: 900,
-              disableOnInteraction: true,
-              pauseOnMouseEnter: true,
-            }}
-            breakpoints={{
-              0: {
-                slidesPerView: 2,
-              },
-              576: {
-                slidesPerView: 2,
-              },
-              768: {
-                slidesPerView: 3,
-              },
-              1200: {
-                slidesPerView: 3,
-              },
-            }}
-            modules={[Autoplay]}
-            className="partner-slides"
-          >
-            <div className="row justify-content-center">
-
-              <SwiperSlide>
-                <div className="single-blog-post">
-                  <div className="entry-thumbnail">
-                    <Link href="/blog/The-Rise-of-GCC-in-India-Harnessing-the-Talent-rich-Landscape-for-Unparalleled-Benefits">
-                      <img style={{ width: "419px", height: "279px", }} src="/images/blog/amita-blog.png" alt="image" />
-                    </Link>
-                  </div>
-
-                  <div className="entry-post-content">
-                    <div className="entry-meta">
-                      <ul>
-                        <li>
-                          <Link href="#">Amita Bhosale</Link>
-                        </li>
-                        <li>August 23, 2023</li>
-                      </ul>
-                    </div>
-
-                    <h3>
-                      <Link href="/blog/The-Rise-of-GCC-in-India-Harnessing-the-Talent-rich-Landscape-for-Unparalleled-Benefits/">
-                        The Rise of GCC in India: Harnessing the Talent-rich Landscape for Unparalleled Benefits
-
-                      </Link>
-                    </h3>
-
-                    <p>
-                      In the digital age, Global Capability Centers (GCCs) are ...
-                    </p>
-
-                    <Link href="/blog/The-Rise-of-GCC-in-India-Harnessing-the-Talent-rich-Landscape-for-Unparalleled-Benefits/" className="learn-more-btn">
-                      Read More <i className="flaticon-add"></i>
-                    </Link>
-                  </div>
-                </div>
-              </SwiperSlide>
-
-              <SwiperSlide>
-                <div className="single-blog-post">
-                  <div className="entry-thumbnail">
-                    <Link href="/blog/how-gccs-can-attain-outstanding-results">
-                      <img style={{ width: "419px", height: "279px", }} src="/images/blog/abhay_article.png" alt="image" />
-                    </Link>
-                  </div>
-
-                  <div className="entry-post-content">
-                    <div className="entry-meta">
-                      <ul>
-                        <li>
-                          <Link href="#">Abhay Bhan</Link>
-                        </li>
-                        <li>August 10, 2023</li>
-                      </ul>
-                    </div>
-
-                    <h3>
-                      <Link href="/blog/how-gccs-can-attain-outstanding-results/">
-                        How GCCs Can Attain Outstanding Results
-
-                      </Link>
-                    </h3>
-
-                    <p>
-                      In the ever-evolving landscape of business, organizations are continually seeking ways to enhance ...
-                    </p>
-
-                    <Link href="/blog/how-gccs-can-attain-outstanding-results/" className="learn-more-btn">
-                      Read More <i className="flaticon-add"></i>
-                    </Link>
-                  </div>
-                </div>
-              </SwiperSlide>
-
-
-              {/* <SwiperSlide>
-                <div className="single-blog-post">
-                  <div className="entry-thumbnail">
-                    <Link href="/technology-impact-sox-auditing/">
-                      <img src="/images/blog/ultimate-guide-ai-trained-new.jpeg" alt="image" />
-                    </Link>
-                  </div>
-
-                  <div className="entry-post-content">
-                    <div className="entry-meta">
-                      <ul>
-                        <li>
-                          <Link href="#">Admin</Link>
-                        </li>
-                        <li>July 10, 2023</li>
-                      </ul>
-                    </div>
-
-                    <h3>
-                      <Link href="/blog/technology-impact-sox-auditing/">
-                        The Impact of Technology on SOX Internal Auditing Processes
-
-                      </Link>
-                    </h3>
-
-                    <p>
-                      The integration of technology into Sarbanes-Oxley (SOX) internal auditing processes is a game-changing...
-                    </p>
-
-                    <Link href="/blog/technology-impact-sox-auditing/" className="learn-more-btn">
-                      Read More <i className="flaticon-add"></i>
-                    </Link>
-                  </div>
-                </div>
-              </SwiperSlide> */}
-
-              <SwiperSlide>
-                <div className="single-blog-post">
-                  <div className="entry-thumbnail">
-                    <Link href="/articles/gcc-evolution">
-                      <img src="/images/blog/how-ai-revolutionizing-nearshore-software.jpeg" alt="image" />
-                    </Link>
-                  </div>
-
-                  <div className="entry-post-content">
-                    <div className="entry-meta">
-                      <ul>
-                        <li>
-                          <Link href="#">Amit Singh</Link>
-                        </li>
-                        <li>July 11, 2023</li>
-                      </ul>
-                    </div>
-
-                    <h3>
-
-                      <Link href="/articles/gcc-evolution/">
-                        GCC Evolution: From IT Support to Tech Innovation Hubs
-                      </Link>
-                    </h3>
-                    <p>
-                      Global Capability Centers (GCCs) have been integral to the growth and success of many businesses...
-                    </p>
-                    <Link href="/articles/gcc-evolution/" className="learn-more-btn">
-                      Read More <i className="flaticon-add"></i>
-                    </Link>
-                  </div>
-                </div>
-              </SwiperSlide>
-              {/* <SwiperSlide>
-                <div className="single-blog-post">
-                  <div className="entry-thumbnail">
-                    <Link href="/blog/navigating-challenges-it-controls-sox-compliance/">
-                      <img src="/images/blog/the-future-software-development.png" alt="image" />
-                    </Link>
-                  </div>
-
-                  <div className="entry-post-content">
-                    <div className="entry-meta">
-                      <ul>
-                        <li>
-                          <Link href="#">Admin</Link>
-                        </li>
-                        <li>July 07, 2023</li>
-                      </ul>
-                    </div>
-
-                    <h3>
-                      <Link href="/blog/navigating-challenges-it-controls-sox-compliance/">
-                        Navigating the Challenges of IT Controls in SOX Compliance
-                      </Link>
-                    </h3>
-                    <p>
-                      Sarbanes-Oxley (SOX) compliance is a critical aspect of maintaining transparent and accurate financial reporting.
-                    </p>
-
-                    <Link href="/blog/navigating-challenges-it-controls-sox-compliance/" className="learn-more-btn">
-                      Read More <i className="flaticon-add"></i>
-                    </Link>
-                  </div>
-                </div>
-              </SwiperSlide> 
-              <SwiperSlide>
-                <div className="single-blog-post">
-                  <div className="entry-thumbnail">
-                    <Link href="/blog/robust-sox-framework-best-practices/">
-                      <img src="/images/blog/transforming-business-operations.jpeg" alt="image" />
-                    </Link>
-                  </div>
-
-                  <div className="entry-post-content">
-                    <div className="entry-meta">
-                      <ul>
-                        <li>
-                          <Link href="#">Admin</Link>
-                        </li>
-                        <li>July 05, 2023</li>
-                      </ul>
-                    </div>
-
-                    <h3>
-                      <Link href="/blog/robust-sox-framework-best-practices/">
-                        Building a Robust SOX Framework: Essential Best Practices
-                      </Link>
-                    </h3>
-                    <p>
-                      The Sarbanes-Oxley Act (SOX) was a response to a series of high-profile financial scandals..
-                    </p>
-
-                    <Link href="/blog/robust-sox-framework-best-practices/" className="learn-more-btn">
-                      Read More <i className="flaticon-add"></i>
-                    </Link>
-                  </div>
-                </div>
-              </SwiperSlide>*/}
-
-            </div>
-          </Swiper>
-        </div>
-
-        <div className="dot-shape1">
-          <img src="/images/shape/dot1.png" alt="image" />
-        </div>
-        <div className="shape-img2">
-          <img src="/images/shape/shape2.svg" alt="image" />
-        </div>
-        <div className="shape-img4">
-          <img src="/images/shape/shape4.svg" alt="image" />
-        </div>
-        <div className="shape-img5">
-          <img src="/images/shape/shape5.svg" alt="image" />
-        </div>
-      </div>
-      {/* <Testimonials /> */}
+      <Testimonials />
 
 
 
@@ -764,7 +507,7 @@ const ContactFormContent = () => {
                         Get Upto 20% OFF* on any License Type
                       </p> */}
 
-                      <a class="btn btn-primary" href="/contact-us/">
+                      <a class="btn btn-primary" href="#contact">
                         Contact Us
                       </a>
                     </div>
