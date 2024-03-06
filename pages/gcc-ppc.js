@@ -4,6 +4,8 @@ import Head from "next/head";
 import Script from "next/script";
 import Services from "../components/GccPpc/Services";
 import Testimonials from "../components/GccPpc/Testimonials";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from "swiper";
 
 const ContactFormContent = () => {
   const executeFunction = () => {
@@ -213,7 +215,8 @@ const ContactFormContent = () => {
                 {/* <img src="/images/microsoft-365.png" width={180} /> */}
                 {/* <img src="https://dev1.satincorp.com/microsoft-office-365-licenses/wp-content/themes/microsoft-office-365-licenses-wp-themes-19032021/images/microsoft-logo-new.png" width={180} /> */}
                 <h1 className="text-white achive">
-                  SAT - Your Partner for Global Capability Centers in India: Bridging Excellence with Innovation. {" "}
+                  SAT - Your Partner for Global Capability Centers in India:
+                  Bridging Excellence with Innovation.{" "}
                   {/* <br />
                   (formerly Office 365)
                   <span>
@@ -242,22 +245,24 @@ const ContactFormContent = () => {
         <div className="container">
           <div className="row ptb-100 align-items-center">
             <div className="col-lg-9 col-md-9">
-              <h2 className="align-items-center"
+              <h2
+                className="align-items-center"
                 style={{
                   textAlign: "right",
-                }}
-              >Explore Our GCC Service Model, Connect with Our GCC Experts Today! </h2>
+                }}>
+                Explore Our GCC-as-a-Service Model. Launch Your Centre with
+                Ease.{" "}
+              </h2>
             </div>
-            <div className="col-lg-3 col-md-3"
+            <div
+              className="col-lg-3 col-md-3"
               style={{
                 textAlign: "left",
-              }}
-            >
-              <Link href="#contact" className="btn btn-primary">
-                Connect our GCC Expert
+              }}>
+              <Link href="/contact-us/" className="btn btn-primary">
+                Partner with us !
               </Link>
             </div>
-
           </div>
         </div>
       </div>
@@ -269,9 +274,10 @@ const ContactFormContent = () => {
               <h3>Join Hands with SAT for a Future-Ready Approach </h3>
               <p>
                 {" "}
-                At SA Technologies, we're dedicated to making your vision a reality. Explore our GCC services and redefine
-                how your business addresses major projects. Let's journey together towards innovation, efficiency, and
-                unmatched success.
+                At SA Technologies, we're dedicated to making your vision a
+                reality. Explore our GCC services and redefine how your business
+                addresses major projects. Let's journey together towards
+                innovation, efficiency, and unmatched success.
               </p>
             </div>
 
@@ -285,7 +291,6 @@ const ContactFormContent = () => {
         </div>
       </div>
 
-
       <div className="services-details-area">
         <div className="container">
           <div className="row m-0 align-items-center services-details-image">
@@ -298,7 +303,7 @@ const ContactFormContent = () => {
               alt="image"
               style={{
                 width: "55%",
-                margin: "auto"
+                margin: "auto",
               }}
             />
           </div>
@@ -318,9 +323,13 @@ const ContactFormContent = () => {
                   <img src="/images/team/abhay.jpg" alt="Abhay Bhan" />
                 </div>
                 <div className="content">
-                  <Link href="/abhay/" >
-                    <h5 style={{ marginTop: "15px", marginBottom: "0", }}>Abhay Bhan</h5>
-                    <p>Director Client Engagement <br /> (Europe)</p>
+                  <Link href="/abhay/">
+                    <h5 style={{ marginTop: "15px", marginBottom: "0" }}>
+                      Abhay Bhan
+                    </h5>
+                    <p>
+                      Director Client Engagement <br /> (Europe)
+                    </p>
                   </Link>
                 </div>
               </div>
@@ -331,9 +340,14 @@ const ContactFormContent = () => {
                   <img src="/images/team/Sonal.png" alt="Sonal Sinha" />
                 </div>
                 <div className="content">
-                  <Link href="/sonal-sinha/" >
-                    <h5 style={{ marginTop: "15px", marginBottom: "0", }}>Sonal Sinha</h5>
-                    <p>Director HR & Operations <br /><br /></p>
+                  <Link href="/sonal-sinha/">
+                    <h5 style={{ marginTop: "15px", marginBottom: "0" }}>
+                      Sonal Sinha
+                    </h5>
+                    <p>
+                      Director HR & Operations <br />
+                      <br />
+                    </p>
                   </Link>
                 </div>
               </div>
@@ -344,9 +358,14 @@ const ContactFormContent = () => {
                   <img src="/images/team/sudha.jpg" alt="Vasudha Kanade" />
                 </div>
                 <div className="content">
-                  <Link href="/vasudha-kanade/" >
-                    <h5 style={{ marginTop: "15px", marginBottom: "0", }}>Vasudha Kanade</h5>
-                    <p>Director Finance & Compliance <br /><br /></p>
+                  <Link href="/vasudha-kanade/">
+                    <h5 style={{ marginTop: "15px", marginBottom: "0" }}>
+                      Vasudha Kanade
+                    </h5>
+                    <p>
+                      Director Finance & Compliance <br />
+                      <br />
+                    </p>
                   </Link>
                 </div>
               </div>
@@ -357,25 +376,29 @@ const ContactFormContent = () => {
                   <img src="/images/team/amita.jpg" alt="Amita Bhosale" />
                 </div>
                 <div className="content">
-                  <Link href="/amita/" >
-                    <h5 style={{ marginTop: "15px", marginBottom: "0", }}>Amita Bhosale</h5>
-                    <p>Director Client Engagement <br /> (North America) </p>
+                  <Link href="/amita/">
+                    <h5 style={{ marginTop: "15px", marginBottom: "0" }}>
+                      Amita Bhosale
+                    </h5>
+                    <p>
+                      Director Client Engagement <br /> (North America){" "}
+                    </p>
                   </Link>
                 </div>
               </div>
             </div>
-
           </div>
-          <div className="row" style={{ marginTop: "20px", }}>
-
+          <div className="row" style={{ marginTop: "20px" }}>
             <div className="col-lg-3 col-sm-6">
               <div className="single-team-box">
                 <div className="image">
                   <img src="/images/team/Malay.png" alt="Malay Soni" />
                 </div>
                 <div className="content">
-                  <Link href="/malay/" >
-                    <h5 style={{ marginTop: "15px", marginBottom: "0", }}>Malay Soni</h5>
+                  <Link href="/malay/">
+                    <h5 style={{ marginTop: "15px", marginBottom: "0" }}>
+                      Malay Soni
+                    </h5>
                     <p>Director Talent Acquisition</p>
                   </Link>
                 </div>
@@ -385,11 +408,16 @@ const ContactFormContent = () => {
             <div className="col-lg-3 col-sm-6">
               <div className="single-team-box">
                 <div className="image">
-                  <img src="/images/team/Jitendra.png" alt="Jitendra Khairnar" />
+                  <img
+                    src="/images/team/Jitendra.png"
+                    alt="Jitendra Khairnar"
+                  />
                 </div>
                 <div className="content">
-                  <Link href="/jitendra/" >
-                    <h5 style={{ marginTop: "15px", marginBottom: "0", }}>Jitendra Khairnar</h5>
+                  <Link href="/jitendra/">
+                    <h5 style={{ marginTop: "15px", marginBottom: "0" }}>
+                      Jitendra Khairnar
+                    </h5>
                     <p>Head Workspace & Infrastructure</p>
                   </Link>
                 </div>
@@ -398,11 +426,16 @@ const ContactFormContent = () => {
             <div className="col-lg-3 col-sm-6">
               <div className="single-team-box">
                 <div className="image">
-                  <img src="/images/team/Trishita.png" alt="Trishita Bhattacharya" />
+                  <img
+                    src="/images/team/Trishita.png"
+                    alt="Trishita Bhattacharya"
+                  />
                 </div>
                 <div className="content">
                   <Link href="/trishita/">
-                    <h5 style={{ marginTop: "15px", marginBottom: "0", }}>Trishita Bhattacharya</h5>
+                    <h5 style={{ marginTop: "15px", marginBottom: "0" }}>
+                      Trishita Bhattacharya
+                    </h5>
                     <p>Head Client Engagement (APAC)</p>
                   </Link>
                 </div>
@@ -415,39 +448,38 @@ const ContactFormContent = () => {
                 </div>
                 <div className="content">
                   <Link href="/kanak/">
-                    <h5 style={{ marginTop: "15px", marginBottom: "0", }}>Kanak Sahoo</h5>
+                    <h5 style={{ marginTop: "15px", marginBottom: "0" }}>
+                      Kanak Sahoo
+                    </h5>
                     <p>Marketing Manager</p>
                   </Link>
                 </div>
               </div>
             </div>
-
-
-
           </div>
-
         </div>
 
         <div className="GCCJourney">
           <div className="container">
             <div className="row ptb-100 align-items-center">
               <div className="col-lg-6 col-md-6">
-                <h2 className="align-items-center"
+                <h2
+                  className="align-items-center"
                   style={{
                     textAlign: "right",
-                  }}
-                >Ready to Begin Your GCC Journey?</h2>
+                  }}>
+                  Ready to Begin Your GCC Journey?
+                </h2>
               </div>
-              <div className="col-lg-5 col-md-5"
+              <div
+                className="col-lg-5 col-md-5"
                 style={{
                   textAlign: "left",
-                }}
-              >
-                <Link href="#contact" className="btn btn-primary">
+                }}>
+                <Link href="/contact-us/" className="btn btn-primary">
                   Join us Today !
                 </Link>
               </div>
-
             </div>
           </div>
         </div>
@@ -486,14 +518,12 @@ const ContactFormContent = () => {
       </section>
 
 
+      {/* <BlogPostSlider /> */}
+
       <Testimonials />
-
-
 
       <section className="section-enterprise section-enterprise_new">
         <div className="container">
-
-
           <div className="webinar-area ptb-110 pricing-area">
             <div className="container">
               <div className="webinar-inner" style={{ paddingTop: "5rem" }}>
