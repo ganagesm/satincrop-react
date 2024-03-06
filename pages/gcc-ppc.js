@@ -50,7 +50,7 @@ const ContactFormContent = () => {
         },
         false
       );
-    } catch (e) { }
+    } catch (e) {}
   };
   //Zoho Sales Iq Script:
   const useScript = (url, widgetCode) => {
@@ -294,9 +294,10 @@ const ContactFormContent = () => {
       <div className="services-details-area">
         <div className="container">
           <div className="row m-0 align-items-center services-details-image">
-
             <div className="section-title">
-              <h2>The survey explores five core areas shaping GCCs' future vision</h2>
+              <h2>
+                The survey explores five core areas shaping GCCs' future vision
+              </h2>
             </div>
             <img
               src="/images/services-details/GCCppc.png"
@@ -517,7 +518,6 @@ const ContactFormContent = () => {
         </div>
       </section>
 
-
       {/* <BlogPostSlider /> */}
 
       <Testimonials />
@@ -563,5 +563,4 @@ const ContactFormContent = () => {
     </>
   );
 };
-
 export default ContactFormContent;
