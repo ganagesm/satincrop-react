@@ -46,7 +46,7 @@ const ContactFormContent = () => {
         },
         false
       );
-    } catch (e) { }
+    } catch (e) {}
   };
   //Zoho Sales Iq Script:
   const useScript = (url, widgetCode) => {
@@ -204,7 +204,7 @@ const ContactFormContent = () => {
           backgroundColor: "#eb3d01",
           backgroundSize: "80% !important",
         }}>
-        <div className="container" id="contact">
+        <div className="container" id="contact" style={{ height: "70vh" }}>
           <div className="row">
             <div className="col-lg-6 col-md-10 col-12 d-flex flex-column justify-content-center align-items-center">
               <div className="hero-text">
@@ -228,7 +228,7 @@ const ContactFormContent = () => {
               </div>
             </div>
             <div className="col-lg-5 offset-md-1 col-12" id="form">
-              <div id="zf_div_C24oeqXLgeckBAaWoP8bgt1tTvq_JpbaQRUBTLATWDw"></div>
+              {/* <div id="zf_div_C24oeqXLgeckBAaWoP8bgt1tTvq_JpbaQRUBTLATWDw"></div> */}
             </div>
           </div>
         </div>
