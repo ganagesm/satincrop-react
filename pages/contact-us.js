@@ -66,9 +66,9 @@ const Contact = () => {
                       Book Now
                     </Link>
                   </div>
-                </div>
-              </div>
-            </div>
+                </div >
+              </div >
+            </div >
 
             <div className="col-sm-4">
               <div className="services-area">
@@ -95,8 +95,8 @@ const Contact = () => {
                     </Link>
                   </div> */}
                 </div>
-              </div>
-            </div>
+              </div >
+            </div >
 
             <div className="col-sm-4">
               <div className="services-area">
@@ -137,10 +137,10 @@ const Contact = () => {
                         }}
                       />
                     </a>
-                  </div>
-                </div>
-              </div>
-            </div>
+                  </div >
+                </div >
+              </div >
+            </div >
           </div>
 
           <div className="row align-items-center">
@@ -169,9 +169,9 @@ const Contact = () => {
                       Email Now!
                     </Link>
                   </div> */}
-                </div>
-              </div>
-            </div>
+                </div >
+              </div >
+            </div >
 
             <div className="col-sm-4">
               <div className="services-area">
@@ -247,12 +247,12 @@ const Contact = () => {
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
+          </div >
+        </div >
+      </section >
 
       {/* <ContactFormContent /> */}
-      <Services />
+      < Services />
 
       <Footer />
     </>

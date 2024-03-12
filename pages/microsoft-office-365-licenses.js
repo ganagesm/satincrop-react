@@ -46,7 +46,7 @@ const ContactFormContent = () => {
         },
         false
       );
-    } catch (e) {}
+    } catch (e) { }
   };
   //Zoho Sales Iq Script:
   const useScript = (url, widgetCode) => {
@@ -195,34 +195,30 @@ const ContactFormContent = () => {
       </div>
 
       <section
-        className="hero hero-bg d-flex justify-content-center align-items-center"
+        className="hero pb-3"
         style={{
           backgroundColor: "red",
-          backgroundImage: `url('https://dev1.satincorp.com/microsoft-office-365-licenses/wp-content/themes/microsoft-office-365-licenses-wp-themes-19032021/images/hero-background.jpeg')`,
+          backgroundImage: `url('/images/Microsoft-ppc.png')`,
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
           backgroundColor: "#eb3d01",
-          backgroundSize: "80% !important",
+          backgroundSize: "100% 100%"
         }}>
-        <div className="container" id="contact" style={{ height: "70vh" }}>
+        <div className="container" id="contact">
           <div className="row">
-            <div className="col-lg-6 col-md-10 col-12 d-flex flex-column justify-content-center align-items-center">
+            <div className="col-lg-12 col-md-12 col-12 d-flex flex-column">
               <div className="hero-text">
                 <img src="/images/microsoft-365.png" width={180} />
                 {/* <img src="https://dev1.satincorp.com/microsoft-office-365-licenses/wp-content/themes/microsoft-office-365-licenses-wp-themes-19032021/images/microsoft-logo-new.png" width={180} /> */}
-                <h1 className="text-white achive">
-                  Enable Your Remote Team to Work Efficiently with Microsoft 365{" "}
-                  <br />
-                  (formerly Office 365)
-                  <span>
-                    {" "}
-                    <br />
+                <h1 className="text-white achive" style={{ marginTop: "5px" }}>
+                  Enable Your Remote Team to Work Efficiently with Microsoft 365{" "} <br /> (formerly Office 365)
+                  <span style={{ display: "flex" }}>
                     (Get Upto 20% OFF* on any License Type)
                   </span>
                 </h1>
                 <a
                   href="#ms-plans"
-                  className="custom-btn btn-bg btn mt-3 scroll-btn smoothScroll see-plans">
+                  className="custom-btn btn-bg btn scroll-btn smoothScroll see-plans">
                   See plans
                 </a>
               </div>
@@ -233,6 +229,137 @@ const ContactFormContent = () => {
           </div>
         </div>
       </section>
+
+
+
+      <section className="contactPageSupport bg-f2f6f9" style={{ paddingTop: "10px" }}>
+        <div className="container">
+          <div className="section-title with-underline-text" style={{ marginBottom: "60px" }}>
+            <h2>Contact Us</h2>
+            <h3>Simplifying Your Reach: Expert Help Just a Click Away.</h3>
+          </div>
+          <div className="row align-items-center">
+            <div className="col-sm-3">
+              <div className="">
+                <div className="single-services-box">
+                  <div className="icon">
+                    <img
+                      src="/images/icons/indusrty-icon/calender-sa.jpg"
+                      alt="image"
+                      style={{
+                        width: "50%",
+                        textAlign: "center",
+                        marginTop: "10px",
+                      }}
+                    />
+                  </div>
+                  <h2 style={{ margin: "20px 0" }}>Book a meeting</h2>
+                  <div className="btn-box" style={{ marginTop: "30px" }}>
+                    <Link
+                      href="https://crm.zoho.in/bookings/15minutesmeeting?rid=d65be401338e99ef2738174d60794d22786f4bfe8a8d55961f97fc33d15e3fa4cc298636acae091e65dc0ab1c4cdef1egidd741558b23aaeabe744c730fa8bd5806c650667f8d90294f388cd86e3ab6f53d"
+                      className="btn btn-primary">
+                      Book Now
+                    </Link>
+                  </div>
+                </div >
+              </div >
+            </div >
+
+            <div className="col-sm-3">
+              <div className="">
+                <div className="single-services-box">
+                  <div className="icon">
+                    <img
+                      src="/images/icons/indusrty-icon/chat.png"
+                      alt="image"
+                      style={{
+                        width: "70%",
+                        textAlign: "center",
+                        marginTop: "10px",
+                      }}
+                    />
+                  </div>
+                  <h2 style={{ margin: "20px 0" }}>Chat with us</h2>
+                  <p>
+                    Get expert IT advice now. Chat with our specialists for
+                    solutions and guidance
+                  </p>
+                </div>
+              </div >
+            </div >
+
+            <div className="col-sm-3">
+              <div className="">
+                <div className="single-services-box">
+                  <div className="icon">
+                    <img
+                      src="/images/icons/indusrty-icon/Whatsapp-icon.png"
+                      alt="image"
+                      style={{
+                        width: "70%",
+                        textAlign: "center",
+                        marginTop: "10px",
+                      }}
+                    />
+                  </div>
+                  <h2 style={{ margin: "20px 0" }}>Chat with WhatsApp</h2>
+                  <div className="btn-box" style={{ marginTop: "30px" }}>
+                    <a
+                      href="https://api.whatsapp.com/send/?phone=%2B9107058188896&text=Hello!%20I%27m%20interested%20in%20exploring%20your%20SAT%20Services.%20Can%20you%20share%20more%20details?"
+                      className="btn btn-primary"
+                      style={{
+                        width: "15%",
+                        padding: "7px",
+                        borderRadius: "50%",
+                      }}>
+                      <img
+                        src="/images/icons/indusrty-icon/Whatsapp-icon-1.png"
+                        alt="image"
+                        style={{
+                          textAlign: "center",
+                        }}
+                      />
+                    </a>
+                  </div >
+                </div >
+              </div >
+            </div >
+            <div className="col-sm-3">
+              <div className="">
+                <div className="single-services-box">
+                  <div className="icon">
+                    <img
+                      src="/images/icons/indusrty-icon/call.png"
+                      alt="image"
+                      style={{
+                        width: "50%",
+                        textAlign: "center",
+                        marginTop: "10px",
+                      }}
+                    />
+                  </div>
+                  <h2 style={{ margin: "20px 0" }}>Call us now India</h2>
+                  <h3>
+                    {/* <a
+                      href="https://api.whatsapp.com/send/?phone=%2B9107058188896&text=Hello!%20I%27m%20interested%20in%20exploring%20your%20SAT%20Services.%20Can%20you%20share%20more%20details?"
+                      style={{ textDecoration: "2px dashed underline" }}>
+                      +91 7058188896
+                    </a> */}
+                    <a href="tel:(+91) 7058188896"
+                      style={{ textDecoration: "2px dashed underline" }}>
+                      +91 7058188896
+                    </a>
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div >
+      </section >
+
+
+
+
       <section className="outer-sec-ban" id="ms-plans">
         <div className="container">
           <div className="row">

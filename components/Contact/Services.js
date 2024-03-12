@@ -4,7 +4,7 @@ import Link from "next/link";
 const Services = () => {
   return (
     <>
-      <div className="services-area bg-f2f6f9 ptb-70 pt-50">
+      <div className="services-area bg-f2f6f9 ptb-70">
         <div className="container">
           <div className="section-title">
             <h2>Our Offices</h2>

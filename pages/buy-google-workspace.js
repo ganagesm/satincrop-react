@@ -46,7 +46,7 @@ const ContactFormContent = () => {
         },
         false
       );
-    } catch (e) {}
+    } catch (e) { }
   };
   //Zoho Sales Iq Script:
   const useScript = (url, widgetCode) => {
@@ -160,6 +160,11 @@ const ContactFormContent = () => {
       display: block;
       padding-bottom: 0;
   }
+  
+  .btn-primary {
+    color: #ffffff;
+    background-color: #ff4800;
+  }
 
 `}
         </style>
@@ -208,10 +213,10 @@ const ContactFormContent = () => {
           </div>
         </div>
 
-        <div className="bg-light" style={{ height: "70vh" }}>
-          <div className="container space-bottom-2">
+        <div className="bg-light" style={{ paddingTop: "10px" }}>
+          <div className="container space-bottom-1">
             <div className="row align-items-lg-center">
-              <div className="col-lg-5 mb-7 mb-lg-0">
+              <div className="col-lg-12 mb-12 mb-lg-0">
                 <img
                   src="https://dev1.satincorp.com/buy-google-workspace/wp-content/themes/buy-google-workspace-wp-themes-19032021/assets/img/banners/Google-cloud-partners-new.png"
                   width={180}
@@ -226,7 +231,7 @@ const ContactFormContent = () => {
                 <a
                   className="js-go-to position-static btn btn-primary transition-3d-hover"
                   href="#contact">
-                  Get 14 Days Free Trial
+                  Get 30 Days Free Trial
                 </a>
               </div>
               <div className="col-lg-6 offset-md-1">
@@ -241,6 +246,137 @@ const ContactFormContent = () => {
               </div>
             </div>
           </div>
+
+
+
+          <section className="contactPageSupport bg-f2f6f9" style={{ paddingTop: "10px" }}>
+            <div className="container">
+              <div className="section-title with-underline-text" style={{ marginBottom: "60px" }}>
+                <h2>Contact Us</h2>
+                <h4>Simplifying Your Reach: Expert Help Just a Click Away.</h4>
+              </div>
+              <div className="row align-items-center">
+                <div className="col-sm-3">
+                  <div className="">
+                    <div className="single-services-box">
+                      <div className="icon">
+                        <img
+                          src="/images/icons/indusrty-icon/calender-sa.jpg"
+                          alt="image"
+                          style={{
+                            width: "50%",
+                            textAlign: "center",
+                            marginTop: "10px",
+                          }}
+                        />
+                      </div>
+                      <h2 style={{ margin: "20px 0" }}>Book a meeting</h2>
+                      <div className="btn-box" style={{ marginTop: "30px" }}>
+                        <Link
+                          href="https://crm.zoho.in/bookings/SATSalesEnquiry?rid=ad19505fc0fd044928994f6b9427e66a78adbea582c167ab0e0f6c23274a7d6e92069362e3822d4f29f5d26f9f4ad1dfgidb0bab5a1325aa8bda564fcc494c02b6a4c40baac422d6924adb73c40710a0b7a"
+                          className="btn btn-primary">
+                          Book Now
+                        </Link>
+                      </div>
+                    </div >
+                  </div >
+                </div >
+
+                <div className="col-sm-3">
+                  <div className="">
+                    <div className="single-services-box">
+                      <div className="icon">
+                        <img
+                          src="/images/icons/indusrty-icon/chat.png"
+                          alt="image"
+                          style={{
+                            width: "70%",
+                            textAlign: "center",
+                            marginTop: "10px",
+                          }}
+                        />
+                      </div>
+                      <h2 style={{ margin: "20px 0" }}>Chat with us</h2>
+                      <p>
+                        Get expert IT advice now. Chat with our specialists for
+                        solutions and guidance
+                      </p>
+                    </div>
+                  </div >
+                </div >
+
+                <div className="col-sm-3">
+                  <div className="">
+                    <div className="single-services-box">
+                      <div className="icon">
+                        <img
+                          src="/images/icons/indusrty-icon/Whatsapp-icon.png"
+                          alt="image"
+                          style={{
+                            width: "70%",
+                            textAlign: "center",
+                            marginTop: "10px",
+                          }}
+                        />
+                      </div>
+                      <h2 style={{ margin: "20px 0" }}>Chat with WhatsApp</h2>
+                      <div className="btn-box" style={{ marginTop: "30px" }}>
+                        <a
+                          href="https://crm.zoho.in/bookings/15minutesmeeting?rid=83ae67e835471568d742ef9582b4ef33b8f36dd0fb7cdebd602c8c357a84e3008ff2bddb5ab17b32e4f832c99492f2efgide6130e6203d90c8a72b192686e28ff7b9451257b4d55de887183f3d06b9d34a1"
+                          className="btn btn-primary"
+                          style={{
+                            width: "15%",
+                            padding: "7px",
+                            borderRadius: "50%",
+                          }}>
+                          <img
+                            src="/images/icons/indusrty-icon/Whatsapp-icon-1.png"
+                            alt="image"
+                            style={{
+                              textAlign: "center",
+                            }}
+                          />
+                        </a>
+                      </div >
+                    </div >
+                  </div >
+                </div >
+                <div className="col-sm-3">
+                  <div className="">
+                    <div className="single-services-box">
+                      <div className="icon">
+                        <img
+                          src="/images/icons/indusrty-icon/call.png"
+                          alt="image"
+                          style={{
+                            width: "50%",
+                            textAlign: "center",
+                            marginTop: "10px",
+                          }}
+                        />
+                      </div>
+                      <h2 style={{ margin: "20px 0" }}>Call us now India</h2>
+                      <h3>
+                        {/* <a
+                          href="https://api.whatsapp.com/send/?phone=%2B9107058188896&text=Hello!%20I%27m%20interested%20in%20exploring%20your%20SAT%20Services.%20Can%20you%20share%20more%20details?"
+                          style={{ textDecoration: "2px dashed underline" }}>
+                          +91 7058222899
+                        </a> */}
+                        <a href="tel:(+91) -7058222899"
+                          style={{ textDecoration: "2px dashed underline" }}>
+                          +91 7058222899
+                        </a>
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div >
+          </section >
+
+
+
+
 
           <div className="container space-2">
             <div className="row justify-content-lg-between align-items-lg-center">
@@ -284,7 +420,7 @@ const ContactFormContent = () => {
           <div className="overflow-hidden" id="plans">
             <div className="space-1">
               <div className="w-md-80 w-lg-80 text-center mx-auto mb-5">
-                <h2> Get 14 Days Free Trial </h2>
+                <h2> Get 30 Days Free Trial </h2>
                 <a href="#contact">
                   <span className="js-go-to position-static btn text-white btn btn-primary transition-3d-hover py-sm-2 px-sm-3 mt-3 mb-4">
                     Contact For FREE Trial{" "}
