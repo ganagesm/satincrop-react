@@ -208,7 +208,7 @@ const ContactFormContent = () => {
           </div>
         </div>
 
-        <div className="bg-light">
+        <div className="bg-light" style={{ height: "70vh" }}>
           <div className="container space-bottom-2">
             <div className="row align-items-lg-center">
               <div className="col-lg-5 mb-7 mb-lg-0">
@@ -235,7 +235,7 @@ const ContactFormContent = () => {
                 </div> */}
                 <div className="bg-white" id="contact">
                   <div>
-                    <div id="zf_div_PBwlz1PfEQXqz-nEuTIOHtHVoEiYTReIHigAw4TVy9o"></div>
+                    {/* <div id="zf_div_PBwlz1PfEQXqz-nEuTIOHtHVoEiYTReIHigAw4TVy9o"></div> */}
                   </div>
                 </div>
               </div>
