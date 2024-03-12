@@ -188,7 +188,7 @@ const ContactFormContent = () => {
         </div>
 
         <div>
-          <div className="container space-bottom-2" style={{ height: "50vh" }}>
+          <div className="container space-bottom-2" style={{ height: "43vh" }}>
             <div className="row">
               {" "}
               {/* align-items-lg-center */}
@@ -196,7 +196,6 @@ const ContactFormContent = () => {
                 <img
                   src="https://dev1.satincorp.com/buy-google-workspace/wp-content/themes/buy-google-workspace-wp-themes-19032021/assets/img/banners/Google-cloud-partners-new.png"
                   width={300}
-                  style={{ marginTop: "40px" }}
                 />
                 <div className="mb-4">
                   <h1>
@@ -227,9 +226,9 @@ const ContactFormContent = () => {
         </div>
       </main>
 
-      <section className="contactPageSupport bg-f2f6f9 pt-50">
+      <section className="contactPageSupport bg-f2f6f9" style={{ paddingTop: "10px" }}>
         <div className="container">
-          <div className="section-title with-underline-text">
+          <div className="section-title with-underline-text" style={{ marginBottom: "60px" }}>
             <h2>Contact Us</h2>
             <h4>Simplifying Your Reach: Expert Help Just a Click Away.</h4>
           </div>
@@ -251,7 +250,7 @@ const ContactFormContent = () => {
                   <h2 style={{ margin: "20px 0" }}>Book a meeting</h2>
                   <div className="btn-box" style={{ marginTop: "30px" }}>
                     <Link
-                      href="https://crm.zoho.in/bookings/SATSalesEnquiry?rid=ad19505fc0fd044928994f6b9427e66a78adbea582c167ab0e0f6c23274a7d6e92069362e3822d4f29f5d26f9f4ad1dfgidb0bab5a1325aa8bda564fcc494c02b6a4c40baac422d6924adb73c40710a0b7a"
+                      href="https://crm.zoho.in/bookings/15minutesmeeting?rid=83ae67e835471568d742ef9582b4ef33b8f36dd0fb7cdebd602c8c357a84e3008ff2bddb5ab17b32e4f832c99492f2efgide6130e6203d90c8a72b192686e28ff7b9451257b4d55de887183f3d06b9d34a1"
                       className="btn btn-primary">
                       Book Now
                     </Link>
@@ -335,8 +334,12 @@ const ContactFormContent = () => {
                   </div>
                   <h2 style={{ margin: "20px 0" }}>Call us now India</h2>
                   <h3>
-                    <a
+                    {/* <a
                       href="https://api.whatsapp.com/send/?phone=%2B9107058188896&text=Hello!%20I%27m%20interested%20in%20exploring%20your%20SAT%20Services.%20Can%20you%20share%20more%20details?"
+                      style={{ textDecoration: "2px dashed underline" }}>
+                      +91 7058222899
+                    </a> */}
+                    <a href="tel:(+91) -7058222899"
                       style={{ textDecoration: "2px dashed underline" }}>
                       +91 7058222899
                     </a>
