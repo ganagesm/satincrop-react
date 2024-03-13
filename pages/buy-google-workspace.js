@@ -270,7 +270,7 @@ const ContactFormContent = () => {
                           }}
                         />
                       </div>
-                      <h2 style={{ margin: "20px 0" }}>Book a meeting</h2>
+                      <h2 style={{ margin: "36px 0" }}>Book a meeting</h2>
                       <div className="btn-box" style={{ marginTop: "30px" }}>
                         <Link
                           href="https://crm.zoho.in/bookings/SATSalesEnquiry?rid=ad19505fc0fd044928994f6b9427e66a78adbea582c167ab0e0f6c23274a7d6e92069362e3822d4f29f5d26f9f4ad1dfgidb0bab5a1325aa8bda564fcc494c02b6a4c40baac422d6924adb73c40710a0b7a"
@@ -320,7 +320,7 @@ const ContactFormContent = () => {
                         />
                       </div>
                       <h2 style={{ margin: "20px 0" }}>Chat with WhatsApp</h2>
-                      <div className="btn-box" style={{ marginTop: "30px" }}>
+                      <div className="btn-box" style={{ marginTop: "20px" }}>
                         <a
                           href="https://api.whatsapp.com/send/?phone=%2B9107058188896&text=Hello!%20I%27m%20interested%20in%20exploring%20your%20SAT%20Services.%20Can%20you%20share%20more%20details?"
                           className="btn btn-primary"
@@ -355,8 +355,8 @@ const ContactFormContent = () => {
                           }}
                         />
                       </div>
-                      <h2 style={{ margin: "20px 0" }}>Call us now India</h2>
-                      <h3>
+                      <h2 style={{ margin: "40px 0" }}>Call us now India</h2>
+                      <h3 style={{ marginTop: "47px" }}>
                         {/* <a
                           href="https://api.whatsapp.com/send/?phone=%2B9107058188896&text=Hello!%20I%27m%20interested%20in%20exploring%20your%20SAT%20Services.%20Can%20you%20share%20more%20details?"
                           style={{ textDecoration: "2px dashed underline" }}>

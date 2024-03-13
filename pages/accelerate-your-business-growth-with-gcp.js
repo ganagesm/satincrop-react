@@ -273,7 +273,7 @@ const ContactFormContent = () => {
                       }}
                     />
                   </div>
-                  <h2 style={{ margin: "20px 0" }}>Chat with us</h2>
+                  <h2 style={{ margin: "10px 0" }}>Chat with us</h2>
                   <p>
                     Get expert IT advice now. Chat with our specialists for
                     solutions and guidance
@@ -296,8 +296,8 @@ const ContactFormContent = () => {
                       }}
                     />
                   </div>
-                  <h2 style={{ margin: "20px 0" }}>Chat with WhatsApp</h2>
-                  <div className="btn-box" style={{ marginTop: "30px" }}>
+                  <h2 style={{ margin: "11px 0" }}>Chat with WhatsApp</h2>
+                  <div className="btn-box" style={{ marginTop: "10px" }}>
                     <a
                       href="https://api.whatsapp.com/send/?phone=%2B9107058188896&text=Hello!%20I%27m%20interested%20in%20exploring%20your%20SAT%20Services.%20Can%20you%20share%20more%20details?"
                       className="btn btn-primary"
@@ -332,8 +332,8 @@ const ContactFormContent = () => {
                       }}
                     />
                   </div>
-                  <h2 style={{ margin: "20px 0" }}>Call us now India</h2>
-                  <h3>
+                  <h2 style={{ margin: "34px 0" }}>Call us now India</h2>
+                  <h3 style={{ marginTop: "40px" }}>
                     {/* <a
                       href="https://api.whatsapp.com/send/?phone=%2B9107058188896&text=Hello!%20I%27m%20interested%20in%20exploring%20your%20SAT%20Services.%20Can%20you%20share%20more%20details?"
                       style={{ textDecoration: "2px dashed underline" }}>
