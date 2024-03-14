@@ -195,7 +195,7 @@ const ContactFormContent = () => {
       </div>
 
       <section
-        className="hero pb-3"
+        className="hero pb-3 ms_365"
         style={{
           backgroundColor: "red",
           backgroundImage: `url('/images/Microsoft-ppc.png')`,
