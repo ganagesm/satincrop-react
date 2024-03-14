@@ -13,16 +13,52 @@ import OurIndustry from "../components/Common/OurIndustry";
 import Testimonials from "../components/Live/Testimonials";
 import BlogPostSlider from "../components/data-science/BlogPostSlider";
 import CaseStudiesPost from "../components/Live/CaseStudiesPost";
-import Head from 'next/head';
-
+import Head from "next/head";
+import { WebPageJsonLd, NextSeo, DefaultSeo } from "next-seo";
 const Index = () => {
   return (
     <>
-
+      <WebPageJsonLd
+        headline="Elevate Insights with SA Technologies Data Science & Analytics"
+        description="Harness the power of data with SAT Data Analytics Services Let us turn your data into actionable insights"
+        author="SA Technologies"
+        keywords="Data Science and Analytics services"
+        image="https://www.satincorp.com/images/services-details/Data-Strategy-and-Consulting.jpg"
+      />
+      <NextSeo
+        openGraph={{
+          type: "website",
+          url: "https://www.satincorp.com/data-science-analytics/",
+          title:
+            "Elevate Insights with SA Technologies Data Science & Analytics",
+          description:
+            "Harness the power of data with SAT Data Analytics Services Let us turn your data into actionable insights",
+          images: [
+            {
+              url: "https://www.satincorp.com/images/services-details/Data-Strategy-and-Consulting.jpg",
+              width: 800,
+              height: 600,
+              alt: "Harness the power of data with SAT Data Analytics Services Let us turn your data into actionable insights",
+            },
+          ],
+          authorName: "SA Technologies",
+          keywords: "Data Science and Analytics services",
+        }}
+      />
       <Head>
-        <title>Elevate Insights with SA Technologies Data Science & Analytics  </title>
-        <meta property="og:title" content="Elevate Insights with SA Technologies Data Science & Analytics " key="title" />
-        <meta name="description" content="Harness the power of data with SAT Data Analytics Services. Let us turn your data into actionable insights." key="description" />
+        <title>
+          Elevate Insights with SA Technologies Data Science & Analytics{" "}
+        </title>
+        <meta
+          property="og:title"
+          content="Elevate Insights with SA Technologies Data Science & Analytics "
+          key="title"
+        />
+        <meta
+          name="description"
+          content="Harness the power of data with SAT Data Analytics Services. Let us turn your data into actionable insights."
+          key="description"
+        />
       </Head>
 
       <Navbar />
@@ -39,6 +75,6 @@ const Index = () => {
       <CaseStudiesPost />
       <Footer />
     </>
-  )
-}
+  );
+};
 export default Index;

@@ -6,29 +6,66 @@ import Services from "../components/GCC/Services";
 import WhyChooseSAT from "../components/GCC/WhyChooseSAT";
 import ContactFormContent from "../components/Common/ContactFormContent";
 import BlogPostSlider from "../components/GCC/BlogPostSlider";
-import Head from 'next/head';
+import Head from "next/head";
 import { Component, useState } from "react";
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper";
 // import Model from "../components/GCC/Model";
-
+import { WebPageJsonLd, NextSeo, DefaultSeo } from "next-seo";
 
 const Index = () => {
   const [profile_model, setPop] = useState(false);
 
   const handleclickopen = () => {
-    setPop(!profile_model)
-  }
+    setPop(!profile_model);
+  };
   const closepopup = () => {
-    setPop(false)
-  }
+    setPop(false);
+  };
   return (
     <>
+      <WebPageJsonLd
+        headline="Global Capability Center (GCC) Services in India | SA Technologies"
+        description="Explore SA Technologies GCC As a services for global expansion Maximize efficiency and innovation with our support"
+        author="SA Technologies"
+        keywords="GCC As a services"
+        image="https://www.satincorp.com/images/banners/gcc-1.jpg"
+      />
+      <NextSeo
+        openGraph={{
+          type: "website",
+          url: "https://www.satincorp.com/gcc/",
+          title:
+            "Global Capability Center (GCC) Services in India | SA Technologies",
+          description:
+            "Explore SA Technologies GCC As a services for global expansion Maximize efficiency and innovation with our support",
+          images: [
+            {
+              url: "https://www.satincorp.com/images/banners/gcc-1.jpg",
+              width: 800,
+              height: 600,
+              alt: "Explore SA Technologies GCC As a services for global expansion Maximize efficiency and innovation with our support",
+            },
+          ],
+          authorName: "SA Technologies",
+          keywords: "GCC As a services",
+        }}
+      />
       <Head>
-        <title>Global Capability Center (GCC) Services in India | SA Technologies </title>
-        <meta property="og:title" content="Global Capability Center (GCC) Services in India | SA Technologies" key="title" />
-        <meta name="description" content="Explore SA Technologies GCC As a services for global expansion. Maximize efficiency and innovation with our support." key="description" />
+        <title>
+          Global Capability Center (GCC) Services in India | SA Technologies{" "}
+        </title>
+        <meta
+          property="og:title"
+          content="Global Capability Center (GCC) Services in India | SA Technologies"
+          key="title"
+        />
+        <meta
+          name="description"
+          content="Explore SA Technologies GCC As a services for global expansion. Maximize efficiency and innovation with our support."
+          key="description"
+        />
       </Head>
 
       <Navbar />
@@ -49,9 +86,13 @@ const Index = () => {
                   <img src="/images/team/abhay.jpg" alt="Abhay Bhan" />
                 </div>
                 <div className="content">
-                  <Link href="/abhay/" >
-                    <h5 style={{ marginTop: "15px", marginBottom: "0", }}>Abhay Bhan</h5>
-                    <p>Director Client Engagement <br /> (Europe)</p>
+                  <Link href="/abhay/">
+                    <h5 style={{ marginTop: "15px", marginBottom: "0" }}>
+                      Abhay Bhan
+                    </h5>
+                    <p>
+                      Director Client Engagement <br /> (Europe)
+                    </p>
                   </Link>
                 </div>
               </div>
@@ -62,9 +103,14 @@ const Index = () => {
                   <img src="/images/team/Sonal.png" alt="Sonal Sinha" />
                 </div>
                 <div className="content">
-                  <Link href="/sonal-sinha/" >
-                    <h5 style={{ marginTop: "15px", marginBottom: "0", }}>Sonal Sinha</h5>
-                    <p>Director HR & Operations <br /><br /></p>
+                  <Link href="/sonal-sinha/">
+                    <h5 style={{ marginTop: "15px", marginBottom: "0" }}>
+                      Sonal Sinha
+                    </h5>
+                    <p>
+                      Director HR & Operations <br />
+                      <br />
+                    </p>
                   </Link>
                 </div>
               </div>
@@ -75,9 +121,14 @@ const Index = () => {
                   <img src="/images/team/sudha.jpg" alt="Vasudha Kanade" />
                 </div>
                 <div className="content">
-                  <Link href="/vasudha-kanade/" >
-                    <h5 style={{ marginTop: "15px", marginBottom: "0", }}>Vasudha Kanade</h5>
-                    <p>Director Finance & Compliance <br /><br /></p>
+                  <Link href="/vasudha-kanade/">
+                    <h5 style={{ marginTop: "15px", marginBottom: "0" }}>
+                      Vasudha Kanade
+                    </h5>
+                    <p>
+                      Director Finance & Compliance <br />
+                      <br />
+                    </p>
                   </Link>
                 </div>
               </div>
@@ -88,25 +139,29 @@ const Index = () => {
                   <img src="/images/team/amita.jpg" alt="Amita Bhosale" />
                 </div>
                 <div className="content">
-                  <Link href="/amita/" >
-                    <h5 style={{ marginTop: "15px", marginBottom: "0", }}>Amita Bhosale</h5>
-                    <p>Director Client Engagement <br /> (North America) </p>
+                  <Link href="/amita/">
+                    <h5 style={{ marginTop: "15px", marginBottom: "0" }}>
+                      Amita Bhosale
+                    </h5>
+                    <p>
+                      Director Client Engagement <br /> (North America){" "}
+                    </p>
                   </Link>
                 </div>
               </div>
             </div>
-
           </div>
-          <div className="row" style={{ marginTop: "20px", }}>
-
+          <div className="row" style={{ marginTop: "20px" }}>
             <div className="col-lg-3 col-sm-6">
               <div className="single-team-box">
                 <div className="image">
                   <img src="/images/team/Malay.png" alt="Malay Soni" />
                 </div>
                 <div className="content">
-                  <Link href="/malay/" >
-                    <h5 style={{ marginTop: "15px", marginBottom: "0", }}>Malay Soni</h5>
+                  <Link href="/malay/">
+                    <h5 style={{ marginTop: "15px", marginBottom: "0" }}>
+                      Malay Soni
+                    </h5>
                     <p>Director Talent Acquisition</p>
                   </Link>
                 </div>
@@ -116,11 +171,16 @@ const Index = () => {
             <div className="col-lg-3 col-sm-6">
               <div className="single-team-box">
                 <div className="image">
-                  <img src="/images/team/Jitendra.png" alt="Jitendra Khairnar" />
+                  <img
+                    src="/images/team/Jitendra.png"
+                    alt="Jitendra Khairnar"
+                  />
                 </div>
                 <div className="content">
-                  <Link href="/jitendra/" >
-                    <h5 style={{ marginTop: "15px", marginBottom: "0", }}>Jitendra Khairnar</h5>
+                  <Link href="/jitendra/">
+                    <h5 style={{ marginTop: "15px", marginBottom: "0" }}>
+                      Jitendra Khairnar
+                    </h5>
                     <p>Head Workspace & Infrastructure</p>
                   </Link>
                 </div>
@@ -129,11 +189,16 @@ const Index = () => {
             <div className="col-lg-3 col-sm-6">
               <div className="single-team-box">
                 <div className="image">
-                  <img src="/images/team/Trishita.png" alt="Trishita Bhattacharya" />
+                  <img
+                    src="/images/team/Trishita.png"
+                    alt="Trishita Bhattacharya"
+                  />
                 </div>
                 <div className="content">
                   <Link href="/trishita/">
-                    <h5 style={{ marginTop: "15px", marginBottom: "0", }}>Trishita Bhattacharya</h5>
+                    <h5 style={{ marginTop: "15px", marginBottom: "0" }}>
+                      Trishita Bhattacharya
+                    </h5>
                     <p>Head Client Engagement (APAC)</p>
                   </Link>
                 </div>
@@ -146,39 +211,38 @@ const Index = () => {
                 </div>
                 <div className="content">
                   <Link href="/kanak/">
-                    <h5 style={{ marginTop: "15px", marginBottom: "0", }}>Kanak Sahoo</h5>
+                    <h5 style={{ marginTop: "15px", marginBottom: "0" }}>
+                      Kanak Sahoo
+                    </h5>
                     <p>Marketing Manager</p>
                   </Link>
                 </div>
               </div>
             </div>
-
-
-
           </div>
-
         </div>
 
         <div className="GCCJourney">
           <div className="container">
             <div className="row ptb-100 align-items-center">
               <div className="col-lg-6 col-md-6">
-                <h2 className="align-items-center"
+                <h2
+                  className="align-items-center"
                   style={{
                     textAlign: "right",
-                  }}
-                >Ready to Begin Your GCC Journey?</h2>
+                  }}>
+                  Ready to Begin Your GCC Journey?
+                </h2>
               </div>
-              <div className="col-lg-5 col-md-5"
+              <div
+                className="col-lg-5 col-md-5"
                 style={{
                   textAlign: "left",
-                }}
-              >
+                }}>
                 <Link href="/contact-us/" className="btn btn-primary">
                   Contact Us
                 </Link>
               </div>
-
             </div>
           </div>
         </div>
@@ -244,15 +308,17 @@ const Index = () => {
               },
             }}
             modules={[Autoplay]}
-            className="partner-slides"
-          >
+            className="partner-slides">
             <div className="row justify-content-center">
-
               <SwiperSlide>
                 <div className="single-blog-post">
                   <div className="entry-thumbnail">
                     <Link href="/blog/The-Rise-of-GCC-in-India-Harnessing-the-Talent-rich-Landscape-for-Unparalleled-Benefits">
-                      <img style={{ width: "419px", height: "279px", }} src="/images/blog/amita-blog.png" alt="image" />
+                      <img
+                        style={{ width: "419px", height: "279px" }}
+                        src="/images/blog/amita-blog.png"
+                        alt="image"
+                      />
                     </Link>
                   </div>
 
@@ -268,16 +334,19 @@ const Index = () => {
 
                     <h3>
                       <Link href="/blog/The-Rise-of-GCC-in-India-Harnessing-the-Talent-rich-Landscape-for-Unparalleled-Benefits/">
-                        The Rise of GCC in India: Harnessing the Talent-rich Landscape for Unparalleled Benefits
-
+                        The Rise of GCC in India: Harnessing the Talent-rich
+                        Landscape for Unparalleled Benefits
                       </Link>
                     </h3>
 
                     <p>
-                      In the digital age, Global Capability Centers (GCCs) are ...
+                      In the digital age, Global Capability Centers (GCCs) are
+                      ...
                     </p>
 
-                    <Link href="/blog/The-Rise-of-GCC-in-India-Harnessing-the-Talent-rich-Landscape-for-Unparalleled-Benefits/" className="learn-more-btn">
+                    <Link
+                      href="/blog/The-Rise-of-GCC-in-India-Harnessing-the-Talent-rich-Landscape-for-Unparalleled-Benefits/"
+                      className="learn-more-btn">
                       Read More <i className="flaticon-add"></i>
                     </Link>
                   </div>
@@ -288,7 +357,11 @@ const Index = () => {
                 <div className="single-blog-post">
                   <div className="entry-thumbnail">
                     <Link href="/blog/how-gccs-can-attain-outstanding-results">
-                      <img style={{ width: "419px", height: "279px", }} src="/images/blog/abhay_article.png" alt="image" />
+                      <img
+                        style={{ width: "419px", height: "279px" }}
+                        src="/images/blog/abhay_article.png"
+                        alt="image"
+                      />
                     </Link>
                   </div>
 
@@ -305,21 +378,22 @@ const Index = () => {
                     <h3>
                       <Link href="/blog/how-gccs-can-attain-outstanding-results/">
                         How GCCs Can Attain Outstanding Results
-
                       </Link>
                     </h3>
 
                     <p>
-                      In the ever-evolving landscape of business, organizations are continually seeking ways to enhance ...
+                      In the ever-evolving landscape of business, organizations
+                      are continually seeking ways to enhance ...
                     </p>
 
-                    <Link href="/blog/how-gccs-can-attain-outstanding-results/" className="learn-more-btn">
+                    <Link
+                      href="/blog/how-gccs-can-attain-outstanding-results/"
+                      className="learn-more-btn">
                       Read More <i className="flaticon-add"></i>
                     </Link>
                   </div>
                 </div>
               </SwiperSlide>
-
 
               {/* <SwiperSlide>
                 <div className="single-blog-post">
@@ -356,12 +430,15 @@ const Index = () => {
                   </div>
                 </div>
               </SwiperSlide> */}
-              
+
               <SwiperSlide>
                 <div className="single-blog-post">
                   <div className="entry-thumbnail">
                     <Link href="/articles/gcc-evolution">
-                      <img src="/images/blog/how-ai-revolutionizing-nearshore-software.jpeg" alt="image" />
+                      <img
+                        src="/images/blog/how-ai-revolutionizing-nearshore-software.jpeg"
+                        alt="image"
+                      />
                     </Link>
                   </div>
 
@@ -376,15 +453,17 @@ const Index = () => {
                     </div>
 
                     <h3>
-
                       <Link href="/articles/gcc-evolution/">
                         GCC Evolution: From IT Support to Tech Innovation Hubs
                       </Link>
                     </h3>
                     <p>
-                      Global Capability Centers (GCCs) have been integral to the growth and success of many businesses...
+                      Global Capability Centers (GCCs) have been integral to the
+                      growth and success of many businesses...
                     </p>
-                    <Link href="/articles/gcc-evolution/" className="learn-more-btn">
+                    <Link
+                      href="/articles/gcc-evolution/"
+                      className="learn-more-btn">
                       Read More <i className="flaticon-add"></i>
                     </Link>
                   </div>
@@ -456,7 +535,6 @@ const Index = () => {
                   </div>
                 </div>
               </SwiperSlide>*/}
-
             </div>
           </Swiper>
         </div>
@@ -478,6 +556,6 @@ const Index = () => {
       <ContactFormContent />
       <Footer />
     </>
-  )
-}
+  );
+};
 export default Index;
