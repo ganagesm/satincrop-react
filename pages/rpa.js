@@ -12,15 +12,52 @@ import ComputerVisionAI from "../components/rpa/ComputerVisionAI";
 import TechDetailsContent from "../components/rpa/TechDetailsContent";
 import Services from "../components/rpa/Services";
 import WhyChooseSAT from "../components/rpa/WhyChooseSAT";
-import Head from 'next/head';
-
+import Head from "next/head";
+import { WebPageJsonLd, NextSeo, DefaultSeo } from "next-seo";
 const Index = () => {
   return (
     <>
-     <Head>
-        <title>Robotic Process Automation (RPA): The Future of Business Automation  </title>
-        <meta property="og:title" content="Robotic Process Automation (RPA): The Future of Business Automation " key="title" />
-        <meta name="description" content="SA Technologies RPA solutions can help you achieve operational excellence by streamlining processes, eliminating errors, and improving productivity. " key="description" />
+      <WebPageJsonLd
+        headline="Robotic Process Automation (RPA): The Future of Business Automation"
+        description="SA Technologies RPA solutions can help you achieve operational excellence by streamlining processes, eliminating errors, and improving productivity"
+        author="SA Technologies"
+        keywords="Robotic Process Automation (RPA)"
+        image="https://www.satincorp.com/images/services-details/rpa-concept.jpg"
+      />
+      <NextSeo
+        openGraph={{
+          type: "website",
+          url: "https://www.satincorp.com/rpa/",
+          title:
+            "Robotic Process Automation (RPA): The Future of Business Automation",
+          description:
+            "SA Technologies RPA solutions can help you achieve operational excellence by streamlining processes, eliminating errors, and improving productivity",
+          images: [
+            {
+              url: "https://www.satincorp.com/images/services-details/rpa-concept.jpg",
+              width: 800,
+              height: 600,
+              alt: "SA Technologies RPA solutions can help you achieve operational excellence by streamlining processes, eliminating errors, and improving productivity",
+            },
+          ],
+          authorName: "SA Technologies",
+          keywords: "Robotic Process Automation (RPA)",
+        }}
+      />
+      <Head>
+        <title>
+          Robotic Process Automation (RPA): The Future of Business Automation{" "}
+        </title>
+        <meta
+          property="og:title"
+          content="Robotic Process Automation (RPA): The Future of Business Automation "
+          key="title"
+        />
+        <meta
+          name="description"
+          content="SA Technologies RPA solutions can help you achieve operational excellence by streamlining processes, eliminating errors, and improving productivity. "
+          key="description"
+        />
       </Head>
       <Navbar />
       <HeroBanner />
@@ -28,7 +65,7 @@ const Index = () => {
       <TechDetailsContent />
       <Services />
       {/* <Industries /> */}
-      <WhyChooseSAT/>
+      <WhyChooseSAT />
       <OurIndustry />
       {/* <WhyTriosource /> */}
       <Testimonials />
@@ -36,6 +73,6 @@ const Index = () => {
       <CaseStudiesPost />
       <Footer />
     </>
-  )
-}
+  );
+};
 export default Index;

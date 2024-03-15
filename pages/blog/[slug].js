@@ -75,6 +75,7 @@ export default function BlogPost() {
         type="BlogPosting"
         url={`https://www.satincorp.com/blog/${post.slug}`}
         title={post.title}
+        headline={post.title}
         description={post.description}
         datePublished={post.date_gmt}
         dateModified={post.modified_gmt}
