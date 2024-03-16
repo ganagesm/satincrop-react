@@ -46,7 +46,7 @@ const ContactFormContent = () => {
         },
         false
       );
-    } catch (e) { }
+    } catch (e) {}
   };
   //Zoho Sales Iq Script:
   const useScript = (url, widgetCode) => {
@@ -216,7 +216,7 @@ const ContactFormContent = () => {
         <div className="bg-light" style={{ paddingTop: "10px" }}>
           <div className="container space-bottom-1">
             <div className="row align-items-lg-center">
-              <div className="col-lg-12 mb-12 mb-lg-0">
+              <div className="col-lg-5 mb-12 mb-lg-0">
                 <img
                   src="https://dev1.satincorp.com/buy-google-workspace/wp-content/themes/buy-google-workspace-wp-themes-19032021/assets/img/banners/Google-cloud-partners-new.png"
                   width={180}
@@ -240,18 +240,20 @@ const ContactFormContent = () => {
                 </div> */}
                 <div className="bg-white" id="contact">
                   <div>
-                    {/* <div id="zf_div_PBwlz1PfEQXqz-nEuTIOHtHVoEiYTReIHigAw4TVy9o"></div> */}
+                    <div id="zf_div_PBwlz1PfEQXqz-nEuTIOHtHVoEiYTReIHigAw4TVy9o"></div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
 
-
-
-          <section className="contactPageSupport bg-f2f6f9" style={{ paddingTop: "10px" }}>
+          <section
+            className="contactPageSupport bg-f2f6f9"
+            style={{ paddingTop: "10px" }}>
             <div className="container">
-              <div className="section-title with-underline-text" style={{ marginBottom: "60px" }}>
+              <div
+                className="section-title with-underline-text"
+                style={{ marginBottom: "60px" }}>
                 <h2>Contact Us</h2>
                 <h4>Simplifying Your Reach: Expert Help Just a Click Away.</h4>
               </div>
@@ -278,9 +280,9 @@ const ContactFormContent = () => {
                           Book Now
                         </Link>
                       </div>
-                    </div >
-                  </div >
-                </div >
+                    </div>
+                  </div>
+                </div>
 
                 <div className="col-sm-3">
                   <div className="">
@@ -302,8 +304,8 @@ const ContactFormContent = () => {
                         solutions and guidance
                       </p>
                     </div>
-                  </div >
-                </div >
+                  </div>
+                </div>
 
                 <div className="col-sm-3">
                   <div className="">
@@ -337,10 +339,10 @@ const ContactFormContent = () => {
                             }}
                           />
                         </a>
-                      </div >
-                    </div >
-                  </div >
-                </div >
+                      </div>
+                    </div>
+                  </div>
+                </div>
                 <div className="col-sm-3">
                   <div className="">
                     <div className="single-services-box">
@@ -362,7 +364,8 @@ const ContactFormContent = () => {
                           style={{ textDecoration: "2px dashed underline" }}>
                           +91 7058222899
                         </a> */}
-                        <a href="tel:(+91) -7058222899"
+                        <a
+                          href="tel:(+91) -7058222899"
                           style={{ textDecoration: "2px dashed underline" }}>
                           +91 7058222899
                         </a>
@@ -371,12 +374,8 @@ const ContactFormContent = () => {
                   </div>
                 </div>
               </div>
-            </div >
-          </section >
-
-
-
-
+            </div>
+          </section>
 
           <div className="container space-2">
             <div className="row justify-content-lg-between align-items-lg-center">

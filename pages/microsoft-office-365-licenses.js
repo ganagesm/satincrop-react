@@ -46,7 +46,7 @@ const ContactFormContent = () => {
         },
         false
       );
-    } catch (e) { }
+    } catch (e) {}
   };
   //Zoho Sales Iq Script:
   const useScript = (url, widgetCode) => {
@@ -202,16 +202,17 @@ const ContactFormContent = () => {
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
           backgroundColor: "#eb3d01",
-          backgroundSize: "100% 100%"
+          backgroundSize: "100% 100%",
         }}>
         <div className="container" id="contact">
           <div className="row">
-            <div className="col-lg-12 col-md-12 col-12 d-flex flex-column">
+            <div className="col-lg-6 col-md-6 col-6 d-flex flex-column">
               <div className="hero-text">
                 <img src="/images/microsoft-365.png" width={180} />
                 {/* <img src="https://dev1.satincorp.com/microsoft-office-365-licenses/wp-content/themes/microsoft-office-365-licenses-wp-themes-19032021/images/microsoft-logo-new.png" width={180} /> */}
                 <h1 className="text-white achive" style={{ marginTop: "5px" }}>
-                  Enable Your Remote Team to Work Efficiently with Microsoft 365{" "} <br /> (formerly Office 365)
+                  Enable Your Remote Team to Work Efficiently with Microsoft 365{" "}
+                  <br /> (formerly Office 365)
                   <span style={{ display: "flex" }}>
                     (Get Upto 20% OFF* on any License Type)
                   </span>
@@ -224,17 +225,19 @@ const ContactFormContent = () => {
               </div>
             </div>
             <div className="col-lg-5 offset-md-1 col-12" id="form">
-              {/* <div id="zf_div_C24oeqXLgeckBAaWoP8bgt1tTvq_JpbaQRUBTLATWDw"></div> */}
+              <div id="zf_div_C24oeqXLgeckBAaWoP8bgt1tTvq_JpbaQRUBTLATWDw"></div>
             </div>
           </div>
         </div>
       </section>
 
-
-
-      <section className="contactPageSupport bg-f2f6f9" style={{ paddingTop: "10px" }}>
+      <section
+        className="contactPageSupport bg-f2f6f9 pt-100"
+        style={{ paddingTop: "10px" }}>
         <div className="container">
-          <div className="section-title with-underline-text" style={{ marginBottom: "60px" }}>
+          <div
+            className="section-title with-underline-text"
+            style={{ marginBottom: "60px" }}>
             <h2>Contact Us</h2>
             <h3>Simplifying Your Reach: Expert Help Just a Click Away.</h3>
           </div>
@@ -261,9 +264,9 @@ const ContactFormContent = () => {
                       Book Now
                     </Link>
                   </div>
-                </div >
-              </div >
-            </div >
+                </div>
+              </div>
+            </div>
 
             <div className="col-sm-3">
               <div className="">
@@ -285,8 +288,8 @@ const ContactFormContent = () => {
                     solutions and guidance
                   </p>
                 </div>
-              </div >
-            </div >
+              </div>
+            </div>
 
             <div className="col-sm-3">
               <div className="">
@@ -320,10 +323,10 @@ const ContactFormContent = () => {
                         }}
                       />
                     </a>
-                  </div >
-                </div >
-              </div >
-            </div >
+                  </div>
+                </div>
+              </div>
+            </div>
             <div className="col-sm-3">
               <div className="">
                 <div className="single-services-box">
@@ -345,7 +348,8 @@ const ContactFormContent = () => {
                       style={{ textDecoration: "2px dashed underline" }}>
                       +91 7058188896
                     </a> */}
-                    <a href="tel:(+91) 7058188896"
+                    <a
+                      href="tel:(+91) 7058188896"
                       style={{ textDecoration: "2px dashed underline" }}>
                       +91 7058188896
                     </a>
@@ -354,11 +358,8 @@ const ContactFormContent = () => {
               </div>
             </div>
           </div>
-        </div >
-      </section >
-
-
-
+        </div>
+      </section>
 
       <section className="outer-sec-ban" id="ms-plans">
         <div className="container">
