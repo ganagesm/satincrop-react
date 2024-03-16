@@ -9,10 +9,36 @@ import MainIndustry from "../components/Live/MainIndustry";
 import ContactFormContent from "../components/Common/ContactFormContent";
 import Link from "next/link";
 import Head from "next/head";
-
+import { WebPageJsonLd, NextSeo, DefaultSeo } from "next-seo";
 const Index = () => {
   return (
     <>
+      <WebPageJsonLd
+        headline="Unlocking Salesforce CRM Excellence with SA Technologies"
+        description="SA Technologies empowers your business with Salesforce solutions Elevate your CRM capabilities with Salesforce innovation with us"
+        author="SA Technologies"
+        keywords="AWS Services"
+        image="https://www.satincorp.com/images/services-details/saleforce.jpg"
+      />
+      <NextSeo
+        openGraph={{
+          type: "website",
+          url: "https://www.satincorp.com/salesforce/",
+          title: "Unlocking Salesforce CRM Excellence with SA Technologies",
+          description:
+            "SA Technologies empowers your business with Salesforce solutions Elevate your CRM capabilities with Salesforce innovation with us",
+          images: [
+            {
+              url: "https://www.satincorp.com/images/services-details/saleforce.jpg",
+              width: 800,
+              height: 600,
+              alt: "SA Technologies empowers your business with Salesforce solutions Elevate your CRM capabilities with Salesforce innovation with us",
+            },
+          ],
+          authorName: "SA Technologies",
+          keywords: "AWS Services",
+        }}
+      />
       <Head>
         <title>Unlocking Salesforce CRM Excellence with SA Technologies </title>
         <meta

@@ -9,10 +9,37 @@ import BlogPostSlider from "../components/Live/BlogPostSlider";
 import ContactFormContent from "../components/Common/ContactFormContent";
 import Link from "next/link";
 import Head from "next/head";
-
+import { WebPageJsonLd, NextSeo, DefaultSeo } from "next-seo";
 const Index = () => {
   return (
     <>
+      <WebPageJsonLd
+        headline="Maximizing Potential with Oracle Solutions by SA Technologies"
+        description="SA Technologies delivers Oracle solutions for optimized operations Elevate your business with Oracle robust technology"
+        author="SA Technologies"
+        keywords="Oracle"
+        image="https://www.satincorp.com/images/services-details/Oracle.jpg"
+      />
+      <NextSeo
+        openGraph={{
+          type: "website",
+          url: "https://www.satincorp.com/oracle/",
+          title:
+            "Maximizing Potential with Oracle Solutions by SA Technologies",
+          description:
+            "SA Technologies delivers Oracle solutions for optimized operations Elevate your business with Oracle robust technology",
+          images: [
+            {
+              url: "https://www.satincorp.com/images/services-details/Oracle.jpg",
+              width: 800,
+              height: 600,
+              alt: "SA Technologies delivers Oracle solutions for optimized operations Elevate your business with Oracle robust technology",
+            },
+          ],
+          authorName: "SA Technologies",
+          keywords: "Oracle",
+        }}
+      />
       <Head>
         <title>
           Maximizing Potential with Oracle Solutions by SA Technologies{" "}

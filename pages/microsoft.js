@@ -9,10 +9,37 @@ import BlogPostSlider from "../components/kubernetes/BlogPostSlider";
 import ContactFormContent from "../components/Common/ContactFormContent";
 import Link from "next/link";
 import Head from "next/head";
-
+import { WebPageJsonLd, NextSeo, DefaultSeo } from "next-seo";
 const Index = () => {
   return (
     <>
+      <WebPageJsonLd
+        headline="Empower Business with Microsoft D365 Solutions by SA Technologies"
+        description="SA Technologies offers Microsoft solutions for enhanced productivity and innovation Unleash the potential of Microsoft technologies"
+        author="SA Technologies"
+        keywords="Microsoft"
+        image="https://www.satincorp.com/images/services-details/service-details1.jpg"
+      />
+      <NextSeo
+        openGraph={{
+          type: "website",
+          url: "https://www.satincorp.com/microsoft/",
+          title:
+            "Empower Business with Microsoft D365 Solutions by SA Technologies",
+          description:
+            "SA Technologies offers Microsoft solutions for enhanced productivity and innovation Unleash the potential of Microsoft technologies",
+          images: [
+            {
+              url: "https://www.satincorp.com/images/services-details/service-details1.jpg",
+              width: 800,
+              height: 600,
+              alt: "SA Technologies offers Microsoft solutions for enhanced productivity and innovation Unleash the potential of Microsoft technologies",
+            },
+          ],
+          authorName: "SA Technologies",
+          keywords: "Microsoft",
+        }}
+      />
       <Head>
         <title>
           Empower Business with Microsoft D365 Solutions by SA Technologies{" "}

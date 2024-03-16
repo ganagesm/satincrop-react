@@ -11,10 +11,37 @@ import BlogPostSlider from "../components/Live/BlogPostSlider";
 import ContactFormContent from "../components/Common/ContactFormContent";
 import Link from "next/link";
 import Head from "next/head";
-
+import { WebPageJsonLd, NextSeo, DefaultSeo } from "next-seo";
 const Index = () => {
   return (
     <>
+      <WebPageJsonLd
+        headline="Scale New Heights with AWS Services: SA Technologies Expertise"
+        description="Explore SA Technologies AWS services for secure, scalable, and flexible cloud solutions Navigate the cloud confidently with AWS"
+        author="SA Technologies"
+        keywords="AWS Services"
+        image="https://www.satincorp.com/images/services-details/aws.jpg"
+      />
+      <NextSeo
+        openGraph={{
+          type: "website",
+          url: "https://www.satincorp.com/aws-services/",
+          title:
+            "Scale New Heights with AWS Services: SA Technologies Expertise",
+          description:
+            "Explore SA Technologies AWS services for secure, scalable, and flexible cloud solutions Navigate the cloud confidently with AWS",
+          images: [
+            {
+              url: "https://www.satincorp.com/images/services-details/aws.jpg",
+              width: 800,
+              height: 600,
+              alt: "Explore SA Technologies AWS services for secure, scalable, and flexible cloud solutions Navigate the cloud confidently with AWS",
+            },
+          ],
+          authorName: "SA Technologies",
+          keywords: "AWS Services",
+        }}
+      />
       <Head>
         <title>
           Scale New Heights with AWS Services: SA Technologies Expertise{" "}
