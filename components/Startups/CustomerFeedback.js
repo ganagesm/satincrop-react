@@ -37,8 +37,10 @@ const CustomerFeedback = () => {
             <SwiperSlide>
               <div className="single-testimonials-box">
                 <p>
-                  It has been an absolute delight working with SAT. We’re always
-                  excited to see requirements coming in from them.
+                  It has been an absolute delight working with SAT. We're always
+                  thrilled to receive requirements from them. Their
+                  collaboration has been invaluable to our startup's growth and
+                  success.
                 </p>
                 <div className="client-info">
                   <h3>Leading Infrastructure Service Provider</h3>
@@ -50,8 +52,13 @@ const CustomerFeedback = () => {
             <SwiperSlide>
               <div className="single-testimonials-box">
                 <p>
-                  SAT’s recruitment team is highly interactive, they had their
-                  domain experts working to recruit the best IT talent.
+                  Our partnership with SAT's recruitment team has been
+                  instrumental in fueling our startup's growth. Their highly
+                  interactive approach and the expertise of their domain
+                  specialists have empowered us to attract top-tier IT talent.
+                  We're grateful for their dedication to finding the perfect fit
+                  for our team, which has significantly contributed to our
+                  startup's success and expansion.
                 </p>
                 <div className="client-info">
                   <h3>Healthcare Technology Giant</h3>
@@ -63,8 +70,12 @@ const CustomerFeedback = () => {
             <SwiperSlide>
               <div className="single-testimonials-box">
                 <p>
-                  SAT met our on-boarding challenges head-on by offering us a
-                  seamless hiring solution via their onsite sourcing teams.
+                  Addressing our onboarding challenges directly, SAT has
+                  provided us with a seamless solution through their onsite
+                  support teams. Their proactive assistance has played a pivotal
+                  role in helping our startup smoothly integrate new hires into
+                  our operations, ensuring a productive and efficient
+                  transition.
                 </p>
                 <div className="client-info">
                   <h3> Global Leaders in Sales Marketing Consulting</h3>
@@ -75,8 +86,12 @@ const CustomerFeedback = () => {
             <SwiperSlide>
               <div className="single-testimonials-box">
                 <p>
-                  SAT met our on-boarding challenges head-on by offering us a
-                  seamless hiring solution via their onsite sourcing teams.
+                  Facing our onboarding challenges head-on, SAT provided a
+                  seamless hiring solution through their onsite sourcing teams,
+                  which significantly contributed to our startup's growth
+                  trajectory. Their proactive approach ensured that we could
+                  swiftly onboard skilled individuals, accelerating our progress
+                  and bolstering our team's capabilities.
                 </p>
                 <div className="client-info">
                   <h3> Global Leaders in Sales Marketing Consulting</h3>

@@ -9,7 +9,7 @@ import Services from "../components/Startups/Services";
 import ComputerVisionAI from "../components/Startups/ComputerVisionAI";
 import Newsletter from "../components/Startups/Newsletter";
 import TechSlider from "../components/Startups/TechSlider";
-import ContactUs from "../components/Startups/ContactUs";
+import ContactUs from "../components/GoogleStartupOffer/ContactUs";
 import TopFeaturedSolutions from "../components/Startups/TopFeaturedSolutions";
 import CustomerSuccess from "../components/Startups/CustomerSuccess";
 import CustomerFeedback from "../components/Startups/CustomerFeedback";
@@ -135,7 +135,7 @@ const ContactFormContent = () => {
 
       <div className="webinar-area ptb-110 pt-100">
         <div className="container">
-          <div className="webinar-inner">
+          <div className="webinar-inner text-center">
             <div className="row m-0 align-items-center">
               <div className="col-lg-6 col-md-12 p-0">
                 <div className="image">
@@ -153,7 +153,7 @@ const ContactFormContent = () => {
                     directly with you.
                   </p>
 
-                  <Link href="#" className="btn btn-primary">
+                  <Link href="#contact-support" className="btn btn-primary">
                     Get 2 Week Free Trial
                   </Link>
                 </div>
@@ -166,6 +166,7 @@ const ContactFormContent = () => {
       <TopFeaturedSolutions />
 
       <CustomerFeedback />
+      <ContactUs />
       {/* <CustomerSuccess /> */}
 
       {/* <React.Fragment>

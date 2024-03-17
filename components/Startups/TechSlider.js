@@ -407,16 +407,6 @@ const TechSlider = () => {
                 <img src="/images/technology-stack/9.svg" alt="image" />
               </a>
             </div>
-
-            {/* <div className="col-lg-12 col-md-12">
-              <div className="ai-all-services-btn">
-                <Link href="/customers-and-partners/" className="btn btn-primary">
-                  Discover More
-                </Link>
-              </div>
-            </div> */}
-          </div>
-          <div className="customers-partner-list">
             <div
               className="partner-item"
               data-aos="fade-in"
@@ -489,19 +479,17 @@ const TechSlider = () => {
                 <img src="/images/technology-stack/17.svg" alt="image" />
               </a>
             </div>
-            <div className="col-lg-12 col-md-12">
-              <div
-                className="ai-all-services-btn"
-                data-aos="fade-in"
-                data-aos-duration="1200"
-                data-aos-delay="1800">
-                <Link
-                  href="/customers-and-partners/"
-                  className="btn btn-primary">
-                  Discover More
-                </Link>
-              </div>
-            </div>
+          </div>
+        </div>
+        <div className="col-lg-12 col-md-12">
+          <div
+            className="ai-all-services-btn"
+            data-aos="fade-in"
+            data-aos-duration="1200"
+            data-aos-delay="1800">
+            <Link href="#contact-support" className="btn btn-primary">
+              Explore More
+            </Link>
           </div>
         </div>
       </div>

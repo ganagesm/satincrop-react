@@ -37,8 +37,11 @@ const CustomerFeedback = () => {
             <SwiperSlide>
               <div className="single-testimonials-box">
                 <p>
-                  It has been an absolute delight working with SAT. We’re always
-                  excited to see requirements coming in from them.
+                  Working alongside SAT has been an absolute delight. Their
+                  professionalism, dedication, and clear communication make
+                  every project a breeze. We eagerly anticipate each new set of
+                  requirements they bring, knowing that they push us to deliver
+                  our very best.
                 </p>
                 <div className="client-info">
                   <h3>Leading Infrastructure Service Provider</h3>
@@ -50,8 +53,11 @@ const CustomerFeedback = () => {
             <SwiperSlide>
               <div className="single-testimonials-box">
                 <p>
-                  SAT’s recruitment team is highly interactive, they had their
-                  domain experts working to recruit the best IT talent.
+                  Collaborating with SAT has truly been a game-changer for our
+                  startup. Their innovative ideas and strategic insights have
+                  helped us navigate complex challenges with ease. We're
+                  grateful for their partnership and look forward to achieving
+                  even greater heights together
                 </p>
                 <div className="client-info">
                   <h3>Healthcare Technology Giant</h3>
@@ -63,8 +69,10 @@ const CustomerFeedback = () => {
             <SwiperSlide>
               <div className="single-testimonials-box">
                 <p>
-                  SAT met our on-boarding challenges head-on by offering us a
-                  seamless hiring solution via their onsite sourcing teams.
+                  At our startup, we thrive on innovation and growth, and SAT
+                  aligns perfectly with our values. Their unwavering support and
+                  enthusiasm fuel our passion for success. It's a privilege to
+                  work alongside such a dynamic and forward-thinking team.
                 </p>
                 <div className="client-info">
                   <h3> Global Leaders in Sales Marketing Consulting</h3>
@@ -75,8 +83,12 @@ const CustomerFeedback = () => {
             <SwiperSlide>
               <div className="single-testimonials-box">
                 <p>
-                  SAT met our on-boarding challenges head-on by offering us a
-                  seamless hiring solution via their onsite sourcing teams.
+                  In the fast-paced world of startups, having a partner like SAT
+                  is invaluable. Their prompt responses, attention to detail,
+                  and willingness to go above and beyond have made all the
+                  difference in our journey. We're grateful for their ongoing
+                  support and look forward to many more successful
+                  collaborations.
                 </p>
                 <div className="client-info">
                   <h3> Global Leaders in Sales Marketing Consulting</h3>

@@ -163,7 +163,8 @@ const ContactFormContent = () => {
       <AboutAI />
       <Services />
       <CustomerFeedback />
-      <TopFeaturedSolutions />
+      <ContactUs />
+      {/* <TopFeaturedSolutions /> */}
       {/* <CustomerSuccess /> */}
 
       {/* <React.Fragment>

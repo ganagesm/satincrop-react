@@ -56,12 +56,12 @@ const MainBanner = () => {
                   data-aos="fade-in"
                   data-aos-duration="1200"
                   data-aos-delay="400">
-                  <Link href="/contact" className="btn btn-primary">
-                    Schedule a Demo
+                  <Link href="#contact-support" className="btn btn-primary">
+                    Get a Quick call
                   </Link>
-                  <Link href="/contact" className="optional-btn">
+                  {/* <Link href="/contact" className="optional-btn">
                     Get Started Free
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>

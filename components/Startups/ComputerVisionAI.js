@@ -109,7 +109,7 @@ const ComputerVisionAI = () => {
                   and India is the obvious choice for multiple years.
                 </p>
 
-                <Link href="/about" className="btn btn-primary">
+                <Link href="#contact-support" className="btn btn-primary">
                   Discover More
                 </Link>
               </div>

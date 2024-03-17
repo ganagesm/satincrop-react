@@ -22,8 +22,8 @@ const DomainSearch = () => {
 
             <ul className="banner-btn">
               <li>
-                <Link href="/contact-us/" className="btn btn-primary">
-                  Quick call back now
+                <Link href="#contact-support" className="btn btn-primary">
+                  Ready to apply?
                 </Link>
               </li>
             </ul>
