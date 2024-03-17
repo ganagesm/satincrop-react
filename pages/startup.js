@@ -2,14 +2,6 @@ import React, { useEffect, useState } from "react";
 import Document, { Html, Main, NextScript } from "next/document";
 import Link from "next/link";
 import Head from "next/head";
-import Script from "next/script";
-import AboutAI from "../components/Startups/AboutAI";
-import MainBanner from "../components/Startups/MainBanner";
-import Services from "../components/Startups/Services";
-import ComputerVisionAI from "../components/Startups/ComputerVisionAI";
-import ContactUs from "../components/Startups/ContactUs";
-import TopFeaturedSolutions from "../components/Startups/TopFeaturedSolutions";
-import CustomerSuccess from "../components/Startups/CustomerSuccess";
 
 const ContactFormContent = () => {
   const executeFunction = () => {
