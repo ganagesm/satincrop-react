@@ -5,7 +5,7 @@ import { Pagination, Autoplay } from "swiper";
 const CustomerFeedback = () => {
   return (
     <>
-      <div className="testimonials-section ptb-110">
+      <div className="testimonials-section pt-50 ptb-50">
         <div className="container">
           <div className="section-title">
             <div className="row align-items-center">
@@ -37,10 +37,11 @@ const CustomerFeedback = () => {
             <SwiperSlide>
               <div className="single-testimonials-box">
                 <p>
-                  It has been an absolute delight working with SAT. We're always
-                  thrilled to receive requirements from them. Their
-                  collaboration has been invaluable to our startup's growth and
-                  success.
+                  I'm highly appreciative of SAT's prompt support in deploying a
+                  QA Automation team for our product. Their quick response and
+                  commitment to quality significantly accelerated our
+                  development cycle, ensuring our product met the highest
+                  standards of reliability and performance.
                 </p>
                 <div className="client-info">
                   <h3>Leading Infrastructure Service Provider</h3>
@@ -61,8 +62,8 @@ const CustomerFeedback = () => {
                   startup's success and expansion.
                 </p>
                 <div className="client-info">
-                  <h3>Healthcare Technology Giant</h3>
-                  {/* <span>CEO</span> */}
+                  <h3>VP of Technologies Industry</h3>
+                  <span>FinTech Startup</span>
                 </div>
               </div>
             </SwiperSlide>
@@ -70,32 +71,31 @@ const CustomerFeedback = () => {
             <SwiperSlide>
               <div className="single-testimonials-box">
                 <p>
-                  Addressing our onboarding challenges directly, SAT has
-                  provided us with a seamless solution through their onsite
-                  support teams. Their proactive assistance has played a pivotal
-                  role in helping our startup smoothly integrate new hires into
-                  our operations, ensuring a productive and efficient
-                  transition.
+                  I'm profoundly thankful for SAT's assistance in bolstering our
+                  cloud team, ensuring our systems operate smoothly 24/7/365.
+                  Their expertise in cloud infrastructure has been crucial in
+                  maintaining our system's reliability and availability,
+                  enabling us to provide uninterrupted service to our customers.
                 </p>
                 <div className="client-info">
-                  <h3> Global Leaders in Sales Marketing Consulting</h3>
-                  {/* <span>EnvyTheme</span> */}
+                  <h3> CTO</h3>
+                  <span>Industry Fintech Startup</span>
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="single-testimonials-box">
                 <p>
-                  Facing our onboarding challenges head-on, SAT provided a
-                  seamless hiring solution through their onsite sourcing teams,
-                  which significantly contributed to our startup's growth
-                  trajectory. Their proactive approach ensured that we could
-                  swiftly onboard skilled individuals, accelerating our progress
-                  and bolstering our team's capabilities.
+                  I'm deeply appreciative of SAT's swift action in deploying an
+                  expert mobile app development team. Their proficiency and
+                  quick turnaround were instrumental in launching our innovative
+                  mobile app, greatly improving our user engagement and
+                  accelerating our growth in the competitive e-commerce
+                  landscape.
                 </p>
                 <div className="client-info">
-                  <h3> Global Leaders in Sales Marketing Consulting</h3>
-                  {/* <span>EnvyTheme</span> */}
+                  <h3> VP-Global Delivery</h3>
+                  <span>Industry E-commerce</span>
                 </div>
               </div>
             </SwiperSlide>

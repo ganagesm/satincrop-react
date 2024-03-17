@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Document, { Html, Main, NextScript } from "next/document";
+import Navbar from "../components/Live/Navbar";
+import Footer from "../components/Live/Footer";
 import Link from "next/link";
 import Head from "next/head";
 import Script from "next/script";
@@ -81,8 +83,8 @@ const ContactFormContent = () => {
       <Head>
         <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
       </Head>
-
-      <main id="content" role="main" className="overflow-hidden">
+      <Navbar />
+      {/* <main id="content" role="main" className="overflow-hidden">
         <div
           id="navbar"
           className="navbar-area navbar-area-with-position-relative">
@@ -124,7 +126,7 @@ const ContactFormContent = () => {
             </div>
           </div>
         </div>
-      </main>
+      </main> */}
 
       <MainBanner />
       <Services />
@@ -133,7 +135,7 @@ const ContactFormContent = () => {
       <HowWeWork />
       <TechSlider />
 
-      <div className="webinar-area ptb-110 pt-100">
+      <div className="webinar-area ptb-50 pt-50">
         <div className="container">
           <div className="webinar-inner text-center">
             <div className="row m-0 align-items-center">
@@ -168,19 +170,20 @@ const ContactFormContent = () => {
       <CustomerFeedback />
       <ContactUs />
       {/* <CustomerSuccess /> */}
+      <Footer />
 
-      {/* <React.Fragment>
+      <React.Fragment>
         {useScript(
           "https://salesiq.zoho.in/widget",
-          "siqd501e20f5ff83957af2415d36330a0344fef3b83965c959b579f4a9444020527"
+          "siqf0be5ba9aefe176393dfbe591c77fef43f5283d3b627b4cd0b623da1760ed2e4117e8194377283a5ded1bc7509f07a7f"
         )}
       </React.Fragment>
       <Link
-        href="https://api.whatsapp.com/send/?phone=%2B917058222899&text=Hello,%20I%20am%20interested%20in%20%20buying%20Google%20Cloud%20Platform"
+        href="https://api.whatsapp.com/send/?phone=%2B9107875787550&text=Hello!%20I%27m%20interested%20in%20exploring%20your%20startups%20offer.%20Can%20you%20share%20more%20details?"
         target="_blank"
         className="floatWhatsApp">
         <img src="/images/icons/whatsApp.svg" alt="whatsapp" />
-      </Link> */}
+      </Link>
     </>
   );
 };

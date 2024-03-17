@@ -21,7 +21,7 @@ const MainBanner = () => {
 
   return (
     <>
-      <div className="banner-section">
+      <div className="banner-section googleStartup">
         <div className="container">
           <div className="row">
             <div className="col-lg-6">

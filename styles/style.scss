@@ -11788,5 +11788,22 @@ a.btn.btn-primary.ai_btn {
     position: absolute;
   }
 }
-
+.googleStartup {
+  padding-top: 150px
+}
+.google-startup-offer {
+  padding-top: 100px;
+    padding-bottom: 100px;
+    .ai-main-banner-content h1 {
+      font-size: 50px;
+      font-weight: bold;
+      margin-bottom: 18.5px;
+  }
+}
+@media only screen and (min-width: 1550px) {
+  .google-startup-offer {
+    padding-top: 100px !important;
+      padding-bottom: 100px !important;
+  }
+}
 /*End "Home Demo - 6", "Home Demo - 7" & "Home Demo - 8" Style CSS*/

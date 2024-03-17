@@ -167,10 +167,10 @@ const ContactFormContent = () => {
       {/* <TopFeaturedSolutions /> */}
       {/* <CustomerSuccess /> */}
 
-      {/* <React.Fragment>
+      <React.Fragment>
         {useScript(
           "https://salesiq.zoho.in/widget",
-          "siqd501e20f5ff83957af2415d36330a0344fef3b83965c959b579f4a9444020527"
+          "siqf0be5ba9aefe176393dfbe591c77fef43f5283d3b627b4cd0b623da1760ed2e4117e8194377283a5ded1bc7509f07a7f"
         )}
       </React.Fragment>
       <Link
@@ -178,7 +178,7 @@ const ContactFormContent = () => {
         target="_blank"
         className="floatWhatsApp">
         <img src="/images/icons/whatsApp.svg" alt="whatsapp" />
-      </Link> */}
+      </Link>
     </>
   );
 };

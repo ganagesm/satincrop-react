@@ -5,7 +5,7 @@ const DomainSearch = () => {
   const [toggler, setToggler] = useState(false);
   return (
     <>
-      <div className="ai-main-banner-area">
+      <div className="ai-main-banner-area google-startup-offer">
         <div className="container-fluid">
           <div className="ai-main-banner-content">
             <h1>

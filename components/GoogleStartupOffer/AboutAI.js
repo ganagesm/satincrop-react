@@ -3,13 +3,13 @@ import React from "react";
 const AboutContact = () => {
   return (
     <>
-      <section className="about-area ptb-110">
+      <section className="about-area pt-50">
         <div className="container">
-          <div className="row align-items-center">
+          <div className="row">
             <div className="col-lg-6 col-md-12">
               <div className="about-image">
                 <img
-                  src="https://images.pexels.com/photos/3415148/pexels-photo-3415148.jpeg"
+                  src="https://images.pexels.com/photos/3415148/pexels-photo-3415148.jpeg?auto=compress&cs=tinysrgb&h=840"
                   alt="image"
                 />
               </div>
@@ -73,6 +73,14 @@ const AboutContact = () => {
                   infrastructure while building decentralized apps, Web3
                   tooling, services and more
                 </p>
+                <ul className="about-list">
+                  <li>
+                    <span style={{ color: "red" }}>*</span> Please note that the
+                    provision of credits is entirely at Google's discretion. We
+                    facilitate the application process but cannot guarantee the
+                    outcome.
+                  </li>
+                </ul>
               </div>
             </div>
           </div>

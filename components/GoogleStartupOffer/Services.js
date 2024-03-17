@@ -85,9 +85,7 @@ const Services = () => {
                   Connect, create, and collaborate at the speed you need to
                   scale with generative AI.{" "}
                   <strong>
-                    <a href="http://localhost:3000/buy-google-workspace/">
-                      Google Workspace
-                    </a>
+                    <a href="/buy-google-workspace/">Google Workspace</a>
                   </strong>{" "}
                   provides all the tools you need to get ahead—like Gmail,
                   Drive, and Meet—in a single solution, all backed by trusted

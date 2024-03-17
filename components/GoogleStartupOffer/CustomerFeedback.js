@@ -5,7 +5,7 @@ import { Pagination, Autoplay } from "swiper";
 const CustomerFeedback = () => {
   return (
     <>
-      <div className="testimonials-section ptb-110">
+      <div className="testimonials-section pt-50 ptb-50">
         <div className="container">
           <div className="section-title">
             <div className="row align-items-center">
@@ -37,15 +37,18 @@ const CustomerFeedback = () => {
             <SwiperSlide>
               <div className="single-testimonials-box">
                 <p>
-                  Working alongside SAT has been an absolute delight. Their
-                  professionalism, dedication, and clear communication make
-                  every project a breeze. We eagerly anticipate each new set of
-                  requirements they bring, knowing that they push us to deliver
-                  our very best.
+                  I'm deeply impressed by SAT's technical prowess in developing
+                  our data pipeline on Google Cloud Platform (GCP). Their team
+                  expertly leveraged GCP's BigQuery for real-time data analysis
+                  and Cloud Pub/Sub for seamless data ingestion, significantly
+                  improving our data processing speed and reliability. Their
+                  guidance on utilizing GCP's secure and scalable infrastructure
+                  has been invaluable in advancing our healthcare data analytics
+                  capabilities
                 </p>
                 <div className="client-info">
-                  <h3>Leading Infrastructure Service Provider</h3>
-                  {/* <span>Founder & CEO</span> */}
+                  <h3>Industry Healthcare Tech Company</h3>
+                  <span>Founder & CEO</span>
                 </div>
               </div>
             </SwiperSlide>
@@ -53,20 +56,20 @@ const CustomerFeedback = () => {
             <SwiperSlide>
               <div className="single-testimonials-box">
                 <p>
-                  Collaborating with SAT has truly been a game-changer for our
-                  startup. Their innovative ideas and strategic insights have
-                  helped us navigate complex challenges with ease. We're
-                  grateful for their partnership and look forward to achieving
-                  even greater heights together
+                  I'm immensely grateful for SAT's assistance in securing free
+                  GCP credits and guiding our migration to Google Cloud. Their
+                  expertise ensured a smooth transition, allowing us to leverage
+                  Google Cloud's advanced AI and machine learning tools to
+                  enhance our product offerings and accelerate innovation.
                 </p>
                 <div className="client-info">
-                  <h3>Healthcare Technology Giant</h3>
-                  {/* <span>CEO</span> */}
+                  <h3>Industry AI startup</h3>
+                  <span>CTO</span>
                 </div>
               </div>
             </SwiperSlide>
 
-            <SwiperSlide>
+            {/* <SwiperSlide>
               <div className="single-testimonials-box">
                 <p>
                   At our startup, we thrive on innovation and growth, and SAT
@@ -76,7 +79,7 @@ const CustomerFeedback = () => {
                 </p>
                 <div className="client-info">
                   <h3> Global Leaders in Sales Marketing Consulting</h3>
-                  {/* <span>EnvyTheme</span> */}
+                  <span>EnvyTheme</span>
                 </div>
               </div>
             </SwiperSlide>
@@ -92,10 +95,10 @@ const CustomerFeedback = () => {
                 </p>
                 <div className="client-info">
                   <h3> Global Leaders in Sales Marketing Consulting</h3>
-                  {/* <span>EnvyTheme</span> */}
+                  <span>EnvyTheme</span>
                 </div>
               </div>
-            </SwiperSlide>
+            </SwiperSlide> */}
           </Swiper>
         </div>
       </div>
