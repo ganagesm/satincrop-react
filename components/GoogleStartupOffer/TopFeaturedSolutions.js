@@ -9,8 +9,14 @@ const TopFeaturedSolutions = () => {
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12">
               <div className="about-image">
-                <img src="/images/ppc-banner/why-google-2.jpeg" alt="image" />
-                <img src="/images/ppc-banner/why-google.jpeg" alt="image" />
+                <img
+                  src="https://images.pexels.com/photos/7793699/pexels-photo-7793699.jpeg?auto=compress&cs=tinysrgb&w=500&h=750"
+                  alt="image"
+                />
+                <img
+                  src="https://images.pexels.com/photos/1181406/pexels-photo-1181406.jpeg?auto=compress&cs=tinysrgb&w=350&h=750"
+                  alt="image"
+                />
               </div>
             </div>
 

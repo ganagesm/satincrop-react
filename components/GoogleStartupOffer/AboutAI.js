@@ -8,7 +8,10 @@ const AboutContact = () => {
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12">
               <div className="about-image">
-                <img src="/images/digital_transformation-1.jpg" alt="image" />
+                <img
+                  src="https://images.pexels.com/photos/3415148/pexels-photo-3415148.jpeg"
+                  alt="image"
+                />
               </div>
             </div>
 
