@@ -158,13 +158,21 @@ const Footer = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/aws-services">AWS</Link>
+                    <Link href="/aws-services/">AWS</Link>
                   </li>
                   <li>
-                    <Link href="/salesforce">Salesforce</Link>
+                    <Link href="/salesforce/">Salesforce</Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link href="/servicenow">Service Now</Link>
+                  </li> */}
+                  <li>
+                    <Link href="/startups/">Startups</Link>
+                  </li>
+                  <li>
+                    <Link href="/google-startup-offer/">
+                      GCP Startup Credit
+                    </Link>
                   </li>
                 </ul>
               </div>
