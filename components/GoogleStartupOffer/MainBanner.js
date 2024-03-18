@@ -5,12 +5,13 @@ const DomainSearch = () => {
   const bottomRef = useRef(null);
 
   // Function to scroll to the bottom
-  const scrollToBottom = () => {
-    window.scrollTo({
-      top: document.documentElement.scrollHeight,
-      behavior: "smooth",
-    });
-  };
+  function scrollToSection(id) {
+    const section = document.getElementById(id);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  }
+
   const [toggler, setToggler] = useState(false);
   return (
     <>
@@ -31,7 +32,9 @@ const DomainSearch = () => {
 
             <ul className="banner-btn">
               <li>
-                <button onClick={scrollToBottom} className="btn btn-primary">
+                <button
+                  className="btn btn-primary"
+                  onClick={() => scrollToSection("section1")}>
                   Ready to apply?
                 </button>
               </li>

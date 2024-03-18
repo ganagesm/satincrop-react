@@ -11,7 +11,7 @@ const DomainSearch = () => {
   };
   return (
     <>
-      <section className="bg-f2f6f9 pt-100" ref={bottomRef}>
+      <section className="bg-f2f6f9 pt-100" ref={bottomRef} id="section1">
         <div className="container">
           <div className="section-title with-underline-text">
             <h2>Contact Us</h2>

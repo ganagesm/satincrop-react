@@ -5,12 +5,12 @@ const ComputerVisionAI = () => {
   const bottomRef = useRef(null);
 
   // Function to scroll to the bottom
-  const scrollToBottom = () => {
-    window.scrollTo({
-      top: document.documentElement.scrollHeight,
-      behavior: "smooth",
-    });
-  };
+  function scrollToSection(id) {
+    const section = document.getElementById(id);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  }
   return (
     <>
       {/* <div className="about-area pt-100 ptb-110">
@@ -118,7 +118,9 @@ const ComputerVisionAI = () => {
                   and India is the obvious choice for multiple years.
                 </p>
 
-                <button onClick={scrollToBottom} className="btn btn-primary">
+                <button
+                  onClick={() => scrollToSection("section1")}
+                  className="btn btn-primary">
                   Discover More
                 </button>
               </div>

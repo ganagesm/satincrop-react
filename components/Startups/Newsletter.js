@@ -5,12 +5,12 @@ const Newsletter = () => {
   const bottomRef = useRef(null);
 
   // Function to scroll to the bottom
-  const scrollToBottom = () => {
-    window.scrollTo({
-      top: document.documentElement.scrollHeight,
-      behavior: "smooth",
-    });
-  };
+  function scrollToSection(id) {
+    const section = document.getElementById(id);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  }
   return (
     <>
       <div className="ai-subscribe-area ptb-100">
@@ -22,7 +22,9 @@ const Newsletter = () => {
               </h2>
             </div>
             <div className="col-lg-4 col-4 col-12">
-              <button onClick={scrollToBottom} className="btn btn-primary">
+              <button
+                onClick={() => scrollToSection("section1")}
+                className="btn btn-primary">
                 Contact Us<span></span>
               </button>
             </div>

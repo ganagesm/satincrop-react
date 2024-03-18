@@ -3,11 +3,11 @@ import React from "react";
 const HowWeWork = () => {
   return (
     <>
-      <section className="about-area ptb-70 pt-100">
+      <section className="about-area ptb-50 pt-100">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12">
-              <div className="about-image">
+              <div className="about-image" style={{ paddingBottom: 0 }}>
                 <img src="/images/digital_transformation-1.jpg" alt="image" />
               </div>
             </div>
