@@ -4,6 +4,15 @@ import Link from "next/link";
 
 const MainBanner = () => {
   const typedRef = useRef(null);
+  const bottomRef = useRef(null);
+
+  // Function to scroll to the bottom
+  const scrollToBottom = () => {
+    window.scrollTo({
+      top: document.documentElement.scrollHeight,
+      behavior: "smooth",
+    });
+  };
   useEffect(() => {
     if (typedRef.current) {
       const options = {
@@ -56,9 +65,9 @@ const MainBanner = () => {
                   data-aos="fade-in"
                   data-aos-duration="1200"
                   data-aos-delay="400">
-                  <Link href="#contact-support" className="btn btn-primary">
+                  <button onClick={scrollToBottom} className="btn btn-primary">
                     Get a Quick call
-                  </Link>
+                  </button>
                   {/* <Link href="/contact" className="optional-btn">
                     Get Started Free
                   </Link> */}

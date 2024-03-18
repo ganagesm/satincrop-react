@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import Document, { Html, Main, NextScript } from "next/document";
 import Navbar from "../components/Live/Navbar";
 import Footer from "../components/Live/Footer";
@@ -17,6 +17,15 @@ import CustomerSuccess from "../components/Startups/CustomerSuccess";
 import CustomerFeedback from "../components/Startups/CustomerFeedback";
 
 const ContactFormContent = () => {
+  const bottomRef = useRef(null);
+
+  // Function to scroll to the bottom
+  const scrollToBottom = () => {
+    window.scrollTo({
+      top: document.documentElement.scrollHeight,
+      behavior: "smooth",
+    });
+  };
   const executeFunction = () => {
     try {
       var f = document.createElement("iframe");
@@ -76,6 +85,7 @@ const ContactFormContent = () => {
       return () => {
         document.body.removeChild(script);
       };
+      scrollToBottom();
     }, [url]);
   };
   return (
@@ -155,9 +165,9 @@ const ContactFormContent = () => {
                     directly with you.
                   </p>
 
-                  <Link href="#contact-support" className="btn btn-primary">
+                  <button onClick={scrollToBottom} className="btn btn-primary">
                     Get 2 Week Free Trial
-                  </Link>
+                  </button>
                 </div>
               </div>
             </div>

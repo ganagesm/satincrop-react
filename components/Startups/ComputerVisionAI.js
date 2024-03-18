@@ -1,7 +1,16 @@
-import React from "react";
+import { useEffect, useRef } from "react";
 import Link from "next/link";
 
 const ComputerVisionAI = () => {
+  const bottomRef = useRef(null);
+
+  // Function to scroll to the bottom
+  const scrollToBottom = () => {
+    window.scrollTo({
+      top: document.documentElement.scrollHeight,
+      behavior: "smooth",
+    });
+  };
   return (
     <>
       {/* <div className="about-area pt-100 ptb-110">
@@ -109,9 +118,9 @@ const ComputerVisionAI = () => {
                   and India is the obvious choice for multiple years.
                 </p>
 
-                <Link href="#contact-support" className="btn btn-primary">
+                <button onClick={scrollToBottom} className="btn btn-primary">
                   Discover More
-                </Link>
+                </button>
               </div>
             </div>
 

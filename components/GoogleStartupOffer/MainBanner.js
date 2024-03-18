@@ -1,7 +1,16 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import Link from "next/link";
 
 const DomainSearch = () => {
+  const bottomRef = useRef(null);
+
+  // Function to scroll to the bottom
+  const scrollToBottom = () => {
+    window.scrollTo({
+      top: document.documentElement.scrollHeight,
+      behavior: "smooth",
+    });
+  };
   const [toggler, setToggler] = useState(false);
   return (
     <>
@@ -22,9 +31,9 @@ const DomainSearch = () => {
 
             <ul className="banner-btn">
               <li>
-                <Link href="#contact-support" className="btn btn-primary">
+                <button onClick={scrollToBottom} className="btn btn-primary">
                   Ready to apply?
-                </Link>
+                </button>
               </li>
             </ul>
           </div>

@@ -1,7 +1,16 @@
-import React from "react";
+import { useEffect, useRef } from "react";
 import Link from "next/link";
 
 const Newsletter = () => {
+  const bottomRef = useRef(null);
+
+  // Function to scroll to the bottom
+  const scrollToBottom = () => {
+    window.scrollTo({
+      top: document.documentElement.scrollHeight,
+      behavior: "smooth",
+    });
+  };
   return (
     <>
       <div className="ai-subscribe-area ptb-100">
@@ -13,9 +22,9 @@ const Newsletter = () => {
               </h2>
             </div>
             <div className="col-lg-4 col-4 col-12">
-              <Link href="#contact-support" className="btn btn-primary">
+              <button onClick={scrollToBottom} className="btn btn-primary">
                 Contact Us<span></span>
-              </Link>
+              </button>
             </div>
           </div>
 
