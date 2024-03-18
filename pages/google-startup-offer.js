@@ -9,6 +9,8 @@ import Services from "../components/GoogleStartupOffer/Services";
 import ContactUs from "../components/GoogleStartupOffer/ContactUs";
 import TopFeaturedSolutions from "../components/GoogleStartupOffer/TopFeaturedSolutions";
 import CustomerSuccess from "../components/GoogleStartupOffer/CustomerSuccess";
+import Navbar from "../components/Live/Navbar";
+import Footer from "../components/Live/Footer";
 
 const ContactFormContent = () => {
   const executeFunction = () => {
@@ -115,7 +117,7 @@ const ContactFormContent = () => {
         />
       </Head>
 
-      <main id="content" role="main" className="overflow-hidden">
+      {/* <main id="content" role="main" className="overflow-hidden">
         <div
           id="navbar"
           className="navbar-area navbar-area-with-position-relative">
@@ -157,8 +159,8 @@ const ContactFormContent = () => {
             </div>
           </div>
         </div>
-      </main>
-
+      </main> */}
+      <Navbar />
       <MainBanner />
       <AboutAI />
       <Services />
@@ -166,7 +168,7 @@ const ContactFormContent = () => {
       <ContactUs />
       {/* <TopFeaturedSolutions /> */}
       {/* <CustomerSuccess /> */}
-
+      <Footer />
       <React.Fragment>
         {useScript(
           "https://salesiq.zoho.in/widget",
