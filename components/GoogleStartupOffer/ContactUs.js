@@ -5,7 +5,7 @@ const DomainSearch = () => {
   const [toggler, setToggler] = useState(false);
   return (
     <>
-      <section className="bg-f2f6f9 pt-100">
+      <section className="bg-f2f6f9 pt-100" id="#contact-support">
         <div className="container">
           <div className="section-title with-underline-text">
             <h2>Contact Us</h2>
