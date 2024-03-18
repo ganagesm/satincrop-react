@@ -7,12 +7,12 @@ const MainBanner = () => {
   const bottomRef = useRef(null);
 
   // Function to scroll to the bottom
-  const scrollToBottom = () => {
-    window.scrollTo({
-      top: document.documentElement.scrollHeight,
-      behavior: "smooth",
-    });
-  };
+  function scrollToSection(id) {
+    const section = document.getElementById(id);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  }
   useEffect(() => {
     if (typedRef.current) {
       const options = {
@@ -65,7 +65,9 @@ const MainBanner = () => {
                   data-aos="fade-in"
                   data-aos-duration="1200"
                   data-aos-delay="400">
-                  <button onClick={scrollToBottom} className="btn btn-primary">
+                  <button
+                    onClick={() => scrollToSection("section1")}
+                    className="btn btn-primary">
                     Get a Quick call
                   </button>
                   {/* <Link href="/contact" className="optional-btn">

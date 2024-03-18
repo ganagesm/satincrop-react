@@ -20,12 +20,12 @@ const ContactFormContent = () => {
   const bottomRef = useRef(null);
 
   // Function to scroll to the bottom
-  const scrollToBottom = () => {
-    window.scrollTo({
-      top: document.documentElement.scrollHeight,
-      behavior: "smooth",
-    });
-  };
+  function scrollToSection(id) {
+    const section = document.getElementById(id);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  }
   const executeFunction = () => {
     try {
       var f = document.createElement("iframe");
@@ -165,7 +165,9 @@ const ContactFormContent = () => {
                     directly with you.
                   </p>
 
-                  <button onClick={scrollToBottom} className="btn btn-primary">
+                  <button
+                    onClick={() => scrollToSection("section1")}
+                    className="btn btn-primary">
                     Get 2 Week Free Trial
                   </button>
                 </div>

@@ -78,19 +78,20 @@ const ContactFormContent = () => {
     <>
       <Head>
         <title>
-          Effectively Collaborate with Remote Teams Using Google Workspace{" "}
+          Exclusive Google Cloud Solutions for Startups: A Special Offer by SA
+          Technologies.
         </title>
         <meta
           property="og:title"
-          content="Effectively Collaborate with Remote Teams Using Google Workspace "
+          content="Exclusive Google Cloud Solutions for Startups: A Special Offer by SA Technologies."
           key="title"
         />
         <meta
           name="description"
-          content="Experience accelerated app development with SA Technologies Mendix services. Empower your business with innovative, low-code solutions."
+          content="Unlock your startup's potential with SA Technologies' exclusive Google Startup Offer. Benefit from tailored Google Cloud solutions, tools, and expert guidance designed to propel your startup towards unprecedented growth and innovation. Explore our offer now and take the first step in transforming your startup's future."
           key="description"
         />
-        <script
+        {/* <script
           async
           src="https://www.googletagmanager.com/gtag/js?id=AW-817476777"></script>
         <script>
@@ -100,21 +101,21 @@ const ContactFormContent = () => {
           gtag('js', new Date());
           gtag('config', 'AW-817476777');
         `}
-        </script>
+        </script> */}
 
         {/* <!-- Google tag (gtag.js) --> */}
-        <Script
+        {/* <Script
           async
           src="https://www.googletagmanager.com/gtag/js?id=AW-817476777"
-        />
+        /> */}
         {/* pagesense */}
-        <script src="https://cdn-in.pagesense.io/js/satechsoftwareipvtltd/45f7f983729c4e3cb6b6f24aeed1c238.js"></script>
+        {/* <script src="https://cdn-in.pagesense.io/js/satechsoftwareipvtltd/45f7f983729c4e3cb6b6f24aeed1c238.js"></script> */}
         {/* End pagesense */}
-        <Script
+        {/* <Script
           dangerouslySetInnerHTML={{
             __html: ` window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-817476777'); `,
           }}
-        />
+        /> */}
       </Head>
 
       {/* <main id="content" role="main" className="overflow-hidden">
