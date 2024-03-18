@@ -1,9 +1,18 @@
-import React from "react";
+import { useEffect, useRef } from "react";
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper";
 
 const TechSlider = () => {
+  const bottomRef = useRef(null);
+
+  // Function to scroll to the bottom
+  const scrollToBottom = () => {
+    window.scrollTo({
+      top: document.documentElement.scrollHeight,
+      behavior: "smooth",
+    });
+  };
   return (
     <>
       {/* <div className="partner-section ptb-110">
@@ -487,9 +496,9 @@ const TechSlider = () => {
             data-aos="fade-in"
             data-aos-duration="1200"
             data-aos-delay="1800">
-            <Link href="#contact-support" className="btn btn-primary">
+            <button onClick={scrollToBottom} className="btn btn-primary">
               Explore More
-            </Link>
+            </button>
           </div>
         </div>
       </div>

@@ -1,11 +1,17 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import Link from "next/link";
 
 const DomainSearch = () => {
   const [toggler, setToggler] = useState(false);
+  const bottomRef = useRef(null);
+
+  // Function to scroll to the bottom
+  const scrollToBottom = () => {
+    bottomRef.current.scrollIntoView({ behavior: "smooth" });
+  };
   return (
     <>
-      <section className="bg-f2f6f9 pt-100" id="#contact-support">
+      <section className="bg-f2f6f9 pt-100" ref={bottomRef}>
         <div className="container">
           <div className="section-title with-underline-text">
             <h2>Contact Us</h2>
