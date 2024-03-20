@@ -46,7 +46,7 @@ const ContactFormContent = () => {
         },
         false
       );
-    } catch (e) {}
+    } catch (e) { }
   };
   //Zoho Sales Iq Script:
   const useScript = (url, widgetCode) => {
@@ -198,10 +198,10 @@ const ContactFormContent = () => {
         className="hero pb-3 ms_365"
         style={{
           backgroundColor: "red",
-          backgroundImage: `url('/images/Microsoft-ppc.png')`,
+          // backgroundImage: `url('/images/Microsoft-ppc.png')`,
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
-          backgroundColor: "#eb3d01",
+          // backgroundColor: "#eb3d01",
           backgroundSize: "100% 100%",
         }}>
         <div className="container" id="contact">
@@ -211,7 +211,7 @@ const ContactFormContent = () => {
                 <img src="/images/microsoft-365.png" width={180} />
                 {/* <img src="https://dev1.satincorp.com/microsoft-office-365-licenses/wp-content/themes/microsoft-office-365-licenses-wp-themes-19032021/images/microsoft-logo-new.png" width={180} /> */}
                 <h1 className="text-white achive" style={{ marginTop: "5px" }}>
-                  Enable Your Remote Team to Work Efficiently with Microsoft 365{" "}
+                  Enable Your Team to Work Efficiently with Microsoft 365{" "}
                   <br /> (formerly Office 365)
                   <span style={{ display: "flex" }}>
                     (Get Upto 20% OFF* on any License Type)
@@ -222,6 +222,13 @@ const ContactFormContent = () => {
                   className="custom-btn btn-bg btn scroll-btn smoothScroll see-plans">
                   See plans
                 </a>
+                <br />
+                <img src="/images/Microsoftppc-1.png"
+                  style={{
+                    width: "500px",
+                    marginTop: "30px"
+                  }}
+                />
               </div>
             </div>
             <div className="col-lg-5 offset-md-1 col-12" id="form">
@@ -752,37 +759,9 @@ const ContactFormContent = () => {
           </div>
         </div>
       </section>
-      <section className="project mb-4 offer-banner d-flex justify-content-center align-items-center">
-        <div className="container">
-          <div className="row">
-            <div className="col-md-6">
-              <div className="embed-responsive embed-responsive-23by9">
-                <iframe
-                  className="embed-responsive-item"
-                  src="https://www.youtube.com/embed/ytFYdZV1lgE"
-                  title="YouTube video player"
-                  width="300"
-                  height="315"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen></iframe>
-              </div>
-            </div>
-            <div className="col-lg-6 middle-scroll offer-content  d-flex flex-column justify-content-center align-items-center">
-              <h2 className=""> Buy Microsoft 365 Business Plans</h2>
-              <span className="free-six"> at Discounted Price</span>
 
-              <a
-                href="#form"
-                className=" scroll-btn smoothScroll"
-                style={{ backgroundColor: "#0078d4 !important" }}>
-                Contact Now
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
 
-      <section className="section-enterprise">
+      {/* <section className="section-enterprise">
         <div className="container">
           <div className="row">
             <div className="col-lg-12 col-12">
@@ -818,7 +797,7 @@ const ContactFormContent = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section className="section-enterprise section-enterprise_new">
         <div className="container">
@@ -876,7 +855,7 @@ const ContactFormContent = () => {
             </div>
           </div>
 
-          <div className="webinar-area ptb-110 pricing-area">
+          {/* <div className="webinar-area ptb-110 pricing-area">
             <div className="container">
               <div className="webinar-inner" style={{ paddingTop: "5rem" }}>
                 <div className="row m-0 align-items-center">
@@ -897,6 +876,36 @@ const ContactFormContent = () => {
                   </div>
                 </div>
               </div>
+            </div>
+          </div> */}
+        </div>
+      </section>
+
+      <section className="project mb-4 offer-banner d-flex justify-content-center align-items-center">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-6">
+              <div className="embed-responsive embed-responsive-23by9">
+                <iframe
+                  className="embed-responsive-item"
+                  src="https://www.youtube.com/embed/ytFYdZV1lgE"
+                  title="YouTube video player"
+                  width="300"
+                  height="315"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen></iframe>
+              </div>
+            </div>
+            <div className="col-lg-6 middle-scroll offer-content  d-flex flex-column justify-content-center align-items-center">
+              <h2 className=""> Buy Microsoft 365 Business Plans</h2>
+              <span className="free-six"> at Discounted Price</span>
+
+              <a
+                href="#form"
+                className=" scroll-btn smoothScroll"
+                style={{ backgroundColor: "#0078d4 !important" }}>
+                Contact Now
+              </a>
             </div>
           </div>
         </div>

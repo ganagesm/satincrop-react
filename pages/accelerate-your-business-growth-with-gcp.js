@@ -50,7 +50,7 @@ const ContactFormContent = () => {
         },
         false
       );
-    } catch (e) {}
+    } catch (e) { }
   };
   //Zoho Sales Iq Script:
   const useScript = (url, widgetCode) => {
@@ -84,6 +84,12 @@ const ContactFormContent = () => {
           name="description"
           content="Experience accelerated app development with SA Technologies Mendix services. Empower your business with innovative, low-code solutions."
           key="description"
+        />
+
+        <link
+          rel="stylesheet"
+          type="text/css"
+          href="https://dev1.satincorp.com/microsoft-office-365-licenses/wp-content/themes/microsoft-office-365-licenses-wp-themes-19032021/style.css?ver=20190507"
         />
         <script
           async
@@ -139,7 +145,9 @@ const ContactFormContent = () => {
 .navbar-brand, .navbar-brand > img {
   width: 5rem;
 }
-
+.swiper.swiper-initialized.swiper-horizontal.swiper-backface-hidden.ceo-slides {
+  height: 120px;
+}
 `}
         </style>
       </Head>
@@ -189,7 +197,7 @@ const ContactFormContent = () => {
 
         <div>
           <div className="container space-bottom-2">
-            <div className="row align-items-lg-center">
+            <div className="row ">
               {" "}
               {/* align-items-lg-center */}
               <div className="col-lg-5 mb-12 mb-lg-0">
@@ -210,6 +218,12 @@ const ContactFormContent = () => {
                   href="#contact">
                   Get Started
                 </a>
+
+                <img src="/images/home-six/google-cloud-services.jpg"
+                  style={{
+                    width: "400px",
+                  }}
+                />
               </div>
               <div className="col-lg-6 offset-md-1">
                 {/* <div className="w-md-80 w-lg-80 text-center mx-md-auto mt-5">
@@ -356,7 +370,7 @@ const ContactFormContent = () => {
         </div>
       </section>
 
-      <AboutAI />
+      {/* <AboutAI /> */}
 
       <TopFeaturedSolutions />
 
