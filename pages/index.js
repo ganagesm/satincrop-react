@@ -17,7 +17,8 @@ import MainServices from "../components/Live/MainServices";
 import Script from "next/script";
 import Head from "next/head";
 import ZohoScript from "../components/ZohoScript";
-import { WebPageJsonLd, NextSeo, DefaultSeo } from "next-seo";
+// import { WebPageJsonLd, NextSeo, DefaultSeo } from "next-seo";
+import { WebPageJsonLd, NextSeo, } from "next-seo";
 
 const Index = () => {
   return (
