@@ -46,7 +46,7 @@ const ContactFormContent = () => {
         },
         false
       );
-    } catch (e) {}
+    } catch (e) { }
   };
   //Zoho Sales Iq Script:
   const useScript = (url, widgetCode) => {
@@ -84,6 +84,11 @@ const ContactFormContent = () => {
         <link
           rel="stylesheet"
           href="https://dev1.satincorp.com/buy-google-workspace/wp-content/themes/buy-google-workspace-wp-themes-19032021/style.css?ver=20190507"
+        />
+        <link
+          rel="stylesheet"
+          type="text/css"
+          href="https://dev1.satincorp.com/microsoft-office-365-licenses/wp-content/themes/microsoft-office-365-licenses-wp-themes-19032021/style.css?ver=20190507"
         />
 
         <script
@@ -215,7 +220,7 @@ const ContactFormContent = () => {
 
         <div className="bg-light" style={{ paddingTop: "10px" }}>
           <div className="container space-bottom-1">
-            <div className="row align-items-lg-center">
+            <div className="row">
               <div className="col-lg-5 mb-12 mb-lg-0">
                 <img
                   src="https://dev1.satincorp.com/buy-google-workspace/wp-content/themes/buy-google-workspace-wp-themes-19032021/assets/img/banners/Google-cloud-partners-new.png"
@@ -224,7 +229,7 @@ const ContactFormContent = () => {
                 <div className="mb-4">
                   <h1>
                     {" "}
-                    Effectively Collaborate with Remote Teams Using Google
+                    Effectively Collaborate with Teams Using Google
                     Workspace{" "}
                   </h1>
                 </div>
@@ -233,6 +238,13 @@ const ContactFormContent = () => {
                   href="#contact">
                   Get 30 Days Free Trial
                 </a>
+                <img
+                  src="https://dev1.satincorp.com/buy-google-workspace/wp-content/themes/buy-google-workspace-wp-themes-19032021/assets/svg/clients-logo/google-workspace-strip.svg "
+                  className="img-fluid"
+                  style={{
+                    marginTop: "20px"
+                  }}
+                />
               </div>
               <div className="col-lg-6 offset-md-1">
                 {/* <div className="w-md-80 w-lg-80 text-center mx-md-auto mt-5">
@@ -377,44 +389,7 @@ const ContactFormContent = () => {
             </div>
           </section>
 
-          <div className="container space-2">
-            <div className="row justify-content-lg-between align-items-lg-center">
-              <div className="col-lg-6 col-xl-5">
-                <div
-                  className="min-h-300rem mx-auto"
-                  style={{ maxwidth: "28rem" }}>
-                  <div className="embed-responsive embed-responsive-16by9">
-                    <iframe
-                      className="embed-responsive-item"
-                      src="https://www.youtube.com/embed/00vRcdvQcWA?rel=0"></iframe>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-6 mb-9 mb-lg-0">
-                <p>
-                  {" "}
-                  To stand out in today’s digital infrastructure, enterprises
-                  are constantly equipping their teams with the right,
-                  future-proof skills and advanced, prolific tools. Google
-                  Workspace is a collaboration and productivity tool useful for
-                  organizations of all sizes. It unlocks your organization’s
-                  full potential for innovation. Google Workspace opens modern
-                  ways of collaboration so that you can achieve more with your
-                  remote teams. Google Workspace gives businesses a better way
-                  to collaborate remotely, leading to increased productivity
-                  across teams and organizations.
-                </p>
 
-                <div className="mt-4">
-                  <a
-                    className="js-go-to position-static btn btn-primary transition-3d-hover"
-                    href="#contact">
-                    Let's Get Started
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
 
           <div className="overflow-hidden" id="plans">
             <div className="space-1">
@@ -1775,7 +1750,108 @@ const ContactFormContent = () => {
             </div>
           </div>
 
-          <div
+
+
+          <section className="section-enterprise section-enterprise_new">
+            <div className="container">
+              <div className="row">
+                <div className="col-lg-12 col-12">
+                  <h4 className="office-enterprise_new">
+                    Choose SA Technologies for Licencing Google Workspace and Advance
+                    your Business with Digitalized Workspace
+                  </h4>
+                </div>
+              </div>
+              <div className="row">
+                <div className="col-md-3 mb-30">
+                  <div className="main-business text-center">
+                    <img src="https://dev1.satincorp.com/microsoft-office-365-licenses/wp-content/themes/microsoft-office-365-licenses-wp-themes-19032021/images/price-tag.svg" />
+                    <h3>Choosing the right Plan </h3>
+                    <h5>
+                      We offer you curated plans to cater to specific business needs
+                      along with help and consutancy in choosing the right plan for
+                      you.
+                    </h5>
+                  </div>
+                </div>
+                <div className="col-md-3 mb-30">
+                  <div className="main-business text-center">
+                    <img src="https://dev1.satincorp.com/microsoft-office-365-licenses/wp-content/themes/microsoft-office-365-licenses-wp-themes-19032021/images/settings.svg" />
+                    <h3>Setup & Deployment </h3>
+                    <h5>
+                      We have a team of Microsoft experts who are going to take care
+                      of the setup and configuring of 365 solutions as per your
+                      requiremnets.
+                    </h5>
+                  </div>
+                </div>
+                <div className="col-md-3 mb-30">
+                  <div className="main-business text-center">
+                    <img src="https://dev1.satincorp.com/microsoft-office-365-licenses/wp-content/themes/microsoft-office-365-licenses-wp-themes-19032021/images/file-sharing.svg" />
+                    <h3>Data Migration </h3>
+                    <h5>
+                      We help in effective data migration from current workspace to
+                      Microsoft 365 easily in a safe and secure manner.
+                    </h5>
+                  </div>
+                </div>
+                <div className="col-md-3 mb-30">
+                  <div className="main-business text-center">
+                    <img src="https://dev1.satincorp.com/microsoft-office-365-licenses/wp-content/themes/microsoft-office-365-licenses-wp-themes-19032021/images/online-support.svg" />
+                    <h3>Robust Support </h3>
+                    <h5>
+                      We are ready to help and assist whenever you need us with our
+                      24*7*365 support. We will be with you on every step of the
+                      journey.
+                    </h5>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </section>
+
+
+          <div className="container space-2">
+            <div className="row justify-content-lg-between align-items-lg-center">
+              <div className="col-lg-6 col-xl-5">
+                <div
+                  className="min-h-300rem mx-auto"
+                  style={{ maxwidth: "28rem" }}>
+                  <div className="embed-responsive embed-responsive-16by9">
+                    <iframe
+                      className="embed-responsive-item"
+                      src="https://www.youtube.com/embed/00vRcdvQcWA?rel=0"></iframe>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-6 mb-9 mb-lg-0">
+                <p>
+                  {" "}
+                  To stand out in today’s digital infrastructure, enterprises
+                  are constantly equipping their teams with the right,
+                  future-proof skills and advanced, prolific tools. Google
+                  Workspace is a collaboration and productivity tool useful for
+                  organizations of all sizes. It unlocks your organization’s
+                  full potential for innovation. Google Workspace opens modern
+                  ways of collaboration so that you can achieve more with your
+                  remote teams. Google Workspace gives businesses a better way
+                  to collaborate remotely, leading to increased productivity
+                  across teams and organizations.
+                </p>
+
+                <div className="mt-4">
+                  <a
+                    className="js-go-to position-static btn btn-primary transition-3d-hover"
+                    href="#contact">
+                    Let's Get Started
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* <div
             className="container space-bottom-2 "
             style={{ paddingTop: "1rem !important" }}>
             <div className="w-md-80 w-lg-60 text-center mx-md-auto mb-5 mb-md-9">
@@ -1913,8 +1989,8 @@ const ContactFormContent = () => {
                 </a>
               </div>
             </div>
-          </div>
-          <div className="webinar-area ptb-110 pricing-area">
+          </div> */}
+          {/* <div className="webinar-area ptb-110 pricing-area">
             <div className="container">
               <div className="webinar-inner" style={{ paddingTop: "5rem" }}>
                 <div className="row m-0 align-items-center">
@@ -1933,7 +2009,7 @@ const ContactFormContent = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </main>
       <React.Fragment>
