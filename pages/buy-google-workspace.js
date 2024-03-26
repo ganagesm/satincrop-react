@@ -220,8 +220,8 @@ const ContactFormContent = () => {
 
         <div className="bg-light" style={{ paddingTop: "10px" }}>
           <div className="container space-bottom-1">
-            <div className="row">
-              <div className="col-lg-5 mb-12 mb-lg-0">
+            <div className="row ">
+              <div className="col-lg-5 mb-12 mb-lg-0 space-top-3">
                 <img
                   src="https://dev1.satincorp.com/buy-google-workspace/wp-content/themes/buy-google-workspace-wp-themes-19032021/assets/img/banners/Google-cloud-partners-new.png"
                   width={180}
