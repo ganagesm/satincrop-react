@@ -62,7 +62,7 @@ const TopFeaturedSolutions = () => {
                 <div className="col-md-4 mb-30">
                   <div className="main-business text-center">
                     <img src="https://dev1.satincorp.com/microsoft-office-365-licenses/wp-content/themes/microsoft-office-365-licenses-wp-themes-19032021/images/settings.svg" />
-                    <h3>Free Technical Assessmen</h3>
+                    <h3>Free Technical Assessment</h3>
                     <h5>
                       Get started with a complimentary evaluation to align GCP solutions with your business needs, laying a solid foundation for your cloud strategy.
                     </h5>
