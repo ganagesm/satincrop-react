@@ -3173,6 +3173,9 @@ Page Title Area CSS
 .page-title-area.item-bg33 {
     background-image: url(/images/technology-banner/google-semiconducter.jpeg);
 }
+.page-title-area.item-bg36 {
+    background-image: url(/images/microsoft-power-platform-image-2.jpeg);
+}
 .page-title-area.item-bg35 {
     background-image: url(/images/google-banner-2.jpeg);
 }
@@ -8676,7 +8679,7 @@ a.btn.btn-primary.ai_btn {
         padding-bottom: 100px !important;
     }
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (min-width: 767px) {
     .contactPageSupport .icon {
         position: relative;
     }
