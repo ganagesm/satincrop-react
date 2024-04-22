@@ -7,6 +7,7 @@ import PowerPlatformProducts from "../components/MicrosoftPowerPlatform/PowerPla
 import ServicesBox from "../components/MicrosoftPowerPlatform/ServicesBox";
 import PageBanner from "../components/kubernetes/PageBanner";
 import TechDetailsContent from "../components/MicrosoftPowerPlatform/TechDetailsContent";
+import PowerBIPlatform from "../components/MicrosoftPowerPlatform/PowerBIPlatform";
 import MainIndustry from "../components/Live/MainIndustry";
 import BlogPostSlider from "../components/kubernetes/BlogPostSlider";
 import ContactFormContent from "../components/Common/ContactFormContent";
@@ -72,8 +73,9 @@ const Index = () => {
       />
 
       <TechDetailsContent />
-      <MicrosoftPowerPlatformConsulting />
       <PowerPlatformProducts />
+      <MicrosoftPowerPlatformConsulting />
+      <PowerBIPlatform />
       <ServicesBox />
       {/* <Services /> */}
       <div className="col-lg-12 col-md-12">
