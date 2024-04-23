@@ -5,13 +5,15 @@ const ServiceDetailsContent = () => {
     <>
       <div className="services-details-area ptb-110 pb-70">
         <div className="container">
+          <div className="section-title with-underline-text">
+            <h3>
+              Transform Your Business Operations with the Microsoft Power
+              Platform Consulting Services
+            </h3>
+          </div>
           <div className="services-details-overview">
             <div className="services-details-desc mb-30">
-              <p>
-                Transform Your Business Operations with the Microsoft Power
-                Platform Consulting Services
-              </p>
-              <h1>Stay ahead of trends with Microsoft Power Platforms</h1>
+              <h4>Stay ahead of trends with Microsoft Power Platforms</h4>
               <p>
                 The Microsoft Power Platform is a suite of tools and apps
                 enabling individuals and organizations to create powerful

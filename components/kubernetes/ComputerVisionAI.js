@@ -57,13 +57,22 @@ const ComputerVisionAI = () => {
             <div className="col-lg-4 col-sm-4 d-flex">
               <div className="single-services-box flex-fill">
                 <h4>
-                  <a href="/power-bi-platform/">Power BI Platform</a>
+                  <a href="/microsoft-power-platform/">
+                    Microsoft Power Platform
+                  </a>
+                  {/* <a href="/power-bi-platform/">Power BI Platform</a> */}
                 </h4>
                 <p>
+                  Turn hidden data into actionable insights with rich visuals
+                  and interactive dashboards. At SA Technologies, we offer
+                  comprehensive Power BI consulting services to empower your
+                  business.
+                </p>
+                {/* <p>
                   Power BI turns raw data into vivid visual reports,
                   facilitating informed decision-making through intuitive
                   business analytics.
-                </p>
+                </p> */}
               </div>
             </div>
             <div className="col-lg-4 col-sm-4 d-flex">

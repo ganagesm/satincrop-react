@@ -49,7 +49,7 @@ const ServiceDetailsContent = () => {
             </div>
           </div>
 
-          <div className="services-details-overview pt-100">
+          {/* <div className="services-details-overview pt-100">
             <div className="services-details-desc mb-30">
               <h3> Why Businesses Choose Microsoft Power BI Platform </h3>
               <p>
@@ -90,7 +90,7 @@ const ServiceDetailsContent = () => {
                 alt="image"
               />
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </>
