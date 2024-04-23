@@ -73,7 +73,7 @@ const Index = () => {
       />
 
       <TechDetailsContent />
-      <PowerPlatformProducts />
+      {/* <PowerPlatformProducts /> */}
       <MicrosoftPowerPlatformConsulting />
       <PowerBIPlatform />
       <ServicesBox />
