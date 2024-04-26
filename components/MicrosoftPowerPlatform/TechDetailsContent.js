@@ -13,7 +13,7 @@ const ServiceDetailsContent = () => {
           </div>
           <div className="services-details-overview">
             <div className="services-details-desc mb-30">
-              <h4>Stay ahead of trends with Microsoft Power Platforms</h4>
+              <h4>Stay ahead of trends with Microsoft Power Platforms </h4>
               <p>
                 The Microsoft Power Platform is a suite of tools and apps
                 enabling individuals and organizations to create powerful
