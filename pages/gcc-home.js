@@ -1,19 +1,10 @@
 import Navbar from "../components/Live/Navbar";
 import Footer from "../components/Live/Footer";
-import HeroBanner from "../components/Live/HeroBanner";
-import Services from "../components/Live/Services";
-import CaseStudiesPost from "../components/Live/CaseStudiesPost";
-import FunFacts from "../components/Live/FunFacts";
-import PartnerContent from "../components/Live/PartnerContent";
-import Testimonials from "../components/Live/Testimonials";
-import TechSlider from "../components/Live/TechSlider";
-import BlogPostSlider from "../components/Live/BlogPostSlider";
-import NewsPostSlider from "../components/Live/NewsPostSlider";
-import AboutContact from "../components/Live/AboutContent";
-import AiApplication from "../components/Live/AiApplication";
-import CEOCorner from "../components/Live/CEOCorner";
-import Offices from "../components/Live/Offices";
-import MainServices from "../components/Live/MainServices";
+import HeroBanner from "../components/GCCHome/HeroBanner";
+import TechDetailsContent from "../components/GCCHome/TechDetailsContent";
+import Services from "../components/GCCHome/Services";
+import GlobalCapabilityCenters from "../components/GCCHome/GlobalCapabilityCenters";
+import MainServicesGCC from "../components/GCCHome/MainServicesGCC";
 import Script from "next/script";
 import Head from "next/head";
 import ZohoScript from "../components/ZohoScript";
@@ -66,22 +57,14 @@ const Index = () => {
           key=""
         />
       </Head>
-      <ZohoScript />
-      <Navbar />
+      {/* <ZohoScript /> */}
+      {/* <Navbar /> */}
       <HeroBanner />
-      <AboutContact />
-      <AiApplication />
+      <TechDetailsContent />
       <Services />
-      <PartnerContent />
-      <NewsPostSlider />
-      {/* <MainServices /> */}
-      <TechSlider />
-      <CEOCorner />
-      <Offices />
-      <Testimonials />
-      <CaseStudiesPost />
-      <BlogPostSlider />
-      <Footer />
+      <GlobalCapabilityCenters />
+      <MainServicesGCC />
+      {/* <Footer /> */}
     </>
   );
 };

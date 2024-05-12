@@ -1,0 +1,48 @@
+import React from "react";
+import Link from "next/link";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Autoplay } from "swiper";
+
+const HeroBanner = () => {
+  return (
+    <>
+      <Swiper
+        navigation={true}
+        autoplay={{
+          delay: 3000,
+          disableOnInteraction: true,
+          pauseOnMouseEnter: true,
+        }}
+        modules={[Navigation, Autoplay]}
+        className="home-slides">
+        <SwiperSlide>
+          <div
+            className="main-banner"
+            style={{
+              backgroundImage: `url(/images/icons/home-banner-8.jpeg)`,
+            }}>
+            <div className="container">
+              <div className="main-banner-content">
+                <h2 style={{ color: "#fff" }}>
+                  Unlock innovation, optimize costs, and gain a competitive edge
+                  with our expert GCC services.
+                </h2>
+                <p style={{ color: "#fff" }}>
+                  Build, Manage, and Scale Your Global Capability Center with SA
+                  Technologies' Expert Services.
+                </p>
+                <div className="btn-box">
+                  <Link href="/contact-us/" className="btn btn-primary">
+                    Quick call back now
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
+      </Swiper>
+    </>
+  );
+};
+
+export default HeroBanner;
