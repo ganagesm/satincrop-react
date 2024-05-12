@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 import Link from "next/link";
+import Translation from "../Translation/Translation";
 
 const TopNavbar = () => {
   // Add active class
@@ -91,6 +92,7 @@ const TopNavbar = () => {
                     Investor
                   </Link>
                 </li>
+                
                 {/*<li>
                   <i class="fa-solid fa-phone"></i>
                   <a href="tel:+917823025808">+91 7823 02 5808</a>
@@ -129,6 +131,7 @@ const TopNavbar = () => {
                   </Link>
                 </li> */}
               </ul>
+              </Translation>
             </div>
           </div>
         </div>
