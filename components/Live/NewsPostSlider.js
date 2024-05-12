@@ -1,7 +1,7 @@
-import React, { useEffect, useState, Component } from 'react';
+import React, { useEffect, useState, Component } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper";
-import { useRouter } from 'next/router';
+import { useRouter } from "next/router";
 import Link from "next/link";
 
 const BlogPostSlider = () => {
@@ -9,36 +9,36 @@ const BlogPostSlider = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const [totalPages, setTotalPages] = useState(1);
   const pageSize = 10; // Number of posts per page
-  const postApi = 'https://dev1.satincorp.com/wp-json/wp/v2';
+  const postApi = "https://dev1.satincorp.com/wp-json/wp/v2";
 
   const router = useRouter();
-
 
   useEffect(() => {
     async function fetchPosts() {
       try {
         // news and event category
         // const response = await fetch(`https://dev1.satincorp.com/wp-json/wp/v2/posts?categories=130?page=${currentPage}&per_page=${pageSize}`);
-        const response = await fetch(`${postApi}/posts?categories=130&page=${currentPage}&per_page=${pageSize}&order=desc`);
+        const response = await fetch(
+          `${postApi}/posts?categories=130&page=${currentPage}&per_page=${pageSize}&order=desc`
+        );
 
         if (!response.ok) {
-          throw new Error('Network response was not ok');
+          throw new Error("Network response was not ok");
         }
 
         const postsData = await response.json();
         setPosts(postsData);
 
         // Set the total pages based on the response headers
-        const totalPagesHeader = response.headers.get('X-WP-TotalPages');
+        const totalPagesHeader = response.headers.get("X-WP-TotalPages");
         setTotalPages(parseInt(totalPagesHeader, 10) || 1);
       } catch (error) {
-        console.error('Error fetching posts:', error);
+        console.error("Error fetching posts:", error);
       }
     }
 
     fetchPosts();
   }, [currentPage]);
-  console.log("currentPage", currentPage);
 
   const handlePrevPage = () => {
     if (currentPage > 10) {
@@ -66,7 +66,8 @@ const BlogPostSlider = () => {
           <div className="section-title">
             <h2>Our Latest News</h2>
             <p>
-            Discover more about our endeavors by exploring our news articles and technology-specific reports.
+              Discover more about our endeavors by exploring our news articles
+              and technology-specific reports.
             </p>
           </div>
           <Swiper
@@ -94,8 +95,7 @@ const BlogPostSlider = () => {
               clickable: true,
             }}
             modules={[Pagination, Autoplay]}
-            className="news-slides"
-          >
+            className="news-slides">
             <div className="row justify-content-center">
               {posts.map((post, index) => (
                 <SwiperSlide>
@@ -111,27 +111,33 @@ const BlogPostSlider = () => {
                         <ul>
                           {/* <li> <Link href="#">{post.author_info.name}</Link> </li> */}
                           {/* <li> <strong>Category :</strong> {post.category}</li> */}
-                        <li>{post.date_info}</li>
-                      </ul>
+                          <li>{post.date_info}</li>
+                        </ul>
+                      </div>
+
+                      <h3>
+                        <div
+                          dangerouslySetInnerHTML={{
+                            __html: post.title.rendered,
+                          }}
+                        />
+                      </h3>
+
+                      {/* <div dangerouslySetInnerHTML={{ __html: post.excerpt.rendered }} /> */}
+                      <Link
+                        className="learn-more-btn"
+                        href="/news-and-events/[slug]"
+                        as={`/news-and-events/${post.slug}`}>
+                        {" "}
+                        Read More <i className="flaticon-add"></i>
+                      </Link>
                     </div>
-
-                    <h3>
-                      <div
-                        dangerouslySetInnerHTML={{ __html: post.title.rendered }}
-                      />
-                    </h3>
-
-
-                    {/* <div dangerouslySetInnerHTML={{ __html: post.excerpt.rendered }} /> */}
-                    <Link className="learn-more-btn" href="/news-and-events/[slug]" as={`/news-and-events/${post.slug}`}> Read More <i className="flaticon-add"></i></Link>
-
                   </div>
-                </div>
                 </SwiperSlide>
               ))}
+            </div>
+          </Swiper>
         </div>
-      </Swiper>
-    </div >
 
         <div className="dot-shape1">
           <img src="/images/shape/dot1.png" alt="image" />
@@ -145,7 +151,7 @@ const BlogPostSlider = () => {
         <div className="shape-img5">
           <img src="/images/shape/shape5.svg" alt="image" />
         </div>
-      </div >
+      </div>
     </>
   );
 };

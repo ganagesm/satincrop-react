@@ -1,6 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import React, { useEffect, useState, Component } from 'react';
-import { useRouter } from 'next/router';
+import React, { useEffect, useState, Component } from "react";
+import { useRouter } from "next/router";
 import { Pagination, Autoplay } from "swiper";
 import Link from "next/link";
 
@@ -9,36 +9,35 @@ const BlogPostSlider = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const [totalPages, setTotalPages] = useState(1);
   const pageSize = 10; // Number of posts per page
-  const postApi = 'https://dev1.satincorp.com/wp-json/wp/v2';
+  const postApi = "https://dev1.satincorp.com/wp-json/wp/v2";
 
   const router = useRouter();
-
 
   useEffect(() => {
     async function fetchPosts() {
       try {
         // const response = await fetch(`${postApi}/posts?page=${currentPage}&per_page=${pageSize}&order=desc`);
-        const response = await fetch(`${postApi}/posts?categories=348&page=${currentPage}&per_page=${pageSize}&order=desc`);
+        const response = await fetch(
+          `${postApi}/posts?categories=348&page=${currentPage}&per_page=${pageSize}&order=desc`
+        );
 
         if (!response.ok) {
-          throw new Error('Network response was not ok');
+          throw new Error("Network response was not ok");
         }
 
         const postsData = await response.json();
         setPosts(postsData);
 
         // Set the total pages based on the response headers
-        const totalPagesHeader = response.headers.get('X-WP-TotalPages');
+        const totalPagesHeader = response.headers.get("X-WP-TotalPages");
         setTotalPages(parseInt(totalPagesHeader, 10) || 1);
       } catch (error) {
-        console.error('Error fetching posts:', error);
+        console.error("Error fetching posts:", error);
       }
     }
 
-
     fetchPosts();
   }, [currentPage]);
-  console.log("currentPage", currentPage);
 
   const handlePrevPage = () => {
     if (currentPage > 10) {
@@ -65,7 +64,8 @@ const BlogPostSlider = () => {
           <div className="section-title">
             <h2>Our Latest Blogs</h2>
             <p>
-              Learn more about our work through Blog post and technology specific articles.
+              Learn more about our work through Blog post and technology
+              specific articles.
             </p>
           </div>
           <Swiper
@@ -93,15 +93,18 @@ const BlogPostSlider = () => {
               clickable: true,
             }}
             modules={[Pagination, Autoplay]}
-            className="partner-slides"
-          >
+            className="partner-slides">
             <div className="row justify-content-center">
               {posts.map((post, index) => (
                 <SwiperSlide>
                   <div className="single-blog-post" key={index}>
                     <div className="entry-thumbnail">
                       <Link href="/blog/[slug]" as={`/blog/${post.slug}`}>
-                        <img src={post.featured_image_url[0]} alt="image" style={{ height: "279px", width: '100%' }} />
+                        <img
+                          src={post.featured_image_url[0]}
+                          alt="image"
+                          style={{ height: "279px", width: "100%" }}
+                        />
                         {/* <div 
                     dangerouslySetInnerHTML={{__html: post.featured_image_url[0]}}
                     /> */}
@@ -120,11 +123,24 @@ const BlogPostSlider = () => {
 
                       <h3>
                         {/* <div dangerouslySetInnerHTML={{ __html: post.title.rendered }}/> */}
-                        <div dangerouslySetInnerHTML={{ __html: post.title.rendered.slice(0, 70) + '...' }}/>
+                        <div
+                          dangerouslySetInnerHTML={{
+                            __html: post.title.rendered.slice(0, 70) + "...",
+                          }}
+                        />
                       </h3>
-                      <div dangerouslySetInnerHTML={{ __html: post.excerpt.rendered.slice(0, 100) + '...' }} />
-                      <Link className="learn-more-btn" href="/blog/[slug]" as={`/blog/${post.slug}`}> Read More <i className="flaticon-add"></i></Link>
-
+                      <div
+                        dangerouslySetInnerHTML={{
+                          __html: post.excerpt.rendered.slice(0, 100) + "...",
+                        }}
+                      />
+                      <Link
+                        className="learn-more-btn"
+                        href="/blog/[slug]"
+                        as={`/blog/${post.slug}`}>
+                        {" "}
+                        Read More <i className="flaticon-add"></i>
+                      </Link>
                     </div>
                   </div>
                 </SwiperSlide>
@@ -132,7 +148,9 @@ const BlogPostSlider = () => {
             </div>
           </Swiper>
           <div className="col-lg-12 col-md-12">
-            <div className="ai-all-services-btn" data-aos="fade-in"
+            <div
+              className="ai-all-services-btn"
+              data-aos="fade-in"
               data-aos-duration="1200"
               data-aos-delay="1800">
               <Link href="/blog/" className="btn btn-primary">

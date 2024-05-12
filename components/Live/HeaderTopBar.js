@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 import Link from "next/link";
-import Translation from "../Translation/Translation";
+// import Translation from "../../components/Translation/Translation";
+import { GoogleTranslate } from "../../components/Translation/TranslationComponentFile";
 
 const TopNavbar = () => {
   // Add active class
@@ -25,6 +26,7 @@ const TopNavbar = () => {
               </div>
             </div>
             <div className="col-lg-9 col-md-9">
+              {/* <Translation /> */}
               {/* <ul class="topbar-action-list">
                 <li><a class="nav-link false" href="/careers/">USA : +1 (408) 495-5822</a></li>
                 <li><a class="nav-link false" href="/careers/">India : +91 78757 87550</a></li>
@@ -92,7 +94,10 @@ const TopNavbar = () => {
                     Investor
                   </Link>
                 </li>
-                
+                <li>
+                  {/* <Translation /> */}
+                  <GoogleTranslate />
+                </li>
                 {/*<li>
                   <i class="fa-solid fa-phone"></i>
                   <a href="tel:+917823025808">+91 7823 02 5808</a>
@@ -131,7 +136,6 @@ const TopNavbar = () => {
                   </Link>
                 </li> */}
               </ul>
-              </Translation>
             </div>
           </div>
         </div>

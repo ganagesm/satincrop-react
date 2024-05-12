@@ -38,7 +38,6 @@ const BlogPostsSection = () => {
 
     fetchPosts();
   }, [currentPage]);
-  console.log("currentPage", currentPage);
 
   const handlePrevPage = () => {
     if (currentPage > 10) {
