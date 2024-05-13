@@ -58,7 +58,7 @@ const Index = () => {
         />
       </Head>
       {/* <ZohoScript /> */}
-      {/* <Navbar /> */}
+      <Navbar />
       <HeroBanner />
       <TechDetailsContent />
       <Services />
