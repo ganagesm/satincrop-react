@@ -1,10 +1,10 @@
 import Navbar from "../components/GCCHome/Navbar";
 import Footer from "../components/Live/Footer";
-import HeroBanner from "../components/GCCHome/HeroBanner";
-import TechDetailsContent from "../components/GCCHome/TechDetailsContent";
-import Services from "../components/GCCHome/Services";
-import GlobalCapabilityCenters from "../components/GCCHome/GlobalCapabilityCenters";
-import MainServicesGCC from "../components/GCCHome/MainServicesGCC";
+import HeroBanner from "../components/GccOperations/HeroBanner";
+import TechDetailsContent from "../components/GccOperations/TechDetailsContent";
+import Services from "../components/GccOperations/Services";
+import GlobalCapabilityCenters from "../components/GccOperations/GlobalCapabilityCenters";
+import MainServicesGCC from "../components/GccOperations/MainServicesGCC";
 import Script from "next/script";
 import Head from "next/head";
 import ZohoScript from "../components/ZohoScript";
@@ -60,10 +60,10 @@ const Index = () => {
       {/* <ZohoScript /> */}
       <Navbar />
       <HeroBanner />
-      <TechDetailsContent />
+      {/* <TechDetailsContent /> */}
       <Services />
-      <GlobalCapabilityCenters />
-      <MainServicesGCC />
+      {/* <GlobalCapabilityCenters /> */}
+      {/* <MainServicesGCC /> */}
       {/* <Footer /> */}
     </>
   );
