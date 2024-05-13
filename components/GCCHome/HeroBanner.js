@@ -19,11 +19,11 @@ const HeroBanner = () => {
           <div
             className="main-banner"
             style={{
-              backgroundImage: `url(/images/icons/home-banner-8.jpeg)`,
+              backgroundImage: `url(/images/gcc-home/gcc-home.jpg)`,
             }}>
             <div className="container">
               <div className="main-banner-content">
-                <h2 style={{ color: "#fff" }}>
+                <h2 style={{ color: "#fff", fontSize: "50px" }}>
                   Unlock innovation, optimize costs, and gain a competitive edge
                   with our expert GCC services.
                 </h2>

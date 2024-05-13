@@ -5,13 +5,17 @@ import Link from "next/link";
 const MainBanner = () => {
   return (
     <>
-      <div className="main-banner">
+      <div
+        className="main-banner"
+        style={{
+          backgroundImage: `url(/images/gcc-home/gcc-uk-home-banner.jpg)`,
+        }}>
         <div className="d-table">
           <div className="d-table-cell">
             <div className="container-fluid">
               <div className="main-banner-content">
                 <h3
-                  style={{ color: "white" }}
+                  style={{ color: "white", fontSize: "40px" }}
                   data-aos="fade-up"
                   data-aos-duration="1200"
                   data-aos-delay="100">

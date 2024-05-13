@@ -18,8 +18,8 @@ const Services = () => {
           </div>
 
           <div className="row">
-            <div className="col-lg-4 col-sm-6">
-              <div className="single-services-box">
+            <div className="col-lg-4 col-sm-6 d-flex">
+              <div className="single-services-box flex-fill">
                 <h2>
                   <Link href="/nearshore">Strategic Consulting</Link>
                 </h2>
@@ -30,8 +30,8 @@ const Services = () => {
               </div>
             </div>
 
-            <div className="col-lg-4 col-sm-6">
-              <div className="single-services-box">
+            <div className="col-lg-4 col-sm-6 d-flex">
+              <div className="single-services-box flex-fill">
                 <h2>
                   <Link href="/offshore">Talent Acquisition</Link>
                 </h2>
@@ -43,8 +43,8 @@ const Services = () => {
               </div>
             </div>
 
-            <div className="col-lg-4 col-sm-6">
-              <div className="single-services-box">
+            <div className="col-lg-4 col-sm-6 d-flex">
+              <div className="single-services-box flex-fill">
                 <h2>
                   <Link href="/onsite">GCC Operations Management</Link>
                 </h2>
@@ -56,8 +56,8 @@ const Services = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-4 col-sm-6">
-              <div className="single-services-box">
+            <div className="col-lg-4 col-sm-6 d-flex">
+              <div className="single-services-box flex-fill">
                 <h2>
                   <Link href="/nearshore">Integrated GCC Platform</Link>
                 </h2>
@@ -69,8 +69,8 @@ const Services = () => {
               </div>
             </div>
 
-            <div className="col-lg-4 col-sm-6">
-              <div className="single-services-box">
+            <div className="col-lg-4 col-sm-6 d-flex">
+              <div className="single-services-box flex-fill">
                 <h2>
                   <Link href="/offshore">Customized Workspaces</Link>
                 </h2>
@@ -82,8 +82,8 @@ const Services = () => {
               </div>
             </div>
 
-            <div className="col-lg-4 col-sm-6">
-              <div className="single-services-box">
+            <div className="col-lg-4 col-sm-6 d-flex">
+              <div className="single-services-box flex-fill">
                 <h2>
                   <Link href="/onsite">Comprehensive Support Services</Link>
                 </h2>

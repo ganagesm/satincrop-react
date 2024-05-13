@@ -39,10 +39,7 @@ const ServiceDetailsContent = () => {
             </div>
 
             <div className="services-details-image">
-              <img
-                src="/images/services-details/service-details1.jpg"
-                alt="image"
-              />
+              <img src="/images/gcc-home/gcc-home-page-side.jpeg" alt="image" />
             </div>
           </div>
         </div>

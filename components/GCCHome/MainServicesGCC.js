@@ -9,9 +9,9 @@ const MainServices = () => {
           <div className="row justify-content-center">
             <div className="col-lg-4 col-sm-6 col-md-6 d-flex">
               <div className="single-main-services-box flex-fill">
-                <div className="icon">
+                {/* <div className="icon">
                   <i className="flaticon-robot-1"></i>
-                </div>
+                </div> */}
                 <h3>Reduced Costs</h3>
                 <p>
                   Optimize your operational expenses with a strategic GCC model.
@@ -24,17 +24,14 @@ const MainServices = () => {
                   while maintaining a lean budget.
                 </p>
 
-                <Link href="/service-details" className="link-btn">
+                {/* <Link href="/service-details" className="link-btn">
                   Read More
-                </Link>
+                </Link> */}
               </div>
             </div>
 
             <div className="col-lg-4 col-sm-6 col-md-6 d-flex">
               <div className="single-main-services-box flex-fill">
-                <div className="icon">
-                  <i className="flaticon-neural"></i>
-                </div>
                 <h3>Increased Efficiency</h3>
                 <p>
                   Streamline workflows and optimize resource allocation by
@@ -45,17 +42,11 @@ const MainServices = () => {
                   employees remain engaged and committed, leading to efficient
                   workflows and optimized resources.
                 </p>
-                <Link href="/service-details" className="link-btn">
-                  Read More
-                </Link>
               </div>
             </div>
 
             <div className="col-lg-4 col-sm-6 col-md-6 d-flex">
               <div className="single-main-services-box flex-fill">
-                <div className="icon">
-                  <i className="flaticon-machine-learning"></i>
-                </div>
                 <h3>Enhanced Innovation</h3>
                 <p>
                   Access a global talent pool to foster creative problem-solving
@@ -65,17 +56,10 @@ const MainServices = () => {
                   your business thrive in the competitive global market,
                   allowing you to create more value and intellectual property.
                 </p>
-
-                <Link href="/service-details" className="link-btn">
-                  Read More
-                </Link>
               </div>
             </div>
             <div className="col-lg-6 col-sm-6 col-md-6 d-flex">
               <div className="single-main-services-box flex-fill">
-                <div className="icon">
-                  <i className="flaticon-machine-learning"></i>
-                </div>
                 <h3>Improved Scalability</h3>
                 <p>
                   Easily scale your GCC operations as your business grows. GCCs
@@ -85,16 +69,10 @@ const MainServices = () => {
                   your business can pivot seamlessly to meet new challenges and
                   embrace emerging opportunities
                 </p>
-                <Link href="/service-details" className="link-btn">
-                  Read More
-                </Link>
               </div>
             </div>
             <div className="col-lg-6 col-sm-6 col-md-6 d-flex">
               <div className="single-main-services-box flex-fill">
-                <div className="icon">
-                  <i className="flaticon-machine-learning"></i>
-                </div>
                 <h3>Reduced Risksy</h3>
                 <p>
                   Leverage our expertise to minimize operational and compliance
@@ -105,9 +83,6 @@ const MainServices = () => {
                   the complexities of managing a global workforce while reducing
                   risks.
                 </p>
-                <Link href="/service-details" className="link-btn">
-                  Read More
-                </Link>
               </div>
             </div>
           </div>
