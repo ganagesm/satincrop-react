@@ -102,6 +102,58 @@ const Navbar = () => {
                       GCC Operations
                     </Link>
                   </li>
+                  <li className="nav-item">
+                    <Link
+                      href="/customized-workspaces/"
+                      className={`nav-link ${
+                        currentPath == "/customized-workspaces/" && "active"
+                      }`}>
+                      Customized Workspaces
+                    </Link>
+                  </li>
+                  <li className="nav-item">
+                    <Link
+                      href="#"
+                      className={`nav-link ${
+                        currentPath == "/build-operate-transfer/" ||
+                        currentPath === "/qa-automation/"
+                          ? "active"
+                          : ""
+                      }`}>
+                      Engagement Model
+                    </Link>
+                    <ul className="dropdown-menu">
+                      <li className="nav-item">
+                        <Link
+                          href="/build-operate-transfer/"
+                          className={`nav-link ${
+                            currentPath == "/build-operate-transfer/" &&
+                            "active"
+                          }`}>
+                          Build Operate Transfer (BOT)
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link
+                          href="/global-capability-center/"
+                          className={`nav-link ${
+                            currentPath == "/global-capability-center/" &&
+                            "active"
+                          }`}>
+                          Global Capability Center
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link
+                          href="/managed-teams/"
+                          className={`nav-link ${
+                            currentPath == "/managed-teams/" && "active"
+                          }`}>
+                          Managed Teams
+                        </Link>
+                      </li>
+                    </ul>
+                  </li>
                 </ul>
                 {/* others-options */}
                 <div className="others-options">
