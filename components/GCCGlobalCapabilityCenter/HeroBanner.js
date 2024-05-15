@@ -19,7 +19,7 @@ const HeroBanner = () => {
           <div
             className="main-banner"
             style={{
-              backgroundImage: `url(/images/gcc-home/gcc-home.jpg)`,
+              backgroundImage: `url(/images/gcc-home/gcc-banner-image.jpeg)`,
             }}>
             <div className="container">
               <div className="main-banner-content">

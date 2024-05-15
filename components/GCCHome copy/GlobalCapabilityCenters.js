@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import FeaturedServices from "./FeaturedServices";
+// import FeaturedServices from "./FeaturedServices";
 
 const MainBanner = () => {
   return (
@@ -19,8 +19,8 @@ const MainBanner = () => {
                   data-aos="fade-up"
                   data-aos-duration="1200"
                   data-aos-delay="100">
-                  Global Capability Centers: A Strategic Imperative For Talent,
-                  Speed, And Cost Optimization
+                  Global Capability Centers: A Strategic Imperative for Talent,
+                  Speed, and Cost Optimization
                 </h3>
 
                 <p
@@ -34,7 +34,7 @@ const MainBanner = () => {
                   their global workforce.
                 </p>
 
-                {/* <div
+                <div
                   className="btn-box"
                   data-aos="fade-up"
                   data-aos-duration="1200"
@@ -46,14 +46,14 @@ const MainBanner = () => {
                   <Link href="/contact" className="optional-btn">
                     Get Started Free
                   </Link>
-                </div> */}
+                </div>
               </div>
             </div>
           </div>
         </div>
 
         {/* Featured Services */}
-        <FeaturedServices />
+        {/* <FeaturedServices /> */}
       </div>
     </>
   );

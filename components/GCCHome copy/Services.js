@@ -7,52 +7,64 @@ const Services = () => {
       <section className="services-area pt-100 bg-f2f6f9">
         <div className="container">
           <div className="section-title">
-            <h2>SAT GCC Service Offerings </h2>
-            {/* <p>
+            <h2>Our Services</h2>
+            <p>
               {" "}
               Our offshore engineers seamlessly integrate into your teams. SA
               Technologies also forms dedicated engineering teams using a
               project-based methodology. Our consulting model offers a versatile
               hybrid approach that aligns with your workflow.
-            </p> */}
+            </p>
           </div>
 
           <div className="row">
             <div className="col-lg-4 col-sm-6 d-flex">
               <div className="single-services-box flex-fill">
                 <h2>
-                  <Link href="/nearshore">Talent Acquisition</Link>
+                  <Link href="/nearshore">Strategic Consulting</Link>
+                </h2>
+                <p>
+                  Receive expert guidance on GCC model development. Implement
+                  best practices for seamless and successful execution.
+                </p>
+              </div>
+            </div>
+
+            <div className="col-lg-4 col-sm-6 d-flex">
+              <div className="single-services-box flex-fill">
+                <h2>
+                  <Link href="/offshore">Talent Acquisition</Link>
                 </h2>
                 <p>
                   Tap into a high-quality talent pool with our recruitment
                   strategies. Strengthen your employer brand to attract top
                   candidates.
                 </p>
-                <p>
-                  <Link
-                    href="/google-for-media-and-entertainment/"
-                    className="link-btn">
-                    Read More
-                  </Link>
-                </p>
               </div>
             </div>
 
             <div className="col-lg-4 col-sm-6 d-flex">
               <div className="single-services-box flex-fill">
                 <h2>
-                  <Link href="/offshore">GCC Operations Management</Link>
+                  <Link href="/onsite">GCC Operations Management</Link>
                 </h2>
                 <p>
                   Leverage our proven three-phased implementation approach. Gain
                   ongoing operational support for continuous improvement.
                 </p>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-4 col-sm-6 d-flex">
+              <div className="single-services-box flex-fill">
+                <h2>
+                  <Link href="/nearshore">Integrated GCC Platform</Link>
+                </h2>
                 <p>
-                  <Link
-                    href="/google-for-media-and-entertainment/"
-                    className="link-btn">
-                    Read More
-                  </Link>
+                  Streamline your GCC management with our end-to-end platform.
+                  Access functionalities like talent acquisition, workspace
+                  management, and compliance support.
                 </p>
               </div>
             </div>
@@ -60,28 +72,27 @@ const Services = () => {
             <div className="col-lg-4 col-sm-6 d-flex">
               <div className="single-services-box flex-fill">
                 <h2>
-                  <Link href="/onsite">Customized Workspaces</Link>
+                  <Link href="/offshore">Customized Workspaces</Link>
                 </h2>
                 <p>
                   Design a branded, fully serviced workspace that suits your
                   company culture. Foster collaboration and productivity with
                   integrated IT infrastructure.
                 </p>
-                <p>
-                  <Link
-                    href="/google-for-media-and-entertainment/"
-                    className="link-btn">
-                    Read More
-                  </Link>
-                </p>
               </div>
             </div>
-          </div>
-          <div style={{ margin: "0 auto", textAlign: "center" }}>
-            <div className="btn-box">
-              <Link href="/contact-us/" className="btn btn-primary">
-                Quick call back now
-              </Link>
+
+            <div className="col-lg-4 col-sm-6 d-flex">
+              <div className="single-services-box flex-fill">
+                <h2>
+                  <Link href="/onsite">Comprehensive Support Services</Link>
+                </h2>
+                <p>
+                  Handle crucial tasks like finance, HR, and legal matters.
+                  Ensure regulatory compliance while focusing on core business
+                  activities.
+                </p>
+              </div>
             </div>
           </div>
         </div>

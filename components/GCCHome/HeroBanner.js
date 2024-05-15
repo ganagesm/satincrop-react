@@ -22,20 +22,20 @@ const HeroBanner = () => {
               backgroundImage: `url(/images/gcc-home/gcc-home.jpg)`,
             }}>
             <div className="container">
-              <div className="main-banner-content">
+              <div className="main-banner-content" style={{ maxWidth: "none" }}>
                 <h2 style={{ color: "#fff", fontSize: "50px" }}>
-                  Unlock innovation, optimize costs, and gain a competitive edge
-                  with our expert GCC services.
+                  Boost Innovation, optimize costs, and Stay Ahead with Our
+                  Expert GCC Services
                 </h2>
                 <p style={{ color: "#fff" }}>
                   Build, Manage, and Scale Your Global Capability Center with SA
                   Technologies' Expert Services.
                 </p>
-                <div className="btn-box">
+                {/* <div className="btn-box">
                   <Link href="/contact-us/" className="btn btn-primary">
                     Quick call back now
                   </Link>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

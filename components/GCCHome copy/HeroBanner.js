@@ -19,23 +19,23 @@ const HeroBanner = () => {
           <div
             className="main-banner"
             style={{
-              backgroundImage: `url(/images/gcc-home/bot-banner-image.jpeg)`,
-              backgroundPosition: "top",
+              backgroundImage: `url(/images/gcc-home/gcc-home.jpg)`,
             }}>
             <div className="container">
               <div className="main-banner-content">
                 <h2 style={{ color: "#fff", fontSize: "50px" }}>
-                  (Build Operate Transfer) Model
+                  Boost Innovation, optimize costs, and Stay Ahead with Our
+                  Expert GCC Services
                 </h2>
                 <p style={{ color: "#fff" }}>
-                  A model that's ready to transfer, offering maximum flexibility
-                  with minimal risk.
+                  Build, Manage, and Scale Your Global Capability Center with SA
+                  Technologies' Expert Services.
                 </p>
-                <div className="btn-box">
+                {/* <div className="btn-box">
                   <Link href="/contact-us/" className="btn btn-primary">
                     Quick call back now
                   </Link>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

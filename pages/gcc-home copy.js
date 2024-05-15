@@ -5,8 +5,6 @@ import TechDetailsContent from "../components/GCCHome/TechDetailsContent";
 import Services from "../components/GCCHome/Services";
 import GlobalCapabilityCenters from "../components/GCCHome/GlobalCapabilityCenters";
 import MainServicesGCC from "../components/GCCHome/MainServicesGCC";
-import ProfessionalSolutions from "../components/GCCHome/ProfessionalSolutions";
-import OurFeaturedSolutions from "../components/GCCHome/OurFeaturedSolutions";
 import Script from "next/script";
 import Head from "next/head";
 import ZohoScript from "../components/ZohoScript";
@@ -64,10 +62,8 @@ const Index = () => {
       <HeroBanner />
       <TechDetailsContent />
       <Services />
-      {/* <ProfessionalSolutions /> */}
       <GlobalCapabilityCenters />
-      <OurFeaturedSolutions />
-      {/* <MainServicesGCC /> */}
+      <MainServicesGCC />
       {/* <Footer /> */}
     </>
   );

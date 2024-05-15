@@ -1,5 +1,5 @@
 import React from "react";
-
+import Link from "next/link";
 const ServiceDetailsContent = () => {
   return (
     <>
@@ -7,35 +7,23 @@ const ServiceDetailsContent = () => {
         <div className="container">
           <div className="services-details-overview">
             <div className="services-details-desc mb-30">
-              <h3>
-                Transforming Global Teams with SAT's Comprehensive Work Platform
-              </h3>
+              <h3>SAT your solution for Global Teams</h3>
               <p>
-                Leading businesses are utilizing Global Capability Centers
-                (GCCs), also known as Captives, to develop essential
-                capabilities and onboard highly skilled professionals in
-                talent-rich regions as part of a fully integrated setup. SAT’s
-                end-to-end solutions enable companies to easily build, manage,
-                and scale fully owned GCCs or Captives in talent-rich hubs. Our
-                comprehensive, enterprise-ready solutions cover all your needs,
-                from Talent and Workspace to HR, Operations, and Payroll,
-                ensuring your global teams are seamlessly integrated and
-                efficient.
+                Top companies are setting up Global Capability Centers (GCCs),
+                also known as Captives, to enhance key skills and hire top
+                talent in regions rich with skilled workers as part of an
+                integrated operation. SAT provides complete solutions that help
+                businesses establish, operate, and expand their own GCCs in
+                these strategic locations. Our all-inclusive solutions support
+                every aspect of your needs, including Talent Acquisition,
+                Workspace, HR, Operations, and Payroll, making sure your
+                international teams work together smoothly and effectively.
               </p>
-              <ul>
-                <li>
-                  Build significant value and intellectual property (IP) through
-                  collaborative, distributed teams.
-                </li>
-                <li>
-                  Access a wider talent pool of skilled professionals at
-                  competitive costs.{" "}
-                </li>
-                <li>Drive innovation and enhance your core competencies. </li>
-                <li>
-                  Increase operational efficiency and streamline workflows.{" "}
-                </li>
-              </ul>
+              <div className="btn-box">
+                <Link href="/contact-us/" className="btn btn-primary">
+                  Quick call back now
+                </Link>
+              </div>
             </div>
 
             <div className="services-details-image">

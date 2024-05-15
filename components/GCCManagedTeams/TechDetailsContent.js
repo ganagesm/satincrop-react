@@ -3,7 +3,7 @@ import React from "react";
 const ServiceDetailsContent = () => {
   return (
     <>
-      <div className="services-details-area">
+      <div className="services-details-area pt-100">
         <div className="container">
           <div className="services-details-overview">
             <div className="services-details-desc mb-30">
@@ -28,7 +28,7 @@ const ServiceDetailsContent = () => {
             </div>
 
             <div className="services-details-image">
-              <img src="/images/gcc-home/gcc-home-page-side.jpeg" alt="image" />
+              <img src="/images/managed-teams-side-image.jpeg" alt="image" />
             </div>
           </div>
         </div>

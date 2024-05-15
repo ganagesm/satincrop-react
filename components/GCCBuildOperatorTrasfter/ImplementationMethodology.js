@@ -44,7 +44,7 @@ export default class PricingPlan extends Component {
                         <div className="pricing-header">
                           <h3>Build</h3>
                           <div className="price">
-                            <span>3-4 months</span>
+                            {/* <span>3-4 months</span> */}
                           </div>
                         </div>
 
@@ -75,7 +75,7 @@ export default class PricingPlan extends Component {
                         </div>
 
                         <div className="price">
-                          <span>Terms of contract </span>
+                          {/* <span>Terms of contract </span> */}
                         </div>
 
                         <ul className="pricing-features">
@@ -117,7 +117,7 @@ export default class PricingPlan extends Component {
                         </div>
 
                         <div className="price">
-                          <span>{`<1 month>`}</span>
+                          {/* <span>{`<1 month>`}</span> */}
                         </div>
 
                         <ul className="pricing-features">

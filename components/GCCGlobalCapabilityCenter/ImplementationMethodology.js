@@ -27,8 +27,16 @@ export default class PricingPlan extends Component {
       <>
         <div className="services-area bg-f2f6f9 ptb-110">
           <div className="container">
+            <div className="section-title">
+              <h2>GCC Engagement Models</h2>
+              {/* <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p> */}
+            </div>
+
             <div className="tab pricing-tab pricing-bg-color">
-              <ul className="tabs">
+              {/* <ul className="tabs">
                 <li
                   className="current"
                   onClick={(e) => this.openTabSection(e, "tab1")}>
@@ -43,9 +51,77 @@ export default class PricingPlan extends Component {
                 <li onClick={(e) => this.openTabSection(e, "tab4")}>
                   Integrated GCC Platform
                 </li>
-              </ul>
+              </ul> */}
 
-              <div className="tab-content">
+              <div className="row">
+                <div className="col-lg-4 col-sm-6 d-flex">
+                  <div className="single-services-box flex-fill">
+                    <h2>Intake</h2>
+                    <p>
+                      Collaborate with clients to comprehensively gather
+                      requirements through cross-functional design workshops
+                      involving HR, IT Infrastructure, and office facility
+                      planning teams. Our expertise extends to supporting your
+                      legal team in the process of creating legal entities.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="col-lg-4 col-sm-6 d-flex">
+                  <div className="single-services-box flex-fill">
+                    <h2>Strategic Consulting</h2>
+                    <p>
+                      Offer expert recommendations to establish the GCC model,
+                      implementing best practices and finalizing design
+                      recommendations.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="col-lg-4 col-sm-6 d-flex">
+                  <div className="single-services-box flex-fill">
+                    <h2>Strategic Consulting</h2>
+                    <p>
+                      Offer expert recommendations to establish the GCC model,
+                      implement best practices and finalizing design
+                      recommendations.
+                    </p>
+                  </div>
+                </div>
+                <div className="col-lg-4 col-sm-6 d-flex">
+                  <div className="single-services-box flex-fill">
+                    <h2>Legal Entity Setup</h2>
+                    <p>
+                      Streamline the establishment of the appropriate legal
+                      entity and navigate regulatory approvals with our expert
+                      guidance.
+                    </p>
+                  </div>
+                </div>
+                <div className="col-lg-4 col-sm-6 d-flex">
+                  <div className="single-services-box flex-fill">
+                    <h2>Talent Acquisition</h2>
+                    <p>
+                      Attract top talent with tailored HR policies and engaging
+                      employer branding. Experience a 60% faster hiring process
+                      with Talent500, our proprietary talent acquisition
+                      platform.
+                    </p>
+                  </div>
+                </div>
+                <div className="col-lg-4 col-sm-6 d-flex">
+                  <div className="single-services-box flex-fill">
+                    <h2>Workspace Design and Setup</h2>
+                    <p>
+                      Enhance productivity and collaboration with our tailored
+                      workspace setup, including site selection, lease
+                      negotiation, and space planning.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              {/* <div className="tab-content">
                 <div id="tab1" className="tabs-item">
                   <div className="row">
                     <div className="col-lg-4 col-sm-6 d-flex">
@@ -241,7 +317,7 @@ export default class PricingPlan extends Component {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
