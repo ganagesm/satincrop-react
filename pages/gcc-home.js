@@ -17,8 +17,8 @@ const Index = () => {
   return (
     <>
       <WebPageJsonLd
-        headline="SA Technologies | Leading IT Consulting: AI Solutions, Digital Engineering, Enterprise Modernization"
-        description="SA Technologies Your Trusted IT Consulting and Offshore Partner with 20 years of experience, serving 500 clients Elevate your business with AI Solutions, Digital Engineering, and Enterprise Modernization Services"
+        headline="SAT | Global Team Solutions & GCC Expertise | Empowering Collaboration "
+        description="Discover how SAT empowers global teams with cutting-edge GCC solutions. Experience seamless collaboration and enhanced productivity with our expert consulting services, designed to drive success in diverse environments. Connect with us to transform your team dynamics today!"
         author="SA Technologies"
         keywords="IT Consulting"
         image="https://www.satincorp.com/images/about/5.jpg"
@@ -28,15 +28,15 @@ const Index = () => {
           type: "website",
           url: "https://www.satincorp.com/",
           title:
-            "SA Technologies | Leading IT Consulting: AI Solutions, Digital Engineering, Enterprise Modernization",
+            "SAT | Global Team Solutions & GCC Expertise | Empowering Collaboration ",
           description:
-            "SA Technologies Your Trusted IT Consulting and Offshore Partner with 20 years of experience, serving 500 clients Elevate your business with AI Solutions, Digital Engineering, and Enterprise Modernization Services",
+            "Discover how SAT empowers global teams with cutting-edge GCC solutions. Experience seamless collaboration and enhanced productivity with our expert consulting services, designed to drive success in diverse environments. Connect with us to transform your team dynamics today!",
           images: [
             {
               url: "https://www.satincorp.com/images/about/5.jpg",
               width: 800,
               height: 600,
-              alt: "SA Technologies | Leading IT Consulting: AI Solutions, Digital Engineering, Enterprise Modernization",
+              alt: "SAT | Global Team Solutions & GCC Expertise | Empowering Collaboration ",
             },
           ],
           authorName: "SA Technologies",
@@ -45,17 +45,16 @@ const Index = () => {
       />
       <Head>
         <title>
-          SA Technologies | Leading IT Consulting: AI Solutions, Digital
-          Engineering, Enterprise Modernization
+          SAT | Global Team Solutions & GCC Expertise | Empowering Collaboration
         </title>
         <meta
           property="og:title"
-          content="SA Technologies | Leading IT Consulting: AI Solutions, Digital Engineering, Enterprise Modernization"
+          content="SAT | Global Team Solutions & GCC Expertise | Empowering Collaboration "
           key="title"
         />
         <meta
           name="description"
-          content="SA Technologies - Your Trusted IT Consulting and Offshore Partner with 20+ years of experience, serving 500+ clients. Elevate your business with AI Solutions, Digital Engineering, and Enterprise Modernization Services."
+          content="Discover how SAT empowers global teams with cutting-edge GCC solutions. Experience seamless collaboration and enhanced productivity with our expert consulting services, designed to drive success in diverse environments. Connect with us to transform your team dynamics today!"
           key=""
         />
       </Head>

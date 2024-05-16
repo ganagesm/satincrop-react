@@ -17,7 +17,7 @@ const Index = () => {
   return (
     <>
       <WebPageJsonLd
-        headline="SA Technologies | Leading IT Consulting: AI Solutions, Digital Engineering, Enterprise Modernization"
+        headline="GCC-as-a-Service | Flexible Solutions by SAT | Scale Globally "
         description="SA Technologies Your Trusted IT Consulting and Offshore Partner with 20 years of experience, serving 500 clients Elevate your business with AI Solutions, Digital Engineering, and Enterprise Modernization Services"
         author="SA Technologies"
         keywords="IT Consulting"
@@ -28,15 +28,15 @@ const Index = () => {
           type: "website",
           url: "https://www.satincorp.com/",
           title:
-            "SA Technologies | Leading IT Consulting: AI Solutions, Digital Engineering, Enterprise Modernization",
+            "GCC-as-a-Service | Flexible Solutions by SAT | Scale Globally ",
           description:
-            "SA Technologies Your Trusted IT Consulting and Offshore Partner with 20 years of experience, serving 500 clients Elevate your business with AI Solutions, Digital Engineering, and Enterprise Modernization Services",
+            "Build and scale your global teams with SA Technologies' flexible 'pay-as-you-grow' GCC-as-a-Service. Our comprehensive suite ensures efficient sourcing, hiring, and engagement of top-tier talent, alongside providing customized, technology-integrated workspaces.",
           images: [
             {
               url: "https://www.satincorp.com/images/about/5.jpg",
               width: 800,
               height: 600,
-              alt: "SA Technologies | Leading IT Consulting: AI Solutions, Digital Engineering, Enterprise Modernization",
+              alt: "GCC-as-a-Service | Flexible Solutions by SAT | Scale Globally ",
             },
           ],
           authorName: "SA Technologies",
@@ -50,12 +50,12 @@ const Index = () => {
         </title>
         <meta
           property="og:title"
-          content="SA Technologies | Leading IT Consulting: AI Solutions, Digital Engineering, Enterprise Modernization"
+          content="GCC-as-a-Service | Flexible Solutions by SAT | Scale Globally "
           key="title"
         />
         <meta
           name="description"
-          content="SA Technologies - Your Trusted IT Consulting and Offshore Partner with 20+ years of experience, serving 500+ clients. Elevate your business with AI Solutions, Digital Engineering, and Enterprise Modernization Services."
+          content="Build and scale your global teams with SA Technologies' flexible 'pay-as-you-grow' GCC-as-a-Service. Our comprehensive suite ensures efficient sourcing, hiring, and engagement of top-tier talent, alongside providing customized, technology-integrated workspaces."
           key=""
         />
       </Head>

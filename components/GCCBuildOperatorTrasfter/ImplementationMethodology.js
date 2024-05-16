@@ -39,7 +39,7 @@ export default class PricingPlan extends Component {
               <div className="tab-content">
                 <div className="tabs-item">
                   <div className="row">
-                    <div className="col-lg-4 col-md-6">
+                    <div className="col-lg-4 col-md-6 d-flex">
                       <div className="single-pricing-box">
                         <div className="pricing-header">
                           <h3>Build</h3>
@@ -68,7 +68,7 @@ export default class PricingPlan extends Component {
                       </div>
                     </div>
 
-                    <div className="col-lg-4 col-md-6">
+                    <div className="col-lg-4 col-md-6 d-flex">
                       <div className="single-pricing-box active">
                         <div className="pricing-header">
                           <h3>Operate </h3>
@@ -95,7 +95,7 @@ export default class PricingPlan extends Component {
                             complete control over both employees and
                             intellectual property in the BOT setup.
                           </li>
-                          <li>
+                          {/* <li>
                             <i className="flaticon-tick"></i> The performance of
                             BOT staff is assessed based on the client’s own
                             standards and benchmarks.
@@ -105,12 +105,12 @@ export default class PricingPlan extends Component {
                             customized infrastructure, talent acquisition, and
                             support services to effectively manage the BOT
                             model.
-                          </li>
+                          </li> */}
                         </ul>
                       </div>
                     </div>
 
-                    <div className="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
+                    <div className="col-lg-4 col-md-6 d-flex offset-lg-0 offset-md-3">
                       <div className="single-pricing-box">
                         <div className="pricing-header">
                           <h3>Transfer</h3>

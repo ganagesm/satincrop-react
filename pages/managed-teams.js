@@ -17,8 +17,8 @@ const Index = () => {
   return (
     <>
       <WebPageJsonLd
-        headline="SA Technologies | Leading IT Consulting: AI Solutions, Digital Engineering, Enterprise Modernization"
-        description="SA Technologies Your Trusted IT Consulting and Offshore Partner with 20 years of experience, serving 500 clients Elevate your business with AI Solutions, Digital Engineering, and Enterprise Modernization Services"
+        headline="Managed Teams Model | Global Talent & Business Solutions "
+        description="Explore SAT Managed Teams, an advanced engagement model designed to meet global talent demands and unlock business opportunities. Our suite offers talent sourcing, recruitment, and engagement; customized workspaces with integrated IT solutions; and complete compliance, governance, and operational support. "
         author="SA Technologies"
         keywords="IT Consulting"
         image="https://www.satincorp.com/images/about/5.jpg"
@@ -27,16 +27,15 @@ const Index = () => {
         openGraph={{
           type: "website",
           url: "https://www.satincorp.com/",
-          title:
-            "SA Technologies | Leading IT Consulting: AI Solutions, Digital Engineering, Enterprise Modernization",
+          title: "Managed Teams Model | Global Talent & Business Solutions ",
           description:
-            "SA Technologies Your Trusted IT Consulting and Offshore Partner with 20 years of experience, serving 500 clients Elevate your business with AI Solutions, Digital Engineering, and Enterprise Modernization Services",
+            "Explore SAT Managed Teams, an advanced engagement model designed to meet global talent demands and unlock business opportunities. Our suite offers talent sourcing, recruitment, and engagement; customized workspaces with integrated IT solutions; and complete compliance, governance, and operational support. ",
           images: [
             {
               url: "https://www.satincorp.com/images/about/5.jpg",
               width: 800,
               height: 600,
-              alt: "SA Technologies | Leading IT Consulting: AI Solutions, Digital Engineering, Enterprise Modernization",
+              alt: "Managed Teams Model | Global Talent & Business Solutions ",
             },
           ],
           authorName: "SA Technologies",
@@ -50,12 +49,12 @@ const Index = () => {
         </title>
         <meta
           property="og:title"
-          content="SA Technologies | Leading IT Consulting: AI Solutions, Digital Engineering, Enterprise Modernization"
+          content="Managed Teams Model | Global Talent & Business Solutions"
           key="title"
         />
         <meta
           name="description"
-          content="SA Technologies - Your Trusted IT Consulting and Offshore Partner with 20+ years of experience, serving 500+ clients. Elevate your business with AI Solutions, Digital Engineering, and Enterprise Modernization Services."
+          content="Explore SAT Managed Teams, an advanced engagement model designed to meet global talent demands and unlock business opportunities. Our suite offers talent sourcing, recruitment, and engagement; customized workspaces with integrated IT solutions; and complete compliance, governance, and operational support.           "
           key=""
         />
       </Head>

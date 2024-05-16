@@ -16,8 +16,8 @@ const Index = () => {
   return (
     <>
       <WebPageJsonLd
-        headline="SA Technologies | Leading IT Consulting: AI Solutions, Digital Engineering, Enterprise Modernization"
-        description="SA Technologies Your Trusted IT Consulting and Offshore Partner with 20 years of experience, serving 500 clients Elevate your business with AI Solutions, Digital Engineering, and Enterprise Modernization Services"
+        headline="Innovative BOT Model | Prioritize Talent and Culture "
+        description="Discover SAT revolutionary BOT (Build-Operate-Transfer) model, Unlike traditional models, our approach minimizes disruptions and enhances growth potential, integrating top talent sourcing, customized workspaces with IT solutions, and robust compliance and governance. "
         author="SA Technologies"
         keywords="IT Consulting"
         image="https://www.satincorp.com/images/about/5.jpg"
@@ -26,16 +26,15 @@ const Index = () => {
         openGraph={{
           type: "website",
           url: "https://www.satincorp.com/",
-          title:
-            "SA Technologies | Leading IT Consulting: AI Solutions, Digital Engineering, Enterprise Modernization",
+          title: "Innovative BOT Model | Prioritize Talent and Culture ",
           description:
-            "SA Technologies Your Trusted IT Consulting and Offshore Partner with 20 years of experience, serving 500 clients Elevate your business with AI Solutions, Digital Engineering, and Enterprise Modernization Services",
+            "Discover SAT revolutionary BOT (Build-Operate-Transfer) model, Unlike traditional models, our approach minimizes disruptions and enhances growth potential, integrating top talent sourcing, customized workspaces with IT solutions, and robust compliance and governance. ",
           images: [
             {
               url: "https://www.satincorp.com/images/about/5.jpg",
               width: 800,
               height: 600,
-              alt: "SA Technologies | Leading IT Consulting: AI Solutions, Digital Engineering, Enterprise Modernization",
+              alt: "Innovative BOT Model | Prioritize Talent and Culture ",
             },
           ],
           authorName: "SA Technologies",
@@ -49,12 +48,12 @@ const Index = () => {
         </title>
         <meta
           property="og:title"
-          content="SA Technologies | Leading IT Consulting: AI Solutions, Digital Engineering, Enterprise Modernization"
+          content="Innovative BOT Model | Prioritize Talent and Culture "
           key="title"
         />
         <meta
           name="description"
-          content="SA Technologies - Your Trusted IT Consulting and Offshore Partner with 20+ years of experience, serving 500+ clients. Elevate your business with AI Solutions, Digital Engineering, and Enterprise Modernization Services."
+          content="Discover SAT revolutionary BOT (Build-Operate-Transfer) model, Unlike traditional models, our approach minimizes disruptions and enhances growth potential, integrating top talent sourcing, customized workspaces with IT solutions, and robust compliance and governance. "
           key=""
         />
       </Head>

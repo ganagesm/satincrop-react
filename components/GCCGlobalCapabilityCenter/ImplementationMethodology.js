@@ -80,16 +80,6 @@ export default class PricingPlan extends Component {
 
                 <div className="col-lg-4 col-sm-6 d-flex">
                   <div className="single-services-box flex-fill">
-                    <h2>Strategic Consulting</h2>
-                    <p>
-                      Offer expert recommendations to establish the GCC model,
-                      implement best practices and finalizing design
-                      recommendations.
-                    </p>
-                  </div>
-                </div>
-                <div className="col-lg-4 col-sm-6 d-flex">
-                  <div className="single-services-box flex-fill">
                     <h2>Legal Entity Setup</h2>
                     <p>
                       Streamline the establishment of the appropriate legal
@@ -116,6 +106,40 @@ export default class PricingPlan extends Component {
                       Enhance productivity and collaboration with our tailored
                       workspace setup, including site selection, lease
                       negotiation, and space planning.
+                    </p>
+                  </div>
+                </div>
+                <div className="col-lg-4 col-sm-6 d-flex">
+                  <div className="single-services-box flex-fill">
+                    <h2>Talent Lifecycle Management</h2>
+                    <p>
+                      Our AI-enabled tools support end-to-end talent management
+                      solutions, streamlining HR processes, enhancing employee
+                      engagement, and driving efficiency throughout the employee
+                      journey.
+                    </p>
+                  </div>
+                </div>
+                <div className="col-lg-4 col-sm-6 d-flex">
+                  <div className="single-services-box flex-fill">
+                    <h2>IT Onsite Support</h2>
+                    <p>
+                      Ensure the continuous and secure operation of your
+                      business with our comprehensive network infrastructure
+                      services, including design, implementation, monitoring,
+                      and maintenance.
+                    </p>
+                  </div>
+                </div>
+                <div className="col-lg-4 col-sm-6 d-flex">
+                  <div className="single-services-box flex-fill">
+                    <h2>Finance, Tax & Regulatory</h2>
+                    <p>
+                      Provide comprehensive services including financial
+                      accounting, reporting, FP&A, tax management and
+                      optimization, and regulatory compliances. We proactively
+                      track and adapt to market trends, legal changes,
+                      accounting practices, and compliance requirements.
                     </p>
                   </div>
                 </div>
