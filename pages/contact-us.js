@@ -1,4 +1,5 @@
-import React from "react";
+// import React from "react";
+import React, { useEffect } from "react";
 import Head from "next/head";
 import Navbar from "../components/Live/Navbar";
 import PageBanner from "../components/Common/PageBanner";
@@ -9,6 +10,61 @@ import Footer from "../components/Live/Footer";
 import Link from "next/link";
 
 const Contact = () => {
+  useEffect(() => {
+    // Paste the provided script here
+    const script = document.createElement("script");
+    script.type = "text/javascript";
+    script.innerHTML = `
+    (function() {
+      try{
+      var f = document.createElement("iframe");
+      f.src = 'https://forms.zohopublic.in/satechsoftwareipvtltd/form/SATWebsiteContactUSPageMay2024/formperma/ydLKYNeBiIM2IBJ989GOTw1fuB7kSKDd-DN7QpDkA5g?zf_rszfm=1';
+      f.style.border="none";
+      f.style.height="710px";
+      f.style.width="90%";
+      f.style.transition="all 0.5s ease";
+      f.setAttribute("aria-label", 'SAT\x20Website\x20Contact\x20US\x20Page\x20May\x202024');
+      
+      var d = document.getElementById("zf_div_ydLKYNeBiIM2IBJ989GOTw1fuB7kSKDd-DN7QpDkA5g");
+      d.appendChild(f);
+      window.addEventListener('message', function (){
+      var evntData = event.data;
+      if( evntData && evntData.constructor == String ){
+      var zf_ifrm_data = evntData.split("|");
+      if ( zf_ifrm_data.length == 2 || zf_ifrm_data.length == 3 ) {
+      var zf_perma = zf_ifrm_data[0];
+      var zf_ifrm_ht_nw = ( parseInt(zf_ifrm_data[1], 10) + 15 ) + "px";
+      var iframe = document.getElementById("zf_div_ydLKYNeBiIM2IBJ989GOTw1fuB7kSKDd-DN7QpDkA5g").getElementsByTagName("iframe")[0];
+      if ( (iframe.src).indexOf('formperma') > 0 && (iframe.src).indexOf(zf_perma) > 0 ) {
+      var prevIframeHeight = iframe.style.height;
+      var zf_tout = false;
+      if( zf_ifrm_data.length == 3 ) {
+      iframe.scrollIntoView();
+      zf_tout = true;
+      }
+      if ( prevIframeHeight != zf_ifrm_ht_nw ) {
+      if( zf_tout ) {
+      setTimeout(function(){
+      iframe.style.height = zf_ifrm_ht_nw;
+      },500);
+      } else {
+      iframe.style.height = zf_ifrm_ht_nw;
+      }
+      }
+      }
+      }
+      }
+      }, false);
+      }catch(e){}
+      })();
+    `;
+    document.body.appendChild(script);
+
+    return () => {
+      // Clean up if necessary
+      document.body.removeChild(script);
+    };
+  }, []);
   return (
     <>
       <Head>
@@ -66,9 +122,9 @@ const Contact = () => {
                       Book Now
                     </Link>
                   </div>
-                </div >
-              </div >
-            </div >
+                </div>
+              </div>
+            </div>
 
             <div className="col-sm-4">
               <div className="services-area">
@@ -95,8 +151,8 @@ const Contact = () => {
                     </Link>
                   </div> */}
                 </div>
-              </div >
-            </div >
+              </div>
+            </div>
 
             <div className="col-sm-4">
               <div className="services-area">
@@ -137,10 +193,10 @@ const Contact = () => {
                         }}
                       />
                     </a>
-                  </div >
-                </div >
-              </div >
-            </div >
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
 
           <div className="row align-items-center">
@@ -169,9 +225,9 @@ const Contact = () => {
                       Email Now!
                     </Link>
                   </div> */}
-                </div >
-              </div >
-            </div >
+                </div>
+              </div>
+            </div>
 
             <div className="col-sm-4">
               <div className="services-area">
@@ -247,12 +303,19 @@ const Contact = () => {
                 </div>
               </div>
             </div>
-          </div >
-        </div >
-      </section >
+          </div>
+        </div>
+      </section>
 
       {/* <ContactFormContent /> */}
-      < Services />
+      <Services />
+      <div className="container">
+        <div className="section-title">
+          <span>Message Us</span>
+          <h2>Drop us a Message with any inquiry</h2>
+        </div>
+        <div id="zf_div_ydLKYNeBiIM2IBJ989GOTw1fuB7kSKDd-DN7QpDkA5g"></div>
+      </div>
 
       <Footer />
     </>
