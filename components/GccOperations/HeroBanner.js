@@ -19,14 +19,15 @@ const HeroBanner = () => {
           <div
             className="main-banner"
             style={{
-              backgroundImage: `url(/images/gcc-home/gcc-home.jpg)`,
+              backgroundImage: `url(/images/gcc-home/gcc-operation-mgmt-banner.jpeg)`,
             }}>
             <div className="container">
               <div className="main-banner-content">
                 <h2 style={{ color: "#fff", fontSize: "50px" }}>
-                  GCC Operations Management by SA Technologies
+                  Empower Your Workforce: Enhance Every Step of the Employee
+                  Journey
                 </h2>
-                <p style={{ color: "#fff" }}>
+                {/* <p style={{ color: "#fff" }}>
                   At SA Technologies, we understand the challenges organizations
                   face in managing day-to-day GCC operations efficiently,
                   effectively, and in a compliant manner. We partner with our
@@ -35,7 +36,7 @@ const HeroBanner = () => {
                   proven methodologies and enabling platforms, our experienced
                   practitioners help clients streamline their operations,
                   enhance productivity, and drive cost efficiencies.
-                </p>
+                </p> */}
                 <div className="btn-box">
                   <Link href="/contact-us/" className="btn btn-primary">
                     Quick call back now

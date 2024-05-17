@@ -8,14 +8,11 @@ const ServiceDetailsContent = () => {
           <div className="services-details-overview">
             <div className="services-details-desc mb-30">
               <p>
-                We recognize the difficulties organizations encounter in
-                managing their day-to-day GCC operations in a compliant,
-                efficient, and effective manner. We collaborate with our clients
-                to provide both functional and technical support for business
-                operations within the GCC. Leveraging our tested methodologies
-                and supportive platforms, our seasoned professionals assist our
-                clients in optimizing their processes, boosting productivity,
-                and achieving cost savings.
+                Empowering organizations to excel, SA Technologies offers a
+                sophisticated suite of talent acquisition and management
+                services designed to optimize recruitment strategy, reinforce
+                your unique employer brand, and implement an advanced rewards
+                system to attract and retain top talent.
               </p>
               <div className="btn-box">
                 <Link href="/contact-us/" className="btn btn-primary">
@@ -25,7 +22,10 @@ const ServiceDetailsContent = () => {
             </div>
 
             <div className="services-details-image">
-              <img src="/images/gcc-home/gcc-operation-mgmt-side.jpeg" alt="image" />
+              <img
+                src="/images/gcc-home/talent-acquisition-sidebar.jpeg"
+                alt="image"
+              />
             </div>
           </div>
         </div>

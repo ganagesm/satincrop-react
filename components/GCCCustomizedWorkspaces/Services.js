@@ -7,7 +7,7 @@ const Services = () => {
       <section className="services-area pt-100 bg-f2f6f9">
         <div className="container">
           <div className="section-title">
-            <h2>Our Areas of Expertise Include</h2>
+            <h2>We are Expert AT </h2>
             {/* <p>
               {" "}
               Our offshore engineers seamlessly integrate into your teams. SA
@@ -20,94 +20,83 @@ const Services = () => {
           <div className="row">
             <div className="col-lg-4 col-sm-6 d-flex">
               <div className="single-services-box flex-fill">
-                <h2>Workspace Strategy</h2>
+                <h2>Office Environment Planning </h2>
                 <p>
-                  At SA Technologies, our comprehensive workspace strategy
-                  solutions are designed to transform your workplace into a
-                  strategic asset that drives your desired business outcomes. We
-                  conduct in-depth assessments and analyses of your business
-                  objectives to ensure our strategies are uniquely tailored to
-                  your specific goals and requirements.
+                  Our full-service office environment planning is crafted to
+                  transform your workplace into a key asset for achieving your
+                  business outcomes. We carry out detailed evaluations and
+                  analysis of your business aims, making sure our approaches are
+                  specifically tailored to your unique objectives and
+                  requirements.
                 </p>
               </div>
             </div>
 
             <div className="col-lg-4 col-sm-6 d-flex">
               <div className="single-services-box flex-fill">
-                <h2>Search & Leasing</h2>
+                <h2>Location Consulting & Property Acquisition</h2>
                 <p>
-                  We advise our clients on the optimal locations for their GCCs
-                  using a data-driven approach that involves location
-                  scorecards, micro-market studies, and talent databases.
-                  Through partnerships with reputable developers and thorough
-                  due diligence, SA Technologies ensures customers can make
-                  informed real estate decisions while mitigating risks
+                  We guide our clients in choosing the optimal sites for their
+                  GCCs through a data-informed method that includes location
+                  scorecards, detailed local market analyses, and comprehensive
+                  talent databases. We have formed alliances with well-respected
+                  developers after extensive evaluation to help our clients
+                  steer clear of potential risks in their vital real estate
+                  choices.
                 </p>
               </div>
             </div>
 
             <div className="col-lg-4 col-sm-6 d-flex">
               <div className="single-services-box flex-fill">
-                <h2>Workspace Design & Insights</h2>
+                <h2>Office Design & Guidance </h2>
                 <p>
-                  SA Technologies blends creativity with strategic thinking to
-                  create bespoke designs that align with your company’s culture
-                  and goals. Our industry insights help you navigate the latest
-                  trends and best practices, enabling you to optimize your
-                  workspace for improved employee well-being and productivity.
+                  We blend creative design with strategic insights to develop
+                  customized office layouts that resonate with your company's
+                  culture and objectives. Leveraging our in-depth knowledge of
+                  the industry, we advise you on the latest trends and best
+                  practices to improve your office environment, boosting
+                  employee well-being and productivity.
                 </p>
               </div>
             </div>
 
             <div className="col-lg-4 col-sm-6 d-flex">
               <div className="single-services-box flex-fill">
-                <h2>Workspace Design & Insights</h2>
+                <h2>Construction & Development </h2>
                 <p>
-                  SA Technologies blends creativity with strategic thinking to
-                  create bespoke designs that align with your company’s culture
-                  and goals. Our industry insights help you navigate the latest
-                  trends and best practices, enabling you to optimize your
-                  workspace for improved employee well-being and productivity.
+                  Transform your vision into reality with our construction
+                  services. Equipped with advanced technology, experienced
+                  professionals, and a dedication to excellence, we construct
+                  remarkable spaces that redefine the future of work
+                  environments.
                 </p>
               </div>
             </div>
             <div className="col-lg-4 col-sm-6 d-flex">
               <div className="single-services-box flex-fill">
-                <h2>Building & Construction</h2>
+                <h2>Workspace Management & Hospitality </h2>
                 <p>
-                  Bring your vision to life with SA Technologies’ building and
-                  construction solutions. With cutting-edge technology, skilled
-                  professionals, and a commitment to excellence, we deliver
-                  exceptional workspaces that are reimagining the future of
-                  work.
+                  We enhance your office operations by blending efficiency,
+                  innovation, and employee satisfaction. Using energy-saving
+                  technologies, top-notch hospitality, and advanced security
+                  protocols, we craft an environment that provides an
+                  exceptional experience for both your staff and clients.
                 </p>
               </div>
             </div>
             <div className="col-lg-4 col-sm-6 d-flex">
               <div className="single-services-box flex-fill">
-                <h2>Hospitality & Workspace Operations</h2>
+                <h2>Comprehensive IT Solutions </h2>
                 <p>
-                  At SA Technologies, we elevate workspace operations to a new
-                  level where efficiency, innovation, and employee satisfaction
-                  intersect. By integrating energy-efficient technologies,
-                  world-class hospitality, and advanced security measures, we
-                  create environments that provide an outstanding experience for
-                  both your team and clients.
-                </p>
-              </div>
-            </div>
-            <div className="col-lg-4 col-sm-6 d-flex"></div>
-            <div className="col-lg-4 col-sm-6 d-flex">
-              <div className="single-services-box flex-fill">
-                <h2>Integrated IT Infrastructure</h2>
-                <p>
-                  SA Technologies enables seamless collaboration for global
-                  teams with our end-to-end IT solutions. From network
-                  connectivity to unified communication tools, we provide
-                  comprehensive services that connect and empower your teams
-                  worldwide. With secure data sharing, real-time collaboration,
-                  and centralized management, our solutions guarantee smooth and
-                  efficient IT operations.
+                  We facilitate effortless collaboration across global teams
+                  with our complete range of IT services. From enhancing network
+                  connectivity to integrating unified communication tools, we
+                  offer a full suite of services designed to connect and
+                  strengthen your teams around the world. Our solutions feature
+                  secure data exchange, real-time collaboration, and centralized
+                  control, ensuring your IT operations run smoothly and
+                  efficiently.
                 </p>
               </div>
             </div>

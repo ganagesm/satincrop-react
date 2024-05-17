@@ -1,10 +1,10 @@
 import Navbar from "../components/GCCHome/Navbar";
-import Footer from "../components/Live/Footer";
-import HeroBanner from "../components/GccOperations/HeroBanner";
-import TechDetailsContent from "../components/GccOperations/TechDetailsContent";
-import Services from "../components/GccOperations/Services";
-import GlobalCapabilityCenters from "../components/GccOperations/GlobalCapabilityCenters";
-import MainServicesGCC from "../components/GccOperations/MainServicesGCC";
+import Footer from "../components/GCCHome/Footer";
+import HeroBanner from "../components/GCCTalentAcquisitionSolutions/HeroBanner";
+import TechDetailsContent from "../components/GCCTalentAcquisitionSolutions/TechDetailsContent";
+import Services from "../components/GCCTalentAcquisitionSolutions/Services";
+import GlobalCapabilityCenters from "../components/GCCTalentAcquisitionSolutions/GlobalCapabilityCenters";
+import MainServicesGCC from "../components/GCCTalentAcquisitionSolutions/MainServicesGCC";
 import Script from "next/script";
 import Head from "next/head";
 import ZohoScript from "../components/ZohoScript";
@@ -60,11 +60,11 @@ const Index = () => {
       {/* <ZohoScript /> */}
       <Navbar />
       <HeroBanner />
-      {/* <TechDetailsContent /> */}
+      <TechDetailsContent />
       <Services />
       {/* <GlobalCapabilityCenters /> */}
-      {/* <MainServicesGCC /> */}
-      {/* <Footer /> */}
+      <MainServicesGCC />
+      <Footer />
     </>
   );
 };

@@ -1,5 +1,5 @@
 import Navbar from "../components/GCCHome/Navbar";
-import Footer from "../components/Live/Footer";
+import Footer from "../components/GCCHome/Footer";
 import HeroBanner from "../components/GCCBuildOperatorTrasfter/HeroBanner";
 import TechDetailsContent from "../components/GCCBuildOperatorTrasfter/TechDetailsContent";
 import Services from "../components/GCCBuildOperatorTrasfter/Services";
@@ -65,7 +65,7 @@ const Index = () => {
       <ImplementationMethodology />
       {/* <GlobalCapabilityCenters />
       <MainServicesGCC /> */}
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 };

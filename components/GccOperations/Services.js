@@ -7,10 +7,7 @@ const Services = () => {
       <section className="services-area pt-100 bg-f2f6f9">
         <div className="container">
           <div className="section-title">
-            <h2>
-              Streamline Your GCC: Efficient Finance and Talent Lifecycle
-              Solutions{" "}
-            </h2>
+            <h2>We are Expert AT</h2>
             <p>
               {" "}
               Our offshore engineers seamlessly integrate into your teams. SA
@@ -23,29 +20,29 @@ const Services = () => {
           <div className="row">
             <div className="col-lg-6 col-sm-6 d-flex">
               <div className="single-services-box flex-fill">
-                <h2>Finance, Tax & Regulatory</h2>
+                <h2>Financial, Tax, and Compliance Services </h2>
                 <p>
-                  SA Technologies offers comprehensive services that include
-                  financial accounting and reporting, FP&A, tax management and
-                  optimization, and regulatory compliance. We proactively track
-                  market trends, best practices, regulatory changes, and
-                  accounting standards to stay current and ensure our clients
-                  remain compliant in the dynamic financial environment.
+                  We offers comprehensive services spanning financial accounting
+                  and reporting, financial planning and analysis, tax management
+                  and optimization, and regulatory compliance. Aware of the
+                  ever-changing landscape of these functions, we actively
+                  monitor and incorporate market trends, best practices, and
+                  updates in laws, regulations, accounting standards, and
+                  compliance requirements.
                 </p>
               </div>
             </div>
 
             <div className="col-lg-6 col-sm-6 d-flex">
               <div className="single-services-box flex-fill">
-                <h2>Talent Lifecycle Management</h2>
+                <h2>Workforce Lifecycle Management </h2>
                 <p>
-                  Our end-to-end Talent Lifecycle Management solutions utilize
-                  advanced tools to streamline HR processes, improve employee
-                  engagement, and enhance efficiency throughout the employee
-                  journey. We take a holistic approach to managing GCC
-                  workforces, empowering businesses to optimize productivity,
-                  boost employee satisfaction, and foster a positive work
-                  environment
+                  Our comprehensive Workforce Lifecycle Management services use
+                  AI-powered tools to streamline HR processes, boost employee
+                  engagement, and enhance efficiency across the employee
+                  journey. We adopt a holistic strategy in managing your GCC
+                  workforce, helping you maximize productivity, improve employee
+                  satisfaction, and cultivate a supportive work environment.
                 </p>
               </div>
             </div>

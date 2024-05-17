@@ -1,5 +1,5 @@
 import Navbar from "../components/GCCHome/Navbar";
-import Footer from "../components/Live/Footer";
+import Footer from "../components/GCCHome/Footer";
 import HeroBanner from "../components/GCCManagedTeams/HeroBanner";
 import TechDetailsContent from "../components/GCCManagedTeams/TechDetailsContent";
 import Services from "../components/GCCManagedTeams/Services";
@@ -82,7 +82,7 @@ const Index = () => {
           backgroundRepeat: "no-repeat",
         }}></div>
       <MainServicesGCC />
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 };

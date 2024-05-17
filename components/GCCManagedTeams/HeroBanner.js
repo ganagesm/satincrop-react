@@ -24,8 +24,8 @@ const HeroBanner = () => {
             <div className="container">
               <div className="main-banner-content">
                 <h2 style={{ color: "#fff", fontSize: "50px" }}>
-                  Managed Teams- An Agile, Efficient, and Scalable Approach to
-                  Building Global Teams
+                  Managed Teams: Streamlined, Agile, and Scalable Solutions for
+                  Global Team Development
                 </h2>
                 {/* <p style={{ color: "#fff" }}>
                   A model that's ready to transfer, offering maximum flexibility

@@ -1,5 +1,5 @@
 import Navbar from "../components/GCCHome/Navbar";
-import Footer from "../components/Live/Footer";
+import Footer from "../components/GCCHome/Footer";
 import HeroBanner from "../components/GCCCustomizedWorkspaces/HeroBanner";
 import TechDetailsContent from "../components/GCCCustomizedWorkspaces/TechDetailsContent";
 import Services from "../components/GCCCustomizedWorkspaces/Services";
@@ -60,11 +60,11 @@ const Index = () => {
       {/* <ZohoScript /> */}
       <Navbar />
       <HeroBanner />
-      {/* <TechDetailsContent /> */}
+      <TechDetailsContent />
       <Services />
       {/* <GlobalCapabilityCenters /> */}
       {/* <MainServicesGCC /> */}
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 };

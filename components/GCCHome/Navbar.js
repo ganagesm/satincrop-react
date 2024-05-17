@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 import Link from "next/link";
-import HeaderTopBar from "../Live/HeaderTopBar";
+import HeaderTopBar from "../GCCHome/HeaderTopBar";
 
 const Navbar = () => {
   // Add active class
@@ -95,21 +95,46 @@ const Navbar = () => {
                 <ul className="navbar-nav">
                   <li className="nav-item">
                     <Link
-                      href="/gcc-operations/"
+                      href="#"
                       className={`nav-link ${
-                        currentPath == "/gcc-operations/" && "active"
+                        currentPath == "/build-operate-transfer/" ||
+                        currentPath === "/qa-automation/"
+                          ? "active"
+                          : ""
                       }`}>
-                      GCC Operations
+                      Services
                     </Link>
-                  </li>
-                  <li className="nav-item">
-                    <Link
-                      href="/customized-workspaces/"
-                      className={`nav-link ${
-                        currentPath == "/customized-workspaces/" && "active"
-                      }`}>
-                      Customized Workspaces
-                    </Link>
+                    <ul className="dropdown-menu">
+                      <li className="nav-item">
+                        <Link
+                          href="/gcc-operations-management/"
+                          className={`nav-link ${
+                            currentPath == "/gcc-operations-management/" &&
+                            "active"
+                          }`}>
+                          GCC Operations Management
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link
+                          href="/talent-acquisition-solutions/"
+                          className={`nav-link ${
+                            currentPath == "/talent-acquisition-solutions/" &&
+                            "active"
+                          }`}>
+                          Talent Acquisition
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link
+                          href="/customized-workspaces/"
+                          className={`nav-link ${
+                            currentPath == "/customized-workspaces/" && "active"
+                          }`}>
+                          Customized Workspaces
+                        </Link>
+                      </li>
+                    </ul>
                   </li>
                   <li className="nav-item">
                     <Link

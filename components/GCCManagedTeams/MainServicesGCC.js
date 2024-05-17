@@ -15,16 +15,14 @@ const MainServices = () => {
               and efficient execution.
             </p> */}
           </div>
-          <div className="row justify-content-center">
-            <div className="col-lg-6 col-sm-6 col-md-6 d-flex">
+          <div className="row">
+            <div className="col-lg-4 col-sm-6 col-md-6 d-flex">
               <div className="single-main-services-box flex-fill">
+                <h3>Revolutionary Team Building</h3>
                 <p>
-                  Choosing SA Technologies’ Managed Teams model means adopting a
-                  revolutionary approach to forming elite global teams. Our
-                  unique system extends and enhances the capabilities of your
-                  recruitment, infrastructure, HR, legal, and finance divisions,
-                  allowing you to assemble remote teams with unmatched speed and
-                  efficiency.
+                  Adopt SA Technologies' Managed Teams model to enhance your
+                  recruitment, infrastructure, HR, legal, and finance functions,
+                  enabling fast and efficient remote team assembly.
                 </p>
 
                 {/* <Link href="/service-details" className="link-btn">
@@ -33,24 +31,25 @@ const MainServices = () => {
               </div>
             </div>
 
-            <div className="col-lg-6 col-sm-6 col-md-6 d-flex">
+            <div className="col-lg-4 col-sm-6 col-md-6 d-flex">
               <div className="single-main-services-box flex-fill">
+                <h3>Enhanced Dynamics and Cost Efficiency</h3>
                 <p>
-                  Experience the benefits of streamlined collaboration,
-                  optimized remote team dynamics, and substantial cost savings.
+                  Benefit from streamlined collaboration and optimized remote
+                  team dynamics, resulting in significant cost reductions and
+                  improved productivity.
                 </p>
               </div>
             </div>
 
-            <div className="col-lg-6 col-sm-6 col-md-6 d-flex">
+            <div className="col-lg-4 col-sm-6 col-md-6 d-flex">
               <div className="single-main-services-box flex-fill">
+                <h3>Operational Simplification and Strategic Focus</h3>
                 <p>
-                  With Managed Teams, SA Technologies takes on the operational
-                  complexities of talent acquisition, payroll administration,
-                  compliance, and global office setup, freeing you to focus on
-                  strategic growth. This not only simplifies operations but also
-                  provides your organization with a significant competitive
-                  advantage in the global marketplace.
+                  SA Technologies manages talent acquisition, payroll,
+                  compliance, and office setups, freeing you to concentrate on
+                  strategic growth and giving you a competitive advantage in the
+                  global market.
                 </p>
               </div>
             </div>

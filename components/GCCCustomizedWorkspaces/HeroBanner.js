@@ -19,14 +19,15 @@ const HeroBanner = () => {
           <div
             className="main-banner"
             style={{
-              backgroundImage: `url(/images/gcc-home/gcc-home.jpg)`,
+              backgroundImage: `url(/images/gcc-home/customized-workspace-banner1.jpeg)`,
             }}>
             <div className="container">
               <div className="main-banner-content">
                 <h2 style={{ color: "#fff", fontSize: "50px" }}>
-                  Workspace Solutions
+                  Connecting Teams, Advancing Collaboration: IT Solutions for a
+                  Global Workforce
                 </h2>
-                <p style={{ color: "#fff" }}>
+                {/* <p style={{ color: "#fff" }}>
                   At SA Technologies, our workspace solutions offer a premium,
                   customized, and fully managed office experience designed to
                   provide global employees with an inspiring environment. We
@@ -36,7 +37,7 @@ const HeroBanner = () => {
                   creates branded office environments that reflect your
                   company's unique culture and values, providing a space that
                   empowers your workforce and fuels performance.
-                </p>
+                </p> */}
                 <div className="btn-box">
                   <Link href="/contact-us/" className="btn btn-primary">
                     Quick call back now

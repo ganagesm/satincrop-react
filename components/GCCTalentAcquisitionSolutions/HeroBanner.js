@@ -19,17 +19,22 @@ const HeroBanner = () => {
           <div
             className="main-banner"
             style={{
-              backgroundImage: `url(/images/gcc-home/gcc-banner-image.jpeg)`,
+              backgroundImage: `url(/images/gcc-home/talent-acquisition-banner.jpeg)`,
             }}>
             <div className="container">
               <div className="main-banner-content">
                 <h2 style={{ color: "#fff", fontSize: "50px" }}>
-                  Global Capability Centre: Scalable, Subscription-Driven
-                  Solutions with Zero CapEx
+                  Talent Acquisition Solutions by SA Technologies
                 </h2>
                 {/* <p style={{ color: "#fff" }}>
-                  A model that's ready to transfer, offering maximum flexibility
-                  with minimal risk.
+                  At SA Technologies, we understand the challenges organizations
+                  face in managing day-to-day GCC operations efficiently,
+                  effectively, and in a compliant manner. We partner with our
+                  clients to bring both functional and technical expertise that
+                  supports business operations at their GCCs. Leveraging our
+                  proven methodologies and enabling platforms, our experienced
+                  practitioners help clients streamline their operations,
+                  enhance productivity, and drive cost efficiencies.
                 </p> */}
                 <div className="btn-box">
                   <Link href="/contact-us/" className="btn btn-primary">

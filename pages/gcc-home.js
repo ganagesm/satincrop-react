@@ -1,5 +1,5 @@
 import Navbar from "../components/GCCHome/Navbar";
-import Footer from "../components/Live/Footer";
+import Footer from "../components/GCCHome/Footer";
 import HeroBanner from "../components/GCCHome/HeroBanner";
 import TechDetailsContent from "../components/GCCHome/TechDetailsContent";
 import Services from "../components/GCCHome/Services";
@@ -7,11 +7,13 @@ import GlobalCapabilityCenters from "../components/GCCHome/GlobalCapabilityCente
 import MainServicesGCC from "../components/GCCHome/MainServicesGCC";
 import ProfessionalSolutions from "../components/GCCHome/ProfessionalSolutions";
 import OurFeaturedSolutions from "../components/GCCHome/OurFeaturedSolutions";
+import PartnerContent from "../components/GCCHome/PartnerContent";
 import Script from "next/script";
 import Head from "next/head";
 import ZohoScript from "../components/ZohoScript";
 // import { WebPageJsonLd, NextSeo, DefaultSeo } from "next-seo";
 import { WebPageJsonLd, NextSeo } from "next-seo";
+import Link from "next/link";
 
 const Index = () => {
   return (
@@ -66,8 +68,87 @@ const Index = () => {
       {/* <ProfessionalSolutions /> */}
       <GlobalCapabilityCenters />
       <OurFeaturedSolutions />
+      <PartnerContent />
+
+      <div className="fun-facts-area services-area pt-100 bg-f2f6f9">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-3 col-6 col-sm-3 col-md-3 d-flex">
+              <div className="single-funfacts single-services-box flex-fill">
+                <h4>
+                  Top Tier Cities <span className="sign-icon">+</span>
+                </h4>
+                <p>Delhi</p>
+                <p>Mumbai</p>
+                <p>Pune</p>
+                <p>Bengaluru</p>
+                <p>Hyderabad</p>
+                <p>Chennai</p>
+              </div>
+            </div>
+
+            <div className="col-lg-3 col-6 col-sm-3 col-md-3 d-flex">
+              <div className="single-funfacts single-services-box flex-fill">
+                <h4>
+                  GCCs in India (count) <span className="sign-icon">+</span>
+                </h4>
+                <p>1000+ FY 15</p>
+                <p>1600+ FY23</p>
+                <p>2400+ FY30(E)</p>
+              </div>
+            </div>
+
+            <div className="col-lg-3 col-6 col-sm-3 col-md-3 d-flex">
+              <div className="single-funfacts single-services-box flex-fill">
+                <h4>
+                  Employment (In Mn) <span className="sign-icon">+</span>
+                </h4>
+                <p>0.7+ FY 15</p>
+                <p>1.6+ FY23</p>
+                <p>4.5+ FY30(E)</p>
+              </div>
+            </div>
+
+            <div className="col-lg-3 col-6 col-sm-3 col-md-3 d-flex">
+              <div className="single-funfacts single-services-box flex-fill">
+                <h4>
+                  GCC Market Size India(in US$ Bn){" "}
+                  <span className="sign-icon">+</span>
+                </h4>
+                <p>19.4 FY 15</p>
+                <p>46.0 FY23</p>
+                <p>110.0 FY30(E)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Shape Images  */}
+        <div className="shape-img1">
+          <img src="/images/map.png" alt="image" />
+        </div>
+        <div className="shape-img3">
+          <img src="/images/shape/shape3.png" alt="image" />
+        </div>
+        <div className="shape-img2">
+          <img src="/images/shape/shape2.svg" alt="image" />
+        </div>
+        <div className="shape-img5">
+          <img src="/images/shape/shape5.svg" alt="image" />
+        </div>
+        <div className="shape-img4">
+          <img src="/images/shape/shape4.svg" alt="image" />
+        </div>
+        <div className="dot-shape1">
+          <img src="/images/shape/dot1.png" alt="image" />
+        </div>
+        <div className="dot-shape2">
+          <img src="/images/shape/dot3.png" alt="image" />
+        </div>
+      </div>
+
       {/* <MainServicesGCC /> */}
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 };
