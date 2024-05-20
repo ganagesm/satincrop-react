@@ -87,7 +87,9 @@ const Index = () => {
                 style={{
                   textAlign: "center",
                 }}>
-                We have helped several Seed to IPO stage startups scale their offshore operations, <br />  build center of excellence, and save cost.
+                We have helped several Seed to IPO stage startups scale their
+                offshore operations, <br /> build center of excellence, and save
+                cost.
               </h2>
             </div>
           </div>
@@ -113,11 +115,14 @@ const Index = () => {
                 style={{
                   fontSize: "17px",
                   fontWeight: "600",
-                  color: "#57647c"
-                }}
-              >SAT offers unparalleled simplicity in onboarding talent across various regions. Whether you
-                aim to onboard contractors and employees worldwide without establishing legal entities, SAT seamlessly handles it all while ensuring compliance at every step.</p>
-
+                  color: "#57647c",
+                }}>
+                SAT offers unparalleled simplicity in onboarding talent across
+                various regions. Whether you aim to onboard contractors and
+                employees worldwide without establishing legal entities, SAT
+                seamlessly handles it all while ensuring compliance at every
+                step.
+              </p>
             </div>
           </div>
         </div>
@@ -128,10 +133,10 @@ const Index = () => {
       <TechDetailsContent />
       <ExpertiseContent />
 
-
       <ContactFormContent />
       <Footer />
     </>
   );
 };
+
 export default Index;
