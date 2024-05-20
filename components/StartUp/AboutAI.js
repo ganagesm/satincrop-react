@@ -9,7 +9,7 @@ const AboutAI = () => {
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12">
               <div className="ai-about-image">
-                <img src="/images/home-six/about.png" alt="image" />
+                <img src="/images/emp-record.jpg" alt="image" />
               </div>
             </div>
 
@@ -40,12 +40,6 @@ const AboutAI = () => {
                 </div> */}
               </div>
             </div>
-
-            <div className="text-center pt-100">
-              <h1>One-Stop Solutions for All Your Hiring Needs, across the globe ! </h1>
-              <p>SAT offers unparalleled simplicity in onboarding talent across various regions. Whether you aim to onboard contractors and employees worldwide without establishing legal entities, SAT seamlessly handles it all while ensuring compliance at every step.</p>
-            </div>
-
 
           </div>
         </div>

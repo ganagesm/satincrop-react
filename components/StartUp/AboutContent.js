@@ -7,20 +7,26 @@ const AboutContact = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="text-center pb-70">
-              <h1>Flexible Engagements - We Work ,How You Want us to Work</h1>
-              <p>Our engagement models are flexible as per your needs</p>
+              <h1>Flexible Engagements - We Work, How You Want us to Work</h1>
+              <h5>Our engagement models are flexible as per your needs</h5>
             </div>
-            <div className="col-lg-6 col-md-12">
-              <div className="about-image">
-                <img src="/images/about/4.jpg" alt="image" />
-                <img src="/images/about/5.jpg" alt="image" />
-              </div>
-            </div>
+
 
             <div className="col-lg-6 col-md-12">
               <div className="about-content">
                 <h2>Direct Team</h2>
-                <p> Our engineers work with you “IN” your time zone and speak “Your Language” </p>
+                <h5 style={{
+                  backgroundColor: "#ffffff",
+                  fontSize: "17px",
+                  fontWeight: "600",
+                  color: "#57647c"
+                }}> Our engineers work with you “IN” your time zone and speak “Your Language” </h5>
+              </div>
+            </div>
+            <div className="col-lg-6 col-md-12">
+              <div className="about-image">
+                {/* <img src="/images/about/4.jpg" alt="image" /> */}
+                <img src="/images/team-working.jpg" alt="image" />
               </div>
             </div>
           </div>

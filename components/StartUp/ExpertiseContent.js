@@ -27,9 +27,9 @@ export default class Services extends Component {
       <>
         <div className="services-section bg-f2f6f9 ptb-110">
           <div className="container">
-            {/* <div className="section-title">
+            <div className="section-title">
               <h2>We have expertise in</h2>
-            </div> */}
+            </div>
 
             <div className="tab services-tab-list">
               <div className="row">
@@ -45,7 +45,7 @@ export default class Services extends Component {
 
                     <li onClick={(e) => this.openTabSection(e, "tab2")}>
                       <i className="flaticon-automatic"></i>
-                      <span>	Web Development  </span>
+                      <span>Web Development  </span>
                     </li>
 
                     <li onClick={(e) => this.openTabSection(e, "tab3")}>
@@ -62,7 +62,7 @@ export default class Services extends Component {
                         <img src="/images/services-img1.png" alt="image" />
                       </div> */}
                       <div>
-                        <h1>Next Gen UI/UX Solutions – Elevate Your Experience with AI-Powered Design Solutions. </h1>
+                        <h3>Next Gen UI/UX Solutions – Elevate Your Experience with AI-Powered Design Solutions. </h3>
                       </div>
 
                       <div className="content">
@@ -79,7 +79,7 @@ export default class Services extends Component {
 
                     <div id="tab2" className="tabs-item">
                       <div>
-                        <h1>Custom Web Development Solutions </h1>
+                        <h3>Custom Web Development Solutions </h3>
                       </div>
 
                       <div className="content">
@@ -96,8 +96,8 @@ export default class Services extends Component {
 
                     <div id="tab3" className="tabs-item">
                       <div>
-                        <h1>Revolutionizing Digital Solutions: AI-Powered Mastery by SA Technologies</h1>
-                        <h3>Transform The Future With Our Mobile App Development Service</h3>
+                        <h3>Revolutionizing Digital Solutions: AI-Powered Mastery by SA Technologies</h3>
+                        <h5>Transform The Future With Our Mobile App Development Service</h5>
                       </div>
 
                       <div className="content ai-about-content">
