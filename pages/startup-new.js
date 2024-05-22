@@ -93,6 +93,25 @@ const Index = () => {
           </div>
         </div>
       </div>
+
+      <div className="">
+        <div className="container">
+          <div className="row pb-100 align-items-center">
+            <div className="col-lg-12 col-md-6">
+              <h2
+                className="align-items-center"
+                style={{
+                  textAlign: "center",
+                }}>
+                Helping Our Clients Transform Vision into Reality Through Advanced Technology Solutions.
+              </h2>
+              <div className="">
+                <img src="/images/client.png" alt="image" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <Testimonials />
 
       <AboutContent />
@@ -128,6 +147,37 @@ const Index = () => {
       <TechDetailsContent />
       <ExpertiseContent />
 
+      <div className="" id="contact_section">
+        <div className="container">
+          <div className="row ptb-100 align-items-center">
+            <div className="col-lg-6 col-md-6">
+              <h2
+                className="align-items-center"
+                style={{
+                  textAlign: "right",
+                }}>
+                Ready to Begin Your startup Journey?
+              </h2>
+            </div>
+            <div
+              className="col-lg-5 col-md-5"
+              style={{
+                textAlign: "left",
+              }}>
+              <a
+                href="mailto:offshore@satincorp.com"
+                style={{ fontSize: "22px", marginRight: "15px" }}>
+                offshore@satincorp.com
+              </a> ||
+              <a
+                href="https://api.whatsapp.com/send/?phone=%2B9107875787550&text=Hello!%20I%27m%20interested%20in%20exploring%20your%20SAT%20Services.%20Can%20you%20share%20more%20details?"
+                style={{ fontSize: "22px", marginLeft: "15px" }}>
+                +1 (408)-495-5822
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <ContactFormContent />
       <Footer />
