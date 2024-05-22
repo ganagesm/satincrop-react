@@ -46,7 +46,7 @@ const ContactFormContent = () => {
         },
         false
       );
-    } catch (e) { }
+    } catch (e) {}
   };
   //Zoho Sales Iq Script:
   const useScript = (url, widgetCode) => {
@@ -206,13 +206,13 @@ const ContactFormContent = () => {
         }}>
         <div className="container" id="contact">
           <div className="row">
-            <div className="col-lg-6 col-md-6 col-6 d-flex flex-column">
+            <div className="col-lg-6 col-md-6 col-6 col-12 d-flex flex-column">
               <div className="hero-text">
                 <img src="/images/microsoft-365.png" width={180} />
                 {/* <img src="https://dev1.satincorp.com/microsoft-office-365-licenses/wp-content/themes/microsoft-office-365-licenses-wp-themes-19032021/images/microsoft-logo-new.png" width={180} /> */}
                 <h1 className="text-white achive" style={{ marginTop: "5px" }}>
-                  Enable Your Team to Work Efficiently with Microsoft 365{" "}
-                  <br /> (formerly Office 365)
+                  Enable Your Team to Work Efficiently with Microsoft 365 <br />{" "}
+                  (formerly Office 365)
                   <span style={{ display: "flex" }}>
                     (Get Upto 20% OFF* on any License Type)
                   </span>
@@ -223,10 +223,11 @@ const ContactFormContent = () => {
                   See plans
                 </a>
                 <br />
-                <img src="/images/Microsoftppc-1.png"
+                <img
+                  src="/images/Microsoftppc-1.png"
                   style={{
                     width: "500px",
-                    marginTop: "30px"
+                    marginTop: "30px",
                   }}
                 />
               </div>
@@ -760,7 +761,6 @@ const ContactFormContent = () => {
         </div>
       </section>
 
-
       {/* <section className="section-enterprise">
         <div className="container">
           <div className="row">
@@ -917,8 +917,7 @@ const ContactFormContent = () => {
         )}
       </React.Fragment>
       <Link
-        href="https://api.whatsapp.com/send/?phone=%2B9170581%2088896&text=Hello,%20I%20am%20interested%20in%20%20buying%20O365%20licenses"
-        target="_blank"
+        href="https://api.whatsapp.com/send/?phone=917058188896&text=Hello%2C+I+am+interested+in+buying+MS+365+licenses&type=phone_number&app_absent=0"  target="_blank" rel="noopener noreferrer"
         className="floatWhatsApp">
         <img src="/images/icons/whatsApp.svg" alt="whatsapp" />
       </Link>

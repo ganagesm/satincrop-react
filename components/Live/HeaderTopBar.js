@@ -49,7 +49,7 @@ const TopNavbar = () => {
                     href="https://api.whatsapp.com/send/?phone=%2B9107875787550&text=Hello!%20I%27m%20interested%20in%20exploring%20your%20SAT%20Services.%20Can%20you%20share%20more%20details?"
                     target="_blank">
                     <i
-                      class="fa-brands fa-whatsapp"
+                      className="fa-brands fa-whatsapp"
                       style={{
                         fontSize: "20px",
                         width: "20px",

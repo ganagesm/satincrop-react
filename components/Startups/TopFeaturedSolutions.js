@@ -16,7 +16,7 @@ const TopFeaturedSolutions = () => {
 
             <div className="col-lg-6 col-md-12">
               <div className="about-content ml-main-banner-content">
-                <span class="sub-title">About Us</span>
+                <span className="sub-title">About Us</span>
                 <h2>
                   A Silicon Valley problem is in need of a broader solution
                 </h2>

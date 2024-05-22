@@ -319,6 +319,11 @@ function generateSiteMap(posts, customerstory) {
      <priority>0.64</priority>
    </url>
    <url>
+     <loc>https://www.satincorp.com/startups/</loc>
+     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
+     <priority>0.64</priority>
+   </url>
+   <url>
      <loc>https://www.satincorp.com/articles/gcc-evolution/</loc>
      <lastmod>2024-01-04T07:51:19+00:00</lastmod>
      <priority>0.64</priority>
