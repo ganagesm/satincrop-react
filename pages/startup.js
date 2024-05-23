@@ -1,385 +1,238 @@
-import React, { useEffect, useState } from "react";
-import Document, { Html, Main, NextScript } from "next/document";
-import Link from "next/link";
+import Navbar from "../components/Live/Navbar";
+import Footer from "../components/Live/Footer";
+import HeroBanner from "../components/StartUp/HeroBanner";
+import Industries from "../components/StartUp/Industries";
+import Services from "../components/StartUp/Services";
+import WhyChooseSAT from "../components/StartUp/WhyChooseSAT";
+import ContactFormContent from "../components/Common/ContactFormContent";
+import BlogPostSlider from "../components/StartUp/BlogPostSlider";
+import Testimonials from "../components/StartUp/Testimonials";
+import AboutContent from "../components/StartUp/AboutContent";
+import AboutAI from "../components/StartUp/AboutAI";
+import ComputerVisionAI from "../components/StartUp/ComputerVisionAI";
+import TechDetailsContent from "../components/StartUp/TechDetailsContent";
+import ExpertiseContent from "../components/StartUp/ExpertiseContent";
+import ServicesCompanies from "../components/StartUp/ServicesCompanies";
 import Head from "next/head";
+import { Component, useState } from "react";
+import Link from "next/link";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from "swiper";
+// import Model from "../components/GCC/Model";
+import { WebPageJsonLd, NextSeo, DefaultSeo } from "next-seo";
 
-const ContactFormContent = () => {
-  const executeFunction = () => {
-    try {
-      var f = document.createElement("iframe");
-      f.src =
-        "https://forms.zohopublic.in/satechsoftwareipvtltd/form/Commonform/formperma/OqtO4dMucPCkviSHfWfmtFFImjjtai4d-o1gh8xkwX0?zf_rszfm=1";
-      f.style.border = "none";
-      f.style.height = "982px";
-      f.style.width = "90%";
-      f.style.transition = "all 0.5s ease";
+const Index = () => {
+  const [profile_model, setPop] = useState(false);
 
-      var d = document.getElementById(
-        "zf_div_OqtO4dMucPCkviSHfWfmtFFImjjtai4d-o1gh8xkwX0"
-      );
-      d.appendChild(f);
-      window.addEventListener(
-        "message",
-        function () {
-          var evntData = event.data;
-          if (evntData && evntData.constructor == String) {
-            var zf_ifrm_data = evntData.split("|");
-            if (zf_ifrm_data.length == 2) {
-              var zf_perma = zf_ifrm_data[0];
-              var zf_ifrm_ht_nw = parseInt(zf_ifrm_data[1], 10) + 15 + "px";
-              var iframe = document
-                .getElementById(
-                  "zf_div_OqtO4dMucPCkviSHfWfmtFFImjjtai4d-o1gh8xkwX0"
-                )
-                .getElementsByTagName("iframe")[0];
-              if (
-                iframe.src.indexOf("formperma") > 0 &&
-                iframe.src.indexOf(zf_perma) > 0
-              ) {
-                var prevIframeHeight = iframe.style.height;
-                if (prevIframeHeight != zf_ifrm_ht_nw) {
-                  iframe.style.height = zf_ifrm_ht_nw;
-                }
-              }
-            }
-          }
-        },
-        false
-      );
-    } catch (e) {}
+  const handleclickopen = () => {
+    setPop(!profile_model);
   };
-
-  // starups
-  const [pageContent, setPageContent] = useState(null);
-
-  useEffect(() => {
-    const fetchPageContent = async () => {
-      try {
-        const response = await fetch(
-          "https://dev1.satincorp.com/wp-json/wp/v2/pages/19630"
-        );
-        if (!response.ok) {
-          throw new Error("Failed to fetch page content");
-        }
-        const data = await response.json();
-        setPageContent(data);
-      } catch (error) {
-        console.error("Error fetching page content:", error);
-      }
-    };
-
-    fetchPageContent();
-  }, []);
-  //Zoho Sales Iq Script:
-  const useScript = (url, widgetCode) => {
-    useEffect(() => {
-      executeFunction();
-      const script = document.createElement("script");
-      script.setAttribute("type", "text/javascript");
-
-      let code = `var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode: "${widgetCode}", values:{},ready:function(){}};var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;s.src="${url}";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);d.innerHTML = "<div id='zsiqwidget'></div>";`;
-
-      script.appendChild(document.createTextNode(code));
-      document.body.appendChild(script);
-
-      return () => {
-        document.body.removeChild(script);
-      };
-    }, [url]);
+  const closepopup = () => {
+    setPop(false);
   };
   return (
     <>
+      <WebPageJsonLd
+        headline="Global Capability Center (GCC) Services in India | SA Technologies"
+        description="Explore SA Technologies GCC As a services for global expansion Maximize efficiency and innovation with our support"
+        author="SA Technologies"
+        keywords="GCC As a services"
+        image="https://www.satincorp.com/images/banners/gcc-1.jpg"
+      />
+      <NextSeo
+        openGraph={{
+          type: "website",
+          url: "https://www.satincorp.com/gcc/",
+          title:
+            "Global Capability Center (GCC) Services in India | SA Technologies",
+          description:
+            "Explore SA Technologies GCC As a services for global expansion Maximize efficiency and innovation with our support",
+          images: [
+            {
+              url: "https://www.satincorp.com/images/banners/gcc-1.jpg",
+              width: 800,
+              height: 600,
+              alt: "Explore SA Technologies GCC As a services for global expansion Maximize efficiency and innovation with our support",
+            },
+          ],
+          authorName: "SA Technologies",
+          keywords: "GCC As a services",
+        }}
+      />
       <Head>
-        {pageContent && (
-          <>
-            <link rel="stylesheet" href={pageContent.stylesheetUrl} />
-
-            <script src={pageContent.scriptUrl} />
-          </>
-        )}
-        <link
-          rel="stylesheet"
-          id="redux-extendify-styles-css"
-          href="https://dev1.satincorp.com/wp-content/plugins/redux-framework/redux-core/assets/css/extendify-utilities.css?ver=4.4.1"
-          type="text/css"
-          media="all"
+        <title>
+          Global Capability Center (GCC) Services in India | SA Technologies{" "}
+        </title>
+        <meta
+          property="og:title"
+          content="Global Capability Center (GCC) Services in India | SA Technologies"
+          key="title"
         />
-        <link
-          rel="stylesheet"
-          id="menu-image-css"
-          href="https://dev1.satincorp.com/wp-content/plugins/menu-image/includes/css/menu-image.css?ver=3.10"
-          type="text/css"
-          media="all"
+        <meta
+          name="description"
+          content="Explore SA Technologies GCC As a services for global expansion. Maximize efficiency and innovation with our support."
+          key="description"
         />
-        <link
-          rel="stylesheet"
-          id="dashicons-css"
-          href="https://dev1.satincorp.com/wp-includes/css/dashicons.min.css?ver=34dda934ed3de6d8801cc9dc2cc2155d"
-          type="text/css"
-          media="all"
-        />
-        <link
-          rel="stylesheet"
-          id="c4wp-public-css"
-          href="https://dev1.satincorp.com/wp-content/plugins/wp-captcha//assets/css/c4wp-public.css?ver=34dda934ed3de6d8801cc9dc2cc2155d"
-          type="text/css"
-          media="all"
-        />
-        <link
-          rel="stylesheet"
-          id="wpforms-classic-full-css"
-          href="https://dev1.satincorp.com/wp-content/plugins/wpforms-lite/assets/css/frontend/classic/wpforms-full.min.css?ver=1.8.2.1"
-          type="text/css"
-          media="all"
-        />
-        <link
-          rel="stylesheet"
-          id="chld_thm_cfg_separate-css"
-          href="https://dev1.satincorp.com/wp-content/themes/front-child/ctc-style.css?ver=34dda934ed3de6d8801cc9dc2cc2155d"
-          type="text/css"
-          media="all"
-        />
-        <link
-          rel="stylesheet"
-          id="fontawesome-css"
-          href="https://dev1.satincorp.com/wp-content/themes/front/assets/vendor/font-awesome/css/fontawesome-all.min.css?ver=1.1.9"
-          type="text/css"
-          media="all"
-        />
-        <link
-          rel="stylesheet"
-          id="animate-css"
-          href="https://dev1.satincorp.com/wp-content/themes/front/assets/vendor/animate.css/animate.min.css?ver=1.1.9"
-          type="text/css"
-          media="all"
-        />
-        <link
-          rel="stylesheet"
-          id="megamenu-css"
-          href="https://dev1.satincorp.com/wp-content/themes/front/assets/vendor/hs-megamenu/src/hs.megamenu.css?ver=1.1.9"
-          type="text/css"
-          media="all"
-        />
-        <link
-          rel="stylesheet"
-          id="jquery-mCustomScrollbar-css"
-          href="https://dev1.satincorp.com/wp-content/themes/front/assets/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css?ver=1.1.9"
-          type="text/css"
-          media="all"
-        />
-        <link
-          rel="stylesheet"
-          id="bootstrap-select-css"
-          href="https://dev1.satincorp.com/wp-content/themes/front/assets/vendor/bootstrap-select/dist/css/bootstrap-select.min.css?ver=1.1.9"
-          type="text/css"
-          media="all"
-        />
-        <link
-          rel="stylesheet"
-          id="bootstrap-tagsinput-css"
-          href="https://dev1.satincorp.com/wp-content/themes/front/assets/vendor/bootstrap-tagsinput/css/bootstrap-tagsinput.css?ver=1.1.9"
-          type="text/css"
-          media="all"
-        />
-        <link
-          rel="stylesheet"
-          id="jquery-fancybox-css"
-          href="https://dev1.satincorp.com/wp-content/themes/front/assets/vendor/fancybox/jquery.fancybox.css?ver=1.1.9"
-          type="text/css"
-          media="all"
-        />
-        <link
-          rel="stylesheet"
-          id="dzsparallaxer-css"
-          href="https://dev1.satincorp.com/wp-content/themes/front/assets/vendor/dzsparallaxer/dzsparallaxer.css?ver=1.1.9"
-          type="text/css"
-          media="all"
-        />
-        <link
-          rel="stylesheet"
-          id="slick-carousel-css"
-          href="https://dev1.satincorp.com/wp-content/themes/front/assets/vendor/slick-carousel/slick/slick.css?ver=1.1.9"
-          type="text/css"
-          media="all"
-        />
-        <link
-          rel="stylesheet"
-          id="ion-rangeslider-css"
-          href="https://dev1.satincorp.com/wp-content/themes/front/assets/vendor/ion-rangeslider/css/ion.rangeSlider.css?ver=1.1.9"
-          type="text/css"
-          media="all"
-        />
-        <link
-          rel="stylesheet"
-          id="custombox-css"
-          href="https://dev1.satincorp.com/wp-content/themes/front/assets/vendor/custombox/dist/custombox.min.css?ver=1.1.9"
-          type="text/css"
-          media="all"
-        />
-        <link
-          rel="stylesheet"
-          id="bg-video-css"
-          href="https://dev1.satincorp.com/wp-content/themes/front/assets/vendor/hs-bg-video/hs-bg-video.css?ver=1.1.9"
-          type="text/css"
-          media="all"
-        />
-        <link
-          rel="stylesheet"
-          id="cubeportfolio-css"
-          href="https://dev1.satincorp.com/wp-content/themes/front/assets/vendor/cubeportfolio/css/cubeportfolio.min.css?ver=1.1.9"
-          type="text/css"
-          media="all"
-        />
-        <link
-          rel="stylesheet"
-          id="chartist-css"
-          href="https://dev1.satincorp.com/wp-content/themes/front/assets/vendor/chartist/dist/chartist.min.css?ver=1.1.9"
-          type="text/css"
-          media="all"
-        />
-        <link
-          rel="stylesheet"
-          id="chartist-tooltip-css"
-          href="https://dev1.satincorp.com/wp-content/themes/front/assets/vendor/chartist-js-tooltip/chartist-plugin-tooltip.css?ver=1.1.9"
-          type="text/css"
-          media="all"
-        />
-        <link
-          rel="stylesheet"
-          id="front-style-css"
-          href="https://dev1.satincorp.com/wp-content/themes/front/style.css?ver=1.1.9"
-          type="text/css"
-          media="all"
-        />
-        <link
-          rel="stylesheet"
-          id="front-color-css"
-          href="https://dev1.satincorp.com/wp-content/themes/front/assets/css/colors/blue.css?ver=1.1.9"
-          type="text/css"
-          media="all"
-        />
-        <link
-          rel="stylesheet"
-          id="front-fonts-css"
-          href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&#038;subset=latin%2Clatin-ext"
-          type="text/css"
-          media="all"
-        />
-        <link
-          rel="stylesheet"
-          id="front-child-style-css"
-          href="https://dev1.satincorp.com/wp-content/themes/front-child/style.css?ver=1.1.4.1641557060"
-          type="text/css"
-          media="all"
-        />
-        <script src="https://dev1.satincorp.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script>
-        <script src="https://dev1.satincorp.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script>
-        <script src="https://dev1.satincorp.com/wp-content/plugins/front-gutenberg-blocks/dist/frontend_blocks.js?ver=1.1.9"></script>
-        <script src="https://dev1.satincorp.com/wp-content/themes/front/assets/vendor/bootstrap/bootstrap.min.js?ver=1.1.9"></script>
-        <script src="https://dev1.satincorp.com/wp-content/themes/front/assets/vendor/slick-carousel/slick/slick.js?ver=1.1.9"></script>
-        <script src="https://dev1.satincorp.com/wp-content/themes/front/assets/vendor/svg-injector/dist/svg-injector.min.js?ver=1.1.9"></script>
-        <script src="https://dev1.satincorp.com/wp-content/themes/front/assets/js/hs.core.js?ver=1.1.9"></script>
-        <script src="https://dev1.satincorp.com/wp-content/themes/front/assets/js/components/hs.unfold.js?ver=1.1.9"></script>
-        <script src="https://dev1.satincorp.com/wp-content/themes/front/assets/js/components/hs.slick-carousel.js?ver=1.1.9"></script>
-        <script src="https://dev1.satincorp.com/wp-content/themes/front/assets/js/components/hs.svg-injector.js?ver=1.1.9"></script>
-        <script src="https://dev1.satincorp.com/wp-content/themes/front/assets/vendor/appear.js?ver=1.1.9"></script>
-        <script src="https://dev1.satincorp.com/wp-content/themes/front/assets/vendor/typed.js/lib/typed.min.js?ver=1.1.9"></script>
-        <script src="https://dev1.satincorp.com/wp-content/themes/front/assets/js/front.js?ver=1.1.9"></script>
-        <script src="https://dev1.satincorp.com/wp-content/themes/front/assets/js/hs.core.js?ver=1.1.9"></script>
-        <style>
-          {`
-                        .testimonial-carousel-simple, .section-block.default.container.space-top-2, .lookingForJobCTA, .hero-form-1{
-                            display: none;
-                        }
-                        img[src$=".svg"].js-svg-injector:not(.injected-svg) {
-                          opacity: 1;
-                          transition: opacity 0.4s ease-in;
-                      }
-                    `}
-        </style>
       </Head>
 
-      <div>
-        {pageContent ? (
-          <div>
-            <h1>{pageContent.title.rendered}</h1>
-            <div
-              dangerouslySetInnerHTML={{ __html: pageContent.content.rendered }}
-            />
-          </div>
-        ) : (
-          <p>Loading...</p>
-        )}
-      </div>
-
-      {/* <main id="content" role="main" className="overflow-hidden">
-        <div
-          id="navbar"
-          className="navbar-area navbar-area-with-position-relative">
-          <div className="main-nav">
-            <div className="container">
-              <nav className="navbar navbar-expand-md navbar-light">
-                <Link href="/" className="navbar-brand">
-                  <img
-                    src="/images/sa-logo.svg"
-                    className="main-logo"
-                    alt="logo"
-                    width={80}
-                  />
-                  <img
-                    src="/images/sa-logo.svg"
-                    className="optional-logo"
-                    alt="logo"
-                    height={30}
-                    width={80}
-                  />
-                </Link>
-
-                <div className="cmmi">
-                  <h4>
-                    {" "}
-                    A CMMI Level <span>5</span> Company{" "}
-                  </h4>
-                </div>
-
-                <div className="collapse navbar-collapse mean-menu">
-                  <ul className="navbar-nav">
-                    <li className="nav-item">
-                      <span>Phone:</span>{" "}
-                      <a href="tel:+917058222899"> +91 7058 22 2899</a>
-                    </li>
-                  </ul>
-                </div>
-              </nav>
+      <Navbar />
+      <HeroBanner />
+      <Services />
+      <div className="pb-100">
+        <div className="container">
+          <div className="row ptb-100 align-items-center">
+            <div className="col-lg-12 col-md-6">
+              <h2
+                className="align-items-center"
+                style={{
+                  textAlign: "center",
+                }}>
+                We have helped several Seed to IPO stage startups scale their offshore operations, <br />  build center of excellence, and save cost.
+              </h2>
             </div>
           </div>
         </div>
-      </main>
+      </div>
 
-      <MainBanner />
-      <Services />
-      <ComputerVisionAI />
+      <div className="bg-f2f6f9 pt-100">
+        <div className="container">
+          <div className="row pb-100 align-items-center">
+            <div className="col-lg-12 col-md-6">
+              <h2
+                className="align-items-center"
+                style={{
+                  textAlign: "center",
+                  marginBottom: "25px"
+                }}>
+                Helping Our Clients Transform Vision into Reality Through Advanced Technology Solutions.
+              </h2>
+              <div className="">
+                <img src="/images/client.png" alt="image" />
+                {/* <img src="/images/step-img-1.png" alt="image" /> */}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <Testimonials />
 
+      <AboutContent />
       <AboutAI />
 
-      <TopFeaturedSolutions />
+      <div className="" style={{ backgroundColor: "#e4e8f5" }}>
+        <div className="container">
+          <div className="row ptb-100 align-items-center">
+            <div className="col-lg-12 col-md-6 text-center">
+              <h2
+                className="align-items-center"
+                style={{
+                  textAlign: "center",
+                }}>
+                One-Stop Solutions for All Your Hiring Needs, across the globe !
+              </h2>
+              <p
+                style={{
+                  fontSize: "17px",
+                  fontWeight: "600",
+                  color: "#57647c"
+                }}
+              >SAT offers unparalleled simplicity in onboarding talent across various regions. Whether you
+                aim to onboard contractors and employees worldwide without establishing legal entities, SAT seamlessly handles it all while ensuring compliance at every step.</p>
 
-      <CustomerSuccess /> */}
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* <ComputerVisionAI /> */}
+      <ServicesCompanies />
 
-      <React.Fragment>
-        {useScript(
-          "https://salesiq.zoho.in/widget",
-          "siqd501e20f5ff83957af2415d36330a0344fef3b83965c959b579f4a9444020527"
-        )}
-      </React.Fragment>
-      <Link
-        href="https://api.whatsapp.com/send/?phone=%2B917058222899&text=Hello,%20I%20am%20interested%20in%20%20buying%20Google%20Cloud%20Platform"
-        target="_blank"
-        className="floatWhatsApp">
-        <img src="/images/icons/whatsApp.svg" alt="whatsapp" />
-      </Link>
+      <TechDetailsContent />
+      <ExpertiseContent />
+
+      <div className="" id="contact_section">
+        <div className="container">
+          <div className="row pt-100 justify-content-center">
+            <div className="col-lg-12 col-md-12">
+              <h2
+                className="align-items-center"
+                style={{
+                  textAlign: "center",
+                  marginBottom: "40px"
+                }}>
+                Ready to Begin Your startup Journey?
+              </h2>
+            </div>
+            <div className="col-sm-4">
+              <div className="services-area">
+                <div className="single-services-box" style={{ backgroundColor: "#f2f6f9" }}>
+                  <div className="icon">
+                    <img
+                      src="/images/icons/indusrty-icon/email-id.png"
+                      alt="image"
+                      style={{
+                        width: "50%",
+                        textAlign: "center",
+                        marginTop: "10px",
+                      }}
+                    />
+                  </div>
+                  <h2 style={{ margin: "20px 0" }}>Email-ID</h2>
+                  <a
+                    href="mailto:offshore@satincorp.com"
+                    style={{ fontSize: "19px" }}>
+                    offshore@satincorp.com
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="col-sm-4">
+              <div className="services-area">
+                <div className="single-services-box" style={{ backgroundColor: "#f2f6f9" }}>
+                  <div className="icon">
+                    <img
+                      src="/images/icons/indusrty-icon/call.png"
+                      alt="image"
+                      style={{
+                        width: "50%",
+                        textAlign: "center",
+                        marginTop: "10px",
+                      }}
+                    />
+                  </div>
+                  <h2 style={{ margin: "20px 0" }}>Call us now USA</h2>
+                  <h3>
+                    <a
+                      href="https://api.whatsapp.com/send/?phone=%2B9107875787550&text=Hello!%20I%27m%20interested%20in%20exploring%20your%20SAT%20Services.%20Can%20you%20share%20more%20details?"
+                      style={{ textDecoration: "2px dashed underline" }}>
+                      +1 (408)-495-5822
+                    </a>
+                  </h3>
+                </div>
+              </div>
+            </div>
+            {/* <div
+              className="col-lg-5 col-md-5"
+              style={{
+                textAlign: "left",
+              }}>
+              <a
+                href="mailto:offshore@satincorp.com"
+                style={{ fontSize: "22px", marginRight: "15px" }}>
+                offshore@satincorp.com
+              </a> ||
+              <a
+                href="https://api.whatsapp.com/send/?phone=%2B9107875787550&text=Hello!%20I%27m%20interested%20in%20exploring%20your%20SAT%20Services.%20Can%20you%20share%20more%20details?"
+                style={{ fontSize: "22px", marginLeft: "15px" }}>
+                +1 (408)-495-5822
+              </a>
+            </div> */}
+          </div>
+        </div>
+      </div>
+
+      <ContactFormContent />
+      <Footer />
     </>
   );
 };
-
-export default ContactFormContent;
+export default Index;

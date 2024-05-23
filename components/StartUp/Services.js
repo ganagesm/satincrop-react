@@ -6,7 +6,7 @@ const Services = () => {
     <>
       <section className="services-area bg-f2f6f9 ptb-110">
         <div className="container">
-          <div className="section-title" style={{ width: "911px" }}>
+          <div className="section-title">
             <h2>SAT has focused approach to help your startup create 0–100-500+ people strong offshore team.</h2>
           </div>
 
