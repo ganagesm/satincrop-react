@@ -104,7 +104,7 @@ const Index = () => {
                   textAlign: "center",
                   marginBottom: "25px"
                 }}>
-                Helping Our Clients Transform Vision into Reality Through Advanced Technology Solutions.
+                Helping Our Clients Transform Vision into Reality Through Innovative offshoring Solutions.
               </h2>
               <div className="">
                 <img src="/images/client.png" alt="image" />
@@ -199,7 +199,7 @@ const Index = () => {
                       }}
                     />
                   </div>
-                  <h2 style={{ margin: "20px 0" }}>Call us now USA</h2>
+                  <h2 style={{ margin: "20px 0" }}>Call us now</h2>
                   <h3>
                     <a
                       href="https://api.whatsapp.com/send/?phone=%2B9107875787550&text=Hello!%20I%27m%20interested%20in%20exploring%20your%20SAT%20Services.%20Can%20you%20share%20more%20details?"
