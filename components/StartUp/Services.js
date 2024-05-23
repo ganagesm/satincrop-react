@@ -7,7 +7,7 @@ const Services = () => {
       <section className="services-area bg-f2f6f9 ptb-110">
         <div className="container">
           <div className="section-title" style={{ width: "911px" }}>
-            <h2>SAT has focused approach to help your startup create a 0–100-500+ people strong offshore team.</h2>
+            <h2>SAT has focused approach to help your startup create 0–100-500+ people strong offshore team.</h2>
           </div>
 
           <div className="row">
@@ -49,9 +49,9 @@ const Services = () => {
             </div>
             <div className="col-lg-6 col-sm-6">
               <div className="single-services-box" style={{ height: "208px" }}>
-                <h2>Grow
+                <h2>Transfer
                 </h2>
-                <p>Through effective planning, innovation and strong leadership our partners can reach new heights and accelerate their success through profitability.
+                <p>When you are ready to take over, we facilitate a smooth transition, transferring full control of the offshore operations.
                 </p>
                 <br />
 
