@@ -78,7 +78,7 @@ const Index = () => {
       <Navbar />
       <HeroBanner />
       <Services />
-      <div className="">
+      <div className="pb-100">
         <div className="container">
           <div className="row ptb-100 align-items-center">
             <div className="col-lg-12 col-md-6">
@@ -94,7 +94,7 @@ const Index = () => {
         </div>
       </div>
 
-      <div className="">
+      <div className="bg-f2f6f9 pt-100">
         <div className="container">
           <div className="row pb-100 align-items-center">
             <div className="col-lg-12 col-md-6">
@@ -102,11 +102,13 @@ const Index = () => {
                 className="align-items-center"
                 style={{
                   textAlign: "center",
+                  marginBottom: "25px"
                 }}>
                 Helping Our Clients Transform Vision into Reality Through Advanced Technology Solutions.
               </h2>
               <div className="">
                 <img src="/images/client.png" alt="image" />
+                {/* <img src="/images/step-img-1.png" alt="image" /> */}
               </div>
             </div>
           </div>
@@ -149,17 +151,66 @@ const Index = () => {
 
       <div className="" id="contact_section">
         <div className="container">
-          <div className="row ptb-100 align-items-center">
-            <div className="col-lg-6 col-md-6">
+          <div className="row pt-100 justify-content-center">
+            <div className="col-lg-12 col-md-12">
               <h2
                 className="align-items-center"
                 style={{
-                  textAlign: "right",
+                  textAlign: "center",
+                  marginBottom: "40px"
                 }}>
                 Ready to Begin Your startup Journey?
               </h2>
             </div>
-            <div
+            <div className="col-sm-4">
+              <div className="services-area">
+                <div className="single-services-box" style={{ backgroundColor: "#f2f6f9" }}>
+                  <div className="icon">
+                    <img
+                      src="/images/icons/indusrty-icon/email-id.png"
+                      alt="image"
+                      style={{
+                        width: "50%",
+                        textAlign: "center",
+                        marginTop: "10px",
+                      }}
+                    />
+                  </div>
+                  <h2 style={{ margin: "20px 0" }}>Email-ID</h2>
+                  <a
+                    href="mailto:offshore@satincorp.com"
+                    style={{ fontSize: "19px" }}>
+                    offshore@satincorp.com
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="col-sm-4">
+              <div className="services-area">
+                <div className="single-services-box" style={{ backgroundColor: "#f2f6f9" }}>
+                  <div className="icon">
+                    <img
+                      src="/images/icons/indusrty-icon/call.png"
+                      alt="image"
+                      style={{
+                        width: "50%",
+                        textAlign: "center",
+                        marginTop: "10px",
+                      }}
+                    />
+                  </div>
+                  <h2 style={{ margin: "20px 0" }}>Call us now USA</h2>
+                  <h3>
+                    <a
+                      href="https://api.whatsapp.com/send/?phone=%2B9107875787550&text=Hello!%20I%27m%20interested%20in%20exploring%20your%20SAT%20Services.%20Can%20you%20share%20more%20details?"
+                      style={{ textDecoration: "2px dashed underline" }}>
+                      +1 (408)-495-5822
+                    </a>
+                  </h3>
+                </div>
+              </div>
+            </div>
+            {/* <div
               className="col-lg-5 col-md-5"
               style={{
                 textAlign: "left",
@@ -174,7 +225,7 @@ const Index = () => {
                 style={{ fontSize: "22px", marginLeft: "15px" }}>
                 +1 (408)-495-5822
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
