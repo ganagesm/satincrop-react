@@ -19,7 +19,7 @@ const HeroBanner = () => {
           <div
             className="main-banner"
             style={{
-              backgroundImage: `url(/images/icons/home-banner-8.jpeg)`,
+              backgroundImage: `url('https://res.cloudinary.com/dpoxq3jcb/image/upload/f_auto,q_auto/v1/next/gffonlh4vsgnwgekgbf0')`,
             }}>
             <div className="container">
               <div className="main-banner-content">
@@ -40,7 +40,7 @@ const HeroBanner = () => {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
+        {/* <SwiperSlide>
           <div
             className="main-banner"
             style={{
@@ -77,7 +77,6 @@ const HeroBanner = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          {/* <div className="main-banner homeBannerSecond"> */}
           <div
             className="main-banner"
             style={{ backgroundImage: `url(/images/icons/home-banner2.png)` }}>
@@ -114,7 +113,7 @@ const HeroBanner = () => {
               </div>
             </div>
           </div>
-        </SwiperSlide>
+        </SwiperSlide> */}
       </Swiper>
     </>
   );
