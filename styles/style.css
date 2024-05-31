@@ -8686,6 +8686,11 @@ a.btn.btn-primary.ai_btn {
     }
 
     .main-banner {
+        background-image: none;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .main-banner {
         background-image: none !important;
     }
 }

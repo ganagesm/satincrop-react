@@ -11829,4 +11829,9 @@ a.btn.btn-primary.ai_btn {
   background-image: none;
 }
 }
+@media only screen and (max-width: 767px) {
+.main-banner {
+  background-image: none !important;
+}
+}
 /*End "Home Demo - 6", "Home Demo - 7" & "Home Demo - 8" Style CSS*/
