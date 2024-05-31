@@ -18,7 +18,10 @@ const HeroBanner = () => {
         <SwiperSlide>
           <div
             className="main-banner"
-            style={{ backgroundImage: `url(/images/banners/qa-banner.png)` }}>
+            style={{
+              backgroundImage: `url('https://res.cloudinary.com/dpoxq3jcb/image/upload/f_auto,q_auto/v1/next/services/tvnjv7u8odssy2ydcdoo')`,
+            }}>
+            {/* style={{ backgroundImage: `url(/images/banners/qa-banner.png)` }}> */}
             <div className="container">
               <div className="main-banner-content">
                 <h1 style={{ color: "#fff" }}> Test Smarter, Deploy Faster </h1>

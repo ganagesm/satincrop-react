@@ -19,7 +19,8 @@ const HeroBanner = () => {
           <div
             className="main-banner"
             style={{
-              backgroundImage: `url(/images/banners/Data-Science-hero-banner.jpeg)`,
+              backgroundImage: `url('https://res.cloudinary.com/dpoxq3jcb/image/upload/f_auto,q_auto/v1/next/services/fg4k73qu49ztvoiqgpjn')`,
+              // backgroundImage: `url(/images/banners/Data-Science-hero-banner.jpeg)`,
             }}>
             <div className="container">
               <div className="main-banner-content">

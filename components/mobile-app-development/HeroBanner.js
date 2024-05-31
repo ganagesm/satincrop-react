@@ -14,17 +14,21 @@ const HeroBanner = () => {
           pauseOnMouseEnter: true,
         }}
         modules={[Navigation, Autoplay]}
-        className="home-slides"
-      >
+        className="home-slides">
         <SwiperSlide>
           <div
             className="main-banner"
-            style={{ backgroundImage: `url(/images/man-using-smartphone-digital-remix.jpg)` }}
+            style={{
+              backgroundImage: `url('https://res.cloudinary.com/dpoxq3jcb/image/upload/f_auto,q_auto/v1/next/services/biv2jx5maf1f8hlcxurm')`,
+            }}
+            // style={{ backgroundImage: `url(/images/man-using-smartphone-digital-remix.jpg)` }}
           >
             <div className="container">
               <div className="main-banner-content">
                 <h1>
-Revolutionizing Digital Solutions: AI-Powered Mastery by SA Technologies </h1>
+                  Revolutionizing Digital Solutions: AI-Powered Mastery by SA
+                  Technologies{" "}
+                </h1>
                 {/* <p> Faster Development with AI Integration, High-Quality Apps with Intelligent Features, Enhanced Security with AI-Driven Solutions, AI for Predictive Analysis and Smart Decision-Making </p> */}
 
                 <div className="btn-box">

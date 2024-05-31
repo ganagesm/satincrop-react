@@ -14,12 +14,14 @@ const HeroBanner = () => {
           pauseOnMouseEnter: true,
         }}
         modules={[Navigation, Autoplay]}
-        className="home-slides"
-      >
+        className="home-slides">
         <SwiperSlide>
           <div
             className="main-banner"
-            style={{ backgroundImage: `url(/images/banners/data-science-banner1.jpeg)` }}
+            style={{
+              backgroundImage: `url(https://res.cloudinary.com/dpoxq3jcb/image/upload/f_auto,q_auto/v1/next/services/dxlo4dhcagbvmp0ke0dr)`,
+            }}
+            // style={{ backgroundImage: `url(/images/banners/data-science-banner1.jpeg)` }}
           >
             <div className="container">
               <div className="main-banner-content">
