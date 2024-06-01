@@ -45,6 +45,7 @@ const ServiceDetailsContent = () => {
                 src="next/side images/internal audit/ndztmx0az88dqfclqyjt"
                 width="700"
                 height="400"
+                alt="Our Legacy in Compliance"
               />
             </div>
           </div>
@@ -60,6 +61,7 @@ const ServiceDetailsContent = () => {
                 src="next/side images/internal audit/hjxzw1e4dbetpjal5nzn"
                 width="700"
                 height="400"
+                alt="The SA Technologies RIM Methodology"
               />
             </div>
             <div className="services-details-desc mb-30">

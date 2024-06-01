@@ -125,7 +125,13 @@ function MyApp({ Component, pageProps }) {
         }}></noscript>
       <Component {...pageProps} />
 
-      <CldImage publicId="dpoxq3jcb" />
+      {/* <CldImage
+        src="dpoxq3jcb"
+        width={200}
+        alt=""
+        height={200}
+        publicid="dpoxq3jcb"
+      /> */}
       {/* Go Top Button */}
       <GoTop scrollStepInPx="50" delayInMs="10.50" />
     </>

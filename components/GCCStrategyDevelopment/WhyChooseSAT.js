@@ -12,7 +12,7 @@ const ComputerVisionAI = () => {
               <div className="computer-vision-ai-image">
                 <img
                   src="/images/home-six/computer-vision/computer-vision-ai.png"
-                  alt="image"
+                  alt="Key Points of Setting Up a Global Capability Center (GCC)"
                 />
                 {/* <CldImage
                   src="next/side images/cyp8jwvniuabxggfnng2"
@@ -111,9 +111,11 @@ const ComputerVisionAI = () => {
               <center>
                 <CldImage
                   src="next/side images/GCC Pages/strategy/zrmhyy11kq7kvg2gkggu"
+                  priority={false}
+                  quality={75}
                   width="700"
                   height="500"
-                  alt="Energetic workforce at a bustling Global Capability Center focused on delivering global business solutions."
+                  alt="Diverse Industry Presence"
                   crop={{
                     type: "auto",
                     source: true,

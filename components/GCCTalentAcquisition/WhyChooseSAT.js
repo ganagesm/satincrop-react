@@ -114,6 +114,7 @@ const ComputerVisionAI = () => {
                   src="next/side images/GCC Pages/talen acqu/povb50ap1jsgeeckhvj6"
                   width="700" //https://res.cloudinary.com/dpoxq3jcb/image/upload/f_auto,q_auto/v1/next/side%20images/GCC%20Pages/talen%20acqu/w0qvzislyumawyyjhep1
                   height="600"
+                  alt="Continuous Professional Development"
                 />
               </center>
             </div>

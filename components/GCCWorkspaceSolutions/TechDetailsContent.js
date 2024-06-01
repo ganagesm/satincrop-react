@@ -44,6 +44,8 @@ const ServiceDetailsContent = () => {
                 src="next/side images/GCC Pages/workspace/tumwvjgahf24whahkbru"
                 width="700" //res.cloudinary.com/dpoxq3jcb/image/upload/f_auto,q_auto/v1/next/side%20images/GCC%20Pages/workspace/tumwvjgahf24whahkbru
                 height="600"
+                alt=" Revolutionizing Global Capability with SAT Innovative Workspace
+                Solutions"
               />
             </div>
           </div>

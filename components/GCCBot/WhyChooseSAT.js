@@ -98,6 +98,7 @@ const ComputerVisionAI = () => {
                 src="next/side images/GCC Pages/bot/rxxxs0sbdtrrzqpfbnys"
                 width="700"
                 height="400"
+                alt="Join Hands with SAT for a Future-Ready Approach"
               />
             </div>
 

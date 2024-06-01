@@ -49,6 +49,7 @@ const ServiceDetailsContent = () => {
                 src="next/side images/GCC Pages/legal/ovp3pafroxsemvje5imx"
                 width="700" //https://res.cloudinary.com/dpoxq3jcb/image/upload/f_auto,q_auto/v1/next/side%20images/GCC%20Pages/talen%20acqu/w0qvzislyumawyyjhep1
                 height="600"
+                alt="GCC Legal Registration Support"
               />
             </div>
           </div>

@@ -31,6 +31,7 @@ const ServiceDetailsContent = () => {
                 src="next/side images/GCC Pages/bot/gbdikvw7rg7evbubrm7r"
                 width="700"
                 height="400"
+                alt="Build Operate Transfer (BOT) with SAT"
               />
             </div>
           </div>
@@ -41,6 +42,7 @@ const ServiceDetailsContent = () => {
                 src="next/side images/GCC Pages/bot/scybov1ft1xc662jwo6n"
                 width="700"
                 height="400"
+                alt="Why Choose SAT's BOT Model?"
               />
             </div>
 

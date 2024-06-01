@@ -26,7 +26,7 @@ const PartnerContent = () => {
               data-aos="fade-in"
               data-aos-duration="1200"
               data-aos-delay="100">
-              <a href="javascript:void(0)" rel="noreferrer">
+              <a href="#" onClick={(e) => { e.preventDefault(); }} rel="noreferrer">
                 <img
                   src="https://res.cloudinary.com/dpoxq3jcb/image/upload/f_auto,q_auto/v1/next/clients/eehf8ksxg75kejjlwhe3"
                   alt="image"
@@ -39,7 +39,7 @@ const PartnerContent = () => {
               data-aos="fade-in"
               data-aos-duration="1200"
               data-aos-delay="200">
-              <a href="javascript:void(0)" rel="noreferrer">
+              <a href="#" onClick={(e) => { e.preventDefault(); }} rel="noreferrer">
                 <img
                   src="https://res.cloudinary.com/dpoxq3jcb/image/upload/f_auto,q_auto/v1/next/clients/on3ifrv6es7nltw8dvm3"
                   alt="image"
@@ -52,7 +52,7 @@ const PartnerContent = () => {
               data-aos="fade-in"
               data-aos-duration="1200"
               data-aos-delay="300">
-              <a href="javascript:void(0)" rel="noreferrer">
+              <a href="#" onClick={(e) => { e.preventDefault(); }} rel="noreferrer">
                 <img
                   src="https://res.cloudinary.com/dpoxq3jcb/image/upload/f_auto,q_auto/v1/next/clients/qks3nddcghydzkkmxyp1"
                   alt="image"
@@ -65,7 +65,7 @@ const PartnerContent = () => {
               data-aos="fade-in"
               data-aos-duration="1200"
               data-aos-delay="400">
-              <a href="javascript:void(0)" rel="noreferrer">
+              <a href="#" onClick={(e) => { e.preventDefault(); }} rel="noreferrer">
                 <img
                   src="https://res.cloudinary.com/dpoxq3jcb/image/upload/f_auto,q_auto/v1/next/clients/aeetodqfmpm5a4vatpty"
                   alt="image"
@@ -78,7 +78,7 @@ const PartnerContent = () => {
               data-aos="fade-in"
               data-aos-duration="1200"
               data-aos-delay="500">
-              <a href="javascript:void(0)" rel="noreferrer">
+              <a href="#" onClick={(e) => { e.preventDefault(); }} rel="noreferrer">
                 <img
                   src="https://res.cloudinary.com/dpoxq3jcb/image/upload/f_auto,q_auto/v1/next/clients/di99xtvny4pqx6pl0kpr"
                   alt="image"
@@ -91,7 +91,7 @@ const PartnerContent = () => {
               data-aos="fade-in"
               data-aos-duration="1200"
               data-aos-delay="600">
-              <a href="javascript:void(0)" rel="noreferrer">
+              <a href="#" onClick={(e) => { e.preventDefault(); }} rel="noreferrer">
                 <img
                   src="https://res.cloudinary.com/dpoxq3jcb/image/upload/f_auto,q_auto/v1/next/clients/utqzw1w5hnralajdioiw"
                   alt="image"
@@ -104,7 +104,7 @@ const PartnerContent = () => {
               data-aos="fade-in"
               data-aos-duration="1200"
               data-aos-delay="700">
-              <a href="javascript:void(0)" rel="noreferrer">
+              <a href="#" onClick={(e) => { e.preventDefault(); }} rel="noreferrer">
                 <img
                   src="https://res.cloudinary.com/dpoxq3jcb/image/upload/f_auto,q_auto/v1/next/clients/zxeqwcafer5nzjzklyxg"
                   alt="image"
@@ -117,7 +117,7 @@ const PartnerContent = () => {
               data-aos="fade-in"
               data-aos-duration="1200"
               data-aos-delay="800">
-              <a href="javascript:void(0)" rel="noreferrer">
+              <a href="#" onClick={(e) => { e.preventDefault(); }} rel="noreferrer">
                 <img
                   src="https://res.cloudinary.com/dpoxq3jcb/image/upload/f_auto,q_auto/v1/next/clients/luxqcsfmp64kw2e2czhq"
                   alt="image"
@@ -130,7 +130,7 @@ const PartnerContent = () => {
               data-aos="fade-in"
               data-aos-duration="1200"
               data-aos-delay="900">
-              <a href="javascript:void(0)" rel="noreferrer">
+              <a href="#" onClick={(e) => { e.preventDefault(); }} rel="noreferrer">
                 <img
                   src="https://res.cloudinary.com/dpoxq3jcb/image/upload/f_auto,q_auto/v1/next/clients/f9ersisojutxg5dtecfo"
                   alt="image"
@@ -144,7 +144,7 @@ const PartnerContent = () => {
               data-aos="fade-in"
               data-aos-duration="1200"
               data-aos-delay="1000">
-              <a href="javascript:void(0)" rel="noreferrer">
+              <a href="#" onClick={(e) => { e.preventDefault(); }} rel="noreferrer">
                 <img
                   src="https://res.cloudinary.com/dpoxq3jcb/image/upload/f_auto,q_auto/v1/next/clients/en3cqxxptcfw6gmbtioy"
                   alt="image"
@@ -156,7 +156,7 @@ const PartnerContent = () => {
               data-aos="fade-in"
               data-aos-duration="1200"
               data-aos-delay="1100">
-              <a href="javascript:void(0)" rel="noreferrer">
+              <a href="#" onClick={(e) => { e.preventDefault(); }} rel="noreferrer">
                 <img
                   src="https://res.cloudinary.com/dpoxq3jcb/image/upload/f_auto,q_auto/v1/next/clients/si8le4rn7qh6aj5fisis"
                   alt="image"
@@ -168,7 +168,7 @@ const PartnerContent = () => {
               data-aos="fade-in"
               data-aos-duration="1200"
               data-aos-delay="1200">
-              <a href="javascript:void(0)" rel="noreferrer">
+              <a href="#" onClick={(e) => { e.preventDefault(); }} rel="noreferrer">
                 <img
                   src="https://res.cloudinary.com/dpoxq3jcb/image/upload/f_auto,q_auto/v1/next/clients/lobsncgxjq8ibab7rhbb"
                   alt="image"
@@ -180,7 +180,7 @@ const PartnerContent = () => {
               data-aos="fade-in"
               data-aos-duration="1200"
               data-aos-delay="1300">
-              <a href="javascript:void(0)" rel="noreferrer">
+              <a href="#" onClick={(e) => { e.preventDefault(); }} rel="noreferrer">
                 <img
                   src="https://res.cloudinary.com/dpoxq3jcb/image/upload/f_auto,q_auto/v1/next/clients/x02eha84gkmqc3kc1sfr"
                   alt="image"
@@ -192,7 +192,7 @@ const PartnerContent = () => {
               data-aos="fade-in"
               data-aos-duration="1200"
               data-aos-delay="1400">
-              <a href="javascript:void(0)" rel="noreferrer">
+              <a href="#" onClick={(e) => { e.preventDefault(); }} rel="noreferrer">
                 <img
                   src="https://res.cloudinary.com/dpoxq3jcb/image/upload/f_auto,q_auto/v1/next/clients/unsiaklwlfi3b7ytu9qe"
                   alt="image"
@@ -204,7 +204,7 @@ const PartnerContent = () => {
               data-aos="fade-in"
               data-aos-duration="1200"
               data-aos-delay="1500">
-              <a href="javascript:void(0)" rel="noreferrer">
+              <a href="#" onClick={(e) => { e.preventDefault(); }} rel="noreferrer">
                 <img
                   src="https://res.cloudinary.com/dpoxq3jcb/image/upload/f_auto,q_auto/v1/next/clients/ws9lfvozg9ipgnsvdhuu"
                   alt="image"
@@ -216,7 +216,7 @@ const PartnerContent = () => {
               data-aos="fade-in"
               data-aos-duration="1200"
               data-aos-delay="1600">
-              <a href="javascript:void(0)" rel="noreferrer">
+              <a href="#" onClick={(e) => { e.preventDefault(); }} rel="noreferrer">
                 <img
                   src="https://res.cloudinary.com/dpoxq3jcb/image/upload/f_auto,q_auto/v1/next/clients/pxt1hxbufjmvqd38xhav"
                   alt="image"
@@ -228,7 +228,7 @@ const PartnerContent = () => {
               data-aos="fade-in"
               data-aos-duration="1200"
               data-aos-delay="1700">
-              <a href="javascript:void(0)" rel="noreferrer">
+              <a href="#" onClick={(e) => { e.preventDefault(); }} rel="noreferrer">
                 <img
                   src="https://res.cloudinary.com/dpoxq3jcb/image/upload/f_auto,q_auto/v1/next/clients/t5ngumilzzigr6sblzhc"
                   alt="image"
@@ -251,7 +251,12 @@ const PartnerContent = () => {
               data-aos="fade-in"
               data-aos-duration="1200"
               data-aos-delay="100">
-              <a href="javascript:void(0)" rel="noreferrer">
+              <a
+                href="#"
+                onClick={(e) => {
+                  e.preventDefault();
+                }}
+                rel="noreferrer">
                 <img
                   src="https://res.cloudinary.com/dpoxq3jcb/image/upload/f_auto,q_auto/v1/next/clients/eehf8ksxg75kejjlwhe3"
                   alt="image"
@@ -264,7 +269,12 @@ const PartnerContent = () => {
               data-aos="fade-in"
               data-aos-duration="1200"
               data-aos-delay="200">
-              <a href="javascript:void(0)" rel="noreferrer">
+              <a
+                href="#"
+                onClick={(e) => {
+                  e.preventDefault();
+                }}
+                rel="noreferrer">
                 <img
                   src="https://res.cloudinary.com/dpoxq3jcb/image/upload/f_auto,q_auto/v1/next/clients/on3ifrv6es7nltw8dvm3"
                   alt="image"
@@ -277,7 +287,12 @@ const PartnerContent = () => {
               data-aos="fade-in"
               data-aos-duration="1200"
               data-aos-delay="300">
-              <a href="javascript:void(0)" rel="noreferrer">
+              <a
+                href="#"
+                onClick={(e) => {
+                  e.preventDefault();
+                }}
+                rel="noreferrer">
                 <img
                   src="https://res.cloudinary.com/dpoxq3jcb/image/upload/f_auto,q_auto/v1/next/clients/qks3nddcghydzkkmxyp1"
                   alt="image"
@@ -290,7 +305,12 @@ const PartnerContent = () => {
               data-aos="fade-in"
               data-aos-duration="1200"
               data-aos-delay="400">
-              <a href="javascript:void(0)" rel="noreferrer">
+              <a
+                href="#"
+                onClick={(e) => {
+                  e.preventDefault();
+                }}
+                rel="noreferrer">
                 <img
                   src="https://res.cloudinary.com/dpoxq3jcb/image/upload/f_auto,q_auto/v1/next/clients/aeetodqfmpm5a4vatpty"
                   alt="image"
@@ -303,7 +323,12 @@ const PartnerContent = () => {
               data-aos="fade-in"
               data-aos-duration="1200"
               data-aos-delay="500">
-              <a href="javascript:void(0)" rel="noreferrer">
+              <a
+                href="#"
+                onClick={(e) => {
+                  e.preventDefault();
+                }}
+                rel="noreferrer">
                 <img
                   src="https://res.cloudinary.com/dpoxq3jcb/image/upload/f_auto,q_auto/v1/next/clients/di99xtvny4pqx6pl0kpr"
                   alt="image"
@@ -316,7 +341,12 @@ const PartnerContent = () => {
               data-aos="fade-in"
               data-aos-duration="1200"
               data-aos-delay="600">
-              <a href="javascript:void(0)" rel="noreferrer">
+              <a
+                href="#"
+                onClick={(e) => {
+                  e.preventDefault();
+                }}
+                rel="noreferrer">
                 <img
                   src="https://res.cloudinary.com/dpoxq3jcb/image/upload/f_auto,q_auto/v1/next/clients/utqzw1w5hnralajdioiw"
                   alt="image"
@@ -329,7 +359,12 @@ const PartnerContent = () => {
               data-aos="fade-in"
               data-aos-duration="1200"
               data-aos-delay="700">
-              <a href="javascript:void(0)" rel="noreferrer">
+              <a
+                href="#"
+                onClick={(e) => {
+                  e.preventDefault();
+                }}
+                rel="noreferrer">
                 <img
                   src="https://res.cloudinary.com/dpoxq3jcb/image/upload/f_auto,q_auto/v1/next/clients/zxeqwcafer5nzjzklyxg"
                   alt="image"
@@ -342,7 +377,12 @@ const PartnerContent = () => {
               data-aos="fade-in"
               data-aos-duration="1200"
               data-aos-delay="800">
-              <a href="javascript:void(0)" rel="noreferrer">
+              <a
+                href="#"
+                onClick={(e) => {
+                  e.preventDefault();
+                }}
+                rel="noreferrer">
                 <img
                   src="https://res.cloudinary.com/dpoxq3jcb/image/upload/f_auto,q_auto/v1/next/clients/luxqcsfmp64kw2e2czhq"
                   alt="image"
@@ -355,7 +395,12 @@ const PartnerContent = () => {
               data-aos="fade-in"
               data-aos-duration="1200"
               data-aos-delay="900">
-              <a href="javascript:void(0)" rel="noreferrer">
+              <a
+                href="#"
+                onClick={(e) => {
+                  e.preventDefault();
+                }}
+                rel="noreferrer">
                 <img
                   src="https://res.cloudinary.com/dpoxq3jcb/image/upload/f_auto,q_auto/v1/next/clients/f9ersisojutxg5dtecfo"
                   alt="image"
@@ -377,7 +422,12 @@ const PartnerContent = () => {
               data-aos="fade-in"
               data-aos-duration="1200"
               data-aos-delay="1000">
-              <a href="javascript:void(0)" rel="noreferrer">
+              <a
+                href="#"
+                onClick={(e) => {
+                  e.preventDefault();
+                }}
+                rel="noreferrer">
                 <img
                   src="https://res.cloudinary.com/dpoxq3jcb/image/upload/f_auto,q_auto/v1/next/clients/en3cqxxptcfw6gmbtioy"
                   alt="image"
@@ -389,7 +439,12 @@ const PartnerContent = () => {
               data-aos="fade-in"
               data-aos-duration="1200"
               data-aos-delay="1100">
-              <a href="javascript:void(0)" rel="noreferrer">
+              <a
+                href="#"
+                onClick={(e) => {
+                  e.preventDefault();
+                }}
+                rel="noreferrer">
                 <img
                   src="https://res.cloudinary.com/dpoxq3jcb/image/upload/f_auto,q_auto/v1/next/clients/si8le4rn7qh6aj5fisis"
                   alt="image"
@@ -401,7 +456,12 @@ const PartnerContent = () => {
               data-aos="fade-in"
               data-aos-duration="1200"
               data-aos-delay="1200">
-              <a href="javascript:void(0)" rel="noreferrer">
+              <a
+                href="#"
+                onClick={(e) => {
+                  e.preventDefault();
+                }}
+                rel="noreferrer">
                 <img
                   src="https://res.cloudinary.com/dpoxq3jcb/image/upload/f_auto,q_auto/v1/next/clients/lobsncgxjq8ibab7rhbb"
                   alt="image"
@@ -413,7 +473,12 @@ const PartnerContent = () => {
               data-aos="fade-in"
               data-aos-duration="1200"
               data-aos-delay="1300">
-              <a href="javascript:void(0)" rel="noreferrer">
+              <a
+                href="#"
+                onClick={(e) => {
+                  e.preventDefault();
+                }}
+                rel="noreferrer">
                 <img
                   src="https://res.cloudinary.com/dpoxq3jcb/image/upload/f_auto,q_auto/v1/next/clients/x02eha84gkmqc3kc1sfr"
                   alt="image"
@@ -425,7 +490,12 @@ const PartnerContent = () => {
               data-aos="fade-in"
               data-aos-duration="1200"
               data-aos-delay="1400">
-              <a href="javascript:void(0)" rel="noreferrer">
+              <a
+                href="#"
+                onClick={(e) => {
+                  e.preventDefault();
+                }}
+                rel="noreferrer">
                 <img
                   src="https://res.cloudinary.com/dpoxq3jcb/image/upload/f_auto,q_auto/v1/next/clients/unsiaklwlfi3b7ytu9qe"
                   alt="image"
@@ -437,7 +507,12 @@ const PartnerContent = () => {
               data-aos="fade-in"
               data-aos-duration="1200"
               data-aos-delay="1500">
-              <a href="javascript:void(0)" rel="noreferrer">
+              <a
+                href="#"
+                onClick={(e) => {
+                  e.preventDefault();
+                }}
+                rel="noreferrer">
                 <img
                   src="https://res.cloudinary.com/dpoxq3jcb/image/upload/f_auto,q_auto/v1/next/clients/ws9lfvozg9ipgnsvdhuu"
                   alt="image"
@@ -449,7 +524,12 @@ const PartnerContent = () => {
               data-aos="fade-in"
               data-aos-duration="1200"
               data-aos-delay="1600">
-              <a href="javascript:void(0)" rel="noreferrer">
+              <a
+                href="#"
+                onClick={(e) => {
+                  e.preventDefault();
+                }}
+                rel="noreferrer">
                 <img
                   src="https://res.cloudinary.com/dpoxq3jcb/image/upload/f_auto,q_auto/v1/next/clients/pxt1hxbufjmvqd38xhav"
                   alt="image"
@@ -461,7 +541,12 @@ const PartnerContent = () => {
               data-aos="fade-in"
               data-aos-duration="1200"
               data-aos-delay="1700">
-              <a href="javascript:void(0)" rel="noreferrer">
+              <a
+                href="#"
+                onClick={(e) => {
+                  e.preventDefault();
+                }}
+                rel="noreferrer">
                 <img
                   src="https://res.cloudinary.com/dpoxq3jcb/image/upload/f_auto,q_auto/v1/next/clients/t5ngumilzzigr6sblzhc"
                   alt="image"
@@ -474,7 +559,7 @@ const PartnerContent = () => {
               data-aos-duration="1200"
               data-aos-delay="1800"
             >
-              <a href="javascript:void(0)" rel="noreferrer">
+              <a href="#" onClick={(e) => { e.preventDefault(); }} rel="noreferrer">
                 <img src="/images/clients/18.png" alt="image" />
               </a>
             </div> */}
