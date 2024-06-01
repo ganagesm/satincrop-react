@@ -3077,22 +3077,22 @@ Page Title Area CSS
     background-image: url(/images/page-title-bg1.jpg);
 }
 .page-title-area.item-bg2 {
-    background-image: url(/images/technology-banner/Microsoft-banner.jpg);
+    background-image: url(https://res.cloudinary.com/dpoxq3jcb/image/upload/f_auto,q_auto/v1/next/tech/co0ygfgbhqs0cjrrolxm);
 }
 .page-title-area.item-bg3 {
     background-image: url(/images/technology-banner/oracle-banner.jpg);
 }
 .page-title-area.item-bg4 {
-    background-image: url(/images/technology-banner/oracle-banner.jpg);
+    background-image: url(https://res.cloudinary.com/dpoxq3jcb/image/upload/f_auto,q_auto/v1/next/tech/wjuqgibdy76qowdfh5vm);
 }
 .page-title-area.item-bg5 {
-    background-image: url(/images/technology-banner/aws-banner.jpg);
+    background-image: url(https://res.cloudinary.com/dpoxq3jcb/image/upload/f_auto,q_auto/v1/next/tech/uf4hp3g7fn5gytoe7wqq);
 }
 .page-title-area.item-bg6 {
-    background-image: url(/images/technology-banner/saleforce-banner.png);
+    background-image: url(https://res.cloudinary.com/dpoxq3jcb/image/upload/f_auto,q_auto/v1/next/tech/spyl6suixoh910qfjk2c);
 }
 .page-title-area.item-bg7 {
-    background-image: url(/images/technology-banner/servicenow-banner.jpg);
+    background-image: url(https://res.cloudinary.com/dpoxq3jcb/image/upload/f_auto,q_auto/v1/next/tech/lm8tbbftovgo3p5bncl3);
 }
 .page-title-area.item-bg8 {
     background-image: url(/images/technology-banner/Contingent.jpg);
@@ -3110,7 +3110,7 @@ Page Title Area CSS
     background-image: url(/images/technology-banner/contact.png);
 }
 .page-title-area.item-bg13 {
-    background-image: url(/images/technology-banner/MendixBanner.jpg);
+    background-image: url(https://res.cloudinary.com/dpoxq3jcb/image/upload/f_auto,q_auto/v1/next/tech/ftlgjgksjhmyqrwfo3by);
 }
 .page-title-area.item-bg14 {
     background-image: url(/images/technology-banner/RPO.png);
@@ -3177,7 +3177,8 @@ Page Title Area CSS
     background-image: url(/images/microsoft-power-platform-image-2.jpeg);
 }
 .page-title-area.item-bg35 {
-    background-image: url(/images/google-banner-2.jpeg);
+    background-image: url("https://res.cloudinary.com/dpoxq3jcb/image/upload/f_auto,q_auto/v1/next/tech/s2nk8lih7g5ah1bachmj");
+    background-background-position: 100% 31%;
 }
 .page-title-area.item-bg35::before {
     content: "";
@@ -8682,6 +8683,15 @@ a.btn.btn-primary.ai_btn {
 @media only screen and (min-width: 767px) {
     .contactPageSupport .icon {
         position: relative;
+    }
+
+    .main-banner {
+        background-image: none;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .main-banner {
+        background-image: none !important;
     }
 }
 /*End "Home Demo - 6", "Home Demo - 7" & "Home Demo - 8" Style CSS*/

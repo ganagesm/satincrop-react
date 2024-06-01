@@ -1,5 +1,5 @@
-import React, { useEffect, useState, Component } from 'react';
-import { useRouter } from 'next/router';
+import React, { useEffect, useState, Component } from "react";
+import { useRouter } from "next/router";
 import Link from "next/link";
 
 export default function BlogThreeGrid() {
@@ -7,34 +7,34 @@ export default function BlogThreeGrid() {
   const [currentPage, setCurrentPage] = useState(1);
   const [totalPages, setTotalPages] = useState(1);
   const pageSize = 10; // Number of posts per page
-  const postApi = 'https://dev1.satincorp.com/wp-json/wp/v2';
+  const postApi = "https://dev1.satincorp.com/wp-json/wp/v2";
   const router = useRouter();
-
 
   useEffect(() => {
     async function fetchPosts() {
       try {
         // news and event category
-        const response = await fetch(`${postApi}/posts?categories=130&page=${currentPage}&per_page=${pageSize}&order=desc`);
+        const response = await fetch(
+          `${postApi}/posts?categories=130&page=${currentPage}&per_page=${pageSize}&order=desc`
+        );
 
         if (!response.ok) {
-          throw new Error('Network response was not ok');
+          throw new Error("Network response was not ok");
         }
 
         const postsData = await response.json();
         setPosts(postsData);
 
         // Set the total pages based on the response headers
-        const totalPagesHeader = response.headers.get('X-WP-TotalPages');
+        const totalPagesHeader = response.headers.get("X-WP-TotalPages");
         setTotalPages(parseInt(totalPagesHeader, 10) || 1);
       } catch (error) {
-        console.error('Error fetching posts:', error);
+        console.error("Error fetching posts:", error);
       }
     }
 
     fetchPosts();
   }, [currentPage]);
-  console.log("currentPage", currentPage);
 
   const handlePrevPage = () => {
     if (currentPage > 10) {
@@ -63,7 +63,9 @@ export default function BlogThreeGrid() {
               <div className="col-lg-4 col-md-6">
                 <div className="single-blog-post" key={index}>
                   <div className="entry-thumbnail">
-                    <Link href="/news-and-events/[slug]" as={`/news-and-events/${post.slug}`}>
+                    <Link
+                      href="/news-and-events/[slug]"
+                      as={`/news-and-events/${post.slug}`}>
                       <img src={post.featured_image_url[0]} alt="image" />
                     </Link>
                   </div>
@@ -83,14 +85,24 @@ export default function BlogThreeGrid() {
 
                     <h3>
                       <div
-                        dangerouslySetInnerHTML={{ __html: post.title.rendered }}
+                        dangerouslySetInnerHTML={{
+                          __html: post.title.rendered,
+                        }}
                       />
                     </h3>
 
-
-                    <div dangerouslySetInnerHTML={{ __html: post.excerpt.rendered }} />
-                    <Link className="learn-more-btn" href="/news-and-events/[slug]" as={`/news-and-events/${post.slug}`}> Read More <i className="flaticon-add"></i></Link>
-
+                    <div
+                      dangerouslySetInnerHTML={{
+                        __html: post.excerpt.rendered,
+                      }}
+                    />
+                    <Link
+                      className="learn-more-btn"
+                      href="/news-and-events/[slug]"
+                      as={`/news-and-events/${post.slug}`}>
+                      {" "}
+                      Read More <i className="flaticon-add"></i>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -101,8 +113,7 @@ export default function BlogThreeGrid() {
                 <button
                   onClick={() => handlePageChange(currentPage - 1)}
                   disabled={currentPage === 1}
-                  className="prev page-numbers"
-                >
+                  className="prev page-numbers">
                   <i className="fas fa-angle-double-left"></i>
                 </button>
 
@@ -110,8 +121,9 @@ export default function BlogThreeGrid() {
                   <button
                     key={i}
                     onClick={() => handlePageChange(i + 1)}
-                    className={`page-numbers ${currentPage === i + 1 ? 'current' : ''}`}
-                  >
+                    className={`page-numbers ${
+                      currentPage === i + 1 ? "current" : ""
+                    }`}>
                     {i + 1}
                   </button>
                 ))}
@@ -119,8 +131,7 @@ export default function BlogThreeGrid() {
                 <button
                   onClick={() => handlePageChange(currentPage + 1)}
                   disabled={currentPage === totalPages}
-                  className="next page-numbers"
-                >
+                  className="next page-numbers">
                   <i className="fas fa-angle-double-right"></i>
                 </button>
               </div>

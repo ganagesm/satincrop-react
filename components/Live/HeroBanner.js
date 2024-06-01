@@ -19,12 +19,13 @@ const HeroBanner = () => {
           <div
             className="main-banner"
             style={{
-              backgroundImage: `url('https://res.cloudinary.com/dpoxq3jcb/image/upload/f_auto,q_auto/v1/next/gffonlh4vsgnwgekgbf0')`,
+              backgroundImage: `url('https://res.cloudinary.com/dpoxq3jcb/image/upload/f_auto,q_auto/v1/next/qtkrwbzkrdfw3x4kn97i')`,
+              // backgroundImage: `url(/images/icons/home-banner-8.jpeg)`,
             }}>
             <div className="container">
               <div className="main-banner-content">
                 <h1 style={{ color: "#fff" }}>
-                  Your Google Cloud AI Service Experts
+                  Empowering Innovation with AI-Driven Solutions
                 </h1>
                 <p style={{ color: "#fff" }}>
                   Migrate, modernize, and transform your business with the power

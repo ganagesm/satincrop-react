@@ -14,16 +14,21 @@ const HeroBanner = () => {
           pauseOnMouseEnter: true,
         }}
         modules={[Navigation, Autoplay]}
-        className="home-slides"
-      >
+        className="home-slides">
         <SwiperSlide>
           <div
             className="main-banner"
-            style={{ backgroundImage: `url(/images/banners/rpa-banner.jpg)` }}
+            style={{
+              backgroundImage: `url('https://res.cloudinary.com/dpoxq3jcb/image/upload/f_auto,q_auto/v1/next/services/kmexxayippbpwupk5dsv')`,
+            }}
+            // style={{ backgroundImage: `url(/images/banners/rpa-banner.jpg)` }}
           >
             <div className="container">
               <div className="main-banner-content">
-                <h1>Transforming Operations: Unleash the Power of Robotic Automation </h1>
+                <h1>
+                  Transforming Operations: Unleash the Power of Robotic
+                  Automation{" "}
+                </h1>
                 <div className="btn-box">
                   <Link href="/contact-us/" className="btn btn-primary">
                     Schedule a Call

@@ -1111,6 +1111,8 @@
   .home-slides .main-banner {
     padding-top: 170px;
     padding-bottom: 150px;
+    background-image: none;
+    background-color: #14171a;
   }
 
   .home-slides .main-banner .main-banner-content p {

@@ -14,17 +14,18 @@ const HeroBanner = () => {
           pauseOnMouseEnter: true,
         }}
         modules={[Navigation, Autoplay]}
-        className="home-slides"
-      >
+        className="home-slides">
         <SwiperSlide>
           <div
             className="main-banner"
-            style={{ backgroundImage: `url(/images/banners/software-hero-banner.png)` }}
+            style={{
+              backgroundImage: `url('https://res.cloudinary.com/dpoxq3jcb/image/upload/f_auto,q_auto/v1/next/services/qm85exdpbjk2ich37tr9')`,
+            }}
+            // style={{ backgroundImage: `url(/images/banners/software-hero-banner.png)` }}
           >
             <div className="container">
               <div className="main-banner-content">
                 <h1>
-
                   Leading the Way in Modern Software Application Development
                 </h1>
                 {/* <p> Faster Development with AI Integration, High-Quality Apps with Intelligent Features, Enhanced Security with AI-Driven Solutions, AI for Predictive Analysis and Smart Decision-Making </p> */}
