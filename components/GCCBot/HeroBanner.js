@@ -18,7 +18,11 @@ const HeroBanner = () => {
         <SwiperSlide>
           <div
             className="main-banner"
-            style={{ backgroundImage: `url(/images/banners/botbanner.png)` }}>
+            style={{
+              backgroundImage: `url(${process.env.NEXT_PUBLIC_CLOUDINARY_BASE_URL}/f_auto,q_auto/v1/next/GCC%20Pages/mozy38oylkbqbmxxrliy)`,
+            }}>
+            {/* style={{ backgroundImage: `url(/images/banners/botbanner.png)` }}> */}
+
             <div className="container">
               <div className="main-banner-content">
                 <h1 style={{ color: "#fff" }}>

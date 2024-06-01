@@ -1,4 +1,5 @@
 import React from "react";
+import { CldImage } from "next-cloudinary";
 
 const AboutContact = () => {
   return (
@@ -8,15 +9,40 @@ const AboutContact = () => {
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12">
               <div className="about-image">
-                <img src="/images/about/4.jpg" alt="image" />
-                <img src="/images/about/5.jpg" alt="image" />
+                {/* <img src="/images/about/4.jpg" alt="image" /> */}
+                {/* <img src="/images/about/5.jpg" alt="image" /> */}
+                <CldImage
+                  src="next/Homepage/eadsl3ugedhsuk587mba"
+                  width="350"
+                  height="350"
+                  alt="SAT About Us"
+                  crop={{
+                    type: "auto",
+                    source: true,
+                  }}
+                />
+                <CldImage
+                  src="next/Homepage/dlehwqkok1yp3o2vqaeb"
+                  width="350"
+                  height="350"
+                  alt="SAT About Us"
+                  crop={{
+                    type: "auto",
+                    source: true,
+                  }}
+                />
               </div>
             </div>
 
             <div className="col-lg-6 col-md-12">
               <div className="about-content">
                 <h2>Boost Your Business with SAT: Dive into Digital and AI</h2>
-                <p> Choose SAT to guide you through the world of digital and AI. Our team, from all around the world, is skilled in AI and offers custom digital solutions to keep your business ahead. </p>
+                <p>
+                  {" "}
+                  Choose SAT to guide you through the world of digital and AI.
+                  Our team, from all around the world, is skilled in AI and
+                  offers custom digital solutions to keep your business ahead.{" "}
+                </p>
               </div>
             </div>
           </div>
