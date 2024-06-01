@@ -12,6 +12,7 @@ import ReactGA from "react-ga";
 import Script from "next/script";
 import Head from "next/head";
 import { useRouter } from "next/router";
+import CldImage from "../utils/cloudinary"; // Adjust path as needed
 
 // Global Styles
 import "../styles/style.css";
@@ -124,6 +125,13 @@ function MyApp({ Component, pageProps }) {
         }}></noscript>
       <Component {...pageProps} />
 
+      {/* <CldImage
+        src="dpoxq3jcb"
+        width={200}
+        alt=""
+        height={200}
+        publicid="dpoxq3jcb"
+      /> */}
       {/* Go Top Button */}
       <GoTop scrollStepInPx="50" delayInMs="10.50" />
     </>

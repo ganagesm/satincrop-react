@@ -19,7 +19,8 @@ const HeroBanner = () => {
           <div
             className="main-banner"
             style={{
-              backgroundImage: `url(/images/banners/GCCTalentAcquisitionbanner1.jpg)`,
+              // backgroundImage: `url(/images/banners/GCCTalentAcquisitionbanner1.jpg)`,
+              backgroundImage: `url(${process.env.NEXT_PUBLIC_CLOUDINARY_BASE_URL}/f_auto,q_auto/v1/next/GCC%20Pages/lvi5qrmyn8j4zeo50pri)`,
             }}>
             <div className="container">
               <div className="main-banner-content">

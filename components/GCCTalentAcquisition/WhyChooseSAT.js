@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import { CldImage } from "next-cloudinary";
 
 const ComputerVisionAI = () => {
   return (
@@ -17,7 +18,9 @@ const ComputerVisionAI = () => {
             </div>
             <div className="col-lg-6 col-md-6">
               <div className="computer-vision-ai-content">
-                <h3>Our Strategic Approach: Tailoring Talent to Transform Your GCC </h3>
+                <h3>
+                  Our Strategic Approach: Tailoring Talent to Transform Your GCC{" "}
+                </h3>
                 {/* <p>They serve as a way to extract and isolate business logic from the controllers or models of a Rails application, promoting cleaner code organization, reusability, and testability.</p> */}
 
                 <div className="row justify-content-center">
@@ -26,7 +29,12 @@ const ComputerVisionAI = () => {
                       <div className="">
                         <h4>Strategic Talent Integration</h4>
                       </div>
-                      <p> Aligning talent acquisition with your GCC's culture and strategic objectives for a cohesive and effective workforce.  </p>
+                      <p>
+                        {" "}
+                        Aligning talent acquisition with your GCC's culture and
+                        strategic objectives for a cohesive and effective
+                        workforce.{" "}
+                      </p>
                     </div>
                   </div>
 
@@ -35,7 +43,10 @@ const ComputerVisionAI = () => {
                       <div className="">
                         <h4>Innovative Hiring Practices</h4>
                       </div>
-                      <p>Embracing virtual hiring methods and global talent pools to secure top-tier candidates. </p>
+                      <p>
+                        Embracing virtual hiring methods and global talent pools
+                        to secure top-tier candidates.{" "}
+                      </p>
                     </div>
                   </div>
 
@@ -45,7 +56,10 @@ const ComputerVisionAI = () => {
                       <div className="">
                         <h4>Leadership Development</h4>
                       </div>
-                      <p>Focusing on internal development of future-ready leaders to drive long-term success. </p>
+                      <p>
+                        Focusing on internal development of future-ready leaders
+                        to drive long-term success.{" "}
+                      </p>
                     </div>
                   </div>
                   <div className="col-lg-6 col-sm-6">
@@ -54,7 +68,10 @@ const ComputerVisionAI = () => {
                       <div className="">
                         <h4>Customized Talent Solutions</h4>
                       </div>
-                      <p>Tailoring talent strategies for remote and hybrid work environments. </p>
+                      <p>
+                        Tailoring talent strategies for remote and hybrid work
+                        environments.{" "}
+                      </p>
                     </div>
                   </div>
 
@@ -64,7 +81,10 @@ const ComputerVisionAI = () => {
                       <div className="">
                         <h4>Technology-Enabled Recruitment</h4>
                       </div>
-                      <p>Leveraging advanced technology for efficient talent acquisition and management.</p>
+                      <p>
+                        Leveraging advanced technology for efficient talent
+                        acquisition and management.
+                      </p>
                     </div>
                   </div>
                   <div className="col-lg-6 col-sm-6">
@@ -73,19 +93,31 @@ const ComputerVisionAI = () => {
                       <div className="">
                         <h4>Continuous Professional Development</h4>
                       </div>
-                      <p>Prioritizing ongoing learning and skill development to maintain a competitive and innovative workforce. </p>
+                      <p>
+                        Prioritizing ongoing learning and skill development to
+                        maintain a competitive and innovative workforce.{" "}
+                      </p>
                     </div>
                   </div>
                 </div>
-
               </div>
             </div>
             <div className="computer-vision-ai-image">
-               <center> <img style={{width:"700px",marginTop:"30px"}}
+              <center>
+                {" "}
+                {/* <img
+                  style={{ width: "700px", marginTop: "30px" }}
                   src="/images/home-six/computer-vision/gcc-talent-acquisition-info.png"
                   alt="image"
-                /></center>
-              </div>
+                /> */}
+                <CldImage
+                  src="next/side images/GCC Pages/talen acqu/povb50ap1jsgeeckhvj6"
+                  width="700" //https://res.cloudinary.com/dpoxq3jcb/image/upload/f_auto,q_auto/v1/next/side%20images/GCC%20Pages/talen%20acqu/w0qvzislyumawyyjhep1
+                  height="600"
+                  alt="Continuous Professional Development"
+                />
+              </center>
+            </div>
           </div>
         </div>
       </div>
