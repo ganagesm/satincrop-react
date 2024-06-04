@@ -28,9 +28,12 @@ const HeroBanner = () => {
                   Empowering Innovation with AI-Driven Solutions
                 </h1>
                 <p style={{ color: "#fff" }}>
+                  Accelerate your Cloud Transformation Journey with SAT
+                </p>
+                {/* <p style={{ color: "#fff" }}>
                   Migrate, modernize, and transform your business with the power
                   of Google Cloud AI.
-                </p>
+                </p> */}
                 {/* <h1 style={{ color: "#fff" }}> AI First Software Development Company </h1> */}
                 <div className="btn-box">
                   <Link href="/contact-us/" className="btn btn-primary">

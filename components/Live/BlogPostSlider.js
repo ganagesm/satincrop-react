@@ -59,7 +59,7 @@ const BlogPostSlider = () => {
   };
   return (
     <>
-      <div className="partner-section ptb-50">
+      <div className="partner-section ptb-50 blog-section">
         <div className="container">
           <div className="section-title">
             <h2>Our Latest Blogs</h2>

@@ -59,7 +59,7 @@ const BlogPostsSection = () => {
 
   return (
     <>
-      <section className="blog-area ptb-50">
+      <section className="blog-area ptb-50 BlogPostsSection">
         <div className="container">
           <div className="section-title">
             <h2>Recent Case Studies</h2>
