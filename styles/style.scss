@@ -1,5 +1,5 @@
 /*
-@File: Bariton Template Styles
+@File: SA Technology Style
 
 * This file contains the styling for the actual template, this
 is the file you need to edit to change the look of the
@@ -11829,6 +11829,9 @@ a.btn.btn-primary.ai_btn {
   background-image: none;
 }
 }
+.blog-section {
+  display: block;
+}
 @media only screen and (max-width: 767px) {
 .main-banner {
   background-image: none !important;
@@ -11836,6 +11839,14 @@ a.btn.btn-primary.ai_btn {
 .circle-map {
   img {
     display: none;
+  }
+}
+.blog-section, .BlogPostsSection {
+  display: none;
+}
+.main-banner-content {
+  h1 {
+    font-size: 30px !important;
   }
 }
 }

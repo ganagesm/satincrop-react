@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*
-@File: Bariton Template Styles
+@File: SA Technology Style
 
 * This file contains the styling for the actual template, this
 is the file you need to edit to change the look of the
@@ -3178,7 +3178,7 @@ Page Title Area CSS
 }
 .page-title-area.item-bg35 {
     background-image: url("https://res.cloudinary.com/dpoxq3jcb/image/upload/f_auto,q_auto/v1/next/tech/s2nk8lih7g5ah1bachmj");
-    background-background-position: 100% 31%;
+    background-position: 100% 31%;
 }
 .page-title-area.item-bg35::before {
     content: "";
@@ -8689,6 +8689,10 @@ a.btn.btn-primary.ai_btn {
         background-image: none;
     }
 }
+.blog-section {
+    display: block;
+}
+
 @media only screen and (max-width: 767px) {
     .main-banner {
         background-image: none !important;
@@ -8696,6 +8700,14 @@ a.btn.btn-primary.ai_btn {
 
     .circle-map img {
         display: none;
+    }
+
+    .blog-section, .BlogPostsSection {
+        display: none;
+    }
+
+    .main-banner-content h1 {
+        font-size: 30px !important;
     }
 }
 /*End "Home Demo - 6", "Home Demo - 7" & "Home Demo - 8" Style CSS*/
