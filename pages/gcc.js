@@ -26,8 +26,8 @@ const Index = () => {
   return (
     <>
       <WebPageJsonLd
-        headline="Global Capability Center (GCC) Services in India | SA Technologies"
-        description="Explore SA Technologies GCC As a services for global expansion Maximize efficiency and innovation with our support"
+        headline="Global Delivery Center (GCC) Services in India | SA Technologies"
+        description="Explore SA Technologies' GCC and Global Delivery Center services for global expansion. Maximize efficiency and innovation with our expert support and solutions."
         author="SA Technologies"
         keywords="GCC As a services"
         image="https://www.satincorp.com/images/banners/gcc-1.jpg"
@@ -37,15 +37,15 @@ const Index = () => {
           type: "website",
           url: "https://www.satincorp.com/gcc/",
           title:
-            "Global Capability Center (GCC) Services in India | SA Technologies",
+            "Global Delivery Center (GCC) Services in India | SA Technologies",
           description:
-            "Explore SA Technologies GCC As a services for global expansion Maximize efficiency and innovation with our support",
+            "Explore SA Technologies' GCC and Global Delivery Center services for global expansion. Maximize efficiency and innovation with our expert support and solutions.",
           images: [
             {
               url: "https://www.satincorp.com/images/banners/gcc-1.jpg",
               width: 800,
               height: 600,
-              alt: "Explore SA Technologies GCC As a services for global expansion Maximize efficiency and innovation with our support",
+              alt: "Explore SA Technologies' GCC and Global Delivery Center services for global expansion. Maximize efficiency and innovation with our expert support and solutions.",
             },
           ],
           authorName: "SA Technologies",
@@ -54,16 +54,16 @@ const Index = () => {
       />
       <Head>
         <title>
-          Global Capability Center (GCC) Services in India | SA Technologies{" "}
+          Global Delivery Center (GCC) Services in India | SA Technologies{" "}
         </title>
         <meta
           property="og:title"
-          content="Global Capability Center (GCC) Services in India | SA Technologies"
+          content="Global Delivery Center (GCC) Services in India | SA Technologies"
           key="title"
         />
         <meta
           name="description"
-          content="Explore SA Technologies GCC As a services for global expansion. Maximize efficiency and innovation with our support."
+          content="Explore SA Technologies' GCC and Global Delivery Center services for global expansion. Maximize efficiency and innovation with our expert support and solutions."
           key="description"
         />
       </Head>

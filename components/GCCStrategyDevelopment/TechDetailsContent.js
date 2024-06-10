@@ -16,20 +16,20 @@ const ServiceDetailsContent = () => {
             <div className="services-details-desc mb-30">
               <h3>Crafting Your Unique Path to Global Excellence </h3>
               <p>
-                At SAT, we specialize in GCC Strategy Development, navigating
-                the dynamic landscape of Global Capability Centers (GCCs) in
-                India. With over 1600+ GCCs projected for 2023 and employing
-                more than 1.66 million professionals, we understand the
-                challenges and opportunities of this thriving sector.{" "}
+                At SAT, we are experts in GCC Strategy Development, navigating
+                the evolving landscape of Global Capability Centers (GCCs) in
+                India. With a projected number of over 1600 GCCs in 2023,
+                employing more than 1.66 million professionals, our deep
+                understanding of the sector's dynamics equips us to handle both
+                its challenges and opportunities.
               </p>
 
               <p>
-                Our tailored strategies align with your business objectives,
-                foster innovation, and drive operational excellence, ensuring
-                your GCC remains at the forefront of industry advancements Our
-                focus on specialized Centers of Excellence (CoEs) and
-                domain-specific knowledge ensures that your GCC remains at the
-                forefront of industry advancements.
+                We offer tailored strategies that are perfectly aligned with
+                your business goals, promoting innovation and operational
+                excellence. Our focus on specialized Centers of Excellence
+                (CoEs) and domain-specific expertise ensures your GCC is always
+                at the cutting edge of industry advancements.
               </p>
             </div>
 

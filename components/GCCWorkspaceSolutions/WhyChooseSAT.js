@@ -17,7 +17,9 @@ const ComputerVisionAI = () => {
             </div>
             <div className="col-lg-6 col-md-6">
               <div className="computer-vision-ai-content">
-                <h3>Key Considerations for Optimal Location& Infrastructure Setup</h3> 
+                <h3>
+                  Key Considerations for Optimal Location & Infrastructure Setup
+                </h3>
                 {/* <p>They serve as a way to extract and isolate business logic from the controllers or models of a Rails application, promoting cleaner code organization, reusability, and testability.</p> */}
 
                 <div className="row justify-content-center">
@@ -26,16 +28,26 @@ const ComputerVisionAI = () => {
                       <div className="">
                         <h4>Prime Destinations</h4>
                       </div>
-                      <p>Bengaluru, Hyderabad, Delhi NCR, Mumbai, Pune, Chennai - ideal for GCCs with their strong infrastructure and skilled talent.</p>
+                      <p>
+                        Cities like Bengaluru, Hyderabad, Delhi NCR, Mumbai,
+                        Pune, and Chennai are ideal for GCCs due to their robust
+                        infrastructure and availability of skilled talent,
+                        making them prime locations for fostering global
+                        business engagements.
+                      </p>
                     </div>
                   </div>
                   <div className="col-lg-6 col-sm-6">
                     <div className="vision-ai-inner-card">
-                     
                       <div className="">
                         <h4>Global Presence</h4>
                       </div>
-                      <p>Dominated by US firms, with significant European presence and rising APAC influence.</p>
+                      <p>
+                        These regions are predominantly influenced by US firms,
+                        with a significant European presence and a growing
+                        footprint in the APAC region, ensuring a diverse and
+                        globalized workforce.
+                      </p>
                     </div>
                   </div>
 
@@ -44,7 +56,12 @@ const ComputerVisionAI = () => {
                       <div className="">
                         <h4>Office Space Expansion</h4>
                       </div>
-                      <p>GCCs occupy over 200 million square feet across these major cities.</p>
+                      <p>
+                        GCCs currently occupy over 200 million square feet in
+                        these key cities, demonstrating substantial growth and
+                        expansion in office spaces designed to support
+                        large-scale operations.
+                      </p>
                     </div>
                   </div>
 
@@ -54,7 +71,11 @@ const ComputerVisionAI = () => {
                       <div className="">
                         <h4>Educational Hubs</h4>
                       </div>
-                      <p>These cities are rich in top-tier educational institutions, supplying skilled graduates for GCCs. </p>
+                      <p>
+                        Proximity to top-tier educational institutions in these
+                        cities ensures a continuous supply of skilled graduates,
+                        ready to contribute effectively to GCC operations.
+                      </p>
                     </div>
                   </div>
                   <div className="col-lg-6 col-sm-6">
@@ -63,7 +84,12 @@ const ComputerVisionAI = () => {
                       <div className="">
                         <h4> Language Proficiency</h4>
                       </div>
-                      <p>High English proficiency in these regions facilitates global GCC communication. </p>
+                      <p>
+                        High levels of English proficiency in these regions
+                        support seamless communication across global GCC
+                        networks, facilitating international collaboration and
+                        operations.
+                      </p>
                     </div>
                   </div>
 
@@ -73,7 +99,11 @@ const ComputerVisionAI = () => {
                       <div className="">
                         <h4>Tech Ecosystem</h4>
                       </div>
-                      <p>Vibrant tech environments in these cities enhance innovation and collaboration for GCCs.</p>
+                      <p>
+                        The vibrant technology ecosystems in these cities foster
+                        innovation and collaboration, significantly enhancing
+                        the operational capabilities of GCCs.
+                      </p>
                     </div>
                   </div>
                   <div className="col-lg-6 col-sm-6">
@@ -82,7 +112,12 @@ const ComputerVisionAI = () => {
                       <div className="">
                         <h4>Infrastructure Excellence </h4>
                       </div>
-                      <p>SAT emphasizes ergonomic, sustainable, and technology-integrated workspaces. </p>
+                      <p>
+                        At SAT, we emphasize creating workspaces that are not
+                        only ergonomic and sustainable but also integrated with
+                        advanced technologies to support the diverse needs of
+                        modern GCCs.
+                      </p>
                     </div>
                   </div>
 
@@ -92,16 +127,17 @@ const ComputerVisionAI = () => {
                       <div className="">
                         <h4>GCC's workspace solutions </h4>
                       </div>
-                      <p>We offer workspaces like Collaborative and Shared Office Spaces, tailored for productivity and networking in the GCC region. </p>
+                      <p>
+                        Our workspace offerings include innovative solutions
+                        like Collaborative and Shared Office Spaces, designed to
+                        maximize productivity and enhance networking
+                        opportunities within the GCC community.
+                      </p>
                     </div>
                   </div>
-
-                  
                 </div>
-
               </div>
             </div>
-
           </div>
         </div>
       </div>

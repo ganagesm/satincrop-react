@@ -7,84 +7,115 @@ const Services = () => {
       <section className="services-area bg-f2f6f9 ptb-110">
         <div className="container">
           <div className="section-title">
-            <h2>The Benefits of Our Comprehensive Solution</h2>
+            <h2>The Benefits of Our Comprehensive Solution </h2>
           </div>
 
           <div className="row">
             <div className="col-lg-4 col-sm-6">
               <div className="single-services-box">
                 <div className="icon">
-                  <img src="/images/icon/chinese-food.svg" alt="image"
+                  <img
+                    src="/images/icon/chinese-food.svg"
+                    alt="image"
                     style={{
                       width: "75%",
                       textAlign: "center",
                       marginTop: "10px",
-                    }} />
+                    }}
+                  />
                 </div>
                 <h5>Seamless Transition</h5>
-                <p> From strategic planning to legal incorporation, we will guide you through every step seamlessly.</p>
+                <p>
+                  Guided support from strategic planning to legal incorporation,
+                  ensuring a smooth transition at every step
+                </p>
               </div>
             </div>
 
             <div className="col-lg-4 col-sm-6">
               <div className="single-services-box">
                 <div className="icon">
-                  <img src="/images/icon/shopping-bag.svg" alt="image"
+                  <img
+                    src="/images/icon/shopping-bag.svg"
+                    alt="image"
                     style={{
                       width: "75%",
                       textAlign: "center",
                       marginTop: "10px",
-                    }} />
+                    }}
+                  />
                 </div>
                 <h5>Saves Time and Resources</h5>
-                <p> Streamlined processes reduce the time and effort required for legal registration and operational setup.</p>
+                <p>
+                  Efficient processes that minimize the time and effort required
+                  for legal registration and operational setup, optimizing
+                  resource allocation.
+                </p>
               </div>
             </div>
 
             <div className="col-lg-4 col-sm-6">
               <div className="single-services-box">
                 <div className="icon">
-                  <img src="/images/icon/fitness.svg" alt="image"
+                  <img
+                    src="/images/icon/fitness.svg"
+                    alt="image"
                     style={{
                       width: "75%",
                       textAlign: "center",
                       marginTop: "10px",
-                    }} />
+                    }}
+                  />
                 </div>
                 <h5>Minimized Risks</h5>
-                <p>  Our experts ensure compliance with Indian regulations, mitigating risks associated with unfamiliar legal systems.</p>
-              </div>
-            </div>
-         
-            <div className="col-lg-4 col-sm-6">
-              <div className="single-services-box">
-                <div className="icon">
-                  <img src="/images/icon/judicial-scrivener.svg" alt="image"
-                    style={{
-                      width: "75%",
-                      textAlign: "center",
-                      marginTop: "10px",
-                    }} />
-                </div>
-                <h5>Focus on Business</h5>
-                <p>Leave the legal and operational complexities to us, so you can focus on your core business activities.</p>
+                <p>
+                  Dedicated compliance with Indian regulations by our experts,
+                  significantly reducing risks associated with entering a new
+                  legal environment.
+                </p>
               </div>
             </div>
 
             <div className="col-lg-4 col-sm-6">
               <div className="single-services-box">
                 <div className="icon">
-                  <img src="/images/icon/finance.svg" alt="image"
+                  <img
+                    src="/images/icon/judicial-scrivener.svg"
+                    alt="image"
                     style={{
                       width: "75%",
                       textAlign: "center",
                       marginTop: "10px",
-                    }} />
+                    }}
+                  />
+                </div>
+                <h5>Focus on Business</h5>
+                <p>
+                  Our services manage the legal and operational complexities,
+                  allowing you to concentrate on your core business strategies.
+                </p>
+              </div>
+            </div>
+
+            <div className="col-lg-4 col-sm-6">
+              <div className="single-services-box">
+                <div className="icon">
+                  <img
+                    src="/images/icon/finance.svg"
+                    alt="image"
+                    style={{
+                      width: "75%",
+                      textAlign: "center",
+                      marginTop: "10px",
+                    }}
+                  />
                 </div>
                 <h5>Pay-as-You-Go</h5>
-                <p>We believe in simplicity and transparency when it comes to pricing our services. Our 
-                  "Pay-as-You-Go" pricing model ensures that you only pay for the services you use, 
-                  eliminating any unnecessary complexity.</p>
+                <p>
+                  A transparent "Pay-as-You-Go" pricing model that allows you to
+                  pay only for the services you use, ensuring simplicity and
+                  cost-effectiveness.
+                </p>
               </div>
             </div>
 
@@ -106,19 +137,25 @@ const Services = () => {
             <div className="col-lg-4 col-sm-6">
               <div className="single-services-box">
                 <div className="icon">
-                  <img src="/images/icon/lock-in.svg" alt="image"
+                  <img
+                    src="/images/icon/lock-in.svg"
+                    alt="image"
                     style={{
                       width: "75%",
                       textAlign: "center",
                       marginTop: "10px",
-                    }} />
+                    }}
+                  />
                 </div>
                 <h5>No Lock-In</h5>
-                <p>Our "No Lock-In" approach is designed to empower you and your business with the freedom to adapt, grow, and make choices that align with your needs.</p>
+                <p>
+                  Our "No Lock-In" policy offers flexibility, empowering you to
+                  make decisions that best suit your business needs as they
+                  evolve.
+                </p>
               </div>
             </div>
           </div>
-
         </div>
 
         {/* Shape Images */}
