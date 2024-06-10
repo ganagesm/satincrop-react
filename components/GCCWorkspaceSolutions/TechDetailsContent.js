@@ -20,18 +20,18 @@ const ServiceDetailsContent = () => {
                 Solutions
               </h3>
               <p>
-                SAT specializes in Global Capability Center (GCC) development,
-                offering comprehensive services in strategic location selection
-                and advanced infrastructure setup. Our approach includes a
-                thorough evaluation of socio-economic, political, and cultural
-                factors to ensure your GCC is well-positioned for growth and
+                SAT is at the forefront of Global Capability Center (GCC)
+                development, specializing in strategic location selection and
+                advanced infrastructure setup. Our process includes
+                comprehensive evaluations of socio-economic, political, and
+                cultural factors to position your GCC for optimal growth and
                 adaptability in the global market.
               </p>
               <p>
-                We focus on creating inspiring, technology-rich, and
-                ergonomically designed workspaces that foster innovation and
-                efficiency, transforming your GCC into a hub of productivity and
-                future-forward business success.
+                We prioritize designing inspiring, technology-rich, and
+                ergonomically sound workspaces that foster innovation and
+                efficiency, transforming your GCC into a dynamic hub of
+                productivity and futuristic business success.
               </p>
             </div>
 

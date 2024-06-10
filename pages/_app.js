@@ -16,6 +16,7 @@ import CldImage from "../utils/cloudinary"; // Adjust path as needed
 
 // Global Styles
 import "../styles/style.css";
+// import "../styles/style.min.css";
 import "../styles/responsive.css";
 
 import GoTop from "../components/Shared/GoTop";

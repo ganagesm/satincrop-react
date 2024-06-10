@@ -48,6 +48,41 @@ const AboutContact = () => {
           </div>
         </div>
 
+        <div className="about-area pt-50">
+          <div className="container">
+            <div className="row align-items-center">
+              <div className="col-lg-4 col-md-12 order-2">
+                <img src="/images/gcc-home-page.png" alt="image" width={400} />
+              </div>
+
+              <div className="col-lg-8 col-md-12">
+                <div className="about-content">
+                  {/* <h2>Boost Your Business with SAT: Dive into Digital and AI</h2> */}
+                  <p>
+                    At SA Technologies Center of Excellence, we offer scalable
+                    IT outsourcing solutions and Global Development Centers
+                    (GDCs) that enhance business agility and efficiency. Our
+                    services range from individual support to large-scale
+                    enterprise transformations, providing the flexibility to
+                    scale from 1 to 1000 professionals as needed. Our GDCs drive
+                    innovation and R&D, deliver cost-efficient solutions, ensure
+                    stringent quality assurance, and provide 24/7 operations.
+                    With our expertise and global reach, we empower businesses
+                    to optimize their technology investments and achieve
+                    exceptional performance in a dynamic market.{" "}
+                    <span style={{ fontWeight: 600 }}>
+                      Read More -{" "}
+                      <a href="https://www.satincorp.com/gcc/" target="_blank">
+                        https://www.satincorp.com/gcc/
+                      </a>
+                    </span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         {/* Shape Images */}
         <div className="shape-img1">
           <img src="/images/shape/shape1.png" alt="image" />

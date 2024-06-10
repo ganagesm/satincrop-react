@@ -33,7 +33,12 @@ const ComputerVisionAI = () => {
                   Unlock the Full Potential of Your GCC with SA Technologies
                 </h3>
                 <p>
-                  With{" "}
+                  Partner with SA Technologies to leverage our integrated
+                  approach in establishing your Global Capability Center in
+                  India. Our expertise in operational setup and legal compliance
+                  provides a robust foundation for your business expansion into
+                  the Indian market.
+                  {/* With{" "}
                   <strong>
                     <Link href="https://www.satincorp.com/blog/sa-technologies-becomes-google-workspace-and-google-cloud-platform-partner">
                       SA Technologies{" "}
@@ -43,7 +48,7 @@ const ComputerVisionAI = () => {
                   Center in India becomes an empowering journey. Our integrated
                   approach, combining operational expertise with legal
                   registration support, sets the foundation for your business
-                  growth in the Indian market.
+                  growth in the Indian market. */}
                 </p>
               </div>
             </div>

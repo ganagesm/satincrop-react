@@ -34,7 +34,7 @@ const ComputerVisionAI = () => {
             <div className="col-lg-6 col-md-6">
               <div className="computer-vision-ai-content">
                 <h3>
-                  Key Points of Setting Up a Global Capability Center (GCC){" "}
+                  Key Points of Setting Up a Global Capability Center (GCC)
                 </h3>
                 {/* <p>They serve as a way to extract and isolate business logic from the controllers or models of a Rails application, promoting cleaner code organization, reusability, and testability.</p> */}
 
@@ -45,10 +45,10 @@ const ComputerVisionAI = () => {
                         <h4>GCC Growth</h4>
                       </div>
                       <p>
-                        {" "}
-                        In 2023, there are 1600+ GCCs and over 2,740 units,
-                        showcasing both an increase in numbers and operational
-                        scale.{" "}
+                        2023 marks a significant year with 1600+ GCCs and over
+                        2,740 units operating, illustrating a notable increase
+                        in both numbers and scale. This growth indicates robust
+                        market expansion and operational sophistication.
                       </p>
                     </div>
                   </div>
@@ -59,9 +59,10 @@ const ComputerVisionAI = () => {
                         <h4>Employment Impact</h4>
                       </div>
                       <p>
-                        The sector employs 1.66 million professionals, including
-                        71,000 from tier-II cities, promoting job creation and
-                        talent utilization.
+                        The sector significantly contributes to job creation,
+                        employing 1.66 million professionals, including 71,000
+                        from tier-II cities. This drives substantial talent
+                        utilization and regional economic development.
                       </p>
                     </div>
                   </div>
@@ -73,8 +74,10 @@ const ComputerVisionAI = () => {
                         <h4>Impressive Growth</h4>
                       </div>
                       <p>
-                        With a CAGR of 5.9% in GCC numbers and 11.4% in market
-                        size, the sector is growing robustly.{" "}
+                        With a Compound Annual Growth Rate (CAGR) of 5.9% in GCC
+                        numbers and 11.4% in market size, the sector shows
+                        dynamic and robust growth, reflecting its increasing
+                        impact on the global economy.
                       </p>
                     </div>
                   </div>
@@ -85,8 +88,9 @@ const ComputerVisionAI = () => {
                         <h4>Centers of Excellence</h4>
                       </div>
                       <p>
-                        Over 240 CoEs in areas like finance and HR focus on
-                        specialization and innovation.{" "}
+                        Over 240 CoEs in areas like finance and HR emphasize
+                        specialization and innovation, enhancing service quality
+                        and industry leadership.
                       </p>
                     </div>
                   </div>
@@ -98,9 +102,10 @@ const ComputerVisionAI = () => {
                         <h4>Diverse Industry Presence</h4>
                       </div>
                       <p>
-                        GCCs in India cater to a range of industries, including
-                        IT, BFSI, healthcare, and retail, demonstrating
-                        versatility and broad market engagement.{" "}
+                        GCCs in India serve a wide array of industries such as
+                        IT, BFSI, healthcare, and retail. This diversity
+                        showcases broad market engagement and the ability to
+                        cater to varied industry needs effectively.
                       </p>
                     </div>
                   </div>
