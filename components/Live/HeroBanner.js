@@ -25,11 +25,12 @@ const HeroBanner = () => {
             <div className="container">
               <div className="main-banner-content">
                 <h1 style={{ color: "#fff" }}>
-                  Empowering Innovation with AI-Driven Solutions
+                  {/* Empowering Innovation with AI-Driven Solutions */}
+                  Driving Innovation and Efficiency with Scalable IT Solutions
                 </h1>
-                <p style={{ color: "#fff" }}>
+                {/* <p style={{ color: "#fff" }}>
                   Accelerate your Cloud Transformation Journey with SAT
-                </p>
+                </p> */}
                 {/* <p style={{ color: "#fff" }}>
                   Migrate, modernize, and transform your business with the power
                   of Google Cloud AI.
