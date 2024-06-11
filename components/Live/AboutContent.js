@@ -1,6 +1,6 @@
 import React from "react";
 import { CldImage } from "next-cloudinary";
-
+import Link from "next/link";
 const AboutContact = () => {
   return (
     <>
@@ -70,13 +70,20 @@ const AboutContact = () => {
                     With our expertise and global reach, we empower businesses
                     to optimize their technology investments and achieve
                     exceptional performance in a dynamic market.{" "}
-                    <span style={{ fontWeight: 600 }}>
+                    {/* <span style={{ fontWeight: 600 }}>
                       Read More -{" "}
                       <a href="https://www.satincorp.com/gcc/" target="_blank">
                         https://www.satincorp.com/gcc/
                       </a>
-                    </span>
+                    </span> */}
                   </p>
+                  <div className="about-btn">
+                    <Link
+                      href="https://www.satincorp.com/gcc/"
+                      className="btn btn-primary">
+                      Read More
+                    </Link>
+                  </div>
                 </div>
               </div>
             </div>
