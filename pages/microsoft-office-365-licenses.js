@@ -46,7 +46,7 @@ const ContactFormContent = () => {
         },
         false
       );
-    } catch (e) {}
+    } catch (e) { }
   };
   //Zoho Sales Iq Script:
   const useScript = (url, widgetCode) => {
@@ -383,7 +383,7 @@ const ContactFormContent = () => {
                 <div role="presentation" aria-hidden="true">
                   <div className="x-weight-semibold">
                     <span className="price-value " itemProp="price">
-                      ₹ 125.00{" "}
+                      ₹ 145.00{" "}
                       <sup className="price-recurrence">user/month</sup>
                     </span>
                   </div>
@@ -479,7 +479,7 @@ const ContactFormContent = () => {
                 <div role="presentation" aria-hidden="true">
                   <div className="x-weight-semibold">
                     <span className="price-value " itemProp="price">
-                      ₹ 660.00{" "}
+                      ₹ 770.00{" "}
                       <sup className="price-recurrence">user/month</sup>
                     </span>
                   </div>
@@ -621,7 +621,7 @@ const ContactFormContent = () => {
                 <div role="presentation" aria-hidden="true">
                   <div className="x-weight-semibold">
                     <span className="price-value " itemProp="price">
-                      ₹ 1,320.00{" "}
+                      ₹ 1,830.00{" "}
                       <sup className="price-recurrence">user/month</sup>
                     </span>
                   </div>
@@ -917,7 +917,7 @@ const ContactFormContent = () => {
         )}
       </React.Fragment>
       <Link
-        href="https://api.whatsapp.com/send/?phone=917058188896&text=Hello%2C+I+am+interested+in+buying+MS+365+licenses&type=phone_number&app_absent=0"  target="_blank" rel="noopener noreferrer"
+        href="https://api.whatsapp.com/send/?phone=917058188896&text=Hello%2C+I+am+interested+in+buying+MS+365+licenses&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer"
         className="floatWhatsApp">
         <img src="/images/icons/whatsApp.svg" alt="whatsapp" />
       </Link>
