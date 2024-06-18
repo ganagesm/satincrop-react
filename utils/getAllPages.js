@@ -3,7 +3,8 @@ const fs = require("fs");
 const path = require("path");
 
 function getAllPages() {
-  const pagesDir = path.join(process.cwd(), "pages");
+  // const pagesDir = path.join(process.cwd(), "pages");
+  const pagesDir = path.join(__dirname, "../pages"); // Adjust the relative path as needed
 
   const excludedPages = [
     "/thank-you-for-gcp-inquiry.js", // Example: Exclude '/admin.js' page
