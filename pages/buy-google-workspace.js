@@ -46,7 +46,7 @@ const ContactFormContent = () => {
         },
         false
       );
-    } catch (e) { }
+    } catch (e) {}
   };
   //Zoho Sales Iq Script:
   const useScript = (url, widgetCode) => {
@@ -64,6 +64,31 @@ const ContactFormContent = () => {
         document.body.removeChild(script);
       };
     }, [url]);
+    useEffect(() => {
+      function wfa_pstMesgFrmFom(evt) {
+        if (
+          evt.origin === "https://crm.zoho.in" ||
+          evt.origin === "https://crm.zohopublic.in"
+        ) {
+          var loc_obj = JSON.stringify({
+            origin: window.location.origin,
+            pathname: window.location.pathname,
+            search: window.location.search,
+            hash: window.location.hash,
+          });
+          evt.source.postMessage(
+            "prnt_wnd_pg_lc_rc_frm_prwindow_" + loc_obj,
+            evt.origin
+          );
+        }
+      }
+
+      window.addEventListener("message", wfa_pstMesgFrmFom, false);
+
+      return () => {
+        window.removeEventListener("message", wfa_pstMesgFrmFom, false);
+      };
+    }, []);
   };
   return (
     <>
@@ -181,7 +206,9 @@ const ContactFormContent = () => {
           className="navbar-area navbar-area-with-position-relative">
           <div className="main-nav">
             <div className="container">
-              <nav className="navbar navbar-expand-md navbar-light">
+              <nav
+                className="navbar navbar-expand-md navbar-light"
+                style={{ backgroundColor: "transparent" }}>
                 <Link href="/" className="navbar-brand">
                   <img
                     src="/images/sa-logo.svg"
@@ -229,8 +256,7 @@ const ContactFormContent = () => {
                 <div className="mb-4">
                   <h1>
                     {" "}
-                    Effectively Collaborate with Teams Using Google
-                    Workspace{" "}
+                    Effectively Collaborate with Teams Using Google Workspace{" "}
                   </h1>
                 </div>
                 <a
@@ -242,7 +268,7 @@ const ContactFormContent = () => {
                   src="https://dev1.satincorp.com/buy-google-workspace/wp-content/themes/buy-google-workspace-wp-themes-19032021/assets/svg/clients-logo/google-workspace-strip.svg "
                   className="img-fluid"
                   style={{
-                    marginTop: "20px"
+                    marginTop: "20px",
                   }}
                 />
               </div>
@@ -251,9 +277,11 @@ const ContactFormContent = () => {
                   <h2> Request a call back </h2>
                 </div> */}
                 <div className="bg-white" id="contact">
-                  <div>
-                    <div id="zf_div_PBwlz1PfEQXqz-nEuTIOHtHVoEiYTReIHigAw4TVy9o"></div>
-                  </div>
+                  <iframe
+                    width="610px"
+                    height="550px"
+                    src="https://crm.zoho.in/crm/WebFormServeServlet?rid=24e301808e3082e96774b161177bf18547a4cb95fb22420373a48e03e2809952061be4a0dd08b282a2a3c347245b929cgidf69423b180b9edfc4cec5142a88199204ac49290a352aad12be65b36b45eb272"></iframe>
+                  {/* <div id="zf_div_PBwlz1PfEQXqz-nEuTIOHtHVoEiYTReIHigAw4TVy9o"></div> */}
                 </div>
               </div>
             </div>
@@ -388,8 +416,6 @@ const ContactFormContent = () => {
               </div>
             </div>
           </section>
-
-
 
           <div className="overflow-hidden" id="plans">
             <div className="space-1">
@@ -1750,15 +1776,13 @@ const ContactFormContent = () => {
             </div>
           </div>
 
-
-
           <section className="section-enterprise section-enterprise_new">
             <div className="container">
               <div className="row">
                 <div className="col-lg-12 col-12">
                   <h4 className="office-enterprise_new">
-                    Choose SA Technologies for Licencing Google Workspace and Advance
-                    your Business with Digitalized Workspace
+                    Choose SA Technologies for Licencing Google Workspace and
+                    Advance your Business with Digitalized Workspace
                   </h4>
                 </div>
               </div>
@@ -1768,9 +1792,9 @@ const ContactFormContent = () => {
                     <img src="https://dev1.satincorp.com/microsoft-office-365-licenses/wp-content/themes/microsoft-office-365-licenses-wp-themes-19032021/images/price-tag.svg" />
                     <h3>Choosing the right Plan </h3>
                     <h5>
-                      We offer you curated plans to cater to specific business needs
-                      along with help and consutancy in choosing the right plan for
-                      you.
+                      We offer you curated plans to cater to specific business
+                      needs along with help and consutancy in choosing the right
+                      plan for you.
                     </h5>
                   </div>
                 </div>
@@ -1779,9 +1803,9 @@ const ContactFormContent = () => {
                     <img src="https://dev1.satincorp.com/microsoft-office-365-licenses/wp-content/themes/microsoft-office-365-licenses-wp-themes-19032021/images/settings.svg" />
                     <h3>Setup & Deployment </h3>
                     <h5>
-                      We have a team of Microsoft experts who are going to take care
-                      of the setup and configuring of 365 solutions as per your
-                      requiremnets.
+                      We have a team of Microsoft experts who are going to take
+                      care of the setup and configuring of 365 solutions as per
+                      your requiremnets.
                     </h5>
                   </div>
                 </div>
@@ -1790,8 +1814,8 @@ const ContactFormContent = () => {
                     <img src="https://dev1.satincorp.com/microsoft-office-365-licenses/wp-content/themes/microsoft-office-365-licenses-wp-themes-19032021/images/file-sharing.svg" />
                     <h3>Data Migration </h3>
                     <h5>
-                      We help in effective data migration from current workspace to
-                      Microsoft 365 easily in a safe and secure manner.
+                      We help in effective data migration from current workspace
+                      to Microsoft 365 easily in a safe and secure manner.
                     </h5>
                   </div>
                 </div>
@@ -1800,17 +1824,15 @@ const ContactFormContent = () => {
                     <img src="https://dev1.satincorp.com/microsoft-office-365-licenses/wp-content/themes/microsoft-office-365-licenses-wp-themes-19032021/images/online-support.svg" />
                     <h3>Robust Support </h3>
                     <h5>
-                      We are ready to help and assist whenever you need us with our
-                      24*7*365 support. We will be with you on every step of the
-                      journey.
+                      We are ready to help and assist whenever you need us with
+                      our 24*7*365 support. We will be with you on every step of
+                      the journey.
                     </h5>
                   </div>
                 </div>
               </div>
-
             </div>
           </section>
-
 
           <div className="container space-2">
             <div className="row justify-content-lg-between align-items-lg-center">

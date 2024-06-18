@@ -46,7 +46,7 @@ const ContactFormContent = () => {
         },
         false
       );
-    } catch (e) { }
+    } catch (e) {}
   };
   //Zoho Sales Iq Script:
   const useScript = (url, widgetCode) => {
@@ -64,6 +64,31 @@ const ContactFormContent = () => {
         document.body.removeChild(script);
       };
     }, [url]);
+    useEffect(() => {
+      function wfa_pstMesgFrmFom(evt) {
+        if (
+          evt.origin === "https://crm.zoho.in" ||
+          evt.origin === "https://crm.zohopublic.in"
+        ) {
+          var loc_obj = JSON.stringify({
+            origin: window.location.origin,
+            pathname: window.location.pathname,
+            search: window.location.search,
+            hash: window.location.hash,
+          });
+          evt.source.postMessage(
+            "prnt_wnd_pg_lc_rc_frm_prwindow_" + loc_obj,
+            evt.origin
+          );
+        }
+      }
+
+      window.addEventListener("message", wfa_pstMesgFrmFom, false);
+
+      return () => {
+        window.removeEventListener("message", wfa_pstMesgFrmFom, false);
+      };
+    }, []);
   };
 
   return (
@@ -233,7 +258,11 @@ const ContactFormContent = () => {
               </div>
             </div>
             <div className="col-lg-5 offset-md-1 col-12" id="form">
-              <div id="zf_div_C24oeqXLgeckBAaWoP8bgt1tTvq_JpbaQRUBTLATWDw"></div>
+              <iframe
+                width="610px"
+                height="560px"
+                src="https://crm.zoho.in/crm/WebFormServeServlet?rid=2413fd700f3c9ecb10198d750d0e18d083c382171aed4ad94275e46506310721d7ff15c8076f1cec469b611bf2db8646gid0a650b86c9a2ead38e704f3bc0acebe649e21b0edbfda47c9e42487410d3e63a"></iframe>
+              {/* <div id="zf_div_C24oeqXLgeckBAaWoP8bgt1tTvq_JpbaQRUBTLATWDw"></div> */}
             </div>
           </div>
         </div>
@@ -917,7 +946,9 @@ const ContactFormContent = () => {
         )}
       </React.Fragment>
       <Link
-        href="https://api.whatsapp.com/send/?phone=917058188896&text=Hello%2C+I+am+interested+in+buying+MS+365+licenses&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer"
+        href="https://api.whatsapp.com/send/?phone=917058188896&text=Hello%2C+I+am+interested+in+buying+MS+365+licenses&type=phone_number&app_absent=0"
+        target="_blank"
+        rel="noopener noreferrer"
         className="floatWhatsApp">
         <img src="/images/icons/whatsApp.svg" alt="whatsapp" />
       </Link>

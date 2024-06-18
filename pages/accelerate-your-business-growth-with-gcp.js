@@ -50,7 +50,7 @@ const ContactFormContent = () => {
         },
         false
       );
-    } catch (e) { }
+    } catch (e) {}
   };
   //Zoho Sales Iq Script:
   const useScript = (url, widgetCode) => {
@@ -68,6 +68,31 @@ const ContactFormContent = () => {
         document.body.removeChild(script);
       };
     }, [url]);
+    useEffect(() => {
+      function wfa_pstMesgFrmFom(evt) {
+        if (
+          evt.origin === "https://crm.zoho.in" ||
+          evt.origin === "https://crm.zohopublic.in"
+        ) {
+          var loc_obj = JSON.stringify({
+            origin: window.location.origin,
+            pathname: window.location.pathname,
+            search: window.location.search,
+            hash: window.location.hash,
+          });
+          evt.source.postMessage(
+            "prnt_wnd_pg_lc_rc_frm_prwindow_" + loc_obj,
+            evt.origin
+          );
+        }
+      }
+
+      window.addEventListener("message", wfa_pstMesgFrmFom, false);
+
+      return () => {
+        window.removeEventListener("message", wfa_pstMesgFrmFom, false);
+      };
+    }, []);
   };
   return (
     <>
@@ -219,7 +244,8 @@ const ContactFormContent = () => {
                   Get Started
                 </a>
 
-                <img src="/images/home-six/google-cloud-services.jpg"
+                <img
+                  src="/images/home-six/google-cloud-services.jpg"
                   style={{
                     width: "400px",
                   }}
@@ -230,9 +256,11 @@ const ContactFormContent = () => {
                   <h2> Request a call back </h2>
                 </div> */}
                 <div className="bg-white" id="contact">
-                  <div>
-                    <div id="zf_div_OqtO4dMucPCkviSHfWfmtFFImjjtai4d-o1gh8xkwX0"></div>
-                  </div>
+                  {/* <div id="zf_div_OqtO4dMucPCkviSHfWfmtFFImjjtai4d-o1gh8xkwX0"></div> */}
+                  <iframe
+                    width="610px"
+                    height="560px"
+                    src="https://crm.zoho.in/crm/WebFormServeServlet?rid=196dddbbeb45bf38ee103178b4bf2c3d3bb7be9aaf53a4ac65d494ce839d7357241a3e5b9d8142f7449267467fc9bcccgid39be91021820bd2136bfe022385c8e4be77e83cac7a2188717df941da2ec1971"></iframe>
                 </div>
               </div>
             </div>
