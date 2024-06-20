@@ -65,6 +65,31 @@ const Contact = () => {
       document.body.removeChild(script);
     };
   }, []);
+  useEffect(() => {
+    function wfa_pstMesgFrmFom(evt) {
+      if (
+        evt.origin === "https://crm.zoho.in" ||
+        evt.origin === "https://crm.zohopublic.in"
+      ) {
+        var loc_obj = JSON.stringify({
+          origin: window.location.origin,
+          pathname: window.location.pathname,
+          search: window.location.search,
+          hash: window.location.hash,
+        });
+        evt.source.postMessage(
+          "prnt_wnd_pg_lc_rc_frm_prwindow_" + loc_obj,
+          evt.origin
+        );
+      }
+    }
+
+    window.addEventListener("message", wfa_pstMesgFrmFom, false);
+
+    return () => {
+      window.removeEventListener("message", wfa_pstMesgFrmFom, false);
+    };
+  }, []);
   return (
     <>
       <Head>
@@ -314,7 +339,12 @@ const Contact = () => {
           <span>Message Us</span>
           <h2>Drop us a Message with any inquiry</h2>
         </div>
-        <div id="zf_div_ydLKYNeBiIM2IBJ989GOTw1fuB7kSKDd-DN7QpDkA5g"></div>
+        {/* <div id="zf_div_ydLKYNeBiIM2IBJ989GOTw1fuB7kSKDd-DN7QpDkA5g"></div> */}
+        <iframe
+          width="610px"
+          height="560px"
+          style={{ display: "block", margin: "0 auto" }}
+          src="https://crm.zoho.in/crm/WebFormServeServlet?rid=04c49074594d4953a74d7d160c3ef59ba9f06cf12d967a93342a2f921fc3b7a41867c6e476ade34930712cc5a8364d7cgid3237c60233121c2c790dbff5925881c5dd5da95fba3a48df8113a6173cbfde43"></iframe>
       </div>
 
       <Footer />
