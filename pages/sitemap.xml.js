@@ -1,386 +1,75 @@
 // pages/sitemap.xml.js
-const EXTERNAL_DATA_URL = "https://dev1.satincorp.com/wp-json/wp/v2/posts";
-const EXTERNAL_DATA_CUSTOMER_STORY_URL =
-  "https://dev1.satincorp.com/wp-json/wp/v2/customer_story?per_page=100&order=desc";
+import { fetchPosts } from "../utils/fetchPosts";
+import { getAllPages } from "../utils/getAllPages";
 
-function generateSiteMap(posts, customerstory) {
+const EXTERNAL_DATA_URL =
+  "https://dev1.satincorp.com/wp-json/wp/v2/posts?per_page=170&page=2";
+const SITE_URL = "https://www.satincorp.com";
+
+function generateSiteMap(posts, pages) {
+  const postUrls = posts
+    .map(({ slug, modified }) => {
+      return `
+      <url>
+        <loc>${`${SITE_URL}/blog/${slug}`}</loc>
+        <lastmod>${new Date(modified).toISOString()}</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+      </url>
+    `;
+    })
+    .join("");
+
+  const pageUrls = pages
+    .map((page) => {
+      return `
+      <url>
+        <loc>${`${SITE_URL}${page}`}</loc>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+      </url>
+    `;
+    })
+    .join("");
+
   return `<?xml version="1.0" encoding="UTF-8"?>
-   <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-     <!--We manually set the two URLs we know already-->
-     <url>
-     <loc>https://www.satincorp.com/</loc>
-     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
-     <priority>1.00</priority>
-   </url>
-   <url>
-     <loc>https://www.satincorp.com/careers/</loc>
-     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
-     <priority>0.80</priority>
-   </url>
-   <url>
-     <loc>https://www.satincorp.com/investors/</loc>
-     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
-     <priority>0.80</priority>
-   </url>
-   <url>
-     <loc>https://www.satincorp.com/generative-ai/</loc>
-     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
-     <priority>0.80</priority>
-   </url>
-   <url>
-     <loc>https://www.satincorp.com/machine-learning-and-artificial-intelligence/</loc>
-     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
-     <priority>0.80</priority>
-   </url>
-   <url>
-     <loc>https://www.satincorp.com/internet-of-things/</loc>
-     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
-     <priority>0.80</priority>
-   </url>
-   <url>
-     <loc>https://www.satincorp.com/data-science-analytics/</loc>
-     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
-     <priority>0.80</priority>
-   </url>
-   <url>
-     <loc>https://www.satincorp.com/rpa/</loc>
-     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
-     <priority>0.80</priority>
-   </url>
-   <url>
-     <loc>https://www.satincorp.com/cloud-services/</loc>
-     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
-     <priority>0.80</priority>
-   </url>
-   <url>
-     <loc>https://www.satincorp.com/devops/</loc>
-     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
-     <priority>0.80</priority>
-   </url>
-   <url>
-     <loc>https://www.satincorp.com/ui-ux-design/</loc>
-     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
-     <priority>0.80</priority>
-   </url>
-   <url>
-     <loc>https://www.satincorp.com/software-application-development/</loc>
-     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
-     <priority>0.80</priority>
-   </url>
-   <url>
-     <loc>https://www.satincorp.com/mobile-app-development/</loc>
-     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
-     <priority>0.80</priority>
-   </url>
-   <url>
-     <loc>https://www.satincorp.com/qa-automation/</loc>
-     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
-     <priority>0.80</priority>
-   </url>
-   <url>
-     <loc>https://www.satincorp.com/microsoft/</loc>
-     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
-     <priority>0.80</priority>
-   </url>
-   <url>
-     <loc>https://www.satincorp.com/google-cloud/</loc>
-     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
-     <priority>0.80</priority>
-   </url>
-   <url>
-     <loc>https://www.satincorp.com/oracle/</loc>
-     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
-     <priority>0.80</priority>
-   </url>
-   <url>
-     <loc>https://www.satincorp.com/aws-services/</loc>
-     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
-     <priority>0.80</priority>
-   </url>
-   <url>
-     <loc>https://www.satincorp.com/salesforce/</loc>
-     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
-     <priority>0.80</priority>
-   </url>
-   <url>
-     <loc>https://www.satincorp.com/servicenow/</loc>
-     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
-     <priority>0.80</priority>
-   </url>
-   <url>
-     <loc>https://www.satincorp.com/mendix/</loc>
-     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
-     <priority>0.80</priority>
-   </url>
-   <url>
-     <loc>https://www.satincorp.com/gcc/</loc>
-     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
-     <priority>0.80</priority>
-   </url>
-   <url>
-     <loc>https://www.satincorp.com/gcc-strategy-development/</loc>
-     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
-     <priority>0.80</priority>
-   </url>
-   <url>
-     <loc>https://www.satincorp.com/gcc-workspace-solutions/</loc>
-     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
-     <priority>0.80</priority>
-   </url>
-   <url>
-     <loc>https://www.satincorp.com/gcc-talent-acquisition/</loc>
-     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
-     <priority>0.80</priority>
-   </url>
-   <url>
-     <loc>https://www.satincorp.com/gcc-legal-registration-support/</loc>
-     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
-     <priority>0.80</priority>
-   </url>
-   <url>
-     <loc>https://www.satincorp.com/gcc-bot/</loc>
-     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
-     <priority>0.80</priority>
-   </url>
-   <url>
-     <loc>https://www.satincorp.com/internal-audit/</loc>
-     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
-     <priority>0.80</priority>
-   </url>
-   <url>
-     <loc>https://www.satincorp.com/education/</loc>
-     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
-     <priority>0.80</priority>
-   </url>
-   <url>
-     <loc>https://www.satincorp.com/government/</loc>
-     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
-     <priority>0.80</priority>
-   </url>
-   <url>
-     <loc>https://www.satincorp.com/healthcare/</loc>
-     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
-     <priority>0.80</priority>
-   </url>
-   <url>
-     <loc>https://www.satincorp.com/media-entertainment/</loc>
-     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
-     <priority>0.80</priority>
-   </url>
-   <url>
-     <loc>https://www.satincorp.com/semiconductor/</loc>
-     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
-     <priority>0.80</priority>
-   </url>
-   <url>
-     <loc>https://www.satincorp.com/manufacturing/</loc>
-     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
-     <priority>0.80</priority>
-   </url>
-   <url>
-     <loc>https://www.satincorp.com/Product-services/</loc>
-     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
-     <priority>0.80</priority>
-   </url>
-   <url>
-     <loc>https://www.satincorp.com/retail/</loc>
-     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
-     <priority>0.80</priority>
-   </url>
-   <url>
-     <loc>https://www.satincorp.com/fmcd/</loc>
-     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
-     <priority>0.80</priority>
-   </url>
-   <url>
-     <loc>https://www.satincorp.com/contact-us/</loc>
-     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
-     <priority>0.80</priority>
-   </url>
-   <url>
-     <loc>https://www.satincorp.com/nearshore/</loc>
-     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
-     <priority>0.80</priority>
-   </url>
-   <url>
-     <loc>https://www.satincorp.com/offshore/</loc>
-     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
-     <priority>0.80</priority>
-   </url>
-   <url>
-     <loc>https://www.satincorp.com/onsite/</loc>
-     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
-     <priority>0.80</priority>
-   </url>
-   <url>
-     <loc>
-       https://www.satincorp.com/sa-technologies-triumphs-with-cmmi-services-maturity-level-5-certification/</loc>
-     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
-     <priority>0.80</priority>
-   </url>
-   <url>
-     <loc>https://www.satincorp.com/embracing-machine-first-approach/</loc>
-     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
-     <priority>0.80</priority>
-   </url>
-   <url>
-     <loc>https://www.satincorp.com/blog/</loc>
-     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
-     <priority>0.80</priority>
-   </url>
-   <url>
-     <loc>https://www.satincorp.com/about/</loc>
-     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
-     <priority>0.80</priority>
-   </url>
-   <url>
-     <loc>https://www.satincorp.com/news-and-events/</loc>
-     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
-     <priority>0.80</priority>
-   </url>
-   <url>
-     <loc>https://www.satincorp.com/customer-success-stories/</loc>
-     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
-     <priority>0.80</priority>
-   </url>
-   <url>
-     <loc>https://www.satincorp.com/privacy-policy/</loc>
-     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
-     <priority>0.80</priority>
-   </url>
-   <url>
-     <loc>https://www.satincorp.com/terms-conditions/</loc>
-     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
-     <priority>0.80</priority>
-   </url>
-   <url>
-     <loc>https://www.satincorp.com/software-quality-assurance/</loc>
-     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
-     <priority>0.64</priority>
-   </url>
-   <url>
-     <loc>https://www.satincorp.com/gcc-location-selection/</loc>
-     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
-     <priority>0.64</priority>
-   </url>
-   <url>
-     <loc>https://www.satincorp.com/contigent-service/</loc>
-     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
-     <priority>0.64</priority>
-   </url>
-   <url>
-     <loc>https://www.satincorp.com/gcc-infrastructure-setup/</loc>
-     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
-     <priority>0.64</priority>
-   </url>
-   <url>
-     <loc>https://www.satincorp.com/gccregulatorycompliance/</loc>
-     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
-     <priority>0.64</priority>
-   </url>
-   <url>
-     <loc>https://www.satincorp.com/abhay/</loc>
-     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
-     <priority>0.64</priority>
-   </url>
-   <url>
-     <loc>https://www.satincorp.com/sonal-sinha/</loc>
-     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
-     <priority>0.64</priority>
-   </url>
-   <url>
-     <loc>https://www.satincorp.com/vasudha-kanade/</loc>
-     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
-     <priority>0.64</priority>
-   </url>
-   <url>
-     <loc>https://www.satincorp.com/amita/</loc>
-     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
-     <priority>0.64</priority>
-   </url>
-   <url>
-     <loc>https://www.satincorp.com/malay/</loc>
-     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
-     <priority>0.64</priority>
-   </url>
-   <url>
-     <loc>https://www.satincorp.com/jitendra/</loc>
-     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
-     <priority>0.64</priority>
-   </url>
-   <url>
-     <loc>https://www.satincorp.com/trishita/</loc>
-     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
-     <priority>0.64</priority>
-   </url>
-   <url>
-     <loc>https://www.satincorp.com/kanak/</loc>
-     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
-     <priority>0.64</priority>
-   </url>
-   <url>
-     <loc>https://www.satincorp.com/startups/</loc>
-     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
-     <priority>0.64</priority>
-   </url>
-   <url>
-     <loc>https://www.satincorp.com/articles/gcc-evolution/</loc>
-     <lastmod>2024-01-04T07:51:19+00:00</lastmod>
-     <priority>0.64</priority>
-   </url>
-     ${posts
-       .map(({ slug }) => {
-         return `
-            <url>
-               <loc>${`https://www.satincorp.com/blog/${slug}`}</loc>
-               <lastmod>2024-01-04T07:51:19+00:00</lastmod>
-               <priority>0.80</priority>
-            </url>
-         `;
-       })
-       .join("")}
-     ${customerstory
-       .map(({ slug }) => {
-         return `
-            <url>
-               <loc>${`https://www.satincorp.com/customer-success-stories/${slug}`}</loc>
-               <lastmod>2024-01-04T07:51:19+00:00</lastmod>
-               <priority>0.80</priority>
-            </url>
-         `;
-       })
-       .join("")}
-   </urlset>
- `;
-}
-
-function SiteMap() {
-  // getServerSideProps will do the heavy lifting
+    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+      <url>
+        <loc>${SITE_URL}</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+      </url>
+      ${pageUrls}
+      ${postUrls}
+    </urlset>
+  `;
 }
 
 export async function getServerSideProps({ res }) {
-  // We make API calls to gather the URLs for our site
-  const blogRequest = await fetch(
-    `${EXTERNAL_DATA_URL}?per_page=100&order=desc`
-  );
-  const customerStoryRequest = await fetch(
-    `${EXTERNAL_DATA_CUSTOMER_STORY_URL}?per_page=100&order=desc`
-  );
+  try {
+    const postsPromise = fetchPosts();
+    const pages = getAllPages();
 
-  const posts = await blogRequest.json();
-  const customerstory = await customerStoryRequest.json();
+    const posts = await postsPromise;
 
-  // We generate the XML sitemap with the posts data
-  const sitemap = generateSiteMap(posts, customerstory);
+    // Generate the XML sitemap with posts and pages data
+    const sitemap = generateSiteMap(posts, pages);
 
-  res.setHeader("Content-Type", "text/xml");
-  // we send the XML to the browser
-  res.write(sitemap);
-  res.end();
+    res.setHeader("Content-Type", "text/xml");
+    res.write(sitemap);
+    res.end();
+  } catch (error) {
+    console.error("Error generating sitemap:", error);
+    res.statusCode = 500;
+    res.end();
+  }
 
   return {
     props: {},
   };
 }
 
-export default SiteMap;
+export default function SiteMap() {
+  // This component doesn't render anything, it only generates the sitemap
+  return null;
+}
