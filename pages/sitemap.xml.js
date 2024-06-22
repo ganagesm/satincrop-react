@@ -13,7 +13,7 @@ function generateSiteMap(posts, pages) {
       <url>
         <loc>${`${SITE_URL}/blog/${slug}`}</loc>
         <lastmod>${new Date(modified).toISOString()}</lastmod>
-        <changefreq>weekly</changefreq>
+        <changefreq>hourly</changefreq>
         <priority>0.8</priority>
       </url>
     `;
@@ -25,7 +25,7 @@ function generateSiteMap(posts, pages) {
       return `
       <url>
         <loc>${`${SITE_URL}${page}`}</loc>
-        <changefreq>weekly</changefreq>
+        <changefreq>hourly</changefreq>
         <priority>0.8</priority>
       </url>
     `;
