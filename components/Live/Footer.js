@@ -270,33 +270,37 @@ const Footer = () => {
       <React.Fragment>
         {isCareerPage
           ? // Load the script on the career page
-          useScript(
-            "https://salesiq.zoho.in/widget",
-            "siqb6893c10dd1c1c4c4cdd0150c0fb02c9b296e864dc452fbee73744582c509b00"
-          )
-          : isEmployeeSelfService
-            ? // Load the script on the employee self-service page
+            // "siqb6893c10dd1c1c4c4cdd0150c0fb02c9b296e864dc452fbee73744582c509b00"
             useScript(
               "https://salesiq.zoho.in/widget",
-              "siq9db5171ce94a7f6b2ebb4290a65eea5e7709b889f71f08307fa46cbb1628552d"
+              "siqf0be5ba9aefe176393dfbe591c77fef43f5283d3b627b4cd0b623da1760ed2e4117e8194377283a5ded1bc7509f07a7f"
             )
-            : isGCC
-              ? // Load the script on the GCC page
-              useScript(
-                "https://salesiq.zoho.in/widget",
-                "siqf3592159c32026e2a0131f3864f287f5"
-              )
-              : isAccelerateYourBusinessGrowthWithGcp
-                ? // Load the script on the accelerate-your-business-growth-with-gcp page
-                useScript(
-                  "https://salesiq.zoho.in/widget",
-                  "siq1ffd8dea6a104956cdb9b859b7e0f05934dbf68c3bcad978c43112ff16fcd931"
-                )
-                : // Dana Bot
-                useScript(
-                  "https://salesiq.zoho.in/widget",
-                  "siqf0be5ba9aefe176393dfbe591c77fef43f5283d3b627b4cd0b623da1760ed2e4117e8194377283a5ded1bc7509f07a7f"
-                )}
+          : isEmployeeSelfService
+          ? // Load the script on the employee self-service page
+            // "siq9db5171ce94a7f6b2ebb4290a65eea5e7709b889f71f08307fa46cbb1628552d"
+            useScript(
+              "https://salesiq.zoho.in/widget",
+              "siqf0be5ba9aefe176393dfbe591c77fef43f5283d3b627b4cd0b623da1760ed2e4117e8194377283a5ded1bc7509f07a7f"
+            )
+          : isGCC
+          ? // Load the script on the GCC page
+            // "siqf3592159c32026e2a0131f3864f287f5"
+            useScript(
+              "https://salesiq.zoho.in/widget",
+              "siqf0be5ba9aefe176393dfbe591c77fef43f5283d3b627b4cd0b623da1760ed2e4117e8194377283a5ded1bc7509f07a7f"
+            )
+          : isAccelerateYourBusinessGrowthWithGcp
+          ? // Load the script on the accelerate-your-business-growth-with-gcp page
+            // "siq1ffd8dea6a104956cdb9b859b7e0f05934dbf68c3bcad978c43112ff16fcd931"
+            useScript(
+              "https://salesiq.zoho.in/widget",
+              "siqf0be5ba9aefe176393dfbe591c77fef43f5283d3b627b4cd0b623da1760ed2e4117e8194377283a5ded1bc7509f07a7f"
+            )
+          : // Dana Bot
+            useScript(
+              "https://salesiq.zoho.in/widget",
+              "siqf0be5ba9aefe176393dfbe591c77fef43f5283d3b627b4cd0b623da1760ed2e4117e8194377283a5ded1bc7509f07a7f"
+            )}
       </React.Fragment>
     </>
   );

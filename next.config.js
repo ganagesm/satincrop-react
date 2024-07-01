@@ -2,19 +2,19 @@ const path = require("path");
 
 module.exports = {
   reactStrictMode: true,
-  trailingSlash: true,
+  trailingSlash: false,
   sassOptions: {
     includePaths: [path.join(__dirname, "styles")],
   },
   optimizeFonts: false,
-  // async rewrites() {
-  //   return [
-  //     {
-  //       source: '/sitemap.xml',
-  //       destination: '/api/sitemap',
-  //     },
-  //   ];
-  // },
+  async rewrites() {
+    return [
+      {
+        source: "/sitemap.xml",
+        destination: "/sitemap.xml",
+      },
+    ];
+  },
   async headers() {
     const headers = [];
     // if (process.env.NEXT_PUBLIC_VERCEL_ENV !== 'production') {
