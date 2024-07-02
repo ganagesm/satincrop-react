@@ -3,11 +3,12 @@ import Navbar from "../components/Live/Navbar";
 import MainBanner from "../components/RemoteTeams/MainBanner";
 import HeroBanner from "../components/RemoteTeams/HeroBanner";
 import WhyChooseSAT from "../components/RemoteTeams/WhyChooseSAT";
+import Services from "../components/RemoteTeams/Services";
 import AboutContact from "../components/About/AboutContent";
 import PartnerContent from "../components/Live/PartnerContent";
 import Testimonials from "../components/Live/Testimonials";
 import Footer from "../components/Live/Footer";
-import Services from "../components/About/Services";
+// import Services from "../components/About/Services";
 import Head from "next/head";
 
 const About = () => {
@@ -32,11 +33,12 @@ const About = () => {
       <Navbar />
 
       <MainBanner />
+      <Services />
       {/* <HeroBanner /> */}
       {/* <AboutContact /> */}
       <WhyChooseSAT />
       {/* <PartnerContent /> */}
-      <Services />
+      {/* <Services /> */}
       <Testimonials />
       <Footer />
     </>

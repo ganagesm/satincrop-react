@@ -41,15 +41,15 @@ This files table contents are outlined below>>>>>
 Default CSS
 =================================================*/
 
-$main-font-family: 'Open Sans', sans-serif;
-$optional-font-family: 'Dosis', sans-serif;
+$main-font-family: "Open Sans", sans-serif;
+$optional-font-family: "Dosis", sans-serif;
 $main-color: #ff4800;
 $optional-color: #4ac728;
 $white-color: #ffffff;
 $black-color: #212529;
 $paragraph-color: #57647c;
 $font-size: 14px;
-$transition: .5s;
+$transition: 0.5s;
 
 body {
   padding: 0;
@@ -238,7 +238,7 @@ textarea.form-control {
   display: inline-block;
   position: relative;
   color: $main-color;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
 
   font: {
     size: 15px;
@@ -257,7 +257,7 @@ textarea.form-control {
   }
 
   &::before {
-    content: '';
+    content: "";
     position: absolute;
     left: 0;
     bottom: 0;
@@ -321,7 +321,7 @@ Preloader Area CSS
   width: 100%;
   text-align: center;
   z-index: 9999999;
-  transition: .9s;
+  transition: 0.9s;
   visibility: visible;
 
   .loader {
@@ -345,7 +345,7 @@ Preloader Area CSS
       width: 100%;
       height: 100%;
       border-radius: 50%;
-      animation: loader-outter 1s cubic-bezier(.42, .61, .58, .41) infinite;
+      animation: loader-outter 1s cubic-bezier(0.42, 0.61, 0.58, 0.41) infinite;
     }
 
     .loader-inner {
@@ -358,13 +358,13 @@ Preloader Area CSS
       top: calc(50% - 20px);
       border-right: 0;
       border-top-color: transparent;
-      animation: loader-inner 1s cubic-bezier(.42, .61, .58, .41) infinite;
+      animation: loader-inner 1s cubic-bezier(0.42, 0.61, 0.58, 0.41) infinite;
     }
   }
 
   &::before,
   &::after {
-    content: '';
+    content: "";
     position: absolute;
     left: 0;
     top: 0;
@@ -372,7 +372,7 @@ Preloader Area CSS
     height: 60%;
     z-index: -1;
     background: $main-color;
-    transition: .9s;
+    transition: 0.9s;
   }
 
   &::after {
@@ -1226,7 +1226,7 @@ Search Popup CSS
 
         &::placeholder {
           transition: $transition;
-          letter-spacing: .5px;
+          letter-spacing: 0.5px;
           color: $paragraph-color;
         }
 
@@ -1282,7 +1282,7 @@ Search Popup CSS
   }
 }
 
-// Navbar toggler 
+// Navbar toggler
 .navbar-toggler {
   border: none;
   background: #eee !important;
@@ -1401,7 +1401,7 @@ Main Banner Area CSS
       }
 
       &::before {
-        content: '';
+        content: "";
         position: absolute;
         left: 0;
         bottom: 0;
@@ -1412,7 +1412,7 @@ Main Banner Area CSS
       }
 
       &::after {
-        content: '';
+        content: "";
         position: absolute;
         right: 0;
         bottom: 0;
@@ -1451,14 +1451,11 @@ Main Banner Area CSS
     repeat: no-repeat;
   }
 
-  ;
-
   padding: {
     top: 240px;
     bottom: 120px;
   }
 
-  ;
   border-bottom: 1px solid #f9f6f6;
 }
 
@@ -1499,7 +1496,7 @@ Main Banner Area CSS
       }
 
       &::before {
-        content: '';
+        content: "";
         position: absolute;
         left: 0;
         bottom: 0;
@@ -1510,7 +1507,7 @@ Main Banner Area CSS
       }
 
       &::after {
-        content: '';
+        content: "";
         position: absolute;
         right: 0;
         bottom: 0;
@@ -1612,22 +1609,16 @@ Main Banner Area CSS
     repeat: no-repeat;
   }
 
-  ;
-
   padding: {
     top: 180px;
     bottom: 100px;
   }
-
-  ;
 
   .container-fluid {
     padding: {
       left: 70px;
       right: 70px;
     }
-
-    ;
   }
 }
 
@@ -1668,7 +1659,7 @@ Main Banner Area CSS
       }
 
       &::before {
-        content: '';
+        content: "";
         position: absolute;
         left: 0;
         bottom: 0;
@@ -1679,7 +1670,7 @@ Main Banner Area CSS
       }
 
       &::after {
-        content: '';
+        content: "";
         position: absolute;
         right: 0;
         bottom: 0;
@@ -1772,7 +1763,7 @@ Featured Services Area CSS
   }
 
   &::before {
-    content: '';
+    content: "";
     position: absolute;
     left: 0;
     top: 0;
@@ -1864,8 +1855,6 @@ About Area CSS
       left: -10px;
     }
 
-    ;
-
     li {
       flex: 0 0 33.333333%;
       max-width: 33.333333%;
@@ -1875,8 +1864,6 @@ About Area CSS
         right: 10px;
         top: 13px;
       }
-
-      ;
 
       span {
         display: block;
@@ -1889,8 +1876,6 @@ About Area CSS
           weight: 600;
           size: 17px;
         }
-
-        ;
 
         i {
           width: 20px;
@@ -1950,7 +1935,7 @@ About Area CSS
   transform: translateY(-50%);
   left: 0;
   z-index: -1;
-  opacity: .40;
+  opacity: 0.4;
 }
 
 .shape-img2 {
@@ -1969,7 +1954,7 @@ About Area CSS
   left: 0;
   bottom: 0;
   z-index: -1;
-  opacity: .20;
+  opacity: 0.2;
   animation: rotate3d 4s linear infinite;
 }
 
@@ -1978,7 +1963,7 @@ About Area CSS
   right: 0;
   top: 0;
   z-index: -1;
-  opacity: .10;
+  opacity: 0.1;
   animation: rotate3d 4s linear infinite;
 }
 
@@ -2008,7 +1993,7 @@ About Area CSS
   left: 2%;
   bottom: 0;
   z-index: -1;
-  opacity: .40;
+  opacity: 0.4;
   animation: moveLeftBounce 5s linear infinite;
 }
 
@@ -2207,7 +2192,7 @@ Services Area CSS
   }
 
   &::before {
-    content: '';
+    content: "";
     height: 3px;
     width: 20px;
     position: absolute;
@@ -2260,13 +2245,18 @@ Services Area CSS
         weight: 600;
       }
 
-      ;
-
       i {
         display: inline-block;
         width: 55px;
         height: 55px;
-        background: linear-gradient(to left bottom, #dee4f3, #e7eaf6, #f0f1f9, #f8f8fc, #ffffff);
+        background: linear-gradient(
+          to left bottom,
+          #dee4f3,
+          #e7eaf6,
+          #f0f1f9,
+          #f8f8fc,
+          #ffffff
+        );
         text-align: center;
         line-height: 55px;
         border-radius: 5px;
@@ -2539,7 +2529,7 @@ Webinar Area CSS
 
     &::after,
     &::before {
-      content: '';
+      content: "";
       display: block;
       position: absolute;
       top: 0;
@@ -2552,11 +2542,11 @@ Webinar Area CSS
     }
 
     &::before {
-      animation: ripple 2s linear infinite
+      animation: ripple 2s linear infinite;
     }
 
     &::after {
-      animation: ripple 2s linear 1s infinite
+      animation: ripple 2s linear 1s infinite;
     }
 
     &:hover,
@@ -2569,17 +2559,17 @@ Webinar Area CSS
 
 @keyframes ripple {
   0% {
-    transform: scale(1)
+    transform: scale(1);
   }
 
   75% {
     transform: scale(1.75);
-    opacity: 1
+    opacity: 1;
   }
 
   100% {
     transform: scale(2);
-    opacity: 0
+    opacity: 0;
   }
 }
 
@@ -2730,7 +2720,7 @@ Partner Area CSS
 
     &::before,
     &::after {
-      content: '';
+      content: "";
       position: absolute;
       width: 0;
       height: 0;
@@ -2764,7 +2754,6 @@ Partner Area CSS
     }
 
     &:hover {
-
       &::after,
       &::before {
         width: 40px;
@@ -2774,7 +2763,7 @@ Partner Area CSS
       }
 
       img {
-        transform: scale(.8);
+        transform: scale(0.8);
       }
     }
   }
@@ -2885,7 +2874,7 @@ Feedback Area CSS
     position: absolute;
     left: 0;
     top: 0;
-    content: '';
+    content: "";
     background-color: $main-color;
     z-index: -1;
     display: none;
@@ -2931,7 +2920,7 @@ Feedback Area CSS
 .feedback-slides {
   .swiper-slide {
     &::before {
-      content: '';
+      content: "";
       position: absolute;
       left: 0;
       top: 0;
@@ -3020,8 +3009,15 @@ Pricing Area CSS
 
     .btn-primary {
       &::after {
-        background: linear-gradient(to right top, #a3a3a3, #9a9a9a, #909090, #878787, #7e7e7e);
-        content: '';
+        background: linear-gradient(
+          to right top,
+          #a3a3a3,
+          #9a9a9a,
+          #909090,
+          #878787,
+          #7e7e7e
+        );
+        content: "";
         position: absolute;
         left: 0;
         top: 0;
@@ -3213,7 +3209,7 @@ Blog Area CSS
           }
 
           &::before {
-            content: '';
+            content: "";
             position: absolute;
             right: -7px;
             top: 50%;
@@ -3274,7 +3270,7 @@ Blog Area CSS
     .entry-thumbnail {
       a {
         img {
-          opacity: .7;
+          opacity: 0.7;
         }
       }
     }
@@ -3326,7 +3322,7 @@ Blog Details Area CSS
           }
 
           &::before {
-            content: '';
+            content: "";
             position: absolute;
             top: 11px;
             right: -15px;
@@ -3468,7 +3464,7 @@ Blog Details Area CSS
         position: relative;
 
         &::before {
-          content: ',';
+          content: ",";
           position: absolute;
           right: -4px;
         }
@@ -3642,7 +3638,7 @@ blockquote,
   }
 
   .comment-meta {
-    margin-bottom: .8em;
+    margin-bottom: 0.8em;
   }
 
   .comment-author {
@@ -3854,7 +3850,7 @@ Free Trial Area CSS
   z-index: 1;
 
   &::before {
-    content: '';
+    content: "";
     position: absolute;
     right: 0;
     top: 0;
@@ -3955,7 +3951,7 @@ Free Trial Area CSS
     position: absolute;
     left: 0;
     top: 0;
-    content: '';
+    content: "";
     background-color: $main-color;
     z-index: -1;
     display: none;
@@ -3991,8 +3987,15 @@ Free Trial Area CSS
     position: absolute;
     right: 0;
     top: 0;
-    background: linear-gradient(to left bottom, #f8f9fd, #fafafd, #fcfcfe, #fdfdfe, #ffffff);
-    content: '';
+    background: linear-gradient(
+      to left bottom,
+      #f8f9fd,
+      #fafafd,
+      #fcfcfe,
+      #fdfdfe,
+      #ffffff
+    );
+    content: "";
   }
 }
 
@@ -4095,7 +4098,7 @@ Page Title Area CSS
   }
 
   &::before {
-    content: '';
+    content: "";
     position: absolute;
     left: 0;
     top: 0;
@@ -4103,7 +4106,7 @@ Page Title Area CSS
     height: 100%;
     z-index: -1;
     background-color: #000000;
-    opacity: .60;
+    opacity: 0.6;
   }
 
   &.item-bg1 {
@@ -4123,7 +4126,6 @@ Page Title Area CSS
     background: {
       image: url(/images/technology-banner/oracle-banner.jpg);
     }
-
   }
 
   &.item-bg4 {
@@ -4131,7 +4133,6 @@ Page Title Area CSS
       image: url(https://res.cloudinary.com/dpoxq3jcb/image/upload/f_auto,q_auto/v1/next/tech/wjuqgibdy76qowdfh5vm);
       // image: url(/images/technology-banner/oracle-banner.jpg);
     }
-
   }
 
   &.item-bg5 {
@@ -4139,7 +4140,6 @@ Page Title Area CSS
       image: url(https://res.cloudinary.com/dpoxq3jcb/image/upload/f_auto,q_auto/v1/next/tech/uf4hp3g7fn5gytoe7wqq);
       // image: url(/images/technology-banner/aws-banner.jpg);
     }
-
   }
 
   &.item-bg6 {
@@ -4147,7 +4147,6 @@ Page Title Area CSS
       image: url(https://res.cloudinary.com/dpoxq3jcb/image/upload/f_auto,q_auto/v1/next/tech/spyl6suixoh910qfjk2c);
       // image: url(/images/technology-banner/saleforce-banner.png);
     }
-
   }
 
   &.item-bg7 {
@@ -4155,43 +4154,36 @@ Page Title Area CSS
       image: url(https://res.cloudinary.com/dpoxq3jcb/image/upload/f_auto,q_auto/v1/next/tech/lm8tbbftovgo3p5bncl3);
       // image: url(/images/technology-banner/servicenow-banner.jpg);
     }
-
   }
 
   &.item-bg8 {
     background: {
       image: url(/images/technology-banner/Contingent.jpg);
     }
-
   }
 
   &.item-bg9 {
     background: {
       image: url(/images/technology-banner/google-banner.png);
     }
-
   }
 
   &.item-bg10 {
     background: {
       image: url(/images/technology-banner/htd-banner.jpeg);
-      ;
     }
-
   }
 
   &.item-bg11 {
     background: {
       image: url(/images/technology-banner/payroll.png);
     }
-
   }
 
   &.item-bg12 {
     background: {
       image: url(/images/technology-banner/contact.png);
     }
-
   }
 
   &.item-bg13 {
@@ -4199,21 +4191,18 @@ Page Title Area CSS
       image: url(https://res.cloudinary.com/dpoxq3jcb/image/upload/f_auto,q_auto/v1/next/tech/ftlgjgksjhmyqrwfo3by);
       // image: url(/images/technology-banner/MendixBanner.jpg);
     }
-
   }
 
   &.item-bg14 {
     background: {
       image: url(/images/technology-banner/RPO.png);
     }
-
   }
 
   &.item-bg15 {
     background: {
       image: url(/images/technology-banner/microsoftcrm-banner.jpg);
     }
-
   }
 
   &.item-bg16 {
@@ -4326,8 +4315,8 @@ Page Title Area CSS
     }
   }
 
-   // power plantform
-   &.item-bg36 {
+  // power plantform
+  &.item-bg36 {
     background: {
       image: url(/images/microsoft-power-platform-image-2.jpeg);
     }
@@ -4335,18 +4324,16 @@ Page Title Area CSS
 
   &.item-bg35 {
     background: {
-      image: url('https://res.cloudinary.com/dpoxq3jcb/image/upload/f_auto,q_auto/v1/next/tech/s2nk8lih7g5ah1bachmj');
+      image: url("https://res.cloudinary.com/dpoxq3jcb/image/upload/f_auto,q_auto/v1/next/tech/s2nk8lih7g5ah1bachmj");
       background-position: 100% 31%;
       // image: url(/images/google-banner-2.jpeg);
     }
 
     &::before {
-      content: '';
+      content: "";
       background-color: rgb(0 0 0 / 31%);
     }
   }
-
-
 }
 
 .page-title-content {
@@ -4481,7 +4468,7 @@ Sidebar Area CSS
       }
 
       &::before {
-        content: '';
+        content: "";
         position: absolute;
         background: $main-color;
         bottom: -1px;
@@ -4651,7 +4638,7 @@ Sidebar Area CSS
           position: absolute;
           height: 7px;
           width: 7px;
-          content: '';
+          content: "";
           left: 0;
           top: 8px;
         }
@@ -4703,7 +4690,7 @@ Sidebar Area CSS
           background: $main-color;
           height: 7px;
           width: 7px;
-          content: '';
+          content: "";
           left: 0;
           top: 7px;
           position: absolute;
@@ -4751,7 +4738,7 @@ Sidebar Area CSS
           background: $main-color;
           height: 7px;
           width: 7px;
-          content: '';
+          content: "";
           left: 0;
           top: 7px;
           position: absolute;
@@ -4794,7 +4781,7 @@ Sidebar Area CSS
           background: $main-color;
           height: 7px;
           width: 7px;
-          content: '';
+          content: "";
           left: 0;
           top: 7px;
           position: absolute;
@@ -4841,7 +4828,7 @@ Sidebar Area CSS
           background: $main-color;
           height: 7px;
           width: 7px;
-          content: '';
+          content: "";
           left: 0;
           top: 7px;
           position: absolute;
@@ -4988,7 +4975,7 @@ FAQ Area CSS
           position: absolute;
           height: 100%;
           width: 40px;
-          content: '';
+          content: "";
           left: 0;
           top: 0;
           z-index: 0;
@@ -5009,7 +4996,7 @@ FAQ Area CSS
       }
 
       &::after {
-        content: '';
+        content: "";
         margin-right: 0;
         border-right: 3px solid #fff;
         transform: rotate(0deg);
@@ -5022,13 +5009,13 @@ FAQ Area CSS
         z-index: 1;
       }
 
-      &[aria-expanded='true']::after,
-      &[aria-selected='true']::after {
+      &[aria-expanded="true"]::after,
+      &[aria-selected="true"]::after {
         display: none;
       }
 
-      &[aria-expanded='true']::before,
-      &[aria-selected='true']::before {
+      &[aria-expanded="true"]::before,
+      &[aria-selected="true"]::before {
         transform: rotate(0deg);
       }
     }
@@ -5043,24 +5030,6 @@ FAQ Area CSS
     }
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .faq-contact {
   margin-top: 110px;
@@ -5079,7 +5048,7 @@ FAQ Area CSS
     .form-control {
       background-color: $white-color;
       border: none;
-      box-shadow: 0px 5px 28.5px 1.5px rgba(149, 152, 200, .2);
+      box-shadow: 0px 5px 28.5px 1.5px rgba(149, 152, 200, 0.2);
       height: 50px;
 
       font: {
@@ -5210,14 +5179,14 @@ Coming Soon Area CSS
       .form-control {
         height: 50px;
         border: none;
-        box-shadow: 0px 5px 28.5px 1.5px rgba(149, 152, 200, .2);
+        box-shadow: 0px 5px 28.5px 1.5px rgba(149, 152, 200, 0.2);
       }
 
       .btn {
         display: block;
         width: 100%;
         padding: 15px 28px;
-        box-shadow: 0px 5px 28.5px 1.5px rgba(149, 152, 200, .2);
+        box-shadow: 0px 5px 28.5px 1.5px rgba(149, 152, 200, 0.2);
       }
 
       p {
@@ -5368,7 +5337,7 @@ Coming Soon Area CSS
       top: 0;
       left: 0;
       background: #000000;
-      opacity: .7;
+      opacity: 0.7;
       z-index: -1;
     }
   }
@@ -5396,7 +5365,7 @@ Contact Area CSS
     .form-control {
       background-color: $white-color;
       border: none;
-      box-shadow: 0px 5px 28.5px 1.5px rgba(149, 152, 200, .2);
+      box-shadow: 0px 5px 28.5px 1.5px rgba(149, 152, 200, 0.2);
       height: 50px;
 
       font: {
@@ -5484,7 +5453,7 @@ Contact Area CSS
 .topbar-action-list {
   li {
     .active {
-      color: #ff4800
+      color: #ff4800;
     }
   }
 }
@@ -5665,7 +5634,7 @@ Footer Area CSS
     }
 
     &::before {
-      content: '';
+      content: "";
       position: absolute;
       left: 0;
       bottom: 0;
@@ -5803,7 +5772,7 @@ Footer Area CSS
       }
 
       &::before {
-        content: '';
+        content: "";
         width: 4px;
         height: 1px;
         background: $white-color;
@@ -5858,7 +5827,12 @@ Footer Area CSS
       width: 100%;
       top: -50%;
       left: 0;
-      background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, $white-color 75%, $white-color 100%);
+      background: linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0) 0%,
+        $white-color 75%,
+        $white-color 100%
+      );
       animation: run 7s 0s infinite;
       animation-fill-mode: forwards;
       animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);
@@ -5908,7 +5882,7 @@ Go Top CSS
     text-align: center;
     height: 42px;
     line-height: 42px;
-    transition: .9s;
+    transition: 0.9s;
 
     i {
       position: absolute;
@@ -5927,7 +5901,7 @@ Go Top CSS
     }
 
     &::before {
-      content: '';
+      content: "";
       position: absolute;
       top: 0;
       left: 0;
@@ -5968,7 +5942,6 @@ Go Top CSS
 
 /* Text container */
 .text-container {
-
   h1,
   h2,
   h3,
@@ -5992,41 +5965,6 @@ Go Top CSS
     }
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*new-css*/
 
@@ -6062,8 +6000,6 @@ Navbar Area CSS
       left: 0;
       right: 0;
     }
-
-    ;
 
     .navbar-brand {
       img {
@@ -6461,7 +6397,6 @@ Navbar Area CSS
   }
 }
 
-
 /*================================================
 Main Banner Area CSS
 =================================================*/
@@ -6475,8 +6410,6 @@ Main Banner Area CSS
       bottom: 20vh;
     }
 
-    ;
-
     // padding: {
     //     top: 310px;
     //     bottom: 220px;
@@ -6489,14 +6422,10 @@ Main Banner Area CSS
         top: 0;
       }
 
-      ;
-
       p {
         margin: {
           top: 30px;
         }
-
-        ;
       }
     }
   }
@@ -6512,8 +6441,6 @@ Main Banner Area CSS
     left: 30px;
     right: 30px;
   }
-
-  ;
 }
 
 .startup-banner-inner {
@@ -6524,14 +6451,10 @@ Main Banner Area CSS
     image: url(/images/startup-banner.jpg);
   }
 
-  ;
-
   padding: {
     top: 160px;
     bottom: 160px;
   }
-
-  ;
 }
 
 .startup-banner-content {
@@ -6556,8 +6479,6 @@ Main Banner Area CSS
       size: 15px;
     }
 
-    ;
-
     margin: {
       top: 25px;
       bottom: 0;
@@ -6580,7 +6501,7 @@ Main Banner Area CSS
       }
 
       &::before {
-        content: '';
+        content: "";
         position: absolute;
         left: 0;
         bottom: 0;
@@ -6591,7 +6512,7 @@ Main Banner Area CSS
       }
 
       &::after {
-        content: '';
+        content: "";
         position: absolute;
         right: 0;
         bottom: 0;
@@ -6651,8 +6572,6 @@ Main Services Area CSS
       size: 23px;
       weight: 700;
     }
-
-    ;
   }
 
   .link-btn {
@@ -6682,7 +6601,14 @@ Featured Solutions Area CSS
   margin-bottom: 30px;
   padding: 35px;
   border-radius: 5px;
-  background: linear-gradient(to left bottom, #dee4f3, #e7eaf6, #f0f1f9, #f8f8fc, #ffffff);
+  background: linear-gradient(
+    to left bottom,
+    #dee4f3,
+    #e7eaf6,
+    #f0f1f9,
+    #f8f8fc,
+    #ffffff
+  );
 
   .icon {
     position: relative;
@@ -6696,13 +6622,20 @@ Featured Solutions Area CSS
     &::before {
       height: 50px;
       width: 50px;
-      background: linear-gradient(to right, #dee4f3, #e7eaf6, #f0f1f9, #f8f8fc, #ffffff);
+      background: linear-gradient(
+        to right,
+        #dee4f3,
+        #e7eaf6,
+        #f0f1f9,
+        #f8f8fc,
+        #ffffff
+      );
       position: absolute;
       left: -10px;
       top: 50%;
       transform: translateY(-50%);
       z-index: -1;
-      content: '';
+      content: "";
       border-radius: 50%;
       transition: $transition;
     }
@@ -6768,8 +6701,6 @@ Why Choose Us Area CSS
       size: 40px;
       weight: 700;
     }
-
-    ;
   }
 
   .btn {
@@ -6791,8 +6722,6 @@ Why Choose Us Area CSS
       size: 21px;
       weight: 700;
     }
-
-    ;
   }
 }
 
@@ -6809,8 +6738,6 @@ Solutions Area CSS
     size: cover;
     repeat: no-repeat;
   }
-
-  ;
 }
 
 .single-solutions-box {
@@ -6845,8 +6772,6 @@ Solutions Area CSS
       size: 23px;
       weight: 700;
     }
-
-    ;
   }
 
   &.active,
@@ -6875,7 +6800,7 @@ Testimonials Area CSS
       position: relative;
 
       &::before {
-        content: '';
+        content: "";
         position: absolute;
         right: -15px;
         top: 0;
@@ -6910,8 +6835,6 @@ Testimonials Area CSS
       right: auto;
       top: 0;
     }
-
-    ;
   }
 }
 
@@ -6926,8 +6849,6 @@ Testimonials Area CSS
     font: {
       size: 22px;
     }
-
-    ;
   }
 
   .client-info {
@@ -6940,8 +6861,6 @@ Testimonials Area CSS
         size: 20px;
         weight: 700;
       }
-
-      ;
     }
 
     span {
@@ -6962,8 +6881,6 @@ Webinar Area CSS
     top: 10px;
   }
 
-  ;
-
   .content {
     h2 {
       margin-bottom: 15px;
@@ -6972,8 +6889,6 @@ Webinar Area CSS
         size: 40px;
         weight: 700;
       }
-
-      ;
     }
 
     p {
@@ -7036,8 +6951,6 @@ Newsletter Area CSS
     top: 5px;
   }
 
-  ;
-
   .content {
     padding-left: 30px;
 
@@ -7048,8 +6961,6 @@ Newsletter Area CSS
         size: 40px;
         weight: 700;
       }
-
-      ;
     }
 
     form {
@@ -7099,8 +7010,6 @@ Newsletter Area CSS
           weight: 600;
         }
 
-        ;
-
         &:hover {
           background-color: $optional-color;
           color: $white-color;
@@ -7136,14 +7045,10 @@ Fun Facts Area CSS
       weight: 700;
     }
 
-    ;
-
     .odometer-auto-theme {
       font: {
         family: $optional-font-family;
       }
-
-      ;
     }
   }
 
@@ -7166,8 +7071,6 @@ Fun Facts Area CSS
     right: auto;
   }
 
-  ;
-
   h3 {
     margin-bottom: 0;
 
@@ -7175,8 +7078,6 @@ Fun Facts Area CSS
       size: 23px;
       weight: 600;
     }
-
-    ;
   }
 
   p {
@@ -7186,8 +7087,6 @@ Fun Facts Area CSS
       top: 10px;
       bottom: 0;
     }
-
-    ;
   }
 
   .btn {
@@ -7211,8 +7110,6 @@ Fun Facts Area CSS
     left: auto;
     right: auto;
   }
-
-  ;
 }
 
 /*================================================
@@ -7232,8 +7129,6 @@ Projects Area CSS
       left: 0;
       right: 0;
     }
-
-    ;
   }
 
   .container-fluid {
@@ -7261,7 +7156,7 @@ Projects Area CSS
       top: 20px;
       right: 20px;
       transform: scale(0);
-      transition: all .4s ease-out 0s;
+      transition: all 0.4s ease-out 0s;
       overflow: hidden;
       border-radius: 50%;
 
@@ -7276,7 +7171,7 @@ Projects Area CSS
         &::before,
         &::after {
           position: absolute;
-          content: '';
+          content: "";
           width: 2px;
           height: 100%;
           background-color: $white-color;
@@ -7310,7 +7205,6 @@ Projects Area CSS
 }
 
 .projects-slides {
-
   .swiper-button-next,
   .swiper-button-prev {
     color: $main-color;
@@ -7388,8 +7282,15 @@ Pricing Area CSS
 
     .btn-primary {
       &::after {
-        background: linear-gradient(to right top, #a3a3a3, #9a9a9a, #909090, #878787, #7e7e7e);
-        content: '';
+        background: linear-gradient(
+          to right top,
+          #a3a3a3,
+          #9a9a9a,
+          #909090,
+          #878787,
+          #7e7e7e
+        );
+        content: "";
         position: absolute;
         left: 0;
         top: 0;
@@ -7511,7 +7412,14 @@ Pricing Area CSS
 }
 
 .pricing-box {
-  background: linear-gradient(to left bottom, #dee4f3, #e7eaf6, #f0f1f9, #f8f8fc, #ffffff);
+  background: linear-gradient(
+    to left bottom,
+    #dee4f3,
+    #e7eaf6,
+    #f0f1f9,
+    #f8f8fc,
+    #ffffff
+  );
   margin-bottom: 30px;
   text-align: center;
   padding: 30px;
@@ -7568,8 +7476,15 @@ Pricing Area CSS
 
     .btn-primary {
       &::after {
-        background: linear-gradient(to right top, #a3a3a3, #9a9a9a, #909090, #878787, #7e7e7e);
-        content: '';
+        background: linear-gradient(
+          to right top,
+          #a3a3a3,
+          #9a9a9a,
+          #909090,
+          #878787,
+          #7e7e7e
+        );
+        content: "";
         position: absolute;
         left: 0;
         top: 0;
@@ -7591,8 +7506,6 @@ Pricing Area CSS
       left: 15px;
       right: 15px;
     }
-
-    ;
 
     li {
       margin-bottom: 12px;
@@ -7636,11 +7549,25 @@ Pricing Area CSS
   &.bg-color {
     .tabs {
       li {
-        background: linear-gradient(to left bottom, #dee4f3, #e7eaf6, #f0f1f9, #f8f8fc, #ffffff);
+        background: linear-gradient(
+          to left bottom,
+          #dee4f3,
+          #e7eaf6,
+          #f0f1f9,
+          #f8f8fc,
+          #ffffff
+        );
 
         &:hover {
           color: $black-color;
-          background: linear-gradient(to left bottom, #dee4f3, #e7eaf6, #f0f1f9, #f8f8fc, #ffffff);
+          background: linear-gradient(
+            to left bottom,
+            #dee4f3,
+            #e7eaf6,
+            #f0f1f9,
+            #f8f8fc,
+            #ffffff
+          );
         }
 
         &.current {
@@ -7654,7 +7581,14 @@ Pricing Area CSS
 
 // Testimonials slides
 .testimonials-area {
-  background: linear-gradient(to right, #dee4f3, #e7eaf6, #f0f1f9, #f8f8fc, #ffffff);
+  background: linear-gradient(
+    to right,
+    #dee4f3,
+    #e7eaf6,
+    #f0f1f9,
+    #f8f8fc,
+    #ffffff
+  );
   padding-bottom: 80px;
   position: relative;
   z-index: 1;
@@ -7702,14 +7636,10 @@ Pricing Area CSS
         top: 10px;
       }
 
-      ;
-
       font: {
         size: 19px;
         weight: 700;
       }
-
-      ;
     }
 
     span {
@@ -7756,12 +7686,10 @@ Pricing Area CSS
       size: 80px;
       family: Flaticon;
     }
-
-    ;
   }
 
   &::after {
-    content: '';
+    content: "";
     position: absolute;
     left: 0;
     right: 0;
@@ -7776,8 +7704,6 @@ Pricing Area CSS
       left: 30px;
       right: 30px;
     }
-
-    ;
   }
 }
 
@@ -7862,8 +7788,6 @@ Projects Details Area CSS
           weight: 600;
           size: 16px;
         }
-
-        ;
       }
     }
   }
@@ -7879,8 +7803,6 @@ Projects Details Area CSS
       size: 23px;
       weight: 700;
     }
-
-    ;
   }
 
   p {
@@ -8281,17 +8203,17 @@ Product Details Area CSS
       }
     }
 
-    .inp-cbx:checked+.cbx span:first-child {
+    .inp-cbx:checked + .cbx span:first-child {
       background: $black-color;
       border-color: $black-color;
       animation: wave 0.4s ease;
     }
 
-    .inp-cbx:checked+.cbx span:first-child svg {
+    .inp-cbx:checked + .cbx span:first-child svg {
       stroke-dashoffset: 0;
     }
 
-    .inp-cbx:checked+.cbx span:first-child:before {
+    .inp-cbx:checked + .cbx span:first-child:before {
       transform: scale(3.5);
       opacity: 0;
       transition: all 0.6s ease;
@@ -8396,7 +8318,7 @@ Product Details Area CSS
         &::before {
           position: absolute;
           top: 0;
-          content: '';
+          content: "";
           left: 0;
           right: 0;
           bottom: 0;
@@ -8470,7 +8392,6 @@ Product Details Area CSS
 
             &:last-child {
               border-bottom: 1px solid #eeeeee;
-              ;
             }
 
             span {
@@ -8891,7 +8812,7 @@ Checkout Area CSS
   position: relative;
 
   &::before {
-    content: '';
+    content: "";
     position: absolute;
     right: 0;
     bottom: -35px;
@@ -9099,7 +9020,6 @@ Checkout Area CSS
         }
 
         [type="radio"] {
-
           &:checked,
           &:not(:checked) {
             display: none;
@@ -9107,10 +9027,9 @@ Checkout Area CSS
         }
 
         [type="radio"] {
-
           &:checked,
           &:not(:checked) {
-            +label {
+            + label {
               padding-left: 27px;
               cursor: pointer;
               display: block;
@@ -9123,7 +9042,7 @@ Checkout Area CSS
               }
 
               &::before {
-                content: '';
+                content: "";
                 position: absolute;
                 left: 0;
                 top: 3px;
@@ -9135,7 +9054,7 @@ Checkout Area CSS
               }
 
               &::after {
-                content: '';
+                content: "";
                 width: 12px;
                 height: 12px;
                 background: $main-color;
@@ -9151,7 +9070,7 @@ Checkout Area CSS
 
         [type="radio"] {
           &:not(:checked) {
-            +label {
+            + label {
               &::after {
                 opacity: 0;
                 visibility: hidden;
@@ -9163,7 +9082,7 @@ Checkout Area CSS
 
         [type="radio"] {
           &:checked {
-            +label {
+            + label {
               &::after {
                 opacity: 1;
                 visibility: visible;
@@ -9179,7 +9098,7 @@ Checkout Area CSS
       &.order-btn {
         display: block;
         margin-top: 25px;
-        box-shadow: 0px 5px 28.5px 1.5px rgba(149, 152, 200, .2);
+        box-shadow: 0px 5px 28.5px 1.5px rgba(149, 152, 200, 0.2);
       }
     }
   }
@@ -9189,7 +9108,6 @@ Checkout Area CSS
   margin-top: 10px;
   font-size: 14px;
 }
-
 
 /*Start "Home Demo - 6", "Home Demo - 7" & "Home Demo - 8" Style CSS*/
 
@@ -9220,7 +9138,7 @@ Checkout Area CSS
       b {
         display: inline-block;
         text-decoration-line: underline;
-        color: #437FEC;
+        color: #437fec;
         font-weight: bold;
       }
     }
@@ -9243,15 +9161,11 @@ Topbar Wrap Area CSS
     bottom: 15px;
   }
 
-  ;
-
   .container-fluid {
     padding: {
       left: 30px;
       right: 30px;
     }
-
-    ;
   }
 }
 
@@ -9285,7 +9199,6 @@ Topbar Wrap Area CSS
     display: inline-block;
     margin-right: 30px;
     position: relative;
-    
 
     &::before {
       content: "";
@@ -9294,7 +9207,7 @@ Topbar Wrap Area CSS
       right: -15px;
       width: 1px;
       height: 20px;
-      border: 2px solid #E4E7FB;
+      border: 2px solid #e4e7fb;
     }
 
     &:last-child {
@@ -9333,7 +9246,7 @@ Navbar Area CSS
 =================================================*/
 .navbar-area-with-position-relative {
   position: relative;
-  background: linear-gradient(180deg, #F5FCFE 3.31%, #F6FCFF 100%);
+  background: linear-gradient(180deg, #f5fcfe 3.31%, #f6fcff 100%);
 
   &.with-white-color {
     background: $white-color;
@@ -9345,15 +9258,11 @@ Navbar Area CSS
       right: 0;
     }
 
-    ;
-
     .container-fluid {
       padding: {
         left: 30px;
         right: 30px;
       }
-
-      ;
     }
 
     .navbar {
@@ -9443,22 +9352,18 @@ AI Main Banner Area CSS
   position: relative;
   z-index: 1;
   overflow: hidden;
-  background: linear-gradient(180deg, #c9c9c9 3.31%, #F6FCFF 100%);
+  background: linear-gradient(180deg, #c9c9c9 3.31%, #f6fcff 100%);
 
   padding: {
     top: 120px;
     bottom: 120px;
   }
 
-  ;
-
   .container-fluid {
     padding: {
       left: 0;
       right: 0;
     }
-
-    ;
   }
 }
 
@@ -9476,7 +9381,7 @@ AI Main Banner Area CSS
 
     span {
       text-decoration-line: underline;
-      color: #437FEC;
+      color: #437fec;
     }
   }
 
@@ -9494,8 +9399,6 @@ AI Main Banner Area CSS
       bottom: 0;
     }
 
-    ;
-
     li {
       display: inline-flex;
       margin-right: 20px;
@@ -9512,7 +9415,7 @@ AI Main Banner Area CSS
         cursor: pointer;
 
         i {
-          background: linear-gradient(320.56deg, #074ECE 0%, #4D8CFF 100%);
+          background: linear-gradient(320.56deg, #074ece 0%, #4d8cff 100%);
           box-shadow: -3px 8px 20px rgba(67, 127, 236, 0.12);
           height: 40px;
           width: 40px;
@@ -9609,7 +9512,7 @@ Fun Facts Area CSS
     z-index: -1;
     width: 100%;
     height: 120px;
-    background: linear-gradient(180deg, #F5FCFE 3.31%, #F6FCFF 100%);
+    background: linear-gradient(180deg, #f5fcfe 3.31%, #f6fcff 100%);
   }
 
   &.without-before-color {
@@ -9620,7 +9523,7 @@ Fun Facts Area CSS
 }
 
 .fun-facts-wrap-area-inner-box {
-  background: linear-gradient(90deg, #DD24ED 0%, #7609EA 97.61%);
+  background: linear-gradient(90deg, #dd24ed 0%, #7609ea 97.61%);
   box-shadow: -3px 8px 20px rgba(80, 80, 161, 0.07);
 
   padding: {
@@ -9628,10 +9531,8 @@ Fun Facts Area CSS
     right: 100px;
   }
 
-  ;
-
   &.gradient-optional-color {
-    background: linear-gradient(90deg, #61967D 0%, #4A4493 100%);
+    background: linear-gradient(90deg, #61967d 0%, #4a4493 100%);
     overflow: hidden;
     position: relative;
     z-index: 1;
@@ -9660,8 +9561,6 @@ Fun Facts Area CSS
       font: {
         family: $optional-font-family;
       }
-
-      ;
     }
   }
 
@@ -9673,8 +9572,6 @@ Fun Facts Area CSS
       top: 5px;
       bottom: 0;
     }
-
-    ;
   }
 }
 
@@ -9699,7 +9596,7 @@ Top Featured Area CSS
 
     span {
       text-decoration-line: underline;
-      color: #437FEC;
+      color: #437fec;
     }
   }
 
@@ -9714,7 +9611,7 @@ Top Featured Area CSS
 
 .top-featured-card {
   margin-bottom: 30px;
-  background: #F8FBFF;
+  background: #f8fbff;
   padding: 35px 30px;
   border-radius: 5px;
 
@@ -9742,7 +9639,7 @@ Top Featured Area CSS
       left: 0;
       right: 0;
       top: 0;
-      background: linear-gradient(0deg, #FFC2CC 0%, #FFF2F4 100%);
+      background: linear-gradient(0deg, #ffc2cc 0%, #fff2f4 100%);
       z-index: -1;
       transition: $transition;
       border-radius: 50%;
@@ -9808,7 +9705,7 @@ AI About Area CSS
 
     span {
       text-decoration-line: underline;
-      color: #437FEC;
+      color: #437fec;
     }
   }
 
@@ -9824,7 +9721,6 @@ AI About Area CSS
       bottom: 0;
     }
 
-    ;
     max-width: 450px;
 
     li {
@@ -9845,7 +9741,7 @@ AI About Area CSS
 
       i {
         font-size: $font-size;
-        color: #03B5A9;
+        color: #03b5a9;
         position: absolute;
         left: 20px;
         top: 50%;
@@ -9896,13 +9792,13 @@ AI About Area CSS
 AI Services Area CSS
 =================================================*/
 .ai-services-area {
-  background: #F7FBFF;
+  background: #f7fbff;
   position: relative;
   z-index: 1;
   overflow: hidden;
 
   &.with-linear-gradient-color {
-    background: linear-gradient(269.49deg, #DD24ED 0.44%, #7609EA 99.58%);
+    background: linear-gradient(269.49deg, #dd24ed 0.44%, #7609ea 99.58%);
 
     .section-title {
       h2 {
@@ -9924,7 +9820,7 @@ AI Services Area CSS
   }
 
   &.with-linear-gradient-optional-color {
-    background: linear-gradient(90deg, #61967D 0%, #4A4493 100%);
+    background: linear-gradient(90deg, #61967d 0%, #4a4493 100%);
     position: relative;
     z-index: 1;
 
@@ -9974,30 +9870,35 @@ AI Services Area CSS
     height: 90px;
     width: 90px;
     line-height: 90px;
-    background: linear-gradient(0deg, #FFC2CC 0%, #FFF2F4 100%);
+    background: linear-gradient(0deg, #ffc2cc 0%, #fff2f4 100%);
     text-align: center;
     border-radius: 50%;
     margin-bottom: 22px;
     transition: $transition;
 
     &.bg-two {
-      background: linear-gradient(0deg, #FFBEF9 0%, #FFF1FF 100%);
+      background: linear-gradient(0deg, #ffbef9 0%, #fff1ff 100%);
     }
 
     &.bg-three {
-      background: linear-gradient(0deg, #FFE59A 0%, #FFFFD5 100%);
+      background: linear-gradient(0deg, #ffe59a 0%, #ffffd5 100%);
     }
 
     &.bg-four {
-      background: linear-gradient(0deg, #FFBEF9 0%, #FFF1FF 100%);
+      background: linear-gradient(0deg, #ffbef9 0%, #fff1ff 100%);
     }
 
     &.bg-five {
-      background: linear-gradient(0deg, #C3FFE8 0%, #F0FFF4 99.73%);
+      background: linear-gradient(0deg, #c3ffe8 0%, #f0fff4 99.73%);
     }
 
     &.bg-six {
-      background: linear-gradient(0deg, #ADDCFF 0%, #EAF6FF 50.28%, #EAF6FF 100%);
+      background: linear-gradient(
+        0deg,
+        #addcff 0%,
+        #eaf6ff 50.28%,
+        #eaf6ff 100%
+      );
     }
   }
 
@@ -10008,11 +9909,11 @@ AI Services Area CSS
   }
 
   .read-btn {
-    background: #FF4800;
+    background: #ff4800;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    border-bottom: 1px solid #FF4800;
+    border-bottom: 1px solid #ff4800;
     font-size: 15px;
     font-weight: 600;
   }
@@ -10051,7 +9952,7 @@ Computer Vision AI Area CSS
 
     span {
       text-decoration-line: underline;
-      color: #437FEC;
+      color: #437fec;
     }
   }
 
@@ -10071,7 +9972,7 @@ Computer Vision AI Area CSS
         height: 55px;
         width: 55px;
         line-height: 55px;
-        background: #F3F9FF;
+        background: #f3f9ff;
         text-align: center;
         border-radius: 50%;
         transition: $transition;
@@ -10093,8 +9994,6 @@ Computer Vision AI Area CSS
         top: 15px;
         bottom: 0;
       }
-
-      ;
     }
   }
 
@@ -10107,13 +10006,13 @@ Computer Vision AI Area CSS
 AI Pricing Area CSS
 =================================================*/
 .ai-pricing-area {
-  background-color: #F7FBFF;
+  background-color: #f7fbff;
   position: relative;
   z-index: 1;
   overflow: hidden;
 
   &.with-linear-gradient-color {
-    background: linear-gradient(270deg, #5151B7 0%, #A02B7E 100%);
+    background: linear-gradient(270deg, #5151b7 0%, #a02b7e 100%);
   }
 }
 
@@ -10140,8 +10039,6 @@ AI Pricing Area CSS
         top: 10px;
         bottom: 0;
       }
-
-      ;
     }
   }
 
@@ -10156,8 +10053,6 @@ AI Pricing Area CSS
       top: 22px;
       bottom: 22px;
     }
-
-    ;
 
     span {
       font-size: $font-size;
@@ -10183,7 +10078,7 @@ AI Pricing Area CSS
       }
 
       i {
-        color: #03B5A9;
+        color: #03b5a9;
         font-size: 14px;
         position: absolute;
         left: 0;
@@ -10195,7 +10090,7 @@ AI Pricing Area CSS
         }
 
         &.fa-times {
-          color: #E8346F;
+          color: #e8346f;
         }
       }
     }
@@ -10221,7 +10116,7 @@ AI Pricing Area CSS
 
   .tag {
     display: inline-block;
-    background: linear-gradient(270deg, #FA887D 0%, #FE6088 100%);
+    background: linear-gradient(270deg, #fa887d 0%, #fe6088 100%);
     padding: 8px 25px;
     border-radius: 30px;
     color: $white-color;
@@ -10330,7 +10225,8 @@ AI Blog Area CSS
         color: $black-color;
         position: relative;
         display: inline;
-        transition: background-size 0.25s cubic-bezier(0.785, 0.135, 0.15, 0.86) 0s;
+        transition: background-size 0.25s cubic-bezier(0.785, 0.135, 0.15, 0.86)
+          0s;
         padding: 0.1% 0px;
 
         background: {
@@ -10364,8 +10260,6 @@ AI Blog Area CSS
         top: 18px;
         bottom: 0;
       }
-
-      ;
 
       li {
         color: $paragraph-color;
@@ -10436,7 +10330,7 @@ AI Blog Area CSS
 AI Subscribe Area CSS
 =================================================*/
 .ai-subscribe-area {
-  background: #F7FBFF;
+  background: #f7fbff;
   position: relative;
   z-index: 1;
   overflow: hidden;
@@ -10538,7 +10432,7 @@ AI Subscribe Area CSS
             border-radius: 2px;
             transform: scale(1);
             vertical-align: middle;
-            border: 1px solid #437FEC;
+            border: 1px solid #437fec;
             transition: all 0.2s ease;
             transition: $transition;
 
@@ -10587,17 +10481,17 @@ AI Subscribe Area CSS
         }
       }
 
-      .inp-cbx:checked+.cbx span:first-child {
+      .inp-cbx:checked + .cbx span:first-child {
         background: $main-color;
         border-color: $main-color;
         animation: wave 0.4s ease;
       }
 
-      .inp-cbx:checked+.cbx span:first-child svg {
+      .inp-cbx:checked + .cbx span:first-child svg {
         stroke-dashoffset: 0;
       }
 
-      .inp-cbx:checked+.cbx span:first-child:before {
+      .inp-cbx:checked + .cbx span:first-child:before {
         transform: scale(3.5);
         opacity: 0;
         transition: all 0.6s ease;
@@ -10624,33 +10518,27 @@ ML Main Banner Area CSS
   position: relative;
   z-index: 1;
   overflow: hidden;
-  background: #F5FCFE;
+  background: #f5fcfe;
 
   padding: {
     top: 70px;
     bottom: 120px;
   }
 
-  ;
-
   .container-fluid {
     padding: {
       left: 30px;
       right: 30px;
     }
-
-    ;
   }
 
   &.with-linear-gradient-color {
-    background: linear-gradient(0deg, #EB8A6F 0%, #E33879 100%);
+    background: linear-gradient(0deg, #eb8a6f 0%, #e33879 100%);
 
     padding: {
       top: 120px;
       bottom: 230px;
     }
-
-    ;
 
     .container-fluid {
       padding-right: 0;
@@ -10670,7 +10558,7 @@ ML Main Banner Area CSS
     margin-bottom: 22px;
 
     b {
-      background: #738BAE;
+      background: #738bae;
       padding: 2px 12px;
       border-radius: 30px;
       color: $white-color;
@@ -10686,7 +10574,7 @@ ML Main Banner Area CSS
 
     span {
       text-decoration-line: underline;
-      color: #437FEC;
+      color: #437fec;
     }
   }
 
@@ -10761,8 +10649,6 @@ ML Main Banner Area CSS
       bottom: 0;
     }
 
-    ;
-
     li {
       display: inline-flex;
       margin-right: 20px;
@@ -10779,7 +10665,7 @@ ML Main Banner Area CSS
         cursor: pointer;
 
         i {
-          background: linear-gradient(320.56deg, #074ECE 0%, #4D8CFF 100%);
+          background: linear-gradient(320.56deg, #074ece 0%, #4d8cff 100%);
           box-shadow: -3px 8px 20px rgba(67, 127, 236, 0.12);
           height: 40px;
           width: 40px;
@@ -10794,7 +10680,7 @@ ML Main Banner Area CSS
       }
 
       .btn-primary {
-        background: #561A8A;
+        background: #561a8a;
         box-shadow: -3px 8px 20px rgba(255, 72, 0, 0.13);
       }
     }
@@ -10826,7 +10712,7 @@ ML Main Banner Area CSS
     height: 530px;
     left: 80px;
     top: 25px;
-    background: linear-gradient(109.28deg, #FE6D5B 11.53%, #FE9C42 89.63%);
+    background: linear-gradient(109.28deg, #fe6d5b 11.53%, #fe9c42 89.63%);
     border-radius: 50%;
     z-index: -1;
     animation-name: rotateMe;
@@ -10859,7 +10745,7 @@ ML Main Banner Area CSS
       height: 30px;
       width: 30px;
       line-height: 30px;
-      background: #03B5A9;
+      background: #03b5a9;
       box-shadow: 0px 4px 10px rgba(3, 181, 169, 0.12);
       text-align: center;
       border-radius: 50px;
@@ -10934,7 +10820,7 @@ ML Main Banner Area CSS
 Business Solution Area CSS
 =================================================*/
 .business-solution-area {
-  background-color: #F7FBFF;
+  background-color: #f7fbff;
 }
 
 .business-solution-content {
@@ -10945,7 +10831,7 @@ Business Solution Area CSS
 
     span {
       text-decoration-line: underline;
-      color: #437FEC;
+      color: #437fec;
     }
   }
 
@@ -10961,7 +10847,6 @@ Business Solution Area CSS
       bottom: 0;
     }
 
-    ;
     max-width: 450px;
 
     li {
@@ -10982,7 +10867,7 @@ Business Solution Area CSS
 
       i {
         font-size: $font-size;
-        color: #03B5A9;
+        color: #03b5a9;
         position: absolute;
         left: 20px;
         top: 50%;
@@ -11030,7 +10915,7 @@ Business Solution Area CSS
       height: 30px;
       width: 30px;
       line-height: 30px;
-      background: #03B5A9;
+      background: #03b5a9;
       box-shadow: 0px 4px 10px rgba(3, 181, 169, 0.12);
       text-align: center;
       border-radius: 50px;
@@ -11051,7 +10936,7 @@ Business Solution Area CSS
 Unique Testimonials Area CSS
 =================================================*/
 .unique-testimonials-box {
-  background: #F7FBFF;
+  background: #f7fbff;
   padding: 70px 100px 0;
   border-radius: 5px;
   text-align: center;
@@ -11079,7 +10964,6 @@ Unique Testimonials Area CSS
       size: 22.8px;
     }
 
-    ;
     position: relative;
     padding-bottom: 22px;
 
@@ -11093,7 +10977,7 @@ Unique Testimonials Area CSS
       right: 0;
       margin: auto;
       bottom: 0;
-      background: #437FEC;
+      background: #437fec;
     }
   }
 
@@ -11107,8 +10991,6 @@ Unique Testimonials Area CSS
         size: 23.8px;
         weight: 700;
       }
-
-      ;
     }
 
     span {
@@ -11205,7 +11087,7 @@ Creativity Area CSS
 
     span {
       text-decoration-line: underline;
-      color: #437FEC;
+      color: #437fec;
     }
   }
 
@@ -11250,13 +11132,13 @@ Creativity Area CSS
     }
 
     .progress-content-outter {
-      background-color: #E3E9FF;
+      background-color: #e3e9ff;
       border-radius: 50px;
     }
 
     .progress-content {
       height: 5px;
-      background: linear-gradient(90deg, #FFA68D 0%, #FD3A84 100%);
+      background: linear-gradient(90deg, #ffa68d 0%, #fd3a84 100%);
       border-radius: 50px;
       width: 0%;
     }
@@ -11330,7 +11212,7 @@ Creativity Area CSS
 AI Team Area CSS
 =================================================*/
 .ai-team-area {
-  background: #F5FCFF;
+  background: #f5fcff;
   position: relative;
   z-index: 1;
   overflow: hidden;
@@ -11356,7 +11238,7 @@ AI Team Area CSS
       z-index: 2;
       text-decoration: none;
       padding: 10px 12px;
-      background: linear-gradient(270deg, #FA887D 0%, #FE6088 100%);
+      background: linear-gradient(270deg, #fa887d 0%, #fe6088 100%);
       border-radius: 35px;
       opacity: 0;
       visibility: hidden;
@@ -11388,7 +11270,7 @@ AI Team Area CSS
       right: 0;
       top: 0;
       margin: auto;
-      background: #437FEC;
+      background: #437fec;
       border-radius: 15px;
       height: 3.5px;
       width: 35px;
@@ -11457,7 +11339,7 @@ AI Team Area CSS
 Footer Wrap Area CSS
 =================================================*/
 .footer-wrap-area {
-  background-color: #1A1F56;
+  background-color: #1a1f56;
   position: relative;
   z-index: 1;
   overflow: hidden;
@@ -11508,7 +11390,6 @@ Footer Wrap Area CSS
   padding-top: 50px;
 }
 
-
 .GCCJourney {
   background-color: #e2e7f4;
   margin-top: 70px;
@@ -11537,7 +11418,6 @@ Footer Wrap Area CSS
 }
 
 .profile_model {
-
   width: 100%;
   background-color: #fff;
   /* position: absolute;
@@ -11566,7 +11446,6 @@ Footer Wrap Area CSS
 .pro_social {
   margin-top: 12%;
   float: left;
-
 }
 
 .pro_content {
@@ -11596,7 +11475,7 @@ a.btn.btn-primary.cnt_btn {
   bottom: 20%;
   right: 0;
   /* background-color: #0C9; */
-  color: #FFF;
+  color: #fff;
   /* border-radius: 50px; */
   text-align: center;
   /* box-shadow: 2px 2px 3px #999; */
@@ -11634,22 +11513,17 @@ a.btn.btn-primary.cnt_btn {
 }
 
 .c_img {
-
   a {
     width: 100%;
-
   }
 
   img {
     width: 100% !important;
   }
-
 }
 
 .glass_logo {
-
   float: right;
-
 }
 
 ul.about-list.emp_list {
@@ -11660,7 +11534,7 @@ ul.about-list.emp_list {
   }
 
   i {
-    color: #03B5A9;
+    color: #03b5a9;
     padding: 8px 0;
   }
 }
@@ -11701,13 +11575,13 @@ ul.about-list.emp_list {
 
 .homeBannerSecond {
   background-image: url(/images/icons/home-banner2.jpeg);
-  background-Size: "100% 100%",
+  background-size: "100% 100%";
 }
 
 @media (max-width: 600px) {
   .homeBannerSecond {
     background-image: url(/images/icons/home-banner2.jpeg);
-    background-Size: cover,
+    background-size: cover;
   }
 }
 
@@ -11716,7 +11590,6 @@ ul.about-list.emp_list {
 }
 
 .single-team-box:hover .content {
-
   h5 {
     color: #fff;
   }
@@ -11724,12 +11597,10 @@ ul.about-list.emp_list {
   .single-team-box:hover .content p {
     color: #fff;
   }
-
 }
 
 .content p {
   color: #57647c;
-  ;
 }
 
 a.btn.btn-primary.ai_btn {
@@ -11739,7 +11610,6 @@ a.btn.btn-primary.ai_btn {
 
 .siq_bR {
   bottom: 72px !important;
-
 }
 
 .investors-details {
@@ -11804,50 +11674,72 @@ a.btn.btn-primary.ai_btn {
   }
 }
 .googleStartup {
-  padding-top: 150px
+  padding-top: 150px;
 }
 .google-startup-offer {
   padding-top: 100px;
-    padding-bottom: 100px;
-    .ai-main-banner-content h1 {
-      font-size: 50px;
-      font-weight: bold;
-      margin-bottom: 18.5px;
+  padding-bottom: 100px;
+  .ai-main-banner-content h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 18.5px;
   }
 }
 @media only screen and (min-width: 1550px) {
   .google-startup-offer {
     padding-top: 100px !important;
-      padding-bottom: 100px !important;
+    padding-bottom: 100px !important;
   }
 }
 @media only screen and (min-width: 767px) {
   .contactPageSupport .icon {
     position: relative;
-}
-.main-banner {
-  background-image: none;
-}
+  }
+  .main-banner {
+    background-image: none;
+  }
 }
 .blog-section {
   display: block;
 }
 @media only screen and (max-width: 767px) {
-.main-banner {
-  background-image: none !important;
-}
-.circle-map {
-  img {
+  .main-banner {
+    background-image: none !important;
+  }
+  .circle-map {
+    img {
+      display: none;
+    }
+  }
+  .blog-section,
+  .BlogPostsSection {
     display: none;
   }
-}
-.blog-section, .BlogPostsSection {
-  display: none;
-}
-.main-banner-content {
-  h1 {
-    font-size: 30px !important;
+  .main-banner-content {
+    h1 {
+      font-size: 30px !important;
+    }
   }
 }
+.software-development-services-banner { 
+  padding: 0 ;
+  .startup-banner-inner {
+  padding: 50px 0;
+  h1 {
+    font-size: 40px;
+  }
+}
+}
+.software-development-services-on-demand {
+  padding-top: 30px;
+  padding-bottom: 50px;
+  .services-tab-list {
+    .tabs {
+      li {
+        font-size: 16px;
+        padding: 10px;
+      }
+    }
+  }
 }
 /*End "Home Demo - 6", "Home Demo - 7" & "Home Demo - 8" Style CSS*/

@@ -4,28 +4,16 @@ import Link from "next/link";
 const MainBanner = () => {
   return (
     <>
-      <div className="startup-banner-area">
+      <div className="startup-banner-area software-development-services-banner">
         <div className="startup-banner-inner">
           <div className="container">
             <div className="startup-banner-content">
-              <h1>
-                World’s Leading <br /> Machine Learning Company
-              </h1>
+              <h1>Software Development Services On Demand</h1>
+              <p>Get the expertise you need, when you need it.</p>
               <p>
-                ML today are able to supply needful of help, information, and
-                positive experience of maintaining intimacy with customers.
-                Eventually, chatbot ideas bring a pleasant experience of all
-                these qualities into the conversation.
+                Seamlessly Add Offshore Developers Matched to Your Needs –
+                Vetted, Trained, and Fully Managed. Skip the Recruitment Hassle.{" "}
               </p>
-
-              <div className="btn-box">
-                <Link href="#" className="btn btn-primary">
-                  Schedule a Demo
-                </Link>
-                <Link href="/contact" className="optional-btn">
-                  Get Started Free
-                </Link>
-              </div>
               <div
                 className="customers-partner-list"
                 style={{ marginTop: "20px" }}>
@@ -41,7 +29,7 @@ const MainBanner = () => {
                     }}
                     rel="noreferrer">
                     <img
-                      src="https://res.cloudinary.com/dpoxq3jcb/image/upload/f_auto,q_auto/v1/next/clients/eehf8ksxg75kejjlwhe3"
+                      src="https://emerge.digital/wp-content/uploads/2022/06/Microsoft-Power-Platform.jpg"
                       alt="image"
                     />
                   </a>
@@ -59,7 +47,7 @@ const MainBanner = () => {
                     }}
                     rel="noreferrer">
                     <img
-                      src="https://res.cloudinary.com/dpoxq3jcb/image/upload/f_auto,q_auto/v1/next/clients/on3ifrv6es7nltw8dvm3"
+                      src="https://bairesdev.mo.cloudinary.net/blog/2023/08/Microsoft-Dynamics-365-Consultants.jpg?tx=w_1920,q_auto"
                       alt="image"
                     />
                   </a>
@@ -77,7 +65,7 @@ const MainBanner = () => {
                     }}
                     rel="noreferrer">
                     <img
-                      src="https://res.cloudinary.com/dpoxq3jcb/image/upload/f_auto,q_auto/v1/next/clients/qks3nddcghydzkkmxyp1"
+                      src="https://aptronnoida.in/blog/wp-content/uploads/2020/10/get-microsoft-azure-certification.png"
                       alt="image"
                     />
                   </a>
@@ -95,25 +83,7 @@ const MainBanner = () => {
                     }}
                     rel="noreferrer">
                     <img
-                      src="https://res.cloudinary.com/dpoxq3jcb/image/upload/f_auto,q_auto/v1/next/clients/aeetodqfmpm5a4vatpty"
-                      alt="image"
-                    />
-                  </a>
-                </div>
-
-                <div
-                  className="partner-item"
-                  data-aos="fade-in"
-                  data-aos-duration="1200"
-                  data-aos-delay="500">
-                  <a
-                    href="#"
-                    onClick={(e) => {
-                      e.preventDefault();
-                    }}
-                    rel="noreferrer">
-                    <img
-                      src="https://res.cloudinary.com/dpoxq3jcb/image/upload/f_auto,q_auto/v1/next/clients/di99xtvny4pqx6pl0kpr"
+                      src="https://i.pcmag.com/imagery/reviews/07LERcQBRVgcVKystB3aGUU-11.fit_lim.size_1050x591.v1569471957.jpg"
                       alt="image"
                     />
                   </a>

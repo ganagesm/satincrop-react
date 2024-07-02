@@ -189,18 +189,23 @@ const Testimonials = () => {
             <SwiperSlide>
               <div className="single-testimonials-box">
                 <p>
-                  There are many variations of passages of Lorem Ipsum
-                  available, but the majority have suffered alteration in some
-                  form, by injected humour predefined words which don't look.
+                  SA Technologies Inc. has been a game-changer for us. We
+                  started with Two developers and quickly scaled up to a team
+                  Eleven including Project Manager, Architect, Developers and
+                  Tester. Their seamless integration and exceptional support
+                  have allowed us to focus on our core business without the
+                  usual hiring headaches and they became partners with us not
+                  just a vendor. We highly recommend SA Technologies for their
+                  professionalism and swift onboarding process.
                 </p>
                 <div className="client-info">
-                  <h3>Filip Luis</h3>
-                  <span>Founder & CEO</span>
+                  <h3>Ric Garcia</h3>
+                  <span>CEO of a Startup</span>
                 </div>
               </div>
             </SwiperSlide>
 
-            <SwiperSlide>
+            {/* <SwiperSlide>
               <div className="single-testimonials-box">
                 <p>
                   There are many variations of passages of Lorem Ipsum
@@ -226,7 +231,7 @@ const Testimonials = () => {
                   <span>EnvyTheme</span>
                 </div>
               </div>
-            </SwiperSlide>
+            </SwiperSlide> */}
           </Swiper>
         </div>
       </div>
