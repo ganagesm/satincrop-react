@@ -17,6 +17,9 @@ const MainBanner = () => {
                     Vetted, Trained, and Fully Managed. Skip the Recruitment
                     Hassle.{" "}
                   </p>
+                  <Link href="#cotactForm" className="btn btn-primary">
+                    Schedule A Call Back
+                  </Link>
                   <div
                     className="customers-partner-list"
                     style={{ marginTop: "20px" }}>
