@@ -90,7 +90,7 @@ export default class Services extends Component {
                         </ul>
                         <div className="about-btn">
                           <Link href="#cotactForm" className="btn btn-primary">
-                            Hire Developer
+                            Hire Now
                           </Link>
                         </div>
                       </div>
@@ -123,7 +123,7 @@ export default class Services extends Component {
                         </ul>
                         <div className="about-btn">
                           <Link href="#cotactForm" className="btn btn-primary">
-                            Hire Developer
+                            Hire Now
                           </Link>
                         </div>
                       </div>
@@ -158,7 +158,7 @@ export default class Services extends Component {
                         </ul>
                         <div className="about-btn">
                           <Link href="#cotactForm" className="btn btn-primary">
-                            Hire Developer
+                            Hire Now
                           </Link>
                         </div>
                       </div>
@@ -190,7 +190,7 @@ export default class Services extends Component {
                         </ul>
                         <div className="about-btn">
                           <Link href="#cotactForm" className="btn btn-primary">
-                            Hire Developer
+                            Hire Now
                           </Link>
                         </div>
                       </div>
@@ -221,7 +221,7 @@ export default class Services extends Component {
                         </ul>
                         <div className="about-btn">
                           <Link href="#cotactForm" className="btn btn-primary">
-                            Hire Developer
+                            Hire Now
                           </Link>
                         </div>
                       </div>

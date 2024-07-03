@@ -8,7 +8,7 @@ const MainBanner = () => {
         <div className="startup-banner-inner">
           <div className="container">
             <div className="row">
-              <div className="col-md-6">
+              <div className="col-md-12">
                 <div className="startup-banner-content">
                   <h1>Software Development Services On Demand</h1>
                   <p>Get the expertise you need, when you need it.</p>
@@ -94,12 +94,13 @@ const MainBanner = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-md-6">
-                <iframe id="cotactForm"
-                  width="800px"
-                  height="480px"
+              {/* <div className="col-md-6">
+                <iframe
+                  id="cotactForm"
+                  width="480px"
+                  height="550px"
                   src="https://crm.zoho.in/crm/WebFormServeServlet?rid=585ce290f2f8fba70f1e60e288502a6b825968003543681807317825a28e87e4f89a9f71ee36f4763a3e36de147e8f29gid1cfb6ade00e4faa14a372f4c1269614bacbc5616587cec4eff07651ff1446da3"></iframe>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
