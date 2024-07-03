@@ -88,6 +88,11 @@ export default class Services extends Component {
                             Determine the desired start date and duration.{" "}
                           </li>
                         </ul>
+                        <div className="about-btn">
+                          <Link href="#cotactForm" className="btn btn-primary">
+                            Hire Developer
+                          </Link>
+                        </div>
                       </div>
                     </div>
 
@@ -116,6 +121,11 @@ export default class Services extends Component {
                             criteria.{" "}
                           </li>
                         </ul>
+                        <div className="about-btn">
+                          <Link href="#cotactForm" className="btn btn-primary">
+                            Hire Developer
+                          </Link>
+                        </div>
                       </div>
                     </div>
 
@@ -146,6 +156,11 @@ export default class Services extends Component {
                             selection with confidence.{" "}
                           </li>
                         </ul>
+                        <div className="about-btn">
+                          <Link href="#cotactForm" className="btn btn-primary">
+                            Hire Developer
+                          </Link>
+                        </div>
                       </div>
                     </div>
 
@@ -173,6 +188,11 @@ export default class Services extends Component {
                             Integrate the developer into your team seamlessly.{" "}
                           </li>
                         </ul>
+                        <div className="about-btn">
+                          <Link href="#cotactForm" className="btn btn-primary">
+                            Hire Developer
+                          </Link>
+                        </div>
                       </div>
                     </div>
 
@@ -199,6 +219,11 @@ export default class Services extends Component {
                             Enjoy seamless communication and project updates.{" "}
                           </li>
                         </ul>
+                        <div className="about-btn">
+                          <Link href="#cotactForm" className="btn btn-primary">
+                            Hire Developer
+                          </Link>
+                        </div>
                       </div>
                     </div>
                   </div>

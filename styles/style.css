@@ -8715,15 +8715,19 @@ a.btn.btn-primary.ai_btn {
     padding: 0;
 }
 .software-development-services-banner .startup-banner-inner {
-    padding: 50px 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .software-development-services-banner .startup-banner-inner h1 {
     font-size: 40px;
 }
+.software-development-services-banner .customers-partner-list .partner-item a {
+    padding: 10px;
+}
 
 .software-development-services-on-demand {
     padding-top: 30px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 .software-development-services-on-demand .services-tab-list .tabs li {
     font-size: 16px;

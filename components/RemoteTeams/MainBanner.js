@@ -7,87 +7,98 @@ const MainBanner = () => {
       <div className="startup-banner-area software-development-services-banner">
         <div className="startup-banner-inner">
           <div className="container">
-            <div className="startup-banner-content">
-              <h1>Software Development Services On Demand</h1>
-              <p>Get the expertise you need, when you need it.</p>
-              <p>
-                Seamlessly Add Offshore Developers Matched to Your Needs –
-                Vetted, Trained, and Fully Managed. Skip the Recruitment Hassle.{" "}
-              </p>
-              <div
-                className="customers-partner-list"
-                style={{ marginTop: "20px" }}>
-                <div
-                  className="partner-item"
-                  data-aos="fade-in"
-                  data-aos-duration="1200"
-                  data-aos-delay="100">
-                  <a
-                    href="#"
-                    onClick={(e) => {
-                      e.preventDefault();
-                    }}
-                    rel="noreferrer">
-                    <img
-                      src="https://emerge.digital/wp-content/uploads/2022/06/Microsoft-Power-Platform.jpg"
-                      alt="image"
-                    />
-                  </a>
-                </div>
+            <div className="row">
+              <div className="col-md-6">
+                <div className="startup-banner-content">
+                  <h1>Software Development Services On Demand</h1>
+                  <p>Get the expertise you need, when you need it.</p>
+                  <p>
+                    Seamlessly Add Offshore Developers Matched to Your Needs –
+                    Vetted, Trained, and Fully Managed. Skip the Recruitment
+                    Hassle.{" "}
+                  </p>
+                  <div
+                    className="customers-partner-list"
+                    style={{ marginTop: "20px" }}>
+                    <div
+                      className="partner-item"
+                      data-aos="fade-in"
+                      data-aos-duration="1200"
+                      data-aos-delay="100">
+                      <a
+                        href="#"
+                        onClick={(e) => {
+                          e.preventDefault();
+                        }}
+                        rel="noreferrer">
+                        <img
+                          src="../images/software-development-services-on-demand/microsoft-power-platform-sd.jpg"
+                          alt="image"
+                        />
+                      </a>
+                    </div>
 
-                <div
-                  className="partner-item"
-                  data-aos="fade-in"
-                  data-aos-duration="1200"
-                  data-aos-delay="200">
-                  <a
-                    href="#"
-                    onClick={(e) => {
-                      e.preventDefault();
-                    }}
-                    rel="noreferrer">
-                    <img
-                      src="https://bairesdev.mo.cloudinary.net/blog/2023/08/Microsoft-Dynamics-365-Consultants.jpg?tx=w_1920,q_auto"
-                      alt="image"
-                    />
-                  </a>
-                </div>
+                    <div
+                      className="partner-item"
+                      data-aos="fade-in"
+                      data-aos-duration="1200"
+                      data-aos-delay="200">
+                      <a
+                        href="#"
+                        onClick={(e) => {
+                          e.preventDefault();
+                        }}
+                        rel="noreferrer">
+                        <img
+                          src="../images/software-development-services-on-demand/microsoft-dynamics-365-consultants-sd.jpg"
+                          alt="image"
+                        />
+                      </a>
+                    </div>
 
-                <div
-                  className="partner-item"
-                  data-aos="fade-in"
-                  data-aos-duration="1200"
-                  data-aos-delay="300">
-                  <a
-                    href="#"
-                    onClick={(e) => {
-                      e.preventDefault();
-                    }}
-                    rel="noreferrer">
-                    <img
-                      src="https://aptronnoida.in/blog/wp-content/uploads/2020/10/get-microsoft-azure-certification.png"
-                      alt="image"
-                    />
-                  </a>
-                </div>
+                    <div
+                      className="partner-item"
+                      data-aos="fade-in"
+                      data-aos-duration="1200"
+                      data-aos-delay="300">
+                      <a
+                        href="#"
+                        onClick={(e) => {
+                          e.preventDefault();
+                        }}
+                        rel="noreferrer">
+                        <img
+                          src="../images/software-development-services-on-demand/get-microsoft-azure-certification-sd.jpg"
+                          alt="image"
+                        />
+                      </a>
+                    </div>
 
-                <div
-                  className="partner-item"
-                  data-aos="fade-in"
-                  data-aos-duration="1200"
-                  data-aos-delay="400">
-                  <a
-                    href="#"
-                    onClick={(e) => {
-                      e.preventDefault();
-                    }}
-                    rel="noreferrer">
-                    <img
-                      src="https://i.pcmag.com/imagery/reviews/07LERcQBRVgcVKystB3aGUU-11.fit_lim.size_1050x591.v1569471957.jpg"
-                      alt="image"
-                    />
-                  </a>
+                    <div
+                      className="partner-item"
+                      data-aos="fade-in"
+                      data-aos-duration="1200"
+                      data-aos-delay="400">
+                      <a
+                        href="#"
+                        onClick={(e) => {
+                          e.preventDefault();
+                        }}
+                        rel="noreferrer">
+                        <img
+                          src="../images/software-development-services-on-demand/sharepoint-sd.jpg"
+                          alt="image"
+                        />
+                      </a>
+                    </div>
+                  </div>
                 </div>
+              </div>
+              <div className="col-md-6">
+                <iframe id="cotactForm"
+                  width="800px"
+                  height="480px"
+                  src="https://crm.zoho.in/crm/WebFormServeServlet?rid=585ce290f2f8fba70f1e60e288502a6b825968003543681807317825a28e87e4f89a9f71ee36f4763a3e36de147e8f29gid1cfb6ade00e4faa14a372f4c1269614bacbc5616587cec4eff07651ff1446da3"></iframe>
               </div>
             </div>
           </div>
