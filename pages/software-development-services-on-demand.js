@@ -8,6 +8,7 @@ import Services from "../components/RemoteTeams/Services";
 import AboutContact from "../components/About/AboutContent";
 import PartnerContent from "../components/Live/PartnerContent";
 import Testimonials from "../components/RemoteTeams/Testimonials";
+import OurIndustry from "../components/RemoteTeams/OurIndustry";
 import Footer from "../components/Live/Footer";
 // import Services from "../components/About/Services";
 import Head from "next/head";
@@ -64,6 +65,7 @@ const About = () => {
       {/* <HeroBanner /> */}
       {/* <AboutContact /> */}
       <WhyChooseSAT />
+      <OurIndustry />
       {/* <PartnerContent /> */}
       {/* <Services /> */}
       <Testimonials />
