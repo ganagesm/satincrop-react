@@ -189,18 +189,15 @@ const Testimonials = () => {
             <SwiperSlide>
               <div className="single-testimonials-box">
                 <p>
-                  SA Technologies Inc. has been a game-changer for us. We
-                  started with Two developers and quickly scaled up to a team
-                  Eleven including Project Manager, Architect, Developers and
-                  Tester. Their seamless integration and exceptional support
-                  have allowed us to focus on our core business without the
-                  usual hiring headaches and they became partners with us not
-                  just a vendor. We highly recommend SA Technologies for their
-                  professionalism and swift onboarding process.
+                  SA Tech built an outstanding remote team that integrated
+                  seamlessly with our staff, delivering quality work on time and
+                  within budget. Their expertise and professionalism have
+                  significantly improved our operations. Highly recommend SA
+                  Tech for reliable and effective remote team solutions.
                 </p>
                 <div className="client-info">
                   <h3>Ric Garcia</h3>
-                  <span>CEO of a Startup</span>
+                  <span>CEO of a Healthcare Startup</span>
                 </div>
               </div>
             </SwiperSlide>
@@ -217,21 +214,23 @@ const Testimonials = () => {
                   <span>CEO</span>
                 </div>
               </div>
-            </SwiperSlide>
+            </SwiperSlide> */}
 
             <SwiperSlide>
               <div className="single-testimonials-box">
                 <p>
-                  There are many variations of passages of Lorem Ipsum
-                  available, but the majority have suffered alteration in some
-                  form, by injected humour predefined words which don't look.
+                  Partnering with SA Tech to build our offshore team has been
+                  transformative. Their technical skills, dedication, and
+                  seamless communication have enabled us to expand our
+                  capabilities and tackle complex projects. We highly value this
+                  successful collaboration.
                 </p>
                 <div className="client-info">
                   <h3>Sarah Taylor</h3>
-                  <span>EnvyTheme</span>
+                  <span>CEO of a Offshore Startup</span>
                 </div>
               </div>
-            </SwiperSlide> */}
+            </SwiperSlide>
           </Swiper>
         </div>
       </div>
