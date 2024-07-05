@@ -5,7 +5,7 @@ import { Autoplay } from "swiper";
 const TechSlider = () => {
   return (
     <>
-      <div className="partner-section pb-110">
+      <div className="partner-section pb-110 pt-100">
         <div className="section-title">
           <h2>Our Industry</h2>
         </div>

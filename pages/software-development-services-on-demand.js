@@ -5,7 +5,7 @@ import MainBanner from "../components/RemoteTeams/MainBanner";
 import HeroBanner from "../components/RemoteTeams/HeroBanner";
 import WhyChooseSAT from "../components/RemoteTeams/WhyChooseSAT";
 import Services from "../components/RemoteTeams/Services";
-import AboutContact from "../components/About/AboutContent";
+import Developers from "../components/RemoteTeams/Developers";
 import PartnerContent from "../components/Live/PartnerContent";
 import Testimonials from "../components/RemoteTeams/Testimonials";
 import OurIndustry from "../components/RemoteTeams/OurIndustry";
@@ -96,13 +96,21 @@ const About = () => {
                 </h4>
               </div>
 
-              <div className="collapse navbar-collapse mean-menu">
-                <ul className="navbar-nav">
+              <div className="collapse navbar-collapse mean-menu" style={{ display: 'block !important', textAlign: 'right' }}>
+                {/* <ul className="navbar-nav">
                   <li className="nav-item">
                     <span>Phone:</span>{" "}
                     <a href="tel:+9170582228997"> +91 7058 22 2899</a>
                   </li>
-                </ul>
+                </ul> */}
+                <img
+                  src="../images/software-development-services-on-demand/MC-gold.png"
+                  alt="image" width={"180px"}
+                  style={{ marginRight: '20px' }}
+                />
+                <Link href="#cotactForm" className="btn btn-primary float-right" >
+                  Contact Us
+                </Link>
               </div>
             </nav>
           </div>
@@ -114,6 +122,8 @@ const About = () => {
       {/* <HeroBanner /> */}
       {/* <AboutContact /> */}
       <WhyChooseSAT />
+      <Developers />
+
       <OurIndustry />
       {/* <PartnerContent /> */}
       {/* <Services /> */}
@@ -121,7 +131,7 @@ const About = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-12">
-            <iframe
+            {/* <iframe
               style={{
                 textAlign: "center",
                 display: "block",
@@ -130,10 +140,120 @@ const About = () => {
               id="cotactForm"
               width="600px"
               height="550px"
-              src="https://crm.zoho.in/crm/WebFormServeServlet?rid=585ce290f2f8fba70f1e60e288502a6b825968003543681807317825a28e87e4f89a9f71ee36f4763a3e36de147e8f29gid1cfb6ade00e4faa14a372f4c1269614bacbc5616587cec4eff07651ff1446da3"></iframe>
+              src="https://crm.zoho.in/crm/WebFormServeServlet?rid=585ce290f2f8fba70f1e60e288502a6b825968003543681807317825a28e87e4f89a9f71ee36f4763a3e36de147e8f29gid1cfb6ade00e4faa14a372f4c1269614bacbc5616587cec4eff07651ff1446da3">
+            </iframe> */}
+
           </div>
         </div>
       </div>
+
+
+      <div className="startup-banner-area software-development-services-banner">
+        <div className="startup-banner-inner" style={{ backgroundImage: 'url(/images/software-development-services-on-demand/from-bg.jpg)' }}>
+          <div className="overlay">
+            <div className="container">
+              <div className="row">
+                <div className="col-md-6">
+                  <Link href="#cotactForm" className="btn btn-primary" style={{ fontSize: '24px' }}>
+                    start Now
+                  </Link>
+                  <div className="startup-banner-content">
+
+
+                    <div className="customers-partner-list" style={{ marginTop: "20px", display: 'inline-block' }}>
+
+                      <div
+                        className="partner-item"
+                        data-aos="fade-in"
+                        data-aos-duration="1200"
+                        data-aos-delay="200"
+                        style={{
+                          maxWidth: ' 80%'
+                        }}
+                      >
+                        <a
+                          href="#"
+                          onClick={(e) => {
+                            e.preventDefault();
+                          }}
+                          rel="noreferrer">
+                          <img src="../images/software-development-services-on-demand/cmmi-1.png"
+                            alt="image"
+
+                          />
+                        </a>
+                      </div>
+
+                      <div
+                        className="partner-item"
+                        data-aos="fade-in"
+                        data-aos-duration="1200"
+                        data-aos-delay="300"
+                        style={{
+                          maxWidth: ' 80%'
+                        }}
+                      >
+                        <a
+                          href="#"
+                          onClick={(e) => {
+                            e.preventDefault();
+                          }}
+                          rel="noreferrer">
+                          <img
+                            src="../images/software-development-services-on-demand/MC-gold-1.png"
+                            alt="image"
+                          />
+                        </a>
+                      </div>
+
+                      <div
+                        className="partner-item"
+                        data-aos="fade-in"
+                        data-aos-duration="1200"
+                        data-aos-delay="300"
+                        style={{
+                          maxWidth: ' 80%'
+                        }}
+                      >
+                        <a
+                          href="#"
+                          onClick={(e) => {
+                            e.preventDefault();
+                          }}
+                          rel="noreferrer">
+                          <img
+                            src="../images/software-development-services-on-demand/google-partner-1.png"
+                            alt="image"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-6">
+                  <iframe
+                    style={{
+                      textAlign: "center",
+                      display: "block",
+                      margin: "0 auto",
+                    }}
+                    id="cotactForm"
+                    width="600px"
+                    height="550px"
+                    src="https://crm.zoho.in/crm/WebFormServeServlet?rid=585ce290f2f8fba70f1e60e288502a6b825968003543681807317825a28e87e4f89a9f71ee36f4763a3e36de147e8f29gid1cfb6ade00e4faa14a372f4c1269614bacbc5616587cec4eff07651ff1446da3">
+                  </iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
       {/* <Footer /> */}
       <div className="copyright-area">
         <div className="container">
