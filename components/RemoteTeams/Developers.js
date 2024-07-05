@@ -34,42 +34,12 @@ export default class Services extends Component {
               </p>
             </div>
 
-            <div className="tab services-tab-list">
+            <div className="">
               <div className="row">
-                {/* <div className="col-lg-5 col-md-5">
-                  <ul className="tabs">
-                    <li
-                      className="current"
-                      onClick={(e) => this.openTabSection(e, "tab1")}>
-                      <i className="flaticon-income"></i>
-                      <span>Step 1: Define Your Requirements </span>
-                    </li>
-
-                    <li onClick={(e) => this.openTabSection(e, "tab2")}>
-                      <i className="flaticon-automatic"></i>
-                      <span>Step 2: Consultation and Candidate Matching </span>
-                    </li>
-
-                    <li onClick={(e) => this.openTabSection(e, "tab3")}>
-                      <i className="flaticon-locked"></i>
-                      <span>Step 3: Interview and Selection </span>
-                    </li>
-
-                    <li onClick={(e) => this.openTabSection(e, "tab4")}>
-                      <i className="flaticon-molecular"></i>
-                      <span>Step 4: Onboarding and Integration </span>
-                    </li>
-
-                    <li onClick={(e) => this.openTabSection(e, "tab5")}>
-                      <i className="flaticon-gear"></i>
-                      <span>Step 5: Kickoff and Ongoing Support </span>
-                    </li>
-                  </ul>
-                </div> */}
 
                 <div className="col-lg-12 col-md-12">
-                  <div className="tab-content ai-about-area">
-                    <div id="tab1" className="tabs-item">
+                  <div className=" ai-about-area">
+                    <div className="">
                       <div className="content ai-about-content">
                         <ul className="about-list" style={{ columnCount: '4', maxWidth: '100%' }}>
                           <li>
