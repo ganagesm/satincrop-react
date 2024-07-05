@@ -227,7 +227,7 @@ const Testimonials = () => {
                 </p>
                 <div className="client-info">
                   <h3>Sarah Taylor</h3>
-                  <span>CEO of a Offshore Startup</span>
+                  <span>VP-Technology Retail Startup</span>
                 </div>
               </div>
             </SwiperSlide>
