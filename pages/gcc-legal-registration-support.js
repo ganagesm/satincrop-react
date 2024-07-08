@@ -54,6 +54,10 @@ const Index = () => {
           content="Get expert assistance for hassle-free legal registration in Global Capability Centers. Ensure compliance and protect your business."
           key="description"
         />
+        <link
+          rel="canonical"
+          href="https://www.satincorp.com/gcc-legal-registration-support"
+        />
       </Head>
 
       <Navbar />

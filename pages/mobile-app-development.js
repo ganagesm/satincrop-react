@@ -59,6 +59,10 @@ const Index = () => {
           content="SA Technologies is a leading provider of AI-powered mobile app development services. We can help you to develop and implement AI-powered mobile app solutions that will help you to achieve your business goals and gain a competitive edge in the digital age."
           key="description"
         />
+        <link
+          rel="canonical"
+          href="https://www.satincorp.com/mobile-app-development"
+        />
       </Head>
 
       <Navbar />

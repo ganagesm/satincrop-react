@@ -56,6 +56,10 @@ const Index = () => {
           content="Elevate your business with AI and Machine Learning solutions from SA Technologies. Customized AI-powered solutions for innovation, efficiency, and data-driven decisions."
           key="description"
         />
+        <link
+          rel="canonical"
+          href="https://www.satincorp.com/machine-learning-and-artificial-intelligence"
+        />
       </Head>
       <Navbar />
       <HeroBanner />

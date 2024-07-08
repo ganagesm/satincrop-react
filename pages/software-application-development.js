@@ -58,6 +58,10 @@ const Index = () => {
           content="SA Technologies is at the forefront of AI-enhanced software development, helping businesses to create innovative and cutting-edge solutions. Our team of experts has the skills and experience to help you turn your ideas into reality "
           key="description"
         />
+        <link
+          rel="canonical"
+          href="https://www.satincorp.com/software-application-development"
+        />
       </Head>
 
       <Navbar />

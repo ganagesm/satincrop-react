@@ -54,6 +54,10 @@ const Index = () => {
           content="Become a pro in GCC Strategy Development with our step-by-step guide. Transform your business today."
           key="description"
         />
+        <link
+          rel="canonical"
+          href="https://www.satincorp.com/gcc-strategy-development"
+        />
       </Head>
 
       <Navbar />

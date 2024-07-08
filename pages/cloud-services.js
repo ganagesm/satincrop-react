@@ -56,6 +56,7 @@ const Index = () => {
           content="SA Technologies offers cloud solutions that enable seamless scalability and security for your business."
           key="description"
         />
+        <link rel="canonical" href="https://www.satincorp.com/cloud-services" />
       </Head>
 
       <Navbar />

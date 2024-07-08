@@ -55,6 +55,10 @@ const Index = () => {
           content="Streamline your hiring process with our Talent Acquisition Services for Global Capability Centers. Get the right talent on board quickly and efficiently."
           key="description"
         />
+        <link
+          rel="canonical"
+          href="https://www.satincorp.com/gcc-talent-acquisition"
+        />
       </Head>
 
       <Navbar />

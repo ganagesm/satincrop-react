@@ -66,6 +66,7 @@ const Index = () => {
           content="Explore SA Technologies' GCC and Global Delivery Center services for global expansion. Maximize efficiency and innovation with our expert support and solutions."
           key="description"
         />
+        <link rel="canonical" href="https://www.satincorp.com/gcc" />
       </Head>
 
       <Navbar />
