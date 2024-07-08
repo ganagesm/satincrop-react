@@ -53,6 +53,7 @@ const Index = () => {
           content="Leverage cutting-edge AI for smarter QA automation. Our service integrates advanced algorithms to elevate testing accuracy, speed up release cycles, and minimize costs, ensuring your software excels in every aspect."
           key="description"
         />
+        <link rel="canonical" href="https://www.satincorp.com/qa-automation" />
       </Head>
 
       <Navbar />

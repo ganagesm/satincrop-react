@@ -45,32 +45,6 @@ export default function BlogPost() {
 
   return (
     <>
-      {/* <ArticleJsonLd
-        useAppDir={false}
-        url="https://example.com/article"
-        title="Article headline"
-        images={[
-          "https://example.com/photos/1x1/photo.jpg",
-          "https://example.com/photos/4x3/photo.jpg",
-          "https://example.com/photos/16x9/photo.jpg",
-        ]}
-        datePublished="2015-02-05T08:00:00+08:00"
-        dateModified="2015-02-05T09:00:00+08:00"
-        authorName={[
-          {
-            name: "Jane Blogs",
-            url: "https://example.com",
-          },
-          {
-            name: "Mary Stone",
-            url: "https://example.com",
-          },
-        ]}
-        publisherName="Gary Meehan"
-        publisherLogo="https://www.example.com/photos/logo.jpg"
-        description="This is a mighty good description of this article."
-        isAccessibleForFree={true}
-      /> */}
       <ArticleJsonLd
         type="BlogPosting"
         url={`https://www.satincorp.com/blog/${post.slug}`}
@@ -110,6 +84,7 @@ export default function BlogPost() {
           property="og:image"
           content={post.yoast_head_json.og_image[0].url}
         />
+        <link rel="canonical" href={`https://www.satincorp.com/blog/${slug}`} />
       </Head>
       <Navbar />
       <PageBanner

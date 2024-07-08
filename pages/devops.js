@@ -53,6 +53,7 @@ const Index = () => {
           content="Elevate your organizational performance with AI-driven DevOps solutions from SA Technologies. Improve collaboration, reduce costs, and accelerate digital transformation. "
           key="description"
         />
+        <link rel="canonical" href="https://www.satincorp.com/devops" />
       </Head>
 
       <Navbar />

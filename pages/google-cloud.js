@@ -24,7 +24,7 @@ const GoogleCloudNew = () => {
       <NextSeo
         openGraph={{
           type: "website",
-          url: "https://www.satincorp.com/mobile-app-development/",
+          url: "https://www.satincorp.com/google-cloud",
           title:
             "Get Google Cloud Migration Services and Custom Solutions | SA Technologies",
           description:
@@ -42,6 +42,7 @@ const GoogleCloudNew = () => {
         }}
       />
       <Head>
+        <link rel="canonical" href="https://www.satincorp.com/google-cloud" />
         <title>
           Get Google Cloud Migration Services and Custom Solutions | SA
           Technologies

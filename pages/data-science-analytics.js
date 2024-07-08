@@ -59,6 +59,10 @@ const Index = () => {
           content="Harness the power of data with SAT Data Analytics Services. Let us turn your data into actionable insights."
           key="description"
         />
+        <link
+          rel="canonical"
+          href="https://www.satincorp.com/data-science-analytics"
+        />
       </Head>
 
       <Navbar />

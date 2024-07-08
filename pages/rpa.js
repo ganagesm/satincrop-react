@@ -58,6 +58,7 @@ const Index = () => {
           content="SA Technologies RPA solutions can help you achieve operational excellence by streamlining processes, eliminating errors, and improving productivity. "
           key="description"
         />
+        <link rel="canonical" href="https://www.satincorp.com/rpa" />
       </Head>
       <Navbar />
       <HeroBanner />

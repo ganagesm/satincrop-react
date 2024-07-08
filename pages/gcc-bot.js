@@ -56,6 +56,7 @@ const Index = () => {
           content="Elevate your Global Capability Center's performance through SAT specialized Build Operate Transfer (BOT) approach, offering customized solutions for superior business outcomes."
           key="description"
         />
+        <link rel="canonical" href="https://www.satincorp.com/gcc-bot" />
       </Head>
 
       <Navbar />

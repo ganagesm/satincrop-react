@@ -55,6 +55,7 @@ const Index = () => {
           content="Experience the next-generation of UI/UX design with AI-powered solutions from SA Technologies."
           key="description"
         />
+        <link rel="canonical" href="https://www.satincorp.com/ui-ux-design" />
       </Head>
 
       <Navbar />

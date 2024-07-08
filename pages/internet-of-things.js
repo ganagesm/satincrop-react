@@ -58,6 +58,10 @@ const Index = () => {
           content="Experience the transformative power of IoT services with SA Technologies. Our comprehensive solutions can help you revolutionize your business and achieve your goals. "
           key="description"
         />
+        <link
+          rel="canonical"
+          href="https://www.satincorp.com/internet-of-things"
+        />
       </Head>
 
       <Navbar />

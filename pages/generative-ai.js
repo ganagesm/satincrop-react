@@ -56,6 +56,7 @@ const Index = () => {
           content="Experience the future of AI-driven creativity and automation. SA Technologies offers secure Generative AI solutions for transformative outcomes."
           key="description"
         />
+        <link rel="canonical" href="https://www.satincorp.com/generative-ai" />
       </Head>
 
       <Navbar />
