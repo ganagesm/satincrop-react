@@ -46,7 +46,7 @@ const TopNavbar = () => {
                 </li>
                 <li>
                   <Link
-                    href="https://api.whatsapp.com/send/?phone=%2B9107875787550&text=Hello!%20I%27m%20interested%20in%20exploring%20your%20SAT%20Services.%20Can%20you%20share%20more%20details?"
+                    href="https://api.whatsapp.com/send/?phone=%2B9107058644492&text=Hello!%20I%27m%20interested%20in%20exploring%20your%20SAT%20Services.%20Can%20you%20share%20more%20details?"
                     target="_blank">
                     <i
                       className="fa-brands fa-whatsapp"
@@ -75,9 +75,8 @@ const TopNavbar = () => {
                 <li>
                   <Link
                     href="/careers/"
-                    className={`nav-link ${
-                      currentPath == "/careers/" && "active"
-                    }`}>
+                    className={`nav-link ${currentPath == "/careers/" && "active"
+                      }`}>
                     Join Our Team
                   </Link>
                 </li>
@@ -85,9 +84,8 @@ const TopNavbar = () => {
                   <Link
                     style={{ color: "#ff4800" }}
                     href="/investors/"
-                    className={`nav-link ${
-                      currentPath == "/investors/" && "active"
-                    }`}>
+                    className={`nav-link ${currentPath == "/investors/" && "active"
+                      }`}>
                     Investor
                   </Link>
                 </li>

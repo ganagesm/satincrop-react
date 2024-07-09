@@ -154,14 +154,9 @@ const About = () => {
             <div className="container">
               <div className="row">
                 <div className="col-md-6">
-                  <Link href="#cotactForm" className="btn btn-primary" style={{ fontSize: '24px' }}>
-                    start Now
-                  </Link>
-                  <div className="startup-banner-content">
 
-
+                  <div className="startup-banner-content" style={{ display: 'inline-flex' }}>
                     <div className="customers-partner-list" style={{ marginTop: "20px", display: 'inline-block' }}>
-
                       <div
                         className="partner-item"
                         data-aos="fade-in"
@@ -229,6 +224,10 @@ const About = () => {
                       </div>
                     </div>
                   </div>
+                  <Link href="#cotactForm" className="btn btn-primary" style={{ fontSize: '34px' }}>
+                    Start Now
+                  </Link>
+
                 </div>
                 <div className="col-md-6">
                   <iframe
