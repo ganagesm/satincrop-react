@@ -61,16 +61,16 @@ const Index = () => {
       />
       <Head>
         <title>
-          Global Capability Center (GCC) Services in India | SA Technologies{" "}
+          Scale Up Seamlessly: Build Your Offshore IT Team (100-500+) with SAT's Expertise{" "}
         </title>
         <meta
           property="og:title"
-          content="Global Capability Center (GCC) Services in India | SA Technologies"
+          content="Scale Up Seamlessly: Build Your Offshore IT Team (100-500+) with SAT's Expertise"
           key="title"
         />
         <meta
           name="description"
-          content="Explore SA Technologies GCC As a services for global expansion. Maximize efficiency and innovation with our support."
+          content="Struggling to find top IT talent? Explore Latin America's tech powerhouses & build a skilled 100-500+ person offshore team with SAT's guidance. Cost-effective, nearshore solution for startups."
           key="description"
         />
       </Head>
