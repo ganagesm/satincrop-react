@@ -549,13 +549,22 @@ const Navbar = () => {
 
                   <li className="nav-item">
                     <Link
+                      href="/startups"
+                      className={`nav-link ${
+                        currentPath == "/startups" && "active"
+                      }`}>
+                      Startups
+                    </Link>
+                  </li>
+                  {/* <li className="nav-item">
+                    <Link
                       href="/internal-audit"
                       className={`nav-link ${
                         currentPath == "/internal-audit" && "active"
                       }`}>
                       Internal Audit
                     </Link>
-                  </li>
+                  </li> */}
 
                   <li className="nav-item">
                     <Link
