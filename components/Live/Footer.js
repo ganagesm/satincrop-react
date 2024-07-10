@@ -166,9 +166,9 @@ const Footer = () => {
                   {/* <li>
                     <Link href="/servicenow">Service Now</Link>
                   </li> */}
-                  <li>
+                  {/* <li>
                     <Link href="/startup/">Startups</Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link href="/google-startup-offer/">
                       GCP Startup Credit
