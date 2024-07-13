@@ -13,6 +13,7 @@ import ComputerVisionAI from "../components/StartUp/ComputerVisionAI";
 import TechDetailsContent from "../components/StartUp/TechDetailsContent";
 import ExpertiseContent from "../components/StartUp/ExpertiseContent";
 import ServicesCompanies from "../components/StartUp/ServicesCompanies";
+import CaseStudiesGrid from "../components/StartUp/CaseStudiesGrid";
 import Head from "next/head";
 import { Component, useState } from "react";
 import Link from "next/link";
@@ -61,7 +62,8 @@ const Index = () => {
       />
       <Head>
         <title>
-          Scale Up Seamlessly: Build Your Offshore IT Team (100-500+) with SAT's Expertise{" "}
+          Scale Up Seamlessly: Build Your Offshore IT Team (100-500+) with SAT's
+          Expertise{" "}
         </title>
         <meta
           property="og:title"
@@ -78,7 +80,7 @@ const Index = () => {
       <Navbar />
       <HeroBanner />
       <Services />
-      <div className="">
+      {/* <div className="">
         <div className="container">
           <div className="row ptb-100 align-items-center">
             <div className="col-lg-12 col-md-6">
@@ -94,11 +96,12 @@ const Index = () => {
             </div>
           </div>
         </div>
-      </div>
-      <Testimonials />
+      </div> */}
+      {/* <Testimonials /> */}
+      <CaseStudiesGrid />
 
-      <AboutContent />
-      <AboutAI />
+      {/* <AboutContent /> */}
+      {/* <AboutAI /> */}
 
       <div className="" style={{ backgroundColor: "#e4e8f5" }}>
         <div className="container">
@@ -130,8 +133,28 @@ const Index = () => {
       {/* <ComputerVisionAI /> */}
       <ServicesCompanies />
 
-      <TechDetailsContent />
       <ExpertiseContent />
+      <TechDetailsContent />
+      <div className="GCCJourney">
+        <div className="container">
+          <div className="row ptb-50 align-items-center">
+            <div className="col-lg-10 col-md-10">
+              <h2 className="align-items-center">
+                Scale Your Startup with SAT's Focused Approach
+              </h2>
+            </div>
+            <div
+              className="col-lg-2 col-md-2"
+              style={{
+                textAlign: "left",
+              }}>
+              <Link href="#contact" className="btn btn-primary">
+                Contact Us
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <ContactFormContent />
       <Footer />
