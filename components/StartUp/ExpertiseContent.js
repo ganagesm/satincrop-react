@@ -27,9 +27,14 @@ export default class Services extends Component {
       <>
         <div className="services-section bg-f2f6f9 ptb-110">
           <div className="container">
+            <div className="section-title">
+              <h2>Technology Solutions for Startups</h2>
+            </div>
+
             {/* <div className="section-title">
               <h2>We have expertise in</h2>
             </div> */}
+
 
             <div className="tab services-tab-list">
               <div className="row">
