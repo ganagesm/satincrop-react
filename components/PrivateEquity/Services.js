@@ -4,27 +4,98 @@ import Link from "next/link";
 const Services = () => {
   return (
     <>
-      <section className="services-area bg-f2f6f9 ptb-110">
+      <section className="services-area ptb-50">
         <div className="container">
-          <div className="section-title" style={{ maxWidth: '1060px' }}>
-            <p style={{ maxWidth: '790px' }}>
-              Private equity firms and their portfolio companies encounter unique challenges, such as achieving
-              ambitious growth targets, maximizing investment returns, and managing acquisitions while maintaining
-              a lean optimized business.
+          <div className="section-title" style={{ marginBottom: "0" }}>
+            <p>
+              We serve as the incubation center for your portfolio companies,
+              bringing together a team of skilled, high-performance technology
+              professionals to drive business growth.
             </p>
-            <p>At SA Technologies, we believe in the power of partnership to unlock a company's true potential. Our team of experts collaborates closely with companies across various stages, from budding startups to established players seeking a fresh perspective. We have a proven track record of helping businesses like yours achieve. </p>
+            <p>
+              With a proven track record, entrepreneurial expertise, and a
+              strategic approach, we accelerate technology transformation and
+              product development, ensuring your portfolio companies achieve
+              their full potential.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="services-area bg-f2f6f9 pt-50">
+        <div className="container">
+          <div className="section-title">
+            <h2>
+              Technology Outsourcing for Private Equity Portfolio Companies
+            </h2>
+            <p style={{ width: "90%" }}>
+              Through technology outsourcing, SA Technologies will become an
+              indispensable ally in your pursuit of technological resilience and
+              customer satisfaction.
+            </p>
+            <p style={{ width: "90%" }}>
+              We deliver the Right Services at the Right Time for the Right
+              Price. Client experience is our paramount focus, ensuring
+              unwavering dedication to delivering unparalleled service and
+              support.
+            </p>
+          </div>
+          <div className="services-area" style={{ paddingBottom: "30px" }}>
+            <div className="container">
+              <div className="row justify-content-center">
+                <div className="col-lg-4 col-sm-6 col-md-6 d-flex">
+                  <div className="single-main-services-box flex-fill">
+                    <p>
+                      <strong style={{ color: "#000" }}>
+                        Protect and scale your current and potential investments
+                      </strong>
+                      . SA Technologies provides Private Equity Groups with a
+                      robust model to manage IT services whether for a few
+                      organizations or an entire portfolio.
+                    </p>
+                  </div>
+                </div>
+                <div className="col-lg-4 col-sm-6 col-md-6 d-flex">
+                  <div className="single-main-services-box flex-fill">
+                    <p>
+                      <strong style={{ color: "#000" }}>
+                        Private Equity firms are increasingly emphasizing strong
+                        IT practices
+                      </strong>
+                      , with many conducting assessments prior to finalizing a
+                      deal all aimed at managing risk and enhancing operational
+                      efficiencies.{" "}
+                    </p>
+                  </div>
+                </div>
+                <div className="col-lg-4 col-sm-6 col-md-6 d-flex">
+                  <div className="single-main-services-box flex-fill">
+                    <p>
+                      <strong style={{ color: "#000" }}>
+                        Across the diverse industries that PEs invest in
+                      </strong>
+                      , the rapidly evolving IT landscape poses significant
+                      challenges for smaller or newer companies. Given the high
+                      stakes, it's crucial for Private Equity Groups to have a
+                      comprehensive IT strategy in place.{" "}
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
 
           <div className="row">
-
-            <div className="section-title" style={{ maxWidth: '1060px' }} >
-              <h2>Private Equity Portfolio Engagement Services </h2>
-            </div>
             <div className="col-lg-4 col-sm-6">
               <div className="single-services-box">
-                <h2>BOT  </h2>
+                <h2>Outsource IT Solutions </h2>
                 <p>
-                  Combine expert guidance, vast resources, and strong funding to help you conquer new markets, innovate, and expand with precision and professionalism.
+                  We offer effective processes and services backed by extensive
+                  expertise and experience to help you manage the IT platforms
+                  of your portfolio companies while reducing costs. Our Centers
+                  of Excellence (COEs) are specifically designed for private
+                  equity portfolio firms, optimizing processes and saving costs
+                  while retaining essential IT functions in-house.
                 </p>
                 <br />
               </div>
@@ -32,57 +103,37 @@ const Services = () => {
 
             <div className="col-lg-4 col-sm-6">
               <div className="single-services-box">
-                <h2>GCC </h2>
+                <h2>IT Managed Services </h2>
                 <p>
-                  Find the perfect location, set up infrastructure, and unlock your global potential with expert guidance. achieve goals with a tailored plan and expert support.
+                  We seamlessly manage your portfolio companies' IT
+                  infrastructure to ensure operational efficiency and cost
+                  savings. Our comprehensive services include streamlined
+                  infrastructure management, real-time collaboration platforms,
+                  custom app development, and user-friendly portals for
+                  customers, employees, and partners. By leveraging cutting-edge
+                  technologies and best practices, we deliver significant
+                  savings without sacrificing quality, aligning our solutions
+                  with your business goals for optimal performance.
                 </p>
                 <br />
               </div>
             </div>
 
-            <div className="col-lg-4 col-sm-6">
-              <div className="single-services-box">
-                <h2>Portfolio Investment Assessments </h2>
-                <p>
-                  Minimize portfolio risk with pre- and post-deal due diligence assessments offer in-depth analysis to guide smart investment decisions.
-                  {/* We will{" "}
-                  <a href="/contigent-service" target="_blank">
-                    recruit
-                  </a>{" "}
-                  and onboard the right talent for your GCC, ensuring that you
-                  have the skills and expertise you need to succeed. */}
-                </p>
-
-              </div>
-            </div>
-          </div>
-
-          <div className="row">
             <div className="col-lg-4 col-sm-6">
               <div className="single-services-box">
                 <h2>Digital Transformation </h2>
                 <p>
-                  Digitalize your IT and business processes, unlocking greater efficiency and a competitive advantage.
+                  Transform your IT and business processes for greater
+                  efficiency and a competitive edge. Our Digital Transformation
+                  services modernize operations, streamline workflows with
+                  automation, leverage advanced data analytics, integrate
+                  scalable cloud platforms, and enhance customer interactions
+                  with personalized digital experiences. We harness AI,
+                  Generative AI, ML, RPA, and IoT to empower your business to
+                  thrive in the digital age
                 </p>
               </div>
             </div>
-            <div className="col-lg-4 col-sm-6">
-              <div className="single-services-box">
-                <h2>Risk Management </h2>
-                <p>
-                  Protects your business with robust security, disaster recovery plans, with 24x7 global coverage.
-                </p>
-              </div>
-            </div>
-            <div className="col-lg-4 col-sm-6">
-              <div className="single-services-box">
-                <h2>Managed Services </h2>
-                <p>
-                  Handle your IT needs proactively, ensuring smooth operations and allowing you to work without worry.
-                </p>
-              </div>
-            </div>
-
           </div>
         </div>
 
