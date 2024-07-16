@@ -50,6 +50,11 @@ module.exports = {
         permanent: true,
       },
       {
+        source: "/startup",
+        destination: "/startups",
+        permanent: true,
+      },
+      {
         source: "/blog-details/",
         destination: "/blog",
         permanent: true,
