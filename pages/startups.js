@@ -75,6 +75,7 @@ const Index = () => {
           content="Struggling to find top IT talent? Explore Latin America's tech powerhouses & build a skilled 100-500+ person offshore team with SAT's guidance. Cost-effective, nearshore solution for startups."
           key="description"
         />
+        <link rel="canonical" href="https://www.satincorp.com/startups" />
       </Head>
 
       <Navbar />
