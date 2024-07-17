@@ -265,14 +265,12 @@ const AboutAI = () => {
                 <ul className="about-list" style={{ maxWidth: "max-content" }}>
                   <li>
                     <i className="fa-solid fa-check"></i>
-                    We offer project-based or dedicated nearshore teams. Choose
-                    what works best for your project and budget, maximizing
-                    efficiency!
+                    We offer highly skilled technology talents. Choose what works best for your project and budget, maximizing efficiency!
                   </li>
 
                   <li>
                     <i className="fa-solid fa-check"></i>
-                    Scale your nearshore team up or down to fit project needs.
+                    Scale your on-site team up or down to fit project needs.
                     You only pay for what you use, maximizing efficiency and
                     cost savings.
                   </li>

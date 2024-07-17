@@ -107,7 +107,7 @@ const Services = () => {
           <div className="row">
             <div className="col-lg-4 col-sm-6">
               <div className="single-services-box">
-                <h2>Outsource IT Solutions </h2>
+                <h2>COE for PE Portfolio Companies</h2>
                 <p>
                   We offer effective processes and services backed by extensive
                   expertise and experience to help you manage the IT platforms

@@ -20,7 +20,7 @@ const ServiceDetailsContent = () => {
                 fontWeight: "600",
                 color: "#57647c",
               }}>
-              Give us a spec, and we’ll deliver a responsive, well-built product
+              Give us a specification, and we’ll deliver a responsive, well-built product
               integrated with your business needs.
             </p>
           </div>
