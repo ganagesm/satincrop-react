@@ -6,37 +6,32 @@ const Services = () => {
     <>
       <section className="services-area ptb-50">
         <div className="container">
-          <div className="row">
+          <div className="row align-items-center">
             <div className="col-lg-6 col-md-6">
-              <div className="" style={{ marginBottom: "0" }}>
-                <p>
-                  We serve as the incubation center for your portfolio companies,
-                  bringing together a team of skilled, high-performance technology
-                  professionals to drive business growth.
-                </p>
-                <p>
-                  With a proven track record, entrepreneurial expertise, and a
-                  strategic approach, we accelerate technology transformation and
-                  product development, ensuring your portfolio companies achieve
-                  their full potential.
-                </p>
-              </div>
+              <h2 style={{ marginBottom: "30px" }}>
+                Accelerating Your Portfolio's Success
+              </h2>
+              <p>
+                We serve as the incubation center for your portfolio companies,
+                bringing together a team of skilled, high-performance technology
+                professionals to drive business growth.
+              </p>
+              <p>
+                With a proven track record, entrepreneurial expertise, and a
+                strategic approach, we accelerate technology transformation and
+                product development, ensuring your portfolio companies achieve
+                their full potential.
+              </p>
             </div>
 
             <div className="col-lg-6 col-md-12">
               <div className="computer-vision-ai-image">
                 <img
-                  src="/images/Infohraphic-1.png"
-                  width="600"
-                  height="350"
-                  crop={{
-                    type: "auto",
-                    source: true,
-                  }}
+                  src="/images/coe-for-pe-portfolio-companies.png"
+                  style={{ borderRadius: "10px" }}
                 />
               </div>
             </div>
-
           </div>
         </div>
       </section>

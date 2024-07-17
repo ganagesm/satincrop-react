@@ -109,7 +109,7 @@ const Index = () => {
                       Amita Bhosale
                     </h5>
                     <p>
-                      Director Client Engagement <br /> (North America){" "}
+                      Director Client Engagement <br /> (APAC)
                     </p>
                   </Link>
                 </div>
@@ -118,10 +118,7 @@ const Index = () => {
             <div className="col-lg-3 col-sm-6">
               <div className="single-team-box">
                 <div className="image">
-                  <img
-                    src="/images/team/dana.png"
-                    alt="dana"
-                  />
+                  <img src="/images/team/dana.png" alt="dana" />
                 </div>
                 <div className="content">
                   <Link href="/dana-neuman/">
@@ -151,8 +148,6 @@ const Index = () => {
                 </div>
               </div>
             </div>
-
-
           </div>
           <div className="row" style={{ marginTop: "20px" }}>
             <div className="col-lg-3 col-sm-6">

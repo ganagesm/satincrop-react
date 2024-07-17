@@ -1,5 +1,5 @@
 import Navbar from "../components/Live/Navbar";
-import Footer from "../components/Live/Footer";
+import Footer from "../components/PrivateEquity/Footer";
 import HeroBanner from "../components/PrivateEquity/HeroBanner";
 import Industries from "../components/PrivateEquity/Industries";
 import Services from "../components/PrivateEquity/Services";
@@ -75,7 +75,9 @@ const Index = () => {
       <Services />
       {/* <Industries /> */}
 
-      <section className="services-area pt-50">
+      <section
+        className="services-area pt-50"
+        style={{ padding: "50px 0 0 0" }}>
         <div className="container">
           <div className="section-title">
             <h2>
@@ -88,12 +90,15 @@ const Index = () => {
                 <div className="col-lg-4 col-sm-6 col-md-6 d-flex">
                   <div className="single-main-services-box flex-fill">
                     <h3>Offshore-Nearshore-Onsite</h3>
-                    <p>We have a flexible engagement model, where we provide highly skilled and experienced technology
-                      talent from our offshore location in India, nearshore Location in Latin America and on site
-                      across the US. Vetted, trained and managed for you. No
-                      recruitment challenges. We'll help you build, operate, and
-                      then seamlessly transfer control of your offshore team,
-                      empowering you to focus on core business growth.
+                    <p>
+                      We have a flexible engagement model, where we provide
+                      highly skilled and experienced technology talent from our
+                      offshore location in India, nearshore Location in Latin
+                      America and on site across the US. Vetted, trained and
+                      managed for you. No recruitment challenges. We'll help you
+                      build, operate, and then seamlessly transfer control of
+                      your remote team, empowering you to focus on core business
+                      growth.
                     </p>
                   </div>
                 </div>
@@ -132,10 +137,7 @@ const Index = () => {
         </div>
       </section>
 
-
       {/* <WhyChooseSAT /> */}
-
-
 
       {/* <section className="services-area pb-0">
         <div className="container">
@@ -271,10 +273,8 @@ const Index = () => {
       </div>
 
       <ContactFormContent />
-      {/* <Footer /> */}
 
-
-      <section className="contactPageSupport bg-f2f6f9 pt-100">
+      {/* <section className="contactPageSupport bg-f2f6f9 pt-100">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-sm-4">
@@ -317,22 +317,19 @@ const Index = () => {
                   </div>
                   <h2 style={{ margin: "20px 0" }}>Call us now</h2>
                   <h3>
-                    {/* <a
+                    <a
                       href="https://api.whatsapp.com/send/?phone=%2B9107875787550&text=Hello!%20I%27m%20interested%20in%20exploring%20your%20SAT%20Services.%20Can%20you%20share%20more%20details?"
                       style={{ textDecoration: "2px dashed underline" }}>
                       +1 (408)-495-5822
-                    </a> */}
+                    </a>
                   </h3>
-
                 </div>
               </div>
             </div>
-
-
           </div>
         </div>
-      </section>
-
+      </section> */}
+      <Footer />
     </>
   );
 };
