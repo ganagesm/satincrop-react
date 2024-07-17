@@ -149,7 +149,7 @@ const Index = () => {
               style={{
                 textAlign: "left",
               }}>
-              <Link href="#contact" className="btn btn-primary">
+              <Link href="/contact-us" className="btn btn-primary">
                 Contact Us
               </Link>
             </div>

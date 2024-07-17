@@ -101,6 +101,38 @@ const Index = () => {
             <div className="col-lg-3 col-sm-6">
               <div className="single-team-box">
                 <div className="image">
+                  <img src="/images/team/amita.jpg" alt="Amita Bhosale" />
+                </div>
+                <div className="content">
+                  <Link href="/amita/">
+                    <h5 style={{ marginTop: "15px", marginBottom: "0" }}>
+                      Amita Bhosale
+                    </h5>
+                    <p>
+                      Director Client Engagement <br /> (APAC)
+                    </p>
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-3 col-sm-6">
+              <div className="single-team-box">
+                <div className="image">
+                  <img src="/images/team/dana.png" alt="dana" />
+                </div>
+                <div className="content">
+                  <Link href="/dana-neuman/">
+                    <h5 style={{ marginTop: "15px", marginBottom: "0" }}>
+                      Dana Neuman
+                    </h5>
+                    <p>Director of Client Engagement, (North America)</p>
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-3 col-sm-6">
+              <div className="single-team-box">
+                <div className="image">
                   <img src="/images/team/Sonal.png" alt="Sonal Sinha" />
                 </div>
                 <div className="content">
@@ -116,6 +148,8 @@ const Index = () => {
                 </div>
               </div>
             </div>
+          </div>
+          <div className="row" style={{ marginTop: "20px" }}>
             <div className="col-lg-3 col-sm-6">
               <div className="single-team-box">
                 <div className="image">
@@ -134,25 +168,6 @@ const Index = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-3 col-sm-6">
-              <div className="single-team-box">
-                <div className="image">
-                  <img src="/images/team/amita.jpg" alt="Amita Bhosale" />
-                </div>
-                <div className="content">
-                  <Link href="/amita/">
-                    <h5 style={{ marginTop: "15px", marginBottom: "0" }}>
-                      Amita Bhosale
-                    </h5>
-                    <p>
-                      Director Client Engagement <br /> (North America){" "}
-                    </p>
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="row" style={{ marginTop: "20px" }}>
             <div className="col-lg-3 col-sm-6">
               <div className="single-team-box">
                 <div className="image">
@@ -187,24 +202,7 @@ const Index = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-3 col-sm-6">
-              <div className="single-team-box">
-                <div className="image">
-                  <img
-                    src="/images/team/Trishita.png"
-                    alt="Trishita Bhattacharya"
-                  />
-                </div>
-                <div className="content">
-                  <Link href="/trishita/">
-                    <h5 style={{ marginTop: "15px", marginBottom: "0" }}>
-                      Trishita Bhattacharya
-                    </h5>
-                    <p>Head Client Engagement (APAC)</p>
-                  </Link>
-                </div>
-              </div>
-            </div>
+
             <div className="col-lg-3 col-sm-6">
               <div className="single-team-box">
                 <div className="image">

@@ -14,19 +14,21 @@ const HeroBanner = () => {
           pauseOnMouseEnter: true,
         }}
         modules={[Navigation, Autoplay]}
-        className="home-slides"
-      >
+        className="home-slides">
         <SwiperSlide>
           <div
             className="main-banner"
-            style={{ backgroundImage: `url(/images/Equity_banner.jpg)` }}
-          >
+            style={{ backgroundImage: `url(/images/Equity_banner.jpg)` }}>
             <div className="container">
               <div className="main-banner-content">
                 <h1>
-                  Private Equity IT Services
+                  Centre Of Excellence (COE) For Private Equity Portfolio
+                  Companies
                 </h1>
-                <p>Strategic Approach to Private Equity Firms and Portfolio Companies</p>
+                {/* <p>
+                  Strategic Approach to Private Equity Firms and Portfolio
+                  Companies
+                </p> */}
                 <div className="btn-box">
                   <Link href="/contact-us/" className="btn btn-primary">
                     Request a Call
