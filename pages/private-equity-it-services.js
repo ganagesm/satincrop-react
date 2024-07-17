@@ -132,7 +132,12 @@ const Index = () => {
           </div>
         </div>
       </section>
-      <WhyChooseSAT />
+
+
+      {/* <WhyChooseSAT /> */}
+
+
+
       {/* <section className="services-area pb-0">
         <div className="container">
           <div className="section-title">

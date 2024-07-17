@@ -25,10 +25,10 @@ const HeroBanner = () => {
                   Centre Of Excellence (COE) For Private Equity Portfolio
                   Companies
                 </h1>
-                <p>
+                {/* <p>
                   Strategic Approach to Private Equity Firms and Portfolio
                   Companies
-                </p>
+                </p> */}
                 <div className="btn-box">
                   <Link href="/contact-us/" className="btn btn-primary">
                     Request a Call
