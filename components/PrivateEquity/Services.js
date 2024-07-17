@@ -6,18 +6,37 @@ const Services = () => {
     <>
       <section className="services-area ptb-50">
         <div className="container">
-          <div className="section-title" style={{ marginBottom: "0" }}>
-            <p>
-              We serve as the incubation center for your portfolio companies,
-              bringing together a team of skilled, high-performance technology
-              professionals to drive business growth.
-            </p>
-            <p>
-              With a proven track record, entrepreneurial expertise, and a
-              strategic approach, we accelerate technology transformation and
-              product development, ensuring your portfolio companies achieve
-              their full potential.
-            </p>
+          <div className="row">
+            <div className="col-lg-6 col-md-6">
+              <div className="" style={{ marginBottom: "0" }}>
+                <p>
+                  We serve as the incubation center for your portfolio companies,
+                  bringing together a team of skilled, high-performance technology
+                  professionals to drive business growth.
+                </p>
+                <p>
+                  With a proven track record, entrepreneurial expertise, and a
+                  strategic approach, we accelerate technology transformation and
+                  product development, ensuring your portfolio companies achieve
+                  their full potential.
+                </p>
+              </div>
+            </div>
+
+            <div className="col-lg-6 col-md-12">
+              <div className="computer-vision-ai-image">
+                <img
+                  src="/images/Infohraphic-1.png"
+                  width="600"
+                  height="350"
+                  crop={{
+                    type: "auto",
+                    source: true,
+                  }}
+                />
+              </div>
+            </div>
+
           </div>
         </div>
       </section>
