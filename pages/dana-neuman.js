@@ -44,7 +44,7 @@ const Index = () => {
                     <p>Director of Client Engagement, (North America)</p>
                   </div>
                   <div className="pro_social">
-                    <Link className="btn btn-primary cnt_btn" href="mailto:dana.neuman@triosource.com" style={{ marginTop: "9%", fontWeight: "700", }}><i class="fa-regular fa-envelope"></i> Connect with Dana</Link>
+                    <Link className="btn btn-primary cnt_btn" href="mailto:dana@satechglobal.us" style={{ marginTop: "9%", fontWeight: "700", }}><i class="fa-regular fa-envelope"></i> Connect with Dana</Link>
                     {/* <Link style={{float: "left", width: "12%",}} href="mailto:trishita.bhattacharya@satincorp.com"><p><i class="fa-regular fa-envelope"></i></p></Link> */}
                   </div>
                 </div>
