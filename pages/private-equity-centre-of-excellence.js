@@ -91,13 +91,13 @@ const Index = () => {
                   <div className="single-main-services-box flex-fill">
                     <h3>Offshore-Nearshore-Onsite</h3>
                     <p>
-                      We have a flexible engagement model, where we provide
+                      We have flexible engagement models, where we provide
                       highly skilled and experienced technology talent from our
                       offshore location in India, nearshore Location in Latin
                       America and on site across the US. Vetted, trained and
                       managed for you. No recruitment challenges. We'll help you
                       build, operate, and then seamlessly transfer control of
-                      your remote team, empowering you to focus on core business
+                      your remote team, empowering you to focus on your core business
                       growth.
                     </p>
                   </div>
@@ -106,7 +106,7 @@ const Index = () => {
                   <div className="single-main-services-box flex-fill">
                     <h3>GCC </h3>
                     <p>
-                      Your dedicated talent hub for innovation, we simplify
+                      As your dedicated talent hub for innovation, we simplify
                       setting up and managing your Global Capability Center
                       (GCC). Our "GCC-as-a-Service" model offers a flexible
                       subscription with everything you need: Hire, Source, and
@@ -260,7 +260,7 @@ const Index = () => {
           <div className="row ptb-50 align-items-center">
             <div className="col-lg-7 col-md-7">
               <h2 className="align-items-center">
-                Connect with us for Your Outsourcing Needs?
+                Connect with us for Your Outsourcing Needs
               </h2>
             </div>
             <div className="col-lg-3 col-md-3" style={{ textAlign: "end" }}>
