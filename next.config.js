@@ -55,6 +55,11 @@ module.exports = {
         permanent: true,
       },
       {
+        source: "/private-equity-centre-of-excellence",
+        destination: "/centre-of-excellence-for-private-equity",
+        permanent: true,
+      },
+      {
         source: "/blog-details/",
         destination: "/blog",
         permanent: true,
