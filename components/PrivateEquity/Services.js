@@ -22,12 +22,10 @@ const Services = () => {
                 product development, ensuring your portfolio companies achieve
                 their full potential.
               </p>
-              <p>
-                <h5>
-                  We help PE firms by optimizing their technology spend and save
-                  cost.
-                </h5>
-              </p>
+              <h5>
+                We help PE firms by optimizing their technology spend and save
+                cost.
+              </h5>
             </div>
 
             <div className="col-lg-6 col-md-12">

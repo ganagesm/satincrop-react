@@ -26,47 +26,47 @@ const Index = () => {
   return (
     <>
       <WebPageJsonLd
-        headline="Private Equity IT Services | SA Technologies "
-        description="Explore SA Technologies' GCC and Global Delivery Center services for global expansion. Maximize efficiency and innovation with our expert support and solutions."
+        headline="COE for Private Equity | SA Technologies "
+        description="Maximize your investment returns with our Centre of Excellence for Private Equity, offering tailored strategies and expert solutions for optimal growth."
         author="SA Technologies"
-        keywords="GCC As a services"
-        image="https://www.satincorp.com/images/banners/gcc-1.jpg"
+        keywords="Maximize your investment returns with our Centre of Excellence for Private Equity, offering tailored strategies and expert solutions for optimal growth."
+        image="https://www.satincorp.com/images/banners/equity_banner.jpg"
       />
       <NextSeo
         openGraph={{
           type: "website",
-          url: "https://www.satincorp.com/gcc/",
-          title:
-            "Global Delivery Center (GCC) Services in India | SA Technologies",
+          url: "https://www.satincorp.com/private-equity-centre-of-excellence/",
+          title: "COE for Private Equity | SA Technologies",
           description:
-            "Explore SA Technologies' GCC and Global Delivery Center services for global expansion. Maximize efficiency and innovation with our expert support and solutions.",
+            "Maximize your investment returns with our Centre of Excellence for Private Equity, offering tailored strategies and expert solutions for optimal growth.",
           images: [
             {
-              url: "https://www.satincorp.com/images/banners/gcc-1.jpg",
+              url: "https://www.satincorp.com/images/banners/equity_banner.jpg",
               width: 800,
               height: 600,
-              alt: "Explore SA Technologies' GCC and Global Delivery Center services for global expansion. Maximize efficiency and innovation with our expert support and solutions.",
+              alt: "Maximize your investment returns with our Centre of Excellence for Private Equity, offering tailored strategies and expert solutions for optimal growth.",
             },
           ],
           authorName: "SA Technologies",
-          keywords: "GCC As a services",
+          keywords:
+            "Centre Of Excellence (COE) For Private Equity Portfolio Companies",
         }}
       />
       <Head>
-        <title>Private Equity IT Services | SA Technologies </title>
+        <title>COE for Private Equity | SA Technologies </title>
         <meta
           property="og:title"
-          content="Private Equity IT Services | SA Technologies "
+          content="COE for Private Equity | SA Technologies "
           key="title"
         />
         <meta
           name="description"
-          content="Explore SA Technologies' GCC and Global Delivery Center services for global expansion. Maximize efficiency and innovation with our expert support and solutions."
+          content="Maximize your investment returns with our Centre of Excellence for Private Equity, offering tailored strategies and expert solutions for optimal growth."
           key="description"
         />
         <link
           rel="canonical"
-          href="https://www.satincorp.com/private-equity-it-services"
+          href="https://www.satincorp.com/private-equity-centre-of-excellence"
         />
       </Head>
 
@@ -97,8 +97,8 @@ const Index = () => {
                       America and on site across the US. Vetted, trained and
                       managed for you. No recruitment challenges. We'll help you
                       build, operate, and then seamlessly transfer control of
-                      your remote team, empowering you to focus on your core business
-                      growth.
+                      your remote team, empowering you to focus on your core
+                      business growth.
                     </p>
                   </div>
                 </div>

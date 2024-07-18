@@ -34,45 +34,37 @@ const Index = () => {
   return (
     <>
       <WebPageJsonLd
-        headline="Scale Up Seamlessly: Build Your Offshore IT Team (100-500+) with SAT's Expertise"
-        description="Struggling to find top IT talent? Explore Latin America's tech powerhouses & build a skilled 100-500+ person offshore team with SAT's guidance. Cost-effective, nearshore solution for startups."
+        headline="Services for Startup | SA Technologies "
+        description="Struggling to find top IT talent? SAT offers services for startups to build a 100-500+ person offshore team in Latin America's tech powerhouses. Cost-effective, nearshore solutions."
         author="SA Technologies"
-        keywords="GCC As a services"
-        image="https://www.satincorp.com/images/banners/gcc-1.jpg"
+        keywords="Services for Startup"
+        image="https://www.satincorp.com/images/startup-banner-new-1.jpg"
       />
       <NextSeo
         openGraph={{
           type: "website",
-          url: "https://www.satincorp.com/gcc/",
-          title:
-            "Scale Up Seamlessly: Build Your Offshore IT Team (100-500+) with SAT's Expertise",
+          url: "https://www.satincorp.com/startups/",
+          title: "Services for Startup",
           description:
-            "Struggling to find top IT talent? Explore Latin America's tech powerhouses & build a skilled 100-500+ person offshore team with SAT's guidance. Cost-effective, nearshore solution for startups.",
+            "Struggling to find top IT talent? SAT offers services for startups to build a 100-500+ person offshore team in Latin America's tech powerhouses. Cost-effective, nearshore solutions.",
           images: [
             {
-              url: "https://www.satincorp.com/images/banners/gcc-1.jpg",
+              url: "https://www.satincorp.com/images/startup-banner-new-1.jpg",
               width: 800,
               height: 600,
-              alt: "Struggling to find top IT talent? Explore Latin America's tech powerhouses & build a skilled 100-500+ person offshore team with SAT's guidance. Cost-effective, nearshore solution for startups.",
+              alt: "Struggling to find top IT talent? SAT offers services for startups to build a 100-500+ person offshore team in Latin America's tech powerhouses. Cost-effective, nearshore solutions.",
             },
           ],
           authorName: "SA Technologies",
-          keywords: "GCC As a services",
+          keywords: "Services for Startup",
         }}
       />
       <Head>
-        <title>
-          Scale Up Seamlessly: Build Your Offshore IT Team (100-500+) with SAT's
-          Expertise{" "}
-        </title>
-        <meta
-          property="og:title"
-          content="Scale Up Seamlessly: Build Your Offshore IT Team (100-500+) with SAT's Expertise"
-          key="title"
-        />
+        <title>Services for Startup | SA Technologies </title>
+        <meta property="og:title" content="Services for Startup" key="title" />
         <meta
           name="description"
-          content="Struggling to find top IT talent? Explore Latin America's tech powerhouses & build a skilled 100-500+ person offshore team with SAT's guidance. Cost-effective, nearshore solution for startups."
+          content="Struggling to find top IT talent? SAT offers services for startups to build a 100-500+ person offshore team in Latin America's tech powerhouses. Cost-effective, nearshore solutions."
           key="description"
         />
         <link rel="canonical" href="https://www.satincorp.com/startups" />
