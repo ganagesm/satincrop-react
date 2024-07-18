@@ -110,7 +110,7 @@ const Services = () => {
                 <p>
                   We offer effective processes and services backed by extensive
                   expertise and experience to help you manage the IT platforms
-                  of your portfolio companies while reducing costs. Our Center
+                  of your portfolio companies while reducing costs. Our Centre
                   of Excellence (COE) is specifically designed for private
                   equity portfolio firms, optimizing processes and saving costs
                   while retaining essential IT functions in-house.
