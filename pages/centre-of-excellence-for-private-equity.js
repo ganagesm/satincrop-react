@@ -35,7 +35,7 @@ const Index = () => {
       <NextSeo
         openGraph={{
           type: "website",
-          url: "https://www.satincorp.com/private-equity-centre-of-excellence/",
+          url: "https://www.satincorp.com/centre-of-excellence-for-private-equity/",
           title: "COE for Private Equity | SA Technologies",
           description:
             "Maximize your investment returns with our Centre of Excellence for Private Equity, offering tailored strategies and expert solutions for optimal growth.",
@@ -66,7 +66,7 @@ const Index = () => {
         />
         <link
           rel="canonical"
-          href="https://www.satincorp.com/private-equity-centre-of-excellence"
+          href="https://www.satincorp.com/centre-of-excellence-for-private-equity"
         />
       </Head>
 
