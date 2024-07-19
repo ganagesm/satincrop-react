@@ -35,16 +35,20 @@ export default class ProductsDetailsTab extends Component {
             <ul className="tabs">
               <li
                 className="current"
-                onClick={(e) => this.openTabSection(e, "tab1")}
+                onClick={(e) => this.openTabSection(e, "tab1")}>
+                <div className="dot"></div> 2024-25
+              </li>
+
+              <li
+
+                onClick={(e) => this.openTabSection(e, "tab2")}
               >
                 <div className="dot"></div> 2023-24
               </li>
 
-              {/* <li onClick={(e) => this.openTabSection(e, "tab2")}>
-                <div className="dot"></div> 2022-23
-              </li>
 
-              <li onClick={(e) => this.openTabSection(e, "tab3")}>
+
+              {/*<li onClick={(e) => this.openTabSection(e, "tab3")}>
                 <div className="dot"></div> 2021-22
               </li> */}
             </ul>
@@ -53,6 +57,187 @@ export default class ProductsDetailsTab extends Component {
           <div className="col-lg-12 col-md-12">
             <div className="tab_content">
               <div id="tab1" className="tabs_item">
+                <div className="products-details-tab-content">
+                  <div className="row">
+                    <div className="col-lg-6 col-md-12">
+                      <div className="faq-accordion">
+                        {/* <Accordion preExpanded={["a"]}> */}
+                        <Accordion>
+                          <AccordionItem uuid="a">
+                            <AccordionItemHeading>
+                              <AccordionItemButton>
+                                <span>Annual Report</span>
+                              </AccordionItemButton>
+                            </AccordionItemHeading>
+                            <AccordionItemPanel>
+                              <div className="investors-details">
+                                <div className="article-tags">
+                                  Annual Report 2024
+                                </div>
+
+                                <div className="article-share">
+                                  <Link
+                                    href="investors/Annual_Report_2024.pdf"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    download
+                                  >
+                                    <i class="fa-solid fa-download fa-lg"></i>
+                                  </Link>
+                                </div>
+                              </div>
+                            </AccordionItemPanel>
+                          </AccordionItem>
+
+                          <AccordionItem uuid="b">
+                            <AccordionItemHeading>
+                              <AccordionItemButton>
+                                <span>Corporate Announcements</span>
+                              </AccordionItemButton>
+                            </AccordionItemHeading>
+                            <AccordionItemPanel>
+                              {/* <div className="investors-details">
+                                <div className="article-tags">
+                                  2023
+                                </div>
+
+                                <div className="article-share">
+                                  <Link href="investors/annual-report_2023.pdf" target="_blank" rel="noreferrer" download>
+                                    <i class="fa-solid fa-download fa-lg"></i>
+                                  </Link>
+                                </div>
+                              </div> */}
+                            </AccordionItemPanel>
+                          </AccordionItem>
+
+                          {/* <AccordionItem uuid="c">
+                            <AccordionItemHeading>
+                              <AccordionItemButton>
+                                <span>SA Technologies Financials
+                                </span>
+                              </AccordionItemButton>
+                            </AccordionItemHeading>
+                            <AccordionItemPanel>
+                              <div className="investors-details">
+                                <div className="article-tags">
+                                SA Technologies Financials 2023
+                                </div>
+
+                                <div className="article-share">
+                                  <Link href="investors/sa-tech-financials_2023.pdf" target="_blank" rel="noreferrer" download>
+                                    <i class="fa-solid fa-download fa-lg"></i>
+                                  </Link>
+                                </div>
+                              </div>
+                            </AccordionItemPanel>
+                          </AccordionItem> */}
+
+                          <AccordionItem uuid="d">
+                            <AccordionItemHeading>
+                              <AccordionItemButton>
+                                <span>Red Herring Prospectus</span>
+                              </AccordionItemButton>
+                            </AccordionItemHeading>
+                            <AccordionItemPanel>
+                              {/* <div className="investors-details">
+                                <div className="article-tags">
+                                  Draft Red Herring Prospectus
+                                </div>
+
+                                <div className="article-share">
+                                  <Link
+                                    href="investors/drhptech.pdf"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    download
+                                  >
+                                    <i class="fa-solid fa-download fa-lg"></i>
+                                  </Link>
+                                </div>
+                              </div> */}
+                            </AccordionItemPanel>
+                          </AccordionItem>
+                        </Accordion>
+                      </div>
+                    </div>
+
+                    <div className="col-lg-6 col-md-12">
+                      {/* <div className="faq-content">
+                        <div className="section-title">
+                          <span>Ask Question</span>
+                          <h2>Frequently Asked Questions?</h2>
+                          <p>
+                            Veniam quis nostrud exercitation ullamco laboris nist aute
+                            irure dolor in reprehenderit in voluptate velit esse nulla
+                            pariatur excepteur sint occaecat aboris nisi ut aliquip.
+                          </p>
+                        </div>
+
+                        <div className="faq-image">
+                          <img src="/images/faq.png" alt="image" />
+                        </div>
+                      </div> */}
+                      <div className="faq-accordion">
+                        <Accordion>
+                          <AccordionItem uuid="a">
+                            <AccordionItemHeading>
+                              <AccordionItemButton>
+                                <span>Share Holding Pattern</span>
+                              </AccordionItemButton>
+                            </AccordionItemHeading>
+                            <AccordionItemPanel></AccordionItemPanel>
+                          </AccordionItem>
+
+                          <AccordionItem uuid="b">
+                            <AccordionItemHeading>
+                              <AccordionItemButton>
+                                <span>Shareholder Meeting</span>
+                              </AccordionItemButton>
+                            </AccordionItemHeading>
+                            <AccordionItemPanel></AccordionItemPanel>
+                          </AccordionItem>
+
+                          <AccordionItem uuid="c">
+                            <AccordionItemHeading>
+                              <AccordionItemButton>
+                                <span>Corporate Governance</span>
+                              </AccordionItemButton>
+                            </AccordionItemHeading>
+                            <AccordionItemPanel></AccordionItemPanel>
+                          </AccordionItem>
+
+                          <AccordionItem uuid="d">
+                            <AccordionItemHeading>
+                              <AccordionItemButton>
+                                <span>Annual Returns</span>
+                              </AccordionItemButton>
+                            </AccordionItemHeading>
+                            <AccordionItemPanel>
+                              {/* <div className="investors-details">
+                                <div className="article-tags">
+                                  Annual Return 2023
+                                </div>
+
+                                <div className="article-share">
+                                  <Link
+                                    href="investors/annual_return_2023.pdf"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    download
+                                  >
+                                    <i class="fa-solid fa-download fa-lg"></i>
+                                  </Link>
+                                </div>
+                              </div> */}
+                            </AccordionItemPanel>
+                          </AccordionItem>
+                        </Accordion>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="tab2" className="tabs_item">
                 <div className="products-details-tab-content">
                   <div className="row">
                     <div className="col-lg-6 col-md-12">
@@ -159,20 +344,20 @@ export default class ProductsDetailsTab extends Component {
 
                     <div className="col-lg-6 col-md-12">
                       {/* <div className="faq-content">
-                <div className="section-title">
-                  <span>Ask Question</span>
-                  <h2>Frequently Asked Questions?</h2>
-                  <p>
-                    Veniam quis nostrud exercitation ullamco laboris nist aute
-                    irure dolor in reprehenderit in voluptate velit esse nulla
-                    pariatur excepteur sint occaecat aboris nisi ut aliquip.
-                  </p>
-                </div>
+                        <div className="section-title">
+                          <span>Ask Question</span>
+                          <h2>Frequently Asked Questions?</h2>
+                          <p>
+                            Veniam quis nostrud exercitation ullamco laboris nist aute
+                            irure dolor in reprehenderit in voluptate velit esse nulla
+                            pariatur excepteur sint occaecat aboris nisi ut aliquip.
+                          </p>
+                        </div>
 
-                <div className="faq-image">
-                  <img src="/images/faq.png" alt="image" />
-                </div>
-              </div> */}
+                        <div className="faq-image">
+                          <img src="/images/faq.png" alt="image" />
+                        </div>
+                      </div> */}
                       <div className="faq-accordion">
                         <Accordion>
                           <AccordionItem uuid="a">
@@ -234,10 +419,9 @@ export default class ProductsDetailsTab extends Component {
                 </div>
               </div>
 
-              {/* <div id="tab2" className="tabs_item">
-              </div>
 
-              <div id="tab3" className="tabs_item">
+
+              {/*<div id="tab3" className="tabs_item">
               </div> */}
             </div>
           </div>
