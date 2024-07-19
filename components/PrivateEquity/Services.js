@@ -22,9 +22,10 @@ const Services = () => {
                 product development, ensuring your portfolio companies achieve
                 their full potential.
               </p>
-              <p>
-                <h5>We help PE firms by optimizing their technology spend and save cost.</h5>
-              </p>
+              <h5>
+                We help PE firms by optimizing their technology spend and save
+                cost.
+              </h5>
             </div>
 
             <div className="col-lg-6 col-md-12">
@@ -46,9 +47,9 @@ const Services = () => {
               Technology Outsourcing for Private Equity Portfolio Companies
             </h2>
             <p style={{ maxWidth: "546px !important" }}>
-              By outsourcing your technology needs to SA Technologies, you gain an
-              essential partner in achieving technological resilience
-              and enhancing customer satisfaction.
+              By outsourcing your technology needs to SA Technologies, you gain
+              an essential partner in achieving technological resilience and
+              enhancing customer satisfaction.
             </p>
             <p style={{ width: "90%" }}>
               We deliver the Right Services at the Right Time for the Right
@@ -109,7 +110,7 @@ const Services = () => {
                 <p>
                   We offer effective processes and services backed by extensive
                   expertise and experience to help you manage the IT platforms
-                  of your portfolio companies while reducing costs. Our Centers
+                  of your portfolio companies while reducing costs. Our Centre
                   of Excellence (COE) is specifically designed for private
                   equity portfolio firms, optimizing processes and saving costs
                   while retaining essential IT functions in-house.
