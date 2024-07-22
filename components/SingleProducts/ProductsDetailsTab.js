@@ -39,14 +39,9 @@ export default class ProductsDetailsTab extends Component {
                 <div className="dot"></div> 2024-25
               </li>
 
-              <li
-
-                onClick={(e) => this.openTabSection(e, "tab2")}
-              >
+              <li onClick={(e) => this.openTabSection(e, "tab2")}>
                 <div className="dot"></div> 2023-24
               </li>
-
-
 
               {/*<li onClick={(e) => this.openTabSection(e, "tab3")}>
                 <div className="dot"></div> 2021-22
@@ -80,8 +75,7 @@ export default class ProductsDetailsTab extends Component {
                                     href="investors/Annual_Report_2024.pdf"
                                     target="_blank"
                                     rel="noreferrer"
-                                    download
-                                  >
+                                    download>
                                     <i class="fa-solid fa-download fa-lg"></i>
                                   </Link>
                                 </div>
@@ -139,7 +133,7 @@ export default class ProductsDetailsTab extends Component {
                               </AccordionItemButton>
                             </AccordionItemHeading>
                             <AccordionItemPanel>
-                              {/* <div className="investors-details">
+                              <div className="investors-details">
                                 <div className="article-tags">
                                   Draft Red Herring Prospectus
                                 </div>
@@ -149,12 +143,11 @@ export default class ProductsDetailsTab extends Component {
                                     href="investors/drhptech.pdf"
                                     target="_blank"
                                     rel="noreferrer"
-                                    download
-                                  >
+                                    download>
                                     <i class="fa-solid fa-download fa-lg"></i>
                                   </Link>
                                 </div>
-                              </div> */}
+                              </div>
                             </AccordionItemPanel>
                           </AccordionItem>
                         </Accordion>
@@ -261,8 +254,7 @@ export default class ProductsDetailsTab extends Component {
                                     href="investors/annual-report_2023.pdf"
                                     target="_blank"
                                     rel="noreferrer"
-                                    download
-                                  >
+                                    download>
                                     <i class="fa-solid fa-download fa-lg"></i>
                                   </Link>
                                 </div>
@@ -322,16 +314,15 @@ export default class ProductsDetailsTab extends Component {
                             <AccordionItemPanel>
                               <div className="investors-details">
                                 <div className="article-tags">
-                                  Draft Red Herring Prospectus
+                                  Red Herring Prospectus
                                 </div>
 
                                 <div className="article-share">
                                   <Link
-                                    href="investors/drhptech.pdf"
+                                    href="investors/rhp-satech-software.pdf"
                                     target="_blank"
                                     rel="noreferrer"
-                                    download
-                                  >
+                                    download>
                                     <i class="fa-solid fa-download fa-lg"></i>
                                   </Link>
                                 </div>
@@ -404,8 +395,7 @@ export default class ProductsDetailsTab extends Component {
                                     href="investors/annual_return_2023.pdf"
                                     target="_blank"
                                     rel="noreferrer"
-                                    download
-                                  >
+                                    download>
                                     <i class="fa-solid fa-download fa-lg"></i>
                                   </Link>
                                 </div>
@@ -418,8 +408,6 @@ export default class ProductsDetailsTab extends Component {
                   </div>
                 </div>
               </div>
-
-
 
               {/*<div id="tab3" className="tabs_item">
               </div> */}
