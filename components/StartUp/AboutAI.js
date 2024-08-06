@@ -24,13 +24,21 @@ const AboutAI = () => {
 
                 <ul className="about-list">
                   <li>
-                    <i className="fa-solid fa-check"></i> 	Effortlessly recruit and compensate IT talent globally using SAT's international infrastructure, even in locations where your startup lacks local establishments.
+                    <i className="fa-solid fa-check"></i> Effortlessly recruit
+                    and compensate IT talent globally using SAT's international
+                    infrastructure, even in locations where your startup lacks
+                    local establishments & effortlessly.
                   </li>
                   <li>
-                    <i className="fa-solid fa-check"></i> 	Engage with contractors globally, ensuring compliance seamlessly, automating invoicing, and simplifying international payments effortlessly.
+                    <i className="fa-solid fa-check"></i> Engage with
+                    contractors globally, ensuring compliance seamlessly,
+                    automating invoicing, and simplifying international payments
+                    effortlessly.
                   </li>
                   <li>
-                    <i className="fa-solid fa-check"></i>   Rapidly bring onboard and compensate employees directly hired through your own entities, unifying procedures.
+                    <i className="fa-solid fa-check"></i> Rapidly bring onboard
+                    and compensate employees directly hired through your own
+                    entities, unifying procedures.
                   </li>
                 </ul>
                 {/* <div className="about-btn">
@@ -40,7 +48,6 @@ const AboutAI = () => {
                 </div> */}
               </div>
             </div>
-
           </div>
         </div>
       </div>
