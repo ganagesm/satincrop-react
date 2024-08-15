@@ -14,6 +14,7 @@ import TechDetailsContent from "../components/StartUp/TechDetailsContent";
 import ExpertiseContent from "../components/StartUp/ExpertiseContent";
 import ServicesCompanies from "../components/StartUp/ServicesCompanies";
 import CaseStudiesGrid from "../components/StartUp/CaseStudiesGrid";
+import DaystoSuccess from "../components/StartUp/DaystoSuccess";
 import Head from "next/head";
 import { Component, useState } from "react";
 import Link from "next/link";
@@ -72,6 +73,7 @@ const Index = () => {
 
       <Navbar />
       <HeroBanner />
+      <DaystoSuccess />
       <Services />
       {/* <div className="">
         <div className="container">
@@ -91,6 +93,117 @@ const Index = () => {
         </div>
       </div> */}
       {/* <Testimonials /> */}
+      <div className="checkout-area pt-50">
+        <div className="container">
+          <div className="section-title">
+            <h2>Startups, Reimagined: Our Offshore Hiring Models</h2>
+          </div>
+          <div className="row">
+            <div className="col-lg-12 col-md-12">
+              <div className="order-table table-responsive">
+                <table className="table table-bordered">
+                  <thead>
+                    <tr style={{ verticalAlign: "middle" }}>
+                      <th scope="col">Factors </th>
+                      <th scope="col">Standard Offshore Hiring Model </th>
+                      <th scope="col">Accelerator Offshore Hiring Model </th>
+                      <th scope="col">BOT Model </th>
+                    </tr>
+                  </thead>
+
+                  <tbody>
+                    <tr>
+                      <td className="product-name">
+                        <strong>Ownership</strong>
+                      </td>
+                      <td className="product-total">Client</td>
+                      <td className="product-total">Client</td>
+                      <td className="product-total">Partner/Vendor </td>
+                    </tr>
+
+                    <tr>
+                      <td className="product-name">
+                        <strong>Talent Employment</strong>
+                      </td>
+                      <td className="product-total">By the client </td>
+                      <td className="product-total">By the client </td>
+                      <td className="product-total">Partner/Vendor </td>
+                    </tr>
+
+                    <tr>
+                      <td className="product-name">
+                        <strong>Infrastructure</strong>
+                      </td>
+                      <td className="product-total">
+                        Fully customized by a partner like SA Technologies to
+                        align with client requirements
+                      </td>
+                      <td className="product-total">
+                        Fully customized by a partner like SA Technologies to
+                        align with client requirements
+                      </td>
+                      <td className="product-total">
+                        Developed by the vendor/partner (may or may not
+                        precisely match client specifications)
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td className="product-name">
+                        <strong>Ops Management</strong>
+                      </td>
+                      <td className="product-total">Managed by the client</td>
+                      <td className="product-total">Managed by the client</td>
+                      <td className="product-total">Managed by the client</td>
+                    </tr>
+
+                    <tr>
+                      <td className="order-subtotal">
+                        <strong>Setup Cost </strong>{" "}
+                      </td>
+                      <td className="order-subtotal-price">
+                        High initial investment
+                      </td>
+                      <td className="order-subtotal-price">
+                        Low initial investment
+                      </td>
+                      <td className="order-subtotal-price">
+                        Low initial investment
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className="order-subtotal">
+                        <strong>Implementation Time</strong>
+                      </td>
+                      <td className="order-subtotal-price">6-8 months</td>
+                      <td className="order-subtotal-price">3-4 months</td>
+                      <td className="order-subtotal-price">1-3 months</td>
+                    </tr>
+
+                    <tr>
+                      <td className="order-shipping">
+                        <strong>Scalability</strong>
+                      </td>
+                      <td className="shipping-price">High</td>
+                      <td className="shipping-price">High</td>
+                      <td className="shipping-price">High</td>
+                    </tr>
+
+                    <tr>
+                      <td className="total-price">
+                        <strong>Level of Control</strong>
+                      </td>
+                      <td className="shipping-price">High</td>
+                      <td className="shipping-price">High</td>
+                      <td className="shipping-price">Low</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <CaseStudiesGrid />
 
       {/* <AboutContent /> */}
