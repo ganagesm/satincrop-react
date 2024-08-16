@@ -93,7 +93,7 @@ const Index = () => {
         </div>
       </div> */}
       {/* <Testimonials /> */}
-      <div className="checkout-area pt-50">
+      <div className="checkout-area pt-50 pb-70  bg-f2f6f9">
         <div className="container">
           <div className="section-title">
             <h2>Startups, Reimagined: Our Offshore Hiring Models</h2>
@@ -232,6 +232,9 @@ const Index = () => {
                 seamlessly handles it all while ensuring compliance at every
                 step.
               </p>
+              <Link href="/contact-us" className="btn btn-primary">
+                Contact Us
+              </Link>
             </div>
           </div>
         </div>

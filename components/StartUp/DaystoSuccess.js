@@ -6,15 +6,15 @@ const Services = () => {
     <>
       <section className="services-area pt-50" style={{ paddingBottom: "0" }}>
         <div className="container">
-          <div className="section-title">
+          <div className="section-title" style={{ maxWidth: "90%" }}>
             <h2>30 Days to Success: Offshore Hiring Solutions for Startups</h2>
-            <p style={{ maxWidth: "75%" }}>
+            <p style={{ maxWidth: "90%" }}>
               Thousands of innovative companies worldwide have embraced offshore
-              hiring to access top-tier talent, drive growth and innovation,
+              hiring to access top-tier talent, drive accelerate growth and innovation,
               mitigate risks, and ensure business continuity in response to
               global challenges.
             </p>
-            <p style={{ maxWidth: "75%" }}>
+            <p style={{ maxWidth: "90%" }}>
               With over 20 years of expertise, our refined approach to offshore
               hiring helps startups halve the time needed to onboard skilled
               professionals and realize value. Our meticulously designed 3-phase
