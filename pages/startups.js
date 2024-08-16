@@ -103,7 +103,11 @@ const Index = () => {
               <div className="order-table table-responsive">
                 <table className="table table-bordered">
                   <thead>
-                    <tr style={{ verticalAlign: "middle" }}>
+                    <tr
+                      style={{
+                        verticalAlign: "middle",
+                        border: ".1rem solid black",
+                      }}>
                       <th scope="col">Factors </th>
                       <th scope="col">Standard Offshore Hiring Model </th>
                       <th scope="col">Accelerator Offshore Hiring Model </th>
@@ -112,7 +116,7 @@ const Index = () => {
                   </thead>
 
                   <tbody>
-                    <tr>
+                    <tr style={{ border: ".1rem solid black" }}>
                       <td className="product-name">
                         <strong>Ownership</strong>
                       </td>
@@ -121,7 +125,7 @@ const Index = () => {
                       <td className="product-total">Partner/Vendor </td>
                     </tr>
 
-                    <tr>
+                    <tr style={{ border: ".1rem solid black" }}>
                       <td className="product-name">
                         <strong>Talent Employment</strong>
                       </td>
@@ -130,7 +134,7 @@ const Index = () => {
                       <td className="product-total">Partner/Vendor </td>
                     </tr>
 
-                    <tr>
+                    <tr style={{ border: ".1rem solid black" }}>
                       <td className="product-name">
                         <strong>Infrastructure</strong>
                       </td>
@@ -148,7 +152,7 @@ const Index = () => {
                       </td>
                     </tr>
 
-                    <tr>
+                    <tr style={{ border: ".1rem solid black" }}>
                       <td className="product-name">
                         <strong>Ops Management</strong>
                       </td>
@@ -157,7 +161,7 @@ const Index = () => {
                       <td className="product-total">Managed by the client</td>
                     </tr>
 
-                    <tr>
+                    <tr style={{ border: ".1rem solid black" }}>
                       <td className="order-subtotal">
                         <strong>Setup Cost </strong>{" "}
                       </td>
@@ -171,7 +175,7 @@ const Index = () => {
                         Low initial investment
                       </td>
                     </tr>
-                    <tr>
+                    <tr style={{ border: ".1rem solid black" }}>
                       <td className="order-subtotal">
                         <strong>Implementation Time</strong>
                       </td>
@@ -180,7 +184,7 @@ const Index = () => {
                       <td className="order-subtotal-price">1-3 months</td>
                     </tr>
 
-                    <tr>
+                    <tr style={{ border: ".1rem solid black" }}>
                       <td className="order-shipping">
                         <strong>Scalability</strong>
                       </td>
@@ -189,7 +193,7 @@ const Index = () => {
                       <td className="shipping-price">High</td>
                     </tr>
 
-                    <tr>
+                    <tr style={{ border: ".1rem solid black" }}>
                       <td className="total-price">
                         <strong>Level of Control</strong>
                       </td>
