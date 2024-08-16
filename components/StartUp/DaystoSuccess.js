@@ -10,7 +10,7 @@ const Services = () => {
             <h2>30 Days to Success: Offshore Hiring Solutions for Startups</h2>
             <p style={{ maxWidth: "90%" }}>
               Thousands of innovative companies worldwide have embraced offshore
-              hiring to access top-tier talent, drive accelerate growth and innovation,
+              hiring to access top-tier talent, accelerate growth and innovation,
               mitigate risks, and ensure business continuity in response to
               global challenges.
             </p>
