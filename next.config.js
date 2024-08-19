@@ -50,6 +50,52 @@ module.exports = {
         permanent: true,
       },
       {
+        source: "/technology-impact-sox-auditing",
+        destination: "/malay",
+        permanent: true,
+      },
+      {
+        source: "/technology-impact-sox-auditing",
+        destination: "/jitendra",
+        permanent: true,
+      },
+      {
+        source: "/technology-impact-sox-auditing",
+        destination: "/amita",
+        permanent: true,
+      },
+      {
+        source: "/technology-impact-sox-auditing",
+        destination: "/sonal-sinha",
+        permanent: true,
+      },
+      {
+        source: "/technology-impact-sox-auditing",
+        destination: "/sonal-sinha",
+        permanent: true,
+      },
+      {
+        source:
+          "/The-Rise-of-GCC-in-India-Harnessing-the-Talent-rich-Landscape-for-Unparalleled-Benefits",
+        destination: "/gccregulatorycompliance",
+        permanent: true,
+      },
+      {
+        source: "/how-gccs-can-attain-outstanding-results",
+        destination: "/gccregulatorycompliance",
+        permanent: true,
+      },
+      {
+        source: "/service-details",
+        destination: "/manufacturing",
+        permanent: true,
+      },
+      {
+        source: "/gcc-operational-guidance",
+        destination: "/gcc",
+        permanent: true,
+      },
+      {
         source: "/startup",
         destination: "/startups",
         permanent: true,
@@ -60,7 +106,7 @@ module.exports = {
         permanent: true,
       },
       {
-        source: "/blog-details/",
+        source: "/blog-details",
         destination: "/blog",
         permanent: true,
       },
