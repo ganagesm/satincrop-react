@@ -32,7 +32,7 @@ const HeroBanner = () => {
                   growth.
                 </p>
                 <div className="btn-box">
-                  <Link href="#contact_section" className="btn btn-primary">
+                  <Link href="/contact-us" className="btn btn-primary">
                     Request a Call
                   </Link>
                 </div>

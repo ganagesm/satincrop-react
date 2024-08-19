@@ -135,12 +135,12 @@ export default class ProductsDetailsTab extends Component {
                             <AccordionItemPanel>
                               <div className="investors-details">
                                 <div className="article-tags">
-                                  Draft Red Herring Prospectus
+                                  Red Herring Prospectus
                                 </div>
 
                                 <div className="article-share">
                                   <Link
-                                    href="investors/drhptech.pdf"
+                                    href="investors/rhp-sa-tech-software.pdf"
                                     target="_blank"
                                     rel="noreferrer"
                                     download>
@@ -308,7 +308,7 @@ export default class ProductsDetailsTab extends Component {
                           <AccordionItem uuid="d">
                             <AccordionItemHeading>
                               <AccordionItemButton>
-                                <span>Draft Red Herring Prospectus</span>
+                                <span>Red Herring Prospectus</span>
                               </AccordionItemButton>
                             </AccordionItemHeading>
                             <AccordionItemPanel>
@@ -319,7 +319,7 @@ export default class ProductsDetailsTab extends Component {
 
                                 <div className="article-share">
                                   <Link
-                                    href="investors/rhp-satech-software.pdf"
+                                    href="investors/rhp-sa-tech-software.pdf"
                                     target="_blank"
                                     rel="noreferrer"
                                     download>
