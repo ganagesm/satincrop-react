@@ -96,7 +96,7 @@ const Index = () => {
       <div className="checkout-area pt-50 pb-70  bg-f2f6f9">
         <div className="container">
           <div className="section-title">
-            <h2>Startups, Reimagined: Our Offshore Hiring Models</h2>
+            <h2>Startups Reimagined: Our Offshore Hiring Models</h2>
           </div>
           <div className="row">
             <div className="col-lg-12 col-md-12">
