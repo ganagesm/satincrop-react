@@ -84,6 +84,15 @@ export default function BlogPost() {
           property="og:image"
           content={post.yoast_head_json.og_image[0].url}
         />
+        {/* <link
+          rel="stylesheet"
+          href="https://dev1.satincorp.com/wp-content/themes/front/style.css?ver=1.1.9"
+        />
+        <script
+          type="text/javascript"
+          src="https://dev1.satincorp.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
+          id="jquery-core-js"></script>
+        <script href="https://dev1.satincorp.com/wp-content/themes/front/assets/js/front.js?ver=1.1.9"></script> */}
         <link rel="canonical" href={`https://www.satincorp.com/blog/${slug}`} />
       </Head>
       <Navbar />
