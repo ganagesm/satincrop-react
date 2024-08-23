@@ -1,19 +1,23 @@
 import React from "react";
 import Link from "next/link";
+import CustomersAndPartnersContent from "../../components/PrivateEquity/CustomersAndPartnersContent";
 
 const Services = () => {
   return (
     <>
-      <section className="services-area ptb-50">
+      <CustomersAndPartnersContent />
+      {/* <section className="services-area ptb-50">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-6">
               <h2 style={{ marginBottom: "30px" }}>
                 Optimizing Performance for Private Equity Portfolios
               </h2>
-              {/* <h2 style={{ marginBottom: "30px" }}>
+              old
+              <h2 style={{ marginBottom: "30px" }}>
                 Accelerating Your Portfolio's Success
-              </h2> */}
+              </h2>
+              old
               <p>
                 At SAT Technologies, we drive innovation and operational
                 excellence for private equity portfolio companies. Our Center of
@@ -21,7 +25,8 @@ const Services = () => {
                 value through strategic IT management and digital
                 transformation.
               </p>
-              {/* <p>
+              old
+              <p>
                 We serve as the incubation center for your portfolio companies,
                 bringing together a team of skilled, high-performance technology
                 professionals to drive business growth.
@@ -31,15 +36,17 @@ const Services = () => {
                 strategic approach, we accelerate technology transformation and
                 product development, ensuring your portfolio companies achieve
                 their full potential.
-              </p> */}
-              {/* <h5>
+              </p>
+              <h5>
                 We help PE firms by optimizing their technology spend and save
                 cost.
-              </h5> */}
+              </h5>
+              old
             </div>
 
             <div className="col-lg-6 col-md-12">
               <div className="computer-vision-ai-image">
+                <CustomersAndPartnersContent />
                 <img
                   src="/images/coe-for-pe-portfolio-companies.png"
                   style={{ borderRadius: "10px" }}
@@ -48,14 +55,15 @@ const Services = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section className="services-area bg-f2f6f9 ptb-50 pt-50">
         <div className="container">
           <div className="section-title">
-            <h2>
+            <h2>Technology Outsourcing For Your Portfolio Companies</h2>
+            {/* <h2>
               Technology Outsourcing for Private Equity Portfolio Companies
-            </h2>
+            </h2> */}
             <p style={{ maxWidth: "546px !important" }}>
               By outsourcing your technology needs to SA Technologies, you gain
               an essential partner in achieving technological resilience and
@@ -165,74 +173,64 @@ const Services = () => {
           </div> */}
           <div className="row justify-content-center">
             <div className="col-lg-4 col-sm-3 col-md-3 d-flex">
-              <div className="single-services-box flex-fill">
+              <div className="single-main-services-box flex-fill">
                 <h3>Technology Transformation</h3>
                 <p>
                   Streamline operations and technology infrastructure to enhance
-                  performance and reduce costs.
-                </p>
-                <p>
-                  Custom software and application development tailored to your
-                  specific business needs.
+                  performance and reduce costs. Custom software and application
+                  development tailored to your specific business needs.
                 </p>
               </div>
             </div>
             <div className="col-lg-4 col-sm-3 col-md-3 d-flex">
-              <div className="single-services-box flex-fill">
+              <div className="single-main-services-box flex-fill">
                 <h3>Operational Excellence </h3>
                 <p>
                   Implement cutting-edge solutions like AI, machine learning,
                   and IoT to optimize workflows and increase efficiency.
-                </p>
-                <p>
                   Full-spectrum IT management, ensuring your technology aligns
                   with business objectives.
                 </p>
               </div>
             </div>
             <div className="col-lg-4 col-sm-3 col-md-3 d-flex">
-              <div className="single-services-box flex-fill">
+              <div className="single-main-services-box flex-fill">
                 <h3>Cost Optimization</h3>
                 <p>
                   Reduce technology spend with our strategic outsourcing
-                  solutions.
-                </p>
-                <p>
-                  Gain operational efficiency without compromising on service
-                  quality.
+                  solutions. Gain operational efficiency without compromising on
+                  service quality.
                 </p>
               </div>
             </div>
             <div className="col-lg-4 col-sm-3 col-md-3 d-flex">
-              <div className="single-services-box flex-fill">
+              <div className="single-main-services-box flex-fill">
                 <h3>Scalable Solutions</h3>
-                <p>Flexible engagement models: Offshore, Nearshore, Onsite.</p>
                 <p>
+                  Flexible engagement models: Offshore, Nearshore, Onsite.
                   Build, operate, and transfer teams seamlessly, tailored to
                   your investment timeline and goals.
                 </p>
               </div>
             </div>
             <div className="col-lg-4 col-sm-3 col-md-3 d-flex">
-              <div className="single-services-box flex-fill">
+              <div className="single-main-services-box flex-fill">
                 <h3>Global Capability Center (GCC)</h3>
-                <p>Set up and manage a dedicated innovation hub.</p>
                 <p>
-                  Comprehensive support from talent acquisition to compliance
-                  and IT infrastructure.
+                  Set up and manage a dedicated innovation hub. Comprehensive
+                  support from talent acquisition to compliance and IT
+                  infrastructure.
                 </p>
               </div>
             </div>
             <div className="col-lg-4 col-sm-3 col-md-3 d-flex">
-              <div className="single-services-box flex-fill">
+              <div className="single-main-services-box flex-fill">
                 <h3>Digital and IT Strategy</h3>
                 <p>
                   From digital transformation to IT strategy consultation,
-                  prepare your portfolio companies for the future.
-                </p>
-                <p>
-                  Leverage our expertise to enhance customer experiences and
-                  integrate scalable cloud platforms.
+                  prepare your portfolio companies for the future. Leverage our
+                  expertise to enhance customer experiences and integrate
+                  scalable cloud platforms.
                 </p>
               </div>
             </div>
