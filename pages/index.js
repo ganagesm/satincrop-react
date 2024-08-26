@@ -68,12 +68,12 @@ const Index = () => {
         />
       </Head>
       <ZohoScript />
-      <Marquee style={{ padding: "10px" }} className="btn-primary">
+      {/* <Marquee style={{ padding: "10px" }} className="btn-primary">
         We are excited to announce that our Initial Public Offering (IPO) is
         live from August 1, 2024, to August 5, 2024, giving you the opportunity
         to invest in our company and join us on our journey of innovation and
         growth—visit our [IPO page](#) to learn more and invest today!
-      </Marquee>
+      </Marquee> */}
       <Navbar />
       <HeroBanner />
       <AboutContact />

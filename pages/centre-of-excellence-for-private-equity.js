@@ -132,6 +132,84 @@ const Index = () => {
                   </div>
                 </div>
               </div>
+
+              {/* <div className="row justify-content-center">
+                <div className="col-lg-4 col-sm-3 col-md-3 d-flex">
+                  <div className="single-main-services-box flex-fill">
+                    <h3>Technology Transformation</h3>
+                    <p>
+                      Streamline operations and technology infrastructure to
+                      enhance performance and reduce costs.
+                    </p>
+                    <p>
+                      Custom software and application development tailored to
+                      your specific business needs.
+                    </p>
+                  </div>
+                </div>
+                <div className="col-lg-4 col-sm-3 col-md-3 d-flex">
+                  <div className="single-main-services-box flex-fill">
+                    <h3>Operational Excellence </h3>
+                    <p>
+                      Implement cutting-edge solutions like AI, machine
+                      learning, and IoT to optimize workflows and increase
+                      efficiency.
+                    </p>
+                    <p>
+                      Full-spectrum IT management, ensuring your technology
+                      aligns with business objectives.
+                    </p>
+                  </div>
+                </div>
+                <div className="col-lg-4 col-sm-3 col-md-3 d-flex">
+                  <div className="single-main-services-box flex-fill">
+                    <h3>Cost Optimization</h3>
+                    <p>
+                      Reduce technology spend with our strategic outsourcing
+                      solutions.
+                    </p>
+                    <p>
+                      Gain operational efficiency without compromising on
+                      service quality.
+                    </p>
+                  </div>
+                </div>
+                <div className="col-lg-4 col-sm-3 col-md-3 d-flex">
+                  <div className="single-main-services-box flex-fill">
+                    <h3>Scalable Solutions</h3>
+                    <p>
+                      Flexible engagement models: Offshore, Nearshore, Onsite.
+                    </p>
+                    <p>
+                      Build, operate, and transfer teams seamlessly, tailored to
+                      your investment timeline and goals.
+                    </p>
+                  </div>
+                </div>
+                <div className="col-lg-4 col-sm-3 col-md-3 d-flex">
+                  <div className="single-main-services-box flex-fill">
+                    <h3>Global Capability Center (GCC)</h3>
+                    <p>Set up and manage a dedicated innovation hub.</p>
+                    <p>
+                      Comprehensive support from talent acquisition to
+                      compliance and IT infrastructure.
+                    </p>
+                  </div>
+                </div>
+                <div className="col-lg-4 col-sm-3 col-md-3 d-flex">
+                  <div className="single-main-services-box flex-fill">
+                    <h3>Digital and IT Strategy</h3>
+                    <p>
+                      From digital transformation to IT strategy consultation,
+                      prepare your portfolio companies for the future.
+                    </p>
+                    <p>
+                      Leverage our expertise to enhance customer experiences and
+                      integrate scalable cloud platforms.
+                    </p>
+                  </div>
+                </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -258,14 +336,19 @@ const Index = () => {
       <div className="GCCJourney">
         <div className="container">
           <div className="row ptb-50 align-items-center">
-            <div className="col-lg-7 col-md-7">
-              <h2 className="align-items-center">
+            <div className="col-lg-8 col-md-8">
+              {/* <h2 className="align-items-center">
                 Connect with us for Your Outsourcing Needs
+              </h2> */}
+              <h2>
+                Empower your portfolio companies with SAT Technologies. Our
+                experts are ready to assist you in harnessing technology for
+                impactful business growth.
               </h2>
             </div>
-            <div className="col-lg-3 col-md-3" style={{ textAlign: "end" }}>
+            <div className="col-lg-4 col-md-4" style={{ textAlign: "end" }}>
               <Link href="/contact-us/" className="btn btn-primary">
-                Contact Us
+                Connect With Us
               </Link>
             </div>
           </div>
