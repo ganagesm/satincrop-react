@@ -52,7 +52,7 @@ const Services = () => {
             <div className="col-lg-4 col-sm-6 col-md-6">
               <div
                 className="single-main-services-box"
-                style={{ height: "220px" }}>
+                style={{ height: "250px" }}>
                 <img
                   src="/images/location.svg"
                   alt="image"
@@ -71,13 +71,15 @@ const Services = () => {
                   D-6030, Solitaire Business Hub, Viman Nagar, Pune, Maharashtra
                   411014
                 </p> */}
-                {/* <p>Phone: <a href="tel:+91 7823 02 5808">+91 7823 02 5808</a></p> */}
+                <p>
+                  Phone: <a href="tel:+91 7823 02 5808">+91 7823 02 5808</a>
+                </p>
               </div>
             </div>
             <div className="col-lg-4 col-sm-6 col-md-6">
               <div
                 className="single-main-services-box"
-                style={{ height: "220px" }}>
+                style={{ height: "250px" }}>
                 <img
                   src="/images/location.svg"
                   alt="image"
@@ -96,13 +98,15 @@ const Services = () => {
                   2nd floor, Tower A1, Golden Enclave HAL old Airport Road,
                   Bangalore -560008
                 </p>
-                {/* <p>Phone: <a href="tel:080 4375 1188">080 4375 1188</a></p> */}
+                <p>
+                  Phone: <a href="tel:080 4375 1188">080 4375 1188</a>
+                </p>
               </div>
             </div>
             {/* <div className="col-lg-3 col-sm-6 col-md-6">
               <div
                 className="single-main-services-box"
-                style={{ height: "220px" }}>
+                style={{ height: "250px" }}>
                 <img
                   src="/images/location.svg"
                   alt="image"
@@ -123,7 +127,7 @@ const Services = () => {
             <div className="col-lg-4 col-sm-6 col-md-6">
               <div
                 className="single-main-services-box"
-                style={{ height: "220px" }}>
+                style={{ height: "250px" }}>
                 <img
                   src="/images/location.svg"
                   alt="image"

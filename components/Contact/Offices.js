@@ -52,7 +52,7 @@ const Services = () => {
             <div className="col-lg-3 col-sm-6 col-md-6">
               <div
                 className="single-main-services-box"
-                style={{ height: "220px" }}>
+                style={{ height: "250px" }}>
                 <img
                   src="/images/location.svg"
                   alt="image"
@@ -79,7 +79,7 @@ const Services = () => {
             <div className="col-lg-4 col-sm-6 col-md-6">
               <div
                 className="single-main-services-box"
-                style={{ height: "220px" }}>
+                style={{ height: "250px" }}>
                 <img
                   src="/images/location.svg"
                   alt="image"
@@ -106,7 +106,7 @@ const Services = () => {
             {/* <div className="col-lg-3 col-sm-6 col-md-6">
               <div
                 className="single-main-services-box"
-                style={{ height: "220px" }}>
+                style={{ height: "250px" }}>
                 <img
                   src="/images/location.svg"
                   alt="image"
@@ -127,7 +127,7 @@ const Services = () => {
             <div className="col-lg-3 col-sm-6 col-md-6">
               <div
                 className="single-main-services-box"
-                style={{ height: "220px" }}>
+                style={{ height: "250px" }}>
                 <img
                   src="/images/location.svg"
                   alt="image"
