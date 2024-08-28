@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import CustomersAndPartnersContent from "../../components/PrivateEquity/CustomersAndPartnersContent";
+import BlogPostSlider from "../../components/GenerativeAi/BlogPostSlider";
 
 const Services = () => {
   return (
@@ -56,6 +57,8 @@ const Services = () => {
           </div>
         </div>
       </section> */}
+
+      <BlogPostSlider />
 
       <section className="services-area bg-f2f6f9 ptb-50 pt-50">
         <div className="container">

@@ -78,14 +78,14 @@ const Index = () => {
       <HeroBanner />
       <AboutContact />
       <AiApplication />
-      <Services />
+      {/* <Services /> */}
       <PartnerContent />
       <NewsPostSlider />
       {/* <MainServices /> */}
       <TechSlider />
       <CEOCorner />
       <Offices />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <CaseStudiesPost />
       <BlogPostSlider />
       <Footer />

@@ -4,18 +4,27 @@ import Link from "next/link";
 const AboutContact = () => {
   return (
     <>
-      <section className="about-area">
+      <section className="about-area ptb-50">
         <div className="container">
           <div className="row align-items-center">
-            <div className="col-lg-10 col-md-12">
+            <div className="col-lg-9 col-md-9">
               <div className="about-content">
                 {/* <h2>Boost Your Business with SAT: Dive into Digital and AI</h2> */}
                 <h4>
-                  As your AI application modernization partner, SAT leads the
-                  way in digital transformation. Our global team of experts
-                  specializes in tailoring digital solutions to meet your
-                  specific requirements, driving innovation and success.
+                  SA Tech's AI lab is here to help you drive revenue growth
+                  while lowering costs with AI across your business. Our AI lab
+                  works across all our clients to ship products in every
+                  business vertical driving automation, improved customer
+                  experiences, and increased revenue all while lowering human
+                  effort.
                 </h4>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-3">
+              <div className="btn-box">
+                <Link href="/recodexai" className="btn btn-primary ai_btn">
+                  Learn about our AI work
+                </Link>
               </div>
             </div>
             {/* <div className="col-lg-6 col-md-12">
@@ -26,7 +35,7 @@ const AboutContact = () => {
             </div> */}
           </div>
 
-          <div className="services-area pt-50">
+          {/* <div className="services-area pt-50">
             <div className="container">
               <div className="row justify-content-center">
                 <div className="col-lg-3 col-sm-6 col-md-6 d-flex">
@@ -62,7 +71,7 @@ const AboutContact = () => {
                 </Link>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
 
         {/* Shape Images */}

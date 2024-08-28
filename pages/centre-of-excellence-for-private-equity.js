@@ -8,6 +8,7 @@ import ContactFormContent from "../components/Common/ContactFormContent";
 import BlogPostSlider from "../components/PrivateEquity/BlogPostSlider";
 import Head from "next/head";
 import { Component, useState } from "react";
+
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper";
