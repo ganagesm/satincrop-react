@@ -274,6 +274,7 @@ const PartnerContent = () => {
             </div>
 
             <div
+              style={{ margin: "0" }}
               className="partner-item"
               data-aos="fade-in"
               data-aos-duration="1200"

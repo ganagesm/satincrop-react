@@ -26,7 +26,7 @@ const HeroBanner = () => {
               <div className="main-banner-content">
                 <h1 style={{ color: "#fff" }}>
                   {/* Empowering Innovation with AI-Driven Solutions */}
-                  Driving Innovation and Efficiency with Scalable IT Solutions
+                  We help companies save costs and scale engineering teams
                 </h1>
                 {/* <p style={{ color: "#fff" }}>
                   Accelerate your Cloud Transformation Journey with SAT
