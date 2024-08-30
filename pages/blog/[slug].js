@@ -1,9 +1,16 @@
-// pages/blog/[slug].js
 import React, { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import Link from "next/link";
 import Head from "next/head";
 import { ArticleJsonLd } from "next-seo";
+import {
+  Accordion,
+  AccordionItem,
+  AccordionItemHeading,
+  AccordionItemButton,
+  AccordionItemPanel,
+} from "react-accessible-accordion";
+import "react-accessible-accordion/dist/fancy-example.css";
 
 import Navbar from "../../components/Live/Navbar";
 import Footer from "../../components/Live/Footer";
@@ -13,6 +20,7 @@ export default function BlogPost() {
   const router = useRouter();
   const { slug } = router.query;
   const [post, setPost] = useState({});
+  const [accordionData, setAccordionData] = useState([]);
   const postApi = "https://dev1.satincorp.com/wp-json/wp/v2/";
 
   useEffect(() => {
@@ -22,11 +30,38 @@ export default function BlogPost() {
 
         if (!response.ok) {
           throw new Error("Network response was not ok");
-          console.log(post);
         }
 
         const postData = await response.json();
-        setPost(postData[0]); // Assuming slug is unique, so we take the first item from the array
+        setPost(postData[0]);
+
+        // Parse accordion HTML directly
+        const htmlContent = postData[0].content.rendered;
+        const parser = new DOMParser();
+        const doc = parser.parseFromString(htmlContent, "text/html");
+
+        // Remove <strong> tags
+        const strongTags = doc.querySelectorAll("strong");
+        strongTags.forEach((tag) => {
+          tag.outerHTML = tag.innerHTML; // Replace <strong> with its inner HTML
+        });
+
+        const detailsElements = doc.querySelectorAll("details");
+
+        const parsedAccordionData = Array.from(detailsElements).map(
+          (details, index) => {
+            const summary = details.querySelector("summary");
+            const content = details.querySelector("p")?.innerHTML || "";
+
+            return {
+              id: index.toString(),
+              question: summary ? summary.innerHTML : "",
+              answer: content,
+            };
+          }
+        );
+
+        setAccordionData(parsedAccordionData);
       } catch (error) {
         console.error("Error fetching post:", error);
       }
@@ -34,12 +69,10 @@ export default function BlogPost() {
 
     if (slug) {
       fetchPost();
-      console.log(post);
     }
   }, [slug]);
 
   if (!post.id) {
-    // Handle loading state or error
     return null;
   }
 
@@ -48,8 +81,8 @@ export default function BlogPost() {
       <ArticleJsonLd
         type="BlogPosting"
         url={`https://www.satincorp.com/blog/${post.slug}`}
-        title={post.title}
-        headline={post.title}
+        title={post.title.rendered}
+        headline={post.title.rendered}
         description={post.description}
         datePublished={post.date_gmt}
         dateModified={post.modified_gmt}
@@ -84,16 +117,12 @@ export default function BlogPost() {
           property="og:image"
           content={post.yoast_head_json.og_image[0].url}
         />
-        {/* <link
-          rel="stylesheet"
-          href="https://dev1.satincorp.com/wp-content/themes/front/style.css?ver=1.1.9"
-        />
-        <script
-          type="text/javascript"
-          src="https://dev1.satincorp.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
-          id="jquery-core-js"></script>
-        <script href="https://dev1.satincorp.com/wp-content/themes/front/assets/js/front.js?ver=1.1.9"></script> */}
         <link rel="canonical" href={`https://www.satincorp.com/blog/${slug}`} />
+        <style>
+          {`.wp-block-details {
+    display: none;
+  }`}
+        </style>
       </Head>
       <Navbar />
       <PageBanner
@@ -112,18 +141,36 @@ export default function BlogPost() {
                   <img src={post.featured_image_url[0]} alt="image" />
                 </div>
                 <div className="article-content">
-                  {/* Render individual blog post content here */}
                   <h1>{post.title.rendered}</h1>
                   <div
-                    dangerouslySetInnerHTML={{ __html: post.content.rendered }}
+                    dangerouslySetInnerHTML={{
+                      __html: post.content.rendered,
+                    }}
                   />
+                </div>
+                <div className="faq-accordion">
+                  <Accordion>
+                    {accordionData.map((item) => (
+                      <AccordionItem key={item.id} uuid={item.id}>
+                        <AccordionItemHeading>
+                          <AccordionItemButton>
+                            <span>{item.question}</span>
+                          </AccordionItemButton>
+                        </AccordionItemHeading>
+                        <AccordionItemPanel>
+                          <div
+                            dangerouslySetInnerHTML={{ __html: item.answer }}
+                          />
+                        </AccordionItemPanel>
+                      </AccordionItem>
+                    ))}
+                  </Accordion>
                 </div>
                 <div className="article-footer">
                   <div className="article-tags">
                     <span>
                       <i className="fas fa-bookmark"></i>
                     </span>
-
                     <Link href="#">{post.category}</Link>
                   </div>
 
