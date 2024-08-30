@@ -24,9 +24,10 @@ const HeroBanner = () => {
             }}>
             <div className="container">
               <div className="main-banner-content">
-                <h1 style={{ color: "#fff" }}>
+                <h1 style={{ color: "#fff", fontSize: "3rem" }}>
                   {/* Empowering Innovation with AI-Driven Solutions */}
-                  We help companies save costs and scale engineering teams
+                  We help companies save costs and scale engineering by
+                  offshoring to India and using AI
                 </h1>
                 {/* <p style={{ color: "#fff" }}>
                   Accelerate your Cloud Transformation Journey with SAT

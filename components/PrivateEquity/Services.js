@@ -59,14 +59,14 @@ const Services = () => {
       </section> */}
 
       <BlogPostSlider />
-
+      {/* 
       <section className="services-area bg-f2f6f9 ptb-50 pt-50">
         <div className="container">
           <div className="section-title">
             <h2>Technology Outsourcing For Your Portfolio Companies</h2>
-            {/* <h2>
+            <h2>
               Technology Outsourcing for Private Equity Portfolio Companies
-            </h2> */}
+            </h2>
             <p style={{ maxWidth: "546px !important" }}>
               By outsourcing your technology needs to SA Technologies, you gain
               an essential partner in achieving technological resilience and
@@ -124,7 +124,7 @@ const Services = () => {
             </div>
           </div>
 
-          {/* <div className="row">
+          <div className="row">
             <div className="col-lg-4 col-sm-6">
               <div className="single-services-box">
                 <h2>COE for PE Portfolio Companies</h2>
@@ -173,36 +173,39 @@ const Services = () => {
                 </p>
               </div>
             </div>
-          </div> */}
+          </div>
           <div className="row justify-content-center">
             <div className="col-lg-4 col-sm-3 col-md-3 d-flex">
               <div className="single-main-services-box flex-fill">
-                <h3>Technology Transformation</h3>
+                <h3>India is the perfect offshore partner</h3>
                 <p>
-                  Streamline operations and technology infrastructure to enhance
-                  performance and reduce costs. Custom software and application
-                  development tailored to your specific business needs.
+                  India offers great talent at scale and at lower costs. We help
+                  companies hire 10's to 100's of engineers quickly in the top
+                  tech cities in India.
                 </p>
               </div>
             </div>
             <div className="col-lg-4 col-sm-3 col-md-3 d-flex">
               <div className="single-main-services-box flex-fill">
-                <h3>Operational Excellence </h3>
+                <h3>Bring your brand and teams to India directly </h3>
                 <p>
-                  Implement cutting-edge solutions like AI, machine learning,
-                  and IoT to optimize workflows and increase efficiency.
-                  Full-spectrum IT management, ensuring your technology aligns
-                  with business objectives.
+                  Our AI lab works across clients to build production AI systems
+                  that help your companies automate across products & business
+                  units. Coupled with lower cost talent in India we drive
+                  immense cost savings and improved scale and efficiency for all
+                  of our customers.
                 </p>
               </div>
             </div>
             <div className="col-lg-4 col-sm-3 col-md-3 d-flex">
               <div className="single-main-services-box flex-fill">
-                <h3>Cost Optimization</h3>
+                <h3>Optimize costs with cheaper talent and AI automation</h3>
                 <p>
-                  Reduce technology spend with our strategic outsourcing
-                  solutions. Gain operational efficiency without compromising on
-                  service quality.
+                  Our AI lab works across clients to build production AI systems
+                  that help your companies automate across products & business
+                  units. Coupled with lower cost talent in India we drive
+                  immense cost savings and improved scale and efficiency for all
+                  of our customers.
                 </p>
               </div>
             </div>
@@ -239,8 +242,6 @@ const Services = () => {
             </div>
           </div>
         </div>
-
-        {/* Shape Images */}
         <div className="shape-img2">
           <img src="/images/shape/shape2.svg" alt="image" />
         </div>
@@ -271,7 +272,7 @@ const Services = () => {
         <div className="dot-shape2">
           <img src="/images/shape/dot6.png" alt="image" />
         </div>
-      </section>
+      </section> */}
     </>
   );
 };

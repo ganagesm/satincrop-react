@@ -215,6 +215,125 @@ const Index = () => {
           </div>
         </div>
       </section>
+
+      {/* <WhyChooseSAT /> */}
+
+      {/* <section className="services-area pb-0">
+        <div className="container">
+          <div className="section-title">
+            <h2>TECHNOLOGY OUTSOURCING FOR PE & THEIR PORTFOLIO COMPANIES </h2>
+            <p>
+              Through technology outsourcing, SA Technologies will become an
+              indispensable ally in your pursuit of technological resilience and
+              customer satisfaction.{" "}
+            </p>
+          </div>
+
+          <div className="row">
+            <div className="computer-vision-ai-content">
+              <p>
+                <b>
+                  We deliver the Right Services at the Right Time for the Right
+                  Price.
+                </b>{" "}
+                Client experience is our paramount focus, ensuring unwavering
+                dedication to delivering unparalleled service and support.{" "}
+              </p>
+              <p>
+                Protect and scale your current and potential investments. SA
+                Technologies provides Private Equity Groups with a robust model
+                to manage IT services—whether for a few organizations or an
+                entire portfolio.{" "}
+              </p>
+              <p>
+                Private Equity firms are increasingly emphasizing strong IT
+                practices, with many conducting assessments prior to finalizing
+                a deal—all aimed at managing risk and enhancing operational
+                efficiencies.{" "}
+              </p>
+              <p>
+                Across the diverse industries that PEs invest in, the rapidly
+                evolving IT landscape poses significant challenges for smaller
+                or newer companies. Given the high stakes, it's crucial for
+                Private Equity Groups to have a comprehensive IT strategy in
+                place.{" "}
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="container">
+          <div className="section-title pt-100">
+            <h2>
+              Helping Our Clients Transform Vision into Reality Through Advanced
+              Technology Solutions.{" "}
+            </h2>
+          </div>
+
+          <div className="row">
+            <img src="/images/client.png" alt="image" />
+          </div>
+        </div>
+
+        <div className="GCCJourney">
+          <div className="container">
+            <div className="row ptb-100 align-items-center">
+              <div className="col-lg-6 col-md-6">
+                <h2
+                  className="align-items-center"
+                  style={{
+                    textAlign: "right",
+                  }}>
+                  Connect with us for Your Outsourcing Needs?
+                </h2>
+              </div>
+              <div
+                className="col-lg-5 col-md-5"
+                style={{
+                  textAlign: "left",
+                }}>
+                <Link href="/contact-us/" className="btn btn-primary">
+                  Contact Us
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+        <div className="shape-img2">
+          <img src="/images/shape/shape2.svg" alt="image" />
+        </div>
+        <div className="shape-img3">
+          <img src="/images/shape/shape3.png" alt="image" />
+        </div>
+        <div className="shape-img4">
+          <img src="/images/shape/shape4.svg" alt="image" />
+        </div>
+        <div className="shape-img5">
+          <img src="/images/shape/shape5.svg" alt="image" />
+        </div>
+        <div className="shape-img3">
+          <img src="/images/shape/shape3.png" alt="image" />
+        </div>
+        <div className="dot-shape1">
+          <img src="/images/shape/dot1.png" alt="image" />
+        </div>
+        <div className="dot-shape2">
+          <img src="/images/shape/dot3.png" alt="image" />
+        </div>
+        <div className="dot-shape2">
+          <img src="/images/shape/dot4.png" alt="image" />
+        </div>
+        <div className="dot-shape2">
+          <img src="/images/shape/dot5.png" alt="image" />
+        </div>
+        <div className="dot-shape2">
+          <img src="/images/shape/dot6.png" alt="image" />
+        </div>
+      </section> */}
+      {/* <Testimonials /> */}
+
       <div className="GCCJourney">
         <div className="container">
           <div className="row ptb-50 align-items-center">
@@ -238,6 +357,62 @@ const Index = () => {
       </div>
 
       <ContactFormContent />
+
+      {/* <section className="contactPageSupport bg-f2f6f9 pt-100">
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-sm-4">
+              <div className="services-area">
+                <div className="single-services-box">
+                  <div className="icon">
+                    <img
+                      src="/images/icons/indusrty-icon/email-id.png"
+                      alt="image"
+                      style={{
+                        width: "50%",
+                        textAlign: "center",
+                        marginTop: "10px",
+                      }}
+                    />
+                  </div>
+                  <h2 style={{ margin: "20px 0" }}>Email-ID</h2>
+                  <a
+                    href="mailto:offshore@satincorp.com"
+                    style={{ fontSize: "19px" }}>
+                    offshore@satincorp.com
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-sm-4">
+              <div className="services-area">
+                <div className="single-services-box">
+                  <div className="icon">
+                    <img
+                      src="/images/icons/indusrty-icon/call.png"
+                      alt="image"
+                      style={{
+                        width: "50%",
+                        textAlign: "center",
+                        marginTop: "10px",
+                      }}
+                    />
+                  </div>
+                  <h2 style={{ margin: "20px 0" }}>Call us now</h2>
+                  <h3>
+                    <a
+                      href="https://api.whatsapp.com/send/?phone=%2B9107875787550&text=Hello!%20I%27m%20interested%20in%20exploring%20your%20SAT%20Services.%20Can%20you%20share%20more%20details?"
+                      style={{ textDecoration: "2px dashed underline" }}>
+                      +1 (408)-495-5822
+                    </a>
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> */}
       <Footer />
     </>
   );

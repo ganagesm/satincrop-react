@@ -3,13 +3,13 @@ import React from "react";
 const PartnerContent = () => {
   return (
     <>
-      <div className="partner-area ptb-110 bg-f2f6f9">
+      <div className="partner-area  ptb-50 pt-50 bg-f2f6f9">
         <div className="container">
           <div className="section-title">
             <h2>Optimizing Costs & Performance for your portfolio companies</h2>
             <p>
-              by cutting costs and equipping our engineers with the cutting edge
-              GenAI technology
+              We help companies cut costs by offshoring engineering to India and
+              implementing AI across business units.
             </p>
           </div>
 
