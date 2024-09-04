@@ -3,15 +3,13 @@ import React from "react";
 const PartnerContent = () => {
   return (
     <>
-      <div className="partner-area ptb-110 bg-f2f6f9">
+      <div className="partner-area  ptb-50 pt-50 bg-f2f6f9">
         <div className="container">
           <div className="section-title">
-            <h2>Optimizing Performance for Private Equity Portfolios</h2>
+            <h2>Optimizing Costs & Performance for your portfolio companies</h2>
             <p>
-              At SAT Technologies, we drive innovation and operational
-              excellence for private equity portfolio companies. Our Center of
-              Excellence (COE) specializes in enhancing your investment's value
-              through strategic IT management and digital transformation.
+              We help companies cut costs by offshoring engineering to India and
+              implementing AI across business units.
             </p>
           </div>
 
@@ -67,6 +65,7 @@ const PartnerContent = () => {
             </div>
 
             <div
+              style={{ margin: "0" }}
               className="partner-item"
               data-aos="fade-in"
               data-aos-duration="1200"
@@ -150,8 +149,6 @@ const PartnerContent = () => {
                 <img src="/images/partner/114.png" alt="image" />
               </a>
             </div>
-          </div>
-          <div className="customers-partner-list">
             <div
               className="partner-item"
               data-aos="fade-in"
@@ -242,7 +239,7 @@ const PartnerContent = () => {
                 <img src="/images/partner/10.png" alt="image" />
               </a>
             </div>
-            <div
+            {/* <div
               className="partner-item"
               data-aos="fade-in"
               data-aos-duration="1200"
@@ -250,7 +247,7 @@ const PartnerContent = () => {
               <a href="javascript:void(0)" rel="noreferrer">
                 <img src="/images/partner/11.png" alt="image" />
               </a>
-            </div>
+            </div> */}
             <div
               className="partner-item"
               data-aos="fade-in"
@@ -296,7 +293,26 @@ const PartnerContent = () => {
                 <img src="/images/partner/131.png" alt="image" />
               </a>
             </div>
+            <div
+              className="partner-item"
+              data-aos="fade-in"
+              data-aos-duration="1200"
+              data-aos-delay="900">
+              <a href="javascript:void(0)" rel="noreferrer">
+                <img src="/images/clients/tendable.png" alt="image" />
+              </a>
+            </div>
+            <div
+              className="partner-item"
+              data-aos="fade-in"
+              data-aos-duration="1200"
+              data-aos-delay="900">
+              <a href="javascript:void(0)" rel="noreferrer">
+                <img src="/images/clients/inspera.png" alt="image" />
+              </a>
+            </div>
           </div>
+          <div className="customers-partner-list"></div>
         </div>
       </div>
     </>

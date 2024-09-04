@@ -71,7 +71,7 @@ const BlogPostsSection = () => {
           <Swiper
             spaceBetween={20}
             autoplay={{
-              delay: 900,
+              delay: 1500,
               disableOnInteraction: true,
               pauseOnMouseEnter: true,
             }}

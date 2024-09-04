@@ -22,7 +22,7 @@ const HeroBanner = () => {
             <div className="container">
               <div className="main-banner-content">
                 <h1>
-                  Centre Of Excellence (COE) For Private Equity Portfolio
+                  Center Of Excellence (COE) For Private Equity Portfolio
                   Companies
                 </h1>
                 {/* <p>

@@ -36,12 +36,14 @@ const AboutContact = () => {
 
             <div className="col-lg-6 col-md-12">
               <div className="about-content">
-                <h2>Boost Your Business with SAT: Dive into Digital and AI</h2>
+                <h2>
+                  As an AI first company our engineers work more efficiently and
+                  effectively
+                </h2>
                 <p>
-                  {" "}
-                  Choose SAT to guide you through the world of digital and AI.
-                  Our team, from all around the world, is skilled in AI and
-                  offers custom digital solutions to keep your business ahead.{" "}
+                  AI is our bread & butter. Our internal AI labs is here to make
+                  engineering more productive and to automate processes. We aim
+                  to deliver cost saving and efficiency in conjunction at scale.
                 </p>
               </div>
             </div>

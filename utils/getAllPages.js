@@ -78,6 +78,7 @@ function getRoutes() {
   return [
     "/",
     "/about/",
+    "/startups/",
     "/gcc/",
     "/gcc-strategy-development/",
     "/gcc-location-selection",
