@@ -50,6 +50,11 @@ module.exports = {
         permanent: true,
       },
       {
+        source: "/centre-of-excellence-for-private-equity",
+        destination: "/center-of-excellence-for-private-equity",
+        permanent: true,
+      },
+      {
         source: "/technology-impact-sox-auditing",
         destination: "/malay",
         permanent: true,
