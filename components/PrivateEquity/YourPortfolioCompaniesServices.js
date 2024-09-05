@@ -27,9 +27,11 @@ const Services = () => {
               <div className="single-main-services-box flex-fill">
                 <h3>India is the perfect offshore partner</h3>
                 <p>
-                  India offers great talent at scale and at lower costs. We help
-                  companies hire 10's to 100's of engineers quickly in the top
-                  tech cities in India.
+                  India offers exceptional talent at scale and significantly
+                  lower costs. We specialize in helping companies hire dozens to
+                  hundreds of engineers quickly across the top tech cities in
+                  India, ensuring rapid scalability and access to a highly
+                  skilled workforce.
                 </p>
               </div>
             </div>
@@ -37,11 +39,11 @@ const Services = () => {
               <div className="single-main-services-box flex-fill">
                 <h3>Bring your brand and teams to India directly </h3>
                 <p>
-                  Our AI lab works across clients to build production AI systems
-                  that help your companies automate across products & business
-                  units. Coupled with lower cost talent in India we drive
-                  immense cost savings and improved scale and efficiency for all
-                  of our customers.
+                  Set up your teams in India's thriving tech ecosystem and build
+                  a direct connection with top-tier engineering talent. With our
+                  support, you can scale your operations quickly and efficiently
+                  while enhancing your brand presence in one of the world's
+                  fastest-growing technology markets.
                 </p>
               </div>
             </div>
