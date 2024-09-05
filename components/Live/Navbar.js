@@ -559,10 +559,10 @@ const Navbar = () => {
 
                   <li className="nav-item">
                     <Link
-                      href="/centre-of-excellence-for-private-equity"
+                      href="/center-of-excellence-for-private-equity"
                       className={`nav-link ${
                         currentPath ==
-                          "/centre-of-excellence-for-private-equity" && "active"
+                          "/center-of-excellence-for-private-equity" && "active"
                       }`}>
                       Private Equity COE
                     </Link>
