@@ -46,43 +46,43 @@ const HeroBanner = () => {
             </div>
           </div>
         </SwiperSlide>
-        {/* <SwiperSlide>
+        <SwiperSlide>
           <div
             className="main-banner"
             style={{
-              backgroundImage: `url(/images/icons/home-banner-3.png)`,
+              backgroundImage: `url(/images/icons/bannerGitex.png)`,
               backgroundSize: "100% 100%",
             }}>
             <div className="container">
-              <div className="main-banner-content" style={{ float: "right" }}>
+              <div className="main-banner-content">
                 <h1
                   style={{
                     color: "#000",
                     marginBottom: "20px",
                     fontSize: "50px",
                   }}>
-                  {" "}
+                  {/* {" "}
                   Leading the Future of AI with Vertex AI Expertise <br /> Where
-                  Data Meets Transformation{" "}
+                  Data Meets Transformation{" "} */}
                 </h1>
 
                 <div className="btn-box">
-                  <Link
+                  {/* <Link
                     href="/google-cloud-generative-ai-vertex/"
                     className="btn btn-primary"
                     style={{ marginRight: "20px" }}>
                     Explore More
-                  </Link>
+                  </Link> */}
 
-                  <Link href="/contact-us/" className="btn btn-primary">
-                    Quick call back now
+                  <Link href="/contact-us/" className="btn btn-primary" style={{ position: 'absolute', bottom: '90px' }}>
+                    Schedule a Meeting
                   </Link>
                 </div>
               </div>
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
+        {/*<SwiperSlide>
           <div
             className="main-banner"
             style={{ backgroundImage: `url(/images/icons/home-banner2.png)` }}>
