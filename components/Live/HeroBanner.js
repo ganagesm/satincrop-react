@@ -19,6 +19,52 @@ const HeroBanner = () => {
           <div
             className="main-banner"
             style={{
+              backgroundImage: `url(/images/icons/bannerGitex-plan.png)`,
+              backgroundSize: "100% 100%",
+            }}>
+            <div className="container">
+              <div className="main-banner-content" style={{ maxWidth: '1050px', }}>
+                <h4>Powering Innovation at GITEX Dubai 2024 with SA Technologies</h4>
+                <h1
+                  style={{
+                    color: "#000",
+                    marginBottom: "20px",
+                    fontSize: "50px",
+                  }}>
+                  {" "}
+                  Your Trusted Partner for <br />
+                  Global Capability Center (GCC) & Offshore Solutions{" "}
+                </h1>
+                <h4 style={{ marginTop: '30px' }}>Meet us at  <span style={{ color: '#f95a1b' }}><b>GITEX Global</b> - Hall 26 - A40</span></h4>
+                <h6> - 14 to 18 Oct 2024 <span style={{ marginLeft: '10px' }}> <img
+                  src="/images/location.svg"
+                  alt="image"
+                  style={{
+                    width: "2%",
+                    textAlign: "center",
+                  }}
+                />  World Trade Centre Dubai, UAE</span> </h6>
+
+                <div className="btn-box">
+                  {/* <Link
+                    href="/google-cloud-generative-ai-vertex/"
+                    className="btn btn-primary"
+                    style={{ marginRight: "20px" }}>
+                    Explore More
+                  </Link> */}
+
+                  <Link href="/contact-us/" className="btn btn-primary sch_btn" style={{ position: 'absolute', bottom: '90px' }}>
+                    Schedule a Meeting
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div
+            className="main-banner"
+            style={{
               backgroundImage: `url('https://res.cloudinary.com/dpoxq3jcb/image/upload/f_auto,q_auto/v1/next/qtkrwbzkrdfw3x4kn97i')`,
               // backgroundImage: `url(/images/icons/home-banner-8.jpeg)`,
             }}>
@@ -46,42 +92,7 @@ const HeroBanner = () => {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
-          <div
-            className="main-banner"
-            style={{
-              backgroundImage: `url(/images/icons/bannerGitex.png)`,
-              backgroundSize: "100% 100%",
-            }}>
-            <div className="container">
-              <div className="main-banner-content">
-                <h1
-                  style={{
-                    color: "#000",
-                    marginBottom: "20px",
-                    fontSize: "50px",
-                  }}>
-                  {/* {" "}
-                  Leading the Future of AI with Vertex AI Expertise <br /> Where
-                  Data Meets Transformation{" "} */}
-                </h1>
 
-                <div className="btn-box">
-                  {/* <Link
-                    href="/google-cloud-generative-ai-vertex/"
-                    className="btn btn-primary"
-                    style={{ marginRight: "20px" }}>
-                    Explore More
-                  </Link> */}
-
-                  <Link href="/contact-us/" className="btn btn-primary" style={{ position: 'absolute', bottom: '90px' }}>
-                    Schedule a Meeting
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-        </SwiperSlide>
         {/*<SwiperSlide>
           <div
             className="main-banner"
