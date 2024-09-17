@@ -12,8 +12,8 @@ const Services = () => {
               size.
             </h2>
             <p style={{ maxWidth: "max-content" }}>
-              From a few key players to over 500+ professionals, tailored to
-              your growth needs.
+              From a few key players to over 500+ professionals, our unique
+              approach tailor to your growth needs
             </p>
           </div>
 
