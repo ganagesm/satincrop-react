@@ -15,6 +15,7 @@ import ExpertiseContent from "../components/StartUp/ExpertiseContent";
 import ServicesCompanies from "../components/StartUp/ServicesCompanies";
 import CaseStudiesGrid from "../components/StartUp/CaseStudiesGrid";
 import DaystoSuccess from "../components/StartUp/DaystoSuccess";
+import YourPortfolioCompaniesServices from "../components/PrivateEquity/YourPortfolioCompaniesServices";
 import Head from "next/head";
 import { Component, useState } from "react";
 import Link from "next/link";
@@ -93,7 +94,7 @@ const Index = () => {
         </div>
       </div> */}
       {/* <Testimonials /> */}
-      <div className="checkout-area pt-50 pb-70  bg-f2f6f9">
+      {/* <div className="checkout-area pt-50 pb-70  bg-f2f6f9">
         <div className="container">
           <div className="section-title">
             <h2>Startups Reimagined: Our Offshore Hiring Models</h2>
@@ -207,8 +208,7 @@ const Index = () => {
             </div>
           </div>
         </div>
-      </div>
-      <CaseStudiesGrid />
+      </div> */}
 
       {/* <AboutContent /> */}
       {/* <AboutAI /> */}
@@ -244,11 +244,13 @@ const Index = () => {
         </div>
       </div>
       {/* <ComputerVisionAI /> */}
-      <ServicesCompanies />
+      {/* <ServicesCompanies /> */}
+      <YourPortfolioCompaniesServices />
 
-      <ExpertiseContent />
-      <TechDetailsContent />
-      <div className="GCCJourney">
+      {/* <ExpertiseContent /> */}
+
+      {/* <TechDetailsContent /> */}
+      <div className="GCCJourney" style={{ marginTop: "0" }}>
         <div className="container">
           <div className="row ptb-50 align-items-center">
             <div className="col-lg-10 col-md-10">
@@ -268,6 +270,7 @@ const Index = () => {
           </div>
         </div>
       </div>
+      <CaseStudiesGrid />
 
       <ContactFormContent />
       <Footer />
