@@ -53,7 +53,7 @@ const HeroBanner = () => {
                     Explore More
                   </Link> */}
 
-                  <Link href="/contact-us/" className="btn btn-primary sch_btn" style={{ position: 'absolute', bottom: '90px' }}>
+                  <Link href="https://outlook.office365.com/owa/calendar/GITEXDubai2024@satincorp.com/bookings/" className="btn btn-primary sch_btn" target="_blank" style={{ position: 'absolute', bottom: '90px' }}>
                     Schedule a Meeting
                   </Link>
                 </div>
