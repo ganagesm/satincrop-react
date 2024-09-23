@@ -9,7 +9,7 @@ const HeroBanner = () => {
       <Swiper
         navigation={true}
         autoplay={{
-          delay: 3000,
+          delay: 5000,
           disableOnInteraction: true,
           pauseOnMouseEnter: true,
         }}

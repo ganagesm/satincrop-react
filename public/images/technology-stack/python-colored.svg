@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="52" height="52" viewBox="0 0 52 52">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1927" data-name="Rectangle 1927" width="52" height="52" transform="translate(221 763)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.324" y1="0.248" x2="1.649" y2="1.377" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#5a9fd4"/>
+      <stop offset="1" stop-color="#306998"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="1.483" y1="1.955" x2="1.011" y2="1.297" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffd43b"/>
+      <stop offset="1" stop-color="#ffe873"/>
+    </linearGradient>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b8b8b8" stop-opacity="0.498"/>
+      <stop offset="1" stop-color="#7f7f7f" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g id="Mask_Group_41" data-name="Mask Group 41" transform="translate(-221 -763)" clip-path="url(#clip-path)">
+    <g id="Python-logo-notext" transform="translate(221.941 763)">
+      <path id="path1948" d="M24.76,0a34.517,34.517,0,0,0-5.777.493c-5.115.9-6.044,2.8-6.044,6.284v4.607H25.028V12.92H8.4A7.548,7.548,0,0,0,.851,19.049a22.6,22.6,0,0,0,0,12.286c.859,3.579,2.911,6.129,6.425,6.129h4.156V31.941a7.682,7.682,0,0,1,7.552-7.51H31.058A6.09,6.09,0,0,0,37.1,18.288V6.777C37.1,3.5,34.339,1.04,31.058.494A37.7,37.7,0,0,0,24.76,0ZM18.223,3.706a2.3,2.3,0,1,1-2.268,2.311A2.294,2.294,0,0,1,18.223,3.706Z" transform="translate(0 0)" fill="url(#linear-gradient)"/>
+      <path id="path1950" d="M36.753,11.066v5.368A7.753,7.753,0,0,1,29.2,24.1H17.126a6.167,6.167,0,0,0-6.044,6.143V41.752c0,3.276,2.849,5.2,6.044,6.143a20.225,20.225,0,0,0,12.074,0c3.043-.881,6.044-2.654,6.044-6.143V37.145H23.171V35.609H41.289c3.513,0,4.822-2.451,6.044-6.129,1.262-3.787,1.208-7.428,0-12.286-.868-3.5-2.527-6.129-6.044-6.129Zm-6.791,29.15a2.3,2.3,0,1,1-2.268,2.3A2.281,2.281,0,0,1,29.962,40.216Z" transform="translate(1.857 1.855)" fill="url(#linear-gradient-2)"/>
+      <ellipse id="path1894" cx="16.2" cy="3.141" rx="16.2" ry="3.141" transform="translate(8.966 54.433)" opacity="0.444" fill="url(#radial-gradient)"/>
+    </g>
+  </g>
+</svg>
