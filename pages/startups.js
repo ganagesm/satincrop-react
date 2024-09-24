@@ -244,7 +244,7 @@ const Index = () => {
       <section className="services-area pt-50">
         <div className="container">
           <div className="section-title">
-            <h2>Engagement Models that Fit Any Company in Your Portfolio</h2>
+            <h2>Engagement Models that Fit Any Company</h2>
           </div>
           <div className="services-area" style={{ paddingBottom: "0" }}>
             <div className="container">
