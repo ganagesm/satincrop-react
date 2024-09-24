@@ -1,4 +1,5 @@
-import React from "react";
+// import React from "react";
+import { useEffect } from "react";
 import AOS from "aos";
 import "../node_modules/aos/dist/aos.css";
 import "../styles/bootstrap.min.css";
@@ -23,13 +24,45 @@ import GoTop from "../components/Shared/GoTop";
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
+
+  // Check if the current route is a blog, news, or event page
+  const isExcludedPage =
+    router.pathname.includes("/blog") ||
+    router.pathname.includes("/news") ||
+    router.pathname.includes("/event");
+
   // Check if the current route is the microsoft-office-365-licenses page
   const isMicrosoftO365Licenses =
     router.pathname === "/microsoft-office-365-licenses";
 
-  React.useEffect(() => {
+  useEffect(() => {
+    // Initialize AOS animations
     AOS.init();
-  }, []);
+
+    const canonicalUrl = `https://satincorp.com${router.asPath.split("?")[0]}`;
+
+    // Check if the canonical tag exists
+    const canonicalTagExists = () => {
+      if (typeof window !== "undefined" && typeof document !== "undefined") {
+        return document.querySelector("link[rel='canonical']") !== null;
+      }
+      return false;
+    };
+
+    // Only add a canonical tag if not on excluded pages and if it doesn't already exist
+    if (
+      typeof window !== "undefined" &&
+      !isExcludedPage &&
+      !canonicalTagExists()
+    ) {
+      const link = document.createElement("link");
+      link.rel = "canonical";
+      link.href = canonicalUrl;
+      document.head.appendChild(link);
+    }
+    console.log("canonical", canonicalUrl);
+  }, [router.asPath, isExcludedPage]); // Add isExcludedPage as a dependency
+
   return (
     <>
       {isMicrosoftO365Licenses ? (
@@ -69,7 +102,14 @@ function MyApp({ Component, pageProps }) {
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
         <meta name="robots" content="index,follow" />
-        {/* <meta name="google-site-verification" content="1k17_ncXg0fFoTw6047xFIUVipBebzMVIu-LcCvVBY0" /> */}
+
+        {/* Fallback if no canonical exists and not an excluded page */}
+        {typeof window === "undefined" && !isExcludedPage ? (
+          <link
+            rel="canonical"
+            href={`https://satincorp.com${router.asPath.split("?")[0]}`}
+          />
+        ) : null}
         <meta
           name="google-site-verification"
           content="0QxII35pwwkB8U9eMWfYKXQ2WOg1tVNPkBzHqpDP1Bo"
