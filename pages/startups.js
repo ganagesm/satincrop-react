@@ -15,6 +15,7 @@ import ExpertiseContent from "../components/StartUp/ExpertiseContent";
 import ServicesCompanies from "../components/StartUp/ServicesCompanies";
 import CaseStudiesGrid from "../components/StartUp/CaseStudiesGrid";
 import DaystoSuccess from "../components/StartUp/DaystoSuccess";
+import YourPortfolioCompaniesServices from "../components/PrivateEquity/YourPortfolioCompaniesServices";
 import Head from "next/head";
 import { Component, useState } from "react";
 import Link from "next/link";
@@ -73,7 +74,7 @@ const Index = () => {
 
       <Navbar />
       <HeroBanner />
-      <DaystoSuccess />
+      {/* <DaystoSuccess /> */}
       <Services />
       {/* <div className="">
         <div className="container">
@@ -93,7 +94,7 @@ const Index = () => {
         </div>
       </div> */}
       {/* <Testimonials /> */}
-      <div className="checkout-area pt-50 pb-70  bg-f2f6f9">
+      {/* <div className="checkout-area pt-50 pb-70  bg-f2f6f9">
         <div className="container">
           <div className="section-title">
             <h2>Startups Reimagined: Our Offshore Hiring Models</h2>
@@ -207,15 +208,14 @@ const Index = () => {
             </div>
           </div>
         </div>
-      </div>
-      <CaseStudiesGrid />
+      </div> */}
 
       {/* <AboutContent /> */}
       {/* <AboutAI /> */}
 
-      <div className="" style={{ backgroundColor: "#e4e8f5" }}>
+      <div className="ptb-50" style={{ backgroundColor: "#e4e8f5" }}>
         <div className="container">
-          <div className="row ptb-100 align-items-center">
+          <div className="row align-items-center">
             <div className="col-lg-12 col-md-6 text-center">
               <h2
                 className="align-items-center"
@@ -224,12 +224,7 @@ const Index = () => {
                 }}>
                 One-Stop Solutions for All Your Hiring Needs, across the globe !
               </h2>
-              <p
-                style={{
-                  fontSize: "17px",
-                  fontWeight: "600",
-                  color: "#57647c",
-                }}>
+              <p>
                 SAT offers unparalleled simplicity in onboarding talent across
                 various regions. Whether you aim to onboard contractors and
                 employees worldwide without establishing legal entities, SAT
@@ -244,11 +239,71 @@ const Index = () => {
         </div>
       </div>
       {/* <ComputerVisionAI /> */}
-      <ServicesCompanies />
+      {/* <ServicesCompanies /> */}
+      {/* <YourPortfolioCompaniesServices /> */}
+      <section className="services-area pt-50">
+        <div className="container">
+          <div className="section-title">
+            <h2>Engagement Models that Fit Any Company</h2>
+          </div>
+          <div className="services-area" style={{ paddingBottom: "0" }}>
+            <div className="container">
+              <div className="row justify-content-center">
+                <div className="col-lg-4 col-sm-6 col-md-6 d-flex">
+                  <div className="single-main-services-box flex-fill">
+                    <h3>Offshore-Nearshore-Onsite</h3>
+                    <p>
+                      We have flexible engagement models, where we provide
+                      highly skilled and experienced technology talent from our
+                      offshore location in India, nearshore Location in Latin
+                      America and on site across the US. Vetted, trained and
+                      managed for you. No recruitment challenges. We'll help you
+                      build, operate, and then seamlessly transfer control of
+                      your remote team, empowering you to focus on your core
+                      business growth.
+                    </p>
+                  </div>
+                </div>
+                <div className="col-lg-4 col-sm-6 col-md-6 d-flex">
+                  <div className="single-main-services-box flex-fill">
+                    <h3>GCC </h3>
+                    <p>
+                      As your dedicated talent hub for innovation, we simplify
+                      setting up and managing your Global Capability Center
+                      (GCC). Our "GCC-as-a-Service" model offers a flexible
+                      subscription with everything you need: Hire, Source, and
+                      engage the top talent. Seamless operations include
+                      advanced infrastructure with integrated IT, while
+                      compliance and support provide expert guidance and
+                      governance.
+                    </p>
+                  </div>
+                </div>
+                <div className="col-lg-4 col-sm-6 col-md-6 d-flex">
+                  <div className="single-main-services-box flex-fill">
+                    <h3>Managed Teams </h3>
+                    <p>
+                      Go beyond the traditional Employer of Record (EoR) with
+                      our innovative model. Hire and manage top global tech
+                      talent for your distributed teams, all without the hassle
+                      or extra costs. Our services cover talent sourcing,
+                      hiring, and engagement, along with custom IT-integrated
+                      workspaces and robust support for compliance and
+                      operations
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-      <ExpertiseContent />
-      <TechDetailsContent />
-      <div className="GCCJourney">
+      {/* <ExpertiseContent /> */}
+
+      {/* <TechDetailsContent /> */}
+      <CaseStudiesGrid />
+      <div className="GCCJourney" style={{ marginTop: "0" }}>
         <div className="container">
           <div className="row ptb-50 align-items-center">
             <div className="col-lg-10 col-md-10">
