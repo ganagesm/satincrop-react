@@ -24,7 +24,7 @@ const HeroBanner = () => {
             <div className="container">
               <div className="main-banner-content">
                 <h1>SAT Labs</h1>
-                <p>
+                <p style={{ fontSize: "20px" }}>
                   We build generative AI into your products and superpower your
                   engineering teams
                 </p>

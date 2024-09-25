@@ -11,10 +11,10 @@ const Services = () => {
               Personalized AI solutions with cutting edge software and
               experienced gen AI devs. On your cloud or ours.
             </h2>
-            <p style={{ maxWidth: "max-content" }}>
+            {/* <p style={{ maxWidth: "max-content" }}>
               From a few key players to over 500+ professionals, our unique
               approach tailor to your growth needs
-            </p>
+            </p> */}
           </div>
 
           <div className="row">

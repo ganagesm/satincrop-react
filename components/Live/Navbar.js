@@ -556,6 +556,15 @@ const Navbar = () => {
                       Startups
                     </Link>
                   </li>
+                  <li className="nav-item">
+                    <Link
+                      href="/ai-labs"
+                      className={`nav-link ${
+                        currentPath == "/ai-labs" && "active"
+                      }`}>
+                      AI Labs
+                    </Link>
+                  </li>
 
                   <li className="nav-item">
                     <Link

@@ -30,7 +30,7 @@ const Index = () => {
       <NextSeo
         openGraph={{
           type: "website",
-          url: "https://www.satincorp.com/startups/",
+          url: "https://www.satincorp.com/labs/",
           title: "Services for Startup",
           description:
             "Struggling to find top IT talent? SAT offers services for startups to build a 100-500+ person offshore team in Latin America's tech powerhouses. Cost-effective, nearshore solutions.",
@@ -54,7 +54,7 @@ const Index = () => {
           content="Struggling to find top IT talent? SAT offers services for startups to build a 100-500+ person offshore team in Latin America's tech powerhouses. Cost-effective, nearshore solutions."
           key="description"
         />
-        <link rel="canonical" href="https://www.satincorp.com/startups" />
+        <link rel="canonical" href="https://www.satincorp.com/labs" />
       </Head>
 
       <Navbar />
@@ -71,7 +71,7 @@ const Index = () => {
               <div className="section-title" style={{ marginBottom: "20px" }}>
                 <h2> Our Misson</h2>
               </div>
-              <p>
+              <p style={{ fontSize: "18px" }}>
                 At Recodex, we're obsessed with AI and want to help every
                 business build AI first products Schedule a call and let's
                 brainstorm
@@ -154,7 +154,7 @@ const Index = () => {
           <div className="row ptb-50 align-items-center">
             <div className="col-lg-10 col-md-10">
               <h2 className="align-items-center">
-                Scale Your Startup with SAT's Focused Approach
+                Scale Your Startup with SAT's Focused AI Solutions
               </h2>
             </div>
             <div
