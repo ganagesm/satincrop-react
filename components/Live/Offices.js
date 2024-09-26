@@ -57,59 +57,66 @@ const Services = () => {
                 {/* <p>Phone: <a href="tel:080 4375 1188">080 4375 1188</a></p> */}
               </div>
             </div>
-            <div className="col-lg-4 col-sm-6 col-md-6">
-              <div className="single-main-services-box">
-                <img
-                  src="/images/location.svg"
-                  alt="image"
-                  style={{
-                    width: "15%",
-                    textAlign: "center",
-                    marginTop: "10px",
-                  }}
-                />
-                <h3>Pune</h3>
-                <p>
-                  D-6030, Solitaire Business Hub, Viman Nagar, Pune, Maharashtra
-                  411014
-                </p>
+            <div className="row justify-content-center">
+              <div className="col-lg-4 col-sm-6 col-md-6">
+                <div
+                  className="single-main-services-box"
+                  style={{ height: "230px" }}>
+                  <img
+                    src="/images/location.svg"
+                    alt="image"
+                    style={{
+                      width: "15%",
+                      textAlign: "center",
+                      marginTop: "10px",
+                    }}
+                  />
+                  <h3>Pune</h3>
+                  <p>
+                    B Core, Office No. 2010, Solitaire Business Hub, Viman
+                    Nagar, Pune
+                  </p>
+                </div>
               </div>
-            </div>
-            <div className="col-lg-4 col-sm-6 col-md-6">
-              <div className="single-main-services-box">
-                <img
-                  src="/images/location.svg"
-                  alt="image"
-                  style={{
-                    width: "15%",
-                    textAlign: "center",
-                    marginTop: "10px",
-                  }}
-                />
-                <h3>Bangalore</h3>
-                <p>
-                  613/A, 2nd Floor,15th Cross Ring Road, 33rd Main, J P nagar
-                  1st Phase, Bangalore – 560078
-                </p>
+              <div className="col-lg-4 col-sm-6 col-md-6">
+                <div
+                  className="single-main-services-box"
+                  style={{ height: "230px" }}>
+                  <img
+                    src="/images/location.svg"
+                    alt="image"
+                    style={{
+                      width: "15%",
+                      textAlign: "center",
+                      marginTop: "10px",
+                    }}
+                  />
+                  <h3>Pune</h3>
+                  <p>
+                    D-6030, Solitaire Business Hub, Viman Nagar, Pune,
+                    Maharashtra 411014
+                  </p>
+                </div>
               </div>
-            </div>
-            <div className="col-lg-4 col-sm-6 col-md-6">
-              <div className="single-main-services-box">
-                <img
-                  src="/images/location.svg"
-                  alt="image"
-                  style={{
-                    width: "15%",
-                    textAlign: "center",
-                    marginTop: "10px",
-                  }}
-                />
-                <h3>Indore</h3>
-                <p>
-                  Awfis Office, Winway World Offices Plot No. B-7, Vijay Nagar,
-                  Indore, Madhya Pradesh, 452 010. India
-                </p>
-                {/* <p>Phone: <a href="tel:080 4375 1188">080 4375 1188</a></p> */}
+              <div className="col-lg-4 col-sm-6 col-md-6">
+                <div
+                  className="single-main-services-box"
+                  style={{ height: "230px" }}>
+                  <img
+                    src="/images/location.svg"
+                    alt="image"
+                    style={{
+                      width: "15%",
+                      textAlign: "center",
+                      marginTop: "10px",
+                    }}
+                  />
+                  <h3>Bangalore</h3>
+                  <p>
+                    2nd floor, Tower A1, Golden Enclave HAL old Airport Road,
+                    Bangalore -560008
+                  </p>
+                </div>
               </div>
             </div>
           </div>
