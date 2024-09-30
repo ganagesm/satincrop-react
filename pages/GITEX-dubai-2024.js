@@ -187,7 +187,7 @@ const Index = () => {
             <div className="col-lg-3 col-sm-6">
               <div className="single-team-box">
                 <div className="image">
-                  <img src="/images/Sonal.png" alt="Shantanu Joshi" />
+                  <img src="/images/team/shantanu.jfif" alt="Shantanu Joshi" />
                 </div>
                 <div className="content">
                   <Link href="#">
