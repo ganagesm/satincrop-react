@@ -224,7 +224,7 @@ const Index = () => {
                 }}>
                 One-Stop Solutions for All Your Hiring Needs, across the globe !
               </h2>
-              <p>
+              <p style={{ fontSize: "18px" }}>
                 SAT offers unparalleled simplicity in onboarding talent across
                 various regions. Whether you aim to onboard contractors and
                 employees worldwide without establishing legal entities, SAT
@@ -308,7 +308,7 @@ const Index = () => {
           <div className="row ptb-50 align-items-center">
             <div className="col-lg-10 col-md-10">
               <h2 className="align-items-center">
-                Scale Your Startup with SAT's Focused Approach
+                Scale Your Startup with SAT's Focused AI Solutions
               </h2>
             </div>
             <div

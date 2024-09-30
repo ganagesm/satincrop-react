@@ -8,57 +8,55 @@ const Services = () => {
         <div className="container">
           <div className="section-title">
             <h2>
-              SA Technologies helps your startup build an offshore team of any
-              size.
+              Personalized AI solutions with cutting edge software and
+              experienced gen AI devs. On your cloud or ours.
             </h2>
-            <p style={{ maxWidth: "max-content" }}>
+            {/* <p style={{ maxWidth: "max-content" }}>
               From a few key players to over 500+ professionals, our unique
-              approach tailors to your growth needs.
-            </p>
+              approach tailor to your growth needs
+            </p> */}
           </div>
 
           <div className="row">
-            <div className="col-lg-6 col-sm-6">
-              <div className="single-services-box">
-                <h2>Design</h2>
+            <div className="col-lg-4 col-md-4 col-sm-6 d-flex">
+              <div className="single-services-box flex-fill">
+                <h2>Production LLM Implementation</h2>
                 <p>
-                  Your journey begins with design, shaping your vision into
-                  reality. Ensuring precision and quality at every step, we
-                  validate our processes to deliver through innovation and
-                  expertise that meet the highest
+                  We know exactly how to build and scale production machine
+                  learning systems. We quickly build POCs that we then scale
+                  into production using the latest and greatest gen AI tech.
                 </p>
                 <br />
               </div>
             </div>
 
-            <div className="col-lg-6 col-sm-6">
-              <div className="single-services-box">
-                <h2>Build</h2>
+            <div className="col-lg-4 col-md-4 col-sm-6 d-flex">
+              <div className="single-services-box flex-fill">
+                <h2>Cloud Agnostic & Compliant</h2>
                 <p>
-                  We build a scalable and sustainable business model tailored to
-                  your specific needs. From market research to strategic
-                  planning, we ensure a solid foundation for your future
-                  success.
+                  Our solutions can work across any cloud provider and we’ll
+                  ensure that you’re fully compliant for your customers or your
+                  regulators (SOC2 Type 1/2, HIPPA)
                 </p>
                 <br />
                 {/* <Link href="#" style={{ color: "#ff4800" }}>Learn More</Link> */}
               </div>
             </div>
 
-            <div className="col-lg-6 col-sm-6">
-              <div className="single-services-box">
-                <h2>Operate</h2>
+            <div className="col-lg-4 col-md-4 col-sm-6 d-flex">
+              <div className="single-services-box flex-fill">
+                <h2>Gen AI Product Engineering</h2>
                 <p>
-                  We manage the daily operations, allowing you to concentrate on
-                  your core business growth. Our skilled professionals oversee
-                  all aspects, from staffing and training to logistics and
-                  supply chain management.
+                  Our bread and butter is finding business value for either your
+                  customers or your internal processes with AI. We’ll help you
+                  build and deploy solutions that have immediate ROI or our work
+                  is free.
                 </p>
                 <br />
                 {/* <Link href="#" style={{ color: "#ff4800" }}>Learn More</Link> */}
               </div>
             </div>
-            <div className="col-lg-6 col-sm-6">
+            {/* <div className="col-lg-6 col-sm-6">
               <div className="single-services-box" style={{ height: "208px" }}>
                 <h2>Transfer</h2>
                 <p>
@@ -68,7 +66,7 @@ const Services = () => {
                 </p>
                 <br />
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
 
