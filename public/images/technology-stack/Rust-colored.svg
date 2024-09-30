@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="52" height="52" viewBox="0 0 52 52">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1971" data-name="Rectangle 1971" width="52" height="52" transform="translate(1093 1790)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_17" data-name="Mask Group 17" transform="translate(-1093 -1790)" clip-path="url(#clip-path)">
+    <g id="logo" transform="translate(1119 1816)">
+      <path id="r" d="M-4.457-7.429H1.981c3.962,0,3.962,3.962,0,3.962H-4.457ZM-19.81,10.9H0V5.448H-4.457V1.486H.5c5.448,0,2.476,9.41,6.933,9.41H19.81V1.486H16.838v.99c0,3.962-4.457,3.467-4.952.99S9.41-.99,8.914-.99c7.429-3.962,2.971-11.886-2.971-11.886H-17.333v5.448h4.952V5.448H-19.81Z" transform="translate(0.248 0.248)" stroke="#000" stroke-linejoin="round" stroke-width="0.495"/>
+      <g id="gear">
+        <circle id="Ellipse_60" data-name="Ellipse 60" cx="21.295" cy="21.295" r="21.295" transform="translate(-21.295 -21.295)" fill="none" stroke="#000" stroke-width="4.457"/>
+        <g id="cogs">
+          <path id="cog" d="M22.781,1.486,25.257,0,22.781-1.486Z" stroke="#000" stroke-linejoin="round" stroke-width="1.486"/>
+          <path id="Path_19673" data-name="Path 19673" d="M22.781,1.486,25.257,0,22.781-1.486Z" transform="rotate(11.25)" stroke="#000" stroke-linejoin="round" stroke-width="1.486"/>
+          <path id="Path_19674" data-name="Path 19674" d="M22.781,1.486,25.257,0,22.781-1.486Z" transform="matrix(0.924, 0.383, -0.383, 0.924, 0, 0)" stroke="#000" stroke-linejoin="round" stroke-width="1.486"/>
+          <path id="Path_19675" data-name="Path 19675" d="M22.781,1.486,25.257,0,22.781-1.486Z" transform="rotate(33.75)" stroke="#000" stroke-linejoin="round" stroke-width="1.486"/>
+          <path id="Path_19676" data-name="Path 19676" d="M22.781,1.486,25.257,0,22.781-1.486Z" transform="rotate(45)" stroke="#000" stroke-linejoin="round" stroke-width="1.486"/>
+          <path id="Path_19677" data-name="Path 19677" d="M22.781,1.486,25.257,0,22.781-1.486Z" transform="rotate(56.25)" stroke="#000" stroke-linejoin="round" stroke-width="1.486"/>
+          <path id="Path_19678" data-name="Path 19678" d="M22.781,1.486,25.257,0,22.781-1.486Z" transform="matrix(0.383, 0.924, -0.924, 0.383, 0, 0)" stroke="#000" stroke-linejoin="round" stroke-width="1.486"/>
+          <path id="Path_19679" data-name="Path 19679" d="M22.781,1.486,25.257,0,22.781-1.486Z" transform="rotate(78.75)" stroke="#000" stroke-linejoin="round" stroke-width="1.486"/>
+          <path id="Path_19680" data-name="Path 19680" d="M22.781,1.486,25.257,0,22.781-1.486Z" transform="rotate(90)" stroke="#000" stroke-linejoin="round" stroke-width="1.486"/>
+          <path id="Path_19681" data-name="Path 19681" d="M22.781,1.486,25.257,0,22.781-1.486Z" transform="rotate(101.25)" stroke="#000" stroke-linejoin="round" stroke-width="1.486"/>
+          <path id="Path_19682" data-name="Path 19682" d="M22.781,1.486,25.257,0,22.781-1.486Z" transform="matrix(-0.383, 0.924, -0.924, -0.383, 0, 0)" stroke="#000" stroke-linejoin="round" stroke-width="1.486"/>
+          <path id="Path_19683" data-name="Path 19683" d="M22.781,1.486,25.257,0,22.781-1.486Z" transform="rotate(123.75)" stroke="#000" stroke-linejoin="round" stroke-width="1.486"/>
+          <path id="Path_19684" data-name="Path 19684" d="M22.781,1.486,25.257,0,22.781-1.486Z" transform="rotate(135)" stroke="#000" stroke-linejoin="round" stroke-width="1.486"/>
+          <path id="Path_19685" data-name="Path 19685" d="M22.781,1.486,25.257,0,22.781-1.486Z" transform="rotate(146.25)" stroke="#000" stroke-linejoin="round" stroke-width="1.486"/>
+          <path id="Path_19686" data-name="Path 19686" d="M22.781,1.486,25.257,0,22.781-1.486Z" transform="matrix(-0.924, 0.383, -0.383, -0.924, 0, 0)" stroke="#000" stroke-linejoin="round" stroke-width="1.486"/>
+          <path id="Path_19687" data-name="Path 19687" d="M22.781,1.486,25.257,0,22.781-1.486Z" transform="rotate(168.75)" stroke="#000" stroke-linejoin="round" stroke-width="1.486"/>
+          <path id="Path_19688" data-name="Path 19688" d="M22.781,1.486,25.257,0,22.781-1.486Z" transform="rotate(180)" stroke="#000" stroke-linejoin="round" stroke-width="1.486"/>
+          <path id="Path_19689" data-name="Path 19689" d="M22.781,1.486,25.257,0,22.781-1.486Z" transform="rotate(-168.75)" stroke="#000" stroke-linejoin="round" stroke-width="1.486"/>
+          <path id="Path_19690" data-name="Path 19690" d="M22.781,1.486,25.257,0,22.781-1.486Z" transform="matrix(-0.924, -0.383, 0.383, -0.924, 0, 0)" stroke="#000" stroke-linejoin="round" stroke-width="1.486"/>
+          <path id="Path_19691" data-name="Path 19691" d="M22.781,1.486,25.257,0,22.781-1.486Z" transform="rotate(-146.25)" stroke="#000" stroke-linejoin="round" stroke-width="1.486"/>
+          <path id="Path_19692" data-name="Path 19692" d="M22.781,1.486,25.257,0,22.781-1.486Z" transform="rotate(-135)" stroke="#000" stroke-linejoin="round" stroke-width="1.486"/>
+          <path id="Path_19693" data-name="Path 19693" d="M22.781,1.486,25.257,0,22.781-1.486Z" transform="rotate(-123.75)" stroke="#000" stroke-linejoin="round" stroke-width="1.486"/>
+          <path id="Path_19694" data-name="Path 19694" d="M22.781,1.486,25.257,0,22.781-1.486Z" transform="matrix(-0.383, -0.924, 0.924, -0.383, 0, 0)" stroke="#000" stroke-linejoin="round" stroke-width="1.486"/>
+          <path id="Path_19695" data-name="Path 19695" d="M22.781,1.486,25.257,0,22.781-1.486Z" transform="rotate(-101.25)" stroke="#000" stroke-linejoin="round" stroke-width="1.486"/>
+          <path id="Path_19696" data-name="Path 19696" d="M22.781,1.486,25.257,0,22.781-1.486Z" transform="rotate(-90)" stroke="#000" stroke-linejoin="round" stroke-width="1.486"/>
+          <path id="Path_19697" data-name="Path 19697" d="M22.781,1.486,25.257,0,22.781-1.486Z" transform="rotate(-78.75)" stroke="#000" stroke-linejoin="round" stroke-width="1.486"/>
+          <path id="Path_19698" data-name="Path 19698" d="M22.781,1.486,25.257,0,22.781-1.486Z" transform="matrix(0.383, -0.924, 0.924, 0.383, 0, 0)" stroke="#000" stroke-linejoin="round" stroke-width="1.486"/>
+          <path id="Path_19699" data-name="Path 19699" d="M22.781,1.486,25.257,0,22.781-1.486Z" transform="rotate(-56.25)" stroke="#000" stroke-linejoin="round" stroke-width="1.486"/>
+          <path id="Path_19700" data-name="Path 19700" d="M22.781,1.486,25.257,0,22.781-1.486Z" transform="rotate(-45)" stroke="#000" stroke-linejoin="round" stroke-width="1.486"/>
+          <path id="Path_19701" data-name="Path 19701" d="M22.781,1.486,25.257,0,22.781-1.486Z" transform="rotate(-33.75)" stroke="#000" stroke-linejoin="round" stroke-width="1.486"/>
+          <path id="Path_19702" data-name="Path 19702" d="M22.781,1.486,25.257,0,22.781-1.486Z" transform="matrix(0.924, -0.383, 0.383, 0.924, 0, 0)" stroke="#000" stroke-linejoin="round" stroke-width="1.486"/>
+          <path id="Path_19703" data-name="Path 19703" d="M22.781,1.486,25.257,0,22.781-1.486Z" transform="rotate(-11.25)" stroke="#000" stroke-linejoin="round" stroke-width="1.486"/>
+        </g>
+        <g id="mounts">
+          <path id="mount" d="M-3.467-20.8,0-17.333,3.467-20.8Z" stroke="#000" stroke-linejoin="round" stroke-width="2.971"/>
+          <path id="Path_19704" data-name="Path 19704" d="M-3.467-20.8,0-17.333,3.467-20.8Z" transform="rotate(72)" stroke="#000" stroke-linejoin="round" stroke-width="2.971"/>
+          <path id="Path_19705" data-name="Path 19705" d="M-3.467-20.8,0-17.333,3.467-20.8Z" transform="matrix(-0.809, 0.588, -0.588, -0.809, 0, 0)" stroke="#000" stroke-linejoin="round" stroke-width="2.971"/>
+          <path id="Path_19706" data-name="Path 19706" d="M-3.467-20.8,0-17.333,3.467-20.8Z" transform="matrix(-0.809, -0.588, 0.588, -0.809, 0, 0)" stroke="#000" stroke-linejoin="round" stroke-width="2.971"/>
+          <path id="Path_19707" data-name="Path 19707" d="M-3.467-20.8,0-17.333,3.467-20.8Z" transform="rotate(-72)" stroke="#000" stroke-linejoin="round" stroke-width="2.971"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
