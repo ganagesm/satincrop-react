@@ -6,7 +6,7 @@ import { Pagination, Autoplay } from "swiper";
 const CaseStudiesGrid = () => {
   return (
     <>
-      <section className="blog-area ptb-110">
+      <section className="blog-area ptb-50">
         <div className="container">
           <div className="section-title">
             <h2>See How We Are Helping Teams Get Organized And Work Smarter</h2>

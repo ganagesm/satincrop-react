@@ -8,9 +8,13 @@ const Services = () => {
         <div className="container">
           <div className="section-title">
             <h2>
-              SAT has focused approach to help your startup create 0–100-500+
-              people strong offshore team.
+              SA Technologies helps your startup build an offshore team of any
+              size.
             </h2>
+            <p style={{ maxWidth: "max-content" }}>
+              From a few key players to over 500+ professionals, our unique
+              approach tailor to your growth needs
+            </p>
           </div>
 
           <div className="row">
